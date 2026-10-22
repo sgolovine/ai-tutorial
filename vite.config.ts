@@ -38,7 +38,9 @@ export default defineConfig({
     tanstackStart({
       prerender: {
         enabled: true,
-        crawlLinks: true,
+        // Every guide is listed below. Crawling download links would prerender
+        // binary files as text and overwrite Vite's intact public assets.
+        crawlLinks: false,
         failOnError: true,
       },
       pages: [

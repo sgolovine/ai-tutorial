@@ -25,6 +25,16 @@ fs.writeFileSync(notFoundFile, notFoundHtml)
 
 fs.writeFileSync(path.join(outDir, '.nojekyll'), '')
 
+// Public downloads must remain byte-identical, especially ZIPs and videos.
+for (const entry of fs.readdirSync('public', { recursive: true, withFileTypes: true })) {
+  if (!entry.isFile()) continue
+  const source = path.join(entry.parentPath, entry.name)
+  const output = path.join(outDir, path.relative('public', source))
+  if (!fs.existsSync(output) || !fs.readFileSync(source).equals(fs.readFileSync(output))) {
+    fail(`public asset missing or changed during build: ${source}`)
+  }
+}
+
 const expected = ['index.html', '404.html']
 const slugsByLang = new Map()
 for (const lang of fs.readdirSync('content')) {

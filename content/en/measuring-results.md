@@ -7,6 +7,9 @@ icon: 📊
 updated: 2026-10-21
 ---
 
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#meta-business-suite) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
+
 **What you'll get from this page:** a measurement setup that costs R$ 0 and fits a volunteer team. You'll learn which numbers matter for **paper submissions** and which for **registrations**, how to read Meta Business Suite and the Professional Dashboard, and a ready-made **UTM link scheme** for CONAFROEDU. You'll also learn what Even3 can tell you, how to run a 30-minute weekly review in a spreadsheet, and how to use AI on your data without exposing anyone's personal information.
 
 > [!NOTE]
@@ -36,10 +39,13 @@ After 4 November, the submission funnel closes. From then on, track **review res
 | **Meta Business Suite** (web + app) | Views, interactions and follows for Facebook and Instagram; per-post results | Free app ([App Store listing](https://apps.apple.com/br/app/meta-business-suite/id514643583)); optional paid Meta features exist but aren't needed |
 | **Professional Dashboard** (Painel profissional) | Post and Reel performance, video retention where available | Free; available fields vary by account |
 | **Even3 reports and exports** | Confirmed registrations, sales by category and date, submissions, certificates | Included with the event |
-| **Even3 Analytics** | Visits, registrations and traffic origin from tagged links (as described in Even3's own guide) | Included; check what your event's panel shows |
+| **Even3 Analytics** | Tagged traffic origins and separate registration/payment totals; source-to-registration joins require validation | Included; check what your event's panel shows |
 | **UTM links** | Which post, partner or person sent each visit | Free: they're just text added to the link |
 | **A shared spreadsheet** (Google Sheets or similar) | Your link register, post log and weekly scorecard | Free |
 | **Google Analytics 4** (optional) | Detailed site traffic, if configured in Even3 | Free tool ([Google](https://marketingplatform.google.com/about/analytics/)), but takes setup time and requires cookie/privacy care (see [ethics-legal](ethics-legal.md)). **Not necessary** for this campaign |
+
+> [!IMPORTANT]
+> **UTMs identify visit sources, not automatically registrations.** Even3 documents tagged traffic alongside sales totals; this does not establish a link from every post to a completed registration/submission. Before reporting conversions, test two distinct links in the event panel: which source/campaign/content fields appear, and does a permitted test or approved real registration retain that source? Opening a URL is not this test. Until validated, report tagged visits, total registrations, coupon uses and self-reported discovery separately. Remove unavailable conversion columns; never infer them from timing alone.
 
 ## Step 1: Set up your UTM links
 
@@ -76,7 +82,7 @@ Google documents the three main parameters (`utm_source`, `utm_medium`, `utm_cam
 | Instagram bio | `https://www.even3.com.br/iconafroedu-764690/?utm_source=instagram&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=bio_link` |
 | Instagram Story about the 16 Nov price change | `https://www.even3.com.br/iconafroedu-764690/?utm_source=instagram&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=story_lote_01` |
 | WhatsApp Channel update | `https://www.even3.com.br/iconafroedu-764690/?utm_source=whatsapp&utm_medium=messaging&utm_campaign=conafroedu_2026_inscricoes&utm_content=canal_programacao_01` |
-| 20 Nov Consciência Negra post | `https://www.even3.com.br/iconafroedu-764690/?utm_source=facebook&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=post_20nov_01` |
+| Separate optional congress invitation around 20 Nov (not the educational piece) | `https://www.even3.com.br/iconafroedu-764690/?utm_source=facebook&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=post_20nov_01` |
 | Partner NEABI newsletter | `https://www.even3.com.br/iconafroedu-764690/?utm_source=parceiro_neabi_01&utm_medium=referral&utm_campaign=conafroedu_2026_submissoes&utm_content=release` |
 | Speaker kit | `https://www.even3.com.br/iconafroedu-764690/?utm_source=palestrante_03&utm_medium=referral&utm_campaign=conafroedu_2026_inscricoes&utm_content=kit_palestrante` |
 
@@ -114,7 +120,7 @@ Put `https://www.even3.com.br/iconafroedu-764690/` in column A. Every link the t
 
 1. Open [business.facebook.com](https://business.facebook.com) or the Meta Business Suite app and choose the CONAFROEDU Page (you need appropriate access).
 2. Go to **Insights** (the label may vary slightly in pt-BR).
-3. Check the **28-day overview**. Meta's help describes **Views**, **Interactions** and **Follows** ([Meta Business Help](https://www.facebook.com/business/help/4185855074991336)).
+3. Select a consistent date range (for example, 28 days, if offered). Meta's help describes **Views**, **Interactions** and **Follows** ([Meta Business Help](https://www.facebook.com/business/help/4185855074991336)).
 4. Open **Content** to see each post individually, not just account totals.
 5. Copy the numbers you care about into your Weekly tab (Step 4).
 
@@ -145,7 +151,7 @@ Even3 is where your *outcomes* live. Inspect it before installing any other tool
 2. **Even3 Analytics.** Even3's [guide](https://blog.even3.com.br/como-usar-o-even3-analytics/) describes a built-in panel with visits, registrations/payments and traffic origins from tagged links. Check which of these your event's panel actually shows.
 3. **Separate confirmed from pending.** Count only confirmed/paid registrations as results. Incomplete purchases are a signal of friction (price? payment method? doubts about the certificate?).
 4. **Coupons.** If the committee created partner coupons, the number of uses per code is one of your most reliable partner metrics (it survives forwarding and device changes).
-5. **"How did you hear about us?"** If the registration form lets you add an optional custom question, add one with multiple choice options (Facebook, Instagram, WhatsApp, e-mail, professor/colega, NEABI/universidade, outro) plus free text. It fills the gaps UTMs leave.
+5. **"How did you hear about us?"** Even3 supports custom questions ([official features](https://plataforma.even3.com.br/solucoes/divulgacao-de-eventos/)). Test an optional question and its export in this event’s panel; then add one with multiple choice options (Facebook, Instagram, WhatsApp, e-mail, professor/colega, NEABI/universidade, outro) plus free text. It fills the gaps UTMs leave.
 
 ### Turn exports into safe aggregates
 
@@ -183,12 +189,12 @@ Exports contain **personal data** (names, emails, amounts). Never paste them int
 
 - Engagement rate for a post: `=(reactions+comments+shares)/reach*100`. Always say which components you used, and don't compare it with rates calculated differently.
 - Registrations per team hour: `=new_registrations/team_hours`, a reality check on effort.
-- Conversion of tagged visits: `=confirmed_registrations_from_source/visits_from_source`, only where both numbers come from the same source.
+- Conversion of tagged visits: `=confirmed_registrations_from_source/visits_from_source`, only after a validated source-to-registration join, with matching attribution windows and definitions; otherwise omit this formula.
 
 ### The 30-minute ritual
 
 1. **(5 min)** Update the Weekly row: Even3 aggregates, Meta numbers, link/coupon counts.
-2. **(5 min)** Look at the Posts tab: which 2 pieces brought the most *tagged visits or registrations*, not likes?
+2. **(5 min)** Look at the Posts tab: which 2 pieces brought the most *tagged visits* (registrations only if source attribution was validated), not likes?
 3. **(5 min)** Read the questions people sent. Repeated questions mean the page or posts are missing information. Fix that first.
 4. **(5 min)** Check partners: who shared? Send a thank-you.
 5. **(5 min)** Optional: paste the *aggregated* table into an AI assistant with the prompt below.

@@ -7,6 +7,9 @@ icon: 💡
 updated: 2026-10-21
 ---
 
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#starter-stack). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
+
 Esta página é a versão "para pregar na parede" do site inteiro. Cada dica tem de uma a três frases e um link para o guia que explica o assunto em detalhe. Nenhuma custa dinheiro, e todas usam o **CONAFROEDU 2026** (5 e 6 de dezembro, 100% on-line) como exemplo.
 
 **O que você vai encontrar nesta página:**
@@ -48,7 +51,7 @@ Esta página é a versão "para pregar na parede" do site inteiro. Cada dica tem
 
 ## WhatsApp e Instagram
 
-15. **As respostas rápidas são o seu melhor "robô", e quem envia continua sendo uma pessoa.** No aplicativo gratuito WhatsApp Business, salve atalhos como `/submissao`, `/certificado` e `/humano`, só com fatos aprovados. A pessoa escolhe o atalho, ajusta a primeira linha ("Oi, Ana!") e envia ([Banco de respostas](replies-inbox.md#banco-de-respostas-do-conafroedu-2026)).
+15. **As respostas rápidas são o seu melhor "robô", e quem envia continua sendo uma pessoa.** No aplicativo gratuito WhatsApp Business, salve atalhos como `/prazo` e `/comosubmeter`, `/certificado` e `/humano`, só com fatos aprovados. A pessoa escolhe o atalho, ajusta a primeira linha ("Oi, Ana!") e envia ([Banco de respostas](replies-inbox.md#banco-de-respostas-do-conafroedu-2026)).
 16. **Prefira um Canal a grupos e listas de transmissão.** Quem segue um Canal do WhatsApp escolheu seguir, pode sair quando quiser e não tem o número exposto para a administração nem para outros seguidores. Já a lista de transmissão comum só chega a quem salvou o *seu* número, com até 256 contatos por lista ([Criem um Canal](instagram-whatsapp.md#criem-um-canal-do-whatsapp)).
 17. **Chegue aos grupos privados por meio de quem já está lá.** Mande para a coordenação um texto curto para encaminhar e uma imagem, e deixe que ela decida. Nunca peça para entrar num grupo para divulgar e nunca adicione pessoas ([Grupos parceiros](instagram-whatsapp.md#grupos-parceiros-e-mensagens-encaminhadas)).
 18. **Peça um Status pessoal por semana.** Um Status de uma colega que as pessoas conhecem rende mais do que um cartaz de uma Página desconhecida. Entregue para organizadores e embaixadores um texto curto, uma imagem e um link rastreável individual ([Status](instagram-whatsapp.md#status-convites-pessoais)).
@@ -62,7 +65,7 @@ Esta página é a versão "para pregar na parede" do site inteiro. Cada dica tem
 23. **Teste toda fonte com uma frase em português.** Digite *Educação, Participação, Conceição, ações, à, ê, õ — 5 e 6 de dezembro* antes de adotar a fonte. Se alguma letra sair estranha ou trocar de fonte, escolha outra ([Tipografia](brand-kit.md#tipografia)).
 24. **Fotos reais, com autorização, vêm primeiro.** O card de palestrante usa a foto aprovada da própria pessoa, só recortada. Nada de "melhorar" com IA: isso pode clarear a pele ou mudar o cabelo ([Ordem de preferência](representation-bias.md#ordem-de-preferência-pessoas-reais-e-artistas-negros-brasileiros-primeiro)).
 25. **Revise a campanha inteira, não uma imagem só.** Olhe todas as publicações juntas: quem ensina, quem lidera, quem usa a tecnologia, quais tons de pele aparecem em quais papéis? Se ninguém souber explicar por que um símbolo está ali, tire. Tipografia e formas simples são sempre uma escolha segura ([Checklist de revisão](representation-bias.md#checklist-de-revisão-antes-de-publicar)).
-26. **Deixe autoras e autores aprovados montarem o próprio card.** Compartilhe o link de modelo do Canva de um card "Trabalho aprovado" para que cada pessoa preencha o próprio nome e o título. Assim cada aprovação vira divulgação, sem trabalho extra para a equipe ([Kit de autores aprovados](speaker-partner-kits.md#kit-1-autores-aprovados-meu-trabalho-foi-aprovado-no-conafroedu)).
+26. **Deixe autoras e autores aprovados montarem o próprio card.** Se o plano oferecer link de modelo que crie cópias, teste com outra conta e compartilhe só esse link. Nunca dê acesso de edição ao arquivo-mestre; sem o recurso, envie PNG em branco. Cada pessoa pode preencher e divulgar se quiser ([Kit de autores aprovados](speaker-partner-kits.md#kit-1-autores-aprovados-meu-trabalho-foi-aprovado-no-conafroedu)).
 
 ## Vídeo e animação
 
@@ -98,7 +101,7 @@ Esta página é a versão "para pregar na parede" do site inteiro. Cada dica tem
 
 ## Ética e segurança
 
-47. **Dados pessoais nunca entram numa ferramenta de IA.** Antes de pedir ajuda à IA com uma mensagem, troque nomes, números e escolas por `[PESSOA]` e `[ESCOLA]`. Analise os dados da Even3 só como contagens por data, categoria e origem ([LGPD](ethics-legal.md#4-lgpd-e-mails-números-de-whatsapp-e-dados-de-inscritos)).
+47. **Mantenha dados pessoais fora das ferramentas de IA.** A única exceção limitada de minibio aprovada está em [ética](ethics-legal.md); autorizar publicação não basta. Antes de pedir ajuda à IA com uma mensagem, troque nomes, números e escolas por `[PESSOA]` e `[ESCOLA]`. Analise os dados da Even3 só como contagens por data, categoria e origem ([LGPD](ethics-legal.md#4-lgpd-e-mails-números-de-whatsapp-e-dados-de-inscritos)).
 48. **Nunca fabrique provas.** Não existe edição anterior, então não existem "fotos do ano passado". As regras: nada de plateia gerada por IA, citação ou depoimento inventado, "últimas vagas" num evento on-line sem limite anunciado ou instituição apresentada como parceira sem acordo por escrito ([As seis regras de ouro](ethics-legal.md#as-seis-regras-de-ouro)).
 49. **Identifique mídia realista feita com IA.** Ative o rótulo de IA da Meta para vídeo sintético realista, dublagem com IA e avatares. Em ilustrações, acrescente uma linha como *"Ilustração criada com IA; não retrata participantes do evento."* O rótulo não torna aceitável uma imagem estereotipada ([Como identificar IA](ethics-legal.md#1-como-identificar-ia-no-facebook-e-no-instagram)).
 50. **Automatize rascunhos, nunca o contato.** Mensagens diretas em massa, entrar ou publicar em grupos de forma automática, raspar listas de membros e "disparadores" de WhatsApp violam as regras das plataformas e podem bloquear o número de atendimento ou a Página no meio da campanha. O número seguro de publicações automáticas em grupos e de mensagens frias é zero ([O que não automatizar](computer-use-agents.md#o-que-não-automatizar)).

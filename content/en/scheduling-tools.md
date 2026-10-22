@@ -7,6 +7,9 @@ icon: 🗓️
 updated: 2026-10-21
 ---
 
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#meta-business-suite) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
+
 **What you'll get from this page:** a simple, free publishing system for a small volunteer team. It has one shared content sheet, one scheduler (Meta Business Suite), and a weekly "batch session" where AI drafts and humans approve. You will also get a list of the CONAFROEDU dates to queue now, a comparison of the free tiers of other schedulers, and a routine for checking the queue so an out-of-date post (for example, "submissions close today" after 4 November) never goes out.
 
 > [!NOTE]
@@ -89,7 +92,7 @@ Meta's official walkthrough shows Facebook and Instagram scheduling, including S
 1. **Give each teammate their own access** to the Page. In the Page settings, add people with the access they need. Never share the owner's password. If someone leaves the team, you remove only their access.
 2. Open **Meta Business Suite** (on a computer at business.facebook.com, or with the free mobile app).
 3. Top left: **check that the correct Page is selected**. Many volunteers also manage a school or personal project Page.
-4. Check that the correct **Instagram account** is connected (for CONAFROEDU, confirm with the committee which Instagram account is official. The Even3 page links to @congressosnacionais_online).
+4. Use an Instagram **professional account (Business or Creator)** connected to the correct Facebook Page, and confirm both destinations appear. The public event links to @congressosnacionais_online; confirm ownership with the committee. If unavailable, publish manually.
 5. Find the **time zone** setting in the scheduling screen or Page settings. Use **horário de Brasília** (in tools that list cities, choose `America/Sao_Paulo`). Brazil has more than one time zone, so make sure the tool uses the event's time zone, not each volunteer's.
 
 ### Scheduling one post (5–10 minutes per post)
@@ -135,9 +138,10 @@ Next week's calendar rows:
 For each row, give me:
 1. A Facebook caption (60–120 words), one clear call to action, the Even3 link written out in full.
 2. A shorter Instagram version (no clickable link; say "link na bio" only if we confirm that the bio link exists).
-3. Alt text for the image (1–2 sentences, describing only what is in the image).
+3. Alt text only from the FINAL IMAGE attached or a factual description plus all visible text. If neither is supplied, write AGUARDAR IMAGEM; never invent people, objects or text.
 4. A list of every fact you used, so the reviewer can check them.
 
+FINAL IMAGES (attach, or factual descriptions + visible text): [supply per row]
 FACT SHEET (version and date): [paste]
 ```
 
@@ -238,6 +242,8 @@ The safest pattern is: **AI drafts → human approves → human (or Business Sui
 - [ ] Queue audit scheduled for 4 Nov (evening) and 16 Nov (morning)
 - [ ] Event-day posts (5–6 Dec) planned as manual, not scheduled
 - [ ] Every published post's link copied into the sheet
+
+**Agent boundary:** agents prepare drafts/local tables only in this beginner workflow. A person uploads media where required, checks the correct Page, final content and date/time, clicks Schedule, and verifies the queue. See [Task D](computer-use-agents.md).
 
 ## Next steps
 

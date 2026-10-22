@@ -7,6 +7,9 @@ icon: 💬
 updated: 2026-10-21
 ---
 
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#whatsapp-business) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
+
 **What you'll get from this page:** a practical inbox system for a small volunteer committee. It covers what to automate (greetings, away messages, stable FAQs), what to keep human (payments, certificates, accessibility, conflicts), and how to use AI to draft replies without letting it invent answers. At the centre is a **ready-to-adapt FAQ answer bank for CONAFROEDU 2026** in Portuguese. Each answer is marked either *confirmed on the Even3 page* or *confirm with the committee*.
 
 > [!IMPORTANT]
@@ -30,13 +33,13 @@ Think of inbox automation as four layers, from simplest and safest to most compl
 
 Automation repeats whatever you give it, including mistakes, hundreds of times. So start with the **answer bank** below. Paste it into your shared sheet as a tab called **FAQ aprovado**, with a version number and date. Then:
 
-1. A committee member reviews every answer marked **⚠️ CONFIRMAR**. They replace the brackets with the official decision, or keep the "we'll confirm" version.
+1. A committee member reviews every answer marked **(confirm with the committee)**. They replace the brackets with the official decision, or keep the "we'll confirm" version.
 2. Only answers marked ✅ (or confirmed by the committee) go into automatic messages and quick replies.
 3. Each time a fact changes (4 Nov, 16 Nov, 25 Nov, 6 Dec), update the sheet **first**, then the quick replies.
 
 ## The CONAFROEDU 2026 FAQ answer bank
 
-**Sources:** the public [CONAFROEDU page on Even3](https://www.even3.com.br/iconafroedu-764690/) and the organizers' published timeline (checked on 21 October 2026), plus the official announcement. Where the public page has gaps or contradicts itself, the answer is marked **⚠️ CONFIRMAR**. Don't send that part until the committee decides.
+**Sources:** the public [CONAFROEDU page on Even3](https://www.even3.com.br/iconafroedu-764690/) and the organizers' published timeline (checked on 21 October 2026), plus the official announcement. Where the public page has gaps or contradicts itself, the answer is marked **(confirm with the committee)**. Don't send that part until the committee decides.
 
 ### Summary table
 
@@ -61,14 +64,16 @@ Automation repeats whatever you give it, including mistakes, hundreds of times. 
 | `/humano` | (Handover to a person) | ✅ |
 | `/contato` | Official contacts | ✅ |
 
+**This is the canonical shortcut bank.** Other guides use subsets, not separate answers. Retire aliases `/submissao` → `/prazo` + `/comosubmeter`, `/anais` → `/publicacao`, and `/programacao` → `/datas`. Review any existing aliases at every rollover. Labels are exactly: **Dúvida sobre inscrição; Dúvida sobre submissão; Instituição parceira; Precisa de resposta humana; Não enviar divulgação**. Labels do not enforce suppression automatically; the sender checks the record.
+
 ### The answers (ready to paste, in Portuguese)
 
-Replace anything in `[BRACKETS]`. Delete the bracketed ⚠️ notes before saving the answer as a quick reply.
+Replace placeholders only with recorded committee decisions. **Never erase an unresolved warning and leave its claim.** Mixed answers are not approved as a whole: save only confirmed sentences or the holding reply “a comissão vai confirmar”. Follow the [marker convention](prompting-basics.md).
 
 **`/datas` — When and where**
 
 ```text
-O CONAFROEDU 2026 – Congresso Nacional de Africanidades na Educação acontece nos dias 5 e 6 de dezembro de 2026, 100% on-line. A programação oficial, com os horários (horário de Brasília), será divulgada até 25 de novembro na página do evento: https://www.even3.com.br/iconafroedu-764690/
+O CONAFROEDU 2026 – Congresso Nacional de Africanidades na Educação acontece nos dias 5 e 6 de dezembro de 2026, 100% on-line. A Even3 já mostra uma programação parcial, com atividades e alguns palestrantes identificados. A programação oficial completa está prevista até 25 de novembro; confirme os horários de Brasília antes de divulgar cada sessão: https://www.even3.com.br/iconafroedu-764690/
 ```
 
 **`/inscricao` — How to register**
@@ -100,7 +105,7 @@ Sim! Você pode participar como ouvinte, sem apresentar trabalho. A categoria Ou
 **`/prazo` — Submission deadline** (✅ date; ⚠️ time)
 
 ```text
-As submissões de trabalhos vão até 4 de novembro de 2026, às [HORÁRIO – CONFIRMAR] (horário de Brasília). Quem for apresentar também deve enviar o vídeo de apresentação até 4 de novembro. O resultado da avaliação sai em até 5 dias úteis após a submissão.
+As submissões de trabalhos vão até 4 de novembro de 2026, às [CONFIRMAR] (HORÁRIO) (horário de Brasília). Quem for apresentar também deve enviar o vídeo de apresentação até 4 de novembro. O resultado da avaliação sai em até 5 dias úteis após a submissão.
 Normas e submissão: https://www.even3.com.br/iconafroedu-764690/
 ```
 
@@ -110,7 +115,7 @@ Normas e submissão: https://www.even3.com.br/iconafroedu-764690/
 Modalidades aceitas:
 • Artigo completo – até 20 páginas
 • Resumo expandido – de 2 a 5 páginas
-• Resumo simples – 1 página [CONFIRMAR se está aceito]
+• Resumo simples – 1 página [CONFIRMAR] (se está aceito)
 • Práticas exitosas / relato de experiência – até 10 páginas
 Formatação: arquivo em PDF, papel A4, Arial ou Times New Roman 12, espaçamento 1,5, texto justificado, margens superior e esquerda de 3 cm e inferior e direita de 2 cm, até 6 autores, citações e referências conforme a ABNT.
 Leia as normas completas antes de enviar: https://www.even3.com.br/iconafroedu-764690/
@@ -122,7 +127,7 @@ Leia as normas completas antes de enviar: https://www.even3.com.br/iconafroedu-7
 Passo a passo para submeter seu trabalho:
 1. Faça sua inscrição na Even3 em uma categoria com submissão. A pessoa autora responsável pelo envio precisa estar inscrita.
 2. Use o MESMO e-mail na inscrição e na submissão.
-3. Na página do evento, acesse a área de submissão de trabalhos [CONFIRMAR o caminho exato / link do vídeo tutorial].
+3. Na página do evento, acesse a área de submissão de trabalhos [CONFIRMAR] (o caminho exato / link do vídeo tutorial).
 4. Escolha a modalidade e a área temática, preencha os dados de autoria e envie o arquivo em PDF, conforme as normas.
 5. Confira se o trabalho aparece como enviado.
 A submissão não tem custo adicional além da inscrição. Se o trabalho for aprovado, a publicação nos anais tem taxa de R$ 16,98 por trabalho.
@@ -135,7 +140,7 @@ Prazo: 4 de novembro de 2026.
 **`/publicacao` — Proceedings, ISBN and DOI** (✅ as advertised; ⚠️ publisher/DOI details)
 
 ```text
-Os trabalhos aprovados serão publicados nos Anais do CONAFROEDU 2026, com ISBN, e a organização informa DOI individual para cada trabalho. A publicação está prevista até 15 de dezembro de 2026 e tem taxa de R$ 16,98 por trabalho, à parte da inscrição. [CONFIRMAR: responsável pela publicação e como cada autor recebe o DOI.]
+Os trabalhos aprovados serão publicados nos Anais do CONAFROEDU 2026, com ISBN, e a organização informa DOI individual para cada trabalho. A publicação está prevista até 15 de dezembro de 2026 e tem taxa de R$ 16,98 por trabalho, à parte da inscrição. [CONFIRMAR] (responsável pela publicação e como cada autor recebe o DOI.)
 ```
 
 If someone asks about **Qualis**, never say the proceedings are "Qualis A" or "count points". Use:
@@ -147,7 +152,7 @@ ISBN e DOI identificam a publicação e facilitam que ela seja encontrada e cita
 **`/certificado` — Certificate** (✅ 40 hours advertised, available from 6 Dec; ⚠️ **conditions**)
 
 ```text
-O CONAFROEDU oferece certificado com carga horária de 40 horas, disponível a partir de 6 de dezembro de 2026, pela Even3. [CONFIRMAR: quem recebe (ouvintes, autores, apresentadores), se há exigência de presença ou atividades e como as 40 horas são compostas.]
+O CONAFROEDU oferece certificado com carga horária de 40 horas, disponível a partir de 6 de dezembro de 2026, pela Even3. [CONFIRMAR] (quem recebe (ouvintes, autores, apresentadores), se há exigência de presença ou atividades e como as 40 horas são compostas.)
 O aproveitamento como atividade complementar ou para progressão depende das regras da sua instituição ou rede de ensino.
 ```
 
@@ -160,7 +165,7 @@ O aproveitamento como atividade complementar ou para progressão depende das reg
 After the decision, replace it with **one** of these (and fix the page so it no longer contradicts itself):
 
 ```text
-[VERSÃO A – se for opcional] A apresentação é opcional. Trabalhos aprovados podem ser publicados nos anais mesmo sem apresentação, conforme as normas. [CONFIRMAR efeito no certificado.]
+[VERSÃO A – se for opcional] A apresentação é opcional. Trabalhos aprovados podem ser publicados nos anais mesmo sem apresentação, conforme as normas. [CONFIRMAR] (efeito no certificado.)
 
 [VERSÃO B – se for obrigatória] Para ter o trabalho publicado nos anais, é necessário apresentá-lo, conforme as normas. O vídeo de apresentação deve ser enviado até [DATA].
 ```
@@ -168,7 +173,7 @@ After the decision, replace it with **one** of these (and fix the page so it no 
 **`/video` — Presentation video** (✅ deadline; ⚠️ details)
 
 ```text
-Quem for apresentar deve enviar o vídeo de apresentação até 4 de novembro de 2026. [CONFIRMAR: duração, formato, onde enviar e o que fazer se o resultado da avaliação ainda não tiver saído.]
+Quem for apresentar deve enviar o vídeo de apresentação até 4 de novembro de 2026. [CONFIRMAR] (duração, formato, onde enviar e o que fazer se o resultado da avaliação ainda não tiver saído.)
 ```
 
 > [!WARNING]
@@ -191,13 +196,13 @@ O certificado informa carga horária de 40 horas. Se ele pode ser aproveitado co
 **`/acesso` — How to watch** ⚠️
 
 ```text
-O congresso é 100% on-line. As orientações de acesso serão enviadas às pessoas inscritas [CONFIRMAR: por e-mail / área do participante da Even3 / plataforma] antes do evento. Confira se o e-mail da sua inscrição está correto.
+O congresso é 100% on-line. As orientações de acesso serão enviadas às pessoas inscritas [CONFIRMAR] (por e-mail / área do participante da Even3 / plataforma) antes do evento. Confira se o e-mail da sua inscrição está correto.
 ```
 
 **`/acessibilidade` — Accessibility** ⚠️ Never promise Libras, captions or recordings unless confirmed.
 
 ```text
-Queremos garantir a sua participação. Conte para nós qual recurso de acessibilidade você precisa, e uma pessoa da equipe responde você diretamente. [CONFIRMAR quais recursos estão garantidos.]
+Queremos garantir a sua participação. Conte para nós qual recurso de acessibilidade você precisa, e uma pessoa da equipe responde você diretamente. [CONFIRMAR] (quais recursos estão garantidos.)
 ```
 
 **`/pagamento` — Payment, refund, registration already made.** Always handed to a person.
@@ -232,6 +237,18 @@ Send these to a committee member every time:
 - "Is this recognized by MEC?", "Does it count for my selection process / progression?" beyond the safe `/horas` answer;
 - any question about a minor or a school's students;
 - complaints, harassment, racist messages, press requests, partnership proposals.
+
+### After the submission cutoff: replace the whole active bank
+
+At the committee-confirmed cutoff on 4 November (review on 5 November), audit **every** answer, greeting, scheduled reply and saved AI context. These are replacements, not extra shortcuts:
+
+```text
+/inscricao — As inscrições como ouvinte seguem pela Even3 até 6/12: https://www.even3.com.br/iconafroedu-764690/ As submissões estão encerradas. Para pendências de trabalho já enviado, nossa equipe atende você; comprar ingresso não reabre submissões.
+/prazo e /comosubmeter — As submissões estão encerradas, salvo alteração publicada oficialmente. Você pode participar como ouvinte. Pendências de trabalhos já enviados serão atendidas por uma pessoa da comissão.
+/modalidades e /video — Estas orientações agora são apenas para trabalhos já enviados. Nossa equipe confirma eventuais pendências; não há promessa de nova submissão ou prazo extra.
+```
+
+Remove submission-purchase instructions from `/inscricao`. Rewrite `/valores` for attendance: R$55 through 15/11, R$60 from 16/11, **check checkout**. Route existing-author/category questions to a human. Packages advertised through 5/11 never extend the 4/11 submission deadline; remove expired package offers as soon as sales end (check on 6/11). Update `/prorrogacao` from the actual official status. Test “Can I buy now and submit a new paper?”: no reopened deadline may be implied.
 
 ## Layer 1: automatic greeting and away messages
 
@@ -326,11 +343,11 @@ What we could **not** confirm: whether it is active on your Page/number, how man
 
 ### ManyChat
 
-ManyChat can send a DM when someone comments a keyword. Its **free plan** now covers **25 active contacts per month, 2 channels, 4 active automations and 1 inbox seat**. It covers Messenger/Instagram but **not WhatsApp** ([ManyChat Help](https://help.manychat.com/hc/en-us/articles/25800197498652-Free-plan)). The old "1,000 free contacts" claims are out of date. ManyChat also removed Messenger **Message Tags** on 9 February 2026 ([ManyChat update](https://community.manychat.com/product-updates/meta-s-deprecation-of-the-message-tags-feature-on-messenger-9010)). For a national event, 25 contacts/month runs out on the first day. **Verdict:** skip it for this campaign.
+ManyChat can send a DM when someone comments a keyword. Its **free plan** now covers **25 active contacts per month, 2 channels, 4 active automations and 1 inbox seat**. It covers Messenger/Instagram but **not WhatsApp** ([ManyChat Help](https://help.manychat.com/hc/en-us/articles/25800197498652-Free-plan)). The old "1,000 free contacts" claims are out of date. ManyChat also removed Messenger **Message Tags** on 9 February 2026 ([ManyChat update](https://community.manychat.com/product-updates/meta-s-deprecation-of-the-message-tags-feature-on-messenger-9010)). A national campaign may exceed 25 contacts/month quickly; that is a planning risk, not a measured result. **Verdict:** skip it for this campaign.
 
 ### Rules that apply to any bot on Messenger
 
-Meta's Messenger policy gives a standard **24-hour window** after a person's message for automated replies. A separate **Human Agent** option allows **manual** replies up to **7 days** after the person's message, but it does not allow automated promotional follow-ups. A comment on your post allows **one private reply**, not an ongoing DM campaign ([Messenger policy](https://developers.facebook.com/documentation/business-messaging/messenger-platform/policy)). "They liked our post" never means "we can DM them".
+Meta's Messenger policy gives a standard **24-hour window** after a person's message for automated replies. A separate **Human Agent** option allows **manual** replies up to **7 days** after the person's message, but it does not allow automated promotional follow-ups. A Page comment allows **one private reply within seven days**. That reply alone does not open an ongoing sequence: wait for the person to respond, then respect the applicable window. Human Agent is for a human continuing unresolved support, not sales follow-ups ([Messenger policy](https://developers.facebook.com/documentation/business-messaging/messenger-platform/policy)). "They liked our post" never means "we can DM them".
 
 ### WhatsApp Business Platform (API): not needed now
 
@@ -341,7 +358,7 @@ The API is a different, technical product. From **1 October 2026**, each busines
 ### Public comments
 
 - Answer comments with questions **in public** (others have the same doubt), using the short version of the FAQ answer plus the Even3 link.
-- If the question is personal (payment, a specific submission), reply publicly with: *"Oi, [nome]! Te chamamos no privado para ajudar."* Then send a message (Meta allows one private reply to a comment).
+- If the question is personal (payment, a specific submission), reply publicly with: *"Oi, [nome]! Te chamamos no privado para ajudar."* Send one private reply only within seven days of the comment. For older comments, publicly invite the person to initiate contact. Wait for their reply before continuing.
 - Like or thank genuine contributions. A good conversation under a post is the best organic signal you can have.
 
 Public reply example:
@@ -378,7 +395,8 @@ A page about anti-racist education may receive racist or hostile comments. Agree
 | Date | Update |
 |---|---|
 | As soon as the committee answers | All ⚠️ items: presentation, video, resumo simples, closing time, certificate conditions, access platform |
-| **5 Nov** | `/prazo` and `/comosubmeter` → "submissões encerradas" (unless an extension is officially published) |
+| **4 Nov cutoff / 5 Nov review** | Audit every answer/context; switch to attendance; `/prazo` and `/comosubmeter` closed; `/inscricao`, `/valores`, `/modalidades`, `/video`, `/prorrogacao` reviewed |
+| **5–6 Nov** | Remove package offers at their confirmed sales end; no package purchase reopens submissions |
 | **16 Nov** | `/valores` and `/ouvinte` → new tier prices only |
 | **25 Nov** | `/datas` → link to the published programme |
 | **6 Dec** | `/certificado` → how to download |

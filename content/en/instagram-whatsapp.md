@@ -7,6 +7,9 @@ icon: 📲
 updated: 2026-10-21
 ---
 
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#whatsapp-business) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
+
 **What you'll get from this page:** a clear job for Instagram and for each WhatsApp feature, step-by-step setup of the free **WhatsApp Business app** (profile, greeting, away message, quick replies, labels) and a **WhatsApp Channel**, how to run Instagram **Collabs** with speakers, how to cross-post without losing quality, ready-to-use Portuguese messages, and the consent rules that keep CONAFROEDU out of trouble. Everything here can be done for **R$ 0**.
 
 ## Why these two channels multiply Facebook in Brazil
@@ -41,7 +44,7 @@ You don't need all of these on day one. **A connected Instagram account, the Wha
 The Even3 page links to **@congressosnacionais_online**, a broader account for the organizers' congresses (not a CONAFROEDU-only profile). Its followers and who manages it were not verified.
 
 1. **Ask the committee who manages @congressosnacionais_online** and whether CONAFROEDU content will be posted there (recommended for six weeks — starting a new account now means starting from zero).
-2. Make sure it's a **professional account** (business or creator). That is what usually lets Meta Business Suite schedule posts and show Insights. Switching is free.
+2. Make sure it's a **professional account** (business or creator). Connect it to the correct Facebook Page and confirm both destinations appear in Business Suite; if unavailable, publish manually. Switching is free.
 3. **Connect it to the Facebook Page** in Meta Business Suite (look for settings → linked accounts / Instagram). Each teammate should get their own access instead of sharing the Instagram password.
 4. In the bio, write what CONAFROEDU is, the dates and "100% on-line", and put **one link**: the tagged Even3 link, or a simple link page.
 
@@ -61,21 +64,21 @@ Congressos nacionais on-line 📚 CONAFROEDU 2026 — Congresso Nacional de Afri
 
 | Placement | `utm_source` | `utm_medium` | `utm_content` example |
 |---|---|---|---|
-| Bio | `instagram` | `organic_social` | `bio_registration` |
+| Bio | `instagram` | `organic_social` | `bio_link` |
 | Story | `instagram` | `organic_social` | `story_deadline_01` |
-| WhatsApp Channel | `whatsapp` | `messaging` | `channel_programme_01` |
+| WhatsApp Channel | `whatsapp` | `messaging` | `canal_programacao_01` |
 
-Example: `https://www.even3.com.br/iconafroedu-764690/?utm_source=instagram&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=bio_registration`
+Example: `https://www.even3.com.br/iconafroedu-764690/?utm_source=instagram&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=bio_link`
 
 ### Step 3 — Collabs with speakers (the best free reach on Instagram)
 
 A **Collab** is one post or Reel co-authored by two or more accounts: the invited account accepts, and the post can appear on both profiles and count for both ([Meta announcement](https://about.fb.com/news/2023/08/music-and-collabs-on-instagram/)). In 2023 Meta described up to three invited collaborators; check the current limit in the app.
 
-1. Agree with a **confirmed** speaker on one genuinely useful topic (e.g., "Como trabalhar a Lei 10.639 em ciências e matemática?").
+1. Agree with a **confirmed** speaker on one genuinely useful topic (e.g., "Como trabalhar a Lei 10.639 em ciências e matemática?"). Agree on the shared opening, script and caption **before** recording; this is one shared post.
 2. Record a 30–60-second answer (or a carousel with 4–6 slides).
 3. In the Instagram composer, look for **Invite collaborator** (pt-BR: *Convidar colaborador*) and add the speaker's account before publishing.
-4. The speaker **accepts** the invitation.
-5. Ask the speaker to adapt the opening to their community and to answer comments on their side.
+4. **Publish/share from the originating account**, then ask the speaker to open and accept the invitation.
+5. Both accounts can respond to comments. Different openings belong in a separate Story or independent kit post.
 6. After publishing, open the post from both profiles to check it.
 
 Fallback if Collab doesn't work: the speaker posts their own invitation using your approved kit and a tracked link (see [Speaker & partner kits](speaker-partner-kits.md)).
@@ -89,7 +92,7 @@ Fallback if Collab doesn't work: the speaker posts their own invitation using yo
 | Stories | Questions, deadlines, behind the scenes, live updates | 2–4 frames; add question boxes, countdowns or links only if your account has them |
 | Highlights | Permanent FAQ: "Inscrição", "Submissão", "Acesso", "Certificado" | Update after 4 November and 16 November |
 
-**Hashtags:** Instagram announced in December 2025 that it was gradually moving to a limit of **five hashtags per post or Reel**, focused on relevance ([report](https://www.socialmediatoday.com/news/instagram-implements-new-limits-on-hashtag-use/808309/)). Use up to five relevant ones, e.g. `#CONAFROEDU #EducaçãoAntirracista #Africanidades #FormaçãoDocente #PesquisaEmEducação`. Forget the old "30 hashtags" advice.
+**Hashtags:** our operating rule is **up to five relevant Instagram tags**, respecting any lower limit shown by your composer. Do not plan around the old 30-tag allowance. For example: `#CONAFROEDU #EducaçãoAntirracista #Africanidades #FormaçãoDocente #PesquisaEmEducação`. This is conservative guidance; we did not certify identical limits in every account/composer.
 
 ### Step 5 — Cross-post without losing quality
 
@@ -136,18 +139,9 @@ The committee's published contact is **(19) 98816-7751**. First confirm **which 
 4. **Away message** (*Mensagem de ausência*) — outside service hours, saying when a real person returns.
 5. **Quick replies** (*Respostas rápidas*) — shortcuts that **a person** chooses while typing; they are not a chatbot. Create these, pasting only approved facts:
 
-| Shortcut | Content (pt-BR, fill with confirmed facts) |
-|---|---|
-| `/inscricao` | "As inscrições são feitas na Even3: [link]. Valores por categoria até 15/11; a partir de 16/11 entra o novo lote. Qualquer dúvida no pagamento, me conte aqui." |
-| `/submissao` | "As submissões vão até 4/11, às [horário], horário de Brasília. O autor responsável precisa estar inscrito; use o mesmo e-mail na inscrição e na submissão. Normas: [link]." (Replace after 4/11.) |
-| `/programacao` | "A programação oficial sai até 25/11 na Even3: [link]." |
-| `/acesso` | "[Como as pessoas inscritas recebem o acesso: CONFIRMAR]" |
-| `/certificado` | "O congresso oferece certificado de 40 horas, conforme os critérios divulgados pela organização: [CONFIRMAR]. Os certificados ficam disponíveis a partir de 6/12. O aproveitamento para horas complementares ou progressão depende das regras da sua instituição." |
-| `/anais` | "Os trabalhos aprovados vão para os Anais com ISBN e DOI. Há taxa de publicação de R$ 16,98 por trabalho, além da inscrição. Previsão de publicação: até 15/12." |
-| `/acessibilidade` | "Conte para nós de que apoio você precisa para participar. [Recursos confirmados: CONFIRMAR]" |
-| `/humano` | "Vou passar sua dúvida para [nome/comissão], que responde até [prazo]." |
+Use this **starter subset** from the canonical [Replies & Inbox bank](replies-inbox.md): `/inscricao`, `/valores`, `/prazo`, `/comosubmeter`, `/datas`, `/acesso`, `/certificado`, `/publicacao`, `/acessibilidade`, `/humano`. Copy approved answers from there; do not maintain a second text here. Program information belongs in `/datas`. At the cutoff, review all answers, not only the deadline shortcut.
 
-6. **Labels** (*Etiquetas*): "Dúvida sobre inscrição", "Dúvida sobre submissão", "Instituição parceira", "Precisa de resposta humana", "**Não enviar novidades**". Labels organize chats — they are not permission to message a whole category.
+6. **Labels** (*Etiquetas*): "Dúvida sobre inscrição", "Dúvida sobre submissão", "Instituição parceira", "Precisa de resposta humana", "**Não enviar divulgação**". Labels organize chats — they are not permission to message a whole category.
 
 > [!WARNING]
 > Refunds, payment problems, accessibility needs, certificate disputes and complaints go to a **person**, not a template. And never answer "a apresentação é obrigatória?" until the committee resolves the contradiction on the Even3 page.
@@ -223,7 +217,7 @@ Practical rules for CONAFROEDU:
    ```
 
 3. **Record** the wording, date and source of each opt-in.
-4. **"SAIR" — or any clear request to stop — means stop.** Label the chat "Não enviar novidades".
+4. **"SAIR" — or any clear request to stop — means stop.** Label the chat "Não enviar divulgação".
 5. **Never paste chats, phone numbers or registration exports into AI tools.** Anonymize questions before asking AI for help.
 6. For people **already registered**, Even3 can send event e-mails to participants and authors ([Even3 help](https://ajuda.even3.com.br/hc/pt-br/articles/115003452963-Notificar-pessoas-pela-plataforma)); scheduled sending must be enabled by Even3 support ([help](https://ajuda.even3.com.br/hc/pt-br/articles/14288648505499-Agendar-o-envio-de-notifica%C3%A7%C3%A3o-no-evento)). That's often better than WhatsApp for access instructions.
 
@@ -247,9 +241,9 @@ Also deliver a table comparing the facts in each version.
 ### Write the quick replies from the fact sheet
 
 ```prompt
-Using ONLY the fact sheet below, write WhatsApp Business quick replies in natural Brazilian Portuguese for these shortcuts: /inscricao, /submissao, /programacao, /acesso, /certificado, /anais, /acessibilidade, /humano.
+Using ONLY the fact sheet below, write WhatsApp Business quick replies in natural Brazilian Portuguese for these shortcuts: /inscricao, /valores, /prazo, /comosubmeter, /datas, /acesso, /certificado, /publicacao, /acessibilidade, /humano.
 Each reply: up to 60 words, friendly and clear, one link at most. Where the fact sheet doesn't answer, write [CONFIRMAR] — never guess (especially about certificate criteria, whether presenting is mandatory, and access).
-Add a version of /submissao for after the deadline (4/11) that redirects people to registration as participants.
+After the confirmed 4/11 cutoff, review every reply, especially /inscricao, /valores, /prazo, /comosubmeter, /modalidades and /video. Redirect new enquiries to attendance without implying a new paper can be submitted.
 Fact sheet: [paste].
 ```
 
@@ -265,7 +259,7 @@ Don't invent credentials, quotes or results. Mark lines the speaker must approve
 ### Status messages for ambassadors
 
 ```prompt
-Write 3 short WhatsApp Status texts (max 140 characters each) in natural Brazilian Portuguese that a teacher could post to invite colleagues to CONAFROEDU — personal, warm, not salesy. Each must mention 5–6 December and 100% online, and end with "link: [link rastreável]". Give one version for teachers, one for undergraduates and one for researchers. No invented benefits; the 40-hour certificate may be mentioned as "certificado de 40 horas" only.
+Write 3 short WhatsApp Status texts (max 140 characters of message text each, excluding the supplied URL; append that URL unchanged and report total characters) in natural Brazilian Portuguese that a teacher could post to invite colleagues to CONAFROEDU — personal, warm, not salesy. Each must mention 5–6 December and 100% online, and end with "link: [link rastreável]". Give one version for teachers, one for undergraduates and one for researchers. No invented benefits; the 40-hour certificate may be mentioned as "certificado de 40 horas" only.
 ```
 
 ## Checklist
@@ -276,7 +270,7 @@ Write 3 short WhatsApp Status texts (max 140 characters each) in natural Brazili
 - [ ] Story Highlights: Inscrição, Submissão, Acesso, Certificado (update after 4/11 and 16/11)
 - [ ] Support number confirmed on WhatsApp Business: profile, greeting, away message
 - [ ] Quick replies created with approved facts; `[CONFIRMAR]` items sent to the committee
-- [ ] Labels created, including "Não enviar novidades"
+- [ ] Labels created, including "Não enviar divulgação"
 - [ ] WhatsApp Channel created; link on Page, Event, Even3, Instagram
 - [ ] Forwardable text sent to 3–5 partner coordinators (not to groups directly)
 - [ ] Opt-in wording reviewed by the committee; opt-outs honored

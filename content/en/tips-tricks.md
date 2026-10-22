@@ -7,6 +7,9 @@ icon: 💡
 updated: 2026-10-21
 ---
 
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#starter-stack) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
+
 This page is the "pin it on the wall" version of the whole site. Each tip takes one to three sentences and links to the guide where it is explained in full. None of them costs money, and all of them use **CONAFROEDU 2026** (5–6 December, 100% online) as the example.
 
 **What you'll get from this page:**
@@ -35,7 +38,7 @@ This page is the "pin it on the wall" version of the whole site. Each tip takes 
 5. **Make the AI list the facts it used.** End prompts with "list every fact a person must check". The reviewer then runs the [60-second fact check](prompting-basics.md#the-60-second-fact-check) against a short list instead of rereading everything.
 6. **Write instructions in English if you like, but ask for Brazilian Portuguese output.** Then read it aloud. If it sounds dubbed, ask: *"Reescreva como uma professora brasileira falaria com colegas no grupo da escola. Mantenha os fatos exatamente iguais."* ([Natural pt-BR](prompting-basics.md#how-to-write-in-natural-brazilian-portuguese-with-ai)).
 7. **Start a fresh chat when quality drops.** Long conversations make assistants "forget" early instructions. Open a new chat and paste the fact sheet, the voice paragraph and your best draft.
-8. **Use the right free tool for the job.** Gemini Notebook answers only from documents you upload, with citations, which makes it good for FAQs and bios. Perplexity finds sources for outreach, but open every link yourself ([Choosing AI tools](choosing-ai-tools.md#best-for-table-conafroedu-tasks)).
+8. **Use the right free tool for the job.** Gemini Notebook grounds answers in supplied sources and provides citations; verify those passages before using FAQs or bios. Perplexity finds sources for outreach, but open every link yourself ([Choosing AI tools](choosing-ai-tools.md#best-for-table-conafroedu-tasks)).
 
 ## Facebook
 
@@ -48,10 +51,10 @@ This page is the "pin it on the wall" version of the whole site. Each tip takes 
 
 ## WhatsApp & Instagram
 
-15. **Quick replies are your best "bot", and a person still sends them.** In the free WhatsApp Business app, save shortcuts such as `/submissao`, `/certificado` and `/humano` with approved facts only. A person picks the shortcut, adjusts the first line ("Oi, Ana!") and sends ([FAQ answer bank](replies-inbox.md#the-conafroedu-2026-faq-answer-bank)).
+15. **Quick replies are your best "bot", and a person still sends them.** In the free WhatsApp Business app, save shortcuts such as `/prazo` and `/comosubmeter`, `/certificado` and `/humano` with approved facts only. A person picks the shortcut, adjusts the first line ("Oi, Ana!") and sends ([FAQ answer bank](replies-inbox.md#the-conafroedu-2026-faq-answer-bank)).
 16. **Prefer a Channel to groups and broadcast lists.** WhatsApp Channel followers choose to follow, can leave at any time, and their numbers aren't shown to admins or other followers. Ordinary broadcast lists only reach people who saved *your* number, up to 256 per list ([Create a Channel](instagram-whatsapp.md#create-a-whatsapp-channel)).
-17. **Reach private groups through people who belong there.** Send a coordinator a short forwardable text and one image, and let them decide. Never ask to be added to a group to promote, and never add people yourself ([Partner groups](instagram-whatsapp.md#partner-groups-and-forwarded-messages)).
-18. **Ask for one personal Status a week.** A WhatsApp Status from a colleague people already know outperforms a poster from an unknown Page. Give organizers and ambassadors a short text, an image and their own tracked link ([Status](instagram-whatsapp.md#status-personal-invitations)).
+17. **Reach private groups through people who belong there.** Send a coordinator a short forwardable text and one image through an appropriate institutional channel, and let them decide. WhatsApp requires a recipient-initiated conversation or recorded permission first. Never ask to be added to a group to promote, and never add people yourself ([Partner groups](instagram-whatsapp.md#partner-groups-and-forwarded-messages)).
+18. **Ask for one personal Status a week.** A WhatsApp Status from a known colleague may reach people a new Page does not; compare actual visits instead of assuming it performs better. Give organizers and ambassadors a short text, an image and their own tracked link ([Status](instagram-whatsapp.md#status-personal-invitations)).
 19. **Run an Instagram Collab with a confirmed speaker.** One co-authored Reel or carousel can appear on both profiles once the speaker accepts the invitation. Pick one genuinely useful topic, e.g. "Como trabalhar a Lei 10.639 em ciências e matemática?" ([Collabs](instagram-whatsapp.md#step-3--collabs-with-speakers-the-best-free-reach-on-instagram)).
 20. **Remember that Instagram caption links aren't clickable.** Write "link na bio", keep one tagged Even3 link in the bio, and use up to five relevant hashtags. Update the Highlights ("Inscrição", "Submissão", "Acesso", "Certificado") after 4 and 16 November.
 
@@ -62,7 +65,7 @@ This page is the "pin it on the wall" version of the whole site. Each tip takes 
 23. **Test every font with a Portuguese line.** Type *Educação, Participação, Conceição, ações, à, ê, õ — 5 e 6 de dezembro* before adopting a font. If any letter looks wrong or falls back to another font, pick a different one ([Typography](brand-kit.md#typography)).
 24. **Real, consented photos come first.** A speaker card uses the speaker's own approved photo, cropped and nothing more. No AI "enhance", which can lighten skin or change hair ([Order of preference](representation-bias.md#order-of-preference-real-people-and-black-brazilian-artists-first)).
 25. **Review the whole campaign grid, not one image.** Look at all your posts together: who teaches, who leads, who uses technology, which skin tones appear in which roles? When no one can explain why a symbol is there, remove it. Typography and simple shapes are always a safe choice ([Review checklist](representation-bias.md#pre-publication-review-checklist)).
-26. **Let accepted authors make their own card.** Share a Canva template link for a "Trabalho aprovado" card so each author fills in their own name and title. That turns every acceptance into a promoter at zero extra work ([Accepted-author kit](speaker-partner-kits.md#kit-1-accepted-authors-meu-trabalho-foi-aprovado-no-conafroedu)).
+26. **Let accepted authors make their own card.** If your plan offers a copy-generating Canva template link, test it with another account before sharing a "Trabalho aprovado" card. Never share master edit access; otherwise send a blank PNG. Authors may choose to fill it in and share ([Accepted-author kit](speaker-partner-kits.md#kit-1-accepted-authors-meu-trabalho-foi-aprovado-no-conafroedu)).
 
 ## Video & motion
 
@@ -76,7 +79,7 @@ This page is the "pin it on the wall" version of the whole site. Each tip takes 
 ## Community & partners
 
 33. **Start with warm contacts.** Begin with the institutions of confirmed speakers and committee members, and NEABs/NEABIs where someone on the team already knows a person. "A professora X, que vai falar no congresso, sugeriu…" gets read, but only write it if it's true ([Outreach](outreach.md#who-to-approach-research-leads-not-confirmed-partners)).
-34. **Aim for 10–20 excellent conversations, not 1,000 cold messages.** Send each message yourself, one recipient at a time, follow up **once** after about a week, then stop. Respect every "não, obrigada" permanently ([Follow-up cadence](outreach.md#follow-up-cadence)).
+34. **Aim for 10–20 excellent conversations, not 1,000 cold messages.** Use appropriate institutional email/form for first contact; WhatsApp requires recorded permission. Send each message yourself, one recipient at a time, follow up **once** after about a week, then stop. Respect every "não, obrigada" permanently ([Follow-up cadence](outreach.md#follow-up-cadence)).
 35. **Send kits, not requests.** A kit is one or two images, two or three suggested captions, a tracked link and the facts, plus the line "Adapte ao seu jeito de falar". Sharing is always optional for the person receiving it ([Promo kits](speaker-partner-kits.md#the-four-kits-at-a-glance)).
 36. **Prepare 20 November with a Black educator, starting now.** Agree on the topic, credit, approval and, if possible, payment during the week of 2 November; it can't be improvised the week before. If you want press coverage around 20 November, pitch education media by **6–10 November** ([Sprint, week 2](conafroedu-sprint.md#week-2--mon-2-to-sun-8-nov-close-submissions-switch-to-attendance)).
 37. **Agree on a moderation plan before you need it.** Hide or delete racist comments (after a screenshot), support the person targeted and don't debate trolls in public. Never blanket-block words like "negro", "racismo" or "antirracista", because legitimate discussion uses them every day ([Moderation](replies-inbox.md#moderating-an-anti-racist-education-page)).
@@ -98,10 +101,10 @@ This page is the "pin it on the wall" version of the whole site. Each tip takes 
 
 ## Ethics & safety
 
-47. **Personal data never goes into an AI tool.** Before asking AI for help with a message, replace names, numbers and schools with `[PESSOA]` and `[ESCOLA]`. Analyze Even3 data only as counts by date, category and source ([LGPD](ethics-legal.md#4-lgpd-emails-whatsapp-numbers-and-registrant-data)).
+47. **Keep personal data out of AI tools.** The only narrow approved-bio exception is documented in [ethics](ethics-legal.md); publication permission alone is insufficient. Before asking AI for help with a message, replace names, numbers and schools with `[PESSOA]` and `[ESCOLA]`. Analyze Even3 data only as counts by date, category and source ([LGPD](ethics-legal.md#4-lgpd-emails-whatsapp-numbers-and-registrant-data)).
 48. **Never fake evidence.** There is no previous edition, so there are no "photos from last year". The rules: no AI crowds, no invented quotes or testimonials, no "últimas vagas" for an online event with no announced cap, and no institution named as a partner without written agreement ([The six golden rules](ethics-legal.md#the-six-golden-rules)).
 49. **Label realistic AI media.** Turn on Meta's AI label for realistic synthetic video, AI dubbing and avatars. For illustrations, add a line such as *"Ilustração criada com IA; não retrata participantes do evento."* A label doesn't make a stereotyped image acceptable ([Disclosing AI](ethics-legal.md#1-disclosing-ai-on-facebook-and-instagram)).
-50. **Automate drafts, never contact.** Mass DMs, auto-joining or auto-posting in groups, scraping member lists and WhatsApp "bulk senders" break platform rules and can get the support number or Page restricted mid-campaign. The safe number of automated group posts and cold DMs is zero ([What NOT to automate](computer-use-agents.md#what-not-to-automate)).
+50. **Automate drafts, never contact.** Mass DMs, auto-joining or auto-posting in groups, scraping member lists and WhatsApp "bulk senders" break platform rules and can get the support number or Page restricted mid-campaign. Do not use external tools/agents for Group mass posting or cold DMs. Admins may use native scheduling in groups they manage; other groups use manual moderator-approved posting ([What NOT to automate](computer-use-agents.md#what-not-to-automate)).
 
 > [!TIP]
 > Have a tip of your own? Add it to the team's learning log during the weekly review. The tips that saved you hours this year are the most valuable thing to hand to the team behind the next edition ([After the event](measuring-results.md#after-the-event-closing-the-loop)).

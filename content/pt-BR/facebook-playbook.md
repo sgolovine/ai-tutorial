@@ -7,6 +7,9 @@ icon: 📘
 updated: 2026-10-21
 ---
 
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#meta-business-suite). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
+
 **O que você vai encontrar aqui:** um plano prático, sem orçamento, para usar uma Página do Facebook na divulgação de um congresso acadêmico on-line. Você vai entender como o Facebook distribui as publicações hoje (sem tecniquês), como criar ou ajustar a Página passo a passo, quais formatos testar, um ritmo semanal possível para uma equipe pequena de voluntários, horários pensados para o Brasil e prompts de IA prontos para copiar. O exemplo do começo ao fim é o **CONAFROEDU 2026** (5 e 6 de dezembro, 100% on-line).
 
 > [!IMPORTANT] Onde o CONAFROEDU está hoje (21 de outubro de 2026)
@@ -16,7 +19,7 @@ updated: 2026-10-21
 
 1. **Uma Página, um Evento, um link de inscrição.** A Página é a casa pública; o Evento do Facebook é o anúncio fixo; a [Even3](https://www.even3.com.br/iconafroedu-764690/) é onde as pessoas de fato se inscrevem e submetem trabalhos.
 2. **Publique conteúdo útil de educação, com pessoas reais**, e não um cartaz por dia. As orientações da Meta para 2026 favorecem conteúdo original produzido pela própria Página ([Meta, março de 2026](https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/)).
-3. **3 ou 4 boas publicações por semana bastam** para uma equipe com cerca de 5 a 7 horas semanais somadas. Responder comentários vale mais do que publicar mais.
+3. **Três publicações principais por semana, quarta opcional**, são o ponto de partida do plano completo (estimativa de **12 a 17 horas-pessoa/semana somadas**). Responder comentários vale mais do que publicar mais.
 4. **Respeite os dois relógios:** a submissão de trabalhos termina em **4 de novembro**; as inscrições vão até **6 de dezembro**. Cada publicação precisa deixar claro de qual dos dois está falando.
 5. **Meça inscrições, não curtidas.** Use links rastreáveis e os relatórios da própria Even3 (veja [Como medir resultados](measuring-results.md)).
 
@@ -149,6 +152,7 @@ As durações acima são **testes iniciais**, não regras da Meta.
 
 ### Checklist para Reels
 
+- [ ] O visual indispensável (passos na tela, texto de slides, animação) está narrado ou tem descrição equivalente; teste sem olhar a tela.
 - [ ] Palestrante ou docente real, gravado **com autorização por escrito**; guardem o arquivo original limpo.
 - [ ] Comece pelo problema do educador, não por uma animação do logo.
 - [ ] Entregue um exemplo útil **antes** do convite.
@@ -183,7 +187,7 @@ Ninguém provou que o Facebook penaliza todo link externo, nem que "link no prim
 2. Coloquem o link direto nas publicações cujo objetivo é inscrição ou submissão.
 3. Façam as publicações educativas serem úteis **sem** exigir clique.
 4. Se o Facebook mostrar algum aviso de restrição de links para a Página, anotem a mensagem exata e adaptem — nada de contas de spam ou links disfarçados.
-5. Usem **links rastreáveis** (parâmetros UTM) para que a análise da Even3 mostre quais publicações trouxeram inscrições:
+5. Usem **links rastreáveis** (parâmetros UTM) para distinguir origens das visitas; atribua inscrições só depois de validar essa ligação no painel do evento:
 
 ```text
 https://www.even3.com.br/iconafroedu-764690/?utm_source=facebook&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=reel_professora_01
@@ -193,7 +197,7 @@ Usem `conafroedu_2026_submissoes` nas publicações para autores e `conafroedu_2
 
 ## Hashtags: poucas e relevantes
 
-No Facebook, hashtags são etiquetas de assunto clicáveis ([Meta](https://about.fb.com/news/2013/06/public-conversations-on-facebook/)); não há aumento de alcance comprovado nem "número ideal" verificado. Excesso de hashtags é tratado como comportamento de spam. Comecem com **zero a três** por publicação:
+No Facebook, hashtags são etiquetas de assunto clicáveis ([Meta](https://about.fb.com/news/2013/06/public-conversations-on-facebook/)); não há aumento de alcance comprovado nem "número ideal" verificado. Excesso de hashtags é tratado como comportamento de spam. A convenção da equipe é **zero a três** por publicação (não é limite da plataforma):
 
 - Geral: `#CONAFROEDU #EducaçãoAntirracista #Africanidades`
 - Para autores: troque uma por `#PesquisaEmEducação` ou `#PósGraduação`
@@ -205,16 +209,18 @@ Não colem as 12 hashtags do anúncio em todas as publicações.
 
 ### Um ritmo semanal possível
 
-Para uma equipe com cerca de **5 a 7 horas semanais somadas**:
+No plano completo, reserve cerca de **12 a 17 horas-pessoa/semana somadas**, incluindo revisão e parcerias (estimativas):
 
 - **3 ou 4 publicações no Facebook**, incluindo 1 ou 2 Reels originais e uma imagem, várias fotos ou texto útil.
 - Adaptar as 2 ou 3 melhores peças para o Instagram.
 - Stories em 3 a 5 dias, quando houver algo real para mostrar.
 - **Uma** atualização útil dentro do Evento do Facebook.
 - Uma ou duas atualizações no Canal do WhatsApp.
-- **15 minutos por dia** para comentários e mensagens, e uma revisão semanal de 30 minutos.
+- **Duas passagens de 15 minutos por dia** para comentários e mensagens, e uma revisão semanal de 30 minutos.
 
 Nada comprova que publicar todo dia seja necessário. Cortem qualquer formato que consuma tempo sem gerar conversas ou inscrições.
+
+**Se houver só 5 a 7 horas-pessoa/semana somadas:** proteja 3,5 horas para duas passagens diárias de 15 minutos no atendimento, 30 minutos para revisão/FAQ, 1 a 2 horas para duas peças simples aprovadas no Facebook (no máximo um vídeo fácil) e 30 a 60 minutos para poucos parceiros e uma adaptação. Reaproveite uma peça no Evento/Canal; dispense criar grupos/canais novos, vídeo elaborado e agentes. Prazos e dias do evento exigem cobertura extra ou horário reduzido publicado. Duas pessoas numa sessão de 90 minutos gastam três horas-pessoa.
 
 ### Horário: testem em vez de adivinhar
 
@@ -267,20 +273,7 @@ A Meta rebaixa há anos o "engagement bait" (isca de engajamento), inclusive em 
 
 A IA é ótima para **rascunhar, adaptar e revisar** — mas pessoas precisam **conferir e aprovar**. O melhor hábito de todos: manter uma **ficha oficial** e colá-la em todo prompt.
 
-```text
-FICHA OFICIAL — CONAFROEDU 2026 (revisada em [data] por [nome])
-Nome: CONAFROEDU — Congresso Nacional de Africanidades na Educação (1ª edição)
-Tema: Desenvolvimento, Participação e Educação Antirracista
-Datas: 5 e 6 de dezembro de 2026, 100% on-line (horário de Brasília)
-Inscrições: https://www.even3.com.br/iconafroedu-764690/ (até 6/12)
-Submissões: até 4/11/2026, horário [CONFIRMAR]; vídeo de apresentação até 4/11
-Modalidades: [copiar exatamente das normas na Even3]
-Valores até 15/11: [copiar da Even3]; a partir de 16/11: [copiar da Even3]
-Taxa de publicação nos anais: R$ 16,98 por trabalho (além da inscrição)
-Certificado: 40 horas — critérios: [CONFIRMAR com a comissão]
-Programação oficial: até 25/11
-Contato: WhatsApp (19) 98816-7751 · conapsuporte@gmail.com
-```
+Use a [FICHA OFICIAL mestra](prompting-basics.md), mantida pela Coordenação com versão, responsável pela conferência, fonte e próxima atualização. Este guia não define uma segunda ficha mestra.
 
 ### Prompt: três legendas para o Facebook a partir de fatos aprovados
 

@@ -7,6 +7,9 @@ icon: 📲
 updated: 2026-10-21
 ---
 
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#whatsapp-business). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
+
 **O que você vai encontrar aqui:** uma função clara para o Instagram e para cada recurso do WhatsApp, o passo a passo para configurar o **WhatsApp Business** gratuito (perfil, saudação, mensagem de ausência, respostas rápidas, etiquetas) e um **Canal do WhatsApp**, como fazer **Collabs** com palestrantes no Instagram, como repostar sem perder qualidade, mensagens prontas e as regras de consentimento que mantêm o CONAFROEDU longe de problemas. Tudo aqui sai por **R$ 0**.
 
 ## Por que esses dois canais multiplicam o Facebook no Brasil
@@ -41,7 +44,7 @@ Vocês não precisam de tudo isso no primeiro dia. **Um Instagram conectado, o W
 A página da Even3 indica o perfil **@congressosnacionais_online**, que é mais amplo, dos congressos da organização (não exclusivo do CONAFROEDU). Não verificamos número de seguidores nem quem administra.
 
 1. **Perguntem à comissão quem administra o @congressosnacionais_online** e se o conteúdo do CONAFROEDU vai sair por lá (recomendado para estas seis semanas — abrir um perfil novo agora é começar do zero).
-2. Garantam que seja uma **conta profissional** (empresa ou criador de conteúdo). Normalmente é isso que permite ao Meta Business Suite agendar publicações e mostrar os Insights. A mudança é gratuita.
+2. Garantam que seja uma **conta profissional** (empresa ou criador de conteúdo). Conectem à Página correta e confiram se os dois destinos aparecem no Business Suite. Se indisponível, publiquem manualmente. A mudança é gratuita.
 3. **Conectem o perfil à Página do Facebook** pelo Meta Business Suite (procurem em configurações → contas vinculadas / Instagram). Cada pessoa da equipe deve ter o próprio acesso, em vez de compartilhar a senha do Instagram.
 4. Na bio, digam o que é o CONAFROEDU, as datas e "100% on-line", e coloquem **um link**: o link rastreável da Even3 ou uma página simples de links.
 
@@ -57,25 +60,25 @@ Congressos nacionais on-line 📚 CONAFROEDU 2026 — Congresso Nacional de Afri
 ### Passo 2 — Links no Instagram
 
 - **Link digitado na legenda não é clicável.** Escrevam "link na bio" ou usem um link no Story, se a conta tiver essa opção.
-- Usem links rastreáveis por posição, para que a Even3 mostre de onde vieram as inscrições:
+- Usem links rastreáveis por posição, para distinguir origens das visitas; atribuir inscrições exige validação separada no painel:
 
 | Posição | `utm_source` | `utm_medium` | Exemplo de `utm_content` |
 |---|---|---|---|
-| Bio | `instagram` | `organic_social` | `bio_registration` |
+| Bio | `instagram` | `organic_social` | `bio_link` |
 | Story | `instagram` | `organic_social` | `story_deadline_01` |
-| Canal do WhatsApp | `whatsapp` | `messaging` | `channel_programme_01` |
+| Canal do WhatsApp | `whatsapp` | `messaging` | `canal_programacao_01` |
 
-Exemplo: `https://www.even3.com.br/iconafroedu-764690/?utm_source=instagram&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=bio_registration`
+Exemplo: `https://www.even3.com.br/iconafroedu-764690/?utm_source=instagram&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=bio_link`
 
 ### Passo 3 — Collabs com palestrantes (o melhor alcance gratuito do Instagram)
 
 Uma **Collab** é uma publicação ou Reel com autoria compartilhada entre duas ou mais contas: a conta convidada aceita e a publicação pode aparecer nos dois perfis ([anúncio da Meta](https://about.fb.com/news/2023/08/music-and-collabs-on-instagram/)). Em 2023, a Meta falava em até três colaboradores convidados; confiram o limite atual no aplicativo.
 
-1. Combinem com um palestrante **confirmado** um tema realmente útil (por exemplo, "Como trabalhar a Lei 10.639 em ciências e matemática?").
+1. Combinem com um palestrante **confirmado** um tema realmente útil (por exemplo, "Como trabalhar a Lei 10.639 em ciências e matemática?"). Combinem abertura, roteiro e legenda compartilhados **antes** de gravar: é um único post.
 2. Gravem uma resposta de 30 a 60 segundos (ou um carrossel de 4 a 6 telas).
 3. Na criação da publicação no Instagram, procurem **Convidar colaborador** e adicionem a conta do palestrante antes de publicar.
-4. O palestrante **aceita** o convite.
-5. Peçam que ele adapte a abertura para a comunidade dele e responda aos comentários do lado de lá.
+4. **Publiquem pela conta que criou o post**; depois peçam ao palestrante para abrir e aceitar o convite.
+5. As duas contas podem responder aos comentários. Uma abertura diferente cabe num Story separado ou em post independente do kit.
 6. Depois de publicar, abram a publicação pelos dois perfis para conferir.
 
 Se a Collab não funcionar: o palestrante publica o próprio convite usando o kit aprovado e um link rastreável (veja [Kits para palestrantes e parceiros](speaker-partner-kits.md)).
@@ -89,7 +92,7 @@ Se a Collab não funcionar: o palestrante publica o próprio convite usando o ki
 | Stories | Perguntas, prazos, bastidores, avisos ao vivo | 2 a 4 telas; usem caixa de perguntas, contagem regressiva ou link só se a conta tiver |
 | Destaques | FAQ permanente: "Inscrição", "Submissão", "Acesso", "Certificado" | Atualizem depois de 4/11 e de 16/11 |
 
-**Hashtags:** em dezembro de 2025, o Instagram anunciou uma mudança gradual para o limite de **cinco hashtags por publicação ou Reel**, com foco em relevância ([reportagem](https://www.socialmediatoday.com/news/instagram-implements-new-limits-on-hashtag-use/808309/)). Usem até cinco pertinentes, por exemplo `#CONAFROEDU #EducaçãoAntirracista #Africanidades #FormaçãoDocente #PesquisaEmEducação`. Esqueçam a velha dica das "30 hashtags".
+**Hashtags:** a regra de trabalho é **até cinco hashtags pertinentes no Instagram**, respeitando limite menor exibido no criador de publicações. Não planejem pelo antigo limite de 30. Exemplo: `#CONAFROEDU #EducaçãoAntirracista #Africanidades #FormaçãoDocente #PesquisaEmEducação`. É orientação conservadora; não certificamos limites idênticos em todas as contas/interfaces.
 
 ### Passo 5 — Repostar sem perder qualidade
 
@@ -136,18 +139,9 @@ O contato divulgado pela comissão é **(19) 98816-7751**. Primeiro, confirmem *
 4. **Mensagem de ausência** — fora do horário de atendimento, dizendo quando uma pessoa volta a responder.
 5. **Respostas rápidas** — atalhos que **uma pessoa** escolhe enquanto digita; não são um robô. Criem estas, colando só fatos aprovados:
 
-| Atalho | Conteúdo (preencham com fatos confirmados) |
-|---|---|
-| `/inscricao` | "As inscrições são feitas na Even3: [link]. Valores por categoria até 15/11; a partir de 16/11 entra o novo lote. Se tiver qualquer dúvida no pagamento, me conte aqui." |
-| `/submissao` | "As submissões vão até 4/11, às [horário], horário de Brasília. O autor responsável precisa estar inscrito; use o mesmo e-mail na inscrição e na submissão. Normas: [link]." (Trocar depois de 4/11.) |
-| `/programacao` | "A programação oficial sai até 25/11 na Even3: [link]." |
-| `/acesso` | "[Como as pessoas inscritas recebem o acesso: CONFIRMAR]" |
-| `/certificado` | "O congresso oferece certificado de 40 horas, conforme os critérios divulgados pela organização: [CONFIRMAR]. Os certificados ficam disponíveis a partir de 6/12. O aproveitamento para horas complementares ou progressão depende das regras da sua instituição." |
-| `/anais` | "Os trabalhos aprovados vão para os Anais com ISBN e DOI. Há taxa de publicação de R$ 16,98 por trabalho, além da inscrição. Previsão de publicação: até 15/12." |
-| `/acessibilidade` | "Conte para nós de que apoio você precisa para participar. [Recursos confirmados: CONFIRMAR]" |
-| `/humano` | "Vou passar sua dúvida para [nome/comissão], que responde até [prazo]." |
+Use este **subconjunto inicial** do [banco canônico de respostas](replies-inbox.md): `/inscricao`, `/valores`, `/prazo`, `/comosubmeter`, `/datas`, `/acesso`, `/certificado`, `/publicacao`, `/acessibilidade`, `/humano`. Copie de lá as respostas aprovadas; não mantenha outro texto aqui. Informações da programação ficam em `/datas`. No encerramento, revise todas as respostas, não só o prazo.
 
-6. **Etiquetas:** "Dúvida sobre inscrição", "Dúvida sobre submissão", "Instituição parceira", "Precisa de resposta humana", "**Não enviar novidades**". Etiquetas organizam conversas — não são permissão para mandar mensagem a uma categoria inteira.
+6. **Etiquetas:** "Dúvida sobre inscrição", "Dúvida sobre submissão", "Instituição parceira", "Precisa de resposta humana", "**Não enviar divulgação**". Etiquetas organizam conversas — não são permissão para mandar mensagem a uma categoria inteira.
 
 > [!WARNING]
 > Reembolsos, problemas de pagamento, necessidades de acessibilidade, contestação de certificado e reclamações vão para uma **pessoa**, não para um texto pronto. E não respondam "a apresentação é obrigatória?" até a comissão resolver a contradição da página na Even3.
@@ -223,7 +217,7 @@ Regras práticas para o CONAFROEDU:
    ```
 
 3. **Registrem** o texto, a data e a origem de cada autorização.
-4. **"SAIR" — ou qualquer pedido claro para parar — significa parar.** Marquem a conversa com a etiqueta "Não enviar novidades".
+4. **"SAIR" — ou qualquer pedido claro para parar — significa parar.** Marquem a conversa com a etiqueta "Não enviar divulgação".
 5. **Nunca colem conversas, números de telefone ou planilhas de inscritos em ferramentas de IA.** Anonimizem as perguntas antes de pedir ajuda à IA.
 6. Para quem **já está inscrito**, a Even3 envia e-mails do evento para participantes e autores ([ajuda da Even3](https://ajuda.even3.com.br/hc/pt-br/articles/115003452963-Notificar-pessoas-pela-plataforma)); o envio agendado precisa ser habilitado pelo suporte da Even3 ([ajuda](https://ajuda.even3.com.br/hc/pt-br/articles/14288648505499-Agendar-o-envio-de-notifica%C3%A7%C3%A3o-no-evento)). Para instruções de acesso, muitas vezes isso é melhor do que o WhatsApp.
 
@@ -244,9 +238,9 @@ Entregue também uma tabela comparando os fatos em cada versão.
 ### Escrever as respostas rápidas a partir da ficha oficial
 
 ```prompt
-Usando APENAS a ficha oficial abaixo, escreva respostas rápidas do WhatsApp Business em português natural para estes atalhos: /inscricao, /submissao, /programacao, /acesso, /certificado, /anais, /acessibilidade, /humano.
+Usando APENAS a ficha oficial abaixo, escreva respostas rápidas do WhatsApp Business em português natural para estes atalhos: /inscricao, /valores, /prazo, /comosubmeter, /datas, /acesso, /certificado, /publicacao, /acessibilidade, /humano.
 Cada resposta: até 60 palavras, simpática e clara, no máximo um link. Onde a ficha não responder, escreva [CONFIRMAR] — nunca chute (principalmente sobre critérios do certificado, obrigatoriedade da apresentação e acesso).
-Inclua uma versão de /submissao para depois do prazo (4/11) que encaminhe a pessoa para a inscrição como participante.
+Depois do encerramento confirmado em 4/11, revise todas as respostas, especialmente /inscricao, /valores, /prazo, /comosubmeter, /modalidades e /video. Encaminhe novas consultas para ouvintes sem sugerir que um trabalho novo pode ser enviado.
 Ficha oficial: [colar].
 ```
 
@@ -262,7 +256,7 @@ Não invente titulações, citações ou resultados. Marque as falas que o pales
 ### Mensagens de Status para embaixadores
 
 ```prompt
-Escreva 3 textos curtos para o Status do WhatsApp (até 140 caracteres cada), em português natural, que uma professora poderia publicar para convidar colegas para o CONAFROEDU — pessoais, calorosos, sem cara de propaganda. Cada um deve citar 5 e 6 de dezembro e 100% on-line, e terminar com "link: [link rastreável]". Faça uma versão para professores, uma para estudantes de graduação e uma para pesquisadores. Não invente benefícios; o certificado pode ser citado apenas como "certificado de 40 horas".
+Escreva 3 textos curtos para o Status do WhatsApp (até 140 caracteres de texto cada, sem contar a URL fornecida; acrescente a URL sem alterar e informe a contagem total), em português natural, que uma professora poderia publicar para convidar colegas para o CONAFROEDU — pessoais, calorosos, sem cara de propaganda. Cada um deve citar 5 e 6 de dezembro e 100% on-line, e terminar com "link: [link rastreável]". Faça uma versão para professores, uma para estudantes de graduação e uma para pesquisadores. Não invente benefícios; o certificado pode ser citado apenas como "certificado de 40 horas".
 ```
 
 ## Checklist
@@ -273,7 +267,7 @@ Escreva 3 textos curtos para o Status do WhatsApp (até 140 caracteres cada), em
 - [ ] Destaques dos Stories: Inscrição, Submissão, Acesso, Certificado (atualizar depois de 4/11 e 16/11)
 - [ ] Número de suporte confirmado no WhatsApp Business: perfil, saudação, mensagem de ausência
 - [ ] Respostas rápidas criadas com fatos aprovados; itens `[CONFIRMAR]` enviados à comissão
-- [ ] Etiquetas criadas, incluindo "Não enviar novidades"
+- [ ] Etiquetas criadas, incluindo "Não enviar divulgação"
 - [ ] Canal do WhatsApp criado; link na Página, no Evento, na Even3 e no Instagram
 - [ ] Texto para encaminhar enviado a 3–5 coordenações parceiras (não direto nos grupos)
 - [ ] Texto de opt-in revisado pela comissão; pedidos de saída respeitados

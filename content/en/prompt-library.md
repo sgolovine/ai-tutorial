@@ -7,40 +7,38 @@ icon: 📚
 updated: 2026-10-21
 ---
 
-This page collects the best prompts from across the site, so you don't have to hunt through 25 guides during a busy week. The wording matches the source guides, and each prompt links back to the page that explains when and how to use it. Three prompts for moments no guide covered yet (the switch on 5 November, the final-week access FAQ and the post-event recap) were written for this page; they are marked **new**.
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#starter-stack) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
+
+This page collects the best prompts from across the site, so you don't have to hunt through the guides during a busy week. Prompts link to their source guides; the canonical fact sheet and voice stay at their source, and each prompt links back to the page that explains when and how to use it. Three prompts for moments no guide covered yet (the switch on 5 November, the final-week access FAQ and the post-event recap) were written for this page; they are marked **new**.
 
 **What you'll get from this page:**
 
 - The **fact sheet** and **brand voice** blocks that go at the start of every chat.
-- **About 90 copy-paste prompts** in 11 groups, from planning to accessibility.
+- **Task-based copy-paste prompts** in 11 groups, plus setup and learning help, from planning to accessibility.
 - The **`[CONFIRMAR]` convention**, explained once.
 - A short **safety checklist** for every AI output.
 
 > [!NOTE] Which language?
 > Prompts on this English page are in English. Where a prompt produces social copy, it asks for **Brazilian Portuguese output**, because the team posts in Portuguese; this is marked **Output: pt-BR**. The fact sheet and voice blocks stay in Portuguese, because they hold the official wording. The [Portuguese version of this page](../pt-BR/prompt-library.md) has every prompt fully in Portuguese.
 
+> [!TIP] Do this today: choose one task
+> Keep the [sprint](conafroedu-sprint.md) open. Choose: (1) [current fact sheet](prompting-basics.md), (2) [one caption](copywriting.md), (3) [submission checklist](replies-inbox.md), (4) [deadline rollover](replies-inbox.md), (5) [partner invitation](outreach.md), (6) [speaker kit](speaker-partner-kits.md), (7) [real-image alt text](ethics-legal.md), (8) [queue review](scheduling-tools.md), (9) [weekly numbers](measuring-results.md), or (10) [learn a tool](learning-with-ai.md). The full library below is reference material; you do not need to read it end to end.
+
 ## How to use this library
 
 1. **Open your main assistant** (Claude, Gemini, ChatGPT; see [Choosing AI tools](choosing-ai-tools.md)), or the Project/Gem/Notebook where you saved the context.
 2. **Paste the fact sheet and the voice paragraph** from [section 1](#1-context-the-fact-sheet-and-the-brand-voice), unless they're already saved there.
 3. **Copy one prompt** with the **Copy** button and replace everything in `[BRACKETS]`.
-4. **Ask for one deliverable at a time.** Refine with the follow-ups in [section 3](#3-copy-for-each-campaign-phase).
+4. **Start with one approved core message; then adapt it.** Bundle prompts are optional batch shortcuts; review each output separately. Refine with the follow-ups in [section 3](#3-copy-for-each-campaign-phase).
 5. **A second person checks the result** with the [60-second fact check](prompting-basics.md#the-60-second-fact-check) before anything is scheduled.
 
 > [!WARNING]
-> Never paste personal data into a prompt: no registrant lists, CPFs, phone numbers, payment details, private messages, accessibility requests or unpublished papers. Replace identifiers with `[PESSOA]` or `[ESCOLA]`, and analyze numbers only as aggregates ([Ethics, policies & LGPD](ethics-legal.md#4-lgpd-emails-whatsapp-numbers-and-registrant-data)).
+> Keep personal data out of prompts, except the narrowly documented [approved professional bio workflow](ethics-legal.md). Publication permission alone does not permit external AI processing. Never paste: no registrant lists, CPFs, phone numbers, payment details, private messages, accessibility requests or unpublished papers. Replace identifiers with `[PESSOA]` or `[ESCOLA]`, and analyze numbers only as aggregates ([Ethics, policies & LGPD](ethics-legal.md#4-lgpd-emails-whatsapp-numbers-and-registrant-data)).
 
 ## The `[CONFIRMAR]` convention
 
-`[CONFIRMAR]` ("to confirm") is the team's marker for **a fact only the committee can decide**: the cut-off time on 4 November, whether presenting is mandatory, the 40-hour certificate criteria, the transmission platform, accessibility services and so on.
-
-It works in three places:
-
-- **In the fact sheet**, every open question is written as `[CONFIRMAR]`. This teaches the AI to leave a gap instead of inventing an answer.
-- **In prompts**, we tell the AI: "if something is missing, write `[CONFIRMAR]`". A draft full of `[CONFIRMAR]` is a good draft. It shows exactly what to ask the committee.
-- **Before publishing**, search the text for `[CONFIRMAR]` (<kbd>Ctrl</kbd>+<kbd>F</kbd>). **Nothing that still contains it may be scheduled or sent.** Either the committee answers and you replace it, or you delete that sentence.
-
-Other brackets, such as `[NOME]`, `[DATA]` or `[paste the fact sheet]`, are simply blanks for you to fill before sending the prompt. In the body text of the guides (outside prompts), open questions appear as "confirm with the committee" notes instead. The full list of pending decisions is in the [sprint plan](conafroedu-sprint.md#decisions-to-confirm-with-the-committee).
+Follow the single [marker convention in Prompting basics](prompting-basics.md). Search **all unresolved brackets and missing facts**, not just the literal token. Replace with verified facts or remove the entire unsupported claim; keep questions outside publishable copy. Never erase a warning to make an unapproved answer look final.
 
 ## Quick index
 
@@ -62,74 +60,11 @@ Other brackets, such as `[NOME]`, `[DATA]` or `[paste the fact sheet]`, are simp
 
 ### 1.1 The official fact sheet (FICHA OFICIAL)
 
-**Use:** at the start of every chat, or saved once in a Project/Gem/Notebook. **Language:** Portuguese (official wording). **Source:** [Prompting basics](prompting-basics.md#the-conafroedu-context-block).
-
-> [!IMPORTANT]
-> This is the **21/10/2026 version**. The master copy lives in the team's shared "FICHA OFICIAL" document, kept by Coordination. If the shared document is newer, use that one. Update it after 4 November (submissions closed), 15 November (old prices removed), 25 November (program) and after the event (certificates, proceedings link).
-
-```prompt
-FICHA OFICIAL — CONAFROEDU 2026
-Versão: 21/10/2026 (conferir na Even3 antes de publicar preços ou prazos)
-
-EVENTO
-- Nome: I CONAFROEDU — Congresso Nacional de Africanidades na Educação (1ª edição; não existem edições anteriores)
-- Tema: "Desenvolvimento, Participação e Educação Antirracista"
-- Datas: 5 e 6 de dezembro de 2026 (sábado e domingo), 100% on-line
-- Horários das sessões: [CONFIRMAR] — sempre informar "horário de Brasília"
-- Plataforma de transmissão e forma de acesso: [CONFIRMAR]
-- Inscrições, normas e submissões: https://www.even3.com.br/iconafroedu-764690/
-
-PÚBLICO
-- Professoras e professores da educação básica, estudantes de graduação e pós-graduação, pesquisadoras e pesquisadores, gestoras e gestores escolares e demais profissionais da educação; alcance nacional.
-
-O QUE O EVENTO OFERECE (como divulgado)
-- Apresentação de trabalhos
-- Publicação nos Anais com ISBN e DOI (após avaliação; taxa de publicação de R$ 16,98 por trabalho, à parte da inscrição)
-- Certificado de 40 horas (critérios para receber: [CONFIRMAR])
-- Modalidades: artigo completo, resumo expandido, práticas exitosas (as normas na Even3 também citam resumo simples — [CONFIRMAR])
-
-DATAS IMPORTANTES
-- Submissões de trabalhos (e vídeo de apresentação): até 4/11/2026 — horário-limite [CONFIRMAR]
-- Resultado da avaliação: em até 5 dias úteis após a submissão
-- Pacotes com 2 ou 3 submissões: disponíveis até 5/11/2026
-- Valor atual das inscrições: até 15/11/2026; novo valor a partir de 16/11/2026
-- Programação oficial: até 25/11/2026
-- Congresso: 5 e 6/12/2026
-- Certificados: a partir de 6/12/2026
-- Anais: até 15/12/2026
-
-VALORES EXIBIDOS NA EVEN3 EM 21/10/2026 (até 15/11 → a partir de 16/11)
-- Ouvinte/público geral: R$ 55,00 → R$ 60,00
-- Graduação + 1 submissão: R$ 55,00 → R$ 60,00
-- Pós-graduação + 1 submissão: R$ 60,00 → R$ 65,00
-- Professor(a)/profissional da educação + 1 submissão: R$ 70,00 → R$ 75,00
-- Inscrição + 2 submissões: R$ 99,00 / + 3 submissões: R$ 150,00 (até 5/11)
-
-CONTATO
-- WhatsApp da Comissão Organizadora: (19) 98816-7751
-- E-mail: conapsuporte@gmail.com
-- Instagram: @congressosnacionais_online
-- Página/Evento no Facebook: [CONFIRMAR URL]
-
-HASHTAGS PRINCIPAIS
-#CONAFROEDU #EducaçãoAntirracista #Africanidades
-
-NÃO AFIRMAR (ainda sem decisão da comissão)
-- Se a apresentação é obrigatória ou opcional
-- Prorrogação de prazo de submissão
-- Regras detalhadas do certificado de 40 horas
-- Recursos de acessibilidade (Libras, legendas), gravações, local físico (o evento é on-line)
-- Reconhecimento pelo MEC, Qualis, pontuação em progressão ou "vagas limitadas"
-```
+Copy the current, versioned **master FICHA OFICIAL** from [Prompting basics](prompting-basics.md#the-conafroedu-context-block), maintained by Coordination. Check owner/verifier, source, next update, separate registration/submission/video deadlines, partial programme and certificate/proceedings targets. Saved contexts are copies. At closure audit every FAQ/context; remove expired packages after their 5 Nov sales end. This library does not maintain another fact-sheet master.
 
 ### 1.2 The brand voice paragraph (VOZ DA MARCA)
 
-**Use:** right after the fact sheet in any writing task. **Language:** Portuguese. **Source:** [Prompting basics](prompting-basics.md#your-brand-voice-in-one-paragraph); the full guide is in [Brand kit](brand-kit.md#part-1--voice-and-tone).
-
-```prompt
-VOZ DA MARCA — CONAFROEDU
-Tom acadêmico, mas acolhedor: de educadora para educador. Português brasileiro natural, com "você". Frases curtas e concretas; explique siglas na primeira menção (ex.: ERER — Educação para as Relações Étnico-Raciais). Valorize a experiência de quem está na escola e na pesquisa. Linguagem respeitosa sobre pessoas negras e culturas afro-brasileiras; nunca use "moreno(a)" como eufemismo. Use "professoras e professores" ou outra forma inclusiva que soe natural. Evite: urgência falsa ("últimas vagas"), promessas ("garanta sua progressão"), exageros ("evento imperdível!!!"), excesso de emojis (no máximo 2) e clichês de marketing traduzidos do inglês. Um único convite para ação por publicação.
-```
+Use the exact Portuguese **VOZ DA MARCA — CONAFROEDU** block in [Prompting basics](prompting-basics.md#your-brand-voice-in-one-paragraph) in either language. It is the only canonical voice; copywriting and this library refer to it.
 
 ### 1.3 Draft a one-page voice and tone guide
 
@@ -195,7 +130,9 @@ Approved facts: [paste fact sheet]. Existing materials: [list videos, photos, sp
 
 Rules:
 - Separate the call for papers from attendee registration. After 4 Nov, keep submission posts only if a formal extension exists.
-- 20 Nov: one substantive educational contribution, no discounts or sales pressure on that post.
+- 20 Nov: one sourced educational contribution ending with an educational question. Any congress invitation goes in a separate optional post; no sales CTA or discount in the educational piece.
+- Reuse C01–C03 on 26/28/30 Oct (submission how-to, seven-day checklist, classroom Reel); do not add another 28 Oct reminder. Price reminders: Stories/Channel on 10 and 14 Nov.
+- Programme-derived itineraries require confirmed session details; partial Even3 listings are not the final timetable.
 - Honest urgency only (real dates); no "últimas vagas" for an online event without a confirmed cap.
 - Maximum 4 Facebook posts per week, at most 2 videos; one Event update per week; 1–2 WhatsApp Channel updates per week.
 - Do not invent observances, speakers, testimonials or availability.
@@ -248,7 +185,7 @@ These prompts produce the posts themselves. Example outputs for each moment, a h
 
 ```prompt
 You are the communications writer for CONAFROEDU 2026, an online academic congress on Africanidades and anti-racist education in Brazil.
-[Paste the CONAFROEDU context block and the VOICE paragraph here]
+[Paste the CONAFROEDU context block and the canonical VOZ DA MARCA block here]
 
 Use ONLY the approved facts above. Do not invent benefits, statistics, testimonials, speakers, certificate rules, institutional support, accessibility services or scarcity. If something essential is missing, write [CONFIRMAR] outside the publishable text.
 
@@ -262,8 +199,6 @@ Each with exactly one call to action and the Even3 link. Up to 3 relevant hashta
 Do not ask for likes, tags or shares. After the versions, list every fact you used and anything a person must check.
 ```
 
-> [!NOTE]
-> [Copywriting with AI](copywriting.md#2-one-paragraph-of-brand-voice) uses a shorter English "VOICE" paragraph; [Prompting basics](prompting-basics.md#your-brand-voice-in-one-paragraph) has the Portuguese "VOZ DA MARCA" (prompt 1.2). They say the same thing. Paste one of them, not both.
 
 ### 3.2 Follow-ups that improve any draft
 
@@ -343,7 +278,7 @@ Do not claim publication, DOI, Qualis, presentation time or certificate hours. D
 Using ONLY the fact sheet above, write in natural Brazilian Portuguese:
 1. A Facebook post (60–100 words) that thanks everyone who submitted work, states that submissions closed on 4 November, and invites teachers, students and researchers to register as listeners (ouvintes) for 5 and 6 December, 100% online. Make clear that taking part does not require presenting a paper. One call to action with the Even3 link.
 2. A new pinned-post text with only the current essentials: what, when, for whom, how to register, contact.
-3. A replacement for the WhatsApp quick reply /submissao that redirects people to registration as participants.
+3. Replacements for /prazo and /comosubmeter, plus an audit of /inscricao, /valores, /modalidades, /video and /prorrogacao; use attendance wording and never imply buying a ticket reopens submissions. Remove expired package offers at their sales end.
 Do not mention any extension unless the fact sheet shows one. Mark anything uncertain as [CONFIRMAR].
 ```
 
@@ -363,7 +298,7 @@ Write a 20–25 second video script in Brazilian Portuguese for a confirmed spea
 Use ONLY the source text below. Write two bios of [FULL NAME, exactly as written] for the CONAFROEDU 2026 program: 60 words and 120 words, third person, in natural Brazilian Portuguese.
 Then give me a table "fact → exact sentence in the source".
 Mark anything unclear as [CONFIRMAR]. Do not add degrees, positions, awards, institutions, racial self-identification or publications that are not in the source. Do not correct the spelling of names.
-Source: [PASTE THE SPEAKER'S OWN BIO OR CV EXCERPT]
+Source: [PASTE ONLY MINIMAL PROFESSIONAL BIO APPROVED FOR THIS EXTERNAL AI PROCESSING; OTHERWISE STOP AND WRITE MANUALLY]
 ```
 
 ### 3.9 Speakers: the full kit drafts
@@ -374,7 +309,7 @@ Source: [PASTE THE SPEAKER'S OWN BIO OR CV EXCERPT]
 Prepare draft materials for a promo kit for confirmed speaker [NAME].
 Approved topic: [TOPIC]. Event facts: [PASTE FACT SHEET]. What we really know about their audience: [INFO or "unknown"]. Agreed benefits for the speaker: [DESCRIBE or "none"].
 Deliver in Brazilian Portuguese: (1) a short personal invitation caption, (2) a caption built around one useful idea from their topic, (3) a factual caption with date and link, (4) a 30-second vertical video script in their voice, (5) a short message they could forward to a colleague or institution.
-Do not claim support from the institution where they work. Do not invent credentials or quotes. Do not write as if they already approved. Mark where the tracked link goes. Everything will be reviewed by the team and by the speaker.
+For a benefit-for-post arrangement, check eligibility and use Meta’s paid partnership label plus clear caption disclosure; Collab does not replace it. Do not claim support from the institution where they work. Do not invent credentials or quotes. Do not write as if they already approved. Mark where the tracked link goes. Everything will be reviewed by the team and by the speaker.
 ```
 
 ### 3.10 Speakers: an Instagram Collab Reel script
@@ -401,7 +336,7 @@ Task: a Facebook post about the registration price change. Facts: current values
 **Use:** for a substantive educational contribution, ideally shaped and approved by the Black educator the team invited ([sprint, week 4](conafroedu-sprint.md#week-4--mon-16-to-sun-22-nov-novembro-negro-and-20-november)). If you invite people to the congress, do it in a separate, short post. **Output:** pt-BR. **Source (Task):** [Copywriting](copywriting.md#4-consciência-negra-friday-20-november).
 
 ```prompt
-Task: a Facebook carousel text (4 slides + caption) for 20 de novembro. Content: slide 1 the question "20 de novembro no calendário; ERER no cotidiano?"; slide 2 what Lei 10.639/2003 changed (Afro-Brazilian history and culture in the curriculum, and 20 November in the school calendar); slide 3 Lei 11.645/2008 (adds Indigenous history and culture); slide 4 one practical question for the next school-planning meeting. Cite the laws by number only, no invented statistics or quotes. Caption: reflective and respectful, ends with a soft line that CONAFROEDU continues this conversation on 5–6 December. No discount, no urgency, no submission call.
+Task: a Facebook carousel text (4 slides + caption) for 20 de novembro. Content: slide 1 the question "20 de novembro no calendário; ERER no cotidiano?"; slide 2 what Lei 10.639/2003 changed (Afro-Brazilian history and culture in the curriculum, and 20 November in the school calendar); slide 3 Lei 11.645/2008 (adds Indigenous history and culture); slide 4 one practical question for the next school-planning meeting. Cite the laws by number only, no invented statistics or quotes. Caption: reflective and respectful, with sources, credit and a genuine educational question. Keep any optional congress invitation in a **separate post**. No discount, no urgency, no submission call.
 ```
 
 > [!CAUTION]
@@ -432,7 +367,7 @@ Remind readers that registrations stay open until 6 December — do not write th
 **Use:** post these by hand on the day, never pre-scheduled. **Output:** pt-BR. **Source (Task):** [Copywriting](copywriting.md#6-live-days-56-december).
 
 ```prompt
-Task: write (a) a "Bom dia, começamos!" Facebook post for 5 December, (b) a 3-frame Story sequence with today's highlights, (c) a short schedule-change notice template, and (d) a closing thank-you post for 6 December. Facts: times in horário de Brasília from the official program; registered participants access the sessions via [CONFIRMAR: platform and how they receive the link]; support via WhatsApp (19) 98816-7751 and conapsuporte@gmail.com. Do not include any private access link. Warm, energetic but calm.
+Task: write (a) a "Bom dia, começamos!" Facebook post for 5 December, (b) a 3-frame Story sequence with today's highlights, (c) a short schedule-change notice template, and (d) a closing thank-you post for 6 December. Facts: times in horário de Brasília from the official program; registered participants access the sessions via [CONFIRMAR] — platform and how they receive the link; support via WhatsApp (19) 98816-7751 and conapsuporte@gmail.com. Do not include any private access link. Warm, energetic but calm.
 ```
 
 ### 3.16 Certificates (from 6 December)
@@ -440,7 +375,7 @@ Task: write (a) a "Bom dia, começamos!" Facebook post for 5 December, (b) a 3-f
 **Use:** once the committee confirms the criteria and the download steps. **Output:** pt-BR. **Source (Task):** [Copywriting](copywriting.md#7-certificates-from-6-december), which also gives the careful certificate wording to paste with it.
 
 ```prompt
-Task: a short Facebook post and a WhatsApp reply template explaining how to download the CONAFROEDU certificate. Facts: available from 6 de dezembro on Even3; criteria: [CONFIRMAR]; step-by-step: [CONFIRMAR with the committee]. Use the careful certificate wording provided. Do not promise acceptance as horas complementares or career progression.
+Task: a short Facebook post and a WhatsApp reply template explaining how to download the CONAFROEDU certificate. Facts: available from 6 de dezembro on Even3; criteria: [CONFIRMAR]; step-by-step: [CONFIRMAR] — with the committee. Use the careful certificate wording provided. Do not promise acceptance as horas complementares or career progression.
 ```
 
 ### 3.17 After the event: recap and proceedings status (new)
@@ -479,9 +414,10 @@ Next week's calendar rows:
 For each row, give me:
 1. A Facebook caption (60–120 words), one clear call to action, the Even3 link written out in full.
 2. A shorter Instagram version (no clickable link; say "link na bio" only if we confirm that the bio link exists).
-3. Alt text for the image (1–2 sentences, describing only what is in the image).
+3. Alt text only from the FINAL IMAGE attached or a factual description plus all visible text. If neither is supplied, write AGUARDAR IMAGEM; never invent people, objects or text.
 4. A list of every fact you used, so the reviewer can check them.
 
+FINAL IMAGES (attach, or factual descriptions + visible text): [supply per row]
 FACT SHEET (version and date): [paste]
 ```
 
@@ -607,11 +543,7 @@ Contemporary editorial illustration, clearly not a documentary photograph. Three
 
 ### 4.8 Preserving a real person's identity
 
-**Prefer a normal crop tool for this.** **Source:** [Representation & bias](representation-bias.md#prompt-patterns-that-work-better).
-
-```prompt
-Use only the approved, authorized portrait of [name] for this layout. Preserve skin tone, facial features, hair texture and volume, age and personal marks. Adjust only framing and exposure, naturally; leave an area outside the photo for the name. Do not straighten hair, slim features, lighten skin or reconstruct the face. If the request would require changing identity, say so. The text will be added and checked separately.
-```
+**Manual checklist, not a generative-edit prompt.** Use the approved original in a normal crop/exposure editor. Preserve face, skin tone, hair texture, age and personal marks; keep a name area outside the photo. Compare with the original; stop if the edit changes identity. Do not upload a real portrait for generative reconstruction. Follow the full [portrait checklist](representation-bias.md#prompt-patterns-that-work-better) and [permissions](ethics-legal.md).
 
 ### 4.9 A culturally specific session: consult before drawing
 
@@ -776,14 +708,14 @@ After building it, tell me how to download and open the HTML file.
 
 ```prompt
 Create a self-contained HTML animation, 9:16 (1080×1920), no internet or external libraries, <meta charset="utf-8">, system fonts.
-I am attaching an authorized photo of the speaker. Embed it in the HTML file itself and do not alter, retouch, lighten or crop the face.
+Only use a speaker photo approved separately for this external AI processing, with the documented privacy conditions; otherwise leave a local placeholder for a person to insert later. I am attaching such an approved photo. Embed it in the HTML file itself and do not alter, retouch, lighten or crop the face.
 
 Exact text (Brazilian Portuguese, do not change):
 "CONAFROEDU 2026 · Palestra"
 "[EXACT NAME AS APPROVED]"
 "[APPROVED ROLE / INSTITUTION]"
 "[EXACT TALK TITLE]"
-"5 de dezembro · [TIME CONFIRMED BY THE COMMITTEE] (horário de Brasília)"
+"[CONFIRMAR] — data da sessão · [CONFIRMAR] — horário (horário de Brasília)"
 "Inscrições: Even3 · link na legenda"
 
 12 seconds, play once, hold the last frame. The photo slides in during 0–2 s; the name appears at 2 s and stays visible for at least 6 seconds; the title appears at 5 s; the date and invitation appear at 8 s.
@@ -802,7 +734,7 @@ Small label at the top: "O QUE DIZ A LEI"
 Quote (exact text, do not change a single word or accent):
 "Nos estabelecimentos de ensino fundamental e de ensino médio, públicos e privados, torna-se obrigatório o estudo da história e cultura afro-brasileira e indígena."
 Highlight "obrigatório" and "história e cultura afro-brasileira e indígena".
-Source line: "LDB (Lei nº 9.394/1996), art. 26-A, com redação dada pela Lei nº 11.645/2008"
+Source line: dark-brown text on an opaque cream panel, with at least 4.5:1 contrast at its displayed phone size; keep this panel and the final box inside the safe area. Text: "LDB (Lei nº 9.394/1996), art. 26-A, com redação dada pela Lei nº 11.645/2008"
 Final box: "CONAFROEDU 2026 — 5 e 6 de dezembro de 2026 — 100% online"
 
 Words appear one at a time, about 4 per second, and stay on screen. Then the source appears, then the final box. Total about 14 s, play once, hold the last frame. Put the quote text and the speed in clearly labeled settings at the top of the file so I can change them without knowing code. Keep everything inside the safe area.
@@ -859,9 +791,9 @@ The ready-to-paste Portuguese answers (`/datas`, `/valores`, `/prazo`, `/certifi
 **Output:** pt-BR. **Source:** [Instagram & WhatsApp](instagram-whatsapp.md#write-the-quick-replies-from-the-fact-sheet).
 
 ```prompt
-Using ONLY the fact sheet below, write WhatsApp Business quick replies in natural Brazilian Portuguese for these shortcuts: /inscricao, /submissao, /programacao, /acesso, /certificado, /anais, /acessibilidade, /humano.
+Using ONLY the fact sheet below, write WhatsApp Business quick replies in natural Brazilian Portuguese for these shortcuts: /inscricao, /valores, /prazo, /comosubmeter, /datas, /acesso, /certificado, /publicacao, /acessibilidade, /humano.
 Each reply: up to 60 words, friendly and clear, one link at most. Where the fact sheet doesn't answer, write [CONFIRMAR] — never guess (especially about certificate criteria, whether presenting is mandatory, and access).
-Add a version of /submissao for after the deadline (4/11) that redirects people to registration as participants.
+After the confirmed 4/11 cutoff, review every reply, especially /inscricao, /valores, /prazo, /comosubmeter, /modalidades and /video. Redirect new enquiries to attendance without implying a new paper can be submitted.
 Fact sheet: [paste].
 ```
 
@@ -954,7 +886,7 @@ Output in Brazilian Portuguese. Approved release: [PASTE]
 ```prompt
 Write a one-page brief in Brazilian Portuguese for volunteer ambassadors of the CONAFROEDU 2026 congress.
 Facts: [PASTE FACT SHEET]. Their agreed commitment: [DESCRIBE]. Benefits they receive: [DESCRIBE or "none"].
-Include: why their help matters (2 sentences), the key dates, what to share and where, 3 short caption examples in different tones, what NOT to promise (certificate recognition, Qualis, career progression, scarcity), how to handle questions (redirect to the official WhatsApp (19) 98816-7751 or conapsuporte@gmail.com), and a reminder to disclose any benefit. Warm, clear, no marketing jargon.
+Include: why their help matters (2 sentences), the key dates, what to share and where, 3 short caption examples in different tones, what NOT to promise (certificate recognition, Qualis, career progression, scarcity), how to handle questions (redirect to the official WhatsApp (19) 98816-7751 or conapsuporte@gmail.com), and a reminder to disclose any benefit, check branded-content eligibility and use Meta’s paid partnership label for benefit-for-post arrangements. Warm, clear, no marketing jargon.
 ```
 
 ### 8.5 WhatsApp Status texts for ambassadors
@@ -962,7 +894,7 @@ Include: why their help matters (2 sentences), the key dates, what to share and 
 **Output:** pt-BR. **Source:** [Instagram & WhatsApp](instagram-whatsapp.md#status-messages-for-ambassadors).
 
 ```prompt
-Write 3 short WhatsApp Status texts (max 140 characters each) in natural Brazilian Portuguese that a teacher could post to invite colleagues to CONAFROEDU — personal, warm, not salesy. Each must mention 5–6 December and 100% online, and end with "link: [link rastreável]". Give one version for teachers, one for undergraduates and one for researchers. No invented benefits; the 40-hour certificate may be mentioned as "certificado de 40 horas" only.
+Write 3 short WhatsApp Status texts (max 140 characters of message text each, excluding the supplied URL; append that URL unchanged and report total characters) in natural Brazilian Portuguese that a teacher could post to invite colleagues to CONAFROEDU — personal, warm, not salesy. Each must mention 5–6 December and 100% online, and end with "link: [link rastreável]". Give one version for teachers, one for undergraduates and one for researchers. No invented benefits; the 40-hour certificate may be mentioned as "certificado de 40 horas" only.
 ```
 
 ## 9. Measurement
@@ -1094,7 +1026,7 @@ Prepare an accessibility review for this social media asset. Answer in Brazilian
 Factual description of the image/video and all visible text: [PASTE]. Corrected transcript, if video: [PASTE].
 1) Write a short alt text (max. 250 characters) conveying the important information, without assuming anyone's identity, race, disability or emotions.
 2) List the information that appears only in the image and must be repeated in the caption (date, time zone, price, link).
-3) For video: list speech, speaker identification and relevant sounds that need captions.
+3) For video: list speech, speaker identification and sounds needing captions, plus essential visual information that must be narrated or described.
 4) List what a person must check visually before publishing (contrast, small text, edges).
 ```
 
@@ -1111,6 +1043,18 @@ For video clips, the cover-title and description prompt in [section 5.6](#56-cap
 - [ ] Images and videos passed the [representation checklist](representation-bias.md#pre-publication-review-checklist); realistic AI media is labeled.
 - [ ] No personal data was pasted into the AI tool.
 - [ ] A second person checked it with the [60-second fact check](prompting-basics.md#the-60-second-fact-check).
+
+## Setup and learning prompts
+
+First follow [Installing and configuring tools](setup-tools.md); use [Learning with AI](learning-with-ai.md) for the full learning method. Never paste passwords, API keys, private inboxes or participant records.
+
+```prompt
+Help me set up [TOOL] on [DEVICE/OS]. I have only used chatgpt.com or claude.ai. Use the official setup source I supply: [URL/text]. Explain one step at a time, what it costs and which permissions it asks for. Pause after each step so I can report what I see. If my screen differs, ask me for the visible labels; do not invent buttons. Never ask for a password, API key or login code in chat. Start with a harmless test using public CONAFROEDU facts.
+```
+
+```prompt
+Teach me [ONE TASK] so I can do it myself. My starting level: beginner. Use the official source [URL/text] and my goal [CONAFROEDU TASK]. First ask one diagnostic question; explain with one small example; then give me a practice task without the answer. Check my attempt and explain mistakes. Separate sourced facts from uncertain UI details. End with a short checklist I can use without you. Answer in Brazilian Portuguese.
+```
 
 ## Next steps
 

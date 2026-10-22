@@ -7,10 +7,13 @@ icon: ⚙️
 updated: 2026-10-21
 ---
 
-**What you'll get from this page:** a beginner-friendly introduction to no-code automation tools (Zapier, Make, n8n), what their free tiers really include, and **five ready-to-build flows** for CONAFROEDU. Each flow comes with a simple diagram, numbered steps, a "zero-tool" alternative, and the guardrails that stop an automation from embarrassing you. Every flow follows one pattern: **AI drafts, a human approves.**
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#ai-studio) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
+
+**What you'll get from this page:** a beginner-friendly introduction to no-code automation tools (Zapier, Make, n8n), what their free tiers really include, and **five recipes to configure and test** for CONAFROEDU. Each flow comes with a simple diagram, numbered steps, a "zero-tool" alternative, and the guardrails that stop an automation from embarrassing you. Every flow follows one pattern: **AI drafts, a human approves.**
 
 > [!IMPORTANT]
-> Automate a task only after you've done it by hand a few times and know exactly what "correct" looks like. With six weeks left, a shared spreadsheet and a 15-minute daily routine beat a half-finished automation. Build at most **one or two** flows below, and only if a volunteer enjoys this kind of work.
+> Automate a task only after you've done it by hand a few times and know exactly what "correct" looks like. With six weeks left, a shared spreadsheet and two daily 15-minute inbox passes beat a half-finished automation. Build at most **one or two** flows below, and only if a volunteer enjoys this kind of work.
 
 ## Key words in plain language
 
@@ -33,7 +36,9 @@ updated: 2026-10-21
 | **n8n** | **Free if you host it yourself** (Community edition, "Sustainable Use License", fine for your own internal use) ([license FAQ](https://support.n8n.io/article/can-i-use-your-license-for-my-use-case)) | n8n Cloud Starter about **€ 20/month** (annual billing), 2,500 executions ([pricing](https://n8n.io/pricing/)) | Self-hosting means someone handles the server, updates, backups and security. There is no permanent free cloud plan. |
 
 > [!WARNING]
-> **A free AI chat is not a free AI API.** Your free Claude, ChatGPT or Gemini account does *not* let Zapier, Make or n8n call the model. Automations that use AI need an **API key with its own billing** (usually a credit card), or the tool's own AI credits, which have limits. Small volumes cost little, but they are not zero. Polling, retries and errors also use up quota even when nothing useful happens.
+> **A chat subscription does not automatically include API use.** OpenAI and Anthropic APIs normally need separate billing. The [Gemini API has a Free tier for eligible models](https://ai.google.dev/gemini-api/docs/billing); check limits and data handling. Keep participant data out of this drafting flow.
+>
+> [Make counts each polling check](https://help.make.com/operations), even without new rows. [Zapier triggers/polls and failed actions do not consume tasks](https://help.zapier.com/hc/en-us/articles/8496196837261-How-is-task-usage-measured-in-Zapier); successful actions, including repeated successful replay steps, can count. Check n8n's execution rules separately.
 
 **Simple rule for CONAFROEDU:** use **Zapier Free** for one simple two-step notification, or **Make Free** if you need a few more steps. Use n8n only if a technical volunteer already runs it.
 
@@ -66,7 +71,7 @@ Every flow on this page uses the same safety pattern. The automation prepares th
 **Problem it solves:** people ask "can you let me know when the programme is out?" You need their **permission** recorded, and a person needs to follow up.
 
 ```text
-Google Form (with consent checkbox)
+Google Form (required affirmative consent; one selected channel)
         │  new response
         ▼
 Google Sheet "Avisos – opt-in"   ←── stores answer + consent text + date/time
@@ -75,20 +80,22 @@ Google Sheet "Avisos – opt-in"   ←── stores answer + consent text + date
 Email to the committee inbox: "New opt-in: [first name], channel: [WhatsApp/email]"
         │
         ▼
-Human adds the person to the right list and replies manually
+Human checks consent, selected channel and suppression record before enrollment
 ```
 
 **Zero-tool version:** Google Forms can email you when new responses arrive (in the Responses tab). For a small event, that may be enough. You don't need Zapier at all.
 
 **Build it with Zapier Free (about 30 minutes):**
 
-1. Create a **Google Form** with: first name; preferred channel (email or WhatsApp); email or WhatsApp number; and an **unticked** consent checkbox with clear text (below).
+1. Use this form **only for subscribing**. Ask for first name, one preferred channel and its contact. Add one initially unchecked affirmative consent option and enable **Required** ([Google Forms help](https://support.google.com/docs/answer/2839737?hl=en)). Name the controller/contact and privacy notice; state purpose, frequency, end date and opt-out. Do not bundle channels.
 2. In the form's **Responses** tab, link it to a new Google Sheet.
 3. In Zapier, click **Create → Zap**.
 4. **Trigger:** Google Sheets → *New Spreadsheet Row*. Connect the committee's Google account, then choose the spreadsheet and worksheet. Click **Test**.
-5. **Action:** Gmail (or Email by Zapier) → *Send Email*. To: the committee inbox. Subject: `Novo opt-in CONAFROEDU`. Body: first name, channel and date only (keep personal data out of email where possible).
-6. **Test**, then **Publish**. Submit a test response from a teammate.
-7. Each new row uses 1 task. 100 tasks/month is plenty.
+5. **Action:** Gmail → *Send Email* to the committee. Include row ID, selected channel, consent answer, consent-text version and date. Call it a **subscription request**. A human checks the restricted sheet and suppression record before enrollment.
+6. **Test before publishing:** affirmative consent reaches the alert; an unchecked option must block form submission and never enroll a contact. Test the chosen channel and a suppressed contact. If non-subscribers can also submit, use a separately verified consent filter before enrollment; that is a different workflow.
+7. One successful email action uses one task per new row. Budget tests too; 100 tasks/month may suffice for a small list.
+
+**Alternative sender limit:** Email by Zapier’s action is **Send Outbound Email**, limited to **5 emails/day on Free/Trial** ([official integration](https://zapier.com/apps/email/integrations)). Do not confuse this with the monthly 100-task quota. If that cap or Gmail connection access blocks you, use Google Forms’ native alerts and the sheet; do not buy a plan just for alerts.
 
 Consent text (adapt and have the committee approve):
 
@@ -123,10 +130,10 @@ Human checks → edits → sends from WhatsApp/email → marks "sent"
 1. Create a Google Sheet "Perguntas" with columns: `ID`, `Data`, `Canal`, `Pergunta (sem dados pessoais)`, `Categoria`, `Rascunho`, `Status`, `Respondido por`.
 2. In Make, **Create a new scenario**.
 3. Add **Google Sheets → Watch New Rows**. Connect the account, then choose the sheet and the start point ("from now on").
-4. Add your AI provider's module (OpenAI, Anthropic Claude or Google Gemini appear in Make's app list). You need an **API key with billing** from that provider.
+4. Add the chosen AI provider module and its API key; enable billing **where required**. For Gemini, select an eligible Free-tier model and check data terms. Make credits still apply.
 5. In the prompt field, paste the approved FAQ text and the drafting rules (below), then map the "Pergunta" column into it.
-6. Add **Google Sheets → Update a Row**. Write the AI output into `Rascunho` and set `Status` = `needs review`.
-7. Set the schedule, for example every 15 minutes or a few times a day. Fewer runs use fewer credits.
+6. Add **Google Sheets → Update a Row**. Map the **Row number** from the trigger to update that same row; write the AI output into `Rascunho` and set `Status` = `needs review`. Test two different questions to ensure neither overwrites the other.
+7. Start with **four checks a day**: about **120 trigger credits per 30 days**, plus AI and update credits per question. Every 15 minutes means 2,880 checks in 30 days, exceeding the 1,000-credit allowance before processing questions. Check actual credit use.
 8. Run once with a test row. Check the credits used in Make's history.
 9. Turn it on. **Never add a "send message" step.** A human sends.
 
@@ -141,7 +148,7 @@ QUESTION: {{Pergunta}}
 
 ## Flow 3 — Approved Group post → calendar reminder for a human
 
-**Problem it solves:** posts in other people's Facebook Groups **must** be made by hand (Meta removed automatic Group publishing). Volunteers forget.
+**Problem it solves:** posts in other people's Facebook Groups **must** be made by hand (this workflow uses manual posting in other people’s groups; native scheduling remains available in groups you manage). Volunteers forget.
 
 ```text
 Content sheet tab "Lembretes – grupos" (one row per approved group post)
@@ -161,6 +168,8 @@ Volunteer posts by hand → pastes the post link back into the sheet
 3. Zapier → **Create Zap**. Trigger: **Google Sheets → New Spreadsheet Row** on that tab.
 4. Action: **Google Calendar → Create Detailed Event**. Use the date/time columns, title `Postar no grupo {{Grupo}}`, the description with text, link and rules, and the volunteer's email as attendee.
 5. Test with one row, then publish.
+
+For calendar mapping, add explicit **Start_BRT** and **End_BRT** values in the sheet (e.g. `2026-10-28T19:00:00-03:00` and `2026-10-28T19:15:00-03:00`). Map both fields, select the committee calendar, and verify its displayed Brasília date/time after a test. This avoids relying on ambiguous day/month parsing or another paid formatting step. Keep a unique row ID and check for an existing reminder before replaying a successful run.
 
 **Zero-tool version:** create the calendar events by hand. For 5–10 group posts in the whole campaign, that takes ten minutes.
 
@@ -189,20 +198,17 @@ Human opens the ORIGINAL article, checks rights & relevance → idea enters the 
 
 **Steps (Make Free):**
 
-1. List 3–5 trusted sources that publish RSS feeds (for example, news sections of institutions you already follow). Check each feed address on the source's own site. Don't use random aggregators.
-2. Make → new scenario → **RSS → Watch RSS feed items** (one per feed, or use a router).
-3. **Google Sheets → Search Rows** for the item link. Continue only if it is not found (de-duplication).
-4. Optional AI module: *"Summarize in 2 sentences in Brazilian Portuguese for teachers; explain the link to anti-racist education; do not add facts that are not in the text; include the source link and date."*
-5. **Google Sheets → Add a Row** with title, link, date, summary, status `needs review`.
-6. Run once or twice a day.
+1. Choose **one** trusted institution with a working RSS feed, verified on its own site.
+2. Make → new scenario → **RSS → Watch RSS feed items** as the sole trigger. [A trigger must be first and can appear only once](https://help.make.com/types-of-modules); a router branches incoming data and cannot merge independent Watch triggers.
+3. Beginner version: **Google Sheets → Add a Row** with title, original URL, date and `needs review`. Keep AI summaries optional and manual.
+4. Once or twice daily, a person checks for already listed URLs, marks repeated rows `duplicate` and approves only one copy. This avoids relying on an untested search/no-match branch.
+5. Test a new URL, a repeated URL and an empty feed. No empty rows or duplicate calendar entries should appear. For automated de-duplication, ask a technical volunteer to configure and test empty-search continuation first.
 
-**Rules:** always read the original before posting. Never republish whole articles, so link and comment instead. If the summary can't be checked against the original, discard it.
-
-This flow uses your second (and last) active Make Free scenario. Choose between Flow 2 and Flow 4 if you are on the free plan.
+**Rules:** read the original before posting; link and comment instead of reproducing articles. Discard uncheckable summaries. This one feed uses one active scenario; Flow 2 plus Flow 4 uses both Make Free slots. Each additional independent Watch feed needs another scenario. Respect the two-slot and credit limits.
 
 ## Flow 5 — Weekly results report (human-in-the-loop)
 
-**Problem it solves:** the Friday review takes too long, and nobody remembers what worked.
+**Problem it solves:** the Monday review takes too long, and nobody remembers what worked.
 
 ```text
 Monday: export last week's Page/Instagram insights (CSV) + Even3 aggregate report
@@ -242,7 +248,7 @@ If a technical volunteer wants to try a webhook flow ("new paid registration →
 ## Safety must-haves for any automation
 
 - [ ] **Approval boundary:** nothing public or personal is sent without a named human approving it.
-- [ ] **Duplicate key:** each item has an ID, and the flow checks it before acting.
+- [ ] **Duplicate key:** each item has an ID, checked before any outward action; Flow 4 uses human duplicate review.
 - [ ] **Stop switch:** everyone knows how to turn the scenario/Zap off (and who is allowed to).
 - [ ] **Owner:** one named person checks the run history twice a week.
 - [ ] **Quota alerts:** check usage (tasks/credits) weekly. Free tiers just stop when they run out.

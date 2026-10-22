@@ -7,6 +7,9 @@ icon: 📘
 updated: 2026-10-21
 ---
 
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#meta-business-suite) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
+
 **What you'll get from this page:** a practical, zero-budget plan for using a Facebook Page to fill an online academic congress. You will learn how Facebook ranks content today (in plain language), how to create or fix the Page step by step, which post formats to try, a realistic weekly rhythm for a small volunteer team, Brazil-specific timing, and copy-paste AI prompts. Everything uses **CONAFROEDU 2026** (5–6 December, 100% online) as the example.
 
 > [!IMPORTANT] Where CONAFROEDU stands today (21 October 2026)
@@ -16,7 +19,7 @@ updated: 2026-10-21
 
 1. **One Page, one Event, one registration link.** The Page is your public home; the Facebook Event is the stable listing; [Even3](https://www.even3.com.br/iconafroedu-764690/) is where people actually register and submit papers.
 2. **Post useful education content with real people**, not a poster every day. Meta's 2026 guidance favors original content made by the Page itself ([Meta, March 2026](https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/)).
-3. **3–4 good posts a week is enough** for a team with about 5–7 combined hours weekly. Answering comments matters more than posting more.
+3. **Three main posts weekly, optional fourth**, is our full-plan starting point (about **12–17 combined person-hours/week**, estimated). Answering comments matters more than posting more.
 4. **Respect the two clocks:** paper submissions close **4 November**; registrations run until **6 December**. Your posts must say which one they are about.
 5. **Measure registrations, not likes.** Use tagged links and Even3's own reports (see [Measuring results](measuring-results.md)).
 
@@ -149,6 +152,7 @@ The lengths above are **starting experiments**, not Meta rules.
 
 ### Reels checklist
 
+- [ ] Essential visual information (screen steps, slide text, animation) is narrated or has an equivalent description; test without looking at the screen.
 - [ ] Real speaker or teacher, recorded **with written permission**; keep the clean original file.
 - [ ] Start with the educator's problem, not a logo animation.
 - [ ] Give one useful example **before** the invitation.
@@ -183,7 +187,7 @@ Nobody has proven that Facebook penalizes every external link, or that "link in 
 2. Put a direct link in posts whose job is registration or submission.
 3. Make educational posts useful **without** requiring a click.
 4. If Facebook shows your Page a link-restriction notice, write down the exact message and adapt — don't use spam accounts or disguised links.
-5. Use **tagged links** (UTM parameters) so Even3's analytics can tell you which posts brought registrations:
+5. Use **tagged links** (UTM parameters) to distinguish visit sources; attribute registrations only after the event panel validates that connection:
 
 ```text
 https://www.even3.com.br/iconafroedu-764690/?utm_source=facebook&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=reel_professora_01
@@ -193,7 +197,7 @@ Use `conafroedu_2026_submissoes` for author posts and `conafroedu_2026_inscricoe
 
 ## Hashtags: few and relevant
 
-On Facebook, hashtags are clickable topic labels ([Meta](https://about.fb.com/news/2013/06/public-conversations-on-facebook/)); there is no proven reach boost and no verified "best number". Excessive hashtags are flagged as spammy behavior. Start with **zero to three** per post:
+On Facebook, hashtags are clickable topic labels ([Meta](https://about.fb.com/news/2013/06/public-conversations-on-facebook/)); there is no proven reach boost and no verified "best number". Excessive hashtags are flagged as spammy behavior. Our team convention is **zero to three** per post (not a platform maximum):
 
 - General: `#CONAFROEDU #EducaçãoAntirracista #Africanidades`
 - Author posts: swap one for `#PesquisaEmEducação` or `#PósGraduação`
@@ -205,16 +209,18 @@ Don't paste all 12 hashtags from the announcement into every post.
 
 ### A realistic weekly rhythm
 
-For a team with about **5–7 combined hours a week**:
+For the full plan, budget about **12–17 combined person-hours/week**, including review and partnerships (estimates, not benchmarks):
 
 - **3–4 Facebook posts**, including 1–2 original Reels and one useful image, multi-photo or text post.
 - Adapt the best 2–3 pieces for Instagram.
 - Stories on 3–5 days when there's something real to show.
 - **One** useful update inside the Facebook Event.
 - One or two WhatsApp Channel updates.
-- **A daily 15-minute check** for comments and messages, plus a 30-minute weekly review.
+- **Two daily 15-minute passes** for comments and messages, plus a 30-minute weekly review.
 
 Nothing proves daily posting is necessary. Cut any format that eats time without producing conversations or registrations.
+
+**If only 5–7 combined hours/week are available:** protect 3.5 hours for two daily 15-minute inbox passes, 30 minutes for weekly review/FAQ, about 1–2 hours for two simple approved Facebook pieces (at most one easy phone video), and 30–60 minutes for a few partner contacts and adapting one piece. Reuse that piece for the Event/Channel; skip new Group/channel setup, elaborate video and agents. Deadline/event days need extra staffed cover or a published reduced service window. Two people in a 90-minute session use three person-hours.
 
 ### When to post: test, don't guess
 
@@ -267,20 +273,7 @@ Meta has demoted "engagement bait" for years, including in Portuguese ([Meta](ht
 
 AI is great for **drafting, adapting and checking** — people must **verify and approve**. The single best habit: keep a **fact sheet** (ficha oficial) and paste it into every prompt.
 
-```text
-FICHA OFICIAL — CONAFROEDU 2026 (revisada em [data] por [nome])
-Nome: CONAFROEDU — Congresso Nacional de Africanidades na Educação (1ª edição)
-Tema: Desenvolvimento, Participação e Educação Antirracista
-Datas: 5 e 6 de dezembro de 2026, 100% on-line (horário de Brasília)
-Inscrições: https://www.even3.com.br/iconafroedu-764690/ (até 6/12)
-Submissões: até 4/11/2026, horário [CONFIRMAR]; vídeo de apresentação até 4/11
-Modalidades: [copiar exatamente das normas na Even3]
-Valores até 15/11: [copiar da Even3]; a partir de 16/11: [copiar da Even3]
-Taxa de publicação nos anais: R$ 16,98 por trabalho (além da inscrição)
-Certificado: 40 horas — critérios: [CONFIRMAR com a comissão]
-Programação oficial: até 25/11
-Contato: WhatsApp (19) 98816-7751 · conapsuporte@gmail.com
-```
+Use the master [FICHA OFICIAL](prompting-basics.md), maintained by Coordination with version, verifier, source and next update. This guide does not define a second fact-sheet master.
 
 ### Prompt: three Facebook captions from approved facts
 

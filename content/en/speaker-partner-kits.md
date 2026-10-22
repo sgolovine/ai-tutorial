@@ -7,6 +7,9 @@ icon: 🤝
 updated: 2026-10-21
 ---
 
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#canva) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
+
 **What you'll get from this page:** four ready-to-build promo kits for CONAFROEDU 2026 (accepted authors, speakers, partner institutions and volunteer ambassadors). You'll also get step-by-step instructions to make them in Canva Free, copy-paste AI prompts, the Even3 features that help (and the ones that aren't confirmed yet), and a plan for collecting user-generated content (UGC) honestly.
 
 A **promo kit** is a small folder with everything someone needs to share the congress in their own voice: an image or two, a short video if possible, two or three suggested captions, the right link, and the facts. You prepare it, they decide whether and how to use it.
@@ -16,7 +19,7 @@ A **promo kit** is a small folder with everything someone needs to share the con
 
 ## Why kits matter so much for CONAFROEDU
 
-CONAFROEDU is a first edition with no established Facebook following yet. Its real distribution network is the people already involved:
+CONAFROEDU is a first edition; the committee must check its actual Facebook audience. Its real distribution network is the people already involved:
 
 - **Accepted authors.** Each work can have up to six authors (according to the published rules). Every acceptance is a real, positive piece of news that authors *want* to share with their colleagues, graduate program (PPG), school and family.
 - **Speakers.** They bring authority and their own academic and teaching networks.
@@ -36,7 +39,7 @@ None of this is a guaranteed result. It's a sensible bet for a no-budget campaig
 
 ## Before you build anything: facts and permissions
 
-Every kit is only as good as the facts inside it. Build a one-page **fact sheet** first (if the team already has one from the [brand kit](brand-kit.md) guide, reuse it) and paste it into every AI prompt.
+Every kit is only as good as the facts inside it. Build a one-page **fact sheet** first using the canonical [FICHA OFICIAL](prompting-basics.md), maintained by Coordination with version, verifier, source and next update and paste it into every AI prompt.
 
 **Confirmed public facts (check the Even3 page again before each kit):**
 
@@ -75,14 +78,14 @@ Timing. Submissions close on 4 November and the event promises a review result w
 
 | Write | Don't write (yet) | Why |
 |---|---|---|
-| "Meu trabalho foi aprovado no I CONAFROEDU" | "Publicado nos anais com DOI" | Proceedings are a target for 15 Dec; the DOI doesn't exist until publication happens |
+| "Meu trabalho foi aprovado no I CONAFROEDU" | "Publicado nos anais com DOI" | Proceedings are a target for 15 Dec; acceptance does not prove publication. Announce publication only once it exists, and use only a DOI confirmed by the publisher ([Crossref](https://www.crossref.org/documentation/research-nexus/pending-publications/)) |
 | "Vou participar do congresso em 5 e 6/12" | "Vou apresentar às 14h no dia 5" | The official program comes by 25 Nov; current entries are provisional |
 | "Trabalho aprovado na modalidade resumo expandido" | "Qualis A", "vale pontos" | ISBN/DOI do not establish a Qualis rating; recognition depends on each institution |
 | Names of co-authors who agreed | Names of co-authors who weren't asked | Each person named should agree before the post goes out |
 
 ### How to deliver it: the cheapest path first
 
-**Option A: self-service template (recommended).** Build the card once in Canva Free and share an editable link so each author fills in their own name and title. The committee never has to handle a bulk list of names, and you don't spend hours personalizing cards. In Canva, use the **Share** button; if your plan shows an option to share the design as a template (so each person gets their own copy), use it. If not, use option B.
+**Option A: copy-generating template, if available.** Never share edit access to the master. If your plan offers a template link that gives each person a separate copy, test it with another account first. If unavailable, send the blank PNG in option B. A normal edit link changes the shared master ([Canva sharing help](https://www.canva.com/help/share-via-link-or-email/)).
 
 **Option B: blank image.** Export a PNG with an empty band where the author's name would go. Authors add their name with the text tool in Instagram, WhatsApp Status or any editor.
 
@@ -99,7 +102,7 @@ Timing. Submissions close on 4 November and the event promises a review result w
 5. Use high contrast (dark text on light background or the reverse) and at least two text sizes. Check it at phone size.
 6. Ask a second volunteer to check every accent: *Participação*, *Educação*, *Antirracista*, *Africanidades*.
 7. **Duplicate** the page and rearrange the elements on a new **1080 × 1920** design for Stories (one-click resize may be a paid feature).
-8. Export as PNG, and share the editable link (option A) or the blank PNG (option B).
+8. Share the **tested copy-generating template link**, or export and send the blank PNG. Do not send the master edit link.
 
 > [!NOTE]
 > If you'd like a decorative background, you can generate a text-free one with an AI image tool, but a solid color with simple shapes is safer and faster. If you use AI imagery, read [Representing Black & African Cultures Respectfully](representation-bias.md) first; avoid generic "African" patterns and sacred symbols as decoration.
@@ -160,9 +163,9 @@ Only **confirmed** speakers. The program on Even3 currently lists named speakers
 ### Step by step
 
 1. **Ask first.** Send a short message through the contact the speaker already uses with the committee. Ask what they're comfortable sharing and how much time they have. A single useful post is better than five identical posters.
-2. **Draft the bio with AI from real sources only.** Paste their own CV excerpt or the bio they sent you and use the prompt below. Never let AI "complete" a bio from memory; it invents degrees and positions.
+2. **Write manually by default.** AI may use only a minimal professional bio approved for processing by the chosen committee-approved service, with the privacy conditions in [ethics](ethics-legal.md). Permission to publish alone does not authorize external AI processing. Never paste a full CV, contacts or sensitive details; do not let AI fill gaps from memory.
 3. **Make the portrait card without changing the person.** Use the approved photo with a normal crop. Don't use AI "enhance", background replacement or beauty filters. These can lighten skin, smooth features or alter hair. Compare any edit side by side with the original.
-4. **Ask for a phone video.** Suggested script: "Olá, eu sou [nome], da [instituição]. No CONAFROEDU, nos dias 5 e 6 de dezembro, vou falar sobre [tema]. Uma pergunta que vamos discutir é: [pergunta]. As inscrições estão no Even3." Window light, quiet room, phone vertical.
+4. **Ask for a phone video.** Suggested script: "Olá, eu sou [nome], da [instituição]. No CONAFROEDU, nos dias 5 e 6 de dezembro, vou falar sobre [tema]. Uma pergunta que vamos discutir é: [pergunta]. As inscrições estão no Even3." Window light, quiet room, phone vertical. Speak any essential slide/screen text or visual demonstration aloud.
 5. **Add accurate captions** to the video (see [Reels, Clips, Captions & Dubbing](video-repurposing.md)) and check every name.
 6. **Send the kit** in one message with a folder link (Google Drive or similar), not ten separate files.
 7. **Suggest a light schedule:** reveal post, one useful answer (the video), a final invitation in the last week.
@@ -174,7 +177,7 @@ Only **confirmed** speakers. The program on Even3 currently lists named speakers
 Use ONLY the source text below. Write two bios of [FULL NAME, exactly as written] for the CONAFROEDU 2026 program: 60 words and 120 words, third person, in natural Brazilian Portuguese.
 Then give me a table "fact → exact sentence in the source".
 Mark anything unclear as [CONFIRMAR]. Do not add degrees, positions, awards, institutions, racial self-identification or publications that are not in the source. Do not correct the spelling of names.
-Source: [PASTE THE SPEAKER'S OWN BIO OR CV EXCERPT]
+Source: [PASTE ONLY MINIMAL PROFESSIONAL BIO APPROVED FOR THIS EXTERNAL AI PROCESSING; OTHERWISE STOP AND WRITE MANUALLY]
 ```
 
 ### Prompt: the full speaker kit drafts
@@ -183,7 +186,7 @@ Source: [PASTE THE SPEAKER'S OWN BIO OR CV EXCERPT]
 Prepare draft materials for a promo kit for confirmed speaker [NAME].
 Approved topic: [TOPIC]. Event facts: [PASTE FACT SHEET]. What we really know about their audience: [INFO or "unknown"]. Agreed benefits for the speaker: [DESCRIBE or "none"].
 Deliver in Brazilian Portuguese: (1) a short personal invitation caption, (2) a caption built around one useful idea from their topic, (3) a factual caption with date and link, (4) a 30-second vertical video script in their voice, (5) a short message they could forward to a colleague or institution.
-Do not claim support from the institution where they work. Do not invent credentials or quotes. Do not write as if they already approved. Mark where the tracked link goes. Everything will be reviewed by the team and by the speaker.
+For a benefit-for-post arrangement, check eligibility and use Meta’s paid partnership label plus clear caption disclosure; Collab does not replace it. Do not claim support from the institution where they work. Do not invent credentials or quotes. Do not write as if they already approved. Mark where the tracked link goes. Everything will be reviewed by the team and by the speaker.
 ```
 
 ## Kit 3: Partners (NEABIs/NEABs, graduate programs, associations, collectives)
@@ -230,7 +233,7 @@ An ambassador program is just a small, organized group of people who already lik
 2. **Agree on a light commitment**, for example: one Feed post, one WhatsApp Status and one message to a group they already belong to, over the whole campaign.
 3. **Give each one a personal tracked link** (and a coupon, only if the committee approves one).
 4. **Write a one-page brief:** facts, deadlines, what not to promise (certificate credit, Qualis, progression), how to reply to questions ("send them to the official WhatsApp"), and the contact for doubts.
-5. **Disclose benefits.** If ambassadors receive a complimentary registration or anything else, they should say so openly in their posts ("recebi uma inscrição cortesia da organização").
+5. **Disclose benefits and use the platform control.** If promotion is exchanged for complimentary admission, payment or another benefit, check eligibility and use Meta’s **paid partnership label**, plus caption disclosure. Collab does not replace the label. Resolve availability before agreeing to the arrangement ([Meta](https://about.fb.com/fr/news/2023/02/comment-meta-accompagne-les-createurs-de-contenus-et-les-acteurs-de-linfluence-en-ligne/)).
 6. **Reward real help, not vanity.** Don't reward likes, comments, tagging friends or adding people to groups. Thank people publicly (with permission) and share results with them.
 
 > [!CAUTION]
@@ -241,25 +244,25 @@ An ambassador program is just a small, organized group of people who already lik
 ```prompt
 Write a one-page brief in Brazilian Portuguese for volunteer ambassadors of the CONAFROEDU 2026 congress.
 Facts: [PASTE FACT SHEET]. Their agreed commitment: [DESCRIBE]. Benefits they receive: [DESCRIBE or "none"].
-Include: why their help matters (2 sentences), the key dates, what to share and where, 3 short caption examples in different tones, what NOT to promise (certificate recognition, Qualis, career progression, scarcity), how to handle questions (redirect to the official WhatsApp (19) 98816-7751 or conapsuporte@gmail.com), and a reminder to disclose any benefit. Warm, clear, no marketing jargon.
+Include: why their help matters (2 sentences), the key dates, what to share and where, 3 short caption examples in different tones, what NOT to promise (certificate recognition, Qualis, career progression, scarcity), how to handle questions (redirect to the official WhatsApp (19) 98816-7751 or conapsuporte@gmail.com), and a reminder to disclose any benefit, check branded-content eligibility and use Meta’s paid partnership label for benefit-for-post arrangements. Warm, clear, no marketing jargon.
 ```
 
 ## Even3 features that help (and what isn't confirmed)
 
 | Feature | Status | How to use it for kits | Watch out |
 |---|---|---|---|
-| **Discount coupons** | Documented in Even3 Help: fixed value or percentage, number of uses, expiry date and eligible ticket categories ([Help: coupons](https://ajuda.even3.com.br/hc/pt-br/articles/212182786-Criar-cupons-de-desconto)) | A partner-specific coupon (e.g. a code like `NEABPARCEIRO`, just an example) lets you count how many registrations each partner brought, even when the link was forwarded or typed on another device | A discount reduces revenue. The committee must approve the terms and test the code before anyone publishes it. No coupon exists for CONAFROEDU today |
+| **Discount coupons** | Documented in Even3 Help: fixed value or percentage, number of uses, expiry date and eligible ticket categories ([Help: coupons](https://ajuda.even3.com.br/hc/pt-br/articles/212182786-Criar-cupons-de-desconto)) | A partner-specific coupon (e.g. a code like `NEABPARCEIRO`, just an example) lets you count uses of that partner code, separately from proving the partner caused the sale, even when the link was forwarded or typed on another device | A discount reduces revenue. The committee must approve the terms and test the code before anyone publishes it. No CONAFROEDU coupon was verified (confirm with the committee) |
 | **Partner / referral links** | Advertised on Even3's [marketing features page](https://plataforma.even3.com.br/solucoes/divulgacao-de-eventos/); setup is **not** documented in the Help Center at the time of writing | Check the organizer panel or ask Even3 support whether your event has it | Don't promise commissions or automatic tracking until you've seen it working. Fallback: UTM links (below) |
 | **Notifications to authors/participants** | Documented ([Help](https://ajuda.even3.com.br/hc/pt-br/articles/115003452963-Notificar-pessoas-pela-plataforma)) | Send the kit link to accepted authors | Event-service messages; don't turn them into a stream of promotions |
 | **Acceptance letters and email templates** | Documented in the submission settings | Add one optional line with the kit link | Never automate the scientific decision itself |
 | **Scheduled notifications** | Documented, but **Even3 support must enable it** ([Help](https://ajuda.even3.com.br/hc/pt-br/articles/14288648505499-Agendar-o-envio-de-notifica%C3%A7%C3%A3o-no-evento)) | Schedule a reminder to speakers/authors | Ask support early if you want it |
-| **Reports and exports** | Documented | Count coupon uses and registrations per partner, see [Measuring Results](measuring-results.md) | Exports contain personal data; keep them private |
+| **Reports and exports** | Documented | Count coupon uses and tagged visits; partner registrations only if attribution was validated, see [Measuring Results](measuring-results.md) | Exports contain personal data; keep them private |
 
 **Cost:** Even3's marketing page says its marketing tools have no extra charge and lists a 10% charge on paid registrations (a general platform rule; check your event's actual terms).
 
 ## Tracking links for every kit
 
-Give each kit its own link so you can see which relationships bring registrations. The full naming scheme is in [Measuring Results for Free](measuring-results.md#step-1-set-up-your-utm-links); here are kit examples:
+Give each kit its own link to distinguish visit sources. Attribute registrations only after validating that connection in the event panel. The full naming scheme is in [Measuring Results for Free](measuring-results.md#step-1-set-up-your-utm-links); here are kit examples:
 
 | Kit | Example link |
 |---|---|
@@ -311,7 +314,7 @@ Oi, [nome]! Aqui é [pessoa], da organização do CONAFROEDU. Adoramos sua publi
 - [ ] Tracked link for each person/partner, tested on a phone.
 - [ ] Essential information also appears in the caption text, not only inside the image; alt text suggested.
 - [ ] Captions say "adapte ao seu jeito"; sharing is optional.
-- [ ] Any benefit to ambassadors/partners is disclosed.
+- [ ] Benefits disclosed in the caption and Meta paid-partnership eligibility/control checked for exchanges.
 - [ ] After 4 Nov: submission captions removed from kits and folders.
 
 ## Next steps

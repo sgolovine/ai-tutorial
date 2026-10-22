@@ -7,6 +7,9 @@ icon: 🤝
 updated: 2026-10-21
 ---
 
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#privacy). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
+
 **O que você vai encontrar nesta página:** um processo de divulgação ético e fácil de repetir para o CONAFROEDU 2026. Você vai **encontrar** instituições e pessoas relevantes com ajuda da IA, **verificar** cada uma, **personalizar** uma mensagem curta, **enviar você mesmo(a)** e **retomar o contato uma única vez**. A página traz listas de públicos com pontos de partida reais, prompts, **modelos prontos para adaptar** (e-mail e WhatsApp), um calendário de retorno ligado aos prazos reais e as regras de privacidade e antispam que protegem a reputação da comissão.
 
 > [!IMPORTANT]
@@ -95,7 +98,7 @@ Uma planilha compartilhada com uma linha por **instituição** (não por pessoa)
 | Retomar em | 30/10 |
 | Resposta | divulgou / recusou / sem resposta |
 | Não contatar novamente | ☐ |
-| Link rastreável usado | utm_source=neab_x |
+| Link rastreável usado | utm_source=parceiro_neabi_01 |
 
 ### Passo 5: rascunhe com IA, uma mensagem por vez
 
@@ -124,7 +127,7 @@ Faça uma conexão específica e honesta entre o trabalho da instituição e o c
 
 - Envie pelo **e-mail da comissão** (`conapsuporte@gmail.com`) ou por um endereço institucional, **um destinatário por e-mail**: nada de listas grandes em cópia, nem disparos em cópia oculta.
 - Assunto claro: `Chamada de trabalhos | CONAFROEDU 2026 | submissões até 04/11`.
-- No WhatsApp, só escreva para **números institucionais publicados** ou pessoas que vocês já conhecem, e peça *autorização* antes de mandar material para um grupo.
+- No WhatsApp Business, escreva só para quem iniciou a conversa ou autorizou expressamente esse tipo de mensagem da comissão. Número público, contato salvo ou conhecer a pessoa não é autorização. Sem isso, use e-mail/formulário institucional adequado.
 - Registre o envio na planilha na mesma hora.
 
 ### Passo 8: retome uma vez e feche o ciclo
@@ -143,6 +146,8 @@ Veja o cronograma abaixo. Se a resposta for sim, agradeça, envie o kit e dê um
 | **Depois do evento** | Agradeça aos parceiros e compartilhe os resultados reais e o link dos anais quando existir (previsto até 15/12) | 7 a 18/12 |
 
 Um único lembrete depois de mais ou menos uma semana é questão de boa educação, não uma regra legal que protege vocês. Em alguns contextos (uma coordenação sobrecarregada, uma associação formal), o melhor é **não** retomar.
+
+**Condição de WhatsApp para todos os modelos e retornos:** use só em conversa iniciada pela pessoa ou após autorização registrada por outro canal. Pedir autorização à administração de um grupo não é exceção para contato frio por WhatsApp. Um único retorno também exige essa autorização.
 
 ## Modelos prontos para adaptar
 
@@ -317,11 +322,11 @@ A **LGPD** ([Lei 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-201
 
 - **Finalidade e dados mínimos.** Colete só o necessário para um contato institucional pertinente: nome do núcleo, e-mail institucional, fonte. Nada de CPF, nada de telefones pessoais coletados na internet.
 - **Base legal avaliada com honestidade.** O consentimento é uma base legal. O *legítimo interesse* é outra, mas a ANPD diz que ele exige uma análise de equilíbrio e **não é uma licença geral para divulgação ilimitada** ([guia da ANPD](https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia_orientativo_hipoteses_legais_tratamento_de_dados_pessoais_legitimo_interesse)). Uma única mensagem institucional pertinente é muito diferente de uma sequência de marketing.
-- **Público ≠ livre para qualquer uso.** Um e-mail publicado continua sendo dado pessoal. Use-o para a finalidade com que foi publicado (falar com o núcleo), e não para incluir em newsletters.
+- **Público ≠ livre para qualquer uso.** E-mail que identifica uma pessoa é dado pessoal; caixa genérica do núcleo não é automaticamente dado pessoal. Use-o para a finalidade com que foi publicado (falar com o núcleo), e não para incluir em newsletters.
 - **Sempre ofereça a saída.** Toda mensagem oferece não receber novos contatos, e vocês respeitam isso para sempre. Mantenham uma pequena lista de "não contatar".
 - **Não compartilhem listas.** Nunca passem a planilha de divulgação nem dados de inscritos para parceiros ou patrocinadores.
 - **Ferramentas de IA e dados.** Não colem listas de contatos nem planilhas de inscritos em assistentes de IA. Rascunhem as mensagens só com as informações públicas da instituição.
-- **Guarda dos dados.** Apaguem os campos pessoais da planilha de divulgação depois do ciclo do evento, a menos que as pessoas tenham pedido para receber notícias de próximas edições.
+- **Guarda dos dados.** Apaguem dados de prospecção desnecessários. Guardem só um identificador mínimo restrito para respeitar pedidos de não contato, com prazo/base de retenção definidos pelo responsável. Não mantenham conversas inteiras indefinidamente.
 
 **Regras das plataformas:**
 
@@ -335,7 +340,7 @@ A **LGPD** ([Lei 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-201
 ## Como medir quais parcerias funcionam
 
 - **Links rastreáveis por parceiro** (parâmetros UTM). Eles informam à Even3 ou ao Google Analytics de onde veio cada visita. Exemplo (teste se o link continua levando à inscrição antes de compartilhar):
-  `https://www.even3.com.br/iconafroedu-764690/?utm_source=neab_ufscar&utm_medium=parceria&utm_campaign=conafroedu_2026_submissoes`
+  `https://www.even3.com.br/iconafroedu-764690/?utm_source=parceiro_neabi_01&utm_medium=referral&utm_campaign=conafroedu_2026_submissoes&utm_content=release`
   Use códigos de instituição nos links, nunca nomes ou e-mails de pessoas.
 - **Cupons:** a Even3 permite criar cupons de desconto em valor ou porcentagem, com limite de uso e validade ([ajuda da Even3](https://ajuda.even3.com.br/hc/pt-br/articles/212182786-Criar-cupons-de-desconto)). Um cupom como `NEABPARCEIRO` é só uma ideia: ofereçam **apenas se a comissão aprovar** o desconto e o custo dele.
 - **Resultados na planilha:** contem quem divulgou, quais divulgações trouxeram cliques e o que as pessoas disseram. Revisem toda semana. Veja [Medindo resultados de graça](measuring-results.md).

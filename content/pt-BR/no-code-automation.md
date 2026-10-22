@@ -7,10 +7,13 @@ icon: ⚙️
 updated: 2026-10-21
 ---
 
-**O que você vai encontrar nesta página:** uma introdução para iniciantes às ferramentas de automação sem código (Zapier, Make, n8n), o que os planos gratuitos realmente incluem e **cinco fluxos prontos para montar** para o CONAFROEDU. Cada fluxo vem com um diagrama simples, passos numerados, uma alternativa "sem ferramenta nenhuma" e os cuidados que evitam que uma automação faça vocês passarem vergonha. Todos seguem o mesmo modelo: **a IA rascunha, uma pessoa aprova.**
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#ai-studio). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
+
+**O que você vai encontrar nesta página:** uma introdução para iniciantes às ferramentas de automação sem código (Zapier, Make, n8n), o que os planos gratuitos realmente incluem e **cinco receitas para configurar e testar** para o CONAFROEDU. Cada fluxo vem com um diagrama simples, passos numerados, uma alternativa "sem ferramenta nenhuma" e os cuidados que evitam que uma automação faça vocês passarem vergonha. Todos seguem o mesmo modelo: **a IA rascunha, uma pessoa aprova.**
 
 > [!IMPORTANT]
-> Só automatize uma tarefa depois de fazê-la algumas vezes à mão e saber exatamente como é o resultado "certo". Com seis semanas pela frente, uma planilha compartilhada e uma rotina diária de 15 minutos valem mais do que uma automação pela metade. Monte no máximo **um ou dois** dos fluxos abaixo, e só se alguém da comissão gostar desse tipo de trabalho.
+> Só automatize uma tarefa depois de fazê-la algumas vezes à mão e saber exatamente como é o resultado "certo". Com seis semanas pela frente, uma planilha compartilhada e duas passagens diárias de 15 minutos pelo atendimento valem mais do que uma automação pela metade. Monte no máximo **um ou dois** dos fluxos abaixo, e só se alguém da comissão gostar desse tipo de trabalho.
 
 ## Palavras-chave em linguagem simples
 
@@ -33,7 +36,9 @@ updated: 2026-10-21
 | **n8n** | **Gratuito se vocês mesmos hospedarem** (edição Community, sob a "Sustainable Use License", que permite uso interno próprio) ([FAQ da licença](https://support.n8n.io/article/can-i-use-your-license-for-my-use-case)) | n8n Cloud Starter por cerca de **€ 20/mês** (plano anual), com 2.500 execuções ([preços](https://n8n.io/pricing/)) | Hospedar exige alguém para cuidar do servidor, das atualizações, dos backups e da segurança. Não há plano gratuito permanente na nuvem. |
 
 > [!WARNING]
-> **Chat de IA gratuito não é API de IA gratuita.** A sua conta gratuita do Claude, do ChatGPT ou do Gemini *não* permite que Zapier, Make ou n8n usem o modelo. Automações com IA precisam de uma **chave de API com cobrança própria** (normalmente com cartão de crédito) ou dos créditos de IA da própria ferramenta, que têm limite. Em volumes pequenos o custo é baixo, mas não é zero. Consultas repetidas, novas tentativas e erros também gastam a cota, mesmo quando nada de útil acontece.
+> **Uma assinatura de chat não inclui automaticamente API.** As APIs da OpenAI e da Anthropic normalmente exigem cobrança separada. A [API do Gemini tem cota gratuita para modelos elegíveis](https://ai.google.dev/gemini-api/docs/billing); confira limites e tratamento de dados. Mantenha dados de participantes fora deste fluxo de rascunho.
+>
+> [O Make conta cada consulta do gatilho](https://help.make.com/operations), mesmo sem linhas novas. [No Zapier, gatilhos/consultas e ações com erro não gastam tarefas](https://help.zapier.com/hc/en-us/articles/8496196837261-How-is-task-usage-measured-in-Zapier); ações bem-sucedidas, inclusive as repetidas numa reexecução, podem contar. Confira separadamente as regras de execução do n8n.
 
 **Regra simples para o CONAFROEDU:** use o **Zapier gratuito** para uma notificação simples de dois passos, ou o **Make gratuito** se precisar de mais alguns passos. Use o n8n só se alguém técnico da comissão já trabalhar com ele.
 
@@ -66,7 +71,7 @@ Todos os fluxos desta página seguem o mesmo modelo de segurança: a automação
 **Problema que resolve:** chegam pedidos como "me avisa quando sair a programação?". Vocês precisam registrar a **autorização** da pessoa, e alguém precisa dar retorno.
 
 ```text
-Formulário Google (com caixa de consentimento)
+Formulário Google (consentimento afirmativo obrigatório; um canal escolhido)
         │  nova resposta
         ▼
 Planilha Google "Avisos – opt-in"   ←── guarda resposta + texto do consentimento + data/hora
@@ -75,20 +80,22 @@ Planilha Google "Avisos – opt-in"   ←── guarda resposta + texto do conse
 E-mail para a caixa da comissão: "Novo opt-in: [primeiro nome], canal: [WhatsApp/e-mail]"
         │
         ▼
-Uma pessoa inclui o contato na lista certa e responde manualmente
+Uma pessoa confere consentimento, canal e registro de não contato antes de incluir
 ```
 
 **Versão sem ferramenta:** o próprio Formulários Google pode avisar por e-mail quando chegam respostas novas (na aba Respostas). Para um evento pequeno, isso pode bastar, e o Zapier nem é necessário.
 
 **Montando no Zapier gratuito (cerca de 30 minutos):**
 
-1. Crie um **Formulário Google** com: primeiro nome; canal preferido (e-mail ou WhatsApp); e-mail ou número de WhatsApp; e uma caixa de consentimento **desmarcada**, com texto claro (veja abaixo).
+1. Use este formulário **somente para assinar avisos**. Peça primeiro nome, um canal preferido e seu contato. Crie uma opção afirmativa de consentimento, inicialmente desmarcada, e ative **Obrigatória** ([ajuda](https://support.google.com/docs/answer/2839737?hl=pt-BR)). Identifique responsável/contato e aviso de privacidade; informe finalidade, frequência, data final e cancelamento. Não junte canais.
 2. Na aba **Respostas** do formulário, vincule-o a uma nova Planilha Google.
 3. No Zapier, clique em **Create → Zap**.
 4. **Gatilho:** Google Sheets → *New Spreadsheet Row*. Conecte a conta Google da comissão, escolha a planilha e a aba e clique em **Test**.
-5. **Ação:** Gmail (ou Email by Zapier) → *Send Email*. Para: a caixa de e-mail da comissão. Assunto: `Novo opt-in CONAFROEDU`. Corpo: só primeiro nome, canal e data (evite circular dados pessoais por e-mail sempre que possível).
-6. **Teste** e depois **publique**. Envie uma resposta de teste com alguém da comissão.
-7. Cada linha nova gasta 1 tarefa, e 100 tarefas por mês sobram.
+5. **Ação:** Gmail → *Send Email* para a comissão. Inclua ID da linha, canal, resposta de consentimento, versão do texto e data. Chame de **pedido de assinatura**. Uma pessoa confere a planilha restrita e o registro de não contato antes de incluir.
+6. **Teste antes de publicar:** a autorização afirmativa chega ao alerta; a opção desmarcada deve impedir o envio do formulário e nunca incluir contato. Teste o canal escolhido e um contato com pedido de não contato. Se não assinantes também puderem enviar, use filtro de consentimento verificado antes da inclusão: é outro fluxo.
+7. Uma ação de e-mail bem-sucedida gasta uma tarefa por linha nova. Conte testes também; 100 tarefas/mês podem bastar para uma lista pequena.
+
+**Limite do remetente alternativo:** a ação do Email by Zapier é **Send Outbound Email**, com **5 e-mails/dia no Free/Trial** ([integração oficial](https://zapier.com/apps/email/integrations)). Não confunda com a cota mensal de 100 tarefas. Se o limite ou a conexão do Gmail impedir o uso, fique com os alertas nativos do Formulários Google e a planilha; não contrate plano só para alertas.
 
 Texto de consentimento (adapte e peça a aprovação da comissão):
 
@@ -123,10 +130,10 @@ Uma pessoa confere → ajusta → envia pelo WhatsApp/e-mail → marca "enviado"
 1. Crie uma Planilha Google "Perguntas" com as colunas `ID`, `Data`, `Canal`, `Pergunta (sem dados pessoais)`, `Categoria`, `Rascunho`, `Status`, `Respondido por`.
 2. No Make, clique em **Create a new scenario**.
 3. Adicione **Google Sheets → Watch New Rows**. Conecte a conta, escolha a planilha e o ponto de partida ("from now on").
-4. Adicione o módulo do seu provedor de IA (OpenAI, Anthropic Claude ou Google Gemini aparecem na lista de aplicativos do Make). Você vai precisar de uma **chave de API com cobrança ativa** desse provedor.
+4. Adicione o módulo do provedor de IA e sua chave de API; ative cobrança **quando exigida**. No Gemini, escolha modelo com cota gratuita e confira os termos de dados. Os créditos do Make continuam contando.
 5. No campo do prompt, cole o texto do FAQ aprovado e as regras de rascunho (abaixo), e insira a coluna "Pergunta".
-6. Adicione **Google Sheets → Update a Row**: grave a resposta da IA em `Rascunho` e mude `Status` para `em revisão`.
-7. Defina a frequência, por exemplo a cada 15 minutos ou poucas vezes por dia. Menos execuções gastam menos créditos.
+6. Adicione **Google Sheets → Update a Row**: mapeie o **número da linha** recebido do gatilho para atualizar a mesma linha; grave a resposta em `Rascunho` e mude `Status` para `em revisão`. Teste duas perguntas diferentes para garantir que uma não sobrescreva a outra.
+7. Comece com **quatro consultas por dia**: cerca de **120 créditos de gatilho em 30 dias**, mais IA e atualização por pergunta. A cada 15 minutos seriam 2.880 consultas em 30 dias, acima dos 1.000 créditos antes de tratar perguntas. Confira o consumo real.
 8. Rode uma vez com uma linha de teste e confira no histórico do Make quantos créditos foram usados.
 9. Ative. **Nunca acrescente um passo de "enviar mensagem".** Quem envia é uma pessoa.
 
@@ -141,7 +148,7 @@ PERGUNTA: {{Pergunta}}
 
 ## Fluxo 3 — Post aprovado para grupo → lembrete na agenda de uma pessoa
 
-**Problema que resolve:** publicações em grupos do Facebook de outras pessoas **precisam** ser feitas à mão (a Meta acabou com a publicação automática em grupos), e o pessoal esquece.
+**Problema que resolve:** publicações em grupos do Facebook de outras pessoas **precisam** ser feitas à mão (este fluxo usa postagem manual em grupos de outras pessoas; o agendamento nativo continua disponível nos grupos que você administra), e o pessoal esquece.
 
 ```text
 Aba da planilha "Lembretes – grupos" (uma linha por post aprovado para grupo)
@@ -161,6 +168,8 @@ A pessoa publica manualmente → cola o link do post de volta na planilha
 3. No Zapier → **Create Zap**. Gatilho: **Google Sheets → New Spreadsheet Row**, nessa aba.
 4. Ação: **Google Calendar → Create Detailed Event**. Use as colunas de data e hora, o título `Postar no grupo {{Grupo}}`, a descrição com texto, link e regras, e o e-mail da pessoa responsável como convidada.
 5. Teste com uma linha e publique.
+
+Para mapear a agenda, acrescente **Início_BRT** e **Fim_BRT** explícitos na planilha (ex.: `2026-10-28T19:00:00-03:00` e `2026-10-28T19:15:00-03:00`). Mapeie ambos, escolha a agenda da comissão e confira data/hora de Brasília exibidas após o teste. Assim, não dependem de interpretação ambígua de dia/mês nem de outro passo pago de formatação. Use ID único de linha e confira se o lembrete já existe antes de repetir execução bem-sucedida.
 
 **Versão sem ferramenta:** crie os eventos na agenda manualmente. Para 5 a 10 posts em grupos na campanha toda, isso leva dez minutos.
 
@@ -189,20 +198,17 @@ Uma pessoa abre a matéria ORIGINAL, confere direitos e pertinência → a ideia
 
 **Passos (Make gratuito):**
 
-1. Liste de 3 a 5 fontes confiáveis que publicam feeds RSS (por exemplo, as seções de notícias de instituições que vocês já acompanham). Confira o endereço de cada feed no próprio site da fonte; nada de agregadores aleatórios.
-2. No Make, novo cenário → **RSS → Watch RSS feed items** (um por feed, ou use um roteador).
-3. **Google Sheets → Search Rows** procurando o link do item: só continue se ele não for encontrado (evita duplicados).
-4. Módulo de IA opcional: *"Resuma em 2 frases, em português brasileiro, para professores; explique a ligação com a educação antirracista; não acrescente nada que não esteja no texto; inclua o link e a data da fonte."*
-5. **Google Sheets → Add a Row** com título, link, data, resumo e status `em revisão`.
-6. Rode uma ou duas vezes por dia.
+1. Escolha **uma** instituição confiável com feed RSS funcionando, conferido no próprio site.
+2. Make → novo cenário → **RSS → Watch RSS feed items** como único gatilho. [O gatilho precisa ser o primeiro módulo e só aparece uma vez](https://help.make.com/types-of-modules); um roteador divide dados recebidos e não combina gatilhos Watch independentes.
+3. Versão para iniciantes: **Google Sheets → Add a Row** com título, URL original, data e `em revisão`. Deixe resumos por IA como etapa manual opcional.
+4. Uma ou duas vezes ao dia, uma pessoa procura URLs já listadas, marca repetições como `duplicada` e aprova só uma cópia. Assim, a receita não depende de ramificação de busca sem resultado ainda não testada.
+5. Teste URL nova, repetida e feed vazio. Não devem surgir linhas vazias nem entradas duplicadas no calendário. Para eliminar duplicadas automaticamente, peça a alguém técnico que configure e teste a continuação de busca vazia primeiro.
 
-**Regras:** sempre leia o original antes de publicar. Nunca republique matérias inteiras: compartilhe o link e comente. Se não der para conferir o resumo com o original, descarte.
-
-No plano gratuito do Make, este fluxo ocupa o segundo (e último) cenário ativo, então escolha entre o Fluxo 2 e o Fluxo 4.
+**Regras:** leia o original antes de publicar; compartilhe link e comentário em vez de reproduzir matérias. Descarte resumos não verificáveis. Este feed usa um cenário ativo; os Fluxos 2 e 4 juntos usam as duas vagas gratuitas do Make. Cada feed Watch independente adicional exige outro cenário. Respeite vagas e créditos.
 
 ## Fluxo 5 — Relatório semanal de resultados (com pessoa no meio do caminho)
 
-**Problema que resolve:** a revisão de sexta-feira demora demais, e ninguém lembra o que funcionou.
+**Problema que resolve:** a revisão de segunda-feira demora demais, e ninguém lembra o que funcionou.
 
 ```text
 Segunda: exportar as métricas da semana da Página/Instagram (CSV) + relatório agregado da Even3

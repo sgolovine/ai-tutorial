@@ -7,6 +7,9 @@ icon: 🗓️
 updated: 2026-10-21
 ---
 
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#meta-business-suite). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
+
 **O que você vai encontrar aqui:** duas ferramentas. A **Parte 1** é uma linha do tempo reutilizável para qualquer edição futura (do primeiro anúncio ao balanço depois do evento). A **Parte 2** é o **calendário concreto do CONAFROEDU 2026**, de hoje (21 de outubro) até a data prevista para os anais (15 de dezembro), montado com as datas divulgadas pela organização. Você também leva um modelo de planilha de calendário editorial e prompts de IA prontos para montar e atualizar esse calendário.
 
 > [!NOTE]
@@ -40,9 +43,9 @@ As datas vêm da [página da organização na Even3](https://www.even3.com.br/ic
 | **15/11** | dom | Último dia do lote atual | Valores exibidos: R$ 55 a R$ 70, conforme a categoria |
 | **16/11** | seg | Começa o novo lote | Valores exibidos: R$ 60 a R$ 75, conforme a categoria |
 | **20/11** | sex | Dia Nacional de Zumbi e da Consciência Negra — feriado nacional ([Lei 14.759/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14759.htm)) | Participação e conteúdo educativo — não submissões |
-| **Até 25/11** | qua | Programação oficial e cronograma de apresentações | — |
+| **Até 25/11** | qua | Programação oficial e cronograma de apresentações (previsão) | Publicar só após lançamento real |
 | **05 e 06/12** | sáb–dom | **Congresso, 100% on-line** | O cabeçalho da Even3 indica 8h às 22h, GMT−3 |
-| **06/12** | dom | Encerramento das inscrições; certificados disponíveis a partir desta data | Critérios do certificado a confirmar |
+| **06/12** | dom | Encerramento das inscrições; certificados previstos a partir desta data, conforme critérios confirmados | Critérios do certificado a confirmar |
 | **Até 15/12** | ter | Previsão de publicação dos Anais | Taxa de publicação: R$ 16,98 por trabalho |
 
 > [!WARNING] Resolvam isto com a comissão antes de agendar publicações
@@ -56,73 +59,34 @@ As datas vêm da [página da organização na Even3](https://www.even3.com.br/ic
 >
 > Não deixem a IA "completar" nenhum desses pontos. Escrevam `[CONFIRMAR]` até a comissão responder.
 
-## Parte 1 — A linha do tempo reutilizável (para as próximas edições)
-
-Use para o próximo CONAFROEDU ou para qualquer congresso acadêmico. "T" é o primeiro dia do evento. É um ritmo recomendado a partir da prática, não um padrão medido — comecem antes quando houver avaliação científica e aprovações institucionais.
-
-| Fase | Quando (em relação a T) | O que comunicar | Distribuição e medição |
-|---|---|---|---|
-| 1. Fundação | T−24 a T−16 semanas | Público, propósito, datas e formato; ficha oficial; autorizações; página de inscrição | Criar Página, Evento, contato de suporte e links rastreáveis |
-| 2. Anúncio | T−16 a T−12 | Por que o congresso importa; para quem é; o que já está confirmado | Pedir a parceiros reais que compartilhem; observar visitas relevantes |
-| 3. Chamada de trabalhos | Cedo — conforme o tempo de avaliação | Eixos, quem pode submeter, modalidades, seleção, prazo, custos, acessibilidade | Separar o link de submissão do link de inscrição; contar submissões válidas |
-| 4. Apresentação dos palestrantes | T−12 a T−6 | Uma ideia útil por palestrante e por que essa pessoa fala com autoridade | Kit do palestrante, Collab no Instagram, grupos pertinentes |
-| 5. Lote promocional / virada de lote | Um período de vendas real e combinado | Valor exato, condições e data da mudança, junto com o valor da programação | Lembrete cerca de 1 semana antes e perto da virada; contar inscrições |
-| 6. Aprofundar a programação | T−8 a T−3 | Eixos, exemplos, "roteiros" por público | Escolas, universidades, comunidades por disciplina |
-| 7. Responder às objeções | T−4 a T−2 | Acesso on-line, tempo, pagamento, critérios do certificado, acessibilidade | Fixar o FAQ; acompanhar dúvidas recorrentes |
-| 8. Contagem regressiva | T−14 dias a T−1 | Preparação prática e acesso | Atualizações úteis mais frequentes; moderação garantida |
-| 9. Evento ao vivo | T0 | Boas-vindas, mudanças reais de horário, cortes aprovados, aprendizados dos participantes | Pessoas dedicadas a registro e moderação |
-| 10. Primeiro balanço | T+1 a T+3 dias | Agradecimentos, destaques, quando os materiais chegam | Pedir autorização antes de reutilizar conteúdo de participantes |
-| 11. Materiais e avaliação | T+1 a T+2 semanas | Certificados, anais, legendas revisadas, avaliação | Comparar inscrições e participação, resultados de parceiros, esforço |
-| 12. Relacionamento contínuo | T+2 a T+6 semanas | Histórias de quem aplicou o que aprendeu; interesse na próxima edição | Respeitar o consentimento original; pedir novo opt-in se necessário |
-
-### Planejem de trás para frente, a partir dos prazos reais
-
-Numa próxima edição, a chamada de trabalhos deve começar bem antes da deste ano. Para planejar, partam da data do evento e subtraiam:
-
-1. **Anais e certificados** precisam de tempo depois do evento (neste ano: certificados a partir do último dia, anais até T+10 dias).
-2. **A publicação da programação** depende dos aceites finais (neste ano: T−10 dias).
-3. **Avaliação + correções + vídeos de apresentação** levam semanas. Neste ano, as submissões fecharam em T−31 dias, e quem submetesse no último dia poderia receber o resultado *depois* do prazo do vídeo. **Na próxima, fechem as submissões mais cedo e coloquem o prazo do vídeo depois dos resultados.**
-4. **A divulgação institucional** (portais de notícias das universidades, listas de NEABIs, e-mails de programas de pós-graduação) costuma exigir de 2 a 4 semanas de antecedência — peçam cedo.
-5. **Live no Facebook** exige conta com pelo menos 60 dias e Página com 100 seguidores (veja o [Guia orgânico do Facebook](facebook-playbook.md)). Construam a Página com meses de antecedência.
-
-### Ideias de conteúdo para cada fase
-
-| Fase | Ideias de formato | Exemplo de gancho |
-|---|---|---|
-| Anúncio | Reel com alguém da organização explicando "por que este congresso, por que agora" | "Por que um congresso sobre Africanidades na Educação — e por que agora?" |
-| Chamada de trabalhos | Carrossel "como submeter em 5 passos"; Live de perguntas para autores | "Sua prática de educação antirracista pode virar um relato de experiência." |
-| Palestrantes | Palestrante responde a uma pergunta real em vídeo; Collab no Instagram | "Uma pergunta, uma resposta: [palestrante] sobre [tema]" |
-| Virada de lote | Card simples e honesto + link | "O valor da inscrição muda em [data]." |
-| Programação | Publicações de "roteiro" por público | "Três mesas para quem trabalha na educação infantil" |
-| Objeções | Carrossel de FAQ; vídeo curto "como acessar" | "Dúvidas sobre o certificado? Respondemos aqui." |
-| Contagem regressiva | Card de 7 dias; Stories com checklist | "Faltam 7 dias. Seu acesso está pronto?" |
-| Ao vivo | Stories em tempo real; cards de citação aprovados | "Agora: [mesa], ao vivo." |
-| Balanço | Carrossel de agradecimento; melhor corte; números que dá para comprovar | "Obrigado! Veja como baixar seu certificado." |
+**Situação da programação em 21/10:** a Even3 lista **12 atividades**, algumas com palestrantes identificados; há horários sobrepostos. Trate como parcial. Confirme anúncios individuais agora e faça roteiros da grade final só após aprovação; a programação completa segue prevista até 25/11.
 
 ## Parte 2 — O calendário do CONAFROEDU 2026
 
-Com cerca de 6 semanas e meia pela frente, o plano é compacto. Ele segue uma base sustentável: **3 ou 4 publicações por semana no Facebook, uma atualização no Evento, 1 ou 2 atualizações no Canal do WhatsApp e respostas todos os dias**. Os horários sugeridos são testes no horário de Brasília (veja o [Guia orgânico do Facebook](facebook-playbook.md)). Ajustem à capacidade da equipe — cortem publicações antes de cortar o atendimento.
+Com cerca de 6 semanas e meia pela frente, o plano é compacto. Ele segue uma base sustentável: **três posts principais semanais no Facebook, quarto opcional, uma atualização no Evento, 1 ou 2 avisos no Canal e duas passagens diárias de 15 minutos pelo atendimento**. Os horários sugeridos são testes no horário de Brasília (veja o [Guia orgânico do Facebook](facebook-playbook.md)). Ajustem à capacidade da equipe — cortem publicações antes de cortar o atendimento.
+
+Estimativa do plano completo: **12 a 17 horas-pessoa/semana somadas**. Se houver só 5 a 7, use a [versão reduzida](facebook-playbook.md) e proteja o atendimento.
 
 ### Arrancada: quarta, 21, a domingo, 25 de outubro
 
 - [ ] A comissão responde às perguntas da caixa acima (principalmente o horário de encerramento em 4/11).
-- [ ] Ficha oficial aprovada (modelo no [Guia orgânico do Facebook](facebook-playbook.md)).
+- [ ] FICHA OFICIAL mestra aprovada ([modelo canônico](prompting-basics.md)), com versão, responsável pela conferência, fonte e próxima atualização.
 - [ ] Página do Facebook definida/criada e otimizada; Evento on-line criado ([como fazer](facebook-events-groups.md)).
 - [ ] Dois conjuntos de links rastreáveis: `submissoes` e `inscricoes`.
 - [ ] Checkout da Even3 testado no celular.
 - [ ] Um palestrante ou autor confirmado gravado respondendo a 2 ou 3 perguntas.
 - [ ] Uma pessoa definida para responder todo dia (Facebook, Instagram, WhatsApp).
-- [ ] Primeiras publicações: anúncio claro + publicação "como submeter" (os autores têm só 14 dias).
+- [ ] Primeira chamada **até sexta 23/10** (meta antecipada de 21/10 se tudo estiver pronto); usar C01–C03 em 26/28/30 de outubro. Os autores têm só 14 dias.
 
 ### Semana a semana
 
 | Semana | Página do Facebook (publicações principais) | Autores (até 4/11) | Participantes e parceiros | Instagram / WhatsApp |
 |---|---|---|---|---|
-| **1 · 26/10 a 01/11** | Seg: anúncio claro do congresso on-line. Qua: exemplo de prática de ERER de um palestrante (Reel). Sex: checklist das normas de submissão (várias fotos). Dom (opcional): resposta a uma dúvida real de autor | Concentrem a chamada: modalidades, normas, "inscrição e envio do arquivo são etapas separadas", a data de 4/11. **28/10 (qua): lembrete de uma semana** | Publicar o Evento e um FAQ para participantes. Enviar um kit curto a palestrantes confirmados e a uma lista pequena de NEABIs/PPGEs; 3 a 5 contribuições autorizadas em grupos | IG: Collab com palestrante; carrossel do checklist. WhatsApp: lançamento do Canal + texto para parceiros encaminharem |
+| **1 · 26/10 a 01/11** | **26/10 (C01):** carrossel como submeter. **28/10 (C02):** checklist de sete dias para submissão (é o próprio lembrete, não outro post). **30/10 (C03):** Reel de prática em sala. Dom (opcional): dúvida real | Concentrem a chamada: modalidades, normas, "inscrição e envio do arquivo são etapas separadas", a data de 4/11. **28/10: C02 é o lembrete de uma semana** | Publicar o Evento e um FAQ para participantes. Enviar um kit curto a palestrantes confirmados e a uma lista pequena de NEABIs/PPGEs; 3 a 5 contribuições autorizadas em grupos | IG: Collab com palestrante; carrossel do checklist. WhatsApp: lançamento do Canal + texto para parceiros encaminharem |
 | **2 · 02 a 08/11** | Seg: checklist do autor (48 h antes). Qua 4/11: lembrete final e útil, num horário confirmado pela comissão. Sex: corte de prática em sala. Dom: FAQ "dá para participar sem apresentar" | **Semana do prazo** (roteiro abaixo). Depois do encerramento: atualizar publicação fixada, Evento e publicações agendadas para "submissões encerradas" — salvo prorrogação oficial | As inscrições continuam. Explicar que participar não exige submeter trabalho | Stories: contagem regressiva até 4/11, depois virar para a participação |
-| **3 · 09 a 15/11** | Seg: uma pergunta acadêmica/pedagógica. Qua: Reel com resposta de palestrante. Sex: "como participar on-line". Sáb/dom: lembrete honesto da virada de lote (checkout conferido) | Autores recebem mensagens individuais sobre os trâmites (avaliação, correções) — não publicações públicas | Responder às dúvidas: internet, horários, custos, **critérios do certificado de 40 horas**. Lembrete da virada de lote por volta de **12/11** e em **15/11** | WhatsApp: um resumo com a data da virada de lote |
-| **4 · 16 a 22/11** | Seg 16: atualizar valores na publicação fixada/Evento. Ter: material pedagógico com fonte. Qui 19: conversa pública curta opcional (se ensaiada e autorizada). **Sex 20/11: contribuição de verdade para o Dia da Consciência Negra.** Dom: corte da conversa | Convidar um autor/pesquisador a explicar uma ideia com substância — sem anunciar aceites nem novas submissões | Ligar o Novembro Negro à formação contínua em 5 e 6/12. Parceiros escolhem um horário respeitoso em torno das próprias ações. Um único chamado de inscrição, **separado** da publicação comemorativa | IG: carrossel de 20/11. WhatsApp: nada de mensagem de venda em 20/11 |
-| **5 · 23 a 29/11** | Seg: guia da programação por público. **Qua 25: programação oficial** (ou aviso honesto de atraso). Sex: FAQ de acesso on-line e suporte. **Sáb 28: card "faltam 7 dias"** | Confirmar individualmente com cada autor apresentação, vídeo e acesso | Oferecer link de calendário, se houver; ensaiar transmissão e suporte; último convite voluntário aos parceiros | IG: carrossel da programação; Stories com "Qual mesa você não quer perder?" |
+| **3 · 09 a 15/11** | Seg: uma pergunta acadêmica/pedagógica. Qua: Reel com resposta de palestrante. Sex: "como participar on-line". Lembretes nos Stories/Canal em 10 e 14/11 (checkout conferido) | Autores recebem mensagens individuais sobre os trâmites (avaliação, correções) — não publicações públicas | Responder às dúvidas: internet, horários, custos, **critérios do certificado de 40 horas**. Lembrete da virada de lote em **10/11** e **14/11**, nos Stories/Canal (não são posts extras no feed) | WhatsApp: um resumo com a data da virada de lote |
+| **4 · 16 a 22/11** | Seg 16: editar valores na publicação fixada/Evento existente. Ter: material pedagógico com fonte. Qui 19: conversa ensaiada opcional. **Sex 20/11: contribuição de verdade para a Consciência Negra.** Corte opcional de domingo **substitui** a conversa de quinta como post principal | Convidar um autor/pesquisador a explicar uma ideia com substância — sem anunciar aceites nem novas submissões | Ligar o Novembro Negro à formação contínua em 5 e 6/12. Parceiros escolhem um horário respeitoso em torno das próprias ações. Um único chamado de inscrição, **separado** da publicação comemorativa | IG: carrossel de 20/11. WhatsApp: nada de mensagem de venda em 20/11 |
+| **5 · 23 a 29/11** | Seg: FAQ de participação/acesso só com fatos confirmados. **Qua 25: programação oficial** (ou aviso honesto de atraso). Sex: roteiro por público **só depois da programação confirmada**; sem isso, FAQ factual. **Sáb 28: card "faltam 7 dias"** | Confirmar individualmente com cada autor apresentação, vídeo e acesso | Oferecer link de calendário, se houver; ensaiar transmissão e suporte; último convite voluntário aos parceiros | IG: carrossel da programação; Stories com "Qual mesa você não quer perder?" |
 | **6 · 30/11 a 06/12** | Seg: checklist de participação. Qua: "como acessar". **Qui 3 e sex 4: um convite final principal + Stories com FAQ.** **Sáb 5 e dom 6: avisos de serviço ao vivo** (substituem o ritmo normal) | Enviar a quem apresenta o horário, a checagem de acesso e um contato humano | Antes da abertura: horário de início, caminho de acesso, critérios do certificado. Durante: só trechos públicos autorizados. **As inscrições vão até 6/12**: "começa em 48 horas" — e não "inscrições acabam em 48 horas" | WhatsApp: checklist na véspera; poucas atualizações por dia durante o evento |
 | **Depois · 07 a 15/12** | Seg 7: agradecimento. Ter/qua: melhor corte autorizado. Qui 10 (Dia dos Direitos Humanos): reflexão/balanço. **Até 15/12: link dos anais** — ou atualização honesta da situação | Autores: situação dos anais, como citar, certificado de autoria (se for diferente) | Instruções do certificado (disponível a partir de 6/12); formulário de avaliação; pedir autorização antes de reutilizar depoimentos | WhatsApp: informações de certificado e anais; depois, uma escolha clara sobre receber novidades futuras |
 
@@ -141,8 +105,8 @@ Com cerca de 6 semanas e meia pela frente, o plano é compacto. Ele segue uma ba
 
 **A virada de lote (15/16 de novembro)**
 
-- **Qui 12/11:** "O valor atual vale até domingo, 15/11." Confiram os valores no checkout antes.
-- **Dom 15/11:** lembrete curto no Story/WhatsApp.
+- **Ter 10/11:** "O valor atual vale até domingo, 15/11." Confiram os valores no checkout antes.
+- **Sáb 14/11:** lembrete curto no Story/WhatsApp.
 - **Seg 16/11:** atualizem os valores em todo lugar onde aparecem. Não digam que o lote novo "esgotou" nem inventem escassez.
 
 **20 de novembro — Dia Nacional de Zumbi e da Consciência Negra**
@@ -173,6 +137,50 @@ Estas datas caem dentro da campanha. Não são parcerias — usem uma delas apen
 | Qui 10/12 | Dia dos Direitos Humanos ([ONU](https://www.un.org/observances/human-rights-day)) | Balanço com fatos checados e compromissos |
 
 Não apresentem os aniversários das Leis 10.639 e 11.645 como datas de novembro — eles caem em janeiro e março.
+
+## Parte 1 — A linha do tempo reutilizável (para as próximas edições)
+
+Use para o próximo CONAFROEDU ou para qualquer congresso acadêmico. "T" é o primeiro dia do evento. É um ritmo recomendado a partir da prática, não um padrão medido — comecem antes quando houver avaliação científica e aprovações institucionais.
+
+| Fase | Quando (em relação a T) | O que comunicar | Distribuição e medição |
+|---|---|---|---|
+| 1. Fundação | T−24 a T−16 semanas | Público, propósito, datas e formato; ficha oficial; autorizações; página de inscrição | Criar Página, Evento, contato de suporte e links rastreáveis |
+| 2. Anúncio | T−16 a T−12 | Por que o congresso importa; para quem é; o que já está confirmado | Pedir a parceiros reais que compartilhem; observar visitas relevantes |
+| 3. Chamada de trabalhos | Cedo — conforme o tempo de avaliação | Eixos, quem pode submeter, modalidades, seleção, prazo, custos, acessibilidade | Separar o link de submissão do link de inscrição; contar submissões válidas |
+| 4. Apresentação dos palestrantes | T−12 a T−6 | Uma ideia útil por palestrante e por que essa pessoa fala com autoridade | Kit do palestrante, Collab no Instagram, grupos pertinentes |
+| 5. Lote promocional / virada de lote | Um período de vendas real e combinado | Valor exato, condições e data da mudança, junto com o valor da programação | Lembrete cerca de 1 semana antes e perto da virada; contar inscrições |
+| 6. Aprofundar a programação | T−8 a T−3 | Eixos, exemplos, "roteiros" por público | Escolas, universidades, comunidades por disciplina |
+| 7. Responder às objeções | T−4 a T−2 | Acesso on-line, tempo, pagamento, critérios do certificado, acessibilidade | Fixar o FAQ; acompanhar dúvidas recorrentes |
+| 8. Contagem regressiva | T−14 dias a T−1 | Preparação prática e acesso | Atualizações úteis mais frequentes; moderação garantida |
+| 9. Evento ao vivo | T0 | Boas-vindas, mudanças reais de horário, cortes aprovados, aprendizados dos participantes | Pessoas dedicadas a registro e moderação |
+| 10. Primeiro balanço | T+1 a T+3 dias | Agradecimentos, destaques, quando os materiais chegam | Pedir autorização antes de reutilizar conteúdo de participantes |
+| 11. Materiais e avaliação | T+1 a T+2 semanas | Certificados, anais, legendas revisadas, avaliação | Comparar inscrições e participação, resultados de parceiros, esforço |
+| 12. Relacionamento contínuo | T+2 a T+6 semanas | Histórias de quem aplicou o que aprendeu; interesse na próxima edição | Respeitar o consentimento original; pedir novo opt-in se necessário |
+
+### Planejem de trás para frente, a partir dos prazos reais
+
+Numa próxima edição, a chamada de trabalhos deve começar bem antes da deste ano. Para planejar, partam da data do evento e subtraiam:
+
+1. **Anais e certificados** precisam de tempo depois do evento (neste ano: certificados a partir do último dia, anais até T+10 dias).
+2. **A publicação da programação** depende dos aceites finais (neste ano: T−10 dias).
+3. **Avaliação + correções + vídeos de apresentação** levam semanas. Neste ano, as submissões fecharam em T−31 dias, e quem submetesse no último dia poderia receber o resultado *depois* do prazo do vídeo. **Na próxima, fechem as submissões mais cedo e coloquem o prazo do vídeo depois dos resultados.**
+4. **A divulgação institucional** (portais de notícias das universidades, listas de NEABIs, e-mails de programas de pós-graduação) costuma exigir de 2 a 4 semanas de antecedência — peçam cedo.
+5. **O StreamYard documenta requisitos de Live no Facebook**: conta com pelo menos 60 dias, Página com 100 seguidores e acesso para criar conteúdo; teste o destino real (veja o [Guia orgânico do Facebook](facebook-playbook.md)). Construam a Página com meses de antecedência.
+
+### Ideias de conteúdo para cada fase
+
+| Fase | Ideias de formato | Exemplo de gancho |
+|---|---|---|
+| Anúncio | Reel com alguém da organização explicando "por que este congresso, por que agora" | "Por que um congresso sobre Africanidades na Educação — e por que agora?" |
+| Chamada de trabalhos | Carrossel "como submeter em 5 passos"; Live de perguntas para autores | "Sua prática de educação antirracista pode virar um relato de experiência." |
+| Palestrantes | Palestrante responde a uma pergunta real em vídeo; Collab no Instagram | "Uma pergunta, uma resposta: [palestrante] sobre [tema]" |
+| Virada de lote | Card simples e honesto + link | "O valor da inscrição muda em [data]." |
+| Programação | Publicações de "roteiro" por público | "Três mesas para quem trabalha na educação infantil" |
+| Objeções | Carrossel de FAQ; vídeo curto "como acessar" | "Dúvidas sobre o certificado? Respondemos aqui." |
+| Contagem regressiva | Card de 7 dias; Stories com checklist | "Faltam 7 dias. Seu acesso está pronto?" |
+| Ao vivo | Stories em tempo real; cards de citação aprovados | "Agora: [mesa], ao vivo." |
+| Balanço | Carrossel de agradecimento; melhor corte; números que dá para comprovar | "Obrigado! Veja como baixar seu certificado." |
+
 
 ## Monte seu calendário de conteúdo (planilha gratuita)
 
@@ -239,12 +247,14 @@ Não invente palestrantes, valores, parceiros, depoimentos ou datas comemorativa
 ```prompt
 Monte um calendário de conteúdo orgânico para o CONAFROEDU — Congresso Nacional de Africanidades na Educação, 100% on-line, em 5 e 6 de dezembro de 2026. Hoje é 21 de outubro de 2026.
 Equipe: [número] pessoas, [horas] horas semanais somadas. Canal principal: Facebook. Apoio: Instagram e um Canal do WhatsApp.
-Datas confirmadas: submissões e vídeo de apresentação até 04/11 (horário de encerramento: [CONFIRMAR]); avaliação em até 5 dias úteis; lote atual até 15/11, novo lote a partir de 16/11; 20/11 é o feriado nacional do Dia Nacional de Zumbi e da Consciência Negra (sexta-feira); programação oficial até 25/11; inscrições até 06/12; certificados a partir de 06/12; previsão dos anais em 15/12.
+Datas confirmadas: submissões e vídeo de apresentação até 04/11 (horário de encerramento: [CONFIRMAR]); avaliação em até 5 dias úteis; lote atual até 15/11, novo lote a partir de 16/11; 20/11 é o feriado nacional do Dia Nacional de Zumbi e da Consciência Negra (sexta-feira); programação oficial até 25/11; inscrições até 06/12; certificados previstos a partir de 06/12, conforme critérios confirmados; previsão dos anais em 15/12.
 Fatos aprovados: [colar a ficha oficial]. Materiais disponíveis: [listar vídeos, fotos, palestrantes que já toparam].
 
 Regras:
 - Separe a chamada de trabalhos da inscrição de participantes. Depois de 04/11, só mantenha publicações de submissão se houver prorrogação formal.
-- 20/11: uma contribuição educativa com substância, sem descontos nem pressão de venda nessa publicação.
+- 20/11: contribuição educativa com fontes e pergunta pedagógica. Convite ao congresso só em outro post opcional; sem chamado de venda ou desconto na peça educativa.
+- Reutilize C01–C03 em 26/28/30 de outubro (como submeter, checklist de sete dias, Reel de prática); não acrescente outro lembrete em 28/10. Virada de lote: Stories/Canal em 10 e 14/11.
+- Roteiros por público exigem sessões confirmadas; a listagem parcial da Even3 não é a grade final.
 - Urgência só com datas reais; nada de "últimas vagas" num evento on-line sem limite confirmado.
 - No máximo 4 publicações por semana no Facebook, com até 2 vídeos; uma atualização do Evento por semana; 1 ou 2 atualizações do Canal do WhatsApp por semana.
 - Não invente datas comemorativas, palestrantes, depoimentos ou disponibilidade.

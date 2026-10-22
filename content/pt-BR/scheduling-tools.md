@@ -7,6 +7,9 @@ icon: 🗓️
 updated: 2026-10-21
 ---
 
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#meta-business-suite). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
+
 **O que você vai encontrar nesta página:** um sistema de publicação simples e gratuito para uma comissão pequena e voluntária. Ele tem uma planilha de conteúdo compartilhada, uma ferramenta de agendamento (o Meta Business Suite) e uma "sessão de produção em lote" por semana, em que a IA faz os rascunhos e as pessoas aprovam. Você também vai ver quais datas do CONAFROEDU já dá para colocar na fila, uma comparação dos planos gratuitos de outras ferramentas e uma rotina de revisão para que nenhum post desatualizado vá ao ar (por exemplo, um "últimos dias para submeter" publicado depois de 4 de novembro).
 
 > [!NOTE]
@@ -89,7 +92,7 @@ O tutorial oficial da Meta mostra o agendamento no Facebook e no Instagram, incl
 1. **Dê a cada pessoa da comissão o próprio acesso** à Página. Nas configurações da Página, adicione as pessoas com o acesso de que elas precisam. Nunca compartilhe a senha de quem criou a Página. Se alguém sair da comissão, basta remover o acesso dessa pessoa.
 2. Abra o **Meta Business Suite** (no computador, em business.facebook.com, ou pelo aplicativo gratuito no celular).
 3. No canto superior esquerdo, **confira se a Página certa está selecionada**. Muita gente também administra a página da escola ou de um projeto.
-4. Confira se a **conta do Instagram** certa está conectada. No caso do CONAFROEDU, confirme com a comissão qual é o Instagram oficial; a página da Even3 aponta para @congressosnacionais_online.
+4. Use **conta profissional do Instagram (Empresa ou Criador)** conectada à Página correta e confira se os dois destinos aparecem. A página pública aponta para @congressosnacionais_online; confirme quem administra com a comissão. Se indisponível, publique manualmente.
 5. Encontre a configuração de **fuso horário** na tela de agendamento ou nas configurações da Página. Use o **horário de Brasília** (em ferramentas que listam cidades, escolha `America/Sao_Paulo`). O Brasil tem mais de um fuso: a ferramenta precisa usar o fuso do evento, e não o de cada voluntária ou voluntário.
 
 ### Como agendar um post (5 a 10 minutos por post)
@@ -135,9 +138,10 @@ Linhas do calendário da próxima semana:
 Para cada linha, entregue:
 1. Uma legenda para o Facebook (60 a 120 palavras), com uma única chamada para ação e o link da Even3 escrito por extenso.
 2. Uma versão mais curta para o Instagram (sem link clicável; só diga "link na bio" se confirmarmos que o link está na bio).
-3. Um texto alternativo para a imagem (1 ou 2 frases, descrevendo apenas o que aparece na imagem).
+3. Texto alternativo só a partir da IMAGEM FINAL anexada ou descrição factual com todo o texto visível. Sem esses dados, escreva AGUARDAR IMAGEM; não invente pessoas, objetos ou texto.
 4. Uma lista de todas as informações que você usou, para a revisora ou o revisor conferir.
 
+IMAGENS FINAIS (anexar ou fornecer descrição factual + texto visível): [por linha]
 FICHA OFICIAL (versão e data): [cole aqui]
 ```
 
@@ -235,6 +239,8 @@ O caminho mais seguro é: **a IA rascunha → uma pessoa aprova → uma pessoa (
 - [ ] Revisão da fila marcada para 4/11 (à noite) e 16/11 (de manhã)
 - [ ] Posts dos dias 5 e 6/12 planejados como manuais, não agendados
 - [ ] Link de cada post publicado copiado para a planilha
+
+**Limite dos agentes:** neste fluxo para iniciantes, agentes só preparam rascunhos/tabelas locais. Uma pessoa envia mídia quando necessário, confere Página, conteúdo final e data/hora, clica em Agendar e verifica a fila. Veja a [Tarefa D](computer-use-agents.md).
 
 ## Próximos passos
 

@@ -7,7 +7,10 @@ icon: 🗓️
 updated: 2026-10-21
 ---
 
-**What you'll get from this page:** two tools. **Part 1** is a reusable campaign timeline for any future edition (from first announcement to the post-event recap). **Part 2** is the concrete **CONAFROEDU 2026 calendar** from today (21 October) to the proceedings target (15 December), built on the organizers' published dates. You'll also get a content-calendar template and copy-paste AI prompts that build and update the calendar for you.
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#meta-business-suite) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
+
+**What you'll get from this page:** the current CONAFROEDU calendar first, with one shared dated publishing list; a reusable timeline for future editions follows as reference. These are two tools. Start with the **current campaign calendar below**. **Part 1**, placed later as reference, is a reusable campaign timeline for any future edition (from first announcement to the post-event recap). **Part 2** is the concrete **CONAFROEDU 2026 calendar** from today (21 October) to the proceedings target (15 December), built on the organizers' published dates. You'll also get a content-calendar template and copy-paste AI prompts that build and update the calendar for you.
 
 > [!NOTE]
 > For a day-by-day task list with an owner for each task, see the companion page [CONAFROEDU 2026: the 6-week sprint plan](conafroedu-sprint.md). This page focuses on **what to publish, when, and why**.
@@ -40,7 +43,7 @@ These come from the organizers' [Even3 page](https://www.even3.com.br/iconafroed
 | **15 Nov** | Sun | Last day of the current ticket tier | Displayed: R$ 55–70 depending on category |
 | **16 Nov** | Mon | New ticket tier starts | Displayed: R$ 60–75 depending on category |
 | **20 Nov** | Fri | Dia Nacional de Zumbi e da Consciência Negra — national holiday ([Lei 14.759/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14759.htm)) | Attendance and educational content — not submissions |
-| **By 25 Nov** | Wed | Official program and presentation schedule | — |
+| **By 25 Nov** | Wed | Official program and presentation schedule (target) | Publish only after actual release |
 | **5–6 Dec** | Sat–Sun | **Congress, 100% online** | Even3 header shows 08:00–22:00, GMT−3 |
 | **6 Dec** | Sun | Registrations close; certificates available from this date | Certificate eligibility to be confirmed |
 | **By 15 Dec** | Tue | Proceedings (Anais) publication target | Publication fee: R$ 16,98 per paper |
@@ -55,6 +58,83 @@ These come from the organizers' [Even3 page](https://www.even3.com.br/iconafroed
 > - [ ] Which platform delivers the sessions, and how registered people get access
 >
 > Don't let AI "fill in" any of these. Write `[CONFIRMAR]` until the committee answers.
+
+**Programme status, 21 Oct:** Even3 lists **12 activities**, including some named speakers; several slots overlap. Treat it as partial. Confirm individual announcements now, and use final-programme itineraries only after committee approval; full programme remains targeted by 25 Nov.
+
+## Part 2 — The CONAFROEDU 2026 calendar
+
+With ~6.5 weeks left, the plan is compressed. It follows a sustainable baseline: **three main Facebook posts weekly, optional fourth, one Event update, 1–2 WhatsApp Channel updates, and two 15-minute daily inbox passes**. This full plan needs roughly **12–17 combined person-hours/week**; reduce output using the [5–7-hour option](facebook-playbook.md) if needed. Proposed times are Brasília-time test slots (see [Facebook playbook](facebook-playbook.md)). Adjust to the team's capacity — cut posts before cutting replies.
+
+### Setup sprint: Wed 21 – Sun 25 October
+
+- [ ] Committee answers the "settle these" questions above (especially the 4 Nov closing time).
+- [ ] Master FICHA OFICIAL approved ([canonical template](prompting-basics.md)), with version, verifier, source and next update.
+- [ ] Facebook Page decided/created and optimized; online Event created ([how](facebook-events-groups.md)).
+- [ ] Two tagged link sets: `submissoes` and `inscricoes`.
+- [ ] Even3 checkout tested on a phone.
+- [ ] One confirmed speaker or author recorded answering 2–3 questions.
+- [ ] One person named as daily responder (Facebook, Instagram, WhatsApp).
+- [ ] First call **by Friday 23 Oct** (stretch goal 21 Oct if ready); use C01–C03 for 26/28/30 Oct. Authors have only 14 days.
+
+### Week by week
+
+| Week | Facebook Page (main posts) | Authors (until 4 Nov) | Participants & partners | Instagram / WhatsApp |
+|---|---|---|---|---|
+| **1 · 26 Oct – 1 Nov** | **26 Oct (C01):** submission how-to carousel. **28 Oct (C02):** seven-day submission checklist (this is the reminder, not an extra post). **30 Oct (C03):** classroom-practice Reel. Optional Sun: a real FAQ | Front-load the call: formats, rules, "registration and file submission are separate steps", the 4 Nov date. **28 Oct: C02 is the one-week reminder** | Publish the Event and an attendance FAQ. Send a short kit to confirmed speakers and a small NEABI/PPGE shortlist; 3–5 permitted group contributions | IG: Collab with a speaker; carousel of the checklist. WhatsApp: Channel launch + forwardable text for partners |
+| **2 · 2 – 8 Nov** | Mon: author checklist (48 h before). Wed 4 Nov: final, useful reminder at a committee-confirmed time. Fri: classroom-practice clip. Sun: "attend without presenting" FAQ | **Deadline week** (playbook below). After closing: update pinned post, Event and queued posts to "submissões encerradas" — unless formally extended | Registrations continue. Explain that attending does not require submitting a paper | Stories: deadline countdown until 4 Nov, then switch to attendance |
+| **3 · 9 – 15 Nov** | Mon: one scholarly/teaching question. Wed: speaker answer Reel. Fri: "como participar on-line". Price reminders in Stories/Channel on 10 and 14 Nov (checkout verified) | Authors get private procedural messages (review, corrections) — not public posts | Address doubts: internet access, timetable, costs, **40-hour certificate conditions**. Price change reminder **10 Nov** and **14 Nov**, in Stories/Channel (not extra Feed posts) | WhatsApp: one digest with the price-change date |
+| **4 · 16 – 22 Nov** | Mon 16: edit prices in existing pinned post/Event. Tue: sourced teaching resource. Thu 19: optional rehearsed conversation. **Fri 20 Nov: substantive Consciência Negra contribution.** Optional Sun clip **replaces** Thursday’s conversation as a main post | Invite an author/researcher to explain a substantive idea — without claiming acceptance or new submission availability | Connect Novembro Negro to continuing education on 5–6 Dec. Partners choose a respectful slot around their own actions. One clear registration CTA, **separate from** the commemorative post | IG: 20 Nov carousel. WhatsApp: no sales message on 20 Nov |
+| **5 · 23 – 29 Nov** | Mon: confirmed-facts participation/access FAQ. **Wed 25: official program** (or an honest delay notice). Fri: audience itinerary **only after confirmed program release**; otherwise a factual FAQ. **Sat 28: "faltam 7 dias" card** | Confirm each author's presentation/video/access arrangements privately | Offer a calendar link if available; rehearse delivery and support; one final voluntary partner invitation | IG: program carousel; Stories with "Qual mesa você não quer perder?" |
+| **6 · 30 Nov – 6 Dec** | Mon: participation checklist. Wed: "como acessar". **Thu 3 – Fri 4: one main final invitation + FAQ Stories.** **Sat 5 – Sun 6: live service updates** (replace the usual cadence) | Send presenters their schedule, access check and a human contact | Before opening: start time, login route, certificate conditions. During: only authorized public excerpts. **Registration runs until 6 Dec**: "começa em 48 horas" — not "inscrições acabam em 48 horas" | WhatsApp: day-before checklist; a few updates per day during the event |
+| **After · 7 – 15 Dec** | Mon 7: thank-you post. Tue/Wed: best authorized clip. Thu 10 (Human Rights Day): reflection/recap. **By 15 Dec: proceedings link** — or an honest status update | Authors: proceedings status, how to cite, certificate for authors (if different) | Certificate instructions (available from 6 Dec); feedback form; ask permission before reusing testimonials | WhatsApp: certificate and proceedings info; then a clear choice about future updates |
+
+### Key-day playbooks
+
+**The submission deadline (4 November)**
+
+1. **Wed 28 Oct (T−7 days):** "Uma semana para submeter" + checklist of formats and rules.
+2. **Mon 2 Nov (T−48 h):** practical checklist post (file format, registration of the responsible author, same e-mail for registration and submission). Note: 2 November is Dia de Finados, a national holiday — schedule the post rather than counting on someone being online.
+3. **Tue 3 Nov (T−24 h):** one final reminder in approved channels. Only say "faltam 24 horas" if the closing time is confirmed.
+4. **Wed 4 Nov:** a morning post + an announced **help window** ("Das 9h às 12h, respondemos dúvidas sobre submissão no WhatsApp"). Nothing after closing time.
+5. **Thu 5 Nov:** switch everything: pinned post, Event, Stories highlights, partner kits and **queued scheduled posts** that still mention submissions.
+
+> [!CAUTION]
+> Never say "improrrogável" or "última chance" unless the committee has decided there will be no extension. And never invent an extension "a pedidos" — only announce one after the committee approves it **and** Even3 is updated (template below).
+
+**The price change (15/16 November)**
+
+- **Tue 10 Nov:** "O valor atual vale até domingo, 15/11." Check prices in the checkout first.
+- **Sat 14 Nov:** short Story/WhatsApp reminder.
+- **Mon 16 Nov:** update prices everywhere they appear. Don't call the new tier "sold out" or invent scarcity.
+
+**20 November — Dia Nacional de Zumbi e da Consciência Negra**
+
+It's a Friday and a national holiday. Many educators are busy with school and community actions, so **don't expect high activity**, and don't make the day about selling.
+
+- Publish **one substantive educational contribution**: for example, a carousel "20 de novembro no calendário; ERER no cotidiano" explaining [Lei 10.639/2003](https://www.planalto.gov.br/ccivil_03/leis/2003/l10.639.htm), [Lei 11.645/2008](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11645.htm) and the holiday law, ending with one practical curriculum question; or a short video of a Black educator (credited, with consent) explaining a classroom practice.
+- If you invite people to the congress, do it in a **separate, brief** post — no discounts or pressure on the commemorative post.
+- No fabricated quotations, tokenistic stock images, invented partnerships or "celebrate by buying" framing. See [Representing Black & African cultures respectfully](representation-bias.md).
+
+**Program release (by 25 November)** — publish the confirmed program on the Page, Event and WhatsApp; then make 2–3 "itinerary" posts by audience. If it's late, say so honestly.
+
+**Final days (3–6 December)** — Thu 3: Page post with program, access route and Even3 link. Fri 4: updated FAQ and Stories. Sat–Sun: welcome, real schedule changes, support. Assign roles: one person on social replies, one on WhatsApp support, one capturing authorized moments. No hourly countdowns, no mass tagging, no DMs to Event respondents.
+
+**After (7–15 December)** — thank speakers, authors, partners and participants by name only with permission; share certificate steps; publish the proceedings link when it exists (never a fake link or invented DOI).
+
+### Other dates you *may* use (only with a qualified voice)
+
+These observances fall inside the campaign. They are not affiliations — use one only if a real speaker or educator can say something substantive.
+
+| Date | Observance | Possible angle |
+|---|---|---|
+| Thu 5 Nov | International Day against Violence and Bullying at School ([UNESCO](https://www.unesco.org/en/days/against-school-violence-and-bullying)) | Racial violence in school, with a qualified educator — don't reduce racism to "bullying" |
+| Tue 10 Nov | World Science Day for Peace and Development ([UNESCO](https://www.unesco.org/en/days/science-peace-development)) | Black researchers and public knowledge |
+| Sat 14 Nov | Dia Nacional da Alfabetização | Black authors in literacy practices, if relevant to the program |
+| Wed 25 Nov | International Day for the Elimination of Violence against Women ([UN](https://www.un.org/en/observances/ending-violence-against-women-day/background)) | Race, gender and education — with relevant expertise |
+| Thu 3 Dec | International Day of Persons with Disabilities ([UNESCO](https://www.unesco.org/en/days/international-day-persons-disabilities?hub=171040)) | Explain **real** accessibility arrangements only |
+| Thu 10 Dec | Human Rights Day ([UN](https://www.un.org/observances/human-rights-day)) | Fact-checked recap and commitments |
+
+Don't present Lei 10.639 or Lei 11.645 anniversaries as November events — they are in January and March.
 
 ## Part 1 — The reusable timeline (for future editions)
 
@@ -99,80 +179,6 @@ A future edition should start the call for papers much earlier than this year's.
 | Live | Real-time Stories; approved quote cards | "Agora: [mesa], ao vivo." |
 | Recap | Thank-you carousel; best clip; numbers you can verify | "Obrigado! Veja como baixar seu certificado." |
 
-## Part 2 — The CONAFROEDU 2026 calendar
-
-With ~6.5 weeks left, the plan is compressed. It follows a sustainable baseline: **3–4 Facebook posts a week, one Event update, 1–2 WhatsApp Channel updates, and daily replies**. Proposed times are Brasília-time test slots (see [Facebook playbook](facebook-playbook.md)). Adjust to the team's capacity — cut posts before cutting replies.
-
-### Setup sprint: Wed 21 – Sun 25 October
-
-- [ ] Committee answers the "settle these" questions above (especially the 4 Nov closing time).
-- [ ] Fact sheet approved (template in the [Facebook playbook](facebook-playbook.md)).
-- [ ] Facebook Page decided/created and optimized; online Event created ([how](facebook-events-groups.md)).
-- [ ] Two tagged link sets: `submissoes` and `inscricoes`.
-- [ ] Even3 checkout tested on a phone.
-- [ ] One confirmed speaker or author recorded answering 2–3 questions.
-- [ ] One person named as daily responder (Facebook, Instagram, WhatsApp).
-- [ ] First posts: clear announcement + "como submeter" post (authors have only 14 days).
-
-### Week by week
-
-| Week | Facebook Page (main posts) | Authors (until 4 Nov) | Participants & partners | Instagram / WhatsApp |
-|---|---|---|---|---|
-| **1 · 26 Oct – 1 Nov** | Mon: clear online-congress announcement. Wed: speaker's ERER teaching example (Reel). Fri: submission rules checklist (multi-photo). Optional Sun: answer a real author question | Front-load the call: formats, rules, "registration and file submission are separate steps", the 4 Nov date. **28 Oct (Wed): one-week reminder** | Publish the Event and an attendance FAQ. Send a short kit to confirmed speakers and a small NEABI/PPGE shortlist; 3–5 permitted group contributions | IG: Collab with a speaker; carousel of the checklist. WhatsApp: Channel launch + forwardable text for partners |
-| **2 · 2 – 8 Nov** | Mon: author checklist (48 h before). Wed 4 Nov: final, useful reminder at a committee-confirmed time. Fri: classroom-practice clip. Sun: "attend without presenting" FAQ | **Deadline week** (playbook below). After closing: update pinned post, Event and queued posts to "submissões encerradas" — unless formally extended | Registrations continue. Explain that attending does not require submitting a paper | Stories: deadline countdown until 4 Nov, then switch to attendance |
-| **3 · 9 – 15 Nov** | Mon: one scholarly/teaching question. Wed: speaker answer Reel. Fri: "como participar on-line". Sat/Sun: honest price-change reminder (checkout verified) | Authors get private procedural messages (review, corrections) — not public posts | Address doubts: internet access, timetable, costs, **40-hour certificate conditions**. Price change reminder ~**12 Nov** and **15 Nov** | WhatsApp: one digest with the price-change date |
-| **4 · 16 – 22 Nov** | Mon 16: update prices in pinned post/Event. Tue: sourced teaching resource. Thu 19: optional short public conversation (if rehearsed and authorized). **Fri 20 Nov: substantive Consciência Negra contribution.** Sun: clip from the conversation | Invite an author/researcher to explain a substantive idea — without claiming acceptance or new submission availability | Connect Novembro Negro to continuing education on 5–6 Dec. Partners choose a respectful slot around their own actions. One clear registration CTA, **separate from** the commemorative post | IG: 20 Nov carousel. WhatsApp: no sales message on 20 Nov |
-| **5 · 23 – 29 Nov** | Mon: program guide by audience. **Wed 25: official program** (or an honest delay notice). Fri: online access & support FAQ. **Sat 28: "faltam 7 dias" card** | Confirm each author's presentation/video/access arrangements privately | Offer a calendar link if available; rehearse delivery and support; one final voluntary partner invitation | IG: program carousel; Stories with "Qual mesa você não quer perder?" |
-| **6 · 30 Nov – 6 Dec** | Mon: participation checklist. Wed: "como acessar". **Thu 3 – Fri 4: one main final invitation + FAQ Stories.** **Sat 5 – Sun 6: live service updates** (replace the usual cadence) | Send presenters their schedule, access check and a human contact | Before opening: start time, login route, certificate conditions. During: only authorized public excerpts. **Registration runs until 6 Dec**: "começa em 48 horas" — not "inscrições acabam em 48 horas" | WhatsApp: day-before checklist; a few updates per day during the event |
-| **After · 7 – 15 Dec** | Mon 7: thank-you post. Tue/Wed: best authorized clip. Thu 10 (Human Rights Day): reflection/recap. **By 15 Dec: proceedings link** — or an honest status update | Authors: proceedings status, how to cite, certificate for authors (if different) | Certificate instructions (available from 6 Dec); feedback form; ask permission before reusing testimonials | WhatsApp: certificate and proceedings info; then a clear choice about future updates |
-
-### Key-day playbooks
-
-**The submission deadline (4 November)**
-
-1. **Wed 28 Oct (T−7 days):** "Uma semana para submeter" + checklist of formats and rules.
-2. **Mon 2 Nov (T−48 h):** practical checklist post (file format, registration of the responsible author, same e-mail for registration and submission). Note: 2 November is Dia de Finados, a national holiday — schedule the post rather than counting on someone being online.
-3. **Tue 3 Nov (T−24 h):** one final reminder in approved channels. Only say "faltam 24 horas" if the closing time is confirmed.
-4. **Wed 4 Nov:** a morning post + an announced **help window** ("Das 9h às 12h, respondemos dúvidas sobre submissão no WhatsApp"). Nothing after closing time.
-5. **Thu 5 Nov:** switch everything: pinned post, Event, Stories highlights, partner kits and **queued scheduled posts** that still mention submissions.
-
-> [!CAUTION]
-> Never say "improrrogável" or "última chance" unless the committee has decided there will be no extension. And never invent an extension "a pedidos" — only announce one after the committee approves it **and** Even3 is updated (template below).
-
-**The price change (15/16 November)**
-
-- **Thu 12 Nov:** "O valor atual vale até domingo, 15/11." Check prices in the checkout first.
-- **Sun 15 Nov:** short Story/WhatsApp reminder.
-- **Mon 16 Nov:** update prices everywhere they appear. Don't call the new tier "sold out" or invent scarcity.
-
-**20 November — Dia Nacional de Zumbi e da Consciência Negra**
-
-It's a Friday and a national holiday. Many educators are busy with school and community actions, so **don't expect high activity**, and don't make the day about selling.
-
-- Publish **one substantive educational contribution**: for example, a carousel "20 de novembro no calendário; ERER no cotidiano" explaining [Lei 10.639/2003](https://www.planalto.gov.br/ccivil_03/leis/2003/l10.639.htm), [Lei 11.645/2008](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11645.htm) and the holiday law, ending with one practical curriculum question; or a short video of a Black educator (credited, with consent) explaining a classroom practice.
-- If you invite people to the congress, do it in a **separate, brief** post — no discounts or pressure on the commemorative post.
-- No fabricated quotations, tokenistic stock images, invented partnerships or "celebrate by buying" framing. See [Representing Black & African cultures respectfully](representation-bias.md).
-
-**Program release (by 25 November)** — publish the confirmed program on the Page, Event and WhatsApp; then make 2–3 "itinerary" posts by audience. If it's late, say so honestly.
-
-**Final days (3–6 December)** — Thu 3: Page post with program, access route and Even3 link. Fri 4: updated FAQ and Stories. Sat–Sun: welcome, real schedule changes, support. Assign roles: one person on social replies, one on WhatsApp support, one capturing authorized moments. No hourly countdowns, no mass tagging, no DMs to Event respondents.
-
-**After (7–15 December)** — thank speakers, authors, partners and participants by name only with permission; share certificate steps; publish the proceedings link when it exists (never a fake link or invented DOI).
-
-### Other dates you *may* use (only with a qualified voice)
-
-These observances fall inside the campaign. They are not affiliations — use one only if a real speaker or educator can say something substantive.
-
-| Date | Observance | Possible angle |
-|---|---|---|
-| Thu 5 Nov | International Day against Violence and Bullying at School ([UNESCO](https://www.unesco.org/en/days/against-school-violence-and-bullying)) | Racial violence in school, with a qualified educator — don't reduce racism to "bullying" |
-| Tue 10 Nov | World Science Day for Peace and Development ([UNESCO](https://www.unesco.org/en/days/science-peace-development)) | Black researchers and public knowledge |
-| Sat 14 Nov | Dia Nacional da Alfabetização | Black authors in literacy practices, if relevant to the program |
-| Wed 25 Nov | International Day for the Elimination of Violence against Women ([UN](https://www.un.org/en/observances/ending-violence-against-women-day/background)) | Race, gender and education — with relevant expertise |
-| Thu 3 Dec | International Day of Persons with Disabilities ([UNESCO](https://www.unesco.org/en/days/international-day-persons-disabilities?hub=171040)) | Explain **real** accessibility arrangements only |
-| Thu 10 Dec | Human Rights Day ([UN](https://www.un.org/observances/human-rights-day)) | Fact-checked recap and commitments |
-
-Don't present Lei 10.639 or Lei 11.645 anniversaries as November events — they are in January and March.
 
 ## Build your content calendar (free spreadsheet)
 
@@ -242,12 +248,14 @@ Do not invent speakers, prices, partners, testimonials or observances. Mark anyt
 ```prompt
 Build an organic content calendar for CONAFROEDU — Congresso Nacional de Africanidades na Educação, 100% online, 5–6 December 2026. Today is 21 October 2026.
 Team: [number] people, [hours] hours per week in total. Main channel: Facebook. Support: Instagram and a WhatsApp Channel.
-Verified dates: submissions and presenter video until 4 Nov (closing time: [CONFIRMAR]); review within 5 business days; current ticket tier until 15 Nov, new tier from 16 Nov; 20 Nov is the national holiday Dia Nacional de Zumbi e da Consciência Negra (Friday); official program by 25 Nov; registrations until 6 Dec; certificates from 6 Dec; proceedings target 15 Dec.
+Verified dates: submissions and presenter video until 4 Nov (closing time: [CONFIRMAR]); review within 5 business days; current ticket tier until 15 Nov, new tier from 16 Nov; 20 Nov is the national holiday Dia Nacional de Zumbi e da Consciência Negra (Friday); official program by 25 Nov; registrations until 6 Dec; certificates expected from 6 Dec, subject to confirmed criteria; proceedings target 15 Dec.
 Approved facts: [paste fact sheet]. Existing materials: [list videos, photos, speakers who agreed].
 
 Rules:
 - Separate the call for papers from attendee registration. After 4 Nov, keep submission posts only if a formal extension exists.
-- 20 Nov: one substantive educational contribution, no discounts or sales pressure on that post.
+- 20 Nov: one sourced educational contribution ending with an educational question. Any congress invitation goes in a separate optional post; no sales CTA or discount in the educational piece.
+- Reuse C01–C03 on 26/28/30 Oct (submission how-to, seven-day checklist, classroom Reel); do not add another 28 Oct reminder. Price reminders: Stories/Channel on 10 and 14 Nov.
+- Programme-derived itineraries require confirmed session details; partial Even3 listings are not the final timetable.
 - Honest urgency only (real dates); no "últimas vagas" for an online event without a confirmed cap.
 - Maximum 4 Facebook posts per week, at most 2 videos; one Event update per week; 1–2 WhatsApp Channel updates per week.
 - Do not invent observances, speakers, testimonials or availability.

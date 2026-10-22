@@ -7,6 +7,9 @@ icon: 🤝
 updated: 2026-10-21
 ---
 
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#privacy) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
+
 **What you'll get from this page:** a repeatable, ethical outreach process for CONAFROEDU 2026. You'll **find** relevant institutions and people with AI, **verify** them, **personalize** a short message, **send it yourself**, and **follow up once**. It includes target lists with real starting points, prompts, **ready-to-adapt templates in Brazilian Portuguese** (email and WhatsApp), a follow-up calendar tied to the real deadlines, and the privacy and anti-spam rules that keep the committee's reputation intact.
 
 > [!IMPORTANT]
@@ -95,7 +98,7 @@ A shared sheet with one row per **institution** (not per person):
 | Follow-up on | 30/10 |
 | Response | shared / declined / no answer |
 | Opt-out / do not contact | ☐ |
-| Tracking link used | utm_source=neab_x |
+| Tracking link used | utm_source=parceiro_neabi_01 |
 
 ### Step 5: Draft with AI, one message at a time
 
@@ -124,7 +127,7 @@ Make a specific and honest connection between the institution's work and the con
 
 - Send from the **committee's email** (`conapsuporte@gmail.com`) or an institutional address, **one recipient per email**. No big CC lists, and no BCC blasts.
 - Use a clear subject: `Chamada de trabalhos | CONAFROEDU 2026 | submissões até 04/11`.
-- For WhatsApp, only message **published institutional numbers** or people you already know, and ask *permission* before sending material for a group.
+- On WhatsApp Business, contact only people who initiated the conversation or expressly authorized this kind of message from the committee. A public number, saved contact or acquaintance is not permission. Otherwise use the appropriate institutional email/form to ask about sharing.
 - Log it in the tracker immediately.
 
 ### Step 8: Follow up once, then close the loop
@@ -143,6 +146,8 @@ See the cadence below. If they say yes, thank them, send the kit and report back
 | **After the event** | Thank partners, share the real results and proceedings link when it exists (planned by 15 Dec) | 7–18 Dec |
 
 A single follow-up after about a week is good manners, not a legal safe harbour. Some contexts (a busy coordinator, a formal association) call for **no** follow-up at all.
+
+**WhatsApp condition for every template and follow-up:** use only in a recipient-initiated conversation or after recorded permission from another channel. In particular, the group-admin permission request is not an exemption for cold WhatsApp contact. A single follow-up still requires that permission.
 
 ## Templates in Brazilian Portuguese
 
@@ -317,11 +322,11 @@ Brazil's **LGPD** (Lei Geral de Proteção de Dados, [Lei 13.709/2018](https://w
 
 - **Purpose and minimum data.** Collect only what you need to make a relevant institutional contact: name of unit, institutional email, source. No CPFs, no personal phone numbers scraped from the web.
 - **A legal basis, honestly assessed.** Consent is one basis. *Legitimate interest* is another, but ANPD (the data protection authority) says it requires a balancing test and is **not blanket permission for unlimited outreach** ([ANPD guide](https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia_orientativo_hipoteses_legais_tratamento_de_dados_pessoais_legitimo_interesse)). A single, relevant institutional message is very different from a marketing sequence.
-- **Published ≠ free to reuse.** A public email is still personal data. Use it for the purpose for which it was published (contacting the unit), not to add to newsletters.
+- **Published ≠ free to reuse.** An email identifying a person is personal data; a generic unit mailbox is not automatically personal data. Use it for the purpose for which it was published (contacting the unit), not to add to newsletters.
 - **Opt-out, always.** Every message offers it, and you honour it permanently. Keep a small "do not contact" list.
 - **Don't share lists.** Never give your tracker or registrant data to partners or sponsors.
 - **AI tools and data.** Don't paste contact lists or registrant exports into AI assistants. Draft messages with the institution's public information only.
-- **Retention.** Delete the outreach tracker's personal fields after the event cycle, unless people opted in to future editions.
+- **Retention.** Delete prospecting data no longer needed. Keep only a restricted minimum suppression identifier needed to honor do-not-contact requests, with retention period/legal basis set by the responsible organizer. Do not keep whole conversations indefinitely.
 
 **Platform rules:**
 
@@ -335,7 +340,7 @@ Brazil's **LGPD** (Lei Geral de Proteção de Dados, [Lei 13.709/2018](https://w
 ## Measuring which partnerships work
 
 - **Tracking links per partner** (UTM parameters). They tell Even3 or Google Analytics where a visit came from. Example (test that it keeps the registration path working before you share it):
-  `https://www.even3.com.br/iconafroedu-764690/?utm_source=neab_ufscar&utm_medium=parceria&utm_campaign=conafroedu_2026_submissoes`
+  `https://www.even3.com.br/iconafroedu-764690/?utm_source=parceiro_neabi_01&utm_medium=referral&utm_campaign=conafroedu_2026_submissoes&utm_content=release`
   Use institution codes, never personal names or emails, in links.
 - **Coupons:** Even3 supports discount coupons by amount or percentage, with limits and expiry ([Even3 help](https://ajuda.even3.com.br/hc/pt-br/articles/212182786-Criar-cupons-de-desconto)). A coupon like `NEABPARCEIRO` is only an idea. Offer one **only if the committee approves** the discount and its cost.
 - **Tracker results:** count who shared, which shares brought clicks, and what people said. Review weekly. See [Measuring Results for Free](measuring-results.md).

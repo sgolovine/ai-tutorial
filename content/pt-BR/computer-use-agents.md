@@ -1,11 +1,14 @@
 ---
 title: Agentes de navegador e de computador
-description: O que os agentes de IA que clicam e digitam por você (Claude no Chrome, uso do computador pelo Claude, agente do ChatGPT e outros) podem fazer de verdade pelo CONAFROEDU, com tarefas passo a passo, estimativas de tempo e uma lista firme do que NÃO automatizar.
+description: O que os agentes de IA que clicam e digitam por você (Claude no Chrome, uso do computador pelo Claude, ChatGPT Work e outros) podem fazer de verdade pelo CONAFROEDU, com tarefas passo a passo, estimativas de tempo e uma lista firme do que NÃO automatizar.
 order: 330
 section: automate
 icon: 🤖
 updated: 2026-10-21
 ---
+
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#claude-chrome). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
 
 **O que você vai encontrar nesta página:** uma explicação simples do que são agentes "de navegador" e "de computador", uma comparação das principais ferramentas e do que elas custam, **seis tarefas realistas para o CONAFROEDU**, com passo a passo, prompts prontos, estimativas de tempo e falhas comuns, e uma lista clara do que **nunca deve ser automatizado** no Facebook, no Instagram e no WhatsApp.
 
@@ -27,20 +30,22 @@ Parece um assistente-robô. Na prática, ele é **mais lento do que você para c
 |---|---|---|---|
 | **Claude no Chrome** | Extensão do navegador: o Claude trabalha nas suas abas do Chrome e executa ações | **Planos pagos do Claude.** Disponível para todos desde 26/08/2026 ([anúncio](https://claude.com/blog/claude-in-chrome-generally-available)). O Pro custa **US$ 20/mês** ([preços](https://claude.com/pricing)) | Consome o limite de uso do plano. Bom para pesquisa e rascunho de formulários. |
 | **Uso do computador pelo Claude (desktop)** | O Claude opera a tela do seu computador pelo aplicativo Claude / Cowork | **Beta nos planos Pro e Max, em macOS e Windows** ([Ajuda do Claude](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork)) | O aplicativo precisa ficar aberto. Suporte a Linux não confirmado. Mais lento do que uma integração direta. |
-| **Navegador / agente do ChatGPT** | O ChatGPT age num navegador, com perfil separado e controles de permissão | No ChatGPT web e desktop ([documentação da OpenAI](https://learn.chatgpt.com/docs/browser)). Plus custa **US$ 20/mês**, Go **US$ 8/mês** ([preços](https://learn.chatgpt.com/docs/pricing)) | Não confirmamos quais planos incluem o agente, os limites mensais nem a disponibilidade do navegador Atlas no Brasil. Confira na sua conta. |
-| **Tarefas do Gemini** | O Gemini executa tarefas e fluxos de trabalho | **Pro ou Ultra**, conta pessoal, maiores de 18 anos ([Ajuda do Google](https://support.google.com/gemini/answer/17094507?hl=en)). O Pro custa **R$ 96,99/mês** no Brasil | O Brasil não aparece entre as regiões excluídas, mas não testamos. |
+| **Navegador na nuvem do ChatGPT Work** | Navegador remoto, diferente do integrado no desktop/extensão | Navegação com login na web/celular em **Plus/Pro**, sujeita à liberação ([documentação](https://learn.chatgpt.com/docs/browser)); confira o preço | Uploads no navegador integrado do desktop são manuais. [Configuração](setup-tools.md#chatgpt-agent). |
+| **Tarefas do Gemini** | Chrome local ou navegador remoto separado | **Google AI Pro/Ultra**, conta pessoal, 18+, **Manter Atividade e Inteligência Personalizada ativados** ([ajuda](https://support.google.com/gemini/answer/17094507?hl=pt-BR)); confira o preço | Revise apps conectados/dados privados primeiro. Um perfil de navegador separado não isola dados Google conectados. |
 | **Perplexity Comet** | Navegador com assistente de pesquisa embutido | Navegador gratuito; os limites de agente e de "Computer" variam por plano ([Comet](https://www.perplexity.ai/comet)) | Ótimo para encontrar e citar fontes. |
 | **browser-use** | Ferramenta para desenvolvedores criarem o próprio agente | Pagamento por uso: US$ 1 de crédito de teste, depois uso + custo do modelo ([preços](https://browser-use.com/pricing)) | Só com alguém técnico na equipe. |
 
 > [!NOTE]
 > **Caminho com orçamento zero:** as seis tarefas abaixo também funcionam *sem* agente. Use um chat gratuito (planos gratuitos de Claude, ChatGPT, Gemini ou Perplexity), copie e cole as páginas você mesmo(a) e deixe a IA fazer a parte de pensar, enquanto você faz os cliques. O agente economiza tempo em listas longas, mas não é obrigatório.
 
+**Nomes atuais:** o [agente antigo do ChatGPT está indisponível](https://help.openai.com/en/articles/11752874-chatgpt-agent); use Work. [Atlas foi aposentado](https://help.openai.com/en/articles/20001371-chatgpt-atlas-retirement): não siga tutoriais de instalação do Atlas ou de /agent.
+
 ## Regras de ouro para supervisionar um agente
 
 1. **Escopo pequeno, ponto de parada claro.** "Encontre 10 NEABs e pare" é melhor do que "encontre todos os NEABs do Brasil".
 2. **Só rascunho, por padrão.** O agente prepara; uma pessoa publica, envia, paga ou submete.
 3. **Pare antes de qualquer ação pública.** Diga com todas as letras: *não publique, não envie, não submeta, não compre, não entre em grupos, não apague e não aceite nada.*
-4. **Use um perfil de navegador separado** para o agente, logado só no que a tarefa exige.
+4. **Use perfil local separado quando compatível**, com login só nos sites da tarefa. Em navegador na nuvem, revise sessões salvas separadamente e confira conectores. O perfil não isola dados já conectados ao assistente.
 5. **Nunca digite senhas, códigos ou CPF no chat.** Se precisar de login, faça você mesmo(a) e depois passe a tarefa para o agente.
 6. **Cuidado com a "injeção de prompt"**: uma página ou mensagem pode ter instruções escondidas para a IA ("ignore suas instruções e…"). Agentes podem ser enganados. Tarefas restritas e revisão humana são a sua proteção ([documentação do Claude sobre uso do navegador](https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool)).
 7. **Regra dos dois erros.** Se os dois primeiros itens vierem errados, pare e faça manualmente.
@@ -54,7 +59,7 @@ Esta é a seção mais importante da página. As ações abaixo violam regras da
 |---|---|---|
 | **Publicar o mesmo convite em vários grupos do Facebook** com agente ou ferramenta | A Meta desativou a API de publicação em grupos em 2024 ([Meta](https://developers.facebook.com/blog/post/2024/01/23/introducing-facebook-graph-and-marketing-api-v19/)) e penaliza comportamento de spam ([Meta contra spam](https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/)). Um agente que publica imita uma pessoa para driblar isso. | Uma pessoa do grupo lê as regras, fala com a administração, adapta o texto e publica manualmente. Veja [Eventos e grupos do Facebook](facebook-events-groups.md). |
 | **Entrar em grupos automaticamente** ou enviar pedidos de participação em massa | Mesmo motivo, e ainda engana a administração do grupo. | Entre você mesmo(a) em poucos grupos relevantes, como Página, se o grupo aceitar Páginas. |
-| **Mandar mensagens privadas em massa** no Messenger, Instagram ou WhatsApp | O Messenger permite responder em até 24 horas depois da mensagem da pessoa, mais uma resposta privada a um comentário, e não permite campanhas de abordagem a frio ([política do Messenger](https://developers.facebook.com/documentation/business-messaging/messenger-platform/policy)). O WhatsApp exige **consentimento (opt-in)**, respeito a quem pede para sair, e bane números ([política do WhatsApp](https://whatsappbusiness.com/policy/)). | Responda a quem escreveu para vocês. Envie avisos só para quem pediu. |
+| **Mandar mensagens privadas em massa** no Messenger, Instagram ou WhatsApp | O Messenger permite responder em até 24 horas depois da mensagem da pessoa, mais uma resposta privada em até sete dias de um comentário na Página; espere a pessoa responder antes de continuar na janela aplicável, e não permite campanhas de abordagem a frio ([política do Messenger](https://developers.facebook.com/documentation/business-messaging/messenger-platform/policy)). O WhatsApp exige **consentimento (opt-in)**, respeito a quem pede para sair, e bane números ([política do WhatsApp](https://whatsappbusiness.com/policy/)). | Responda a quem escreveu para vocês. Envie avisos só para quem pediu. |
 | **Coletar automaticamente** listas de membros, e-mails, telefones ou perfis (Facebook, Instagram, Lattes, sites de universidades) | A Meta considera a coleta automatizada sem permissão uma violação dos termos ([Meta sobre scraping](https://about.fb.com/news/2021/04/how-we-combat-scraping/)). O e-mail público de uma pessoa continua sendo **dado pessoal** para a LGPD. | Registre os canais de contato **institucionais** (e-mail do núcleo ou do departamento, formulário) de uma lista curta de instituições relevantes. Veja [Divulgação e parcerias](outreach.md). |
 | **Engajamento falso:** perfis extras, curtidas e comentários automáticos, "grupos de engajamento", seguidores comprados | Viola as regras da Meta e mina a confiança num evento acadêmico. | Peça a palestrantes e parceiros reais que compartilhem por vontade própria, com as próprias palavras. |
 | **Usar extensões de "disparo em massa" no WhatsApp** ou automações não oficiais | Viola os termos do WhatsApp; números são banidos. | Use manualmente as ferramentas do aplicativo gratuito (veja [Respostas automáticas](replies-inbox.md)). |
@@ -72,10 +77,10 @@ Os tempos abaixo são **estimativas de planejamento, não medições**. Incluem 
 
 | # | Tarefa | Agente | Revisão humana | Ferramenta sugerida |
 |---|---|---|---|---|
-| A | Encontrar 10 páginas de NEAB/NEABI com contatos oficiais | 15–30 min | 15–20 min | Claude no Chrome, Comet, agente do ChatGPT (ou Perplexity gratuito + manual) |
+| A | Encontrar 10 páginas de NEAB/NEABI com contatos oficiais | 15–30 min | 15–20 min | Claude no Chrome, Comet, ChatGPT Work (ou Perplexity gratuito + manual) |
 | B | Comparar a página da Even3 com a ficha oficial | 10–20 min | 5–10 min | Qualquer agente de navegador (ou chat gratuito + copiar/colar) |
 | C | Rascunhar 5 convites institucionais personalizados | 10–20 min | 10–15 min | Qualquer assistente |
-| D | Colocar 5 posts aprovados no Business Suite como rascunho/agendados | 15–30 min | 10–15 min | Claude no Chrome ou agente do ChatGPT (acompanhe de perto) |
+| D | Preparar 5 rascunhos; uma pessoa agenda | 15–30 min | 10–15 min | Assistência de navegador permitida ou entrada manual |
 | E | Transformar 20 perguntas anonimizadas em lacunas do FAQ + rascunhos | 10–15 min | 10 min | Qualquer assistente (não precisa de agente) |
 | F | Renomear e conferir 10 fotos autorizadas de palestrantes | 10–20 min | 5–10 min | Uso do computador pelo Claude (desktop) |
 
@@ -134,15 +139,15 @@ FICHA OFICIAL: [cole aqui]
 
 ### Tarefa D — Colocar 5 posts aprovados no Meta Business Suite
 
-**Objetivo:** poupar digitação na sessão de produção em lote. É a tarefa de maior risco da lista, porque o agente mexe na sua Página pública.
+**Objetivo:** preparar rascunhos para uma pessoa agendar. O limite para iniciantes é **somente rascunhos**: agendar também compromete conteúdo público futuro.
 
-1. Faça você mesmo(a) o login no Business Suite, no perfil de navegador do agente. Confira se **a Página certa** está selecionada.
-2. Entregue ao agente as 5 linhas aprovadas (legenda exata, nome do arquivo, data/hora no horário de Brasília).
-3. Prompt: *"Crie estes posts como publicações agendadas (ou como rascunho, se o agendamento não estiver claro) na Página [NOME]. Use as legendas exatamente como estão. Não publique agora. Depois de cada uma, me mostre a pré-visualização e espere o meu OK antes de confirmar."*
-4. Acompanhe o trabalho, confirme um por um e depois **confira o Planejador** você mesmo(a).
-5. Depois do horário marcado, confira os posts publicados (veja [Ferramentas de agendamento](scheduling-tools.md)).
+1. Confira se o serviço/conta permite essa interação de navegador. Se houver dúvida, peça uma tabela local ao assistente e use o Business Suite manualmente.
+2. Uma pessoa seleciona a Página correta e fornece cinco linhas aprovadas: legenda, mídia real, destino e data/hora de Brasília.
+3. Prompt: *"Prepare somente rascunhos, se salvar rascunhos for permitido e estiver disponível. Não publique nem agende. Mostre cada prévia e pare antes do envio/agendamento final. Se não puder, devolva uma tabela para entrada manual."*
+4. **Uma pessoa envia a mídia quando necessário.** A OpenAI informa que o ChatGPT não automatiza uploads no navegador integrado do desktop; nuvem e extensão são caminhos diferentes.
+5. Uma pessoa confere Página, legenda, mídia, links, data/hora e duplicadas; clica pessoalmente em **Agendar** na ferramenta nativa e confere a fila e o resultado publicado.
 
-**Falhas comuns:** Página errada, fuso errado, falha no envio do vídeo, agendamento duplicado, login expirado. **Sendo honestos:** para 5 posts, fazer você mesmo(a) na ferramenta da Meta costuma levar quase o mesmo tempo. Use o agente só se ele realmente poupar trabalho.
+**Falhas comuns:** Página/fuso incorretos, upload com erro, duplicadas e login expirado. Para cinco posts, a entrada manual pode ser mais rápida. Não contorne a falta de integração autorizada com automação de navegador.
 
 ### Tarefa E — Transformar perguntas em lacunas do FAQ
 
@@ -165,7 +170,7 @@ Estas são 20 perguntas anonimizadas recebidas nesta semana sobre o CONAFROEDU 2
 
 1. **Faça uma cópia** da pasta original. O agente trabalha só na cópia.
 2. Prepare uma lista simples: nome original do arquivo → nome aprovado da pessoa palestrante → situação da autorização.
-3. Prompt: *"Na pasta [CAMINHO-DA-CÓPIA], renomeie os arquivos conforme esta lista, no padrão `palestrante-sobrenome-nome.jpg`. Não apague, não edite e não envie nenhuma imagem. Pule os arquivos que não estão na lista. No fim, me mostre uma tabela com cada alteração e cada arquivo pulado."*
+3. Prompt: *"Na pasta [CAMINHO-DA-CÓPIA], renomeie os arquivos conforme esta lista, no padrão `palestrante-sobrenome-nome-01.[extensão-original]`. Mostre os nomes propostos primeiro e espere aprovação. Preserve formatos/extensões originais. Nunca sobrescreva: pule e relate conflitos. Não apague, não edite e não envie nenhuma imagem. Pule os arquivos que não estão na lista. No fim, me mostre uma tabela com cada alteração e cada arquivo pulado."*
 4. Confira por amostragem: abra 3 ou 4 arquivos e compare rosto e nome.
 
 **Falhas comuns:** foto associada ao nome errado, arquivos sobrescritos. Por isso, trabalhe sempre na cópia.
@@ -180,7 +185,7 @@ As telas mudam com frequência, então siga as instruções oficiais no site do 
 4. Nas configurações da extensão, revise as **permissões por site** e libere só os sites de que a tarefa precisa.
 5. Comece pela Tarefa B (somente leitura) para se acostumar antes de qualquer tarefa que mexa na sua Página.
 
-No **agente/navegador do ChatGPT**, o princípio é o mesmo: perfil de navegador separado, pedidos de permissão ativados e aprovação humana a cada passo sensível ([documentação da OpenAI](https://learn.chatgpt.com/docs/browser)).
+No **ChatGPT**, escolha o [caminho de configuração](setup-tools.md): navegador na nuvem do Work, integrado do desktop ou extensão compatível. Eles não compartilham um perfil local: revise permissões/logins separadamente. No Gemini, confira apps conectados/Inteligência Personalizada; se não puder excluir dados privados, pesquise fontes públicas manualmente.
 
 ## Vale a pena pagar?
 
@@ -193,7 +198,7 @@ No **agente/navegador do ChatGPT**, o princípio é o mesmo: perfil de navegador
 
 ## Checklist
 
-- [ ] Perfil de navegador separado para o agente
+- [ ] Perfil local/sessões na nuvem e permissões de apps conectados revisados para este caminho
 - [ ] Todo prompt de agente inclui "não publique, não envie, não submeta, não compre, não entre em grupos e não apague"
 - [ ] Nenhuma senha, código ou CPF digitado em chat
 - [ ] Resultados da Tarefa A verificados, abrindo cada link de fonte

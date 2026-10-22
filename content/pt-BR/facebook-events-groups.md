@@ -7,6 +7,9 @@ icon: 📅
 updated: 2026-10-21
 ---
 
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#meta-business-suite). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
+
 **O que você vai encontrar aqui:** um passo a passo para criar um **Evento on-line** público e bem-feito do CONAFROEDU 2026 no Facebook, uma descrição pronta para colar, um plano de publicações para a discussão do Evento até depois do congresso e um método respeitoso para divulgar o congresso em **Grupos** de educação (NEABIs, professores, programas de pós-graduação) — incluindo a mensagem exata para pedir autorização à moderação.
 
 > [!IMPORTANT]
@@ -84,7 +87,7 @@ PARA QUEM: professoras e professores da educação básica, estudantes de gradua
 O QUE O CONGRESSO OFERECE (conforme a divulgação oficial):
 • Apresentação de trabalhos
 • Publicação nos Anais com ISBN e DOI (taxa de publicação de R$ 16,98 por trabalho, além da inscrição)
-• Certificado de 40 horas — [critérios de participação: CONFIRMAR]
+• Certificado de 40 horas — [CONFIRMAR] (critérios de participação)
 • Modalidades: [copiar exatamente das normas na Even3]
 
 PRAZOS IMPORTANTES:
@@ -93,14 +96,17 @@ PRAZOS IMPORTANTES:
 • Programação oficial: até 25 de novembro
 • Inscrições: até 6 de dezembro
 
-COMO PARTICIPAR: a inscrição é feita na Even3 (o "Vou"/"Tenho interesse" aqui no Facebook não é inscrição). [Explicar como as pessoas inscritas recebem o acesso às transmissões: CONFIRMAR]
+COMO PARTICIPAR: a inscrição é feita na Even3 (o "Vou"/"Tenho interesse" aqui no Facebook não é inscrição). [CONFIRMAR] (Explicar como as pessoas inscritas recebem o acesso às transmissões)
 
-👉 Inscrições, normas e valores: https://www.even3.com.br/iconafroedu-764690/
+👉 Inscrições, normas e valores: [LINK RASTREÁVEL DA EVEN3]
 
 ACESSIBILIDADE: [informar somente recursos confirmados] Dúvidas ou pedidos de apoio: WhatsApp (19) 98816-7751 · conapsuporte@gmail.com
 
 #CONAFROEDU #EducaçãoAntirracista #Africanidades
 ```
+
+Preencha `[LINK RASTREÁVEL DA EVEN3]` com a URL testada do campo de ingressos, da aba Links, antes de publicar.
+
 
 > [!NOTE]
 > De propósito, não colocamos os valores na descrição, porque eles mudam em **16 de novembro** (na Even3, em 21 de outubro: R$ 55 a R$ 70 até 15 de novembro e R$ 60 a R$ 75 a partir de 16 de novembro, conforme a categoria). Se incluírem valores, confiram no checkout e editem o Evento no dia 16.

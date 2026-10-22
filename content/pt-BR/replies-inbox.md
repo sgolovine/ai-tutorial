@@ -7,6 +7,9 @@ icon: 💬
 updated: 2026-10-21
 ---
 
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#whatsapp-business). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
+
 **O que você vai encontrar nesta página:** um sistema prático de atendimento para uma comissão pequena e voluntária. Ele mostra o que automatizar (saudação, mensagem de ausência, perguntas frequentes estáveis), o que deixar sempre com uma pessoa (pagamentos, certificados, acessibilidade, conflitos) e como usar IA para rascunhar respostas sem deixar que ela invente informações. O centro da página é um **banco de respostas pronto para adaptar ao CONAFROEDU 2026**, em que cada resposta está marcada como *confirmada na página da Even3* ou *confirmar com a comissão*.
 
 > [!IMPORTANT]
@@ -30,13 +33,13 @@ Pense no atendimento automatizado em quatro camadas, da mais simples e segura pa
 
 A automação repete o que você entrega a ela, inclusive os erros, centenas de vezes. Por isso, comece pelo **banco de respostas** abaixo. Cole-o na planilha compartilhada, numa aba chamada **FAQ aprovado**, com número de versão e data. Depois:
 
-1. Alguém da comissão revisa cada resposta marcada como **⚠️ CONFIRMAR**: troca os colchetes pela decisão oficial ou mantém a versão "vamos confirmar".
+1. Alguém da comissão revisa cada resposta marcada como **(confirmar com a comissão)**: troca os colchetes pela decisão oficial ou mantém a versão "vamos confirmar".
 2. Só entram em mensagens automáticas e respostas rápidas as respostas marcadas com ✅ (ou já confirmadas pela comissão).
 3. Sempre que uma informação mudar (4/11, 16/11, 25/11, 6/12), atualize **primeiro** a planilha e só depois as respostas rápidas.
 
 ## Banco de respostas do CONAFROEDU 2026
 
-**Fontes:** a [página pública do CONAFROEDU na Even3](https://www.even3.com.br/iconafroedu-764690/) e o cronograma publicado pela organização (conferidos em 21 de outubro de 2026), além do texto oficial de divulgação. Onde a página tem lacunas ou se contradiz, a resposta está marcada com **⚠️ CONFIRMAR**. Não envie esse trecho antes de a comissão decidir.
+**Fontes:** a [página pública do CONAFROEDU na Even3](https://www.even3.com.br/iconafroedu-764690/) e o cronograma publicado pela organização (conferidos em 21 de outubro de 2026), além do texto oficial de divulgação. Onde a página tem lacunas ou se contradiz, a resposta está marcada com **(confirmar com a comissão)**. Não envie esse trecho antes de a comissão decidir.
 
 ### Tabela-resumo
 
@@ -61,14 +64,16 @@ A automação repete o que você entrega a ela, inclusive os erros, centenas de 
 | `/humano` | (Passar para uma pessoa) | ✅ |
 | `/contato` | Contatos oficiais | ✅ |
 
+**Este é o banco canônico de atalhos.** Outros guias usam subconjuntos, não respostas independentes. Migre os apelidos `/submissao` → `/prazo` + `/comosubmeter`, `/anais` → `/publicacao` e `/programacao` → `/datas`. Revise apelidos antigos a cada mudança de fase. As etiquetas são exatamente: **Dúvida sobre inscrição; Dúvida sobre submissão; Instituição parceira; Precisa de resposta humana; Não enviar divulgação**. Etiquetas não bloqueiam envios automaticamente: quem envia confere o registro.
+
 ### As respostas (prontas para colar)
 
-Troque tudo o que estiver entre `[COLCHETES]`. Apague as observações ⚠️ entre colchetes antes de salvar a resposta como resposta rápida.
+Substitua campos somente por decisões registradas da comissão. **Nunca apague uma ressalva não resolvida e mantenha a afirmação.** Respostas mistas não estão aprovadas por inteiro: salve só frases confirmadas ou a resposta provisória “a comissão vai confirmar”. Siga a [convenção de marcadores](prompting-basics.md).
 
 **`/datas` — Quando e onde**
 
 ```text
-O CONAFROEDU 2026 – Congresso Nacional de Africanidades na Educação acontece nos dias 5 e 6 de dezembro de 2026, 100% on-line. A programação oficial, com os horários (horário de Brasília), será divulgada até 25 de novembro na página do evento: https://www.even3.com.br/iconafroedu-764690/
+O CONAFROEDU 2026 – Congresso Nacional de Africanidades na Educação acontece nos dias 5 e 6 de dezembro de 2026, 100% on-line. A Even3 já mostra uma programação parcial, com atividades e alguns palestrantes identificados. A programação oficial completa está prevista até 25 de novembro; confirme os horários de Brasília antes de divulgar cada sessão: https://www.even3.com.br/iconafroedu-764690/
 ```
 
 **`/inscricao` — Como se inscrever**
@@ -100,7 +105,7 @@ Sim! Você pode participar como ouvinte, sem apresentar trabalho. A categoria Ou
 **`/prazo` — Prazo de submissão** (✅ data; ⚠️ horário)
 
 ```text
-As submissões de trabalhos vão até 4 de novembro de 2026, às [HORÁRIO – CONFIRMAR] (horário de Brasília). Quem for apresentar também deve enviar o vídeo de apresentação até 4 de novembro. O resultado da avaliação sai em até 5 dias úteis após a submissão.
+As submissões de trabalhos vão até 4 de novembro de 2026, às [CONFIRMAR] (HORÁRIO) (horário de Brasília). Quem for apresentar também deve enviar o vídeo de apresentação até 4 de novembro. O resultado da avaliação sai em até 5 dias úteis após a submissão.
 Normas e submissão: https://www.even3.com.br/iconafroedu-764690/
 ```
 
@@ -110,7 +115,7 @@ Normas e submissão: https://www.even3.com.br/iconafroedu-764690/
 Modalidades aceitas:
 • Artigo completo – até 20 páginas
 • Resumo expandido – de 2 a 5 páginas
-• Resumo simples – 1 página [CONFIRMAR se está aceito]
+• Resumo simples – 1 página [CONFIRMAR] (se está aceito)
 • Práticas exitosas / relato de experiência – até 10 páginas
 Formatação: arquivo em PDF, papel A4, Arial ou Times New Roman 12, espaçamento 1,5, texto justificado, margens superior e esquerda de 3 cm e inferior e direita de 2 cm, até 6 autores, citações e referências conforme a ABNT.
 Leia as normas completas antes de enviar: https://www.even3.com.br/iconafroedu-764690/
@@ -122,7 +127,7 @@ Leia as normas completas antes de enviar: https://www.even3.com.br/iconafroedu-7
 Passo a passo para submeter seu trabalho:
 1. Faça sua inscrição na Even3 em uma categoria com submissão. A pessoa autora responsável pelo envio precisa estar inscrita.
 2. Use o MESMO e-mail na inscrição e na submissão.
-3. Na página do evento, acesse a área de submissão de trabalhos [CONFIRMAR o caminho exato / link do vídeo tutorial].
+3. Na página do evento, acesse a área de submissão de trabalhos [CONFIRMAR] (o caminho exato / link do vídeo tutorial).
 4. Escolha a modalidade e a área temática, preencha os dados de autoria e envie o arquivo em PDF, conforme as normas.
 5. Confira se o trabalho aparece como enviado.
 A submissão não tem custo adicional além da inscrição. Se o trabalho for aprovado, a publicação nos anais tem taxa de R$ 16,98 por trabalho.
@@ -135,7 +140,7 @@ Prazo: 4 de novembro de 2026.
 **`/publicacao` — Anais, ISBN e DOI** (✅ conforme divulgado; ⚠️ detalhes de publicação/DOI)
 
 ```text
-Os trabalhos aprovados serão publicados nos Anais do CONAFROEDU 2026, com ISBN, e a organização informa DOI individual para cada trabalho. A publicação está prevista até 15 de dezembro de 2026 e tem taxa de R$ 16,98 por trabalho, à parte da inscrição. [CONFIRMAR: responsável pela publicação e como cada autor recebe o DOI.]
+Os trabalhos aprovados serão publicados nos Anais do CONAFROEDU 2026, com ISBN, e a organização informa DOI individual para cada trabalho. A publicação está prevista até 15 de dezembro de 2026 e tem taxa de R$ 16,98 por trabalho, à parte da inscrição. [CONFIRMAR] (responsável pela publicação e como cada autor recebe o DOI.)
 ```
 
 Se alguém perguntar sobre **Qualis**, nunca diga que os anais são "Qualis A" ou que "valem pontos". Use:
@@ -147,7 +152,7 @@ ISBN e DOI identificam a publicação e facilitam que ela seja encontrada e cita
 **`/certificado` — Certificado** (✅ 40 horas divulgadas, disponível a partir de 6/12; ⚠️ **condições**)
 
 ```text
-O CONAFROEDU oferece certificado com carga horária de 40 horas, disponível a partir de 6 de dezembro de 2026, pela Even3. [CONFIRMAR: quem recebe (ouvintes, autores, apresentadores), se há exigência de presença ou atividades e como as 40 horas são compostas.]
+O CONAFROEDU oferece certificado com carga horária de 40 horas, disponível a partir de 6 de dezembro de 2026, pela Even3. [CONFIRMAR] (quem recebe (ouvintes, autores, apresentadores), se há exigência de presença ou atividades e como as 40 horas são compostas.)
 O aproveitamento como atividade complementar ou para progressão depende das regras da sua instituição ou rede de ensino.
 ```
 
@@ -160,7 +165,7 @@ O aproveitamento como atividade complementar ou para progressão depende das reg
 Depois da decisão, troque por **uma** destas versões e corrija a página para que ela não se contradiga mais:
 
 ```text
-[VERSÃO A – se for opcional] A apresentação é opcional. Trabalhos aprovados podem ser publicados nos anais mesmo sem apresentação, conforme as normas. [CONFIRMAR efeito no certificado.]
+[VERSÃO A – se for opcional] A apresentação é opcional. Trabalhos aprovados podem ser publicados nos anais mesmo sem apresentação, conforme as normas. [CONFIRMAR] (efeito no certificado.)
 
 [VERSÃO B – se for obrigatória] Para ter o trabalho publicado nos anais, é necessário apresentá-lo, conforme as normas. O vídeo de apresentação deve ser enviado até [DATA].
 ```
@@ -168,7 +173,7 @@ Depois da decisão, troque por **uma** destas versões e corrija a página para 
 **`/video` — Vídeo de apresentação** (✅ prazo; ⚠️ detalhes)
 
 ```text
-Quem for apresentar deve enviar o vídeo de apresentação até 4 de novembro de 2026. [CONFIRMAR: duração, formato, onde enviar e o que fazer se o resultado da avaliação ainda não tiver saído.]
+Quem for apresentar deve enviar o vídeo de apresentação até 4 de novembro de 2026. [CONFIRMAR] (duração, formato, onde enviar e o que fazer se o resultado da avaliação ainda não tiver saído.)
 ```
 
 > [!WARNING]
@@ -191,13 +196,13 @@ O certificado informa carga horária de 40 horas. Se ele pode ser aproveitado co
 **`/acesso` — Como assistir** ⚠️
 
 ```text
-O congresso é 100% on-line. As orientações de acesso serão enviadas às pessoas inscritas [CONFIRMAR: por e-mail / área do participante da Even3 / plataforma] antes do evento. Confira se o e-mail da sua inscrição está correto.
+O congresso é 100% on-line. As orientações de acesso serão enviadas às pessoas inscritas [CONFIRMAR] (por e-mail / área do participante da Even3 / plataforma) antes do evento. Confira se o e-mail da sua inscrição está correto.
 ```
 
 **`/acessibilidade` — Acessibilidade** ⚠️ Nunca prometa Libras, legendas ou gravação sem confirmação.
 
 ```text
-Queremos garantir a sua participação. Conte para nós qual recurso de acessibilidade você precisa, e uma pessoa da equipe responde você diretamente. [CONFIRMAR quais recursos estão garantidos.]
+Queremos garantir a sua participação. Conte para nós qual recurso de acessibilidade você precisa, e uma pessoa da equipe responde você diretamente. [CONFIRMAR] (quais recursos estão garantidos.)
 ```
 
 **`/pagamento` — Pagamento, reembolso, inscrição já feita.** Sempre com uma pessoa.
@@ -232,6 +237,18 @@ Encaminhe sempre para alguém da comissão:
 - "É reconhecido pelo MEC?", "Vale para meu processo seletivo / minha progressão?", além da resposta segura `/horas`;
 - qualquer pergunta envolvendo menores de idade ou estudantes de uma escola;
 - reclamações, assédio, mensagens racistas, pedidos da imprensa, propostas de parceria.
+
+### Depois do encerramento: substitua todo o banco ativo
+
+No horário de encerramento confirmado pela comissão em 4/11 (com revisão em 5/11), confira **todas** as respostas, saudações, mensagens agendadas e contextos salvos de IA. São substituições, não atalhos novos:
+
+```text
+/inscricao — As inscrições como ouvinte seguem pela Even3 até 6/12: https://www.even3.com.br/iconafroedu-764690/ As submissões estão encerradas. Para pendências de trabalho já enviado, nossa equipe atende você; comprar ingresso não reabre submissões.
+/prazo e /comosubmeter — As submissões estão encerradas, salvo alteração publicada oficialmente. Você pode participar como ouvinte. Pendências de trabalhos já enviados serão atendidas por uma pessoa da comissão.
+/modalidades e /video — Estas orientações agora são apenas para trabalhos já enviados. Nossa equipe confirma eventuais pendências; não há promessa de nova submissão ou prazo extra.
+```
+
+Retire de `/inscricao` orientações de compra para nova submissão. Reescreva `/valores` para ouvintes: R$55 até 15/11, R$60 a partir de 16/11, **conferir checkout**. Dúvidas de categorias/autores já inscritos vão para uma pessoa. Pacotes anunciados até 5/11 nunca estendem a submissão de 4/11; retire ofertas vencidas assim que a venda terminar (conferir em 6/11). Atualize `/prorrogacao` pelo status oficial real. Teste “Posso comprar agora e enviar um trabalho novo?”: a resposta não pode sugerir reabertura.
 
 ## Camada 1: saudação e mensagem de ausência automáticas
 
@@ -326,11 +343,11 @@ O que **não** conseguimos confirmar: se o recurso está disponível na sua Pág
 
 ### ManyChat
 
-O ManyChat envia mensagem privada quando alguém comenta uma palavra-chave. O **plano gratuito** hoje cobre **25 contatos ativos por mês, 2 canais, 4 automações ativas e 1 pessoa na caixa de entrada**, e funciona com Messenger e Instagram, mas **não com WhatsApp** ([Ajuda do ManyChat](https://help.manychat.com/hc/en-us/articles/25800197498652-Free-plan)). As antigas promessas de "1.000 contatos grátis" estão desatualizadas. O ManyChat também removeu as **Message Tags** do Messenger em 9 de fevereiro de 2026 ([comunicado do ManyChat](https://community.manychat.com/product-updates/meta-s-deprecation-of-the-message-tags-feature-on-messenger-9010)). Num evento nacional, 25 contatos por mês acabam no primeiro dia. **Conclusão:** não vale para esta campanha.
+O ManyChat envia mensagem privada quando alguém comenta uma palavra-chave. O **plano gratuito** hoje cobre **25 contatos ativos por mês, 2 canais, 4 automações ativas e 1 pessoa na caixa de entrada**, e funciona com Messenger e Instagram, mas **não com WhatsApp** ([Ajuda do ManyChat](https://help.manychat.com/hc/en-us/articles/25800197498652-Free-plan)). As antigas promessas de "1.000 contatos grátis" estão desatualizadas. O ManyChat também removeu as **Message Tags** do Messenger em 9 de fevereiro de 2026 ([comunicado do ManyChat](https://community.manychat.com/product-updates/meta-s-deprecation-of-the-message-tags-feature-on-messenger-9010)). Uma campanha nacional pode ultrapassar 25 contatos/mês rapidamente; é um risco de planejamento, não um resultado medido. **Conclusão:** não vale para esta campanha.
 
 ### Regras que valem para qualquer robô no Messenger
 
-A política do Messenger dá uma **janela padrão de 24 horas** depois da mensagem da pessoa para respostas automáticas. Existe também o **Human Agent**, que permite respostas **manuais** em até **7 dias** depois da mensagem da pessoa, mas não permite mensagens promocionais automáticas. Um comentário no seu post permite **uma única resposta privada**, não uma sequência de mensagens ([política do Messenger](https://developers.facebook.com/documentation/business-messaging/messenger-platform/policy)). "A pessoa curtiu nosso post" nunca significa "podemos mandar mensagem para ela".
+A política do Messenger dá uma **janela padrão de 24 horas** depois da mensagem da pessoa para respostas automáticas. Existe também o **Human Agent**, que permite respostas **manuais** em até **7 dias** depois da mensagem da pessoa, mas não permite mensagens promocionais automáticas. Um comentário na Página permite **uma única resposta privada em até sete dias**. Ela não abre sozinha uma sequência: espere a pessoa responder e respeite a janela aplicável. Human Agent serve para uma pessoa continuar atendimento pendente, não para retomar vendas ([política do Messenger](https://developers.facebook.com/documentation/business-messaging/messenger-platform/policy)). "A pessoa curtiu nosso post" nunca significa "podemos mandar mensagem para ela".
 
 ### API do WhatsApp Business: não é necessária agora
 
@@ -341,7 +358,7 @@ A API é outro produto, técnico. Desde **1º de outubro de 2026**, cada número
 ### Comentários públicos
 
 - Responda **em público** os comentários com dúvidas (outras pessoas têm a mesma dúvida), com a versão curta da resposta do FAQ e o link da Even3.
-- Se a pergunta for pessoal (pagamento, uma submissão específica), responda em público com *"Oi, [nome]! Te chamamos no privado para ajudar."* e envie uma mensagem privada (a Meta permite uma resposta privada a um comentário).
+- Se a pergunta for pessoal (pagamento, uma submissão específica), responda em público com *"Oi, [nome]! Te chamamos no privado para ajudar."* e envie uma única resposta privada somente em até sete dias do comentário. Se for mais antigo, convide em público a pessoa a iniciar contato. Espere sua resposta antes de continuar.
 - Curta ou agradeça as contribuições genuínas. Uma boa conversa num post é o melhor sinal orgânico que existe.
 
 Exemplo de resposta pública:
@@ -378,7 +395,8 @@ Uma página sobre educação antirracista pode receber comentários racistas ou 
 | Data | Atualização |
 |---|---|
 | Assim que a comissão responder | Todos os itens ⚠️: apresentação, vídeo, resumo simples, horário de encerramento, condições do certificado, plataforma de acesso |
-| **5/11** | `/prazo` e `/comosubmeter` → "submissões encerradas" (a menos que uma prorrogação seja publicada oficialmente) |
+| **Encerramento em 4/11 / revisão em 5/11** | Auditar todas as respostas/contextos; mudar para ouvintes; encerrar `/prazo` e `/comosubmeter`; revisar `/inscricao`, `/valores`, `/modalidades`, `/video`, `/prorrogacao` |
+| **5–6/11** | Retirar pacotes no fim confirmado da venda; comprar pacote não reabre submissões |
 | **16/11** | `/valores` e `/ouvinte` → só os valores do novo lote |
 | **25/11** | `/datas` → link da programação publicada |
 | **6/12** | `/certificado` → como baixar |

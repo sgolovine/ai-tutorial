@@ -7,6 +7,9 @@ icon: ⚖️
 updated: 2026-10-21
 ---
 
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#privacy). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
+
 **O que você vai encontrar nesta página:** as regras e boas práticas que mantêm a campanha do CONAFROEDU 2026 honesta, dentro da lei e respeitosa. Você vai ver quando identificar conteúdo de IA no Facebook e no Instagram, como pedir autorização de uso de imagem e voz (inclusive de menores), o que pode e o que não pode fazer com imagens e músicas geradas por IA, como a LGPD afeta os e-mails e números de WhatsApp que vocês coletam, quais regras contra spam valem para grupos e WhatsApp, como deixar os posts acessíveis e por que o uso responsável de IA pesa ainda mais num tema de educação antirracista.
 
 > [!IMPORTANT] Não é aconselhamento jurídico
@@ -18,14 +21,14 @@ updated: 2026-10-21
 2. **Peça autorização antes de usar a imagem, a voz ou as palavras de alguém**, e peça *separadamente* para usos com IA (dublagem, avatar, edição).
 3. **Identifique mídia realista feita com IA** e explique ilustrações em linguagem simples.
 4. **Só envie mensagens para quem pediu**, e pare imediatamente quando a pessoa pedir.
-5. **Mantenha dados pessoais fora das ferramentas de IA** e fora de pastas públicas.
+5. **Mantenha dados pessoais fora das ferramentas de IA** e de pastas públicas, salvo o fluxo limitado de minibio aprovada descrito abaixo.
 6. **Faça cada post funcionar para todo mundo:** informação no texto da legenda, texto alternativo, legendas nos vídeos.
 
 ## 1. Como identificar IA no Facebook e no Instagram
 
 ### O que a Meta exige
 
-A Meta aplica o rótulo **"AI info"** (na interface em português pode aparecer como "Informações de IA"; confira no seu aplicativo) a conteúdos que identifica como gerados por IA, a partir de sinais da indústria e da autodeclaração ([abordagem de rotulagem da Meta](https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/)). Em comunicado de 2026, a Meta reforça que os usuários **precisam usar a ferramenta de identificação** em publicações orgânicas com **vídeo fotorrealista ou áudio realista** criado ou alterado digitalmente, e que pode haver penalidades se não fizerem isso ([Meta, fev. 2026](https://about.fb.com/news/2026/02/meta-prepares-for-2026-us-midterms/)).
+A Meta aplica o rótulo **"AI info"** (na interface em português, "Informações de IA"; os controles e a posição variam) a conteúdos que identifica como gerados por IA, a partir de sinais da indústria e da autodeclaração ([abordagem de rotulagem da Meta](https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/)). Em comunicado de 2026, a Meta reforça que os usuários **precisam usar a ferramenta de identificação** em publicações orgânicas com **vídeo fotorrealista ou áudio realista** criado ou alterado digitalmente, e que pode haver penalidades se não fizerem isso ([Meta, fev. 2026](https://about.fb.com/news/2026/02/meta-prepares-for-2026-us-midterms/)).
 
 ### Na prática
 
@@ -72,15 +75,19 @@ Use como ponto de partida e peça para alguém com conhecimento jurídico revisa
 ```text
 TERMO DE AUTORIZAÇÃO DE USO DE IMAGEM, VOZ E NOME – CONAFROEDU 2026
 
-Eu, [nome completo], autorizo a organização do I CONAFROEDU – Congresso Nacional de Africanidades na Educação a usar, sem fins lucrativos diretos e sem remuneração, meu nome, minha imagem e minha voz conforme as opções marcadas abaixo:
+Eu, [nome completo], autorizo [nome/razão social do organizador e contato] a utilizar meu nome, imagem e voz exclusivamente para [finalidades específicas, incluindo divulgação das inscrições pagas do I CONAFROEDU 2026], nos usos, canais e prazo assinalados abaixo. Remuneração/contrapartida acordada: [descrever ou informar que não há].
+Responsável pelo tratamento (controlador) e contato de privacidade: [identificar].
+Aviso de privacidade, finalidades e condições de tratamento: [link/documento].
 
 [ ] Fotografia enviada por mim, em publicações de divulgação do congresso
 [ ] Gravação da minha participação nos dias 5 e 6/12/2026
 [ ] Trechos editados da gravação (cortes/Reels) para divulgação
 [ ] Legendas e traduções do que eu disser, com minha aprovação prévia
-[ ] Dublagem com voz sintética (IA), somente após eu aprovar o roteiro traduzido
-[ ] Envio da minha foto/voz a ferramentas externas de IA para edição
-[ ] Criação de avatar ou clonagem de voz (NÃO marque se não quiser)
+[ ] Quero avaliar um anexo OPCIONAL e separado para uso de IA (não autoriza uso antes de preenchido e aprovado):
+Serviço/provedor: [nome]. Transformação e peças exatas: [descrever dublagem/avatar/outro].
+Material enviado, compartilhamento/transferências aplicáveis e condições de tratamento: [descrever/link].
+Prazo de armazenamento e exclusão: [definir]. Aprovação prévia da pessoa para roteiro, transformação e resultado final: [procedimento].
+Não autoriza reconstrução generativa de retratos para os cards desta campanha.
 
 Canais: Facebook, Instagram, WhatsApp, página do evento na Even3 e [outros].
 Prazo: até [data] para novas publicações. Posso revogar esta autorização para usos futuros a qualquer momento, pelo contato [e-mail/WhatsApp].
@@ -101,7 +108,7 @@ Local e data: ____________  Assinatura: ____________
 Muitos educadores submetem **práticas exitosas** (relatos de experiência) com fotos de estudantes. É um terreno delicado:
 
 - **Não reaproveite fotos de estudantes dos trabalhos na divulgação.** A autorização para um relato científico não é autorização para propaganda.
-- **A legislação brasileira trata os dados de crianças e adolescentes com cuidado especial.** A ANPD (Autoridade Nacional de Proteção de Dados) afirma que eles devem ser tratados no seu **melhor interesse** ([Enunciado ANPD nº 1/2023](https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-divulga-enunciado-sobre-o-tratamento-de-dados-pessoais-de-criancas-e-adolescentes/Enunciado1ANPD.pdf)).
+- **A legislação brasileira trata os dados de crianças e adolescentes com cuidado especial.** A ANPD (Agência Nacional de Proteção de Dados) afirma que eles devem ser tratados no seu **melhor interesse** ([Enunciado ANPD nº 1/2023](https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-divulga-enunciado-sobre-o-tratamento-de-dados-pessoais-de-criancas-e-adolescentes/Enunciado1ANPD.pdf)).
 - **Padrão desta campanha:** nenhum menor identificável em posts de divulgação. Mostre materiais, mãos, a professora ou ilustrações. Se uma imagem feita na escola for realmente essencial, envolva a escola e as famílias e faça a revisão adequada antes.
 - **Nunca envie rostos ou vozes de crianças para geradores de IA** ou serviços de edição.
 - **Não peça relatos identificáveis de crianças que sofreram racismo** nos comentários públicos. Discuta as respostas institucionais em termos gerais, com uma educadora qualificada.
@@ -132,7 +139,7 @@ Muitos educadores submetem **práticas exitosas** (relatos de experiência) com 
 | **Coleção de Sons da Meta (Sound Collection)** | A Meta a descreve como liberada para uso comercial, ao contrário da biblioteca de músicas comum, que é para uso pessoal/não comercial ([ajuda da Meta sobre música](https://www.facebook.com/help/instagram/402084904469945)). Melhor primeira opção, só para Facebook/Instagram. Não está automaticamente licenciada para WhatsApp, YouTube ou site |
 | **Biblioteca de músicas comum do Instagram/Facebook** | Escopo pessoal/não comercial; evite para divulgar o congresso |
 | **"Sons comerciais" do CapCut** | O contrato internacional limita o uso ao CapCut/TikTok, salvo liberação à parte; **não** estão liberados para Facebook/Instagram/WhatsApp |
-| **Música de IA (ex.: plano pago do Suno)** | Só de plano pago que conceda uso comercial, baixada durante a assinatura; guarde o registro |
+| **Música de IA (ex.: plano pago do Suno)** | Só de plano pago que conceda uso comercial, criada durante a assinatura de plano que conceda uso comercial; guarde data de criação e comprovante. Download não define a licença; direitos podem continuar após cancelamento ([Suno](https://help.suno.com/en/articles/2416769)) |
 | **Música original ou encomendada** | Boa escolha, com autorização por escrito cobrindo divulgação, edição, canais e prazo |
 | **Sem música** | Muitas vezes é o melhor: uma voz real e clara, com legendas corretas |
 
@@ -152,6 +159,8 @@ Muitos educadores submetem **práticas exitosas** (relatos de experiência) com 
 ### Nomes e logotipos de instituições
 
 Os membros da comissão científica têm vínculo com várias universidades, mas **vínculo pessoal não é apoio institucional**. Não use logotipo de universidade, NEAB/NEABI, ministério ou associação, nem escreva "apoio" ou "parceria", sem autorização por escrito. Não sugira reconhecimento do MEC, da CAPES ou da PNEERQ.
+
+Para minibios, a única exceção limitada à regra de não inserir dados pessoais em IA é **texto profissional mínimo e aprovado**, em serviço/configuração de privacidade aprovado pela comissão, com finalidade/base legal documentada, aviso e concordância da pessoa com o processamento externo por IA. Ser público ou autorizado para publicação não basta. Exclua currículo completo, contatos, dados sensíveis e informações sem relação. Sem essas condições, escreva manualmente. A exceção não autoriza reconstruir retratos com IA.
 
 ## 4. LGPD: e-mails, números de WhatsApp e dados de inscritos
 
@@ -188,12 +197,14 @@ Use uma caixa **separada** para próximas edições ou para um boletim mais ampl
 
 Se vocês incluírem o Google Analytics 4 ou outros rastreadores na Even3 ou num site, o guia de cookies da ANPD recomenda escolhas claras, uma opção bem visível para recusar cookies não necessários e cookies baseados em consentimento desativados por padrão ([guia de cookies da ANPD](https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia_orientativo_cookies_e_protecao_de_dados_pessoais)). Nesta campanha, os relatórios da própria Even3 e os links UTM costumam bastar. Não instale pixels de anúncio de que vocês não precisam.
 
+**Divulgação em troca de benefício:** inscrição cortesia, presente ou pagamento em troca de divulgação podem caracterizar conteúdo de marca. Confira elegibilidade e use o **rótulo de parceria paga** da Meta, além de explicar a contrapartida na legenda; Collab não substitui o rótulo. Resolva a disponibilidade antes de combinar a ação ([explicação da Meta](https://about.fb.com/fr/news/2023/02/comment-meta-accompagne-les-createurs-de-contenus-et-les-acteurs-de-linfluence-en-ligne/)). Compartilhamento independente sem contrapartida é outro caso.
+
 ## 5. Regras contra spam: Facebook, grupos, Messenger e WhatsApp
 
 ### Facebook e grupos
 
 - **Comportamento de spam perde distribuição.** A ofensiva da Meta em 2025 mira hashtags em excesso ou sem relação com o conteúdo, legendas desconectadas e engajamento falso ([Meta](https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/)). **Iscas de engajamento** ("comente SIM", "marque 5 amigos") são rebaixadas há anos, inclusive em português ([Meta](https://about.fb.com/news/2017/12/news-feed-fyi-fighting-engagement-bait-on-facebook/)).
-- **Nada de publicação automática em grupos.** A Meta descontinuou a API de publicação em grupos em 2024 ([Meta for Developers](https://developers.facebook.com/blog/post/2024/01/23/introducing-facebook-graph-and-marketing-api-v19/)). Qualquer ferramenta que prometa postar sozinha em dezenas de grupos está descumprindo as regras.
+- **Não use robôs ou integrações não autorizadas para publicar em grupos.** A remoção da API externa de Grupos não proibiu o [agendamento nativo/recorrente do Facebook nos grupos que você administra](https://www.facebook.com/help/124331564818285/). Em grupos de outras pessoas, siga o processo manual autorizado pela moderação.
 - **Nada de raspagem de dados.** A Meta afirma que coletar dados de forma automatizada sem permissão viola seus termos ([Meta](https://about.fb.com/news/2021/04/how-we-combat-scraping/)). Não extraia membros de grupos nem quem respondeu ao evento para mandar mensagens.
 - **Respeite as regras de cada grupo.** Leia, peça licença à moderação, publique uma vez onde for permitido e pare se disserem não. Detalhes em [Eventos e grupos no Facebook](facebook-events-groups.md).
 - **Nada de perfis falsos ou identidades emprestadas** para contornar uma recusa.
@@ -208,7 +219,7 @@ Se vocês incluírem o Google Analytics 4 ou outros rastreadores na Even3 ou num
 
 ### Messenger e e-mail
 
-- **Messenger:** vale uma janela padrão de 24 horas depois que a pessoa manda mensagem para a página; um comentário permite uma única resposta privada, não uma campanha. "A pessoa curtiu o post" não é consentimento.
+- **Messenger:** vale uma janela padrão de 24 horas depois que a pessoa manda mensagem para a página; um comentário na Página permite uma única resposta privada **em até sete dias**. Espere a resposta da pessoa antes de continuar na janela aplicável; isso não autoriza uma campanha. "A pessoa curtiu o post" não é consentimento.
 - **E-mail:** ferramentas gratuitas (Brevo, MailerLite) são para listas com **consentimento**. Cota grátis não é permissão para subir uma lista comprada ou raspada.
 
 ### Não pode → faça assim
@@ -228,11 +239,12 @@ Acessibilidade faz parte de um evento antirracista e inclusivo; não é um extra
 
 ### Checklist de publicação
 
+- [ ] O visual indispensável do vídeo também está narrado: diga em voz alta passos na tela, slides e texto animado. Em peças sem fala, publique descrição/transcrição equivalente e descrição em áudio quando necessária. Teste sem olhar ([W3C](https://www.w3.org/WAI/media/av/av-content/)).
 - [ ] Data, fuso (horário de Brasília), valor e instruções de inscrição estão no **texto da legenda**, não só dentro da imagem.
 - [ ] **Texto alternativo** incluído onde a plataforma permite (e conferido depois de publicar em outras redes). Se não houver campo de texto alternativo, descreva a imagem na legenda.
 - [ ] **Legendas dos vídeos** revisadas: nomes, siglas (ERER, NEABI), acentos. Legenda automática sempre precisa de revisão.
 - [ ] Quem está falando identificado nas legendas quando houver mais de uma pessoa.
-- [ ] **Contraste:** texto bem legível. Como referência, as diretrizes WCAG pedem no mínimo 4,5:1 para texto comum; verificadores de contraste gratuitos na internet testam suas cores.
+- [ ] **Contraste:** texto bem legível. Como referência, as diretrizes WCAG pedem no mínimo 4,5:1 para texto comum e 3:1 para texto grande; verificadores de contraste gratuitos na internet testam suas cores.
 - [ ] Nenhuma informação transmitida **só pela cor** (por exemplo, trilhas ou prazos).
 - [ ] Texto conferido em tela de celular; nada importante nas bordas de Stories/Reels.
 - [ ] **Nada de "fontes" decorativas de Unicode** (𝓽𝓮𝔁𝓽𝓸 𝓮𝓼𝓽𝓲𝓵𝓲𝔃𝓪𝓭𝓸): leitores de tela não conseguem ler.
@@ -251,7 +263,7 @@ Prepare uma revisão de acessibilidade desta peça para redes sociais.
 Descrição factual da imagem/vídeo e todo o texto visível: [COLE]. Transcrição revisada, se for vídeo: [COLE].
 1) Escreva um texto alternativo curto (no máximo 250 caracteres) que transmita a informação importante, sem presumir identidade, raça, deficiência ou emoções de ninguém.
 2) Liste as informações que aparecem só na imagem e precisam ser repetidas na legenda (data, fuso, valor, link).
-3) Se for vídeo: liste falas, identificação de quem fala e sons relevantes que precisam de legenda.
+3) Se for vídeo: liste falas, identificação de quem fala e sons que precisam de legenda, além do visual indispensável que precisa de narração ou descrição.
 4) Liste o que uma pessoa precisa conferir visualmente antes de publicar (contraste, letras pequenas, bordas).
 ```
 
@@ -281,7 +293,8 @@ O CONAFROEDU trata de Africanidades, história e cultura afro-brasileira e educa
 - [ ] Mídia realista de IA identificada com o controle da Meta; ilustrações explicadas na legenda.
 - [ ] Representação revisada (veja [representation-bias](representation-bias.md)).
 - [ ] Mensagens só para quem consentiu; descadastros atendidos.
-- [ ] Nenhum dado pessoal colado em ferramentas de IA.
+- [ ] Nenhum dado pessoal em IA, salvo o fluxo documentado de minibio mínima aprovada acima.
+- [ ] Rótulo de parceria paga e legenda conferidos nas divulgações em troca de benefício.
 - [ ] Checklist de acessibilidade feito.
 
 ## Decisões que a comissão precisa tomar

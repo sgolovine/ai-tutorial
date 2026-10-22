@@ -7,40 +7,38 @@ icon: 📚
 updated: 2026-10-21
 ---
 
-Esta página reúne os melhores prompts do site, para ninguém precisar caçar em 25 guias no meio de uma semana corrida. A redação é a mesma dos guias de origem, e cada prompt tem um link para a página que explica quando e como usá-lo. Três prompts para momentos que nenhum guia cobria ainda (a virada de 5 de novembro, o FAQ de acesso da última semana e o balanço depois do evento) foram escritos para esta página; eles estão marcados como **novo**.
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#starter-stack). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
+
+Esta página reúne os melhores prompts do site, para ninguém precisar caçar nos guias no meio de uma semana corrida. Os prompts apontam para os guias de origem; ficha oficial e voz canônicas ficam na fonte, e cada prompt tem um link para a página que explica quando e como usá-lo. Três prompts para momentos que nenhum guia cobria ainda (a virada de 5 de novembro, o FAQ de acesso da última semana e o balanço depois do evento) foram escritos para esta página; eles estão marcados como **novo**.
 
 **O que você vai encontrar nesta página:**
 
 - Os blocos de **ficha oficial** e de **voz da marca**, que vão no início de toda conversa.
-- **Cerca de 90 prompts prontos para copiar** em 11 grupos, do planejamento à acessibilidade.
+- **Prompts prontos para copiar por tarefa** em 11 grupos, com ajuda de configuração e aprendizagem, do planejamento à acessibilidade.
 - A **convenção `[CONFIRMAR]`**, explicada uma vez só.
 - Uma **checklist de segurança** curta para qualquer resposta da IA.
 
 > [!NOTE]
 > Todos os prompts desta página estão em português e pedem textos em português brasileiro. A [versão em inglês](../en/prompt-library.md) traz os mesmos prompts em inglês, para quem da equipe preferir dar as instruções nessa língua.
 
+> [!TIP] Faça hoje: escolha uma tarefa
+> Deixe o [plano de seis semanas](conafroedu-sprint.md) aberto. Escolha: (1) [ficha atual](prompting-basics.md), (2) [uma legenda](copywriting.md), (3) [checklist de submissão](replies-inbox.md), (4) [virada do prazo](replies-inbox.md), (5) [convite a parceiro](outreach.md), (6) [kit de palestrante](speaker-partner-kits.md), (7) [texto alternativo da imagem real](ethics-legal.md), (8) [revisão da fila](scheduling-tools.md), (9) [números da semana](measuring-results.md) ou (10) [aprender uma ferramenta](learning-with-ai.md). A biblioteca completa é consulta; você não precisa ler tudo em sequência.
+
 ## Como usar esta biblioteca
 
 1. **Abra o seu assistente principal** (Claude, Gemini, ChatGPT; veja [Como escolher ferramentas de IA](choosing-ai-tools.md)), ou o Projeto/Gem/caderno onde vocês salvaram o contexto.
 2. **Cole a ficha oficial e o parágrafo de voz** da [seção 1](#1-contexto-a-ficha-oficial-e-a-voz-da-marca), se eles ainda não estiverem salvos ali.
 3. **Copie um prompt** com o botão **Copiar** e substitua tudo o que estiver entre `[COLCHETES]`.
-4. **Peça uma entrega por vez.** Refine com os pedidos de ajuste da [seção 3](#3-textos-para-cada-fase-da-campanha).
+4. **Comece por uma mensagem central aprovada; depois adapte.** Prompts em lote são atalhos opcionais; revise cada entrega separadamente. Refine com os pedidos de ajuste da [seção 3](#3-textos-para-cada-fase-da-campanha).
 5. **Uma segunda pessoa confere o resultado** com a [checagem de 60 segundos](prompting-basics.md#a-checagem-de-60-segundos) antes de qualquer agendamento.
 
 > [!WARNING]
-> Nunca cole dados pessoais num prompt: nada de lista de inscritos, CPF, telefone, dados de pagamento, conversas privadas, pedidos de acessibilidade ou trabalhos não publicados. Troque identificações por `[PESSOA]` ou `[ESCOLA]` e analise números só de forma agregada ([Ética, políticas e LGPD](ethics-legal.md#4-lgpd-e-mails-números-de-whatsapp-e-dados-de-inscritos)).
+> Mantenha dados pessoais fora dos prompts, salvo o [fluxo limitado de minibio profissional aprovada](ethics-legal.md). Autorizar publicação não autoriza processamento externo por IA. Nunca cole: nada de lista de inscritos, CPF, telefone, dados de pagamento, conversas privadas, pedidos de acessibilidade ou trabalhos não publicados. Troque identificações por `[PESSOA]` ou `[ESCOLA]` e analise números só de forma agregada ([Ética, políticas e LGPD](ethics-legal.md#4-lgpd-e-mails-números-de-whatsapp-e-dados-de-inscritos)).
 
 ## A convenção `[CONFIRMAR]`
 
-`[CONFIRMAR]` é a marca que a equipe usa para **um fato que só a comissão pode decidir**: o horário-limite de 4 de novembro, se a apresentação é obrigatória, os critérios do certificado de 40 horas, a plataforma de transmissão, os recursos de acessibilidade etc.
-
-Ela funciona em três lugares:
-
-- **Na ficha oficial**, toda pergunta em aberto aparece como `[CONFIRMAR]`. Isso ensina a IA a deixar a lacuna em vez de inventar uma resposta.
-- **Nos prompts**, pedimos à IA: "se faltar algo, escreva `[CONFIRMAR]`". Um rascunho cheio de `[CONFIRMAR]` é um bom rascunho: ele mostra exatamente o que perguntar à comissão.
-- **Antes de publicar**, procure `[CONFIRMAR]` no texto (<kbd>Ctrl</kbd>+<kbd>F</kbd>). **Nada que ainda tenha essa marca pode ser agendado ou enviado.** Ou a comissão responde e você substitui, ou você apaga a frase.
-
-Os outros colchetes, como `[NOME]`, `[DATA]` ou `[colar a ficha oficial]`, são só lacunas para você preencher antes de enviar o prompt. No texto dos guias (fora dos prompts), as perguntas em aberto aparecem como avisos "confirmar com a comissão". A lista completa de decisões pendentes está no [plano de 6 semanas](conafroedu-sprint.md#decisões-que-a-comissão-precisa-confirmar).
+Siga a [convenção única em Noções básicas de prompt](prompting-basics.md). Procure **todos os colchetes pendentes e fatos ausentes**, não só o token literal. Substitua por fatos verificados ou retire a afirmação inteira; deixe perguntas fora do texto publicável. Nunca apague uma ressalva para fazer resposta não aprovada parecer final.
 
 ## Índice rápido
 
@@ -60,76 +58,13 @@ Os outros colchetes, como `[NOME]`, `[DATA]` ou `[colar a ficha oficial]`, são 
 
 ## 1. Contexto: a ficha oficial e a voz da marca
 
-### 1.1 A ficha oficial
+### 1.1 A ficha oficial (FICHA OFICIAL)
 
-**Uso:** no início de toda conversa, ou salva uma vez num Projeto/Gem/caderno. **Origem:** [Noções básicas de prompt](prompting-basics.md#a-ficha-oficial-do-conafroedu).
+Copie a **FICHA OFICIAL mestra** atual e versionada de [Noções básicas de prompt](prompting-basics.md#a-ficha-oficial-do-conafroedu), mantida pela Coordenação. Confira responsável/conferência, fonte, próxima atualização, prazos separados de inscrição/submissão/vídeo, programação parcial e previsões de certificados/publicacao. Contextos salvos são cópias. No encerramento audite todos os FAQs/contextos; retire pacotes após o fim da venda em 5/11. Esta biblioteca não mantém outra ficha mestra.
 
-> [!IMPORTANT]
-> Esta é a **versão de 21/10/2026**. A versão oficial fica no documento compartilhado "FICHA OFICIAL", cuidado pela Coordenação. Se o documento compartilhado for mais recente, use o dele. Atualize depois de 4/11 (submissões encerradas), de 15/11 (sai o valor antigo), de 25/11 (programação) e depois do evento (certificados, link dos anais).
+### 1.2 O parágrafo de voz da marca (VOZ DA MARCA)
 
-```prompt
-FICHA OFICIAL — CONAFROEDU 2026
-Versão: 21/10/2026 (conferir na Even3 antes de publicar preços ou prazos)
-
-EVENTO
-- Nome: I CONAFROEDU — Congresso Nacional de Africanidades na Educação (1ª edição; não existem edições anteriores)
-- Tema: "Desenvolvimento, Participação e Educação Antirracista"
-- Datas: 5 e 6 de dezembro de 2026 (sábado e domingo), 100% on-line
-- Horários das sessões: [CONFIRMAR] — sempre informar "horário de Brasília"
-- Plataforma de transmissão e forma de acesso: [CONFIRMAR]
-- Inscrições, normas e submissões: https://www.even3.com.br/iconafroedu-764690/
-
-PÚBLICO
-- Professoras e professores da educação básica, estudantes de graduação e pós-graduação, pesquisadoras e pesquisadores, gestoras e gestores escolares e demais profissionais da educação; alcance nacional.
-
-O QUE O EVENTO OFERECE (como divulgado)
-- Apresentação de trabalhos
-- Publicação nos Anais com ISBN e DOI (após avaliação; taxa de publicação de R$ 16,98 por trabalho, à parte da inscrição)
-- Certificado de 40 horas (critérios para receber: [CONFIRMAR])
-- Modalidades: artigo completo, resumo expandido, práticas exitosas (as normas na Even3 também citam resumo simples — [CONFIRMAR])
-
-DATAS IMPORTANTES
-- Submissões de trabalhos (e vídeo de apresentação): até 4/11/2026 — horário-limite [CONFIRMAR]
-- Resultado da avaliação: em até 5 dias úteis após a submissão
-- Pacotes com 2 ou 3 submissões: disponíveis até 5/11/2026
-- Valor atual das inscrições: até 15/11/2026; novo valor a partir de 16/11/2026
-- Programação oficial: até 25/11/2026
-- Congresso: 5 e 6/12/2026
-- Certificados: a partir de 6/12/2026
-- Anais: até 15/12/2026
-
-VALORES EXIBIDOS NA EVEN3 EM 21/10/2026 (até 15/11 → a partir de 16/11)
-- Ouvinte/público geral: R$ 55,00 → R$ 60,00
-- Graduação + 1 submissão: R$ 55,00 → R$ 60,00
-- Pós-graduação + 1 submissão: R$ 60,00 → R$ 65,00
-- Professor(a)/profissional da educação + 1 submissão: R$ 70,00 → R$ 75,00
-- Inscrição + 2 submissões: R$ 99,00 / + 3 submissões: R$ 150,00 (até 5/11)
-
-CONTATO
-- WhatsApp da Comissão Organizadora: (19) 98816-7751
-- E-mail: conapsuporte@gmail.com
-- Instagram: @congressosnacionais_online
-- Página/Evento no Facebook: [CONFIRMAR URL]
-
-HASHTAGS PRINCIPAIS
-#CONAFROEDU #EducaçãoAntirracista #Africanidades
-
-NÃO AFIRMAR (ainda sem decisão da comissão)
-- Se a apresentação é obrigatória ou opcional
-- Prorrogação de prazo de submissão
-- Regras detalhadas do certificado de 40 horas
-- Recursos de acessibilidade (Libras, legendas), gravações, local físico (o evento é on-line)
-- Reconhecimento pelo MEC, Qualis, pontuação em progressão ou "vagas limitadas"
-```
-
-### 1.2 O parágrafo de voz da marca
-
-**Uso:** logo depois da ficha, em qualquer tarefa de escrita. **Origem:** [Noções básicas de prompt](prompting-basics.md#a-voz-da-marca-em-um-parágrafo); o guia completo está no [Kit de marca](brand-kit.md#parte-1--voz-e-tom).
-
-```prompt
-VOZ DA MARCA — CONAFROEDU
-Tom acadêmico, mas acolhedor: de educadora para educador. Português brasileiro natural, com "você". Frases curtas e concretas; explique siglas na primeira menção (ex.: ERER — Educação para as Relações Étnico-Raciais). Valorize a experiência de quem está na escola e na pesquisa. Linguagem respeitosa sobre pessoas negras e culturas afro-brasileiras; nunca use "moreno(a)" como eufemismo. Use "professoras e professores" ou outra forma inclusiva que soe natural. Evite: urgência falsa ("últimas vagas"), promessas ("garanta sua progressão"), exageros ("evento imperdível!!!"), excesso de emojis (no máximo 2) e clichês de marketing traduzidos do inglês. Um único convite para ação por publicação.
-```
+Use o bloco exato **VOZ DA MARCA — CONAFROEDU** de [Noções básicas de prompt](prompting-basics.md#a-voz-da-marca-em-um-parágrafo) nas duas línguas. Ele é a única voz canônica; copywriting e esta biblioteca apontam para ele.
 
 ### 1.3 Rascunho do guia de voz e tom de uma página
 
@@ -195,7 +130,9 @@ Fatos aprovados: [colar a ficha oficial]. Materiais disponíveis: [listar vídeo
 
 Regras:
 - Separe a chamada de trabalhos da inscrição de participantes. Depois de 04/11, só mantenha publicações de submissão se houver prorrogação formal.
-- 20/11: uma contribuição educativa com substância, sem descontos nem pressão de venda nessa publicação.
+- 20/11: contribuição educativa com fontes e pergunta pedagógica. Convite ao congresso só em outro post opcional; sem chamado de venda ou desconto na peça educativa.
+- Reutilize C01–C03 em 26/28/30 de outubro (como submeter, checklist de sete dias, Reel de prática); não acrescente outro lembrete em 28/10. Virada de lote: Stories/Canal em 10 e 14/11.
+- Roteiros por público exigem sessões confirmadas; a listagem parcial da Even3 não é a grade final.
 - Urgência só com datas reais; nada de "últimas vagas" num evento on-line sem limite confirmado.
 - No máximo 4 publicações por semana no Facebook, com até 2 vídeos; uma atualização do Evento por semana; 1 ou 2 atualizações do Canal do WhatsApp por semana.
 - Não invente datas comemorativas, palestrantes, depoimentos ou disponibilidade.
@@ -248,7 +185,7 @@ Estes prompts geram as publicações em si. Exemplos de resultado para cada mome
 
 ```prompt
 Você é redator(a) da comunicação do CONAFROEDU 2026, congresso acadêmico on-line sobre africanidades e educação antirracista no Brasil.
-[Cole aqui a ficha oficial do CONAFROEDU e o parágrafo de VOZ]
+[Cole aqui a ficha oficial do CONAFROEDU e o bloco oficial VOZ DA MARCA]
 
 Use APENAS os fatos aprovados acima. Não invente benefícios, estatísticas, depoimentos, palestrantes, regras de certificado, apoio institucional, recursos de acessibilidade ou escassez. Se faltar algo essencial, escreva [CONFIRMAR] fora do texto publicável.
 
@@ -262,8 +199,6 @@ Cada uma com um único convite para ação e o link da Even3. Até 3 hashtags pe
 Não peça curtidas, marcações ou compartilhamentos. Depois das versões, liste todos os fatos usados e o que uma pessoa precisa conferir.
 ```
 
-> [!NOTE]
-> O [Copywriting com IA](copywriting.md#2-a-voz-da-marca-em-um-parágrafo) usa um parágrafo de "VOZ" mais curto; as [Noções básicas de prompt](prompting-basics.md#a-voz-da-marca-em-um-parágrafo) trazem a "VOZ DA MARCA" (prompt 1.2). Os dois dizem a mesma coisa. Cole um deles, não os dois.
 
 ### 3.2 Pedidos de ajuste que melhoram qualquer rascunho
 
@@ -343,7 +278,7 @@ Não afirme publicação, DOI, Qualis, horário de apresentação nem carga hor�
 Usando SOMENTE a ficha oficial acima, escreva em português brasileiro natural:
 1. Uma publicação para o Facebook (60 a 100 palavras) que agradeça a todas as pessoas que enviaram trabalhos, informe que as submissões encerraram em 4 de novembro e convide professoras, professores, estudantes e pesquisadores a se inscrever como ouvintes para 5 e 6 de dezembro, 100% on-line. Deixe claro que não é preciso apresentar trabalho para participar. Um único convite para ação, com o link da Even3.
 2. Um novo texto para a publicação fixada, só com o essencial atual: o quê, quando, para quem, como se inscrever e contato.
-3. Uma nova versão da resposta rápida /submissao do WhatsApp, que encaminhe a pessoa para a inscrição como participante.
+3. Substituições para /prazo e /comosubmeter e auditoria de /inscricao, /valores, /modalidades, /video e /prorrogacao. Encaminhe novas consultas para ouvintes sem sugerir que comprar ingresso reabre submissões. Retire pacotes vencidos no fim da venda.
 Não mencione prorrogação, a menos que a ficha mostre uma. Marque como [CONFIRMAR] tudo o que for incerto.
 ```
 
@@ -352,7 +287,7 @@ Não mencione prorrogação, a menos que a ficha mostre uma. Marque como [CONFIR
 **Origem:** [Reels, cortes, legendas e dublagem](video-repurposing.md#convites-de-palestrantes-gravados-no-celular). Ofereça como sugestão: cada pessoa fala melhor com as próprias palavras.
 
 ```prompt
-Escreva um roteiro de vídeo de 20 a 25 segundos, em português do Brasil, para uma palestrante confirmada gravar no celular, convidando o público para o CONAFROEDU 2026 (Congresso Nacional de Africanidades na Educação, 5 e 6 de dezembro de 2026, 100% online, inscrições pela Even3). Palestrante: [NOME], [CARGO/INSTITUIÇÃO — como aprovado]. Tema da fala: [TEMA APROVADO]. Estrutura: (1) apresentação em uma frase, (2) uma pergunta ou ideia concreta da fala que importe para professoras e professores, (3) convite com "inscrições pela Even3, link na publicação". Linguagem falada e natural, frases curtas, sem exageros e sem promessas sobre certificado além do que está escrito aqui. Dê duas versões: uma mais formal e outra mais calorosa.
+Escreva um roteiro de vídeo de 20 a 25 segundos, em português do Brasil, para uma palestrante confirmada gravar no celular, convidando o público para o CONAFROEDU 2026 (Congresso Nacional de Africanidades na Educação, 5 e 6 de dezembro de 2026, 100% on-line, inscrições pela Even3). Palestrante: [NOME], [CARGO/INSTITUIÇÃO — como aprovado]. Tema da fala: [TEMA APROVADO]. Estrutura: (1) apresentação em uma frase, (2) uma pergunta ou ideia concreta da fala que importe para professoras e professores, (3) convite com "inscrições pela Even3, link na publicação". Linguagem falada e natural, frases curtas, sem exageros e sem promessas sobre certificado além do que está escrito aqui. Dê duas versões: uma mais formal e outra mais calorosa.
 ```
 
 ### 3.8 Palestrantes: minibio a partir de fontes aprovadas
@@ -363,7 +298,7 @@ Escreva um roteiro de vídeo de 20 a 25 segundos, em português do Brasil, para 
 Use SOMENTE o texto-fonte abaixo. Escreva duas minibios de [NOME COMPLETO, exatamente como está escrito] para a programação do CONAFROEDU 2026: uma de 60 e outra de 120 palavras, em terceira pessoa, em português do Brasil natural.
 Depois, faça uma tabela "informação → frase exata da fonte".
 Marque com [CONFIRMAR] tudo o que estiver ambíguo. Não acrescente titulações, cargos, prêmios, instituições, autodeclaração racial ou publicações que não estejam na fonte. Não corrija a grafia de nomes.
-Fonte: [COLE A BIO OU O TRECHO DO CURRÍCULO ENVIADO PELA PESSOA]
+Fonte: [COLE SOMENTE MINIBIO PROFISSIONAL MÍNIMA APROVADA PARA ESTE PROCESSAMENTO EXTERNO POR IA; SEM ISSO, PARE E ESCREVA MANUALMENTE]
 ```
 
 ### 3.9 Palestrantes: rascunhos do kit completo
@@ -374,7 +309,7 @@ Fonte: [COLE A BIO OU O TRECHO DO CURRÍCULO ENVIADO PELA PESSOA]
 Prepare rascunhos de um kit de divulgação para o palestrante confirmado [NOME].
 Tema aprovado: [TEMA]. Dados do evento: [COLE A FICHA]. O que realmente sabemos sobre o público dele: [INFORMAÇÃO ou "desconhecido"]. Contrapartidas acordadas: [DESCREVA ou "nenhuma"].
 Entregue, em português do Brasil: (1) legenda curta de convite pessoal; (2) legenda construída em torno de uma ideia útil do tema; (3) legenda factual com data e link; (4) roteiro de vídeo vertical de 30 segundos na voz dele; (5) mensagem curta que ele possa encaminhar a um colega ou instituição.
-Não afirme apoio da instituição onde ele trabalha. Não invente credenciais nem citações. Não escreva como se ele já tivesse aprovado. Indique onde entra o link rastreado. Tudo será revisado pela equipe e pelo palestrante.
+Se houver divulgação em troca de benefício, confira elegibilidade e use o rótulo de parceria paga da Meta com legenda clara; Collab não substitui isso. Não afirme apoio da instituição onde ele trabalha. Não invente credenciais nem citações. Não escreva como se ele já tivesse aprovado. Indique onde entra o link rastreado. Tudo será revisado pela equipe e pelo palestrante.
 ```
 
 ### 3.10 Palestrantes: roteiro de Reel em Collab no Instagram
@@ -401,7 +336,7 @@ Tarefa: post no Facebook sobre a mudança no valor das inscrições. Fatos: valo
 **Uso:** para uma contribuição educativa com substância, de preferência construída e aprovada pela educadora ou pelo educador negro que a equipe convidou ([plano de 6 semanas, semana 4](conafroedu-sprint.md#semana-4--seg-16-a-dom-2211-novembro-negro-e-20-de-novembro)). Se quiserem convidar para o congresso, façam isso numa publicação separada e curta. **Origem (tarefa):** [Copywriting](copywriting.md#4-consciência-negra-sexta-feira-20-de-novembro).
 
 ```prompt
-Tarefa: texto de um carrossel para o Facebook (4 cards + legenda) para 20 de novembro. Conteúdo: card 1, a pergunta "20 de novembro no calendário; ERER no cotidiano?"; card 2, o que a Lei nº 10.639/2003 mudou (história e cultura afro-brasileira no currículo e o 20 de novembro no calendário escolar); card 3, a Lei nº 11.645/2008 (inclui a história e a cultura indígena); card 4, uma pergunta prática para a próxima reunião de planejamento. Cite as leis só pelo número, sem estatísticas ou citações inventadas. Legenda: reflexiva e respeitosa, terminando com uma frase leve dizendo que o CONAFROEDU continua essa conversa em 5 e 6 de dezembro. Sem desconto, sem urgência, sem chamada de trabalhos.
+Tarefa: texto de um carrossel para o Facebook (4 cards + legenda) para 20 de novembro. Conteúdo: card 1, a pergunta "20 de novembro no calendário; ERER no cotidiano?"; card 2, o que a Lei nº 10.639/2003 mudou (história e cultura afro-brasileira no currículo e o 20 de novembro no calendário escolar); card 3, a Lei nº 11.645/2008 (inclui a história e a cultura indígena); card 4, uma pergunta prática para a próxima reunião de planejamento. Cite as leis só pelo número, sem estatísticas ou citações inventadas. Legenda: reflexiva e respeitosa, com fontes, crédito e uma pergunta educativa real. Qualquer convite opcional para o congresso fica numa **publicação separada**. Sem desconto, sem urgência, sem chamada de trabalhos.
 ```
 
 > [!CAUTION]
@@ -432,7 +367,7 @@ Lembre que as inscrições ficam abertas até 6 de dezembro — não escreva que
 **Uso:** publique à mão, no próprio dia; nunca deixe agendado. **Origem (tarefa):** [Copywriting](copywriting.md#6-dias-do-congresso-5-e-6-de-dezembro).
 
 ```prompt
-Tarefa: escreva (a) um post de "Bom dia, começamos!" para o Facebook em 5 de dezembro, (b) uma sequência de 3 Stories com os destaques do dia, (c) um modelo curto de aviso de mudança na programação e (d) um post de agradecimento de encerramento em 6 de dezembro. Fatos: horários em horário de Brasília conforme a programação oficial; quem está inscrito acessa as sessões por [CONFIRMAR: plataforma e como recebe o link]; suporte pelo WhatsApp (19) 98816-7751 e pelo e-mail conapsuporte@gmail.com. Não inclua nenhum link privado de acesso. Tom caloroso, animado, mas tranquilo.
+Tarefa: escreva (a) um post de "Bom dia, começamos!" para o Facebook em 5 de dezembro, (b) uma sequência de 3 Stories com os destaques do dia, (c) um modelo curto de aviso de mudança na programação e (d) um post de agradecimento de encerramento em 6 de dezembro. Fatos: horários em horário de Brasília conforme a programação oficial; quem está inscrito acessa as sessões por [CONFIRMAR] — plataforma e como recebe o link; suporte pelo WhatsApp (19) 98816-7751 e pelo e-mail conapsuporte@gmail.com. Não inclua nenhum link privado de acesso. Tom caloroso, animado, mas tranquilo.
 ```
 
 ### 3.16 Certificados (a partir de 6 de dezembro)
@@ -440,7 +375,7 @@ Tarefa: escreva (a) um post de "Bom dia, começamos!" para o Facebook em 5 de de
 **Uso:** depois que a comissão confirmar os critérios e o passo a passo para baixar. **Origem (tarefa):** [Copywriting](copywriting.md#7-certificados-a-partir-de-6-de-dezembro), que também traz a redação cuidadosa do certificado para colar junto.
 
 ```prompt
-Tarefa: um post curto para o Facebook e um modelo de resposta de WhatsApp explicando como baixar o certificado do CONAFROEDU. Fatos: disponível a partir de 6 de dezembro na Even3; critérios: [CONFIRMAR]; passo a passo: [CONFIRMAR com a comissão]. Use a redação cuidadosa do certificado fornecida. Não prometa aproveitamento como horas complementares nem para progressão.
+Tarefa: um post curto para o Facebook e um modelo de resposta de WhatsApp explicando como baixar o certificado do CONAFROEDU. Fatos: disponível a partir de 6 de dezembro na Even3; critérios: [CONFIRMAR]; passo a passo: [CONFIRMAR] — com a comissão. Use a redação cuidadosa do certificado fornecida. Não prometa aproveitamento como horas complementares nem para progressão.
 ```
 
 ### 3.17 Depois do evento: balanço e situação dos anais (novo)
@@ -479,9 +414,10 @@ Linhas do calendário da próxima semana:
 Para cada linha, entregue:
 1. Uma legenda para o Facebook (60 a 120 palavras), com uma única chamada para ação e o link da Even3 escrito por extenso.
 2. Uma versão mais curta para o Instagram (sem link clicável; só diga "link na bio" se confirmarmos que o link está na bio).
-3. Um texto alternativo para a imagem (1 ou 2 frases, descrevendo apenas o que aparece na imagem).
+3. Texto alternativo só a partir da IMAGEM FINAL anexada ou descrição factual com todo o texto visível. Sem esses dados, escreva AGUARDAR IMAGEM; não invente pessoas, objetos ou texto.
 4. Uma lista de todas as informações que você usou, para a revisora ou o revisor conferir.
 
+IMAGENS FINAIS (anexar ou fornecer descrição factual + texto visível): [por linha]
 FICHA OFICIAL (versão e data): [cole aqui]
 ```
 
@@ -607,11 +543,7 @@ Ilustração editorial contemporânea, sem aparência de fotografia documental. 
 
 ### 4.8 Preservar a identidade de uma pessoa real
 
-**Prefira uma ferramenta comum de recorte para isso.** **Origem:** [Representação e vieses](representation-bias.md#padrões-de-prompt-que-funcionam-melhor).
-
-```prompt
-Use somente o retrato aprovado e autorizado de [nome] para este layout. Preserve o tom de pele, os traços do rosto, a textura e o volume do cabelo, a idade e as marcas pessoais. Ajuste apenas enquadramento e exposição, de modo natural; reserve uma área fora da foto para a identificação. Não alise o cabelo, não afine traços, não clareie a pele nem reconstrua o rosto. Se o pedido exigir alteração de identidade, avise. O texto será inserido e conferido separadamente.
-```
+**Checklist manual, não é prompt de edição generativa.** Use o original autorizado num editor comum de recorte/exposição. Preserve rosto, tom de pele, textura do cabelo, idade e marcas; deixe o espaço do nome fora da foto. Compare com o original e pare se a edição mudar a identidade. Não envie retrato real para reconstrução generativa. Siga o [checklist de retrato](representation-bias.md#padrões-de-prompt-que-funcionam-melhor) e as [autorizações](ethics-legal.md).
 
 ### 4.9 Uma mesa sobre tradição específica: consulte antes de desenhar
 
@@ -708,7 +640,7 @@ Crie um storyboard de 15 segundos para divulgar o CONAFROEDU 2026 a professoras 
 **Origem:** [Reels, cortes, legendas e dublagem](video-repurposing.md#passo-0-autorizações-antes-de-tudo).
 
 ```prompt
-Escreva uma mensagem curta e cordial, em português do Brasil, da comissão organizadora do CONAFROEDU 2026 (Congresso Nacional de Africanidades na Educação, 5 e 6 de dezembro de 2026, online) para uma palestrante confirmada. Peça autorização para cada um destes usos separadamente, para que ela possa responder sim/não a cada um: (1) gravar a palestra, (2) publicar cortes curtos (até 90 segundos) no Facebook, Instagram e WhatsApp do congresso, (3) usar nome, foto e instituição nas publicações, (4) legendas traduzidas. Deixe claro que NÃO usaremos dublagem com IA, clonagem de voz ou avatar sem um pedido à parte. Diga que ela pode revisar os cortes antes da publicação, se quiser. Tom acadêmico, acolhedor e respeitoso. Máximo de 150 palavras.
+Escreva uma mensagem curta e cordial, em português do Brasil, da comissão organizadora do CONAFROEDU 2026 (Congresso Nacional de Africanidades na Educação, 5 e 6 de dezembro de 2026, on-line) para uma palestrante confirmada. Peça autorização para cada um destes usos separadamente, para que ela possa responder sim/não a cada um: (1) gravar a palestra, (2) publicar cortes curtos (até 90 segundos) no Facebook, Instagram e WhatsApp do congresso, (3) usar nome, foto e instituição nas publicações, (4) legendas traduzidas. Deixe claro que NÃO usaremos dublagem com IA, clonagem de voz ou avatar sem um pedido à parte. Diga que ela pode revisar os cortes antes da publicação, se quiser. Tom acadêmico, acolhedor e respeitoso. Máximo de 150 palavras.
 ```
 
 ### 5.5 Escolha trechos de uma palestra (sem inventar)
@@ -758,11 +690,11 @@ Texto exato na tela (não acrescente, não traduza, não altere nada):
 "dias"
 "Desenvolvimento, Participação e Educação Antirracista"
 "5 e 6 de dezembro de 2026"
-"100% online"
+"100% on-line"
 "Inscreva-se pelo Even3"
 "link na legenda"
 
-Tempo: uma animação de 12 segundos e depois congela no último quadro (sem loop). 0–2 s entram as formas e o título; 2–5 s "Faltam 7 dias"; 5–8 s tema, data e "100% online"; 8–12 s o convite. Movimento em poses, 8 poses por segundo, como stop-motion. Sem flashes.
+Tempo: uma animação de 12 segundos e depois congela no último quadro (sem loop). 0–2 s entram as formas e o título; 2–5 s "Faltam 7 dias"; 5–8 s tema, data e "100% on-line"; 8–12 s o convite. Movimento em poses, 8 poses por segundo, como stop-motion. Sem flashes.
 Todo o texto dentro de uma área segura: 14% no topo, 22% embaixo e 12% de cada lado, para os botões e a legenda do Reels não cobrirem nada. Recarregar a página reinicia a animação.
 Depois de criar, me explique como baixar e abrir o arquivo HTML.
 ```
@@ -783,7 +715,7 @@ Texto exato (não mude nada):
 "[NOME EXATO, COMO APROVADO]"
 "[CARGO / INSTITUIÇÃO APROVADOS]"
 "[TÍTULO EXATO DA PALESTRA]"
-"5 de dezembro · [HORÁRIO CONFIRMADO PELA COMISSÃO] (horário de Brasília)"
+"[CONFIRMAR] — data da sessão · [CONFIRMAR] — horário (horário de Brasília)"
 "Inscrições: Even3 · link na legenda"
 
 12 segundos, toca uma vez e congela no último quadro. A foto entra deslizando de 0 a 2 s; o nome aparece aos 2 s e fica visível por pelo menos 6 segundos; o título aparece aos 5 s; data e convite aos 8 s.
@@ -802,8 +734,8 @@ Etiqueta pequena no topo: "O QUE DIZ A LEI"
 Citação (texto exato, não mude nenhuma palavra nem acento):
 "Nos estabelecimentos de ensino fundamental e de ensino médio, públicos e privados, torna-se obrigatório o estudo da história e cultura afro-brasileira e indígena."
 Destaque "obrigatório" e "história e cultura afro-brasileira e indígena".
-Linha da fonte: "LDB (Lei nº 9.394/1996), art. 26-A, com redação dada pela Lei nº 11.645/2008"
-Quadro final: "CONAFROEDU 2026 — 5 e 6 de dezembro de 2026 — 100% online"
+Linha da fonte: texto marrom-escuro sobre painel creme opaco, com contraste mínimo de 4,5:1 no tamanho exibido no celular; mantenha painel e quadro final dentro da área segura. Texto: "LDB (Lei nº 9.394/1996), art. 26-A, com redação dada pela Lei nº 11.645/2008"
+Quadro final: "CONAFROEDU 2026 — 5 e 6 de dezembro de 2026 — 100% on-line"
 
 As palavras aparecem uma de cada vez, cerca de 4 por segundo, e continuam na tela. Depois aparece a fonte, depois o quadro final. Total de uns 14 s, toca uma vez e congela no último quadro. Coloque o texto da citação e a velocidade em configurações bem identificadas no topo do arquivo, para eu mudar sem saber programar. Tudo dentro da área segura.
 ```
@@ -817,7 +749,7 @@ Crie uma animação em HTML autocontido, 9:16 (1080×1920), sem internet nem bib
 Estilo: recortes de papel sobre fundo creme com textura sutil de papel feita em CSS/SVG. Todo movimento acontece em poses visíveis, 8 por segundo (tempo em degraus, sem suavização), e os recortes tremem levemente entre 3 poses, como em stop-motion de verdade.
 Cena: um caderno de papel se abre ao longo de 2 segundos; um sol de papel sobe acima dele; depois um card fica parado por 5 segundos com este texto exato:
 "CONAFROEDU 2026"
-"5 e 6 de dezembro de 2026 · 100% online"
+"5 e 6 de dezembro de 2026 · 100% on-line"
 "Inscrições no Even3"
 Sem pessoas, sem símbolos culturais ou religiosos, sem flashes. Toca uma vez e congela no último quadro. Total de 10 segundos.
 ```
@@ -845,7 +777,7 @@ Crie uma animação com o modelo Motion para anunciar uma palestra. Destino: Ree
 Use a foto autorizada em anexo sem alterar o rosto.
 0–2 s: uma pergunta curta sobre [um desafio real de professores].
 2–7 s: [NOME EXATO], [CARGO APROVADO], [TÍTULO EXATO DA PALESTRA].
-7–10 s: "5 e 6 de dezembro de 2026 • 100% online".
+7–10 s: "5 e 6 de dezembro de 2026 • 100% on-line".
 10–12 s: "Inscreva-se pelo Even3 • link na legenda".
 Texto grande, nada de informação inventada, sem flashes rápidos. Primeiro proponha o roteiro; só renderize depois da minha aprovação.
 ```
@@ -859,9 +791,9 @@ As respostas prontas em português (`/datas`, `/valores`, `/prazo`, `/certificad
 **Origem:** [Instagram e WhatsApp](instagram-whatsapp.md#escrever-as-respostas-rápidas-a-partir-da-ficha-oficial).
 
 ```prompt
-Usando APENAS a ficha oficial abaixo, escreva respostas rápidas do WhatsApp Business em português natural para estes atalhos: /inscricao, /submissao, /programacao, /acesso, /certificado, /anais, /acessibilidade, /humano.
+Usando APENAS a ficha oficial abaixo, escreva respostas rápidas do WhatsApp Business em português natural para estes atalhos: /inscricao, /valores, /prazo, /comosubmeter, /datas, /acesso, /certificado, /publicacao, /acessibilidade, /humano.
 Cada resposta: até 60 palavras, simpática e clara, no máximo um link. Onde a ficha não responder, escreva [CONFIRMAR] — nunca chute (principalmente sobre critérios do certificado, obrigatoriedade da apresentação e acesso).
-Inclua uma versão de /submissao para depois do prazo (4/11) que encaminhe a pessoa para a inscrição como participante.
+Depois do encerramento confirmado em 4/11, revise todas as respostas, especialmente /inscricao, /valores, /prazo, /comosubmeter, /modalidades e /video. Encaminhe novas consultas para ouvintes sem sugerir que um trabalho novo pode ser enviado.
 Ficha oficial: [colar].
 ```
 
@@ -953,7 +885,7 @@ Release aprovado: [COLE]
 ```prompt
 Escreva um guia de uma página, em português do Brasil, para embaixadores voluntários do congresso CONAFROEDU 2026.
 Informações: [COLE A FICHA]. Compromisso combinado: [DESCREVA]. Benefícios que recebem: [DESCREVA ou "nenhum"].
-Inclua: por que a ajuda deles importa (2 frases), as datas principais, o que compartilhar e onde, 3 exemplos curtos de legenda com tons diferentes, o que NÃO prometer (aproveitamento do certificado, Qualis, progressão na carreira, escassez), como lidar com dúvidas (encaminhar para o WhatsApp oficial (19) 98816-7751 ou conapsuporte@gmail.com) e um lembrete para declarar qualquer benefício. Tom acolhedor e claro, sem jargão de marketing.
+Inclua: por que a ajuda deles importa (2 frases), as datas principais, o que compartilhar e onde, 3 exemplos curtos de legenda com tons diferentes, o que NÃO prometer (aproveitamento do certificado, Qualis, progressão na carreira, escassez), como lidar com dúvidas (encaminhar para o WhatsApp oficial (19) 98816-7751 ou conapsuporte@gmail.com) e um lembrete para declarar benefícios, conferir elegibilidade e usar o rótulo de parceria paga da Meta nas divulgações em troca de benefício. Tom acolhedor e claro, sem jargão de marketing.
 ```
 
 ### 8.5 Textos de Status do WhatsApp para embaixadores
@@ -961,7 +893,7 @@ Inclua: por que a ajuda deles importa (2 frases), as datas principais, o que com
 **Origem:** [Instagram e WhatsApp](instagram-whatsapp.md#mensagens-de-status-para-embaixadores).
 
 ```prompt
-Escreva 3 textos curtos para o Status do WhatsApp (até 140 caracteres cada), em português natural, que uma professora poderia publicar para convidar colegas para o CONAFROEDU — pessoais, calorosos, sem cara de propaganda. Cada um deve citar 5 e 6 de dezembro e 100% on-line, e terminar com "link: [link rastreável]". Faça uma versão para professores, uma para estudantes de graduação e uma para pesquisadores. Não invente benefícios; o certificado pode ser citado apenas como "certificado de 40 horas".
+Escreva 3 textos curtos para o Status do WhatsApp (até 140 caracteres de texto cada, sem contar a URL fornecida; acrescente a URL sem alterar e informe a contagem total), em português natural, que uma professora poderia publicar para convidar colegas para o CONAFROEDU — pessoais, calorosos, sem cara de propaganda. Cada um deve citar 5 e 6 de dezembro e 100% on-line, e terminar com "link: [link rastreável]". Faça uma versão para professores, uma para estudantes de graduação e uma para pesquisadores. Não invente benefícios; o certificado pode ser citado apenas como "certificado de 40 horas".
 ```
 
 ## 9. Medição
@@ -1093,7 +1025,7 @@ Prepare uma revisão de acessibilidade desta peça para redes sociais.
 Descrição factual da imagem/vídeo e todo o texto visível: [COLE]. Transcrição revisada, se for vídeo: [COLE].
 1) Escreva um texto alternativo curto (no máximo 250 caracteres) que transmita a informação importante, sem presumir identidade, raça, deficiência ou emoções de ninguém.
 2) Liste as informações que aparecem só na imagem e precisam ser repetidas na legenda (data, fuso, valor, link).
-3) Se for vídeo: liste falas, identificação de quem fala e sons relevantes que precisam de legenda.
+3) Se for vídeo: liste falas, identificação de quem fala e sons que precisam de legenda, além do visual indispensável que precisa de narração ou descrição.
 4) Liste o que uma pessoa precisa conferir visualmente antes de publicar (contraste, letras pequenas, bordas).
 ```
 
@@ -1110,6 +1042,18 @@ Para cortes de vídeo, o prompt de títulos de capa e descrição da [seção 5.
 - [ ] Imagens e vídeos passaram pela [checklist de representação](representation-bias.md#checklist-de-revisão-antes-de-publicar); mídia realista feita com IA está identificada.
 - [ ] Nenhum dado pessoal foi colado na ferramenta de IA.
 - [ ] Uma segunda pessoa conferiu com a [checagem de 60 segundos](prompting-basics.md#a-checagem-de-60-segundos).
+
+## Prompts de configuração e aprendizagem
+
+Comece por [Instalar e configurar ferramentas](setup-tools.md); veja o método completo em [Aprender com IA](learning-with-ai.md). Nunca cole senhas, chaves de API, caixas de entrada privadas ou dados de participantes.
+
+```prompt
+Ajude a configurar [FERRAMENTA] no [DISPOSITIVO/SISTEMA]. Só usei chatgpt.com ou claude.ai. Use a fonte oficial que forneço: [URL/texto]. Explique um passo por vez, o custo e as permissões pedidas. Pare após cada passo para eu dizer o que vejo. Se minha tela for diferente, pergunte os nomes visíveis; não invente botões. Nunca peça senha, chave de API ou código de login no chat. Comece com teste inofensivo usando fatos públicos do CONAFROEDU.
+```
+
+```prompt
+Ensine [UMA TAREFA] para eu conseguir fazer sozinho(a). Sou iniciante. Use a fonte oficial [URL/texto] e meu objetivo [TAREFA DO CONAFROEDU]. Primeiro faça uma pergunta diagnóstica; explique com um exemplo pequeno; depois proponha exercício sem a resposta. Confira minha tentativa e explique erros. Separe fatos com fonte de detalhes incertos da interface. Termine com checklist curto para eu usar sem sua ajuda. Responda em português brasileiro.
+```
 
 ## Próximos passos
 

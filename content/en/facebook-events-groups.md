@@ -7,6 +7,9 @@ icon: 📅
 updated: 2026-10-21
 ---
 
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#meta-business-suite) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
+
 **What you'll get from this page:** a click-by-click way to create one clean, public **online Facebook Event** for CONAFROEDU 2026, a ready-to-paste Portuguese event description, a discussion plan from now until after the congress, and a respectful method for sharing the congress in Brazilian education **Groups** (NEABIs, teachers, postgraduate programs) — including the exact permission message to send moderators.
 
 > [!IMPORTANT]
@@ -84,7 +87,7 @@ PARA QUEM: professoras e professores da educação básica, estudantes de gradua
 O QUE O CONGRESSO OFERECE (conforme a divulgação oficial):
 • Apresentação de trabalhos
 • Publicação nos Anais com ISBN e DOI (taxa de publicação de R$ 16,98 por trabalho, além da inscrição)
-• Certificado de 40 horas — [critérios de participação: CONFIRMAR]
+• Certificado de 40 horas — [CONFIRMAR] (critérios de participação)
 • Modalidades: [copiar exatamente das normas na Even3]
 
 PRAZOS IMPORTANTES:
@@ -93,14 +96,17 @@ PRAZOS IMPORTANTES:
 • Programação oficial: até 25 de novembro
 • Inscrições: até 6 de dezembro
 
-COMO PARTICIPAR: a inscrição é feita na Even3 (o "Vou"/"Tenho interesse" aqui no Facebook não é inscrição). [Explicar como as pessoas inscritas recebem o acesso às transmissões: CONFIRMAR]
+COMO PARTICIPAR: a inscrição é feita na Even3 (o "Vou"/"Tenho interesse" aqui no Facebook não é inscrição). [CONFIRMAR] (Explicar como as pessoas inscritas recebem o acesso às transmissões)
 
-👉 Inscrições, normas e valores: https://www.even3.com.br/iconafroedu-764690/
+👉 Inscrições, normas e valores: [LINK RASTREÁVEL DA EVEN3]
 
 ACESSIBILIDADE: [informar somente recursos confirmados] Dúvidas ou pedidos de apoio: WhatsApp (19) 98816-7751 · conapsuporte@gmail.com
 
 #CONAFROEDU #EducaçãoAntirracista #Africanidades
 ```
+
+Fill `[LINK RASTREÁVEL DA EVEN3]` with the tested ticket-field URL from the shared Links register before publishing.
+
 
 > [!NOTE]
 > We deliberately don't hard-code ticket prices in the description, because they change on **16 November** (displayed on Even3 on 21 October: R$ 55–70 until 15 November, R$ 60–75 from 16 November, depending on category). If you add prices, recheck the checkout and edit the Event on 16 November.

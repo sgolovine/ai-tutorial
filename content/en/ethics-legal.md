@@ -7,6 +7,9 @@ icon: ⚖️
 updated: 2026-10-21
 ---
 
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#privacy) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
+
 **What you'll get from this page:** the rules and good practices that keep the CONAFROEDU 2026 campaign honest, legal and respectful. You'll learn when to label AI content on Facebook and Instagram, how to get consent for photos and voices (including minors), what you can and can't do with AI-generated images and music, how LGPD affects the emails and WhatsApp numbers you collect, which spam rules apply to Groups and WhatsApp, how to make posts accessible, and why responsible AI use matters even more on an anti-racist education theme.
 
 > [!IMPORTANT] Not legal advice
@@ -18,14 +21,14 @@ updated: 2026-10-21
 2. **Ask before using anyone's image, voice or words**, and ask *separately* for AI uses (dubbing, avatars, edits).
 3. **Label realistic AI media** and explain illustrations in plain language.
 4. **Only message people who asked for it**, and stop immediately when they ask you to.
-5. **Keep personal data out of AI tools** and out of public folders.
+5. **Keep personal data out of AI tools** and public folders, except the narrow approved-bio workflow documented below.
 6. **Make every post usable by everyone:** text in the caption, alt text, captions on video.
 
 ## 1. Disclosing AI on Facebook and Instagram
 
 ### What Meta asks for
 
-Meta applies an **"AI info"** label (in the Portuguese interface it may appear as "Informações de IA"; check your app) to content it detects as AI-generated, using industry signals and self-disclosure ([Meta's labeling approach](https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/)). Meta's 2026 policy communication reiterates that users **must use the disclosure tool** for organic posts with **photorealistic video or realistic-sounding audio** that was digitally created or altered, and that penalties may apply if they don't ([Meta, Feb 2026](https://about.fb.com/news/2026/02/meta-prepares-for-2026-us-midterms/)).
+Meta applies an **"AI info"** label (in the Portuguese interface it is called "Informações de IA"; controls and placement vary) to content it detects as AI-generated, using industry signals and self-disclosure ([Meta's labeling approach](https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/)). Meta's 2026 policy communication reiterates that users **must use the disclosure tool** for organic posts with **photorealistic video or realistic-sounding audio** that was digitally created or altered, and that penalties may apply if they don't ([Meta, Feb 2026](https://about.fb.com/news/2026/02/meta-prepares-for-2026-us-midterms/)).
 
 ### What that means in practice
 
@@ -72,15 +75,19 @@ Use this as a starting point and have it reviewed by someone with legal knowledg
 ```text
 TERMO DE AUTORIZAÇÃO DE USO DE IMAGEM, VOZ E NOME – CONAFROEDU 2026
 
-Eu, [nome completo], autorizo a organização do I CONAFROEDU – Congresso Nacional de Africanidades na Educação a usar, sem fins lucrativos diretos e sem remuneração, meu nome, minha imagem e minha voz conforme as opções marcadas abaixo:
+Eu, [nome completo], autorizo [nome/razão social do organizador e contato] a utilizar meu nome, imagem e voz exclusivamente para [finalidades específicas, incluindo divulgação das inscrições pagas do I CONAFROEDU 2026], nos usos, canais e prazo assinalados abaixo. Remuneração/contrapartida acordada: [descrever ou informar que não há].
+Responsável pelo tratamento (controlador) e contato de privacidade: [identificar].
+Aviso de privacidade, finalidades e condições de tratamento: [link/documento].
 
 [ ] Fotografia enviada por mim, em publicações de divulgação do congresso
 [ ] Gravação da minha participação nos dias 5 e 6/12/2026
 [ ] Trechos editados da gravação (cortes/Reels) para divulgação
 [ ] Legendas e traduções do que eu disser, com minha aprovação prévia
-[ ] Dublagem com voz sintética (IA), somente após eu aprovar o roteiro traduzido
-[ ] Envio da minha foto/voz a ferramentas externas de IA para edição
-[ ] Criação de avatar ou clonagem de voz (NÃO marque se não quiser)
+[ ] Quero avaliar um anexo OPCIONAL e separado para uso de IA (não autoriza uso antes de preenchido e aprovado):
+Serviço/provedor: [nome]. Transformação e peças exatas: [descrever dublagem/avatar/outro].
+Material enviado, compartilhamento/transferências aplicáveis e condições de tratamento: [descrever/link].
+Prazo de armazenamento e exclusão: [definir]. Aprovação prévia da pessoa para roteiro, transformação e resultado final: [procedimento].
+Não autoriza reconstrução generativa de retratos para os cards desta campanha.
 
 Canais: Facebook, Instagram, WhatsApp, página do evento na Even3 e [outros].
 Prazo: até [data] para novas publicações. Posso revogar esta autorização para usos futuros a qualquer momento, pelo contato [e-mail/WhatsApp].
@@ -101,7 +108,7 @@ Local e data: ____________  Assinatura: ____________
 Many educators submit **práticas exitosas** (classroom experience reports) with photos of students. These are a sensitive area:
 
 - **Don't reuse student photos from papers in marketing.** Authorization for a scientific report is not authorization for promotion.
-- **Brazilian law treats children's and adolescents' data with special care.** ANPD (the national data protection authority) states that their data must be handled in their **best interest** ([ANPD Enunciado 1/2023](https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-divulga-enunciado-sobre-o-tratamento-de-dados-pessoais-de-criancas-e-adolescentes/Enunciado1ANPD.pdf)).
+- **Brazilian law treats children's and adolescents' data with special care.** ANPD (Brazil’s national data-protection regulator) states that their data must be handled in their **best interest** ([ANPD Enunciado 1/2023](https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-divulga-enunciado-sobre-o-tratamento-de-dados-pessoais-de-criancas-e-adolescentes/Enunciado1ANPD.pdf)).
 - **Default for this campaign:** no identifiable minors in promotional posts. Show materials, hands, the teacher, or illustrations instead. If a school-based image is truly essential, involve the school and the families and get proper review first.
 - **Never upload children's faces or voices to AI generators** or editing services.
 - **Don't invite identifiable stories of children experiencing racism** in public comments. Discuss institutional responses in general terms with a qualified educator.
@@ -132,7 +139,7 @@ Many educators submit **práticas exitosas** (classroom experience reports) with
 | **Meta Sound Collection** | Meta describes it as cleared for commercial use, unlike the ordinary music library, which is for personal/noncommercial use ([Meta music help](https://www.facebook.com/help/instagram/402084904469945)). Best first choice for Facebook/Instagram only. Not automatically licensed for WhatsApp, YouTube or your site |
 | **Ordinary Instagram/Facebook music library** | Personal/noncommercial scope; avoid for promoting the congress |
 | **CapCut "Commercial Sounds"** | Its international agreement limits them to CapCut/TikTok uses unless separately cleared, so **not** cleared for Facebook/Instagram/WhatsApp |
-| **AI music (e.g. Suno paid plan)** | Only from a paid plan that grants commercial use, downloaded while subscribed; keep the record |
+| **AI music (e.g. Suno paid plan)** | Only from a paid plan that grants commercial use, **created while subscribed** to a plan granting commercial use; keep creation/subscription records. Download date is not the criterion; rights can survive cancellation ([Suno help](https://help.suno.com/en/articles/2416769)) |
 | **Original or commissioned music** | Good choice with a written permission covering promotion, edits, channels and duration |
 | **No music** | Often best: a clear real voice with accurate captions |
 
@@ -152,6 +159,8 @@ Many educators submit **práticas exitosas** (classroom experience reports) with
 ### Institutional names and logos
 
 The scientific committee's members are affiliated with several universities, but **personal affiliations are not institutional endorsement**. Don't use any university, NEAB/NEABI, ministry or association logo, or say "apoio" or "parceria", without written authorization. Don't imply MEC, CAPES or PNEERQ recognition.
+
+For speaker bios, the only limited exception to the no-personal-data AI rule is **minimal approved professional source text**, using a committee-approved service/privacy setting, documented purpose/legal basis, notice and the speaker’s agreement to external AI processing. Public availability or permission to publish alone is insufficient. Exclude full CVs, contacts, sensitive details and unrelated information. Otherwise write the bio manually. This exception does not authorize AI portrait reconstruction.
 
 ## 4. LGPD: emails, WhatsApp numbers and registrant data
 
@@ -188,12 +197,14 @@ Use a **separate** checkbox for future editions or a broader newsletter; that's 
 
 If you add Google Analytics 4 or other trackers to Even3 or a website, ANPD's cookie guide recommends clear choices, an easily visible option to reject non-necessary cookies, and consent-based cookies off by default ([ANPD cookie guide](https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia_orientativo_cookies_e_protecao_de_dados_pessoais)). For this campaign, Even3's own reports and UTM links are usually enough. Don't install advertising pixels you don't need.
 
+**Benefit-for-post arrangements:** complimentary admission, gifts or payment in exchange for promotion can be branded content. Check eligibility and use Meta’s **paid partnership label**, plus a clear caption disclosure; Collab is not a substitute. Resolve label availability before agreeing to the arrangement ([Meta’s explanation](https://about.fb.com/fr/news/2023/02/comment-meta-accompagne-les-createurs-de-contenus-et-les-acteurs-de-linfluence-en-ligne/)). Independent unpaid sharing is a different case.
+
 ## 5. Anti-spam rules: Facebook, Groups, Messenger and WhatsApp
 
 ### Facebook and Groups
 
 - **Spammy behavior loses distribution.** Meta's 2025 crackdown targets excessive or unrelated hashtags, unrelated captions and fake engagement ([Meta](https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/)). **Engagement bait** ("comente SIM", "marque 5 amigos") has long been demoted, including in Portuguese ([Meta](https://about.fb.com/news/2017/12/news-feed-fyi-fighting-engagement-bait-on-facebook/)).
-- **No automated Group posting.** Meta deprecated the Groups API for publishing in 2024 ([Meta for Developers](https://developers.facebook.com/blog/post/2024/01/23/introducing-facebook-graph-and-marketing-api-v19/)). Any tool promising to auto-post in dozens of groups is breaking the rules.
+- **No unauthorized bots or integrations for Group posting.** Removal of the external Groups API did not ban [Facebook’s native scheduled/recurring posts in groups you manage](https://www.facebook.com/help/124331564818285/). In other people’s groups, follow our manual, moderator-approved process.
 - **No scraping.** Meta says automated collection of data without permission violates its terms ([Meta](https://about.fb.com/news/2021/04/how-we-combat-scraping/)). Don't extract group members or Event respondents to message them.
 - **Respect each group's rules.** Read them, ask moderators, post once where allowed, and stop if they say no. Details in [Facebook Events & Groups](facebook-events-groups.md).
 - **No fake accounts or borrowed identities** to get around a refusal.
@@ -208,7 +219,7 @@ If you add Google Analytics 4 or other trackers to Even3 or a website, ANPD's co
 
 ### Messenger and email
 
-- **Messenger:** a standard 24-hour window applies after a person messages the Page; a comment allows a single private reply, not a campaign. "They liked the post" is not consent.
+- **Messenger:** a standard 24-hour window applies after a person messages the Page; a Page comment allows one private reply **within seven days**. Wait for the person’s reply before continuing under the applicable window; it does not authorize a campaign. "They liked the post" is not consent.
 - **Email:** free tools (Brevo, MailerLite) are for **opt-in** lists. A free quota is not permission to upload a bought or scraped list.
 
 ### Not OK → do this instead
@@ -228,11 +239,12 @@ Accessibility is part of an anti-racist and inclusive event, not an extra. The W
 
 ### Publishing checklist
 
+- [ ] Essential video visuals are narrated: say aloud screen steps, slides and animated text. For silent media, publish an equivalent description/transcript and audio description where needed. Test understanding without looking ([W3C](https://www.w3.org/WAI/media/av/av-content/)).
 - [ ] Date, time zone (horário de Brasília), price and registration instructions are in the **caption text**, not only inside the image.
 - [ ] **Alt text** added where the platform allows (and checked after cross-posting). If there's no alt-text field, describe the image in the caption.
 - [ ] **Video captions** proofread: names, acronyms (ERER, NEABI), accents. Auto-captions always need checking.
 - [ ] Speakers identified in captions when more than one person talks.
-- [ ] **Contrast:** text clearly readable. As a reference, WCAG asks for at least 4.5:1 for normal text; free online contrast checkers can test your colors.
+- [ ] **Contrast:** text clearly readable. As a reference, WCAG asks for at least 4.5:1 for normal text and 3:1 for large text; free online contrast checkers can test your colors.
 - [ ] Information never conveyed **by color alone** (e.g. tracks or deadlines).
 - [ ] Text checked at phone size; nothing important near the edges in Stories/Reels.
 - [ ] **No decorative Unicode "fonts"** (𝓯𝓪𝓷𝓬𝔂 text): screen readers can't read them.
@@ -251,7 +263,7 @@ Prepare an accessibility review for this social media asset. Answer in Brazilian
 Factual description of the image/video and all visible text: [PASTE]. Corrected transcript, if video: [PASTE].
 1) Write a short alt text (max. 250 characters) conveying the important information, without assuming anyone's identity, race, disability or emotions.
 2) List the information that appears only in the image and must be repeated in the caption (date, time zone, price, link).
-3) For video: list speech, speaker identification and relevant sounds that need captions.
+3) For video: list speech, speaker identification and sounds needing captions, plus essential visual information that must be narrated or described.
 4) List what a person must check visually before publishing (contrast, small text, edges).
 ```
 
@@ -281,7 +293,8 @@ CONAFROEDU is about Africanidades, Afro-Brazilian history and culture and anti-r
 - [ ] Realistic AI media labeled with Meta's control; illustrations explained in the caption.
 - [ ] Representation reviewed (see [representation-bias](representation-bias.md)).
 - [ ] Messages only to people who opted in; opt-out honored.
-- [ ] No personal data pasted into AI tools.
+- [ ] No personal data in AI, except the documented minimal approved-bio workflow above.
+- [ ] Paid-partnership control and caption disclosure checked for benefit-for-post arrangements.
 - [ ] Accessibility checklist done.
 
 ## Decisions the committee needs to make

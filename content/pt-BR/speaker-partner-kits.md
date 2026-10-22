@@ -7,6 +7,9 @@ icon: 🤝
 updated: 2026-10-21
 ---
 
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#canva). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
+
 **O que você vai encontrar nesta página:** quatro kits de divulgação para o CONAFROEDU 2026 (autores com trabalho aprovado, palestrantes, instituições parceiras e embaixadores voluntários), prontos para montar. Também tem o passo a passo no Canva gratuito, prompts para copiar e colar, os recursos da Even3 que ajudam (e os que ainda não estão confirmados) e um plano para reunir conteúdo dos participantes com honestidade.
 
 Um **kit de divulgação** é uma pastinha com tudo o que a pessoa precisa para divulgar o congresso do jeito dela: uma ou duas artes, um vídeo curto se possível, duas ou três sugestões de legenda, o link certo e as informações oficiais. A organização prepara; a pessoa decide se e como vai usar.
@@ -16,7 +19,7 @@ Um **kit de divulgação** é uma pastinha com tudo o que a pessoa precisa para 
 
 ## Por que os kits são tão importantes para o CONAFROEDU
 
-O CONAFROEDU está na primeira edição e ainda não tem uma página consolidada no Facebook. A rede de divulgação de verdade são as pessoas que já estão envolvidas:
+O CONAFROEDU está na primeira edição; a comissão precisa conferir seu público real no Facebook. A rede de divulgação de verdade são as pessoas que já estão envolvidas:
 
 - **Autores aprovados.** Cada trabalho pode ter até seis autores (segundo as normas publicadas). Cada aprovação é uma notícia real e boa, que os autores *querem* contar para colegas, programa de pós-graduação, escola e família.
 - **Palestrantes.** Trazem autoridade e suas próprias redes acadêmicas e de professores.
@@ -75,14 +78,14 @@ Por causa do calendário. As submissões vão até 4 de novembro e o evento prom
 
 | Escreva | Não escreva (ainda) | Por quê |
 |---|---|---|
-| "Meu trabalho foi aprovado no I CONAFROEDU" | "Publicado nos anais com DOI" | Os anais estão previstos para 15/12; o DOI só existe depois da publicação |
+| "Meu trabalho foi aprovado no I CONAFROEDU" | "Publicado nos anais com DOI" | Os anais estão previstos para 15/12; aprovação não comprova publicação. Só anuncie publicação quando ocorrer e divulgue DOI confirmado pelo responsável editorial ([Crossref](https://www.crossref.org/documentation/research-nexus/pending-publications/)) |
 | "Vou participar do congresso em 5 e 6/12" | "Vou apresentar às 14h do dia 5" | A programação oficial sai até 25/11; o que está no ar é provisório |
 | "Trabalho aprovado na modalidade resumo expandido" | "Qualis A", "vale pontos" | ISBN/DOI não definem estrato Qualis; o aproveitamento depende de cada instituição |
 | Nomes dos coautores que concordaram | Nomes de coautores que não foram consultados | Toda pessoa citada deve concordar antes da publicação |
 
 ### Como entregar: o caminho mais barato primeiro
 
-**Opção A: modelo para cada autor preencher (recomendada).** Monte a arte uma vez no Canva gratuito e compartilhe um link editável para que cada autor preencha o próprio nome e título. Assim a organização não precisa manipular uma lista de nomes nem passar horas personalizando artes. No Canva, use o botão **Compartilhar**; se o seu plano mostrar a opção de compartilhar o design como modelo (cada pessoa recebe a própria cópia), use essa. Se não aparecer, vá para a opção B.
+**Opção A: modelo que cria cópias, se disponível.** Nunca distribua acesso de edição ao arquivo-mestre. Se o plano oferecer link de modelo que crie uma cópia por pessoa, teste com outra conta primeiro. Sem esse recurso, envie o PNG em branco da opção B. Link comum de edição altera o mesmo arquivo ([ajuda do Canva](https://www.canva.com/help/share-via-link-or-email/)).
 
 **Opção B: imagem em branco.** Exporte um PNG com uma faixa vazia onde iria o nome. O autor escreve o nome com a ferramenta de texto do Instagram, do Status do WhatsApp ou de qualquer editor.
 
@@ -99,7 +102,7 @@ Por causa do calendário. As submissões vão até 4 de novembro e o evento prom
 5. Use bom contraste (texto escuro sobre fundo claro ou o contrário) e pelo menos dois tamanhos de letra. Confira no tamanho de tela de celular.
 6. Peça a outra pessoa da equipe para revisar cada acento: *Participação*, *Educação*, *Antirracista*, *Africanidades*.
 7. **Duplique** a página e reorganize os elementos em um novo design de **1080 × 1920** para Stories (o redimensionamento automático pode ser recurso pago).
-8. Baixe em PNG e compartilhe o link editável (opção A) ou o PNG em branco (opção B).
+8. Compartilhe o **link de modelo testado que cria cópias**, ou exporte e envie o PNG em branco. Não envie o link de edição do arquivo-mestre.
 
 > [!NOTE]
 > Se quiser um fundo decorativo, dá para gerar um sem texto com uma ferramenta de imagem com IA, mas uma cor sólida com formas simples é mais segura e mais rápida. Se usar imagem de IA, leia antes [Representar culturas negras e africanas com respeito](representation-bias.md): evite estampas "africanas" genéricas e símbolos sagrados como enfeite.
@@ -157,9 +160,9 @@ Só palestrantes **confirmados**. A programação na Even3 hoje mostra nomes par
 ### Passo a passo
 
 1. **Pergunte antes.** Mande uma mensagem curta pelo contato que o palestrante já usa com a comissão. Pergunte o que a pessoa se sente à vontade para compartilhar e quanto tempo tem. Uma publicação útil vale mais do que cinco cartazes iguais.
-2. **Faça a minibio com IA só a partir de fontes reais.** Cole o trecho do currículo ou a bio que a pessoa enviou e use o prompt abaixo. Nunca deixe a IA "completar" uma bio de memória: ela inventa títulos e cargos.
+2. **Escreva manualmente por padrão.** A IA só pode usar minibio profissional mínima aprovada para processamento pelo serviço escolhido e aprovado pela comissão, nas condições de [privacidade](ethics-legal.md). Autorizar publicação não autoriza processamento externo por IA. Nunca cole currículo completo, contatos ou dados sensíveis; não deixe a IA completar lacunas de memória.
 3. **Monte a arte sem alterar a pessoa.** Use a foto aprovada com um recorte simples. Nada de "melhorar com IA", trocar fundo ou filtro de beleza: isso pode clarear a pele, afinar traços ou mudar o cabelo. Compare qualquer edição lado a lado com o original.
-4. **Peça um vídeo de celular.** Roteiro sugerido: "Olá, eu sou [nome], da [instituição]. No CONAFROEDU, nos dias 5 e 6 de dezembro, vou falar sobre [tema]. Uma pergunta que vamos discutir é: [pergunta]. As inscrições estão na Even3." Luz de janela, ambiente silencioso, celular na vertical.
+4. **Peça um vídeo de celular.** Roteiro sugerido: "Olá, eu sou [nome], da [instituição]. No CONAFROEDU, nos dias 5 e 6 de dezembro, vou falar sobre [tema]. Uma pergunta que vamos discutir é: [pergunta]. As inscrições estão na Even3." Luz de janela, ambiente silencioso, celular na vertical. Narre texto essencial de slides/tela ou demonstração visual.
 5. **Coloque legendas corretas** no vídeo (veja [Reels, cortes, legendas e dublagem](video-repurposing.md)) e confira cada nome.
 6. **Envie o kit** numa única mensagem com o link de uma pasta (Google Drive ou parecido), e não dez arquivos soltos.
 7. **Sugira um ritmo leve:** post de anúncio, uma resposta útil (o vídeo) e um convite final na última semana.
@@ -171,7 +174,7 @@ Só palestrantes **confirmados**. A programação na Even3 hoje mostra nomes par
 Use SOMENTE o texto-fonte abaixo. Escreva duas minibios de [NOME COMPLETO, exatamente como está escrito] para a programação do CONAFROEDU 2026: uma de 60 e outra de 120 palavras, em terceira pessoa, em português do Brasil natural.
 Depois, faça uma tabela "informação → frase exata da fonte".
 Marque com [CONFIRMAR] tudo o que estiver ambíguo. Não acrescente titulações, cargos, prêmios, instituições, autodeclaração racial ou publicações que não estejam na fonte. Não corrija a grafia de nomes.
-Fonte: [COLE A BIO OU O TRECHO DO CURRÍCULO ENVIADO PELA PESSOA]
+Fonte: [COLE SOMENTE MINIBIO PROFISSIONAL MÍNIMA APROVADA PARA ESTE PROCESSAMENTO EXTERNO POR IA; SEM ISSO, PARE E ESCREVA MANUALMENTE]
 ```
 
 ### Prompt: rascunhos do kit completo do palestrante
@@ -180,7 +183,7 @@ Fonte: [COLE A BIO OU O TRECHO DO CURRÍCULO ENVIADO PELA PESSOA]
 Prepare rascunhos de um kit de divulgação para o palestrante confirmado [NOME].
 Tema aprovado: [TEMA]. Dados do evento: [COLE A FICHA]. O que realmente sabemos sobre o público dele: [INFORMAÇÃO ou "desconhecido"]. Contrapartidas acordadas: [DESCREVA ou "nenhuma"].
 Entregue, em português do Brasil: (1) legenda curta de convite pessoal; (2) legenda construída em torno de uma ideia útil do tema; (3) legenda factual com data e link; (4) roteiro de vídeo vertical de 30 segundos na voz dele; (5) mensagem curta que ele possa encaminhar a um colega ou instituição.
-Não afirme apoio da instituição onde ele trabalha. Não invente credenciais nem citações. Não escreva como se ele já tivesse aprovado. Indique onde entra o link rastreado. Tudo será revisado pela equipe e pelo palestrante.
+Se houver divulgação em troca de benefício, confira elegibilidade e use o rótulo de parceria paga da Meta com legenda clara; Collab não substitui isso. Não afirme apoio da instituição onde ele trabalha. Não invente credenciais nem citações. Não escreva como se ele já tivesse aprovado. Indique onde entra o link rastreado. Tudo será revisado pela equipe e pelo palestrante.
 ```
 
 ## Kit 3: Parceiros (NEABIs/NEABs, programas de pós, associações, coletivos)
@@ -227,7 +230,7 @@ Um programa de embaixadores é só um grupo pequeno e organizado de pessoas que 
 2. **Combine um compromisso leve**, por exemplo: um post no feed, um Status no WhatsApp e uma mensagem em um grupo do qual a pessoa já participa, ao longo de toda a campanha.
 3. **Dê a cada um um link rastreado pessoal** (e um cupom, só se a comissão aprovar).
 4. **Escreva um guia de uma página:** informações, prazos, o que não prometer (aproveitamento de certificado, Qualis, progressão), como responder dúvidas ("encaminhe para o WhatsApp oficial") e o contato para dúvidas.
-5. **Transparência sobre benefícios.** Se os embaixadores ganharem inscrição cortesia ou qualquer outra coisa, devem dizer isso abertamente nas publicações ("recebi uma inscrição cortesia da organização").
+5. **Declare benefícios e use o controle da plataforma.** Se o post for trocado por inscrição cortesia, pagamento ou outro benefício, confira elegibilidade e use o **rótulo de parceria paga** da Meta, além da legenda. Collab não substitui esse rótulo. Resolva a disponibilidade antes de combinar ([Meta](https://about.fb.com/fr/news/2023/02/comment-meta-accompagne-les-createurs-de-contenus-et-les-acteurs-de-linfluence-en-ligne/)).
 6. **Valorize ajuda real, não números de vaidade.** Não premie curtidas, comentários, marcação de amigos nem inclusão de pessoas em grupos. Agradeça publicamente (com permissão) e conte para eles os resultados.
 
 > [!CAUTION]
@@ -238,25 +241,25 @@ Um programa de embaixadores é só um grupo pequeno e organizado de pessoas que 
 ```prompt
 Escreva um guia de uma página, em português do Brasil, para embaixadores voluntários do congresso CONAFROEDU 2026.
 Informações: [COLE A FICHA]. Compromisso combinado: [DESCREVA]. Benefícios que recebem: [DESCREVA ou "nenhum"].
-Inclua: por que a ajuda deles importa (2 frases), as datas principais, o que compartilhar e onde, 3 exemplos curtos de legenda com tons diferentes, o que NÃO prometer (aproveitamento do certificado, Qualis, progressão na carreira, escassez), como lidar com dúvidas (encaminhar para o WhatsApp oficial (19) 98816-7751 ou conapsuporte@gmail.com) e um lembrete para declarar qualquer benefício. Tom acolhedor e claro, sem jargão de marketing.
+Inclua: por que a ajuda deles importa (2 frases), as datas principais, o que compartilhar e onde, 3 exemplos curtos de legenda com tons diferentes, o que NÃO prometer (aproveitamento do certificado, Qualis, progressão na carreira, escassez), como lidar com dúvidas (encaminhar para o WhatsApp oficial (19) 98816-7751 ou conapsuporte@gmail.com) e um lembrete para declarar benefícios, conferir elegibilidade e usar o rótulo de parceria paga da Meta nas divulgações em troca de benefício. Tom acolhedor e claro, sem jargão de marketing.
 ```
 
 ## Recursos da Even3 que ajudam (e o que não está confirmado)
 
 | Recurso | Situação | Como usar nos kits | Atenção |
 |---|---|---|---|
-| **Cupons de desconto** | Documentado na Central de Ajuda da Even3: valor fixo ou percentual, quantidade de usos, validade e categorias de ingresso ([Ajuda: cupons](https://ajuda.even3.com.br/hc/pt-br/articles/212182786-Criar-cupons-de-desconto)) | Um cupom por parceiro (por exemplo, um código como `NEABPARCEIRO`, apenas ilustrativo) permite contar quantas inscrições cada parceiro trouxe, mesmo quando o link foi encaminhado ou digitado em outro aparelho | Desconto reduz a receita. A comissão precisa aprovar as condições e testar o código antes de qualquer divulgação. Hoje não existe cupom do CONAFROEDU |
+| **Cupons de desconto** | Documentado na Central de Ajuda da Even3: valor fixo ou percentual, quantidade de usos, validade e categorias de ingresso ([Ajuda: cupons](https://ajuda.even3.com.br/hc/pt-br/articles/212182786-Criar-cupons-de-desconto)) | Um cupom por parceiro (por exemplo, um código como `NEABPARCEIRO`, apenas ilustrativo) permite contar usos do código do parceiro, sem provar que ele causou cada venda, mesmo quando o link foi encaminhado ou digitado em outro aparelho | Desconto reduz a receita. A comissão precisa aprovar as condições e testar o código antes de qualquer divulgação. Não foi verificado cupom do CONAFROEDU; confirmar com a comissão |
 | **Links de parceiros/indicação** | Anunciado na [página de recursos de divulgação](https://plataforma.even3.com.br/solucoes/divulgacao-de-eventos/) da Even3; a configuração **não** está documentada na Central de Ajuda no momento | Verifique no painel do organizador ou pergunte ao suporte da Even3 se o seu evento tem esse recurso | Não prometa comissão nem rastreamento automático antes de ver funcionando. Alternativa: links UTM (abaixo) |
 | **Notificações a autores e participantes** | Documentado ([Ajuda](https://ajuda.even3.com.br/hc/pt-br/articles/115003452963-Notificar-pessoas-pela-plataforma)) | Enviar o link do kit aos autores aprovados | São mensagens de serviço do evento; não transforme em sequência de propaganda |
 | **Cartas de aceite e modelos de e-mail** | Documentado nas configurações de submissão | Acrescentar uma linha opcional com o link do kit | Nunca automatize a decisão científica |
 | **Notificações agendadas** | Documentado, mas **o suporte da Even3 precisa habilitar** ([Ajuda](https://ajuda.even3.com.br/hc/pt-br/articles/14288648505499-Agendar-o-envio-de-notifica%C3%A7%C3%A3o-no-evento)) | Agendar lembrete para palestrantes/autores | Peça ao suporte com antecedência |
-| **Relatórios e exportações** | Documentado | Contar usos de cupom e inscrições por parceiro; veja [Medir resultados](measuring-results.md) | As exportações têm dados pessoais; mantenha em local restrito |
+| **Relatórios e exportações** | Documentado | Contar usos de cupom e visitas marcadas; inscrições por parceiro só com atribuição validada; veja [Medir resultados](measuring-results.md) | As exportações têm dados pessoais; mantenha em local restrito |
 
 **Custo:** a página de divulgação da Even3 diz que as ferramentas de marketing não têm custo extra e informa uma taxa de 10% sobre inscrições pagas (regra geral da plataforma; confira as condições do seu evento).
 
 ## Links rastreados para cada kit
 
-Dê a cada kit o seu próprio link para descobrir quais relações trazem inscrições. O esquema completo de nomes está em [Medir resultados de graça](measuring-results.md#passo-1-crie-seus-links-utm); aqui vão exemplos para os kits:
+Dê a cada kit o seu próprio link para distinguir origens das visitas; atribua inscrições somente se o painel do evento mostrar e validar essa ligação. O esquema completo de nomes está em [Medir resultados de graça](measuring-results.md#passo-1-crie-seus-links-utm); aqui vão exemplos para os kits:
 
 | Kit | Exemplo de link |
 |---|---|
@@ -308,7 +311,7 @@ Oi, [nome]! Aqui é [pessoa], da organização do CONAFROEDU. Adoramos sua publi
 - [ ] Um link rastreado para cada pessoa/parceiro, testado no celular.
 - [ ] As informações essenciais também estão no texto da legenda, não só na imagem; texto alternativo sugerido.
 - [ ] As legendas dizem "adapte ao seu jeito"; compartilhar é opcional.
-- [ ] Qualquer benefício a embaixadores/parceiros está declarado.
+- [ ] Benefícios declarados na legenda e elegibilidade/rótulo de parceria paga da Meta conferidos nas trocas.
 - [ ] Depois de 4/11: legendas de submissão retiradas dos kits e das pastas.
 
 ## Próximos passos

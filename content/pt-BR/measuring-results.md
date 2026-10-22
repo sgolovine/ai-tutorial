@@ -7,6 +7,9 @@ icon: 📊
 updated: 2026-10-21
 ---
 
+> [!TIP] Está começando nessas ferramentas?
+> Siga primeiro o [passo a passo de configuração](setup-tools.md#meta-business-suite). Se um botão ou conceito for novo, use o [guia de aprendizagem com IA](learning-with-ai.md) para praticar uma tarefa pequena.
+
 **O que você vai encontrar nesta página:** um jeito de medir a campanha que custa R$ 0 e cabe na rotina de uma equipe voluntária. Você vai ver quais números importam para a **submissão de trabalhos** e quais importam para as **inscrições**, como ler o Meta Business Suite e o Painel profissional e um **esquema pronto de links UTM** para o CONAFROEDU. Também vai ver o que a Even3 consegue mostrar, como fazer uma revisão semanal de 30 minutos numa planilha e como usar IA nos dados sem expor informações pessoais de ninguém.
 
 > [!NOTE]
@@ -36,10 +39,13 @@ Depois de 4 de novembro, o funil de submissão fecha. A partir daí, acompanhe d
 | **Meta Business Suite** (web + app) | Visualizações, interações e seguidores de Facebook e Instagram; resultado de cada post | App gratuito ([App Store](https://apps.apple.com/br/app/meta-business-suite/id514643583)); existem recursos pagos opcionais da Meta, mas não são necessários |
 | **Painel profissional** | Desempenho de posts e Reels, retenção de vídeo quando disponível | Gratuito; os campos variam conforme a conta |
 | **Relatórios e exportações da Even3** | Inscrições confirmadas, vendas por categoria e data, submissões, certificados | Incluído no evento |
-| **Even3 Analytics** | Visitas, inscrições e origem do tráfego a partir de links marcados (segundo o guia da própria Even3) | Incluído; confira o que o painel do seu evento mostra |
+| **Even3 Analytics** | Origens de visitas marcadas e totais separados de inscrições/pagamentos; ligação entre origem e inscrição exige validação | Incluído; confira o que o painel do seu evento mostra |
 | **Links UTM** | Qual post, parceiro ou pessoa trouxe cada visita | Grátis: é só um texto a mais no link |
 | **Uma planilha compartilhada** (Google Planilhas ou similar) | Registro de links, diário de posts e placar semanal | Grátis |
 | **Google Analytics 4** (opcional) | Tráfego detalhado, se configurado na Even3 | Ferramenta gratuita ([Google](https://marketingplatform.google.com/about/analytics/)), mas exige tempo de configuração e cuidado com cookies e privacidade (veja [ethics-legal](ethics-legal.md)). **Não é necessário** nesta campanha |
+
+> [!IMPORTANT]
+> **UTMs identificam origens de visitas, não automaticamente inscrições.** A Even3 documenta tráfego marcado ao lado de totais de vendas; isso não estabelece ligação de cada post com inscrição/submissão concluída. Antes de divulgar conversões, teste dois links diferentes no painel: quais campos de origem/campanha/conteúdo aparecem e uma inscrição de teste permitida ou real aprovada mantém essa origem? Abrir a URL não é esse teste. Até validar, informe separadamente visitas marcadas, total de inscrições, usos de cupom e descoberta autodeclarada. Retire colunas de conversão indisponíveis; não deduza pelo horário.
 
 ## Passo 1: crie seus links UTM
 
@@ -76,7 +82,7 @@ O Google documenta os três parâmetros principais (`utm_source`, `utm_medium`, 
 | Bio do Instagram | `https://www.even3.com.br/iconafroedu-764690/?utm_source=instagram&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=bio_link` |
 | Story no Instagram sobre a virada de lote de 16/11 | `https://www.even3.com.br/iconafroedu-764690/?utm_source=instagram&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=story_lote_01` |
 | Atualização no Canal do WhatsApp | `https://www.even3.com.br/iconafroedu-764690/?utm_source=whatsapp&utm_medium=messaging&utm_campaign=conafroedu_2026_inscricoes&utm_content=canal_programacao_01` |
-| Post de 20/11, Consciência Negra | `https://www.even3.com.br/iconafroedu-764690/?utm_source=facebook&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=post_20nov_01` |
+| Convite opcional separado perto de 20/11 (não a peça educativa) | `https://www.even3.com.br/iconafroedu-764690/?utm_source=facebook&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=post_20nov_01` |
 | Boletim de um NEABI parceiro | `https://www.even3.com.br/iconafroedu-764690/?utm_source=parceiro_neabi_01&utm_medium=referral&utm_campaign=conafroedu_2026_submissoes&utm_content=release` |
 | Kit de palestrante | `https://www.even3.com.br/iconafroedu-764690/?utm_source=palestrante_03&utm_medium=referral&utm_campaign=conafroedu_2026_inscricoes&utm_content=kit_palestrante` |
 
@@ -114,7 +120,7 @@ Coloque `https://www.even3.com.br/iconafroedu-764690/` na coluna A. Todo link qu
 
 1. Abra o [business.facebook.com](https://business.facebook.com) ou o app Meta Business Suite e escolha a página do CONAFROEDU (é preciso ter acesso adequado).
 2. Vá em **Insights** (o nome pode variar um pouco na interface em português).
-3. Veja a **visão geral de 28 dias**. A ajuda da Meta descreve **Visualizações**, **Interações** e **Seguidores** ([Ajuda da Meta para Empresas](https://www.facebook.com/business/help/4185855074991336)).
+3. Selecione um período consistente (por exemplo, 28 dias, se disponível). A ajuda da Meta descreve **Visualizações**, **Interações** e **Seguidores** ([Ajuda da Meta para Empresas](https://www.facebook.com/business/help/4185855074991336)).
 4. Abra **Conteúdo** para ver cada post individualmente, e não só o total da conta.
 5. Copie os números que interessam para a aba Semanal (Passo 4).
 
@@ -145,7 +151,7 @@ Se vocês tiverem um Canal no WhatsApp, anote as visualizações de cada atualiz
 2. **Even3 Analytics.** O [guia](https://blog.even3.com.br/como-usar-o-even3-analytics/) da Even3 descreve um painel com visitas, inscrições/pagamentos e origem do tráfego a partir de links marcados. Confira o que o painel do seu evento realmente mostra.
 3. **Separe confirmadas de pendentes.** Conte como resultado só as inscrições confirmadas/pagas. Compras incompletas indicam atrito (valor? forma de pagamento? dúvida sobre o certificado?).
 4. **Cupons.** Se a comissão criar cupons por parceiro, o número de usos de cada código é uma das métricas mais confiáveis de parceria (sobrevive a encaminhamentos e troca de aparelho).
-5. **"Como você ficou sabendo do evento?"** Se o formulário de inscrição permitir uma pergunta personalizada opcional, inclua uma com opções (Facebook, Instagram, WhatsApp, e-mail, professor(a)/colega, NEABI/universidade, outro) e um campo livre. Ela cobre as lacunas que os UTMs deixam.
+5. **"Como você ficou sabendo do evento?"** A Even3 oferece perguntas personalizadas ([recursos oficiais](https://plataforma.even3.com.br/solucoes/divulgacao-de-eventos/)). Teste uma pergunta opcional e sua exportação no painel deste evento; depois inclua uma com opções (Facebook, Instagram, WhatsApp, e-mail, professor(a)/colega, NEABI/universidade, outro) e um campo livre. Ela cobre as lacunas que os UTMs deixam.
 
 ### Transforme exportações em números agregados e seguros
 
@@ -183,12 +189,12 @@ As exportações contêm **dados pessoais** (nomes, e-mails, valores). Nunca col
 
 - Taxa de engajamento de um post: `=(reacoes+comentarios+compartilhamentos)/alcance*100`. Diga sempre quais componentes você usou e não compare com taxas calculadas de outro jeito.
 - Inscrições por hora de trabalho: `=novas_inscricoes/horas_equipe`, um choque de realidade sobre o esforço.
-- Conversão das visitas rastreadas: `=inscricoes_confirmadas_da_origem/visitas_da_origem`, só quando os dois números vêm da mesma fonte.
+- Conversão das visitas rastreadas: `=inscricoes_confirmadas_da_origem/visitas_da_origem`, somente após validar a ligação origem–inscrição, com janelas e definições compatíveis; sem isso, não use esta fórmula.
 
 ### O ritual de 30 minutos
 
 1. **(5 min)** Atualize a linha da semana: números agregados da Even3, dados da Meta, contagem de links e cupons.
-2. **(5 min)** Olhe a aba Posts: quais 2 peças trouxeram mais *visitas rastreadas ou inscrições*, e não curtidas?
+2. **(5 min)** Olhe a aba Posts: quais 2 peças trouxeram mais *visitas rastreadas* (inscrições só com atribuição de origem validada), e não curtidas?
 3. **(5 min)** Leia as dúvidas que chegaram. Pergunta repetida é sinal de que falta informação na página ou nos posts; corrija isso primeiro.
 4. **(5 min)** Confira os parceiros: quem compartilhou? Mande um agradecimento.
 5. **(5 min)** Opcional: cole a tabela *agregada* numa IA com o prompt abaixo.

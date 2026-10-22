@@ -1,11 +1,14 @@
 ---
 title: Computer-Use & Browser Agents
-description: What AI agents that click and type for you (Claude in Chrome, Claude computer use, ChatGPT agent and others) can realistically do for CONAFROEDU, with step-by-step tasks, time estimates, and a firm list of what NOT to automate.
+description: What AI agents that click and type for you (Claude in Chrome, Claude computer use, ChatGPT Work and others) can realistically do for CONAFROEDU, with step-by-step tasks, time estimates, and a firm list of what NOT to automate.
 order: 330
 section: automate
 icon: 🤖
 updated: 2026-10-21
 ---
+
+> [!TIP] New to these tools?
+> Follow the [setup steps](setup-tools.md#claude-chrome) first. If a button or concept is unfamiliar, use the [AI learning guide](learning-with-ai.md) for one small practice task.
 
 **What you'll get from this page:** a plain explanation of "computer-use" and "browser" agents, a comparison of the main tools and what they cost, **six realistic CONAFROEDU tasks** with step-by-step instructions, ready prompts, time estimates and typical failures, and a clear list of **things you must never automate** on Facebook, Instagram and WhatsApp.
 
@@ -27,20 +30,22 @@ It sounds like a robot assistant. In practice, it is **slower than you for five 
 |---|---|---|---|
 | **Claude in Chrome** | Browser extension: Claude works across your Chrome tabs and takes actions | **Paid Claude plans.** Generally available since 26 Aug 2026 ([announcement](https://claude.com/blog/claude-in-chrome-generally-available)). Pro is **US$ 20/month** ([pricing](https://claude.com/pricing)) | Uses your plan's usage allowance. Good for research and form drafts. |
 | **Claude computer use (desktop)** | Claude operates your computer's screen in the Claude desktop app / Cowork | **Beta on Pro and Max, macOS and Windows** ([Claude Help](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork)) | The desktop app must stay open. Linux support not confirmed. Slower than a dedicated connector. |
-| **ChatGPT browser / agent** | ChatGPT acts in a browser, with a separate browser profile and permission controls | On ChatGPT web and desktop ([OpenAI docs](https://learn.chatgpt.com/docs/browser)). Plus is **US$ 20/month**, Go **US$ 8/month** ([pricing](https://learn.chatgpt.com/docs/pricing)) | Which plans include the agent, monthly limits, and Atlas browser availability in Brazil were not confirmed. Check your account. |
-| **Gemini tasks** | Gemini carries out tasks and workflows | **Pro or Ultra**, personal account, 18+ ([Google Help](https://support.google.com/gemini/answer/17094507?hl=en)). Pro is **R$ 96,99/month** in Brazil | Brazil is not on the excluded-regions list, but we didn't test it. |
+| **ChatGPT Work cloud browser** | Remote browser, distinct from desktop built-in browser/extension | Signed-in web/mobile browsing on **Plus/Pro**, subject to rollout ([docs](https://learn.chatgpt.com/docs/browser)); check current price | Desktop built-in browser uploads are manual. [Setup](setup-tools.md#chatgpt-agent). |
+| **Gemini tasks** | Local Chrome or separate remote browser | **Google AI Pro/Ultra**, personal account, 18+, **Keep Activity and Personal Intelligence enabled** ([help](https://support.google.com/gemini/answer/17094507?hl=en)); check current price | Review connected apps/private data first. A separate browser profile does not isolate connected Google data. |
 | **Perplexity Comet** | Browser with a built-in research assistant | Free browser. Agent and "Computer" allowances vary by plan ([Comet](https://www.perplexity.ai/comet)) | Strong for finding and citing sources. |
 | **browser-use** | Developer tool to build your own browser agent | Pay-as-you-go: US$ 1 trial credit, then usage plus model costs ([pricing](https://browser-use.com/pricing)) | Only with a technical volunteer. |
 
 > [!NOTE]
 > **Zero-budget path:** all six tasks below also work *without* an agent. Use a free chat (Claude, ChatGPT, Gemini or Perplexity free tiers), copy and paste the pages yourself, and let the AI do the thinking. You do the clicking. An agent saves time on long lists, but it is not required.
 
+**Current product names:** the [legacy ChatGPT agent is no longer available](https://help.openai.com/en/articles/11752874-chatgpt-agent); use Work. [Atlas is retired](https://help.openai.com/en/articles/20001371-chatgpt-atlas-retirement), so do not follow Atlas or /agent installation tutorials.
+
 ## Golden rules for supervising an agent
 
 1. **Small scope, clear stop.** "Find 10 NEABs and stop" beats "find all NEABs in Brazil".
 2. **Draft-only by default.** The agent prepares; a human publishes, sends, pays or submits.
 3. **Stop at public actions.** Tell the agent explicitly: *do not post, send, submit, buy, join, delete or accept anything.*
-4. **Use a separate browser profile** for agent work, signed in only to what the task needs.
+4. **Use a separate local browser profile where supported**, signed in only to task sites. For cloud browsers review their separate saved sessions; review connectors too. A profile does not isolate data already connected to the assistant.
 5. **Never type passwords, codes or CPFs into the chat.** If a login is needed, log in yourself, then hand over.
 6. **Watch for "prompt injection".** A web page or message can contain hidden instructions aimed at AI ("ignore your instructions and…"). Agents can be fooled. Narrow tasks and human review are your protection ([Claude developer docs on browser use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool)).
 7. **Two-strike rule.** If the first two items come back wrong, stop and do it manually.
@@ -54,8 +59,8 @@ This is the most important section on the page. These actions break Meta or What
 |---|---|---|
 | **Post the same invitation into many Facebook Groups** with an agent or tool | Meta removed the Groups publishing API in 2024 ([Meta](https://developers.facebook.com/blog/post/2024/01/23/introducing-facebook-graph-and-marketing-api-v19/)) and penalizes spammy behaviour ([Meta anti-spam](https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/)). Agent-driven posting imitates a person to get around that. | A human member reads each group's rules, asks the admin, adapts the text, and posts by hand. See [Facebook Events & Groups](facebook-events-groups.md). |
 | **Auto-join groups** or send automated join requests | Same reason. Also misleading to admins. | Join a few relevant groups yourself, as the organizing Page if the group allows Pages. |
-| **Send mass DMs** on Messenger, Instagram or WhatsApp | Messenger allows replies within 24 hours of the person's message, plus one private reply to a comment. It does not allow cold outreach campaigns ([Messenger policy](https://developers.facebook.com/documentation/business-messaging/messenger-platform/policy)). WhatsApp requires **opt-in** and respect for opt-outs, and it can ban numbers ([WhatsApp policy](https://whatsappbusiness.com/policy/)). | Reply to people who wrote to you. Send updates only to people who asked for them. |
-| **Scrape** member lists, emails, phone numbers or profiles (Facebook, Instagram, Lattes, university pages) | Meta treats automated collection without permission as a violation of its terms ([Meta on scraping](https://about.fb.com/news/2021/04/how-we-combat-scraping/)). A public staff email is still **personal data** under LGPD. | Record **institutional** contact routes (department email, contact form) for a short list of relevant institutions. See [Outreach](outreach.md). |
+| **Send mass DMs** on Messenger, Instagram or WhatsApp | Messenger allows replies within 24 hours of the person's message, plus one private reply within seven days of a Page comment; wait for the person’s response before continuing within the applicable window. It does not allow cold outreach campaigns ([Messenger policy](https://developers.facebook.com/documentation/business-messaging/messenger-platform/policy)). WhatsApp requires **opt-in** and respect for opt-outs, and it can ban numbers ([WhatsApp policy](https://whatsappbusiness.com/policy/)). | Reply to people who wrote to you. Send updates only to people who asked for them. |
+| **Scrape** member lists, emails, phone numbers or profiles (Facebook, Instagram, Lattes, university pages) | Meta treats automated collection without permission as a violation of its terms ([Meta on scraping](https://about.fb.com/news/2021/04/how-we-combat-scraping/)). An identifiable staff email is **personal data** under LGPD; a generic institutional mailbox is not automatically personal data. | Record **institutional** contact routes (department email, contact form) for a short list of relevant institutions. See [Outreach](outreach.md). |
 | **Fake engagement:** extra accounts, auto-likes, auto-comments, "engagement pods", bought followers | Against Meta's rules. It also damages trust in an academic event. | Ask real speakers and partners to share voluntarily, in their own words. |
 | **Use WhatsApp "bulk sender" extensions** or unofficial automation | Breaks WhatsApp's terms. Numbers get banned. | Use the free Business app's tools manually (see [Replies & Inbox](replies-inbox.md)). |
 | **Let an agent register, pay, or change settings on Even3** | Money, personal data and official event settings. A wrong click is costly. | The agent can *compare* the public page with the fact sheet. A committee member edits. |
@@ -72,10 +77,10 @@ The time estimates below are **planning estimates, not measured benchmarks**. Th
 
 | # | Task | Agent run | Human review | Tool suggestion |
 |---|---|---|---|---|
-| A | Find 10 NEAB/NEABI pages with official contacts | 15–30 min | 15–20 min | Claude in Chrome, Comet, ChatGPT agent (or Perplexity free + manual) |
+| A | Find 10 NEAB/NEABI pages with official contacts | 15–30 min | 15–20 min | Claude in Chrome, Comet, ChatGPT Work (or Perplexity free + manual) |
 | B | Check the Even3 page against our fact sheet | 10–20 min | 5–10 min | Any browser agent (or free chat + copy/paste) |
 | C | Draft 5 personalized institutional invitations | 10–20 min | 10–15 min | Any assistant |
-| D | Put 5 approved posts into Business Suite as drafts/scheduled | 15–30 min | 10–15 min | Claude in Chrome or ChatGPT agent (watch closely) |
+| D | Prepare 5 drafts; a person schedules | 15–30 min | 10–15 min | Permitted browser assistance, or manual entry |
 | E | Turn 20 anonymized questions into FAQ gaps + reply drafts | 10–15 min | 10 min | Any assistant (no agent needed) |
 | F | Rename and check 10 authorized speaker photo files | 10–20 min | 5–10 min | Claude computer use (desktop) |
 
@@ -134,15 +139,15 @@ FACT SHEET: [paste]
 
 ### Task D — Load 5 approved posts into Meta Business Suite
 
-**Goal:** save typing during a batch session. This is the riskiest task on the list, because the agent is working on your public Page.
+**Goal:** prepare drafts for a person to schedule. The beginner boundary is **draft-only**: scheduling also commits future public content.
 
-1. Log in to Business Suite yourself, in the agent's browser profile. Check that **the correct Page** is selected.
-2. Give the agent the 5 approved rows (exact caption, file name, date/time in horário de Brasília).
-3. Prompt: *"Create these as scheduled posts (or drafts if scheduling is unclear) on the Page [NAME]. Use the captions exactly as given. Do not publish now. After each one, show me the preview and wait for my OK before confirming."*
-4. Watch it work. Confirm each one. Then **check the Planner** yourself.
-5. After publication time, check the live posts (see [Scheduling Tools](scheduling-tools.md)).
+1. Check whether the service/account permits this browser interaction. If unclear, have the assistant return a local table and use Business Suite manually.
+2. A person selects the correct Page and supplies five approved rows: caption, actual media, destination and Brasília date/time.
+3. Prompt: *"Prepare these as drafts only, if draft saving is supported and permitted. Do not publish or schedule. Show each preview and stop before final submission/scheduling. If unavailable, return a table for manual entry."*
+4. **A person uploads media when needed.** OpenAI says ChatGPT cannot automate uploads in its desktop built-in browser; cloud and extension routes are separate.
+5. A person checks Page, caption, media, links, date/time and duplicates, personally clicks **Schedule** in the native tool, and checks the queue and eventual live result.
 
-**Typical failures:** wrong Page, wrong time zone, failed video upload, duplicate scheduling, expired login. **Honest note:** for 5 posts, doing it yourself in the native tool often takes about the same time. Use the agent only if it really saves you effort.
+**Typical failures:** wrong Page/time zone, upload failure, duplicates, expired login. Manual entry may be faster for five posts. Do not bypass a missing authorized integration with browser automation.
 
 ### Task E — Summarize questions into FAQ gaps
 
@@ -166,7 +171,7 @@ Answer in Portuguese.
 
 1. **Copy** the original folder first. The agent works only on the copy.
 2. Prepare a simple list (manifest): original file name → speaker's approved name → permission status.
-3. Prompt: *"In the folder [PATH-COPY], rename files according to this list to the pattern `palestrante-sobrenome-nome.jpg`. Do not delete, edit or upload any image. Skip files not on the list. At the end, give me a table of every change and every file you skipped."*
+3. Prompt: *"In the folder [PATH-COPY], rename files according to this list to the pattern `palestrante-sobrenome-nome-01.[original-extension]`. Show the proposed names first and wait for approval. Preserve original formats/extensions. Never overwrite; skip and report conflicts. Do not delete, edit or upload any image. Skip files not on the list. At the end, give me a table of every change and every file you skipped."*
 4. Spot-check: open 3–4 files and compare face with name.
 
 **Typical failures:** a photo matched to the wrong name, files overwritten. That's why you always work on a copy.
@@ -181,7 +186,7 @@ The exact screens change often, so follow the official instructions on Claude's 
 4. In the extension's settings, review **site permissions**. Allow only the sites the task needs.
 5. Start with Task B (read-only) to get a feel for it before anything that touches your Page.
 
-For **ChatGPT's agent/browser**, the principle is the same: a separate browser profile, permission prompts on, and you approve each sensitive step ([OpenAI docs](https://learn.chatgpt.com/docs/browser)).
+For **ChatGPT**, choose the actual [setup route](setup-tools.md): Work cloud browser, desktop built-in browser or supported extension. They do not share one local profile; review permissions/sign-ins separately. For Gemini, review connected apps/Personal Intelligence; if private data cannot be excluded, research public sources manually.
 
 ## Is it worth paying for?
 
@@ -194,7 +199,7 @@ For **ChatGPT's agent/browser**, the principle is the same: a separate browser p
 
 ## Checklist
 
-- [ ] Separate browser profile for agent work
+- [ ] Local profile/cloud sessions and connected-app permissions reviewed for this route
 - [ ] Every agent prompt includes "do not post, send, submit, buy, join or delete"
 - [ ] No passwords, codes or CPFs typed into any chat
 - [ ] Results from Task A verified by opening every source URL

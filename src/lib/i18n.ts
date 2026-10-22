@@ -55,6 +55,7 @@ interface Dictionary {
   themes: Record<'system' | 'light' | 'dark', string>
   switchLanguage: string
   startReading: string
+  startCampaign: string
   guidesInSection: (count: number) => string
   copy: string
   copied: string
@@ -106,6 +107,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     themes: { system: 'System', light: 'Light', dark: 'Dark' },
     switchLanguage: 'Ler em português',
     startReading: 'Start reading',
+    startCampaign: 'What to do now: the 6-week sprint',
     guidesInSection: (n) => (n === 1 ? '1 guide' : `${n} guides`),
     copy: 'Copy',
     copied: 'Copied!',
@@ -167,6 +169,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     themes: { system: 'Automático', light: 'Claro', dark: 'Escuro' },
     switchLanguage: 'Read in English',
     startReading: 'Começar a ler',
+    startCampaign: 'O que fazer agora: o plano de 6 semanas',
     guidesInSection: (n) => (n === 1 ? '1 guia' : `${n} guias`),
     copy: 'Copiar',
     copied: 'Copiado!',

@@ -27,7 +27,8 @@ function Home() {
   const { lang } = Route.useRouteContext()
   const { doc } = Route.useLoaderData()
   const dict = t(lang)
-  const first = getGuideList(lang)[0]
+  const guides = getGuideList(lang)
+  const first = guides.find((guide) => guide.slug === 'conafroedu-sprint') ?? guides[0]
 
   return (
     <div className="mx-auto max-w-4xl">
@@ -46,7 +47,7 @@ function Home() {
               params={{ lang, slug: first.slug }}
               className="inline-flex items-center gap-2 rounded-xl bg-brand-700 px-5 py-3 font-semibold text-white shadow-sm hover:bg-brand-800 dark:bg-brand-400 dark:text-brand-950 dark:hover:bg-brand-300"
             >
-              {dict.startReading} <span aria-hidden="true">→</span>
+              {dict.startCampaign} <span aria-hidden="true">→</span>
             </Link>
             <a
               href={`#${GUIDE_INDEX_ID}`}

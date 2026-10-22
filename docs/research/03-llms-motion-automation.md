@@ -2,6 +2,8 @@
 
 **Research cutoff:** 2026-10-21. **Audience:** a small, nontechnical team promoting an education conference in Brazil, with Facebook first and no advertising budget. Read in conjunction with `docs/BRIEF.md`.
 
+**Pass 2 context:** CONAFROEDU 2026 — Congresso Nacional de Africanidades na Educação, **5–6 December 2026, 100% online**, with registration at [Even3](https://www.even3.com.br/iconafroedu-764690/). There are **45 calendar days until opening day** from October 21. This volunteer academic team should start with free assistants, native Page scheduling, and incoming-message support. Do not add a city/venue, invented speaker, registration price, submission deadline, or start time. The brief confirms a 40-hour certificate and proceedings with ISBN/DOI; eligibility and fulfillment details still need the organizer's approved wording. Pass 2 independently revisited the priority product/policy claims; other pass-1 references remain in the register and are not implied to have received a second full audit.
+
 This is a dated research snapshot, not a guarantee that every account will show the same features. Product facts and prices have source references; the source register gives URLs and publication/update dates where available. All sources were checked on 2026-10-21. **[UNVERIFIED]** marks a missing confirmation, conflicting documentation, an older figure that must not be published as current, or an account-specific entitlement that could not be tested. Recommendations, sample prompts, proposed schedules, and example workflows are editorial synthesis, not measured product comparisons or executed campaigns.
 
 Prices are normal advertised prices unless a billing condition is stated. USD and BRL figures are independent vendor listings, **not currency conversions**. A dollar price does not establish Brazilian checkout pricing, taxes, card charges, or availability. A subscription to an assistant also does not automatically pay for its API, a messaging provider, rendering infrastructure, music, or third-party software. Limits often depend on model, task complexity, file size, account, and rollout.
@@ -14,7 +16,7 @@ Prices are normal advertised prices unless a billing condition is stated. USD an
 
 If the free limits interrupt work repeatedly, buy **one month of one relevant plan**, evaluate a real campaign week, and reassess. Claude Pro and ChatGPT Plus both have US$20 monthly offers; Google AI Plus has a Brazilian R$24.99 offer and AI Pro R$96.99. A more expensive frontier model is rarely necessary to rewrite a caption. [A37] [A07] [A13]
 
-Before any assistant writes public copy, supply an approved fact sheet: event name, date, city, venue, format, ticket URL, current ticket price, speaker names and permissions, audience, accessibility information, contact channel, and confirmed certificate policy. Unknown details should remain `[CONFIRMAR]`. Never let an assistant invent MEC recognition, a speaker's affiliation, a certificate entitlement, attendance numbers, or a discount deadline.
+Before any assistant writes public copy, supply an approved fact sheet: CONAFROEDU's name, 5–6 December dates, online format, Even3 URL, current registration price, approved speaker details/photos, audience, accessibility information, contact channel, and certificate/submission conditions. Confirm session times and their time zone separately. Unknown details should remain `[CONFIRMAR]`. Never let an assistant invent MEC recognition, a speaker's affiliation, attendance numbers, or a discount deadline.
 
 ### A2. Assistants and models are different things
 
@@ -26,11 +28,11 @@ An **assistant** is a product with a chat interface, file handling, search, tool
 |---|---|---|---|
 | **Claude / Anthropic** | Current public releases include **Opus 5.5**, **Sonnet 5.5**, **Haiku 5.5**, and **Fable 5.1**. Haiku 5.5 was announced October 7; Fable/Mythos 5.1 September 15. | Iterative writing, campaign briefs, substantial documents, coding graphics, reusable instructions. Use Sonnet first for routine work; reserve heavier models for complicated planning. | Model availability and quotas depend on plan. Mythos is not a routine consumer recommendation. [A02] [A03] [A04] |
 | **ChatGPT / OpenAI** | Official catalog lists **GPT-6 Astra**, **GPT-6.1 Sol**, and **GPT-6 Luna**. Sol/Luna availability is explicitly **Work and Codex, not Chat**. | General planning, files/data, research with tools, image editing, coding and animation work. | Do not label GPT-6.1 Sol as the universal default Chat model. Exact Chat picker and Brazilian entitlement are **[UNVERIFIED]** here. [A06] [A08] |
-| **Gemini / Google** | **Gemini 4 Argon** began global Pro/Ultra rollout October 13. The live plan distinguishes Flash-Lite, Flash, and Pro access. Gems, Canvas, research, and image features are listed. | Research, Google-oriented work, long document synthesis, reusable Gems, visual experiments through Flow. | Some features use separate credits, models, age restrictions, or country rules. [A13] [A14] [A16] |
+| **Gemini / Google** | **Gemini 4 Argon** began global Pro/Ultra rollout October 13. The plan distinguishes Flash-Lite, Flash, and Pro access. September 30 release notes say **skills are rolling out to replace Gems**; some pricing copy still says Gems. | Research, Google-oriented work, document synthesis, reusable instructions, visual experiments through Flow. | Do not teach a single permanent Gems menu. Connected-app availability differs from model availability and varies by region/language. [A13] [A16] |
 | **Meta AI** | Available in Brazil across WhatsApp, Facebook, Instagram, Messenger, plus a standalone app. Meta's 2026 research catalog now includes the **Muse** family; treating all current Meta AI as simply “Llama” is outdated. | Convenient first drafts and brainstorming where the team already communicates. | Consumer Meta AI is distinct from business inbox agents and does not imply authority to post or message as a Page. Exact model per Brazilian surface is **[UNVERIFIED]**. [A20] [A21] |
-| **Microsoft Copilot** | A consumer assistant plus Copilot capabilities in Microsoft 365 plans; the Brazilian plan page lists Personal, Family, and Premium. | Teams already working in Word, Excel, PowerPoint, and Outlook; first drafts and spreadsheet explanations. | Consumer, work-account, and Copilot Studio offers are different. A family subscription does not necessarily give each person AI access. [A22] |
+| **Microsoft Copilot** | A consumer assistant plus Copilot capabilities in Microsoft 365 Personal, Family, and Premium. The checked Brazilian pricing page does **not** establish one versioned model behind every Copilot feature. | Existing Word/Excel/PowerPoint/Outlook users; drafts and spreadsheet explanations. | Consumer, work-account, and Copilot Studio offers differ. Exact model routing and fixed free-message caps remain **[UNVERIFIED]**; avoid an unsupported “Copilot = GPT-[version]” assertion. [A22] |
 | **Grok** | The live developer catalog identifies **Grok 4.7** as flagship; older indexed pages still show 4.6. An October 12 announcement introduced **The X Subscription**, bundling Grok, Cursor, and X. | Web/X-oriented discovery and creative variants; optional image/video experiments. | Consumer model entitlement can differ from the API. Older SuperGrok/Heavy pricing tables are not a reliable description of a new subscriber's offer. [A23] [A24] |
-| **Perplexity** | Search-first assistant with sources; current plans also advertise Research, file/app creation, Computer, and Comet. | Finding official event-listing requirements, partner institutions, and source-backed background information. | A citation can be irrelevant or misread. Open it and verify. Advanced models and agent work have additional limits/credits. [A25] [A26] |
+| **Perplexity** | Search-first, multi-provider assistant. Its October 17 Search matrix lists **GPT-6.1 Sol, Sonnet 5.5, Gemini 3.8 Flash, Grok 4.7**, among other Pro/Max choices; **Astra, Argon, Opus 5.5 and Fable 5.1** are Max-only in the individual table. Free cannot manually choose an advanced Search model. | Find NEABIs, institutional outreach channels, and linked evidence. | This is Perplexity Search access, not a subscription to the vendors' own apps. Open and verify every citation. [V17] |
 
 ### A4. Cost and access table
 
@@ -39,10 +41,10 @@ An **assistant** is a product with a chat interface, file handling, search, tool
 | **Claude** | US$0; current page lists search, code/files, Artifacts, Design, Slides, Docs, Skills; model access is narrower than paid. | Pro **US$20/month**, or **US$200/year** billed upfront; Max from **US$100/month**, with 5×/20× Pro usage choices. Team standard **US$25/seat/month**, or **US$20** with annual billing; listed for teams of 2–150. | Usage is not unlimited. Fable access differs: Pro uses credits; Max has a specified share of weekly allowance. Current page advertises Max API credits, so the blanket older claim “Claude plans never include any API credits” is also outdated. Exact BRL price **[UNVERIFIED]**. [A01] |
 | **ChatGPT** | US$0; Learn documents Luna access in the desktop app subject to rollout. | Go **US$8/month**; Plus **US$20/month**; Pro tiers **US$100, US$200, US$500/month**. | Work and Codex share usage. Additional credits may extend use. Exact message/image/agent allowances and BRL checkout prices **[UNVERIFIED]**; do not repeat an old “Pro is always $200” table. [A07] |
 | **Gemini / Google AI** | R$0/US$0 with a Google account. | Brazil: Plus **R$24.99/month**; Pro **R$96.99/month**; Ultra **R$779.90** or **R$999.90/month**, depending on allowance. US page: Plus **US$4.99**, Pro **US$19.99**, Ultra **US$99.99/US$199.99 per month**. | Brazil page advertises Plus 2× and Pro 4× free usage; Ultra tiers 5×/20× Pro. Flow credit amounts are separate: Plus 200, Pro 1,000, Ultra 10,000/25,000. Confirm recurring checkout price rather than a trial banner. [A13] [A14] |
-| **Meta AI** | Consumer assistant available without a separately verified paid assistant requirement in the documented Brazil launch. | A standalone Brazilian premium Meta AI plan/price is **[UNVERIFIED]**. | Do not confuse Meta Verified/Meta One business subscriptions, paid broadcasts, or business AI access with paying for the consumer assistant. Exact daily generation limits **[UNVERIFIED]**. [A20] [C04] [C06] |
+| **Meta AI / Meta One** | Meta confirms the core Meta AI experience remains free. | **Meta One Core R$32/month; Premium R$97/month** include expanded Meta AI media use. Business/creator **Essencial starts at R$59/month**, with more Business Agent access. | These are distinct bundles, not a plan called “Meta AI Pro.” Account/app/region benefits vary; no verified universal numeric free-generation allowance. Zero-budget team: use the free core first. [V01] |
 | **Microsoft Copilot** | Free assistant; paid plans expand limits. | Brazil: Microsoft 365 Personal **R$51/month**, Family **R$60/month**, Premium **R$109/month**. Premium annual listing **R$1,089/year**. | Current Family/Premium text says AI benefits are for the subscription owner. Exact USD equivalent, fair-use counts, and particular app entitlements **[UNVERIFIED]**; do not convert BRL into a fabricated US list price. [A22] |
 | **Grok / The X Subscription** | Free, limited usage. | New offer: Plus **US$8**, Premium **US$30**, Super **US$100**, Ultra **US$200/month**. | Announcement lists paid usage ratios of base/4×/15×/50×. Existing SuperGrok subscriptions can remain on old plans. BRL and exact per-feature caps **[UNVERIFIED]**. [A23] |
-| **Perplexity** | US$0; basic answers with citations, constrained advanced use. | Pro **US$20/month**; Max **US$200/month** on current pricing page. | Computer credits and research/model limits differ. Do not interpret a bonus credit grant as a monthly recurring allowance. Official BRL listing **[UNVERIFIED]**. [A25] [A26] |
+| **Perplexity** | US$0; basic searches, limited Pro Searches/files, no manual advanced-model choice. | Pro **US$20/month or US$200/year**; Max **US$200/month or US$2,000/year**. Education Pro **US$10/month** requires verification. | The pricing page defaults to annual equivalents (US$17/167), not month-to-month charges. Bonus Computer credits are not recurring allowances. No fixed published BRL list price was established. [A25] [A26] [V18] [V19] |
 | **Mistral Vibe, formerly Le Chat** | Limited chat/search, creation, and coding. | Current page displays Pro **US$14.99/month**, excluding tax, with an education toggle/offer also visible. | Verify the selected offer and eligibility at checkout. Fair-use limits apply; BRL price **[UNVERIFIED]**. It is no longer enough to describe the interface only as “Le Chat.” [A32] [A33] |
 
 **No reliable universal message-count table:** Claude's allowances, Gemini's five-hour/weekly compute budgets, and ChatGPT's model/task-sensitive use cannot honestly be reduced to a stable “N prompts per day” across all accounts. Publish the quota type, the source date, and where the user can inspect their own allowance. Gemini's current help explicitly describes five-hour resets up to a weekly limit. [A01] [A07] [A15]
@@ -92,7 +94,7 @@ FICHA OFICIAL: [colar conteúdo aprovado e data de atualização]
 
 OpenAI's current image API documentation lists **GPT Image 2.5 Sunburst/Flare** as well as earlier image models. Sora 2 Pro is documented as a video model with synchronized audio. Neither API listing establishes free Brazilian consumer availability or inclusion in a particular ChatGPT subscription. **Sora app access, consumer price, monthly videos, and watermark/export entitlement in Brazil: [UNVERIFIED].** Keep that warning in the public guide instead of promising “Plus includes unlimited Sora.” [A09] [A12]
 
-**Gemini:** Gems are reusable assistant configurations; Canvas is a creation/work area; **Gemini Notebook** is the current name on Google's official support and plan pages for the product many users know as NotebookLM. Standard currently lists **100 notebooks and 50 sources per notebook**; Pro lists 500 notebooks and 300 sources per notebook. Use it for the approved speaker bios, program, ticket FAQs, and venue information. Source-grounded answers still need checking against the original text. [A13] [A17]
+**Gemini:** Gems are reusable configurations; September 30 release notes say skills are rolling out to replace them. Canvas is a creation/work area. **Gemini Notebook** is the current name on Google's support and plan pages for the product many users know as NotebookLM. Standard lists **100 notebooks and 50 sources/notebook**; Pro lists 500 notebooks and 300 sources/notebook. Use it for approved speaker bios, program, registration FAQs and online-access information. Source-grounded answers still need checking. [A16] [A17]
 
 **Google video:** Flow is a separate creative surface. The current subscription page emphasizes **Gemini Omni Flash**; Veo remains relevant in Google's generation ecosystem, including Notebook output documentation. Older “Veo-only” descriptions of what a new Google subscription buys are incomplete. Exact current Veo version and model-specific render cost in this team's Brazilian account are **[UNVERIFIED]**. Use the account's displayed credit estimate before generating. [A13] [A14] [A17]
 
@@ -170,47 +172,63 @@ explique antes de renderizar. Use a foto autorizada anexa, sem alterar o rosto.
 
 0–2 s: pergunta curta sobre [problema real de professores].
 2–7 s: [NOME EXATO], [CARGO APROVADO], [TÍTULO EXATO DA PALESTRA].
-7–10 s: [DATA] e [CIDADE]. 10–12 s: “Confira a programação”.
+7–10 s: “5 e 6 de dezembro de 2026 • 100% online”.
+10–12 s: “Inscreva-se pelo Even3 • link na legenda”.
 Use [CORES] e texto grande. Não invente informações. Sem flashes rápidos.
 Mantenha cada frase legível e o rosto longe das áreas de interface do Reel.
 Primeiro proponha o roteiro; depois gere a animação aprovada.
 ```
 
-### B4. Workflow 2 — a free/custom Artifact, then screen recording
+### B4. Workflow 2 — complete no-code tutorial: Claude Free → browser recording → MP4
 
-Artifacts can be requested conversationally, iterated beside chat, and used as custom interactive outputs. An Artifact link is a preview/share destination; Facebook needs an actual supported media file, not the HTML source or a link masquerading as a video. Claude Academy provides a real eight-minute Artifacts tutorial and discusses exporting work to destination formats. [A05] [B02]
+**Result:** a silent 12-second vertical CONAFROEDU countdown, ready to review as a Facebook/Instagram Reel. **Planning estimate:** 45–90 minutes the first time, 15–30 minutes for another card; not a measured test. No terminal or manual code editing is required. Free accounts plus locally installed OBS are sufficient if Claude's usage allowance is available. The component steps below are supported by current documentation; an end-to-end sample was **not executed** in this research.
 
-**Proposed beginner steps:**
+**Use today's Artifacts interface:** enable **Cloud code execution and file creation** in Claude's Settings → Capabilities. Ask for a **Design** that exports standalone HTML. Current help says legacy artifacts created before September 16 keep working, but new ones use the newer system. Design's HTML export is separate from the paid Motion template's MP4 export. Do not tell a beginner to find a legacy “download code” button on every new artifact. [A05]
 
-1. Gather the approved logo, two colors, exact text, and a licensed font or system font.
-2. Ask Claude for **one self-contained HTML file** with a vertical stage and no external dependencies.
-3. Ask for Play, Pause, Replay, and a clean presentation view. Controls should sit outside the captured stage.
-4. Preview and correct names, accents, cropping, and pacing. Start with one 8–12-second graphic.
-5. Download/open the HTML locally if the Artifact preview is too small or includes interface clutter.
-6. Use a recorder to capture only the stage. OBS's official quick-start covers sources, recording settings, and test recordings. Set a vertical recording canvas if available; do not assume a landscape display will yield a full-resolution vertical video. [B03]
-7. Record from a clean reset, with notifications off and the pointer outside the stage. Keep the tab visible.
-8. Trim the beginning/end. Convert to MP4 if required, or import a supported recording into Canva.
-9. Watch the result on a phone with audio muted before scheduling.
-
-Example prompt for an actual code-generated artifact:
+1. **Choose the publication date and facts.** This example says “Faltam 7 dias” and belongs on **28 November 2026**, seven calendar days before December 5. Today, October 21, that caption would be wrong. Use only the text below, the team's approved colors, and optionally an authorized logo. Start without speaker photos to avoid file-loading problems.
+2. **Ask Claude to make the file.** Open a new chat, select Output → Design if available, and paste this prompt. If the output opens as an ordinary file rather than a preview, ask Claude to provide the downloadable HTML and a preview; no purchase of Motion is needed.
 
 ```text
-Crie um Artifact HTML autocontido para um vídeo de 10 segundos, 1080×1920.
-Use HTML, CSS e SVG; sem React, CDNs, fontes externas ou instalação.
-Tema: recortes de papel e caderno escolar. Texto exato: “Faltam 7 dias”,
-“[NOME DO EVENTO]”, “[DATA] • [CIDADE]”, “Veja a programação”.
+Crie um Design/Artifact e entregue um arquivo HTML autocontido chamado
+conafroedu-7-dias.html, com exportação em HTML independente.
+Não sou programador: não me peça para instalar bibliotecas ou editar código.
+Animação tipográfica com recortes de papel, 1080×1920, fundo opaco,
+fonte do sistema, sem rede, CDN, áudio, React ou dependências externas.
+Nada de símbolos culturais ou padrões “africanos” genéricos.
 
-Quero estética de stop motion: movimentos em passos, pequenas rotações
-determinísticas e textura discreta. Atualize as poses 8 vezes por segundo,
-mas preserve a leitura; nada deve tremer aleatoriamente a cada renderização.
-Inclua Replay/Pause fora da área de gravação, frame inicial estável,
-animação com tempo total definido e versão estática para revisão.
-Use somente formas e os arquivos autorizados que eu anexar.
+Texto exato, sem inventar outros dados:
+“CONAFROEDU 2026”
+“Faltam 7 dias”
+“Desenvolvimento, Participação e Educação Antirracista”
+“5 e 6 de dezembro de 2026”
+“100% online”
+“Inscreva-se pelo Even3 • link na legenda”
+
+Após carregar, espere 3 segundos numa capa estática. Então toque uma única
+animação de 12 segundos: 0–2s entrada do título; 2–8s tema e data;
+8–12s convite. Preserve nome, data e formato legíveis o tempo todo.
+Ao acabar, mantenha o último quadro; não faça loop.
+Movimentos em 8 poses por segundo, sem flashes. Margem interna generosa.
+Sem controles visíveis no quadro. Recarregar a página reinicia a sequência.
+Dimensione o palco para a janela sem distorcer a proporção 9:16.
+Explique como baixar e abrir o HTML. Inclua uma capa estática para revisão.
 ```
 
-**Practical limits:** a browser can drop frames, a font can load late, and screen capture can expose private tabs or notifications. CSS/SVG animation may not survive import into a design editor. Canva documents video upload formats including MP4, MOV, WebM, and GIF; importing an SVG does not establish that embedded scripts or animation will execute. The robust interchange is a rendered video. [B03] [B05]
+3. **Review and download.** Read the preview, ask for corrections in ordinary Portuguese, then choose **Export → standalone HTML**. Save it in a folder you can find. Double-click the `.html` file to open it in Chrome/Edge/Firefox and check one full playback. If it is blank or has missing text, return to Claude with the error and ask for a genuinely standalone file. Do not rename a ZIP or a text file to MP4.
+4. **Prepare OBS for recording.** Install OBS from its official site; run its recording configuration wizard. In Settings → Video, set base and output resolution to **1080×1920**, 30 fps. In Settings → Output, choose a recording folder, MKV, and an available **H.264** encoder. Mute microphone/desktop audio for this silent card. OBS documents recording sources/settings and recommends a test capture. [B03] [V06]
+5. **Load the HTML into OBS's browser.** In Sources, click **+ → Browser**; select **Local file** and the downloaded HTML. Set Width **1080**, Height **1920**, and custom frame rate **30**. This is an embedded browser source, so it can render a full-size vertical scene even on a landscape monitor. It does not record your other windows. If Browser is missing on Linux, use an official OBS package that includes it. [V04]
+6. **Record a clean take.** Click **Start Recording**, then open the source's Properties and click **Refresh cache of current page**. Reloading restarts the requested 3-second cover plus 12-second animation. Wait until the final card is held, then stop. Watch the recording. If it stutters, simplify the design or use 720×1280 consistently in Claude and OBS; do not claim that upscaling repairs dropped detail. [V04] [B03]
+7. **Make the MP4.** In OBS choose **File → Remux Recordings**, select the MKV and click Remux. H.264 can remain unchanged inside MP4; this step changes the container. If the codec is incompatible, remuxing alone cannot fix it—use the conversion fallback below. [V05] [V06]
+8. **Trim in Canva Free.** Create a blank vertical video/Reel design. Upload the MP4 under Uploads, add it to the timeline, and remove everything before the animation starts and after its 12-second end. Preview names, accents, margins and the final CTA. Add only your own or free assets; premium elements can trigger payment. Choose **Share → Download → MP4 Video**. Canva documents video uploads and free MP4 output; exact editor labels can vary during its timeline rollout. [B05] [V07] [V08]
+9. **Finish the post.** Open the MP4 on a phone. Keep the accompanying caption accessible and include the actual link: `https://www.even3.com.br/iconafroedu-764690/`. Put the approved file into Business Suite and set **28/11/2026** in the team's confirmed scheduling time zone. Recheck the published post. “Link na legenda” needs the real URL in that Facebook caption; on Instagram provide the actual supported link destination rather than assuming caption URLs are clickable.
 
-For a live countdown, give the exact target timestamp and event time zone. For a rendered Reel, make the countdown a **fixed message** such as “Faltam 7 dias,” assigned to the correct publication date. An exported video will not keep counting down after publication.
+**Speaker-card variant:** use the same steps, replacing the countdown with the speaker's exact approved name, affiliation, talk title and authorized photograph. Give Claude the photograph and ask for it embedded in the HTML, with no AI alteration of the face. Do not invent a speaker or session time. Keep long names visible for at least six seconds; add the confirmed time zone only if a session time is supplied.
+
+**Alternative: record your ordinary browser window.** OBS also documents Window Capture/macOS Screen Capture. Capture only the animation, crop away browser chrome, reset before recording, and trim afterward. A small on-screen preview cannot guarantee a sharp 1080×1920 output; the embedded Browser source above avoids that particular limitation. HTML/SVG files imported into Canva do not automatically retain executable animation. [B03] [B05]
+
+**Free conversion fallback for a WebM/MOV recording:** use **HandBrake**, a free local converter. Open Source → choose the recording → choose an H.264 preset → Summary format MP4 → select an `.mp4` destination → Start Encode. Inspect Dimensions to preserve the original **9:16** aspect and avoid automatic cropping; some landscape presets reduce vertical height. HandBrake supports WebM input and MP4 output. Alternatively Canva accepts WebM and can download the edited result as MP4. Changing an extension does not convert a codec. [V09] [V10] [V16] [B05] [V07]
+
+**Troubleshooting:** if HTML works in Chrome but not OBS, ask Claude to remove unsupported effects and all external dependencies, or use window capture. If the Free allowance runs out, save the prompt/file and resume after the reset; no guaranteed “N free renders” exists. If export asks for payment, remove premium assets or keep the locally recorded MP4. The exported countdown is a fixed message and never continues counting down after publication.
 
 ### B5. Workflow 3 — canvas recording without screen-capture chrome
 
@@ -293,7 +311,27 @@ A real example to study is Fazt Code's **“Claude Code can create videos (using
 
 **Lottie:** useful when the same vector animation will appear in a website and a compatible player. A helper can ask Claude for a simple compatible animation, validate it, then use a Lottie converter. LottieFiles' MP4 tool explicitly takes JSON/dotLottie, with a displayed 20 MB limit. Conversion does not guarantee every effect will match the original editor. Do not tell a beginner to rename an SVG or HTML file to `.json`. [B13]
 
-### B8. Generated frame sequences versus physical stop motion
+### B8. Worked frame-by-frame stop-motion-style workflow
+
+**Creative brief:** a paper notebook opens on a desk; a paper sun rises above it; an event card holds at the end. Use original objects, no generated speaker likenesses and no generic cultural/religious motifs. Claude plans the frames; **an image model** such as Gemini's image editor or ChatGPT's image tool creates/edits them. Claude Motion is not an image-generation model. Free image allowances are variable, so budget **1–3 hours plus quota/reset time** for a short first attempt; this estimate is editorial. An 8-frame consistency test should precede a longer batch. [A09] [A13]
+
+**Concrete deliverable:** 24 numbered PNG poses plus a final information card. At **8 poses/second**, the motion lasts **3 seconds**; hold the final card for **5 more seconds** for an 8-second clip. At **4 poses/second**, the same images yield 6 seconds of deliberately choppier motion. Higher output fps repeats poses; it does not create additional poses.
+
+1. **Make a continuity sheet.** Ask Claude for frame numbers `0000`–`0023` and one small change per frame: notebook opens progressively, then the sun rises. Fix camera position, object size, table marks, lighting, paper color/texture and shadow direction. Use the same aspect ratio and pixel dimensions throughout; 1080×1920 is a target, not a promise of every image tool's native output.
+2. **Generate one master.** Ask the image model for an overhead paper-cut desk scene with no words/logos/people. Approve the master and save it separately. Do not generate each pose from a fresh text-only chat.
+3. **Edit with references.** Attach the master and the most recent approved pose to the same image-editing conversation. Specify the next numbered pose and the exact small change; ask to preserve every other pixel as closely as possible. Reference/editing features improve control but **do not guarantee identity or background consistency**. Use a mask/selection if the interface offers one. If continuity drifts, restart that pose from the master rather than building a chain of accumulating errors.
+4. **Check and name.** Save `frame-0000.png` through `frame-0023.png` in one folder, with no missing numbers. Compare backgrounds, shadows, object outlines, crops and unwanted text. Reject flickering poses. Keep typography in the editor as a stable overlay, not repeatedly generated inside images. Supply a separately approved final card: “CONAFROEDU 2026 • 5 e 6 de dezembro • 100% online • Inscrições no Even3”.
+5. **Choose one assembly route below.** Do not add crossfades, optical flow, frame interpolation or automatic photo motion: the visible pose changes create this style. Physical photographed frames can use exactly the same assembly steps.
+
+**CapCut desktop — precise, repeated poses:** Create New Project → Import the ordered PNGs. The vendor's stop-motion tutorial documents image import, **Menu → Settings → Edit → image duration**, timeline placement, and export. Choose **0.125 seconds** per pose for 8 poses/s if the installed duration control permits it; at a 24-fps project this is three video frames. If its UI rounds that value, use **0.25 seconds** (six video frames; 4 poses/s) or the FFmpeg route for exact timing. Put the stills in filename order, append the final card for 5 seconds, overlay approved text, and export **MP4/H.264, 1080×1920, 24 fps**. Use plain edits/owned assets and inspect any payment/export prompt; no universal free entitlement to CapCut AI, premium effects or higher resolutions is implied. [V11]
+
+**Canva — simpler, slower pose sequence:** Create a blank vertical video → Uploads → add each numbered PNG as a separate scene, in order, rather than stacking all on one scene. Select scenes in the timeline and use the clock/duration control; add the final card for 5 seconds, then Download → MP4. Canva distinguishes video scene timing from presentation “Apply to all pages.” Its checked help does not promise 0.125-second scenes across accounts, so do **not** promise frame-accurate 8-fps assembly here. If the available minimum is longer, use fewer poses as an explicitly slower sequence or import the MP4 assembled with FFmpeg/CapCut. [V08] [V12]
+
+**FFmpeg — exact timing, for a technical helper:** the B5 command makes the 24 PNGs into 3 seconds at 8 source poses/s and 24 output fps. To hold its final pose for another five seconds, add `tpad=stop_mode=clone:stop_duration=5` after `fps=24` in that command's video filter. For a different final event-information card, append it in Canva/CapCut rather than cloning the last pose. Keep dimensions even for the illustrated H.264/yuv420p export. This assembly syntax is documented; these sample commands were not executed here. [B06]
+
+**If AI continuity fails:** generate only a background and move the **same** authorized notebook/sun cutouts between frames in an editor, or photograph real paper objects with a fixed phone. Reusing an actual cutout preserves its appearance better than requesting 24 independently redrawn objects. These are practical fallbacks, not evidence that a text seed can force perfect consistency.
+
+### B8a. Generated frame sequences versus physical stop motion
 
 **AI-generated stop-motion-style sequence — proposed workflow:**
 
@@ -361,16 +399,17 @@ Schedule Page content through the Page workflow. **Do not assume it also schedul
 | Offer the program after a comment | Explicit opt-in comment/DM flow through a supported tool | A person requesting the program is not consenting to an indefinite marketing sequence. ManyChat supports comment-triggered messaging but has strict free-tier limits. [C19] [C20] |
 | Reply intelligently at all hours | Evaluate Meta Business Agent or a supported business messaging integration | Availability, free allowance, training sources, handoff, and price need account validation. [C04] |
 
-**Meta's built-in business AI has advanced:** the June 3, 2026 announcement describes **Meta Business Agent** for WhatsApp/Messenger, answering customers and connecting to business systems; it reports over one million businesses already using it. This verifies the product exists, but not that a newly created Brazilian conference account receives it free. Treat its availability, Portuguese behavior, usage allowance, and exact Meta One bundling as **[UNVERIFIED]** until inspected. Do not confuse it with consumer Meta AI or a simple greeting rule. [C04]
+**Meta Business AI in Brazil — distinguish three products:** June's Brazilian announcement describes **Meta Business Agent**, including a free starting offer for answering customer messages on WhatsApp/Messenger, with human handoff. August's Brazilian announcement separately describes **Meta AI for small businesses** connecting metrics and business apps, free to start. September's **Meta One** announcement confirms Brazilian business bundles with more Business Agent access: Essencial from **R$59/month**, Avançado from **R$199/month**, with higher tiers. These announcements resolve the product/pricing existence question; they do **not** establish activation, free-response allowance, or pt-BR quality on this conference's account. Inspect the real account before assigning customer inquiries to it. Do not confuse consumer Meta AI, deterministic instant replies, Business Agent in an app, and the developer Business Agent Platform's separate metered billing. [C04] [V01] [V02] [V14]
 
 For generative reply suggestions, copy variations, and other in-product AI tools, teach **“use it if visible, then check against the fact sheet”**. Current universal rollout and free entitlement for organic Business Suite AI drafting are **[UNVERIFIED]**. Do not imply that an AI ad-creative feature requires or justifies an advertising budget for this campaign.
 
 Example minimal automatic greeting:
 
 ```text
-Olá! Você falou com a organização do [EVENTO]. Recebemos sua mensagem.
+Olá! Esta é uma resposta automática da organização do CONAFROEDU 2026.
+Recebemos sua mensagem. O congresso será 100% online, em 5 e 6 de dezembro.
 Respondemos de [DIAS], das [HORAS], no horário de [FUSO].
-Programação e inscrições: [LINK OFICIAL].
+Inscrições: https://www.even3.com.br/iconafroedu-764690/
 Se sua dúvida for sobre inscrição já realizada, aguarde nossa equipe.
 Não envie CPF, dados de pagamento ou documentos por aqui.
 ```
@@ -387,11 +426,22 @@ Suggested conference setup:
 - Greeting/away messages: state when a real person will return.
 - Catalog: potentially use an informational event item if eligible; use the official ticket link rather than implying the app itself completes registration. Catalog item eligibility and payment features for this event are **[UNVERIFIED]**.
 
-**Broadcasts need an explicit 2026 correction.** Meta announced paid **business broadcasts** in April 2025, and current app/help pages describe message packs, scheduling, insights, and eligibility restrictions. Some accounts still expose older broadcast-list behavior; old tutorials quote a 256-recipient limit and saved-number requirements. **[UNVERIFIED]:** applying that legacy rule universally to every Brazilian account in October 2026. Check the app's actual feature, delivery conditions, and displayed price. Never promise unlimited free broadcasts or a workaround using WhatsApp Web extensions. [C05] [C06] [C07]
+**Ordinary broadcast lists — saved-number rule VERIFIED:** current WhatsApp Help explicitly says recipients must have **saved the sender's number in their own phone contacts** to receive a broadcast-list message. The organizer saving the recipient is insufficient. Its general broadcast-list help lists **up to 256 contacts/list**, no Windows/Mac/Web support, and warns that country-specific monthly limits are rolling out. Ask consenting recipients to save the organizer's real number; test with an organizer-owned phone first. Saving a number is a delivery condition, **not marketing consent**. [V13] [V20]
+
+**Paid business broadcasts/marketing messages are a different flow:** Meta announced paid business broadcasts in April 2025; newer app features include message packs, scheduling and insights, subject to eligibility. The Business app's list help even points to converting a list to marketing messages when reaching customers who have not saved the number. Do not transfer the ordinary-list delivery rule or 256-contact cap to every paid product, promise unlimited free broadcasts, or assume the paid feature removes opt-in obligations. The conference's exact message-pack price/access remains **[UNVERIFIED]**. [C05] [C06] [C07] [V13]
 
 **The Business app and Business Platform/API are separate products.** API workflows can involve Meta message fees, provider subscriptions, template approval, and technical configuration. Current WhatsApp policy requires permission to contact the person, honors opt-outs, and restricts free-form Platform replies to the 24-hour customer service window; outside it, approved templates are required. Being inside that window does **not** establish that every reply is free. [C22] [C23]
 
-There is a pricing-documentation conflict worth preserving: Make's recent official connector update describes a change effective **October 1, 2026**, with **1,000 free monthly service messages** and billing configuration required afterward. WhatsApp's own FAQ mentions a first-1,000 allowance but also retains conversation-based explanations, while its main pricing page is dynamic. **Exact Brazilian category rates and the applicable current service/utility allowance: [UNVERIFIED].** Obtain the live rate card/billing estimate before enabling a flow. Do not repeat older “all service replies are always free” or “1,000 messages means 1,000 conversations” claims. [C23] [C24] [C37]
+**Pass 2 resolves the October pricing conflict:** Meta's current **developer pricing documentation**, retrieved directly after the search tool returned 429, explicitly supersedes the older public marketing page. Effective **October 1, 2026**, service messages and utility templates inside the 24-hour window are billable; each business phone number gets **1,000 delivered service messages/month free**, with no rollover. This is **messages, not conversations**. After the allowance, a payment method is required for continued delivery. Eligible governments/nonprofits have a service-fee exception through **December 31, 2027**; an academic volunteer team must not assume Meta has recognized it as eligible. [V21] [V14]
+
+| Brazil recipient market, base list rate | BRL billing | USD billing | Conference example |
+|---|---|---|---|
+| Marketing template | **R$0.3217/message** | **US$0.0625/message** | Opt-in invitation, registration promotion or countdown. |
+| Utility template | **R$0.0350/message** | **US$0.0068/message** | Specific non-promotional confirmation/update tied to an existing registration, if Meta approves the classification. |
+| Authentication template | **R$0.0350/message** | **US$0.0068/message** | Login/OTP verification; usually unnecessary for this team. |
+| Service reply | First 1,000/month/number free, then **R$0.0350** | First 1,000/month/number free, then **US$0.0068** | Free-form reply inside the customer service window; exception eligibility can change the bill. |
+
+The **BRL and USD October 1 rate-card files linked by Meta**, Brazil row, are independent currency schedules; these are not exchange-rate conversions. Recipient market and billing currency matter; utility/authentication volume tiers and separate provider charges can affect the invoice. **100 delivered marketing templates cost R$32.17 in Meta fees at this base BRL rate**, before other charges. A promotional invitation is not utility merely because the event is educational. Do not implement the Platform for this zero-budget campaign unless a real need and billing owner exist. [V22] [V23] [V21]
 
 ### C5. Third-party scheduling: verified free tiers and important caveats
 
@@ -402,7 +452,7 @@ There is a pricing-documentation conflict worth preserving: Make's recent offici
 | **Metricool** | **1 brand, 20 scheduled posts/month**, 30 days of analytics, 5 competitor profiles; free excludes LinkedIn and X. | Starter from **US$20/month** in annual view; monthly billing can be higher. | Useful calendar/analytics option. Check how a multi-network post consumes the allowance. Paid approvals/API features are not necessarily on Free. BRL **[UNVERIFIED]**. [C09] |
 | **Later** | Official help updated August 12 still describes Free, limited scheduling, one Access Group, and a two-week calendar window; public pricing promotes paid trials. | Pricing retrieval also exposed an older promotional page. **Current new-account price and a universal free-post allowance [UNVERIFIED].** | Do not state confidently either “free is gone” or “everyone gets five free posts.” Treat new-account eligibility as unresolved. [C10] [C11] |
 | **Hootsuite** | No permanent free tier was established from the current plan page; trial/paid positioning. | A reliable current price for the team's region was not exposed: **[UNVERIFIED]**. | Poor first choice for a no-budget event unless the team already has access. Avoid old free-three-profile claims. [C12] |
-| **mLabs** | Advertises a free trial; no permanent free tier verified. | **R$29.90/month per brand equivalent**, annual subscription paid upfront via Pix. | Brazilian-language support/workflows may be attractive. This is not evidence of R$29.90 month-to-month billing. Trial length/current monthly offer **[UNVERIFIED]**. [C13] |
+| **mLabs** | Advertises a free trial; no permanent free tier verified. | **R$29.90/month per brand equivalent**, annual subscription paid upfront via Pix. | This means **R$358.80 upfront for 12 months** at that advertised rate, not R$29.90 month-to-month billing. Trial length/current monthly offer **[UNVERIFIED]**. [C13] |
 | **Postiz** | Open-source self-hosted code is available under an AGPL-3.0 license listing; hosted product advertises trials/paid plans rather than a permanent free cloud tier. | Hosted plans advertised from **US$29/month**. Hosting, model/API use, and platform setup can add cost. | Appropriate only with technical help; self-hosting is not a zero-maintenance substitute for Business Suite. Check the deployed version/license obligations. [C14] [C41] |
 
 For every scheduler, confirm **Page versus Group**, image/video/Reel format, direct publication versus notification, number of channels/brands/users, queue cap versus monthly publication cap, approvals, account reconnection, and the actual invoice currency. Never assume a scheduler's “Facebook support” includes automated Group posting. [C26]
@@ -412,9 +462,9 @@ For every scheduler, confirm **Page versus Group**, image/video/Reel format, dir
 | Tool | Verified free/entry position | What the team should understand |
 |---|---|---|
 | **n8n** | Free self-hosted Community edition under the **Sustainable Use License**; not a permanent free n8n Cloud plan. Cloud Starter **€20/month billed annually**, 2,500 executions. | Source-available does not mean OSI open source. Hosting, updates, backups, credentials, and monitoring are someone's responsibility. Exact USD/BRL checkout **[UNVERIFIED]**. [C15] [C38] |
-| **Make** | **1,000 credits/month**, 15-minute minimum interval on Free. Official Academy independently confirms the allowance. | Most module actions cost one credit; some AI steps cost more. Core advertised **US$12/month for 10,000 credits** in a current vendor article. A full workflow can consume several credits per lead. [C16] [C17] [C39] |
+| **Make** | **1,000 credits/month, at most 2 active scenarios**; Academy also lists 512 MB data transfer and 5 MB files for Free. Prior pricing text gives a 15-minute minimum scheduled interval; the new rendered pricing table did not expose it in pass 2, so recheck that interval in the account. | Most module actions cost one credit; some AI steps cost more. Core advertised **US$12/month for 10,000 credits** in a vendor article, subject to billing selection. Those file limits make Free unsuitable for passing large Reel files between modules. [C16] [C17] [C39] |
 | **Zapier** | **100 tasks/month**, two-step Zaps, unlimited Zaps/Tables/Forms in current free plan text. | A simple trigger → one action fits; a multi-step AI → approval → send sequence normally needs a different architecture or paid features. Professional advertised from **US$19.99/month** in the annual view. [C18] |
-| **ManyChat** | New Free: **25 Active Contacts/month, 2 channels, 4 active automations, 1 user/Inbox seat**. Free channels include Messenger/Instagram/TikTok/Telegram, **not WhatsApp, email, or SMS**. | The old “1,000 contacts free” claim is stale. New pricing began March 2, 2026; paid migration/availability varies. Current Essential annual listing **US$14/month**, 250 active contacts, overages possible. [C19] [C20] |
+| **ManyChat** | Free: **25 Active Contacts/month, 2 channels, 4 active automations, 1 user/Inbox seat**. Free channels include Messenger/Instagram/TikTok/Telegram, **not WhatsApp, email, or SMS**. | The old “1,000 contacts free” claim is stale. August 27 help says **all Free accounts have migrated**, including pre-March 2 accounts. Essential's **US$14/month** is an annual-billing listing, not an unlimited-contact offer. [C19] [C20] |
 
 A free chat subscription is not a free API key. A Make/n8n/Zapier workflow may still need separately funded model calls and a supported integration. Newer tools sometimes include AI credits, but inspect the exact allowance rather than assuming all use is covered. Polling, retries, and fan-out can use quota even if only a few final messages are sent. [A07] [A30] [C15] [C16] [C18]
 
@@ -439,17 +489,31 @@ For production, add an approval boundary, a duplicate-send key, quota alerts, vi
 | Tool category | What is established | Realistic event-marketing use | Availability/cost caveat |
 |---|---|---|---|
 | **Claude in Chrome** | Generally available on paid Claude plans; can work across browser tabs and take actions. | Research public school/association sites; organize findings; help fill a draft event listing; inspect the team's Page content. | Browser work consumes usage. Provider safety approval is not Meta permission. Local-file/app work can require the desktop app. [A34] |
+| **Claude desktop computer use** | **Beta on Pro/Max, macOS and Windows**, in Claude Desktop/Cowork and Claude Code. New unified Claude is rolling out; local computer access needs Desktop open. | Organize authorized media files, enter approved data into a local editor, or inspect a draft when no connector exists. | Separate from Chrome and the developer API. Do not buy Team for Motion and assume it includes this same Pro/Max desktop beta. Screen interaction is slower/more error-prone than supported connectors; Linux computer-use availability is not established here. [V03] |
 | **Claude computer/browser-use APIs** | Developer tools exist for visual/browser actions. | A technical helper could build a constrained research or data-entry assistant. | Requires an executor, permissions, model/API budget, and error handling. It is not an automatic free feature of every chat. [C40] |
-| **ChatGPT browser / agent workflows** | Current Learn docs describe opening pages, clicking, typing, inspecting, screenshots, and permission controls; sensitive actions can require confirmation. | Compare public institutional sources, draft outreach, fill supported draft forms, verify a page. | “Operator” and “Atlas” appear in older material, but exact current standalone/browser availability and Brazil/device entitlement are **[UNVERIFIED]** here. Current documented browser capabilities are the safer teaching anchor. [A18] |
+| **ChatGPT browser / ChatGPT agent / Atlas** | Current docs establish browser interaction on **ChatGPT web and desktop**, with a separate browser profile and permission controls. The built-in browser is not a Codex CLI/IDE feature. | Compare institutional sources, prepare drafts and supported forms. | **Do not equate these names.** This documentation does not verify Atlas installation/OS support, the legacy Chat “agent mode” menu, Brazil eligibility, or a particular monthly agent quota. Those standalone entitlements remain **[UNVERIFIED]** after an official-documentation search; inspect the actual product/account. [A18] |
 | **Google Gemini tasks / Spark / Mariner lineage** | Current help now lists tasks for **Pro or Ultra**, personal accounts, 18+, activity/personalization requirements; supported regions exclude several listed areas, not Brazil. | Ongoing research and supported app workflows; draft organizational tasks. | Older “Spark is Ultra-only/US-only” guidance is stale. Inclusion of Brazil is inferred from the support exclusions, not an authenticated rollout test. Specific Facebook actions **[UNVERIFIED]**. [A19] |
 | **Perplexity Comet / Computer** | Comet is a browser assistant; current Perplexity plans advertise Computer access and credits. | Source discovery, comparing institutional sites, collecting citations, preparing forms/drafts. | Browser download, agent allowance, and Computer credits are separate questions. Exact free-task count and Brazilian availability **[UNVERIFIED]**. [A25] [C28] |
 | **browser-use** | Agent/browser tooling with a current pay-as-you-go cloud offer. | A developer-controlled research/form workflow with explicit allowed domains. | Current page: **US$1 trial credit**, browser **US$0.02/hour**, agents **model cost +20%**, plus traffic/proxy costs where used. Open code does not make hosted operation free. [C27] |
+
+**Realistic task sizing for CONAFROEDU:** estimates include agent run plus human checking, assume existing permissions and modest batches, and are **planning estimates, not measured speedups**. Add 20–60 minutes for first-time installation/login/permission setup; CAPTCHA, account checks or a changed UI can stop a task entirely. Free manual chat + copy/paste remains the default if the team lacks a paid agent.
+
+| Bounded task and reviewable output | Likely first useful result / review | Main failures and fallback |
+|---|---|---|
+| Find **10 NEABI/NEAB institutional pages**, with campus, source URL/date and published institutional contact | 15–30 min research + 15–20 min checking | Old coordinators, duplicate campuses, fabricated emails, blocked sites. Leave blanks; verify against the institution and ABPN/CONNEABS, not social-profile guesses. |
+| Compare **the public Even3 page** with the approved fact sheet; return discrepancies | 10–20 min + 5–10 min review | Login-only ticket details, hidden fee, date localization, imagined accessibility policy. Keep “not found”; ask the organizer to resolve it. No purchase or registration changes. |
+| Prepare **5 personalized institutional invitation drafts** from that verified shortlist | 10–20 min + 10–15 min review | Invented partnership, wrong person/campus, overclaim about certificate/DOI. Use supplied facts and draft-only output; human sends through an appropriate channel. |
+| Put **5 approved Page posts** into a draft/scheduling workflow | 15–30 min + 10–15 min preview check | Wrong Page, Brazilian time zone, failed media upload, duplicate schedule, expired login. Prefer native Business Suite; verify scheduled status and later the actual publication. Browser permission is not permission to bypass Meta rules. |
+| Summarize **20 redacted incoming questions** into FAQ gaps and suggested replies | 10–15 min + 10 min review | Private data leakage, hallucinated answers, missing urgent issues. Use manually supplied redacted text if no authorized connector; send sensitive cases to a person. |
+| Rename/check **10 authorized speaker files** in a working-copy folder | 10–20 min + 5–10 min spot-check | Wrong photo/name mapping, accidental overwrites, lost originals. Provide a manifest; operate on copies and return a change list. |
+
+These are applications inferred from documented capabilities, **not tested Even3/Business Suite integrations**. An agent can take longer than a person for five clicks. Give each run a small scope and a stop condition; if the first two items are wrong, switch to a manual workflow. [A18] [A19] [A34] [V03]
 
 **Practical task boundaries:**
 
 - **Partner-school research:** useful when the agent records official public pages, the correct campus/city, and a source date. It must not infer private staff details from social posts.
 - **Outreach email:** useful for preparation and a personalized draft. A person verifies the contact, offer, facts, and whether sending is appropriate.
-- **Sympla/Even3 listing:** useful for translating approved text and populating supported fields. Save a draft, inspect dates, city, ticket types, capacity, visibility, and fees, then have the organizer publish. Actual support for these sites was not tested.
+- **Existing Even3 listing:** prioritize checking the actual CONAFROEDU listing over creating a duplicate event elsewhere. Any draft edit must preserve 5–6 December 2026, online format, approved ticket/submission terms, visibility and fees. Actual form automation was not tested.
 - **Facebook Groups:** use the assistant to adapt a draft to the group's rules; a human member/admin should decide and post through the permitted workflow. Autonomous posting into many groups is not a recommended campaign tactic.
 - **Community moderation:** useful for flagging unanswered questions and proposing replies. Keep deletion, blocking, disputes, and sensitive cases with a real moderator.
 
@@ -469,11 +533,17 @@ Depois escreva rascunhos de convite, de até 120 palavras, para revisão humana.
 
 **Facebook authorization:** Meta's official anti-scraping explanation says automated collection without permission violates its terms. Current Facebook legal/help pages sometimes redirected to login or rate limiting during this research, so the exact October 2026 legal wording is **[UNVERIFIED]**. Use authorized native/API workflows; do not infer permission from the fact that a browser agent can click or that an account is logged in. [C25] [C02]
 
-**Groups:** the Groups API deprecation is a documented historical change, and Buffer's current help independently confirms automatic Group publication is unavailable through its former integration. Group rules can also forbid event promotion, require admin permission, or limit frequency. No universal safe “posts per day” or “DMs per hour” was verified; do not publish one. Repeated identical posts, unsolicited tagging, scraping, fake accounts, evasion, and mass DMs are poor foundations for this campaign. Restrictions/checkpoints can disrupt the account even when the team considers the content useful. [C26]
+**Groups — native features versus external automation:** Meta's January 23, 2024 v19 announcement explicitly deprecated the **Groups API**, including `publish_to_groups` and `groups_access_member_info`, with removal from all versions after 90 days. Buffer's current Group workflow uses reminders rather than automatic API publishing. This does not mean Facebook's own scheduling/moderation controls disappeared: Facebook Help still documents scheduling/recurring posts for a Group one manages. Exact native controls/roles on the team's Groups remain account checks. Group-admin permission to share an invitation does not restore a removed API or authorize scraping/mass DMs. [V24] [C26] [V25]
+
+For CONAFROEDU, ask an actual group admin about a relevant invitation, adapt it to the group's promotion rules, and let an authorized member/admin publish through Facebook's permitted interface. Do not scrape member contacts, automate join requests, use fake accounts or repeat identical posts across groups. No universal safe posts/day or DMs/hour figure was established. These are practical campaign boundaries, not invented Meta numeric limits. [C25] [V24]
 
 **WhatsApp:** the policy updated September 23, 2026 requires opt-in, respect for opt-outs, and applicable template/window rules. Avoid purchased numbers, scraped member lists, unofficial bulk senders, and browser extensions promising unlimited delivery. Keep a suppression list and stop future marketing promptly when someone opts out; purchase history is not permission for every future campaign. WhatsApp can restrict or remove access for violations. [C22]
 
-**Messenger/Instagram:** ManyChat's current guidance describes the standard 24-hour window and restrictions on automated messaging beyond it. Another help page warns Messenger Message Tags were deprecated February 9, 2026 while retaining older explanatory material. Do not teach old tags or a human-agent exception as a way to run promotional blasts. Exact current exception/subscription eligibility should be checked in Meta and the connected account. [C21] [C35]
+**Messenger — the rules relevant to this organic campaign:** Meta's current policy describes a **standard 24-hour window for most qualifying user actions**, such as an incoming Page message. An outgoing automated message does not continually renew it. A longer standard window may follow the first message from a click-to-message ad; that paid entry route is irrelevant to this zero-budget plan. Meta separately describes **Human Agent** support for manual replies within **7 days of the user's message**, subject to the feature's requirements. This is not a new seven days beginning after the first 24 hours, and does not authorize automated promotional follow-ups. [V26]
+
+**Message tags require a 2026 caveat:** historically `CONFIRMED_EVENT_UPDATE`, `POST_PURCHASE_UPDATE` and `ACCOUNT_UPDATE` enabled narrow, relevant non-promotional updates, not invitations to people who had not registered. ManyChat's August help and explicit product update state Messenger Message Tags ceased being available in ManyChat on **February 9, 2026**. Meta's general policy still mentions tags generically, so do not infer that every tag on every channel has vanished, or teach legacy tags as a working ManyChat path. Treat Human Agent separately from those legacy broadcast tags. A ManyChat contact/label is not an unlimited notification subscription. [V27] [V28] [V26]
+
+**Comment-to-message is bounded:** Meta's policy describes a single private reply to an eligible Page comment/visitor action within its allowed period, not an ongoing broadcast subscription. Have the person reply or take a qualifying messaging action before continuing the normal conversation. “They liked the post” is not a blanket right to a DM campaign. Use an actually available opt-in marketing-notification product only under its current rules; this research did not establish a free Brazil-wide exception for CONAFROEDU. For registered attendees, use Even3's existing approved communication channel if Messenger eligibility is absent. [V26]
 
 **Browser-agent mistakes and prompt injection:** pages, documents, or messages can contain malicious instructions; an agent can also click the wrong control or misunderstand a form. Provider documentation describes permission/security boundaries, but these do not eliminate mistakes. Use narrow domain access, keep sign-in secrets out of chat, review drafts, and stop at public submission or message sending in these proposed workflows. Do not bypass captchas, checkpoints, or group-admin review. [A18] [A19] [A34] [C40]
 
@@ -517,9 +587,50 @@ ou interesse da pessoa. Use contato institucional. Termine com uma pergunta
 simples e ofereça não receber novos contatos. Não envie; entregue para revisão.
 ```
 
-### C11. Suggested implementation sequence and unresolved checks
+### C10a. Free AI research and outreach: an executable small-team routine
 
-**Week 1:** establish the fact sheet, Page access, quick replies, content sheet, and review owner. **Week 2:** build one speaker-card animation, record or render it, and schedule a small approved batch. **Week 3:** add an opt-in newsletter/form if needed and test one draft-only automation. **Week 4:** assess response times, registration questions, useful partner replies, and content performance before adding tools. This is a proposed rollout, not evidence that those tasks require four weeks.
+**NotebookLM / Gemini Notebook:** current Google help uses **Gemini Notebook** while some pt-BR Help branding still says NotebookLM. Link to the current product/help rather than treating these as two subscriptions. Standard access is free; the checked table lists **100 notebooks/user and 50 sources/notebook**, subject to change. Its useful role is working from a selected evidence set, not verifying facts absent from it. [A17] [V29]
+
+**Prepare approved speaker bios in 20–40 minutes for a small batch (estimate):** create a notebook named `CONAFROEDU 2026 — bios aprovadas`; upload the organizer's fact sheet and speaker-supplied bios, approved institutional pages or public CV excerpts. Keep one source clearly named per person, with access date. In Chat, request 60- and 120-word pt-BR bios, with citations for affiliation, qualifications and research area; require `[CONFIRMAR]` for contradictions. Open the cited passages, preserve the person's preferred name/pronouns, then send the draft through the team's existing speaker-approval process. Use Studio reports/notes to retain the approved version; Google documents exporting a report to Docs and data tables to Sheets. Do not upload attendee data or infer someone's race/religion from a photo. [V29]
+
+```text
+Use apenas as fontes selecionadas deste notebook. Prepare uma minibio de
+60 palavras de [NOME], para divulgação do CONAFROEDU 2026.
+Separe: texto publicável; tabela fato → fonte/trecho; dúvidas [CONFIRMAR].
+Não confunda homônimos, não atualize cargos por inferência e não invente
+titulação, autodeclaração racial, instituição ou participação confirmada.
+```
+
+**Perplexity Free for NEABI discovery:** use basic source-linked search first; free Pro searches/files are limited and manual advanced-model selection is unavailable. Start with ABPN's **CONNEABS directory**, which actually lists NEABs/NEABIs and correlated groups, then verify each institution's own page. A directory entry is evidence of existence, not proof of a current coordinator or willingness to promote the event. Collect **10 strong candidates, not thousands of scraped contacts**. Store institution/campus, state, relevant ERER activity, source URL/date, published institutional channel, contact verified?, invited?, response/opt-out. [A26] [V17] [V30]
+
+```text
+Localize até 10 NEABs/NEABIs ou grupos de educação antirracista no Brasil,
+em sites institucionais e no diretório CONNEABS/ABPN. Para cada um, mostre
+instituição, campus/UF, atividade relevante à ERER, URL exata, data da fonte
+e contato institucional publicado. Abra a fonte; não invente emails.
+Separe contato atual confirmado de diretório antigo ou página inacessível.
+Não envie mensagens nem colete contatos pessoais de membros/alunos.
+Objetivo: avaliar um convite institucional para divulgar CONAFROEDU 2026,
+100% online, 5–6/12/2026; não presumir parceria ou apoio da instituição.
+```
+
+**Free drafting alternatives:** Claude Free or Gemini Free can turn the verified table into five individually relevant invitation drafts and a pt-BR FAQ; Meta AI can help rewrite tone. Supply the source excerpts and event fact sheet each time. Their free chat access does not establish free API automation, accuracy, or an entitlement to email/DM people. A human checks and sends from the organizer's existing channel. For a small national online event, a verified invitation to a relevant NEABI is more actionable than a city/venue lead list. [A01] [A13] [V01]
+
+### C11. Compressed six-week implementation sequence and unresolved checks
+
+This is an **editorial plan for the remaining 45 days**, not a platform cadence rule. Use roughly three useful Page posts and one short video per week if the volunteers can review them; answer incoming questions daily in agreed service hours. Reuse an approved static card if producing animation displaces important registration support.
+
+| Period | Priority and smallest useful output |
+|---|---|
+| **21–27 Oct** | Approve event facts, Even3 link and submission/certificate wording; assign Page/inbox owners; save quick replies; publish the clear online-event invitation. |
+| **28 Oct–3 Nov** | Make one reusable countdown/speaker-card template; verify the first 10 NEABI candidates; prepare a speaker co-marketing kit and five reviewed institutional drafts. |
+| **4–10 Nov** | Share confirmed speakers/themes, who benefits and the actual registration steps. Explain article/resumo expandido/práticas exitosas only with confirmed submission conditions. |
+| **11–17 Nov** | Publish useful ERER/teacher-training material and an FAQ. Review questions and link clicks; ask relevant partners to share the approved kit. |
+| **18–24 Nov** | Prepare a respectful **20 November/Novembro Negro** contribution tied to anti-racist education, with real voices and checked sources; connect it honestly to the event. |
+| **25 Nov–1 Dec** | Publish the **7-day card on 28 November**; repost verified program/access information and accessibility/contact details. No invented scarcity or deadline. |
+| **2–6 Dec** | Final practical reminders; clarify session times/time zones and online access through approved channels. During the event, obtain permission for clips/photos and prioritize support. |
+
+For a future edition, reuse the sequence announce → partnerships → speakers/submissions → useful thematic content → countdown → live/support → recap, starting earlier rather than retaining these 2026 dates.
 
 Before turning this research into firm public instructions, resolve:
 
@@ -528,7 +639,7 @@ Before turning this research into firm public instructions, resolve:
 3. **[UNVERIFIED]** Motion beta's account-specific output dimensions/duration; direct hands-on success with an exported conference example.
 4. **[UNVERIFIED]** Later's new-account free availability and allowance; current Hootsuite regional price; exact mLabs monthly/trial offer.
 5. **[UNVERIFIED]** Business Suite's live scheduling horizon, event/group surface support, comment/keyword rules, and AI suggestions on the team's Page.
-6. **[UNVERIFIED]** Meta Business Agent/Meta One access and allowance for this Brazilian business; current broadcast-pack prices; applicable WhatsApp Platform rates after October's change.
+6. **[UNVERIFIED]** This account's Business Agent activation/free allowance, paid broadcast-pack prices, and Meta-recognized nonprofit status. **Resolved:** public Meta One BRL offers and October WhatsApp Platform base rates/service allowance, documented in C3–C4.
 7. **[UNVERIFIED]** Sympla/Even3 official connector/API/webhook availability on the organizer's actual plan.
 8. **[UNVERIFIED]** Portuguese quality rankings. Run the small blinded test described in A5 rather than turning an English benchmark into a pt-BR claim.
 
@@ -544,7 +655,7 @@ All entries below were checked on **2026-10-21**. “Live/undated” means the r
 | [A02] | Anthropic model announcements | Dated entries through 2026-10-07; checked 2026-10-21 | Opus/Sonnet/Haiku 5.5 and Fable 5.1 release chronology. |
 | [A03] | Introducing Claude Haiku 5.5 | 2026-10-07; checked 2026-10-21 | Current small-model release; not a measured pt-BR marketing comparison. |
 | [A04] | Introducing Claude Fable 5.1 and Claude Mythos 5.1 | 2026-09-15; checked 2026-10-21 | Release and model positioning; does not imply unrestricted consumer Mythos access. |
-| [A05] | What are artifacts and how do I use them? | Relative update displayed: over two weeks ago; checked 2026-10-21 | Current artifact/template availability; includes Enterprise October 15 rollout note. |
+| [A05] | What are artifacts and how do I use them? | Reopened in pass 2, 2026-10-21; relative update over two weeks | Current plan matrix; cloud code/file capability prerequisite; legacy cutoff September 16; Design standalone HTML versus Motion MP4 export. |
 | [A06] | OpenAI model catalog | Live, undated; checked 2026-10-21 | GPT-6 Astra, GPT-6.1 Sol, GPT-6 Luna and API capabilities. |
 | [A07] | ChatGPT Learn pricing | Live; includes October 2026 migration notices; checked 2026-10-21 | Subscription prices, shared Work/Codex use, additional credits; not Brazilian checkout confirmation. |
 | [A08] | ChatGPT Learn models | Live; retirement milestone 2026-10-14; checked 2026-10-21 | Work/Codex versus Chat model distinction. HTML and official Markdown representation read. |
@@ -624,8 +735,8 @@ All entries below were checked on **2026-10-21**. “Live/undated” means the r
 | [C20] | ManyChat Free plan | Updated 2026-08-27; checked 2026-10-21 | March 2 pricing change, active-contact allowance, exclusions and seats. |
 | [C21] | ManyChat messaging windows | Updated 2026-08-27; checked 2026-10-21 | Messaging-window rules and restrictions; confirm platform-specific exceptions separately. |
 | [C22] | WhatsApp Business Messaging Policy | Last updated 2026-09-23; checked 2026-10-21 | Opt-in, opt-out, templates, 24-hour window and enforcement. |
-| [C23] | WhatsApp Business Platform pricing | Live, dynamic page; checked 2026-10-21 | Market/category billing; exact current Brazil rates/allowance unresolved. |
-| [C24] | Make: Gemini video and WhatsApp connector updates | 2026 update; references 2026-10-01 pricing effective date; checked 2026-10-21 | Connector describes 1,000 monthly free service messages and billing requirement; conflicts noted. |
+| [C23] | WhatsApp Business Platform public pricing | Reopened in pass 2, 2026-10-21 | Still says service/response utility are free; **stale versus dated developer policy V21/V14 and current rate cards**. Do not use for October service-fee promises. |
+| [C24] | Make: Gemini video and WhatsApp connector updates | 2026 update; references 2026-10-01 effective date; checked 2026-10-21 | Secondary corroboration for service allowance/billing; current primary Meta developer evidence now resolves the conflict. |
 | [C25] | Meta: how we combat scraping | 2021-04; historical policy explanation; checked 2026-10-21 | Unauthorized automated collection restriction; exact 2026 terms page was unavailable. |
 | [C26] | Buffer: publishing to a Facebook Group | Live current help; references April 2024 change; checked 2026-10-21 | Explicitly notification-based, not automatic Group publication. |
 | [C27] | Browser Use pricing | Live, undated; checked 2026-10-21 | US$1 credit; browser/hour, model markup and traffic costs. |
@@ -637,11 +748,47 @@ All entries below were checked on **2026-10-21**. “Live/undated” means the r
 | [C34] | Hunter free-plan help | Relative update displayed: today; checked 2026-10-21 | 50 monthly shared credits, one mailbox, sequence capacity; not permission to spam. |
 | [C35] | ManyChat broadcasting guidance | Current page references 2026-02-09 deprecation; checked 2026-10-21 | Message Tags warning alongside legacy text; do not copy old exception workflows uncritically. |
 | [C36] | WhatsApp Business app introductory tutorial | Live, undated; checked 2026-10-21 | Explicit free-to-download app and foundational business tools. Page title is storefront tutorial despite URL wording. |
-| [C37] | WhatsApp Business FAQ | Live, undated; mixed-era pricing explanations; checked 2026-10-21 | First-1,000 allowance plus retained conversation wording; source of explicitly unresolved pricing inconsistency. |
+| [C37] | WhatsApp Business FAQ | Live, undated; mixed-era wording; checked 2026-10-21 | Mixed conversation/message terminology; use current primary developer policy/rate cards V21–V23 for October billing. |
 | [C38] | n8n: which license is needed? | Recent live help; exact publication date not displayed; checked 2026-10-21 | Community SUL/internal use and separation from Cloud terms. |
 | [C39] | Make: marketing automation tools in 2026 | Published June 2026 per search index; checked 2026-10-21 | Vendor's own Free/Core pricing reference; not relied on for ranking competitors. |
 | [C40] | Claude browser-use tool documentation | Live; browser toolset version 20260801; checked 2026-10-21 | Developer execution model, URL restrictions, untrusted-page and file-upload boundaries. |
 | [C41] | Postiz source repository | Live repository; checked 2026-10-21 | Self-hosted code and AGPL-3.0 license listing; deployment not performed. |
+
+### Additional pass-2 sources
+
+All were consulted on **2026-10-21**. Primary Meta developer pages were retrieved as public HTML through a direct HTTP request when the web search/retrieval tool returned 429 or an empty body. No login, Page actions, messages or purchases were performed. Search-index-only evidence is identified below. The rate-card downloads were read from their actual contents, not a reseller's transcribed table.
+
+| Ref | Source / date evidence | What it verifies and remaining boundary |
+|---|---|---|
+| [V01] | Meta Brazil: introducing Meta One, **2026-09-15** | Free core; Core R$32/Premium R$97; business Essencial from R$59/Avançado from R$199; benefits vary. |
+| [V02] | Meta Brazil: small-business Meta AI features, **2026-08-19** | Distinguishes business analysis/marketing assistant from customer-facing Business Agent; free starting access, no conference-account guarantee. |
+| [V03] | Claude Help: let Claude use your computer in Cowork; live, relative update over a week | Pro/Max beta, Windows/macOS, desktop/app requirements and connector-first approach; newer unified interface rollout. |
+| [V04] | OBS Browser Source, **2022-01-11**, current page | Local HTML, width/height/fps, reload controls, official Linux-package qualification. Foundational docs, not an executed sample. |
+| [V05] | OBS Standard Recording Output Guide, **2023-05-26**, current page | Recording settings and File → Remux Recordings workflow. |
+| [V06] | OBS Audio/Video Formats Guide, **2023-03-26**, current page | H.264/container compatibility; MKV/MP4 recording/remux distinction. |
+| [V07] | Canva free desktop video editor; live/undated | Free MP4 export positioning; premium assets/features must be checked separately. |
+| [V08] | Canva: trim videos/change scene duration; live/undated | Video timeline trimming/scene duration and MP4 download; rollout-dependent UI. |
+| [V09] | HandBrake About + Quick Start; live docs | Free local conversion, open source file → preset → destination → encode. |
+| [V10] | HandBrake source formats, version 1.9.0 reference | WebM input and common recording formats; no claim that changing an extension converts codecs. |
+| [V11] | CapCut: What is a Stop Motion Animation; live/undated | Vendor's own image-import, image-duration, timeline and export workflow. Some explanatory prose is imprecise; use it for UI capabilities, not physics or guaranteed free AI entitlements. |
+| [V12] | Canva: set slide duration; live/undated | Distinguishes presentation-page timing from video scene timing; no universal 0.125-second scene claim. |
+| [V13] | WhatsApp Help: broadcast lists in Business app; current official search-indexed text | Saved-number delivery requirement and distinction from converting to marketing messages. Direct web fetch exposed no article body; no account test. |
+| [V14] | Meta developer: non-template message pricing; current direct HTML | October 1 service/utility charging, 24-hour restriction, developer Business Agent pricing distinction. |
+| [V16] | HandBrake: About, current documentation | Free, open-source local converter for Windows/macOS/Linux; MP4/MKV/WebM output. |
+| [V17] | Perplexity advanced Search models, **table dated 2026-10-17** | Individual Pro/Max model matrix; Free cannot manually select an advanced Search model; regional/rollout caveats. |
+| [V18] | Perplexity product hub; live/undated | Explicit Pro US$20/month or US$200/year. |
+| [V19] | Perplexity Max help; live/undated | US$200/month or US$2,000/year; annual option on web. |
+| [V20] | WhatsApp Help: ordinary broadcast lists; current official search-indexed text | Up to 256 contacts/list; saved-number rule; no Windows/Mac/Web; gradual country-specific monthly caps. |
+| [V21] | Meta: Pricing on WhatsApp Business Platform; current direct HTML, explicitly **effective 2026-10-01** | 1,000 free delivered service messages/number/month, no rollover, payment-method requirement, eligible-government/nonprofit exception through 2027-12-31. Supersedes C23's older wording. |
+| [V22] | Meta **BRL list rates**, linked under V21 rate cards; **effective 2026-10-01** | File `829788045_1617107983472492_8786695655875075995_n.csv`; actual download is an XLSX container despite its CSV filename. Sheet 1, row 9, Brazil: marketing 0.3217; utility/authentication/service 0.0350 BRL. |
+| [V23] | Meta **USD list rates**, linked under V21 rate cards; **effective 2026-10-01** | File `829311379_1537421421402610_366484812346475911_n.csv`; likewise XLSX contents. Sheet 1, row 9, Brazil: marketing 0.0625; utility/authentication/service 0.0068 USD. |
+| [V24] | Meta Graph/Marketing API v19 announcement, **2024-01-23**, direct HTML | Groups API and associated permissions removed after 90 days; does not prohibit every native Facebook group feature. |
+| [V25] | Facebook Help: schedule/recurring posts in a Group one manages; live title | Confirms native help topic exists. Only title was retrievable; current role/UI details remain account checks. |
+| [V26] | Meta Messenger policy overview; current direct HTML, canonical route | Most standard windows 24 hours, qualifying actions, Human Agent/manual seven-day support, bounded private replies and automated-experience disclosure guidance. |
+| [V27] | ManyChat: outside 24-hour/seven-day windows, **updated 2026-08-27** | Human Agent measured from last interaction; manual-only; legacy tags non-promotional; explicit deprecation notice coexists with older tutorial text. |
+| [V28] | ManyChat staff product update: Message Tags deprecation, **February 2026** | Says unavailable in ManyChat after February 9, globally; vendor capability evidence, not proof every Meta channel/tag has vanished. |
+| [V29] | Google pt-BR: create a Gemini Notebook; live/undated | Source uploads, source-based chat, notes/reports and Docs/Sheets exports; page still carries NotebookLM Help branding. |
+| [V30] | ABPN / CONNEABS directory; live, current/older entries mixed | Actual national NEAB/NEABI directory; each contact still needs institutional/current verification. |
 
 ### Reference links
 
@@ -737,3 +884,75 @@ All entries below were checked on **2026-10-21**. “Live/undated” means the r
 [C39]: https://www.make.com/blog/best-marketing-automation-tools
 [C40]: https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool
 [C41]: https://github.com/gitroomhq/postiz-app
+
+[V01]: https://about.fb.com/br/news/2026/09/apresentando-o-meta-one-um-servico-de-assinatura-com-mais-recursos-e-ia-para-criar-se-conectar-e-se-destacar/
+[V02]: https://about.fb.com/br/news/2026/08/novos-recursos-do-meta-ai-para-pequenas-empresas/
+[V03]: https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork
+[V04]: https://obsproject.com/kb/browser-source
+[V05]: https://obsproject.com/kb/standard-recording-output-guide
+[V06]: https://obsproject.com/kb/audio-video-formats-guide
+[V07]: https://www.canva.com/video-editor/desktop-download/
+[V08]: https://www.canva.com/help/trim-videos/
+[V09]: https://handbrake.fr/docs/en/latest/introduction/quick-start.html
+[V10]: https://handbrake.fr/docs/en/1.9.0/technical/source-formats.html
+[V11]: https://www.capcut.com/resource/what-is-a-stop-animation
+[V12]: https://www.canva.com/help/set-slide-duration/
+[V13]: https://faq.whatsapp.com/653415899610349/?cms_platform=android&locale=en_US
+[V14]: https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/non-template-messages/
+[V16]: https://handbrake.fr/docs/en/1.9.0/introduction/about.html
+[V17]: https://www.perplexity.ai/help-center/en/articles/10354919-what-advanced-ai-models-are-included-in-my-subscription
+[V18]: https://www.perplexity.ai/hub
+[V19]: https://www.perplexity.ai/help-center/en/articles/11680686-perplexity-max
+[V20]: https://faq.whatsapp.com/861663048350950/?cms_platform=iphone&locale=en_US
+[V21]: https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/
+[V22]: https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/#rate-cards-and-volume-tiers
+[V23]: https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/#rate-cards-and-volume-tiers
+[V24]: https://developers.facebook.com/blog/post/2024/01/23/introducing-facebook-graph-and-marketing-api-v19/
+[V25]: https://www.facebook.com/help/124331564818285/
+[V26]: https://developers.facebook.com/documentation/business-messaging/messenger-platform/policy
+[V27]: https://help.manychat.com/hc/en-us/articles/14281199732892-How-to-send-messages-outside-the-24-hour-and-7-day-windows-in-Messenger-and-Instagram
+[V28]: https://community.manychat.com/product-updates/meta-s-deprecation-of-the-message-tags-feature-on-messenger-9010
+[V29]: https://support.google.com/gemininotebook/answer/16206563?hl=pt-BR
+[V30]: https://abpn.org.br/conneabs-2/
+
+## Pass 2: verification log
+
+**Verified on 2026-10-21.** “Confirmed” means supported by the independently consulted source, not authenticated access in the organizer's account. “Qualified” identifies a narrower claim than the original could safely imply. Proposed timings/workflows are labeled estimates; no campaign was run, no subscriptions purchased, and no MP4 was rendered as part of this research.
+
+| Claim checked | Verdict / in-place treatment | Source |
+|---|---|---|
+| Actual campaign assumptions | **Corrected:** CONAFROEDU, Dec 5–6, online, Even3, zero budget; replaced city/venue examples and added dated six-week plan. | `docs/BRIEF.md`; calendar arithmetic, Oct 21 → Dec 5 = 45 days. |
+| Claude current model releases | **Confirmed:** Opus/Sonnet/Haiku 5.5 and Fable/Mythos 5.1 appear in Anthropic's release catalog. Consumer availability remains plan-specific. | [A02] |
+| Claude prices/free tier | **Confirmed:** Free; Pro $20 monthly/$200 annual; Max from $100; Team $25 seat monthly/$20 annual equivalent. Free has Sonnet/Haiku, not the individual paid-plan model matrix wholesale. No public fixed BRL amount established. | [A01] |
+| ChatGPT models and prices | **Confirmed with scope:** current GPT-6 family and listed Go/Plus/Pro prices; Work/Codex availability must not be presented as the ordinary Chat picker. No Brazil checkout inspected. | [A07] [A08] |
+| Gemini models/plans/free limits | **Confirmed:** Argon Pro/Ultra rollout; Brazilian Plus R$24.99/Pro R$96.99/Ultra R$779.90 or R$999.90; compute-based resets rather than universal prompts/day. **Added** skills/Gems transition. | [A13] [A15] [A16] |
+| Meta AI paid offer in Brazil | **Corrected:** no longer leave all premium pricing unknown. Core R$32/Premium R$97 published; free core remains. Business bundles differ. Exact per-surface model/free quotas remain unresolved. | [V01] |
+| Copilot prices and underlying model | **Confirmed:** Personal R$51/Family R$60/Premium R$109 monthly; owner-only AI benefits. **Qualified:** pricing page does not prove one universal model/version or fixed free-message cap. | [A22] |
+| Grok current lineup/prices | **Confirmed:** developer flagship 4.7; new X Subscription $8/$30/$100/$200 paid monthly tiers, existing plans may continue. Fixed free caps/BRL not established. | [A23] [A24] |
+| Perplexity model access/prices | **Expanded:** current Pro/Max Search matrix, no Free manual model choice; distinguish monthly prices from annual equivalents; added verified Education Pro eligibility/price. | [V17] [V18] [V19] [A26] |
+| Fixed free prompt counts across assistants | **Qualified:** not verified as stable across accounts/models/tasks; retain quota type and actual usage-meter checks. Perplexity's own help says its Free Pro Searches are very limited. | [A01] [A07] [A15] [A26] |
+| “Claude Motion” name/export/access | **Confirmed:** exact name; code-based animation; Team/Enterprise beta; native MP4. Not included in Free/Pro/Max. Resolution/duration options and sample export remain untested. | [B01] [A01] |
+| Artifacts Free/no-code workflow | **Corrected:** current Design HTML export and cloud execution prerequisite; do not use legacy artifact buttons as a universal present-day instruction. Ordinary HTML export is not native MP4. | [A05] |
+| Claude Chrome versus desktop computer use | **Expanded:** Chrome generally available on paid plans; desktop screen use is separate Pro/Max beta on Windows/macOS, with Desktop required for local access. API tools are a third product. | [A34] [V03] [C40] |
+| ChatGPT agent/Atlas availability | **Still [UNVERIFIED] in part:** current Work browser capabilities verified; exact current Atlas device/Brazil entitlement and Chat agent-mode quotas were not established. No inherited 2025 quota claims published. | [A18]; bounded official-doc search. |
+| Gemini agent access | **Confirmed/qualified:** current tasks require Pro/Ultra, personal account, 18+, Keep Activity and Personal Intelligence; Brazil is not on the exclusion list. No claim that every historic Spark/Mariner surface has identical access. | [A19] |
+| Business Suite planner/auto-replies | **Confirmed at capability level; qualified at UI level:** official scheduling tutorial and indexed instant-reply help; exact current horizon/keyword features and authenticated Page behavior remain account checks. | [C01] [C03] |
+| Meta Business AI in Brazil | **Expanded:** Brazilian June/August/September announcements and BRL bundles; conference-account activation and included response allowance remain unverified. | [C04] [V01] [V02] |
+| WhatsApp Business app tools | **Confirmed:** free app, profile/catalog/labels, greeting/away and human-selected quick replies; not an included unrestricted chatbot/API. | [C05] [C36] |
+| Saved-number requirement for broadcasts | **Resolved:** ordinary broadcast lists reach recipients who saved the sender; official help differentiates newer marketing messages. 256/list is a list feature, not a universal paid-API limit. | [V13] [V20] |
+| WhatsApp Brazil marketing/utility rates | **Resolved from actual primary downloads:** BRL 0.3217/0.0350; USD 0.0625/0.0068 per delivered message, October 1 schedules, Brazil row. | [V22] [V23] |
+| Service/utility replies always free inside 24 hours | **Corrected:** October developer policy replaces stale public-page wording; service allowance is per-number/month messages; utility is charged. Eligible nonprofit exception is conditional. | [V21] [V14]; supersedes [C23]. |
+| WhatsApp anti-spam/window rules | **Confirmed:** opt-in and opt-out, approved templates outside service window, escalation path for automated replies. Saved contact ≠ consent. | [C22] [V13] |
+| Group auto-publishing | **Confirmed/qualified:** Groups API/permissions deprecated and removed in 2024; Buffer uses reminders. Native managed-Group scheduling is a distinct feature, with current roles/UI not fully retrieved. | [V24] [C26] [V25] |
+| Messenger 24-hour/seven-day rules | **Expanded:** distinguish standard window, Human Agent manual support measured from user interaction, and bounded private replies. No automated promotional seven-day extension. | [V26] [V27] |
+| Messenger Message Tags | **Qualified:** ManyChat explicitly removed them February 9; older instructions remain on help pages. Do not treat all Meta tags/channels as identical or reuse Confirmed Event Update for invitations. | [V27] [V28] |
+| ManyChat free plan | **Confirmed/corrected migration note:** 25 active contacts, 2 channels, 4 live automations, one seat; no WhatsApp. All Free accounts migrated, not just new users. | [C20] |
+| Buffer/Metricool free limits | **Confirmed:** Buffer 3 channels/10 queued per channel; Metricool 1 brand/20 scheduled posts monthly. Queue and monthly quotas differ. | [C08] [C09] |
+| mLabs/Postiz “free” | **Confirmed/qualified:** mLabs trial, R$29.90 annual-Pix monthly equivalent; Postiz hosted $29/month with seven-day trial, separate self-hosting option. No permanent free hosted plan established. | [C13] [C14] |
+| n8n/Make/Zapier free tiers | **Confirmed/expanded:** n8n Community self-hosting versus paid Cloud; Make 1,000 credits and two active scenarios, tight file limits; Zapier 100 tasks/two-step Zaps. Make's currently rendered interval needs account recheck. | [C15] [C17] [C18] |
+| Beginner animation → Reel MP4 | **Added, documentation-verified components:** Design HTML → OBS local Browser source → H.264 recording/remux → Canva trim/MP4; free HandBrake fallback. End-to-end generation/export not performed. | [A05] [V04] [V05] [V06] [B05] [V07] [V08] [V09] [V10] [V16] |
+| True pose-by-pose stop-motion-style assembly | **Added:** continuity master/reference editing, numbered frames, pose-rate math, CapCut/Canva/FFmpeg routes. No guarantee of generated-frame consistency or Canva subframe timing. Physical photography remains distinct. | [A09] [A13] [V11] [V12] [B06] |
+| Realistic computer-use time estimates | **Added as estimates:** small NEABI research, Even3 audit, invitation drafts, Page scheduling, FAQ sorting and file preparation; explicit review effort, failure modes and manual fallback. | Capability sources [A18] [A19] [A34] [V03]; timings are editorial, not benchmarks. |
+| Free source-based research/outreach | **Added:** NotebookLM/Gemini Notebook bios with citations/approval; Perplexity discovery from actual CONNEABS directory and current institutional verification. No invented partnerships or personal-contact harvesting. | [A17] [A26] [V17] [V29] [V30] |
+
+**Remaining uncertainty to carry into publication:** localized checkout prices not publicly established; actual account eligibility/quotas and some current Meta UI controls; Atlas/legacy Chat agent entitlements; Motion export dimensions/duration; first successful end-to-end conference export; Even3 connector access. The resolved October WhatsApp rate/service-allowance questions must no longer be presented as unresolved.

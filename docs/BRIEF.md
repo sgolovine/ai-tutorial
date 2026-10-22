@@ -50,3 +50,12 @@ English (`en`) and Brazilian Portuguese (`pt-BR`). Every page exists in both. pt
 - Online event → no venue; focus on lives, Zoom/YouTube/StreamYard, clipping talks after, digital certificates.
 - **Representation & bias are critical**: AI image/video models can stereotype Black people and African cultures (exoticism, generic "African" patterns, colorism, wrong hair textures, mixing unrelated cultures). Content must teach how to prompt respectfully, review outputs critically, prefer real photos of real participants (with consent) and Black Brazilian artists/designers where possible, avoid caricature, and disclose AI use. Cultural symbols (Adinkra, orixás/religious imagery, Kente etc.) need care and accuracy.
 - Tone: academic yet warm, community-driven, respectful; pt-BR is the primary audience language.
+
+### Verified key dates (from Even3 page, see docs/research/04-conafroedu-context.md §2.2–2.3)
+- This is the **1st edition** (I CONAFROEDU) — don't invent past editions.
+- Paper submissions (+ presenter video) close **4 Nov 2026** → only 2 weeks of submission campaign. Review result within 5 business days.
+- Multi-submission packages until 5 Nov. Current ticket tier ends **15 Nov**; prices rise **16 Nov** (R$55–70 → R$60–75) — a natural urgency hook.
+- **20 Nov** Consciência Negra → attendance/registration push (not submissions).
+- Program published by **25 Nov**. Congress **5–6 Dec** (08:00–22:00 BRT). Certificates from 6 Dec. Proceedings by 15 Dec.
+- Proceedings publication carries an extra R$ 16,98/paper fee. Official presence: Even3 page + Instagram @congressosnacionais_online; no verified Facebook Page/Event found — the guide should include "set up your Facebook Page/Event properly" steps.
+- Open questions for organizers (flag in content, don't invent answers): presentation mandatory vs optional; certificate eligibility; deadline extension (prorrogação) plans.

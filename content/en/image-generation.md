@@ -59,7 +59,7 @@ If a tutorial names a model not listed below, check that it still exists before 
 | Model / tool | Best for | Watch out for | Free access? |
 |---|---|---|---|
 | **ChatGPT Images** (GPT Image 2.5) | Complex illustrations, edits described in ordinary language, poster concepts, transparent backgrounds | Can still misplace text and lose consistency across a series | Yes, on all ChatGPT plans, with limits |
-| **Gemini app** (Nano Banana 2.1 / 2 / Pro) | Conversational editing, combining several reference images (up to 14 in 2.1), adapting one background to several crops | Reference images do not guarantee perfect likeness | Yes: Brazil's Gemini page lists image generation/editing at R$0 |
+| **Gemini app** (Nano Banana 2.1 / 2 / Pro) | Conversational editing, combining reference images, adapting a background to several crops; the app documents [up to 10 files per prompt](https://support.google.com/gemini/answer/14903178?hl=en), subject to availability | Reference images do not guarantee perfect likeness | Nano Banana 2 has free access; **2.1 requires a Google AI plan**, per the [image product page](https://gemini.google/overview/image-generation/) |
 | **Canva AI** (Magic Media, Dream Lab) | Finishing everything: templates, text, crops, consistent layouts | Underlying models change; free AI uses are limited | Free plan with limited AI uses |
 | **Adobe Firefly / Express** (Firefly Image 5) | Generative Fill, extending or fixing a background, photo compositing | Free credits are limited; beta features have separate terms | Express Free plan; limited Firefly credits |
 | **Ideogram 4.5** | Typography and lettering concepts, posters, precise edits | Small text and accents still need checking | Variable weekly free credits for eligible accounts |
@@ -123,7 +123,7 @@ Ask four questions about every image:
 
 This is the single most useful rule on this page.
 
-**What the evidence says:** a research study published in August 2026 (LingT2I) tested text rendering in several languages, including Portuguese, and no model was close to perfect. A smaller first-hand test from July–August 2026 reported Gemini making accent errors in 2 of 3 Portuguese posters, while Ideogram got 9 of 12 text attempts right. Neither test proves which model handles `ç`, `ã` and `é` best today. The practical conclusion: **AI lettering must always be proofread, and final text should be editable.**
+**What the evidence says:** the August 2026 [LingT2I preprint](https://arxiv.org/html/2608.11002v1) examines multilingual generation and text rendering, including Portuguese. Its composite metrics are **not a current pt-BR accent pass rate** and do not identify a reliable winner for this campaign. The practical rule remains: **proofread every letter and keep final text editable**.
 
 Words that commonly break: `Educação`, `Inscrições abertas`, `Participação`, `Consciência Negra`, `História e cultura afro-brasileira`, `5 e 6 de dezembro`, and speakers' full names.
 
@@ -196,7 +196,7 @@ Before you start: be signed in to a free account, and have the approved text and
 
 ### Workflow 2: AI background + Canva finish (25–30 min, R$0)
 
-1. **(0–8 min)** Open ChatGPT or the Gemini app. Paste the illustration prompt above, changing the colours to your brand kit. **Maximum two attempts.**
+1. **(0–8 min)** Follow [tool setup](setup-tools.md), then open ChatGPT or the Gemini app. Paste the illustration prompt above, changing the colours to your brand kit. **Maximum two attempts.**
 2. **(8–12 min)** Review the image with the [representation checklist](representation-bias.md#pre-publication-review-checklist): who is shown, in what roles, skin tones, hair, any stray symbols or fake letters. If it fails, use a plain background instead.
 3. **(12–14 min)** Download the image and upload it to Canva on a 1080 × 1350 design.
 4. **(14–22 min)** Add the live text and real logo exactly as in Workflow 1, steps 3–4.
@@ -208,7 +208,7 @@ Before you start: be signed in to a free account, and have the approved text and
 1. Open your approved 4:5 master in Canva.
 2. Create a **new** 1080 × 1920 design for Stories (one-click *Resize* may be a Pro feature, so copy and paste the elements manually).
 3. Move the title and date to the middle area, away from the top and bottom where the app's buttons appear.
-4. If the background is too short for 9:16, ask the AI to extend it:
+4. If the background is too short for 9:16, **export only the separate illustration/background**, without text, logos or portraits, and upload only that file to the AI. Extend it with the prompt below, then put it back under the original Canva text, logo and photo layers. If no separate background exists, fill the edges with solid color in Canva instead. A promise to “preserve everything” is not protection for a finished speaker card:
 
 ```prompt
 Extend this image to a vertical 9:16 format. Continue only the background colours, shapes and texture at the top and bottom. Do not add people, objects, words, numbers or logos. Keep everything already in the image unchanged.

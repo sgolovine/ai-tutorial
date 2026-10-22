@@ -100,7 +100,7 @@ Prices are snapshots from **21 October 2026**, in USD unless stated. Always chec
 > [!TIP] A realistic budget
 > Three 5-second shots × three attempts each at FLUX 3 standard HD = 3 × 5 × 3 × US$ 0.17 = **US$ 7.65**. That's arithmetic, not a promise that three attempts will be enough. Set an attempt limit **before** you start (for example: three tries per shot, then use a still image).
 
-**Zero-budget route:** a free Gemini or Runway allowance (if available on your account) for one or two abstract inserts, plus free Canva/CapCut editing. If nothing free works, a still image with a slow zoom in CapCut is a perfectly good Reel opener.
+**Zero-budget publishing route:** use a still image or approved artwork with simple motion in Canva/CapCut. Free generator credits are for **testing** until you verify the exact model, promotional rights, export size and required watermark in your account. Runway’s 125 trial credits do **not** include paid Gen-4.5 access. Keep any required watermark; if a suitable free export is unavailable, publish the still-image version. Follow [tool/editor setup](setup-tools.md#capcut).
 
 ## Shot-first prompting: how to write a video prompt
 
@@ -136,7 +136,7 @@ Many models accept Portuguese prompts too. If you prefer, write it in Portuguese
 
 ## Workflow 1: a 5-second abstract insert (step by step)
 
-Time: about 30–45 minutes. Cost: R$ 0 if your account's free allowance covers it.
+Time: about 30–45 minutes. Cost: free **drafts** only where an account allowance exists; a publishable export also needs the plan’s promotional rights and export conditions. Use the still-image fallback if those cannot be confirmed.
 
 1. **Decide where it goes.** Example: the first 3–5 seconds of a 24-second teaser, before real speaker footage and a date card.
 2. **Write one shot** using the template above. No people, no words.
@@ -158,7 +158,7 @@ The poster has exact Portuguese text, dates and a logo. Video models **re-draw e
 **Option B — image-to-video on the background only:**
 
 1. Export the poster **without any text or logo** — just the illustration (see [Image generation](image-generation.md) for making text-free backgrounds).
-2. Upload it to an image-to-video tool (Runway Gen-4.5, Gemini/Flow, Kling, Hailuo, Luma…).
+2. Upload only the isolated background to an eligible image-to-video tool (**Gen-4.5 requires paid Runway access**; other tools have separate plan/model conditions). Follow [setup](setup-tools.md#capcut); if no suitable export is available, keep Option A.
 3. Use a **motion-only** prompt (the image already defines the scene — describe only how things move):
 
 ```prompt
@@ -236,7 +236,7 @@ More in [Ethics, policies & LGPD](ethics-legal.md).
 - [ ] Could a real phone video do this job better? (If yes, use it.)
 - [ ] No generated people presented as real speakers, attendees, audiences or a past edition.
 - [ ] All text, dates, names and the logo were added in the editor and proofread by a second person (ç, ã, é, ê).
-- [ ] The plan/tool used allows commercial/promotional use; no watermark.
+- [ ] The plan/tool used allows commercial/promotional use; retain every required watermark and disclose AI use.
 - [ ] Watched full screen on a phone, with sound and muted.
 - [ ] Representation reviewed with the [checklist](representation-bias.md); no symbols used as decoration.
 - [ ] Music is cleared for Facebook/Instagram (or there's none).

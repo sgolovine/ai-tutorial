@@ -14,7 +14,7 @@ updated: 2026-10-21
 - Uma estrutura simples para qualquer prompt de divulgação.
 - A **ficha oficial do CONAFROEDU** — um bloco pronto para colar no início de toda conversa, para que a IA pare de "chutar" datas e valores.
 - Como conseguir um português brasileiro natural (e não com cara de tradução).
-- Como salvar esse contexto uma vez só (Projetos, Gems/skills, GPTs personalizados, Gemini Notebook).
+- Como salvar o contexto (Projetos, skills e Gemini Notebook) e manter cada cópia atualizada.
 - Uma checklist para pegar os erros mais perigosos da IA: datas, valores e promessas inventadas.
 
 > [!NOTE]
@@ -72,13 +72,17 @@ Este é o item mais importante desta página: uma **ficha de fatos** curta, apro
 Regras da ficha:
 
 1. **Uma pessoa responsável.** Quem está na Coordenação guarda a versão oficial num documento compartilhado e atualiza a data da "versão" sempre que um fato mudar.
-2. **Só fatos verificados.** Tudo abaixo foi conferido na página da Even3 em 21 de outubro de 2026. Valores e datas podem mudar — confira de novo antes de qualquer campanha de preço ou prazo.
-3. **O que não se sabe fica como `[CONFIRMAR]`.** Isso ensina a IA a deixar a lacuna em vez de inventar.
+2. **Indique a fonte de cada fato.** Use a Even3 e o anúncio da organização (fonte das 40 horas divulgadas). Decisões registradas da comissão resolvem as lacunas. Confira preços e datas antes da campanha; não trate a lista parcial de atividades como programação final.
+3. **Use o marcador literal `[CONFIRMAR]` para o que falta saber.** Ponha a descrição depois do marcador. No texto do guia, use “confirmar com a comissão”; em rascunhos, separe perguntas do texto publicável. Antes de publicar, confira **todos os colchetes e fatos ausentes**, não só esse marcador. Substitua por fato confirmado ou retire a afirmação inteira sem respaldo.
 4. **Em português.** A equipe publica em português, então a ficha já usa a redação oficial.
 
 ```prompt
 FICHA OFICIAL — CONAFROEDU 2026
 Versão: 21/10/2026 (conferir na Even3 antes de publicar preços ou prazos)
+Responsável pela ficha: [CONFIRMAR] — nome da pessoa da Coordenação
+Conferido por: [CONFIRMAR] — nome e data
+Fontes: página da Even3 e anúncio oficial da organização; decisões registradas pela comissão
+Próxima atualização obrigatória: encerramento confirmado das submissões em 4/11
 
 EVENTO
 - Nome: I CONAFROEDU — Congresso Nacional de Africanidades na Educação (1ª edição; não existem edições anteriores)
@@ -87,6 +91,8 @@ EVENTO
 - Horários das sessões: [CONFIRMAR] — sempre informar "horário de Brasília"
 - Plataforma de transmissão e forma de acesso: [CONFIRMAR]
 - Inscrições, normas e submissões: https://www.even3.com.br/iconafroedu-764690/
+- Inscrições para participação: até 6/12/2026; não confundir com o prazo de submissão nem com a virada de lote
+- Para submeter: a pessoa responsável precisa estar inscrita; use o mesmo e-mail na inscrição e na submissão
 
 PÚBLICO
 - Professoras e professores da educação básica, estudantes de graduação e pós-graduação, pesquisadoras e pesquisadores, gestoras e gestores escolares e demais profissionais da educação; alcance nacional.
@@ -94,18 +100,19 @@ PÚBLICO
 O QUE O EVENTO OFERECE (como divulgado)
 - Apresentação de trabalhos
 - Publicação nos Anais com ISBN e DOI (após avaliação; taxa de publicação de R$ 16,98 por trabalho, à parte da inscrição)
-- Certificado de 40 horas (critérios para receber: [CONFIRMAR])
+- Certificado de 40 horas, conforme anúncio da organização (critérios para receber: [CONFIRMAR])
 - Modalidades: artigo completo, resumo expandido, práticas exitosas (as normas na Even3 também citam resumo simples — [CONFIRMAR])
 
 DATAS IMPORTANTES
-- Submissões de trabalhos (e vídeo de apresentação): até 4/11/2026 — horário-limite [CONFIRMAR]
+- Submissões de trabalhos: até 4/11/2026 — horário-limite [CONFIRMAR]
+- Vídeo para quem pretende apresentar: prazo anunciado de 4/11/2026; procedimento e obrigatoriedade [CONFIRMAR]. Consulte a comissão agora; não presuma que pode esperar o parecer para preparar/enviar o vídeo
 - Resultado da avaliação: em até 5 dias úteis após a submissão
 - Pacotes com 2 ou 3 submissões: disponíveis até 5/11/2026
 - Valor atual das inscrições: até 15/11/2026; novo valor a partir de 16/11/2026
-- Programação oficial: até 25/11/2026
+- Programação: a Even3 já mostra atividades e alguns nomes; versão final e horários [CONFIRMAR]. Divulgação final prevista até 25/11/2026; não apresentar listagem parcial como programação definitiva
 - Congresso: 5 e 6/12/2026
-- Certificados: a partir de 6/12/2026
-- Anais: até 15/12/2026
+- Certificados: previstos a partir de 6/12/2026, conforme critérios confirmados
+- Anais: previstos até 15/12/2026
 
 VALORES EXIBIDOS NA EVEN3 EM 21/10/2026 (até 15/11 → a partir de 16/11)
 - Ouvinte/público geral: R$ 55,00 → R$ 60,00
@@ -118,7 +125,7 @@ CONTATO
 - WhatsApp da Comissão Organizadora: (19) 98816-7751
 - E-mail: conapsuporte@gmail.com
 - Instagram: @congressosnacionais_online
-- Página/Evento no Facebook: [CONFIRMAR URL]
+- Página/Evento no Facebook: [CONFIRMAR] — URL oficial
 
 HASHTAGS PRINCIPAIS
 #CONAFROEDU #EducaçãoAntirracista #Africanidades
@@ -137,8 +144,10 @@ NÃO AFIRMAR (ainda sem decisão da comissão)
 ### Mantenha a ficha atualizada
 
 - [ ] Depois de **4 de novembro**, troque a linha de submissões por "Submissões encerradas em 4/11" (a não ser que a comissão aprove oficialmente uma prorrogação).
-- [ ] Depois de **15 de novembro**, apague os valores antigos e deixe só os atuais.
-- [ ] Em **25 de novembro** (ou quando a programação sair), inclua horários e palestrantes confirmados.
+- [ ] No encerramento das submissões, revise **todas** as respostas rápidas, saudações, publicações agendadas e contextos salvos. A inscrição continua aberta para participação; um ingresso “+ 1 submissão” não reabre o prazo. Encaminhe exceções de autores já inscritos à comissão.
+- [ ] Depois de **5 de novembro**, retire os pacotes de 2/3 submissões das ofertas atuais e respostas salvas; guarde histórico apenas em “encerrado — não oferecer”.
+- [ ] Depois de **15 de novembro**, apague os preços antigos e mantenha só os valores atuais de participação, conferidos no checkout.
+- [ ] Quando a programação aprovada estiver disponível (previsão: **até 25 de novembro**), substitua dados provisórios por datas, horários e palestrantes confirmados.
 - [ ] Depois do evento, inclua como baixar o certificado e, quando existir, o link real dos anais.
 
 ## A voz da marca em um parágrafo
@@ -160,7 +169,7 @@ Os modelos de IA escrevem bem em português, mas costumam escorregar em três po
 | "tom de conversa entre colegas educadores" | "tom profissional" (costuma gerar jargão corporativo) |
 | Datas como **4 de novembro de 2026** no texto e **04/11** em artes | Ordem americana "11/04" — uma ambiguidade perigosa |
 | Valores como **R$ 55,00** | "R$55" ou "BRL 55" |
-| Horário como **"às 23h59, horário de Brasília"** | "meia-noite" sem data nem fuso (o Brasil tem vários fusos) |
+| Horário como **"às [CONFIRMAR], horário de Brasília"**, preenchido só após confirmação | "meia-noite" sem data nem fuso (o Brasil tem vários fusos) |
 | **"inscrição"** (participar) e **"submissão"** (enviar trabalho) bem separadas | Misturar os dois — são etapas diferentes, com prazos diferentes |
 | **"certificado de 40 horas"** | "40h de aulas ao vivo" (não está documentado) |
 
@@ -206,14 +215,16 @@ Os principais assistentes permitem salvar instruções e documentos uma única v
 
 | Ferramenta | Recurso | O que fazer | É grátis? |
 |---|---|---|---|
-| **Claude** | **Projetos** (Projects) — espaço com instruções e arquivos salvos | Crie o projeto "CONAFROEDU 2026", cole a ficha + a voz nas instruções do projeto e suba documentos aprovados (anúncio oficial, minibios aprovadas). Toda conversa dentro do projeto usa esse material. | O Claude tem plano gratuito; confira se "Projetos" aparece na barra lateral da sua conta. [Planos do Claude](https://claude.com/pricing) |
-| **Gemini** | **Gems** (sendo substituídos por **skills**) | As notas de versão do Google de 30/09/2026 dizem que as skills estão substituindo os Gems aos poucos, então você pode ver qualquer um dos dois. Crie um chamado "Redator CONAFROEDU" com a ficha e a voz nas instruções. | Conta Google gratuita; recursos variam por região. [Notas de versão do Gemini](https://gemini.google/us/release-notes/) |
+| **Claude** | **Projetos** (Projects) — espaço com instruções e arquivos salvos | Crie o projeto "CONAFROEDU 2026", cole a ficha + a voz nas instruções do projeto e suba documentos aprovados (anúncio oficial, minibios aprovadas). Toda conversa dentro do projeto usa esse material. | O plano gratuito do Claude inclui até **cinco Projetos**; os menus podem variar. [Planos do Claude](https://claude.com/pricing) |
+| **Gemini** | **Skills**; Gems antigos estão em transição | Salve ficha e voz como instruções reutilizáveis. A transição dos Gems em contas pessoais começa em **novembro de 2026**; siga a [configuração](setup-tools.md#gems) disponível na conta. | Skills exigem **18 anos ou mais**, conta pessoal e **Manter atividade ativado**; não exigem assinatura Google AI. [Requisitos](https://support.google.com/gemini/answer/17094296?hl=en) · [Transição](https://support.google.com/gemini/answer/18560919?hl=en) |
 | **Gemini Notebook** (que muita gente conhece como **NotebookLM**) | Um caderno que responde **só com base nas fontes que você enviar**, com citações | Suba a ficha, as normas e as minibios aprovadas. Peça FAQs e minibios — cada resposta aponta o trecho da fonte. O plano gratuito lista 100 cadernos e 50 fontes por caderno. | Sim. [Planos e limites](https://support.google.com/gemininotebook/answer/16213268?hl=en) · [Ajuda em português](https://support.google.com/gemininotebook/answer/16206563?hl=pt-BR) |
-| **ChatGPT** | **GPTs personalizados** (a OpenAI está migrando parte dos clientes corporativos para "plugins") | Se aparecer na sua conta, crie um GPT com a ficha como instrução. Se não, use a alternativa abaixo. | Varia por plano. [Orientação da OpenAI](https://learn.chatgpt.com/docs/migrate-custom-gpts) |
+| **ChatGPT** | Ficha compartilhada; migração de GPT existente, se necessário | Cole a ficha atual + a voz numa conversa nova. Contas pessoais Free/Go/Plus/Pro não podem criar novos GPTs. Os existentes têm encerramento previsto para **11 de dezembro de 2026**; migração e acesso a plugins dependem do aviso da conta. | Não é preciso assinar para colar a ficha no chat. [Regras de criação](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts) · [FAQ de encerramento](https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq) |
 | **Qualquer assistente** | **Alternativa universal** | Guarde a ficha num Google Docs/Word compartilhado chamado "FICHA OFICIAL — versão DD/MM" e cole no topo de cada conversa nova. | Sempre funciona |
 
 > [!WARNING]
 > Um projeto ou Gem salvo **não se atualiza sozinho**. Quando um fato mudar (por exemplo, o valor da inscrição a partir de 16/11), atualize o documento oficial **e** todos os projetos/Gems/GPTs. Anote onde existem cópias, para não deixar um preço antigo rodando em algum deles.
+
+Para o FAQ baseado só em fontes aprovadas, abra a **interface independente do Gemini Notebook**, não a conversa do caderno dentro do Gemini comum. No painel de fontes, selecione apenas ficha, normas e minibios aprovadas; não use conversas sincronizadas do Gemini nem respostas anteriores de IA como fonte oficial. Abra cada citação e confira o trecho. O Google [explica a diferença entre as interfaces](https://support.google.com/gemininotebook/answer/17003757?hl=en). Siga a [configuração das ferramentas](setup-tools.md) antes de criar Projetos, skills ou cadernos.
 
 ### Prompt inicial para um Gemini Notebook
 

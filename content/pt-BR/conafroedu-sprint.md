@@ -29,7 +29,7 @@ Isso muda tudo. Na prática, são **duas campanhas seguidas**:
 
 | Data | O que acontece | O que a equipe faz |
 |---|---|---|
-| **Qua 21/10** | Início do plano | Reunião de partida; enviar a lista de decisões à comissão; publicar a chamada de trabalhos |
+| **Qua 21/10** | Início do plano | Reunião inicial; enviar a lista de decisões; preparar a chamada aprovada para **sex 23/10** |
 | **Qua 28/10** | Falta 1 semana para o fim das submissões | Publicação "faltam 7 dias" com checklist para autores |
 | **Dom 1/11** | Faltam 3 dias | Lembrete curto + ajuda "como submeter" |
 | **Ter 3/11** | Falta 1 dia | Um último lembrete útil, nos canais permitidos |
@@ -38,7 +38,7 @@ Isso muda tudo. Na prática, são **duas campanhas seguidas**:
 | **Dom 15/11** | Último dia do valor atual de inscrição | Lembrete honesto (depois de conferir o valor no pagamento) |
 | **Seg 16/11** | Novos valores (R$ 60 a R$ 75) | Atualizar a ficha e todas as publicações agendadas |
 | **Sex 20/11** | **Dia Nacional de Zumbi e da Consciência Negra** (feriado nacional) | Uma contribuição educativa de verdade — não uma publicação de venda |
-| **Qua 25/11** | Prazo da programação oficial | Publicar (ou explicar um atraso com transparência) |
+| **Até qua 25/11** | Previsão da programação final; já há atividades na Even3 | Publicar a versão aprovada quando sair, ou notícia confirmada do andamento |
 | **Sáb 28/11** | Faltam 7 dias para o congresso | Arte "Faltam 7 dias" |
 | **Qui 3 – Sex 4/12** | Reta final | Um convite final principal; FAQ de acesso e suporte |
 | **Sáb 5 – Dom 6/12** | **CONAFROEDU 2026**, 100% on-line | Suporte, moderação, destaques autorizados |
@@ -56,10 +56,12 @@ Uma equipe voluntária pequena funciona melhor quando toda tarefa tem **um nome*
 |---|---|---|
 | **Coordenação** | A [ficha oficial](prompting-basics.md#a-ficha-oficial-do-conafroedu); o diálogo com a comissão organizadora/científica; conferir a Even3; aprovar publicações; a reunião semanal | 2–3 h |
 | **Conteúdo/Design** | Modelos no Canva, legendas rascunhadas com IA, Reels, texto alternativo, o [kit de marca](brand-kit.md) | 3–5 h |
-| **Redes/Comunidade** | Agendamento no Meta Business Suite, Página e Evento no Facebook, Stories, caixa de entrada e WhatsApp Business, publicações em grupos com autorização da moderação | 3–4 h + 15 min por dia |
+| **Redes/Comunidade** | Agendamento no Meta Business Suite, Página e Evento no Facebook, Stories, caixa de entrada e WhatsApp Business, publicações em grupos com autorização da moderação | 3–4 h + cerca de 15 min por dia, em duas checagens |
 | **Parcerias** | NEABs/NEABIs, programas de pós-graduação, associações, kits de divulgação para palestrantes, retornos | 2–3 h |
 
 A **comissão** (organizadora/científica) não é uma função de divulgação, mas é ela quem toma as decisões listadas [mais abaixo](#decisões-que-a-comissão-precisa-confirmar). A divulgação nunca anuncia algo que a comissão ainda não decidiu.
+
+**Plano completo:** cerca de **12 a 17 horas-pessoa/semana**, somando a equipe e as checagens diárias. Reuniões contam para cada participante; prazos e dias do congresso precisam de cobertura adicional combinada. Se houver só **5 a 7 horas-pessoa**, use o plano mínimo abaixo e adie Reel, modelos extras e canais novos.
 
 ### As duas regras de todo mundo
 
@@ -68,7 +70,7 @@ A **comissão** (organizadora/científica) não é uma função de divulgação,
 
 ## Rotina diária e semanal
 
-- **Todo dia (15–20 min), Redes/Comunidade:** olhar a caixa de entrada da Página, os comentários, a discussão do Evento e o WhatsApp Business nos horários combinados. Responder com as respostas rápidas aprovadas; passar para a Coordenação tudo o que envolver pagamento, certificado, acessibilidade ou casos pessoais. Veja [Respostas e caixa de entrada](replies-inbox.md).
+- **Todo dia (duas checagens, cerca de 15 min no total), Redes/Comunidade:** olhar a caixa de entrada da Página, os comentários, a discussão do Evento e o WhatsApp Business nos horários combinados. Responder com as respostas rápidas aprovadas; passar para a Coordenação tudo o que envolver pagamento, certificado, acessibilidade ou casos pessoais. Veja [Respostas e caixa de entrada](replies-inbox.md).
 - **Toda segunda-feira (30 min), todo mundo:** olhar os números — inscrições confirmadas por categoria, submissões, cliques no link, dúvidas mais frequentes — e combinar as publicações da semana. Veja [Medindo resultados](measuring-results.md).
 - **Ritmo de publicação:** cerca de **3 publicações de conteúdo por semana no Facebook**, Stories adaptados e lembretes extras só perto de prazos reais. Adapte as melhores peças para Instagram e WhatsApp ([Instagram e WhatsApp](instagram-whatsapp.md)). Mais não é melhor se a equipe não consegue revisar.
 
@@ -78,7 +80,7 @@ A **comissão** (organizadora/científica) não é uma função de divulgação,
 
 **Coordenação**
 
-- [ ] Fazer uma reunião de partida de 45 minutos: distribuir as quatro funções, combinar a regra dos "quatro olhos" e quem fala em nome da comissão.
+- [ ] Fazer uma reunião inicial de 45 minutos: distribuir as quatro funções, combinar a regra dos "quatro olhos" e quem fala em nome da comissão.
 - [ ] Enviar à comissão a [lista de decisões](#decisões-que-a-comissão-precisa-confirmar) — principalmente o **horário-limite de 4/11**, a **regra de apresentação** e a questão do **vídeo de apresentação**.
 - [ ] Criar o documento compartilhado "FICHA OFICIAL" a partir da [ficha](prompting-basics.md#a-ficha-oficial-do-conafroedu).
 - [ ] Abrir a página da Even3 no celular: as normas, os valores e o contato batem com a ficha? Listar as divergências para a comissão.
@@ -94,7 +96,7 @@ A **comissão** (organizadora/científica) não é uma função de divulgação,
 
 - [ ] Configurar ou arrumar a Página no Facebook ([Manual do Facebook orgânico](facebook-playbook.md)) e criar **um único** Evento oficial: "CONAFROEDU 2026 — Congresso Nacional de Africanidades na Educação | On-line" ([Eventos e Grupos](facebook-events-groups.md)).
 - [ ] Publicar e **fixar** a chamada de trabalhos. Agendar as 3 próximas publicações no Meta Business Suite ([Ferramentas de agendamento](scheduling-tools.md)).
-- [ ] Instalar o WhatsApp Business no celular da organização e salvar respostas rápidas: `/submissao`, `/valores`, `/certificado`, `/acesso`, `/humano` — só com fatos aprovados.
+- [ ] Perguntar à pessoa titular do número se o WhatsApp Business já está configurado. Se for transferir do Messenger, a titular faz backup e verificação seguindo a [configuração](setup-tools.md); teste o recebimento. Salvar este subconjunto de [Respostas e caixa de entrada](replies-inbox.md): `/prazo`, `/comosubmeter`, `/valores`, `/certificado`, `/acesso`, `/humano`; acrescentar `/video` durante a chamada. Usar as cinco etiquetas oficiais dali, incluindo **Não enviar divulgação**.
 
 **Parcerias**
 
@@ -114,8 +116,8 @@ A **comissão** (organizadora/científica) não é uma função de divulgação,
 
 **Conteúdo/Design**
 
-- [ ] Seg: carrossel "Como submeter em 5 passos" (inscrição → leitura das normas → PDF → submissão → resultado da avaliação em até 5 dias úteis).
-- [ ] Qua **28/10**: checklist "faltam 7 dias" para autores.
+- [ ] Seg: carrossel "Como submeter em 5 passos" (inscrição com o mesmo e-mail da submissão → normas → PDF → envio → acompanhar parecer/correções, em até cinco dias úteis). Incluir o prazo separado de **4/11 para o vídeo** de quem pretende apresentar: consultar a comissão agora, sem presumir que o vídeo pode esperar o parecer.
+- [ ] Qua **28/10**: checklist "faltam 7 dias" para autores, **substituindo** a outra peça do dia.
 - [ ] Sex: um Reel curto — uma professora explicando uma prática real de sala de aula que pode virar um relato de *práticas exitosas* (com autorização por escrito; nada de exemplo inventado apresentado como real).
 - [ ] Dom **1/11**: lembrete "faltam 3 dias" com o contato para dúvidas.
 
@@ -137,11 +139,11 @@ A **comissão** (organizadora/científica) não é uma função de divulgação,
 
 **Dias-chave**
 
-- [ ] **Seg 2/11 — Conteúdo/Design + Redes:** publicação "Antes de submeter" (PDF, A4, mesmo e-mail na inscrição e na submissão, autor responsável inscrito).
+- [ ] **Seg 2/11 — Conteúdo/Design + Redes:** [feriado nacional de Finados](https://www.planalto.gov.br/ccivil_03/leis/2002/l10607.htm); agendar antes e divulgar só horários de atendimento realmente cobertos. Publicação "Antes de submeter" (PDF, A4, mesmo e-mail na inscrição e na submissão, autor responsável inscrito).
 - [ ] **Ter 3/11 — Redes:** um último lembrete nos canais permitidos, com o horário-limite confirmado.
 - [ ] **Qua 4/11 — Redes + Coordenação:** plantão de dúvidas no último dia (divulgar o horário); um lembrete final pela manhã. Nada de contagem regressiva de hora em hora.
 - [ ] **Qui 5/11 — Redes:** tirar ou editar toda chamada de submissão: publicação fixada, descrição do Evento, destaques dos Stories, publicações agendadas, respostas rápidas do WhatsApp, kits de parceiros. Trocar por "Submissões encerradas em 4/11 — inscrições para ouvintes abertas" (a não ser que tenha sido aprovada uma prorrogação oficial).
-- [ ] **Qui 5/11 — Coordenação:** atualizar a ficha.
+- [ ] **Qui 5/11 — Coordenação:** atualizar a ficha e revisar todo FAQ, saudação e contexto salvo. Depois de **5/11**, retirar os pacotes vencidos de 2/3 submissões das ofertas atuais. Ingresso “+ 1 submissão” não reabre prazo; encaminhar dúvidas de autores já inscritos a uma pessoa.
 
 **Resto da semana**
 
@@ -157,7 +159,7 @@ A **comissão** (organizadora/científica) não é uma função de divulgação,
 - [ ] **Conteúdo/Design:** uma publicação educativa que ajude professoras e professores na sala de aula (por exemplo, uma pergunta sobre currículo e ERER — Educação para as Relações Étnico-Raciais), com um link discreto para a programação.
 - [ ] **Conteúdo/Design:** apresentação de palestrantes confirmados (só com minibio e foto aprovadas).
 - [ ] **Conteúdo/Design:** explicação sobre o certificado — **só depois que a comissão confirmar as condições**. Use a redação cuidadosa de [Redação com IA](copywriting.md).
-- [ ] **Redes:** lembrete de valor cerca de uma semana antes (seg 9 ou ter 10/11) e outro perto da mudança (sex 13 ou sáb 14/11): "O valor muda em 16/11." Nada de "últimas vagas".
+- [ ] **Redes:** lembretes de valor **só em Stories/Canal do WhatsApp**, em **10 e 14/11**, sem publicações extras no feed: "O valor muda em 16/11." Nada de "últimas vagas".
 - [ ] **Parcerias:** enviar kits por público para divulgar as inscrições (um voltado a docentes e outro a estudantes).
 
 ## Semana 4 — seg 16 a dom 22/11: Novembro Negro e 20 de novembro
@@ -177,7 +179,7 @@ A **comissão** (organizadora/científica) não é uma função de divulgação,
 
 **Objetivo:** quem se inscreveu sabe exatamente quando e como entrar.
 
-- [ ] **Qua 25/11 — Coordenação + Redes:** publicar a programação oficial (data prevista na divulgação). Se atrasar, avise e informe a nova data.
+- [ ] **Até qua 25/11 — Coordenação + Redes:** publicar a programação final aprovada assim que disponível. A Even3 já lista atividades e alguns palestrantes; confirme datas, horários e sobreposições antes de divulgar roteiros. Se a versão final atrasar, dê notícia confirmada e nova data apenas se a comissão informar.
 - [ ] **Conteúdo/Design:** roteiros por público — "3 sessões para quem é professora da educação básica", "para quem está na pós-graduação" — só com a programação confirmada.
 - [ ] **Coordenação:** confirmar com a comissão: plataforma de transmissão, como os inscritos recebem o acesso, gravações, recursos de acessibilidade, horários de suporte durante o evento e a configuração dos certificados na Even3.
 - [ ] **Conteúdo/Design:** arte de FAQ "Como acessar" e atualização no Evento.
@@ -215,8 +217,8 @@ A divulgação não consegue responder a isto sozinha. Até cada item ser decidi
 | 4 | O **resumo simples** é aceito? | As normas citam; o FAQ e o anúncio, não | Ter 27/10 |
 | 5 | **Prorrogação** de prazo: sim ou não? | Precisa ser decidida e configurada na Even3 antes de qualquer anúncio | No máximo seg 2/11 |
 | 6 | **Pacotes de 2/3 submissões** à venda até 5/11 com submissões encerrando em 4/11 | Quem compra pode achar que dá para submeter no dia 5 | Sex 30/10 |
-| 7 | **Certificado de 40 horas**: quem tem direito, que participação é exigida, como é emitido | É a dúvida mais comum; não pode ser inventada | Seg 9/11 |
-| 8 | **Publicação**: a taxa de R$ 16,98 é por trabalho ou por autor? Editora e processo do DOI? | Autores precisam do custo e do processo completos | Seg 9/11 |
+| 7 | **Certificado de 40 horas**: se as horas anunciadas valem para cada categoria, quem tem direito, presença exigida e emissão | É a dúvida mais comum; não pode ser inventada | Seg 9/11 |
+| 8 | **Publicação**: procedimento/prazo de pagamento, responsável editorial e entrega do DOI; a taxa anunciada de R$ 16,98 é **por trabalho** | Autores precisam do custo e do processo antes de aprovar a chamada | Ter 27/10 |
 | 9 | **Página/Evento oficial no Facebook** e quem administra | Não encontramos Página verificada | Agora |
 | 10 | **Plataforma de transmissão, acesso, gravações, acessibilidade** (Libras, legendas) | Necessário para as publicações de "como participar" | Seg 23/11 |
 | 11 | **Palestrantes**: lista final, minibios aprovadas, autorização de imagem | Nenhuma publicação de palestrante sem aprovação | Contínuo, até 25/11 |
@@ -244,7 +246,7 @@ Imprevistos acontecem — gente adoece, as aulas acumulam. Se a equipe só der c
 
 1. **Manter os fatos certos.** Ficha atualizada; nenhuma data ou valor errado em lugar nenhum.
 2. **Responder as pessoas.** Checagem diária da caixa de entrada e do WhatsApp. Uma dúvida sem resposta perde uma inscrição mais rápido do que uma publicação que deixou de sair.
-3. **Uma publicação por data-chave:** 28/10, 3/11, 4/11, 5/11 (virada), 14/11, 20/11, 25/11, 28/11, 3/12, 6/12 (certificados).
+3. **Uma publicação por data-chave:** 23/10 (primeira chamada), 28/10, 3/11, 4/11, 5/11 (virada), 14/11, 20/11, programação final quando aprovada (prevista até 25/11), 28/11, 3/12, 6/12 (certificados).
 4. **Dez convites pessoais a parceiros** — costumam render mais do que dez publicações genéricas.
 5. **Deixe de lado** animações, vídeo gerado por IA e canais novos. Uma arte clara no Canva com uma foto real basta.
 

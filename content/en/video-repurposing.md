@@ -50,7 +50,7 @@ Write a short, friendly message in Brazilian Portuguese from the organizing comm
 |---|---|---|---|
 | **Before — submissions** | Now → **4 Nov** | Organizers explaining submission types; an author explaining why they're submitting | "Como submeter um resumo expandido", author testimonial Reels |
 | **Before — registrations** | 5 Nov → 4 Dec | Speaker phone invitations; warm-up Live; short Q&A answers | Speaker invitation Reels, Live, quote cards |
-| **20 Nov push** | Around **20 Nov** (Consciência Negra) | A speaker or educator on year-round anti-racist practice | One reflective Reel + registration CTA (not a submission CTA) |
+| **20 Nov push** | Around **20 Nov** (Consciência Negra) | A speaker or educator on year-round anti-racist practice | One reflective Reel + educational question; optional attendance invitation in a separate post (not a submission CTA) |
 | **During** | **5–6 Dec** | Talks (if authorized), live reactions, behind-the-scenes of the online room | Stories, "acontecendo agora" posts, short live highlights |
 | **After** | 6 Dec → January | Clips from talks, thank-you messages, certificate/proceedings reminders | 3–6 Reels per authorized talk, carousels, WhatsApp digests |
 
@@ -83,19 +83,21 @@ Authors submitting papers (and the presenter video due by **4 November**, for th
 
 One rehearsed 15–25-minute conversation before the congress is enough. Suggested run-of-show: 2 min introductions → 10 min on one real practice or research question → 5 min answering questions collected in advance → 2 min on how to register (or submit, while open). Title it clearly, e.g. **"Conversa de aquecimento — CONAFROEDU"**, so nobody confuses it with the congress itself.
 
+Before installing an editor, OBS or configuring a streaming destination, follow [Set up your tools](setup-tools.md#capcut). Start with the editor you already know.
+
 ## During: Lives and streaming
 
 ### Which route to use
 
 | Route | Cost | Requirements and caveats |
 |---|---|---|
-| **Facebook Live / Live Producer** (native) | Free | Meta's eligibility rules apply. StreamYard's documentation describes them as: a Facebook account **at least 60 days old**, a Page/professional profile with **at least 100 followers**, and permission to create content on the Page ([StreamYard help](https://support.streamyard.com/hc/en-us/articles/360043291412-Connect-a-Facebook-Page)). Rehearse before announcing. |
+| **Facebook Live / Live Producer** (native) | Free | [Meta’s eligibility rules](https://www.facebook.com/help/1636872026560015) require: a Facebook account **at least 60 days old**, a Page/professional profile with **at least 100 followers**, and permission to create content on the Page ([Meta help](https://www.facebook.com/help/1636872026560015)). Rehearse before announcing. |
 | **StreamYard → Facebook + YouTube at once** | **Paid plans** (a 7-day trial is not a free plan) | Multistreaming is a paid feature ([StreamYard](https://support.streamyard.com/hc/en-us/articles/360045622851-How-to-Multi-stream)). Check monthly price before committing. |
 | **StreamYard → existing Facebook Event (RTMP)** | Plan-dependent | Facebook comments and viewer counts are **not** imported into the studio — assign a moderator inside Facebook ([StreamYard](https://support.streamyard.com/hc/en-us/articles/360059249772-Connect-an-existing-Facebook-Event)). Keep the stream key private. |
 | **YouTube Live, linked from Facebook** | Free | Requires channel verification and enabling live streaming in advance ([YouTube help](https://support.google.com/youtube/answer/2474026)). Good fallback if the Facebook Page isn't eligible. |
 
-> [!WARNING] A brand-new Page can't go live in time
-> A Facebook account created today can't reach 60 days before 5 December. Stream through an established, authorized organizer's account and grow genuine Page followers — or use the YouTube fallback and share the link. Don't buy followers or borrow accounts.
+> [!WARNING] A personal account created today will not reach 60 days before the congress
+> A Facebook account created today can't reach 60 days before 5 December. A new Page managed by an established authorized account may qualify once it reaches 100 genuine followers and meets the other requirements. Test the actual destination in Live Producer before announcing, or use the YouTube fallback. Don't buy followers or borrow accounts.
 
 **Also:** the old Facebook **Watch Party** button was retired in 2021. If you want a "watch together" moment in a Group, simply agree a time with the admins, share the public Live or YouTube link, and have someone lead the discussion in the comments.
 
@@ -213,7 +215,7 @@ Consider AI dubbing only if it clearly improves access **and** the speaker appro
 
 | Tool | What it does | Free? | Rights caveat |
 |---|---|---|---|
-| **HeyGen** | Video translation with lip-sync; distinguishes **Portuguese (Brazil)** from Portugal ([languages](https://help.heygen.com/en/articles/11391941-video-translation-languages-we-support)) | 1–3 watermarked videos/month (varies by region) | Digital twins require a consent recording from the actual person |
+| **HeyGen** | Video translation with lip-sync; distinguishes **Portuguese (Brazil)** from Portugal ([languages](https://help.heygen.com/en/articles/11391941-video-translation-languages-we-support)) | Limited translation trial: [three videos total, up to three minutes](https://help.heygen.com/en/articles/12095329-how-dynamic-non-dynamic-limits-work-at-heygen), not a monthly quota; check the account counter | Digital twins require a consent recording from the actual person |
 | **ElevenLabs Dubbing** | Translated voice track | Yes, watermarked | **Free plan has no commercial license** — don't use Free for the campaign |
 | **Descript** | Translation and dubbing on some plans | Limited | Check plan and Portuguese support first |
 
@@ -237,7 +239,7 @@ AI avatar tools (HeyGen, Synthesia, Captions) can turn a script into a talking p
 
 - **A real person's digital twin** needs their explicit, separate consent for that specific use. HeyGen requires a consent recording from the person — that's the tool's check, not a replacement for your own written agreement.
 - **Stock avatars** have their own terms. Synthesia, for example, requires express permission for stock avatars in paid/promoted ads; organic permission doesn't automatically cover a later boost.
-- **Free plans** usually watermark exports; HeyGen Free is 1–3 videos/month up to 1 minute; Synthesia lists a free Basic plan (current minute allowance unclear).
+- **Free plans** usually watermark exports; [HeyGen Free](https://www.heygen.com/pricing) lists three creation videos/month up to one minute (different from the translation trial); Synthesia lists a free Basic plan (current minute allowance unclear).
 - Label it: **"Apresentador virtual. Texto revisado pela organização."** and use Meta's AI label.
 - **Never** present an avatar as a real speaker, author or participant.
 
@@ -249,9 +251,9 @@ AI avatar tools (HeyGen, Synthesia, Captions) can turn a script into a talking p
 | **Meta Sound Collection** | ✅ For Facebook/Instagram | Meta describes it as cleared for commercial uses, unlike the regular music library ([Meta help](https://www.facebook.com/help/instagram/402084904469945)). Check the track; don't assume the same file is cleared for WhatsApp or YouTube. |
 | **Trending Instagram/Facebook songs** | ⚠️ Avoid for promotion | The regular library is for personal/non-commercial use. |
 | **CapCut "commercial" sounds** | ⚠️ Not for Meta | CapCut's current terms limit Commercial Sounds to CapCut/TikTok/TikTok for Business unless separately cleared. |
-| **Suno (AI music)** | ⚠️ Paid plans only | Free has no downloads and no commercial rights. Paid plans grant commercial use for songs downloaded while subscribed. |
-| **Udio** | ❌ | Downloads were disabled in 2026. |
-| **Original/commissioned music** | ✅ With a written agreement | A great way to involve Black Brazilian musicians — pay or credit fairly and record the permissions. |
+| **Suno (AI music)** | ⚠️ Paid plans only | Free may offer [trial downloads](https://help.suno.com/en/articles/13876865), **without commercial rights**. Download availability is not permission to promote the congress. Check the track’s commercial license and subscription/download conditions; with no budget, use speech only or a cleared Meta Sound Collection track. |
+| **Udio** | ❌ | Downloads are disabled; do not plan a campaign export around it. |
+| **Original/commissioned music** | ✅ With a written agreement | A great way to involve Black Brazilian musicians — agree payment and credit separately, and record permissions; visibility is not payment. |
 
 ## Final checklist
 

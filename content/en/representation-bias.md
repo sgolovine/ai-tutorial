@@ -38,7 +38,7 @@ The studies below tested specific models and versions, so treat them as **eviden
 |---|---|---|
 | Luccioni et al., [*Stable Bias*](https://arxiv.org/abs/2303.11408) (NeurIPS 2023) | DALL·E 2 and Stable Diffusion underrepresented marginalized identities across professions | Older models; US categories |
 | AlDahoul, Rahwan & Zaki, [*Scientific Reports*](https://doi.org/10.1038/s41598-025-99623-3) (2025) | AI faces reinforced gender stereotypes and **homogenized** faces within racial groups; viewing them shifted people's perceptions **even when the images were labelled AI-generated** | A disclosure label alone does not undo the harm |
-| Wilson, Ghosh & Caliskan, [AIES 2024](https://arxiv.org/abs/2508.17465) | Stable Diffusion linked darker skin tones and homogeneity to stigmatized identities | Not "models always lighten skin"; the harm is in associations |
+| Wilson, Ghosh & Caliskan, [AIES 2024](https://arxiv.org/abs/2508.17465) | Stable Diffusion associated stigmatized identities with particular skin tones; SDXL produced darker and less variable skin tones in the study comparisons | About **skin-tone** homogeneity, not facial shape; older models |
 | Wang et al., [*Generative AI So White*](https://journals.sagepub.com/doi/10.1177/10755470261428542) (*Science Communication*, 2026) | Across 9,600 images from four models, whiteness dominated not only in numbers but in **position and meaning**: who is centered, who has authority | Count who is in charge, not just who appears |
 | Balestri, [*Neutral Prompts, Non-Neutral People*](https://arxiv.org/abs/2602.12133) (2026 preprint) | Neutral prompts in GPT Image 1.5 and Gemini 2.5 Flash Image produced strong light-skin defaults | Predecessors of today's ChatGPT/Gemini models |
 | [*Social stereotypes in AI text-to-image generation*](https://link.springer.com/article/10.1007/s43681-026-01146-8) (2026) | Midjourney 6.1, Stability Core and DALL·E 3 showed occupational, cultural and beauty stereotypes; refined prompts reduced them but could weaken accuracy | Prompting helps, partially |
@@ -82,13 +82,13 @@ Choose visuals in this order. Move down the list only when the option above is n
 
 Ask each speaker for: the original photo file, the preferred credit for the photographer, an approved caption, where it may be used (Facebook, Instagram, WhatsApp, Even3), and **whether it may be uploaded to an AI tool**. Permission to publish a portrait does not automatically include permission to send it to an AI service.
 
-### Finding and commissioning Black Brazilian creatives
+### Finding Black Brazilian professionals and commissioning creatives
 
 | Route | What we verified | How to use it |
 |---|---|---|
 | [PretUX](https://www.pretux.com.br/) | Community of Black professionals in UX, design and technology; its ["Quero ajudar"](https://www.pretux.com.br/quero-ajudar/) page offers hiring through a catalogue of Black designers | Use the official form; say exactly what you need (illustration, lettering, motion); UX skill ≠ illustration skill |
 | PretADG / [ADG Brasil](https://adg.org.br/slider/slide-2/) | The initiative's page exists (2017) | Ask ADG whether a current referral route exists |
-| Individual portfolios, e.g. [Leandro Assis](https://lebassis.com/about), [Aline Bispo](https://alinebispo.art/perfil/) | Brazilian artists with professional contact routes | Examples of the kind of work to look for, not confirmed availability. Contact their professional channels; their existing works are not free campaign assets |
+| Individual Brazilian portfolios, e.g. [Aline Bispo](https://alinebispo.art/perfil/) | A professional portfolio; this link alone does not establish racial self-identification | Research the work and authorized bio; do not infer race from a name, portrait or subject matter. Availability and licensing require agreement |
 
 > [!WARNING]
 > **Never prompt an AI to imitate a living artist's style** ("in the style of [artist]"). It takes their work without consent or pay, exactly the extraction anti-racist practice criticizes. Commission them instead, or use your own style description.
@@ -112,7 +112,7 @@ A licence is about *use*; authenticity is about *who and where*. A Black model i
 | **[Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia)** | Files with item-level provenance, e.g. [Nilma Lino Gomes at the 2010 National Quilombola Education Seminar](https://commons.wikimedia.org/wiki/File:Nilmalino.jpg) (Eliza Fiúza/ABr, CC BY 3.0 Brasil) | Depends on each file's licence; CC BY requires credit, licence link and noting changes. Use only in an accurately captioned educational context, never implying the person is a speaker or supporter |
 | **[Nappy](https://nappy.co/license)** | Free photos focused on Black and Brown people (international) | Yes: CC0, commercial use and edits allowed. No implied endorsement; no degrading use. Not a Brazilian collection |
 | **[Pexels](https://www.pexels.com/license/)** | Free photos and video | Yes, promotional use allowed; no implied endorsement. Not specialized; search labels don't prove ethnicity or nationality |
-| **[Brasil com S](https://www.brasilcoms.com.br/termosdeuso)** (Lab 678) | Real Brazilian scenes and people | **No.** Free use is editorial only, excluding commercial and promotional use, and editing is prohibited. Contact them for custom production |
+| **[Brasil com S](https://www.brasilcoms.com.br/termosdeuso)** | Real Brazilian scenes and people | **No.** Free use is editorial only, excluding commercial and promotional use, and editing is prohibited. Contact them for custom production |
 
 > [!NOTE]
 > A generic "banco de imagens afro" could not be verified as a specific provider with a clear licence, and AFROPIXEL's terms for free authentic photography could not be confirmed. Do not use them until you have checked the current terms yourself. Old Agência Brasil licences also do not cover every current EBC image; check each file.
@@ -137,11 +137,12 @@ Contemporary editorial illustration, clearly not a documentary photograph. Three
 
 Specific roles ("presents", "organizes") help keep authority with the people you intend. Vary roles across the campaign instead of repeating one hierarchy, and reject outputs that still clone faces or shift authority.
 
-**Preserving a real person's identity (prefer a normal crop tool for this)**
+**Preserving a real person’s identity: manual editing checklist**
 
-```prompt
-Use only the approved, authorized portrait of [name] for this layout. Preserve skin tone, facial features, hair texture and volume, age and personal marks. Adjust only framing and exposure, naturally; leave an area outside the photo for the name. Do not straighten hair, slim features, lighten skin or reconstruct the face. If the request would require changing identity, say so. The text will be added and checked separately.
-```
+- Use the approved original in an ordinary, **non-generative** crop/layout editor.
+- Adjust crop and exposure only as authorized; compare with the original side by side.
+- Preserve skin tone, features, hair, age and personal marks. Do not use AI enhancement, reconstruction or beautification.
+- Put the name outside the photo and check it separately. If an external AI upload is proposed for another task, obtain separate permission first.
 
 **Culturally specific session: consult before drawing**
 
@@ -160,7 +161,7 @@ Analyze this image as support for a human review: who is at the center, who teac
 
 ## Religious and cultural symbols: handle with care
 
-No controlled study has measured how accurately AI models depict orixás, Candomblé, Umbanda or Adinkra. Assume they get it wrong, and that a plausible-looking error is worse than no symbol.
+This review did not establish a robust controlled benchmark for current models’ accuracy with orixás, Candomblé, Umbanda or Adinkra. Do not presume accuracy; consult the relevant knowledge-holders before depicting culturally specific material.
 
 - **Candomblé and Umbanda** are distinct religious traditions, not interchangeable labels or a standard set of images. A congress on Africanidades is not a religious congress, and being Black says nothing about a person's religion. Brazil's [national policy for traditional terreiro and African-matrix communities](https://www.gov.br/igualdaderacial/pt-br/assuntos/programas-e-projetos/politica-nacional-para-povos-e-comunidades-tradicionais-de-terreiro-e-matriz-africana/politica-nacional-para-povos-e-comunidades-tradicionais-de-terreiro-e-matriz-africana) emphasizes respect for their knowledge, practices and participation.
 - **Orixás and sacred objects** must never be decorative backgrounds, mascots or sales imagery. If a specific session needs them, consult an appropriate practitioner about names, attributes, context and what must not be shown. One person cannot speak for every terreiro. Avoid anything that whitens, demonizes, sexualizes or turns sacred figures into fantasy characters. Do not generate them with AI.

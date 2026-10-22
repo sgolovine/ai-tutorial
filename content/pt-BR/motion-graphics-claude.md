@@ -25,12 +25,12 @@ O Claude não "filma" nada. O que ele faz é **escrever uma pequena página da w
 
 ## Veja o resultado primeiro
 
-As duas animações abaixo foram feitas para este guia exatamente do jeito que vamos ensinar: arquivos HTML autocontidos, que funcionam sem internet, depois exportados em MP4. As duas usam a paleta terracota/ocre e formas geométricas simples de papel, sem símbolos culturais ou religiosos como enfeite.
+As duas animações abaixo foram feitas para este guia exatamente do jeito que vamos ensinar: arquivos HTML autocontidos, que funcionam sem internet, depois exportados em MP4. As duas usam uma paleta terracota/ocre **alternativa, só de exemplo** (não é a identidade oficial; siga o [kit de marca](brand-kit.md) aprovado pela comissão) e formas geométricas simples de papel, sem símbolos culturais ou religiosos como enfeite.
 
 | Contagem "Faltam 7 dias" (12 s) | Citação em tipografia cinética (14 s) |
 |---|---|
 | ![Prévia animada: formas de papel caem na tela e o texto "CONAFROEDU 2026 – Faltam 7 dias – 5 e 6 de dezembro de 2026 – 100% online – Inscreva-se pelo Even3" aparece em etapas sobre fundo creme](/images/motion-countdown-preview.gif) | ![Prévia animada: sobre fundo terracota, as palavras do art. 26-A da LDB aparecem uma a uma, com "obrigatório" e "história e cultura afro-brasileira e indígena" destacados em ocre, seguidas da fonte e das datas do CONAFROEDU](/images/motion-quote-preview.gif) |
-| [Abrir o HTML](/examples/countdown.html) · [Baixar o MP4](/examples/countdown.mp4) (1080×1920, 0,7 MB) | [Abrir o HTML](/examples/quote.html) · [Baixar o MP4](/examples/quote.mp4) (1080×1920, 0,4 MB) |
+| [Abrir o HTML](/examples/countdown.html) · [Baixar o MP4](/examples/countdown.mp4) (1080×1920, 30 fps) | [Abrir o HTML](/examples/quote.html) · [Baixar o MP4](/examples/quote.mp4) (1080×1920, 30 fps) |
 
 Teste a contagem com outros números acrescentando `?dias=` ao endereço: [15 dias](/examples/countdown.html?dias=15), [1 dia](/examples/countdown.html?dias=1). Acrescente `&guias=1` para ver as margens seguras (explicamos em [Problemas comuns](#problemas-comuns-e-soluções)). Aperte <kbd>F5</kbd> para assistir de novo.
 
@@ -98,11 +98,11 @@ Texto exato na tela (não acrescente, não traduza, não altere nada):
 "dias"
 "Desenvolvimento, Participação e Educação Antirracista"
 "5 e 6 de dezembro de 2026"
-"100% online"
+"100% on-line"
 "Inscreva-se pelo Even3"
 "link na legenda"
 
-Tempo: uma animação de 12 segundos e depois congela no último quadro (sem loop). 0–2 s entram as formas e o título; 2–5 s "Faltam 7 dias"; 5–8 s tema, data e "100% online"; 8–12 s o convite. Movimento em poses, 8 poses por segundo, como stop-motion. Sem flashes.
+Tempo: uma animação de 12 segundos e depois congela no último quadro (sem loop). 0–2 s entram as formas e o título; 2–5 s "Faltam 7 dias"; 5–8 s tema, data e "100% on-line"; 8–12 s o convite. Movimento em poses, 8 poses por segundo, como stop-motion. Sem flashes.
 Todo o texto dentro de uma área segura: 14% no topo, 22% embaixo e 12% de cada lado, para os botões e a legenda do Reels não cobrirem nada. Recarregar a página reinicia a animação.
 Depois de criar, me explique como baixar e abrir o arquivo HTML.
 ```
@@ -115,7 +115,7 @@ Assista à prévia do começo ao fim e peça mudanças do jeito que você falari
 - "Segure mais o card final: o convite deve aparecer aos 8 s e ficar parado até o fim."
 - "Aumente o número e diminua um pouco o texto do tema."
 
-Confira **cada palavra com a ficha oficial**: a grafia de CONAFROEDU, a data, "100% online" e os acentos (ç, ã, é).
+Confira **cada palavra com a ficha oficial**: a grafia de CONAFROEDU, a data, "100% on-line" e os acentos (ç, ã, é).
 
 ### 4. Baixe e abra o arquivo
 
@@ -145,7 +145,7 @@ No nosso arquivo de exemplo, basta mudar o endereço: `countdown.html?dias=14`. 
 
 ### Card animado de palestrante ou autor(a)
 
-Só palestrantes **confirmados**, com nome, cargo e foto **aprovados**. Nunca deixe a IA "melhorar" um rosto ou tom de pele, e nunca use foto sem autorização.
+Só palestrantes **confirmados**, com nome, cargo e foto **aprovados**. Copie **data e horário da sessão juntos** da programação final aprovada (5 ou 6 de dezembro); confirme sobreposições da lista parcial na Even3. Obtenha autorização separada antes de enviar retrato real a uma IA externa. Nunca deixe a IA "melhorar" um rosto ou tom de pele, e nunca use foto sem autorização.
 
 ```prompt
 Crie uma animação em HTML autocontido, 9:16 (1080×1920), sem internet nem bibliotecas externas, com <meta charset="utf-8"> e fontes do sistema.
@@ -156,7 +156,7 @@ Texto exato (não mude nada):
 "[NOME EXATO, COMO APROVADO]"
 "[CARGO / INSTITUIÇÃO APROVADOS]"
 "[TÍTULO EXATO DA PALESTRA]"
-"5 de dezembro · [HORÁRIO CONFIRMADO PELA COMISSÃO] (horário de Brasília)"
+"[CONFIRMAR] — data da sessão · [CONFIRMAR] — horário (horário de Brasília)"
 "Inscrições: Even3 · link na legenda"
 
 12 segundos, toca uma vez e congela no último quadro. A foto entra deslizando de 0 a 2 s; o nome aparece aos 2 s e fica visível por pelo menos 6 segundos; o título aparece aos 5 s; data e convite aos 8 s.
@@ -178,8 +178,8 @@ Etiqueta pequena no topo: "O QUE DIZ A LEI"
 Citação (texto exato, não mude nenhuma palavra nem acento):
 "Nos estabelecimentos de ensino fundamental e de ensino médio, públicos e privados, torna-se obrigatório o estudo da história e cultura afro-brasileira e indígena."
 Destaque "obrigatório" e "história e cultura afro-brasileira e indígena".
-Linha da fonte: "LDB (Lei nº 9.394/1996), art. 26-A, com redação dada pela Lei nº 11.645/2008"
-Quadro final: "CONAFROEDU 2026 — 5 e 6 de dezembro de 2026 — 100% online"
+Linha da fonte: texto marrom-escuro sobre painel creme opaco, com contraste mínimo de 4,5:1 no tamanho exibido no celular; mantenha painel e quadro final dentro da área segura. Texto: "LDB (Lei nº 9.394/1996), art. 26-A, com redação dada pela Lei nº 11.645/2008"
+Quadro final: "CONAFROEDU 2026 — 5 e 6 de dezembro de 2026 — 100% on-line"
 
 As palavras aparecem uma de cada vez, cerca de 4 por segundo, e continuam na tela. Depois aparece a fonte, depois o quadro final. Total de uns 14 s, toca uma vez e congela no último quadro. Coloque o texto da citação e a velocidade em configurações bem identificadas no topo do arquivo, para eu mudar sem saber programar. Tudo dentro da área segura.
 ```
@@ -193,7 +193,7 @@ Crie uma animação em HTML autocontido, 9:16 (1080×1920), sem internet nem bib
 Estilo: recortes de papel sobre fundo creme com textura sutil de papel feita em CSS/SVG. Todo movimento acontece em poses visíveis, 8 por segundo (tempo em degraus, sem suavização), e os recortes tremem levemente entre 3 poses, como em stop-motion de verdade.
 Cena: um caderno de papel se abre ao longo de 2 segundos; um sol de papel sobe acima dele; depois um card fica parado por 5 segundos com este texto exato:
 "CONAFROEDU 2026"
-"5 e 6 de dezembro de 2026 · 100% online"
+"5 e 6 de dezembro de 2026 · 100% on-line"
 "Inscrições no Even3"
 Sem pessoas, sem símbolos culturais ou religiosos, sem flashes. Toca uma vez e congela no último quadro. Total de 10 segundos.
 ```
@@ -206,7 +206,7 @@ Você tem um arquivo `.html`. Para publicar, precisa de um **arquivo de vídeo (
 
 O [OBS Studio](https://obsproject.com/kb/quick-start-guide) é um programa gratuito de gravação para Windows, macOS e Linux. A fonte **Navegador** (Browser) toca o seu HTML *dentro do OBS* em 1080×1920, mesmo numa tela de notebook na horizontal. Nenhuma barra do navegador nem outra janela entra na gravação.
 
-1. **Instale o OBS** pelo site oficial e rode o assistente de configuração automática.
+1. Siga a [configuração do OBS](setup-tools.md#obs) e **instale o OBS** pelo site oficial e rode o assistente de configuração automática.
 2. **Configurações → Vídeo:** coloque **Resolução base** e **Resolução de saída** em `1080x1920`, FPS `30`.
 3. **Configurações → Saída:** escolha a pasta de gravação, o formato **MKV** e um codificador **H.264**. Silencie microfone e áudio do computador (o card não tem som).
 4. Em **Fontes**, clique em **+ → Navegador**. Marque **Arquivo local** e escolha o seu HTML. Largura `1080`, Altura `1920` e taxa de quadros personalizada `30` ([guia da fonte Navegador do OBS](https://obsproject.com/kb/browser-source)).
@@ -215,7 +215,7 @@ O [OBS Studio](https://obsproject.com/kb/quick-start-guide) é um programa gratu
 7. Vá em **Arquivo → Remuxar gravações**, escolha o MKV e clique em **Remuxar**. Sai um MP4 com a mesma qualidade, porque só o "contêiner" muda ([guia de gravação do OBS](https://obsproject.com/kb/standard-recording-output-guide)).
 
 > [!TIP]
-> Quer ter tempo de clicar em gravar antes de a animação começar? Nossos arquivos de exemplo aceitam `?pausa=3`, que segura uma capa parada por 3 segundos. Peça o mesmo ao Claude: "Adicione uma configuração que espere N segundos antes de a animação começar."
+> Quer ter tempo de clicar em gravar antes de a animação começar? Nossos arquivos de exemplo aceitam `?pausa=3`, que espera 3 segundos sobre o fundo antes das entradas; **corte esse início** na edição. Peça o mesmo ao Claude: "Adicione uma configuração que espere N segundos antes de a animação começar."
 
 Se a fonte **Navegador** não aparecer no Linux, instale o pacote oficial do OBS, que já vem com ela. Como alternativa, dá para usar **Captura de janela** de um navegador comum, mas aí é preciso cortar as barras do navegador, e a nitidez depende do tamanho da janela na sua tela.
 
@@ -234,6 +234,8 @@ Se a fonte **Navegador** não aparecer no Linux, instale o pacote oficial do OBS
 
 ### Opção B: Claude Motion (só Team/Enterprise)
 
+Para contratar Team do zero, as [regras de cadastro](https://support.claude.com/en/articles/9267247-get-started-with-the-team-plan) exigem **ao menos duas pessoas** e **e-mail institucional/empresarial de quem cria a organização** (Gmail não basta para criar). Duas vagas padrão custam **US$50/mês**, ou **US$480 cobrados de uma vez no anual**, antes de impostos. Continue no fluxo gratuito se a comissão ainda não tem Team.
+
 Se a comissão já usa o Claude **Team** ou **Enterprise**, procure o **Motion**. No Team ele vem ativado; no Enterprise, quem administra decide. O fluxo documentado é: escolher um modelo **Motion** nos Artifacts → descrever a animação → revisar no chat/editor → **Export → MP4** ([Começando com o Claude Motion](https://support.claude.com/en/articles/17454997-get-started-with-claude-motion)). Ele consome a cota de uso. Resolução, duração máxima e controle de orientação não foram verificados para este guia, então peça ao Claude para avisar sobre qualquer configuração indisponível **antes** de renderizar.
 
 ```prompt
@@ -241,7 +243,7 @@ Crie uma animação com o modelo Motion para anunciar uma palestra. Destino: Ree
 Use a foto autorizada em anexo sem alterar o rosto.
 0–2 s: uma pergunta curta sobre [um desafio real de professores].
 2–7 s: [NOME EXATO], [CARGO APROVADO], [TÍTULO EXATO DA PALESTRA].
-7–10 s: "5 e 6 de dezembro de 2026 • 100% online".
+7–10 s: "5 e 6 de dezembro de 2026 • 100% on-line".
 10–12 s: "Inscreva-se pelo Even3 • link na legenda".
 Texto grande, nada de informação inventada, sem flashes rápidos. Primeiro proponha o roteiro; só renderize depois da minha aprovação.
 ```
@@ -249,7 +251,7 @@ Texto grande, nada de informação inventada, sem flashes rápidos. Primeiro pro
 ### Finalize a publicação
 
 - Assista ao MP4 **no celular**, sem som.
-- Repita as informações essenciais na **legenda**, porque nem todo mundo consegue ver o vídeo: CONAFROEDU, 5 e 6 de dezembro, 100% online e o link real `https://www.even3.com.br/iconafroedu-764690/`. No Instagram, link na legenda não é clicável, então indique o link do perfil ou dos Stories.
+- Repita as informações essenciais na **legenda**, porque nem todo mundo consegue ver o vídeo: CONAFROEDU, 5 e 6 de dezembro, 100% on-line e o link real `https://www.even3.com.br/iconafroedu-764690/`. No Instagram, link na legenda não é clicável, então indique o link do perfil ou dos Stories.
 - Agende no Meta Business Suite na data e no horário certos ([Ferramentas de agendamento](scheduling-tools.md)).
 
 ## Stop-motion de verdade com quadros gerados por IA
@@ -277,7 +279,7 @@ Aqui um **gerador de imagens** desenha os quadros, como a edição de imagens do
 4. **Confira e numere.** Salve `frame-0000.png` … `frame-0023.png` numa pasta só, sem pular números. Descarte quadros que piscam. Não coloque texto dentro das imagens geradas: o texto do evento entra num card final separado ou como sobreposição no editor.
 5. **Monte o vídeo** num dos editores abaixo.
 
-**CapCut (desktop): tempo preciso.** Crie um projeto → **Importar** os PNGs em ordem → **Menu → Configurações → Edição →** defina a duração das imagens em **0,125 s** (8 poses/s) antes de colocar na linha do tempo. Se o CapCut arredondar, use **0,25 s** (4 poses/s, mais lento e "travado") ([guia de stop-motion do CapCut](https://www.capcut.com/resource/what-is-a-stop-animation)). Acrescente um card final de 5 segundos com o texto aprovado e exporte em **MP4, 1080×1920**. Fique de olho em efeitos pagos e avisos de cobrança na exportação.
+**CapCut (desktop): tempo preciso.** Siga antes a [configuração do editor](setup-tools.md#capcut). Crie um projeto → **Importar** os PNGs em ordem → **Menu → Configurações → Edição →** defina a duração das imagens em **0,125 s** (8 poses/s) antes de colocar na linha do tempo. Se o CapCut arredondar, use **0,25 s** (4 poses/s, mais lento e "travado") ([guia de stop-motion do CapCut](https://www.capcut.com/resource/what-is-a-stop-animation)). Acrescente um card final de 5 segundos com o texto aprovado e exporte em **MP4, 1080×1920**. Fique de olho em efeitos pagos e avisos de cobrança na exportação.
 
 **Canva: mais simples, mais lento.** Crie um vídeo vertical, adicione cada PNG como **uma cena separada**, em ordem, ajuste a duração de cada cena no ícone de relógio e inclua o card final por 5 segundos. Depois **Baixar → MP4**. O Canva não garante cenas de 0,125 segundo, então conte com uma "sequência de poses" mais lenta e use menos quadros.
 
@@ -324,7 +326,8 @@ Quadros gerados por IA são imagens sintéticas: siga as orientações de transp
 
 - [ ] Todos os nomes, datas, valores e links batem com a ficha oficial atual.
 - [ ] Os acentos estão certos no **MP4 final** (ç, ã, õ, é, ê, í, ó, ú).
-- [ ] Nenhum texto fica embaixo da interface do Reels quando visto no celular.
+- [ ] Nenhum texto fica embaixo da interface do Reels quando visto no celular. Linhas pequenas de fonte/crédito também precisam do contraste de referência de 4,5:1.
+- [ ] MP4 final em 30 fps, padrão compartilhado; o [Instagram documenta mínimo de 30 FPS](https://www.facebook.com/help/instagram/1038071743007909). Isso não estabelece um mínimo universal de upload no Facebook.
 - [ ] Cada frase fica tempo suficiente na tela; não há efeitos piscando.
 - [ ] A mensagem funciona **sem som**, e a legenda repete o essencial.
 - [ ] As fotos são autorizadas e sem alteração; fontes e músicas têm licença para esse uso.
@@ -340,9 +343,9 @@ Use estes caminhos quando precisar de **muitos** cards (um por palestrante, um p
 
 O método abre o HTML num navegador invisível, **pausa todas as animações CSS e avança o relógio quadro a quadro**, tira uma captura de cada quadro e junta tudo num MP4 H.264. Nenhum quadro se perde, mesmo num computador lento.
 
-**Testado em 21/10/2026**, no Linux, com Node.js 24, Playwright 1.64.1 e ffmpeg-static 5.3.0. Não foi preciso instalar o ffmpeg no sistema: o pacote npm `ffmpeg-static` já traz o seu. A renderização levou de 1 a 2,5 minutos por card de 12 segundos em 1080×1920, e os MP4 acima ficaram com 0,4 a 0,7 MB.
+**Testado em 21/10/2026**, no Linux, com Node.js 24, Playwright 1.64.1 e ffmpeg-static 5.3.0. Não foi preciso instalar o ffmpeg no sistema: o pacote npm `ffmpeg-static` já traz o seu. A renderização levou de 1 a 2,5 minutos por card de 12 segundos em 1080×1920, e os arquivos vinculados usam **30 fps**; o tamanho depende da peça e das configurações.
 
-1. Instale uma versão LTS atual do [Node.js](https://nodejs.org) (usamos a 24).
+1. Siga a [configuração do Node.js e terminal](setup-tools.md#nodejs) e instale uma versão LTS atual do [Node.js](https://nodejs.org) (usamos a 24).
 2. Coloque o seu HTML e o nosso script [render-frames.mjs](/examples/render-frames.mjs) numa pasta vazia, abra um terminal nela e rode:
 
 ```bash
@@ -350,13 +353,13 @@ npm init -y
 npm install playwright ffmpeg-static
 npx playwright install chromium
 
-# arquivo, segundos, nome de saída
-node render-frames.mjs countdown.html 12 countdown
-node render-frames.mjs "countdown.html?dias=14" 12 faltam-14
-node render-frames.mjs quote.html 14 quote
+# arquivo, segundos, nome de saída, fps
+node render-frames.mjs countdown.html 12 countdown 30
+node render-frames.mjs "countdown.html?dias=14" 12 faltam-14 30
+node render-frames.mjs quote.html 14 quote 30
 ```
 
-Você recebe `countdown.mp4` (1080×1920, 24 fps, H.264, yuv420p) e um `countdown-preview.gif` pequeno. O coração do script é este laço:
+Você recebe `countdown.mp4` (1080×1920, 30 fps, H.264, yuv420p) e um `countdown-preview.gif` pequeno. O coração do script é este laço:
 
 ```js
 for (let i = 0; i < total; i++) {
@@ -365,7 +368,7 @@ for (let i = 0; i < total; i++) {
   }, (i * 1000) / fps);
   await page.screenshot({ path: `frames/frame-${String(i).padStart(4, '0')}.png` });
 }
-// depois: ffmpeg -framerate 24 -i frames/frame-%04d.png -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an saida.mp4
+// depois: ffmpeg -framerate 30 -i frames/frame-%04d.png -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an saida.mp4
 ```
 
 > [!NOTE]
@@ -374,14 +377,14 @@ for (let i = 0; i < total; i++) {
 Também testamos dois comandos da nossa pesquisa com o mesmo binário do `ffmpeg-static`:
 
 ```bash
-# Montagem de stop-motion: 24 PNGs numerados a 8 poses/s, saída a 24 fps,
+# Montagem de stop-motion: 24 PNGs numerados a 8 poses/s, saída a 30 fps,
 # segurando a última pose por mais 5 segundos (resultado: exatamente 8,0 s)
 ffmpeg -framerate 8 -start_number 0 -i poses/frame-%04d.png \
-  -vf "fps=24,tpad=stop_mode=clone:stop_duration=5" \
+  -vf "fps=30,tpad=stop_mode=clone:stop_duration=5" \
   -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an animacao-papel.mp4
 
 # Converter uma gravação de tela em WebM para MP4
-ffmpeg -i gravacao.webm -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an reels-evento.mp4
+ffmpeg -i gravacao.webm -vf fps=30 -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an reels-evento.mp4
 ```
 
 (Dentro de um projeto Node, o binário fica em `node_modules/ffmpeg-static/ffmpeg`.) A gravação em tempo real do próprio Playwright (`recordVideo`) também funcionou, mas ela grava o carregamento da página e depende da velocidade da máquina. O método quadro a quadro dá um resultado mais limpo.
@@ -390,7 +393,7 @@ ffmpeg -i gravacao.webm -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an r
 
 O [Remotion](https://www.remotion.dev/docs/ai) é uma ferramenta para criar vídeos com código e tem orientações oficiais para agentes de programação com IA, como o Claude Code. A renderização é feita quadro a quadro, então todos os cards saem com o mesmo tempo. **Licença:** grátis para pessoas físicas e organizações de até **3 pessoas**; a partir de 4, é preciso licença paga ([preços do Remotion](https://www.remotion.dev/docs/license/pricing)). Verifique o que conta como a sua "organização" antes de usar. **Não** executamos esse caminho para este guia; siga a [documentação atual do Remotion](https://www.remotion.dev/docs), porque os comandos mudam.
 
-1. Instale o Node.js e o Claude Code pelas instruções oficiais e confira o plano/cobrança do Claude.
+1. Siga a [configuração do Node.js e Claude Code](setup-tools.md#claude-code), use as instruções oficiais e confira o plano/cobrança. Esse caminho opcional pede apoio técnico.
 2. Crie o projeto (formato atual do exemplo inicial da documentação do Remotion):
 
 ```bash

@@ -25,7 +25,7 @@ AI assistants are excellent first-draft writers and terrible fact-keepers. This 
 
 ### 1. Paste the fact sheet every time
 
-Every prompt on this page assumes you start the chat with the **CONAFROEDU context block** from [Prompting basics](prompting-basics.md#the-conafroedu-context-block). Or store it once in a Claude Project, Gemini Notebook or custom GPT. Without it, the AI invents venues, deadlines, "MEC recognition" and "limited places".
+Every prompt on this page assumes you start the chat with the **CONAFROEDU context block** from [Prompting basics](prompting-basics.md#the-conafroedu-context-block). Or store it once in a Claude Project, standalone Gemini Notebook or the shared fact-sheet document. Without it, the AI invents venues, deadlines, "MEC recognition" and "limited places".
 
 Key facts, as published on Even3 on 21 October 2026:
 
@@ -37,19 +37,17 @@ Key facts, as published on Even3 on 21 October 2026:
 | Submissions (and presenter video) | until **4 Nov 2026**, exact cut-off time to be confirmed |
 | Current prices | until **15 Nov**: R$ 55,00 (ouvinte; graduação + 1 submissão), R$ 60,00 (pós-graduação + 1), R$ 70,00 (professor/profissional + 1) |
 | New prices | from **16 Nov**: R$ 60,00 / R$ 60,00 / R$ 65,00 / R$ 75,00 |
-| Program | published by **25 Nov** |
+| Program | Partial activities and some speakers already on Even3; final approved schedule expected by **25 Nov** |
 | Certificates | from **6 Dec** (40-hour certificate; eligibility criteria to be confirmed) |
 | Proceedings (Anais) | by **15 Dec**, with ISBN and DOI; publication fee **R$ 16,98 per paper**, in addition to registration |
-| Registration | https://www.even3.com.br/iconafroedu-764690/ |
+| Registration | Open for participation until **6 Dec**; price-tier and submission deadlines are separate. https://www.even3.com.br/iconafroedu-764690/ |
 
 > [!WARNING]
 > The committee still has to decide or confirm: whether presenting is mandatory, the exact deadline time, any deadline extension (*prorrogação*), the certificate criteria, accessibility services and the access/streaming platform. Until then, the AI must write `[CONFIRMAR]`, and **you must not publish** a post containing `[CONFIRMAR]`.
 
 ### 2. One paragraph of brand voice
 
-```prompt
-VOICE: Write as a committee of Brazilian educators talking to colleagues: clear, warm, respectful and specific. Academic but accessible; explain acronyms (ERER, NEABI) on first use. Use "professoras e professores" or "pesquisadoras e pesquisadores" where natural. No marketing hype ("imperdível", "revolucione", "não perca!"), no guilt, no fake urgency, at most one or two purposeful emojis, no ALL CAPS. Black knowledge and Afro-Brazilian history are treated as scholarship and lived practice, never as decoration.
-```
+Paste the **canonical VOZ DA MARCA block** from [Prompting basics](prompting-basics.md#your-brand-voice-in-one-paragraph) after the current fact sheet. Maintain that block in one place; do not create a second voice master here.
 
 ### 3. Get the vocabulary right
 
@@ -95,11 +93,11 @@ Almost every good post follows four steps:
 
 ## The master caption prompt
 
-Use this for any post, then adjust the **task** line. (Portuguese version on the [pt-BR page](../pt-BR/copywriting.md#o-prompt-mestre-de-legenda).)
+Use this for a Facebook caption, then adjust the **task** and length lines for other formats. For a Reel hook or one Story frame, replace the 80–130-word caption range with the relevant short limit. (Portuguese version on the [pt-BR page](../pt-BR/copywriting.md#o-prompt-mestre-de-legenda).)
 
 ```prompt
 You are the communications writer for CONAFROEDU 2026, an online academic congress on Africanidades and anti-racist education in Brazil.
-[Paste the CONAFROEDU context block and the VOICE paragraph here]
+[Paste the CONAFROEDU context block and the canonical VOZ DA MARCA block here]
 
 Use ONLY the approved facts above. Do not invent benefits, statistics, testimonials, speakers, certificate rules, institutional support, accessibility services or scarcity. If something essential is missing, write [CONFIRMAR] outside the publishable text.
 
@@ -183,14 +181,12 @@ Task: a Facebook post about the registration price change. Facts: current values
 20 November is the **Dia Nacional de Zumbi e da Consciência Negra**, a national holiday since Lei 14.759/2023. Many educators will be running school and community actions that day. Publish **something substantive** that's useful even to people who never register. If you want an invitation, keep it short and separate. **No discounts or "celebrate by buying" framing.**
 
 ```prompt
-Task: a Facebook carousel text (4 slides + caption) for 20 de novembro. Content: slide 1 the question "20 de novembro no calendário; ERER no cotidiano?"; slide 2 what Lei 10.639/2003 changed (Afro-Brazilian history and culture in the curriculum, and 20 November in the school calendar); slide 3 Lei 11.645/2008 (adds Indigenous history and culture); slide 4 one practical question for the next school-planning meeting. Cite the laws by number only, no invented statistics or quotes. Caption: reflective and respectful, ends with a soft line that CONAFROEDU continues this conversation on 5–6 December. No discount, no urgency, no submission call.
+Task: a Facebook carousel text (4 slides + caption) for 20 de novembro. Content: slide 1 the question "20 de novembro no calendário; ERER no cotidiano?"; slide 2 what Lei 10.639/2003 changed (Afro-Brazilian history and culture in the curriculum, and 20 November in the school calendar); slide 3 Lei 11.645/2008 (adds Indigenous history and culture); slide 4 one practical question for the next school-planning meeting. Cite the laws by number only, no invented statistics or quotes. Caption: reflective and respectful, with sources, credit and a genuine educational question. Keep any optional congress invitation in a **separate post**. No discount, no urgency, no submission call.
 ```
 
 **Example caption:**
 
 > Neste 20 de novembro, a valorização das histórias e dos conhecimentos negros também nos chama a olhar para o cotidiano da escola. A Lei nº 10.639/2003 incluiu a história e a cultura afro-brasileira no currículo; a Lei nº 11.645/2008 ampliou esse compromisso para a história e a cultura indígena. Que mudança de currículo, de formação ou de participação a sua escola está construindo ao longo do ano?
->
-> Nos dias 5 e 6 de dezembro, o CONAFROEDU continua essa conversa, 100% on-line.
 >
 > #ConsciênciaNegra #EducaçãoAntirracista #CONAFROEDU
 
@@ -199,7 +195,7 @@ Task: a Facebook carousel text (4 slides + caption) for 20 de novembro. Content:
 
 ### 5. Program release (by 25 November)
 
-Publish only the **official** program. Copy names **exactly as listed**, and never let AI "correct" an unusual name. Turn the program into audience-specific guides instead of one wall of text.
+Even3 already lists activities and some speakers; do not call that listing absent or final. Confirm session dates, times and overlaps with the committee. Publish audience itineraries only from the **approved final** program. Copy names **exactly as listed**, and never let AI "correct" an unusual name. Turn the program into audience-specific guides instead of one wall of text.
 
 ```prompt
 Task: from the official program pasted below, write 3 short Facebook posts, each a "roteiro" for one audience: (a) basic-education teachers, (b) undergraduate students, (c) school managers. Each picks 2–3 sessions relevant to that audience, with exact speaker names, titles and times in "horário de Brasília" as in the program. Do not add sessions, credentials or descriptions not in the program. End with the Even3 link.
@@ -211,7 +207,7 @@ PROGRAM: [paste the official program]
 On the event days, the honest message is **access and support**, not "buy now". Registered people need to know where to go. Never post a private meeting link or password publicly.
 
 ```prompt
-Task: write (a) a "Bom dia, começamos!" Facebook post for 5 December, (b) a 3-frame Story sequence with today's highlights, (c) a short schedule-change notice template, and (d) a closing thank-you post for 6 December. Facts: times in horário de Brasília from the official program; registered participants access the sessions via [CONFIRMAR: platform and how they receive the link]; support via WhatsApp (19) 98816-7751 and conapsuporte@gmail.com. Do not include any private access link. Warm, energetic but calm.
+Task: write (a) a "Bom dia, começamos!" Facebook post for 5 December, (b) a 3-frame Story sequence with today's highlights, (c) a short schedule-change notice template, and (d) a closing thank-you post for 6 December. Facts: times in horário de Brasília from the official program; registered participants access the sessions via [CONFIRMAR] — platform and how they receive the link; support via WhatsApp (19) 98816-7751 and conapsuporte@gmail.com. Do not include any private access link. Warm, energetic but calm.
 ```
 
 **Example (a):**
@@ -225,7 +221,7 @@ Certificate posts generate many questions. Be precise and use the careful wordin
 > Certificado de participação com carga horária de 40 horas, conforme os critérios de participação divulgados pela organização. O aproveitamento para atividades complementares ou progressão depende das regras da instituição de cada participante.
 
 ```prompt
-Task: a short Facebook post and a WhatsApp reply template explaining how to download the CONAFROEDU certificate. Facts: available from 6 de dezembro on Even3; criteria: [CONFIRMAR]; step-by-step: [CONFIRMAR with the committee]. Use the careful certificate wording provided. Do not promise acceptance as horas complementares or career progression.
+Task: a short Facebook post and a WhatsApp reply template explaining how to download the CONAFROEDU certificate. Facts: available from 6 de dezembro on Even3; criteria: [CONFIRMAR]; step-by-step: [CONFIRMAR] — with the committee. Use the careful certificate wording provided. Do not promise acceptance as horas complementares or career progression.
 ```
 
 ### 8. Proceedings / Anais (by 15 December)
@@ -259,7 +255,7 @@ Task: write the Facebook Event description in Brazilian Portuguese, maximum 250 
 
 WhatsApp is where Brazilian educators actually read things, which is exactly why abuse burns trust fast. The rules:
 
-- Message only people who **asked** to receive updates, or who wrote to you first. A saved number, a group membership or a Facebook "Interested" click is **not** consent ([WhatsApp Business Messaging Policy](https://whatsappbusiness.com/policy/)).
+- Send reminders and news only to people who **authorized that type of update**. If someone writes first, answer their question; obtain and record permission before later promotional messages. A saved number, a group membership or a Facebook "Interested" click is **not** consent ([WhatsApp Business Messaging Policy](https://whatsappbusiness.com/policy/)).
 - In the free WhatsApp Business app, broadcast lists only reach people **who have saved your number**, with up to 256 contacts per list ([WhatsApp Help](https://faq.whatsapp.com/861663048350950/?cms_platform=iphone&locale=en_US)).
 - Always offer an easy way out, and honor **any** clear request to stop, not just the word "SAIR".
 - For public updates, a **WhatsApp Channel** is better: followers' numbers aren't shown. See [Instagram & WhatsApp](instagram-whatsapp.md).
@@ -389,7 +385,7 @@ Then a **human** does the 60-second check:
 
 - [ ] Fact sheet saved and dated; one person owns updates.
 - [ ] Voice paragraph and vocabulary table shared with everyone who writes.
-- [ ] Master prompt saved in a Project/Notebook/custom GPT.
+- [ ] Master prompt saved in a Project/Notebook/shared document.
 - [ ] Separate drafts for submissions (until 4/11) and registrations.
 - [ ] Price-change post scheduled for before 16/11 and re-checked on the day.
 - [ ] Substantive 20/11 content prepared with a Black educator's approved contribution.
@@ -397,6 +393,8 @@ Then a **human** does the 60-second check:
 - [ ] Event description, WhatsApp templates and certificate reply approved by the committee.
 - [ ] Alt text written for every graphic.
 - [ ] Fact-check prompt plus human review before every scheduled post.
+
+Before enabling saved instructions or installing/configuring an editor, use [Set up your tools](setup-tools.md).
 
 ## Next steps
 

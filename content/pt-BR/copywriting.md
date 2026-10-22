@@ -25,7 +25,7 @@ Assistentes de IA escrevem ótimos primeiros rascunhos e guardam fatos muito mal
 
 ### 1. Cole a ficha oficial toda vez
 
-Todos os prompts desta página partem do princípio de que você abriu a conversa com a **ficha oficial do CONAFROEDU** de [Noções de prompt](prompting-basics.md#a-ficha-oficial-do-conafroedu). Outra opção é salvá-la uma vez num Projeto do Claude, num Gemini Notebook ou num GPT personalizado. Sem a ficha, a IA inventa local, prazo, "reconhecimento do MEC" e "vagas limitadas".
+Todos os prompts desta página partem do princípio de que você abriu a conversa com a **ficha oficial do CONAFROEDU** de [Noções de prompt](prompting-basics.md#a-ficha-oficial-do-conafroedu). Outra opção é salvá-la uma vez num Projeto do Claude, num Gemini Notebook independente ou no documento compartilhado da ficha. Sem a ficha, a IA inventa local, prazo, "reconhecimento do MEC" e "vagas limitadas".
 
 Fatos principais, como publicados na Even3 em 21/10/2026:
 
@@ -37,19 +37,17 @@ Fatos principais, como publicados na Even3 em 21/10/2026:
 | Submissões (e vídeo de apresentação) | até **4/11/2026**, horário-limite a confirmar |
 | Valores atuais | até **15/11**: R$ 55,00 (ouvinte; graduação + 1 submissão), R$ 60,00 (pós-graduação + 1), R$ 70,00 (professor/profissional + 1) |
 | Novos valores | a partir de **16/11**: R$ 60,00 / R$ 60,00 / R$ 65,00 / R$ 75,00 |
-| Programação | divulgada até **25/11** |
+| Programação | Já há atividades e alguns palestrantes na Even3; versão final aprovada prevista até **25/11** |
 | Certificados | a partir de **6/12** (certificado de 40 horas; critérios a confirmar) |
 | Anais | até **15/12**, com ISBN e DOI; taxa de publicação de **R$ 16,98 por trabalho**, à parte da inscrição |
-| Inscrições | https://www.even3.com.br/iconafroedu-764690/ |
+| Inscrições | Para participação, até **6/12**; prazo de submissão e virada de lote são diferentes. https://www.even3.com.br/iconafroedu-764690/ |
 
 > [!WARNING]
 > A comissão ainda precisa decidir ou confirmar: se a apresentação é obrigatória, o horário exato do prazo, eventual prorrogação, os critérios do certificado, os recursos de acessibilidade e a plataforma de acesso/transmissão. Até lá, a IA deve escrever `[CONFIRMAR]`, e **nenhuma publicação com `[CONFIRMAR]` vai ao ar**.
 
 ### 2. A voz da marca em um parágrafo
 
-```prompt
-VOZ: Escreva como uma comissão de educadoras e educadores brasileiros conversando com colegas: clara, acolhedora, respeitosa e específica. Acadêmica, mas acessível; explique siglas (ERER, NEABI) na primeira menção. Use "professoras e professores" ou "pesquisadoras e pesquisadores" quando soar natural. Nada de linguagem publicitária ("imperdível", "revolucione", "não perca!"), culpa ou urgência falsa; no máximo um ou dois emojis com propósito; nada de CAIXA ALTA. Os conhecimentos negros e a história afro-brasileira são tratados como produção de conhecimento e prática viva, nunca como enfeite.
-```
+Cole o **bloco oficial VOZ DA MARCA** de [Noções básicas de prompt](prompting-basics.md#a-voz-da-marca-em-um-parágrafo) depois da ficha atual. Mantenha o bloco num só lugar; não crie uma segunda versão de voz aqui.
 
 ### 3. Acerte o vocabulário
 
@@ -97,9 +95,11 @@ Quase toda boa publicação segue quatro passos:
 
 Use para qualquer publicação e ajuste a linha da **tarefa**.
 
+Para legenda de Facebook, a faixa abaixo é um ponto de partida. Para gancho de Reel ou uma tela de Story, substitua **80 a 130 palavras** pelo limite curto adequado.
+
 ```prompt
 Você é redator(a) da comunicação do CONAFROEDU 2026, congresso acadêmico on-line sobre africanidades e educação antirracista no Brasil.
-[Cole aqui a ficha oficial do CONAFROEDU e o parágrafo de VOZ]
+[Cole aqui a ficha oficial do CONAFROEDU e o bloco oficial VOZ DA MARCA]
 
 Use APENAS os fatos aprovados acima. Não invente benefícios, estatísticas, depoimentos, palestrantes, regras de certificado, apoio institucional, recursos de acessibilidade ou escassez. Se faltar algo essencial, escreva [CONFIRMAR] fora do texto publicável.
 
@@ -183,14 +183,12 @@ Tarefa: post no Facebook sobre a mudança no valor das inscrições. Fatos: valo
 O 20 de novembro é o **Dia Nacional de Zumbi e da Consciência Negra**, feriado nacional desde a Lei nº 14.759/2023. Muitas educadoras e educadores estarão envolvidos em ações na escola e na comunidade nesse dia. Publique **algo com conteúdo**, útil até para quem nunca vai se inscrever. Se quiser convidar, faça isso de forma breve e separada. **Nada de desconto nem de "celebre comprando".**
 
 ```prompt
-Tarefa: texto de um carrossel para o Facebook (4 cards + legenda) para 20 de novembro. Conteúdo: card 1, a pergunta "20 de novembro no calendário; ERER no cotidiano?"; card 2, o que a Lei nº 10.639/2003 mudou (história e cultura afro-brasileira no currículo e o 20 de novembro no calendário escolar); card 3, a Lei nº 11.645/2008 (inclui a história e a cultura indígena); card 4, uma pergunta prática para a próxima reunião de planejamento. Cite as leis só pelo número, sem estatísticas ou citações inventadas. Legenda: reflexiva e respeitosa, terminando com uma frase leve dizendo que o CONAFROEDU continua essa conversa em 5 e 6 de dezembro. Sem desconto, sem urgência, sem chamada de trabalhos.
+Tarefa: texto de um carrossel para o Facebook (4 cards + legenda) para 20 de novembro. Conteúdo: card 1, a pergunta "20 de novembro no calendário; ERER no cotidiano?"; card 2, o que a Lei nº 10.639/2003 mudou (história e cultura afro-brasileira no currículo e o 20 de novembro no calendário escolar); card 3, a Lei nº 11.645/2008 (inclui a história e a cultura indígena); card 4, uma pergunta prática para a próxima reunião de planejamento. Cite as leis só pelo número, sem estatísticas ou citações inventadas. Legenda: reflexiva e respeitosa, com fontes, crédito e uma pergunta educativa real. Qualquer convite opcional para o congresso fica numa **publicação separada**. Sem desconto, sem urgência, sem chamada de trabalhos.
 ```
 
 **Exemplo de legenda:**
 
 > Neste 20 de novembro, a valorização das histórias e dos conhecimentos negros também nos chama a olhar para o cotidiano da escola. A Lei nº 10.639/2003 incluiu a história e a cultura afro-brasileira no currículo; a Lei nº 11.645/2008 ampliou esse compromisso para a história e a cultura indígena. Que mudança de currículo, de formação ou de participação a sua escola está construindo ao longo do ano?
->
-> Nos dias 5 e 6 de dezembro, o CONAFROEDU continua essa conversa, 100% on-line.
 >
 > #ConsciênciaNegra #EducaçãoAntirracista #CONAFROEDU
 
@@ -199,7 +197,7 @@ Tarefa: texto de um carrossel para o Facebook (4 cards + legenda) para 20 de nov
 
 ### 5. Divulgação da programação (até 25 de novembro)
 
-Publique só a programação **oficial**. Copie os nomes **exatamente como estão** e nunca deixe a IA "corrigir" um nome incomum. Em vez de um paredão de texto, transforme a programação em roteiros por público.
+A Even3 já lista atividades e alguns palestrantes; não diga que a programação está ausente nem que essa lista é definitiva. Confirme datas, horários e sobreposições com a comissão. Publique roteiros por público só com a programação **final aprovada**. Copie os nomes **exatamente como estão** e nunca deixe a IA "corrigir" um nome incomum. Em vez de um paredão de texto, transforme a programação em roteiros por público.
 
 ```prompt
 Tarefa: a partir da programação oficial colada abaixo, escreva 3 posts curtos para o Facebook, cada um com um "roteiro" para um público: (a) professoras e professores da educação básica, (b) estudantes de graduação, (c) gestoras e gestores escolares. Cada roteiro escolhe 2 ou 3 sessões pertinentes, com nomes, títulos e horários exatamente como na programação, em horário de Brasília. Não acrescente sessões, credenciais ou descrições que não estejam na programação. Termine com o link da Even3.
@@ -211,7 +209,7 @@ PROGRAMAÇÃO: [cole a programação oficial]
 Nos dias do evento, a mensagem honesta é **acesso e suporte**, não "compre agora". Quem está inscrito precisa saber aonde ir. Nunca publique link privado de sala ou senha.
 
 ```prompt
-Tarefa: escreva (a) um post de "Bom dia, começamos!" para o Facebook em 5 de dezembro, (b) uma sequência de 3 Stories com os destaques do dia, (c) um modelo curto de aviso de mudança na programação e (d) um post de agradecimento de encerramento em 6 de dezembro. Fatos: horários em horário de Brasília conforme a programação oficial; quem está inscrito acessa as sessões por [CONFIRMAR: plataforma e como recebe o link]; suporte pelo WhatsApp (19) 98816-7751 e pelo e-mail conapsuporte@gmail.com. Não inclua nenhum link privado de acesso. Tom caloroso, animado, mas tranquilo.
+Tarefa: escreva (a) um post de "Bom dia, começamos!" para o Facebook em 5 de dezembro, (b) uma sequência de 3 Stories com os destaques do dia, (c) um modelo curto de aviso de mudança na programação e (d) um post de agradecimento de encerramento em 6 de dezembro. Fatos: horários em horário de Brasília conforme a programação oficial; quem está inscrito acessa as sessões por [CONFIRMAR] — plataforma e como recebe o link; suporte pelo WhatsApp (19) 98816-7751 e pelo e-mail conapsuporte@gmail.com. Não inclua nenhum link privado de acesso. Tom caloroso, animado, mas tranquilo.
 ```
 
 **Exemplo (a):**
@@ -225,7 +223,7 @@ Post de certificado gera muitas perguntas. Seja preciso e use a redação cuidad
 > Certificado de participação com carga horária de 40 horas, conforme os critérios de participação divulgados pela organização. O aproveitamento para atividades complementares ou progressão depende das regras da instituição de cada participante.
 
 ```prompt
-Tarefa: um post curto para o Facebook e um modelo de resposta de WhatsApp explicando como baixar o certificado do CONAFROEDU. Fatos: disponível a partir de 6 de dezembro na Even3; critérios: [CONFIRMAR]; passo a passo: [CONFIRMAR com a comissão]. Use a redação cuidadosa do certificado fornecida. Não prometa aproveitamento como horas complementares nem para progressão.
+Tarefa: um post curto para o Facebook e um modelo de resposta de WhatsApp explicando como baixar o certificado do CONAFROEDU. Fatos: disponível a partir de 6 de dezembro na Even3; critérios: [CONFIRMAR]; passo a passo: [CONFIRMAR] — com a comissão. Use a redação cuidadosa do certificado fornecida. Não prometa aproveitamento como horas complementares nem para progressão.
 ```
 
 ### 8. Anais (até 15 de dezembro)
@@ -259,7 +257,7 @@ Tarefa: escreva a descrição do Evento no Facebook em português brasileiro, co
 
 O WhatsApp é onde as educadoras e os educadores brasileiros realmente leem as mensagens, e é justamente por isso que o abuso queima a confiança rápido. As regras:
 
-- Envie mensagens só para quem **pediu** para receber novidades ou para quem falou com vocês primeiro. Número salvo, participação em grupo ou clique em "Tenho interesse" no Facebook **não** é consentimento ([Política de Mensagens do WhatsApp Business](https://whatsappbusiness.com/policy/)).
+- Envie lembretes e novidades só a quem **autorizou esse tipo de mensagem**. Se alguém escrever primeiro, responda à dúvida; antes de enviar divulgação posterior, peça e registre a autorização. Número salvo, participação em grupo ou clique em "Tenho interesse" no Facebook **não** é consentimento ([Política de Mensagens do WhatsApp Business](https://whatsappbusiness.com/policy/)).
 - No app gratuito WhatsApp Business, as listas de transmissão só chegam a quem **salvou o seu número**, com até 256 contatos por lista ([Central de Ajuda do WhatsApp](https://faq.whatsapp.com/861663048350950/?cms_platform=iphone&locale=en_US)).
 - Ofereça sempre uma forma fácil de sair e atenda **qualquer** pedido claro para parar, não só a palavra "SAIR".
 - Para avisos públicos, um **Canal do WhatsApp** é melhor, porque o número de quem segue não aparece. Veja [Instagram e WhatsApp](instagram-whatsapp.md).
@@ -389,7 +387,7 @@ Depois, uma **pessoa** faz a checagem de 60 segundos:
 
 - [ ] Ficha oficial salva e datada, com uma pessoa responsável pelas atualizações.
 - [ ] Parágrafo de voz e tabela de vocabulário compartilhados com todo mundo que escreve.
-- [ ] Prompt mestre salvo num Projeto/Notebook/GPT personalizado.
+- [ ] Prompt mestre salvo num Projeto/Notebook/documento compartilhado.
 - [ ] Rascunhos separados para submissões (até 4/11) e inscrições.
 - [ ] Post da virada de lote agendado para antes de 16/11 e reconferido no dia.
 - [ ] Conteúdo de 20/11 preparado com a contribuição aprovada de uma educadora ou um educador negro.
@@ -397,6 +395,8 @@ Depois, uma **pessoa** faz a checagem de 60 segundos:
 - [ ] Descrição do Evento, modelos de WhatsApp e resposta sobre certificado aprovados pela comissão.
 - [ ] Texto alternativo em todas as artes.
 - [ ] Prompt de checagem + revisão humana antes de cada post agendado.
+
+Antes de ativar instruções salvas ou instalar/configurar um editor, siga [Configure suas ferramentas](setup-tools.md).
 
 ## Próximos passos
 

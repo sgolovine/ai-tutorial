@@ -33,26 +33,26 @@ Por que isso importa: você vai ver manchetes como "Modelo X lidera o ranking". 
 
 ### Claude (Anthropic)
 
-- **Modelos atuais:** Opus 5.5, Sonnet 5.5, Haiku 5.5 e Fable 5.1. Quais você pode usar depende do plano; o gratuito tem menos opções.
+- **Modelos atuais:** Opus 5.5, Sonnet 5.5, Haiku 5.5 e Fable 5.1. O gratuito inclui **Sonnet e Haiku**; Opus e Fable exigem acesso pago elegível. Fable tem condições adicionais de plano/créditos; não é uma opção ilimitada.
 - **Bom para:** escrever e reescrever com cuidado e naturalidade; documentos longos; seguir instruções detalhadas (como as nossas regras de "não invente"); criar animações e artes simples com código (veja [Motion graphics com o Claude](motion-graphics-claude.md)).
-- **Recursos úteis:** **Projetos** (instruções e arquivos salvos), **Artifacts** (documentos e designs editáveis ao lado da conversa), busca na web, leitura de arquivos. No plano gratuito, a página oficial lista busca, código/arquivos, Artifacts, Design, Slides, Docs e Skills.
+- **Recursos úteis:** **Projetos** (instruções e arquivos salvos), **Artifacts** (documentos e designs editáveis ao lado da conversa), busca na web, leitura de arquivos. No gratuito, a matriz oficial lista busca, código/arquivos, Artifacts, Design, Slides, Docs e Skills. Skills reutilizáveis são opcionais: **Customize → Skills**, com execução de código ativada; veja a [configuração](setup-tools.md#claude-skills).
 - **Atenção:** os limites de uso se renovam com o tempo e não são ilimitados nem nos planos pagos. Existem recursos pagos de navegador e de uso do computador, mas não são necessários para esta campanha.
 - [Planos do Claude](https://claude.com/pricing)
 
 ### ChatGPT (OpenAI)
 
-- **Modelos atuais:** o catálogo da OpenAI lista a família GPT-6 (GPT-6 Astra, GPT-6.1 Sol, GPT-6 Luna). Alguns são específicos dos modos "Work" e "Codex", e não do chat comum — então não presuma que o nome mais novo é o que está respondendo.
+- **Modelos atuais:** o ChatGPT comum recebeu a **atualização de outubro do GPT-6 Sol/Luna**, segundo o [documento técnico de 7 de outubro da OpenAI](https://cdn.openai.com/pdf/gpt-6-october.pdf). Work/Codex usam versões lançadas separadamente; o catálogo para desenvolvedores também lista nomes como GPT-6.1 Sol e Astra. Não trate esse catálogo como o seletor do chat pessoal; plano e acesso da conta continuam importantes.
 - **Bom para:** planejamento geral, trabalho com arquivos e planilhas e **criação e edição de imagens** (ChatGPT Images).
-- **Recursos úteis:** envio de arquivos, navegação na web, tarefas agendadas, GPTs personalizados (a OpenAI está migrando parte dos clientes corporativos para "plugins").
+- **Recursos úteis:** envio de arquivos, navegação na web, tarefas agendadas e criação de imagens, com limites por recurso. **Não crie um GPT personalizado para esta campanha:** contas pessoais já não podem criar/publicar novos GPTs. Os existentes têm encerramento previsto para **11 de dezembro de 2026**; siga o [aviso de migração da conta](https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq).
 - **Atenção:** os limites gratuitos dependem do modelo e da tarefa; não existe um número fixo de mensagens publicado.
 - [Preços do ChatGPT](https://learn.chatgpt.com/docs/pricing)
 
 ### Gemini (Google)
 
-- **Modelos atuais:** o Gemini 4 Argon começou a chegar aos planos pagos Pro/Ultra em 13 de outubro de 2026; quem usa o gratuito tem modelos mais leves (Flash-Lite/Flash).
+- **Modelos atuais:** o Gemini 4 Argon começou a chegar aos planos pagos Pro/Ultra em 13 de outubro de 2026; a página brasileira lista **Flash-Lite no gratuito**, **Flash no AI Plus** e **Argon no Pro/Ultra**. O roteamento Auto e outras opções dependem da conta; use o padrão para legendas comuns.
 - **Bom para:** pesquisa, resumo de documentos, tudo que envolve Google Docs/Drive e edição de imagens.
 - **Recursos úteis:** **Gems** — assistentes salvos com as suas instruções (o Google diz que estão sendo substituídos por **skills**, que começaram a chegar em 30 de setembro de 2026); Canvas para rascunhos; **Gemini Notebook** (veja abaixo).
-- **Atenção:** o uso gratuito funciona por "orçamento de processamento", que se renova a cada cinco horas até um limite semanal — não por número fixo de mensagens.
+- **Atenção:** o uso nos diferentes planos funciona por "orçamento de processamento", que se renova a cada cinco horas até um limite semanal — não por número fixo de mensagens.
 - [Planos do Gemini no Brasil](https://gemini.google/br/subscriptions/?hl=pt-BR) · [Limites de uso](https://support.google.com/gemini/answer/16275805?hl=en)
 
 ### Gemini Notebook (antigo NotebookLM)
@@ -60,13 +60,14 @@ Por que isso importa: você vai ver manchetes como "Modelo X lidera o ranking". 
 - Ferramenta do Google que responde **só com base nos documentos que você enviar**, com citações clicáveis. Muita gente ainda chama de NotebookLM, e algumas páginas de ajuda em português ainda usam esse nome.
 - **Bom para:** transformar as normas oficiais, a ficha do evento e as minibios aprovadas em FAQs, minibios e resumos que dá para rastrear até a fonte.
 - **Grátis:** o plano padrão lista 100 cadernos por pessoa e 50 fontes por caderno.
-- **Atenção:** ele só acerta tanto quanto os documentos que recebe. Se um fato não está nas fontes, não deveria aparecer na resposta — confira as citações.
+- **Atenção:** use a **interface independente do Gemini Notebook** para trabalhar só com fontes. O Gemini comum pode acrescentar web e ferramentas. Selecione apenas documentos aprovados; exclua conversas sincronizadas e respostas anteriores de IA como fontes oficiais. Abra e confira cada citação. O Google [documenta a diferença](https://support.google.com/gemininotebook/answer/17003757?hl=en); siga a [configuração](setup-tools.md).
 - [Planos do Notebook](https://support.google.com/gemininotebook/answer/16213268?hl=en) · [Ajuda em português](https://support.google.com/gemininotebook/answer/16206563?hl=pt-BR)
 
 ### Meta AI
 
-- Já vem dentro do **WhatsApp, Facebook, Instagram e Messenger** no Brasil, além de ter um app próprio. Os modelos de pesquisa atuais da Meta se chamam **Muse** (textos mais antigos falam em Llama).
+- Já vem dentro do **WhatsApp, Facebook, Instagram e Messenger** no Brasil, além de ter um app próprio. A família atual de modelos da Meta inclui **Muse** (textos antigos falam em Llama); o modelo exato em cada app brasileiro não foi estabelecido aqui. Nome de modelo de pesquisa/API não comprova acesso dentro do WhatsApp.
 - **Bom para:** brainstorm rápido e reescrever frases ali mesmo, onde a equipe já conversa.
+- **Privacidade:** não encaminhe, cole nem mencione o Meta AI em dúvidas de participantes. Rascunhe a partir de um resumo anônimo e da ficha.
 - **Atenção:** o Meta AI é um assistente pessoal. **Não** é a mesma coisa que as ferramentas empresariais que respondem mensagens na sua Página ou no WhatsApp Business, e não dá a ninguém permissão para publicar como a Página.
 - A Meta confirma que o Meta AI básico continua gratuito. Existem pacotes pagos **Meta One** (veja a tabela de custos).
 
@@ -93,14 +94,23 @@ Por que isso importa: você vai ver manchetes como "Modelo X lidera o ranking". 
 
 ### Modelos abertos (Llama/Muse, Qwen, DeepSeek, Mistral)
 
-Modelos "abertos" podem ser baixados e rodados no seu computador ou servidor. Exemplos em 2026: o **Muse Spark Open**, da Meta (lançado em 15 de outubro de 2026), o **Qwen3.6-27B**, o **DeepSeek V4.1** (por uma API de baixo custo) e o **Mistral Small 4**; o app de chat da Mistral agora se chama **Vibe** (antigo Le Chat).
+Modelos "abertos" podem ser baixados e rodados no seu computador ou servidor. Exemplos em 2026: o **Muse Spark Open**, da Meta (lançado em 15 de outubro de 2026), o **Qwen3.6-27B**, o **DeepSeek V4.1-Flash** (por uma API de baixo custo) e o **Mistral Small 4**; o app de chat da Mistral agora se chama **Vibe** (antigo Le Chat).
 
 - **Servem para:** um voluntário com conhecimento técnico e uma necessidade específica de privacidade ou automação.
 - **Não são necessários para esta equipe.** "Aberto" não quer dizer "de graça para rodar": é preciso um computador potente ou um servidor pago, e a configuração toma tempo. Um modelo fraco num notebook antigo custa mais horas de voluntariado do que um assistente gratuito na nuvem.
 
+### Quando aparecer um seletor de modelos
+
+| App / opção | Acesso documentado aqui | Primeira tarefa para testar |
+|---|---|---|
+| Claude Sonnet / Haiku | Gratuito, com limites de uso | Sonnet para legenda com várias restrições; Haiku para reescrita curta, sempre com revisão |
+| Claude Opus / Fable | Planos pagos elegíveis; Fable tem condições de plano/créditos | Planejamento complexo opcional, só depois de o gratuito falhar numa tarefa real |
+| Gemini Flash-Lite / Flash / Argon | Listados nos planos gratuito / Plus / Pro–Ultra, respectivamente | Padrão/leve para legendas; Argon opcional para comparação difícil de documentos |
+| ChatGPT Chat x Work/Codex | Catálogos diferentes; esta revisão não certifica todo seletor e acesso de conta pessoal | Use o modelo disponível no chat e confira o resultado; não pague só para ter um nome de API |
+
 ## Tabela "melhor para": tarefas do CONAFROEDU
 
-É uma **ordem sugerida para testar**, baseada nos recursos documentados — não um teste científico. Ninguém publicou uma comparação confiável de qual assistente escreve o melhor português brasileiro para educadores.
+É uma **ordem sugerida para testar**, baseada nos recursos documentados — não um teste científico. Esta pesquisa não estabeleceu uma comparação atual confiável de escrita em português brasileiro para educadores.
 
 | Tarefa | Teste primeiro | Também serve | Como avaliar |
 |---|---|---|---|
@@ -115,7 +125,7 @@ Modelos "abertos" podem ser baixados e rodados no seu computador ou servidor. Ex
 | Documentos no Word/Excel | Copilot (se já tiver licença) | — | A sua licença inclui o recurso? |
 
 > [!TIP]
-> Comece com **dois** assistentes, não oito. Um para "redigir" (por exemplo, Claude) e um para "pesquisar" (por exemplo, Gemini + Gemini Notebook) cobrem quase tudo de que esta campanha precisa.
+> Comece com **um assistente de redação** que você já conhece. Acrescente pesquisa documental quando uma tarefa real de FAQ ou minibio exigir. Os demais assistentes são alternativas, não contas obrigatórias para começar.
 
 ## Grátis x pago: quanto custa
 
@@ -124,13 +134,13 @@ Preços publicados em 21 de outubro de 2026. **"Não publicado" em real signific
 | Assistente | Plano gratuito | Principais planos pagos — US$ | Em reais (Brasil) | Observações |
 |---|---|---|---|---|
 | **Claude** | Sim | Pro US$ 20/mês (ou US$ 200/ano); Max a partir de US$ 100/mês; Team US$ 25 por pessoa/mês (US$ 20 no plano anual) | Não publicado | Limites amplos nos planos pagos, mas nunca ilimitados |
-| **ChatGPT** | Sim | Go US$ 8; Plus US$ 20; Pro em faixas de US$ 100, 200 e 500 por mês | Não publicado (há cobrança em reais e Pix) | Limites de imagens e agentes variam |
-| **Gemini / Google AI** | Sim | Plus US$ 4,99; Pro US$ 19,99; Ultra US$ 99,99 ou 199,99 (página dos EUA) | **Plus R$ 24,99; Pro R$ 96,99; Ultra R$ 779,90 ou R$ 999,90 por mês** | Créditos do Flow (vídeo) são à parte: Plus 200, Pro 1.000 |
+| **ChatGPT** | Sim | Go US$ 8; Plus US$ 20; Pro em faixas de US$ 100, 200 e 500 por mês | Não publicado (há cobrança em reais e Pix) | Limites de imagens e Work variam |
+| **Gemini / Google AI** | Sim | Plus US$ 4,99; Pro US$ 19,99; Ultra US$ 99,99 ou 199,99 (página dos EUA) | **Plus R$ 24,99; Pro R$ 96,99; Ultra R$ 779,90 ou R$ 999,90 por mês** | Créditos mensais do Flow incluídos: Plus 200; Pro 1.000. Cota separada do chat, sem cobrança extra por esses créditos incluídos |
 | **Gemini Notebook** | Sim (100 cadernos, 50 fontes cada) | Incluído nos planos Google AI, com limites maiores | Veja Gemini | — |
 | **Meta AI** | Sim (versão básica) | — | **Meta One Core R$ 32/mês; Premium R$ 97/mês** (mais uso de mídia com IA) | Pacotes empresariais a partir de R$ 59/mês — não são necessários aqui |
 | **Microsoft Copilot** | Sim | — | **Microsoft 365 Personal R$ 51; Family R$ 60; Premium R$ 109 por mês** | Benefícios de IA para a pessoa titular |
 | **Grok** | Sim, limitado | X Subscription Plus US$ 8; Premium US$ 30; Super US$ 100; Ultra US$ 200 por mês | Não publicado | Não é canal prioritário |
-| **Perplexity** | Sim (poucas buscas Pro) | Pro US$ 20/mês (US$ 200/ano); Max US$ 200/mês; Education Pro US$ 10/mês, com verificação | Não publicado | A página de preços mostra, por padrão, o valor mensal equivalente do plano anual |
+| **Perplexity** | Sim (poucas buscas Pro) | Pro: página pública mostra cerca de US$ 17/mês **cobrados no anual** (confira total); Max US$ 200/mês; Education Pro US$ 10/mês, com verificação | Não publicado | A página de preços mostra, por padrão, o valor mensal equivalente do plano anual |
 | **Mistral Vibe** | Sim, limitado | Pro US$ 14,99/mês (sem impostos) | Não publicado | Alternativa opcional |
 
 Fontes: [Claude](https://claude.com/pricing) · [ChatGPT](https://learn.chatgpt.com/docs/pricing) · [Google AI (BR)](https://gemini.google/br/subscriptions/?hl=pt-BR) · [Google AI (EUA)](https://gemini.google/subscriptions/) · [Meta One](https://about.fb.com/br/news/2026/09/apresentando-o-meta-one-um-servico-de-assinatura-com-mais-recursos-e-ia-para-criar-se-conectar-e-se-destacar/) · [Copilot](https://www.microsoft.com/pt-br/copilot/pricing/individuals) · [X Subscription](https://x.ai/news/x-subscription) · [Perplexity](https://www.perplexity.ai/pt/hub/pricing) · [Mistral](https://mistral.ai/pricing/)
@@ -140,7 +150,7 @@ Fontes: [Claude](https://claude.com/pricing) · [ChatGPT](https://learn.chatgpt.
 
 ### Quando (e se) vale pagar
 
-Dá para fazer toda a campanha do CONAFROEDU com planos gratuitos. Pense em pagar **só** se os limites gratuitos interromperem trabalho real várias vezes por semana. Aí:
+A campanha orgânica básica pode usar planos gratuitos; algumas exportações opcionais de mídia gerada exigem licença comercial paga. Antes de pagar, estudantes universitários brasileiros elegíveis com **18 anos ou mais** podem conferir a [oferta de um ano de AI Plus](https://gemini.google/br/students/?hl=pt-BR), resgatável até **31 de dezembro de 2026**. Exige verificação e forma de pagamento; renova pelo preço padrão se não cancelar (atualmente R$ 24,99/mês). É uma oferta individual, não uma assinatura compartilhada da comissão. Pense em pagar **só** se os limites gratuitos interromperem trabalho real várias vezes por semana. Aí:
 
 1. Escolha **um** plano por **um mês** — o mais barato que resolve o gargalo real (por exemplo, o Google AI Plus por R$ 24,99, se o limite do Gemini estiver travando).
 2. Use numa semana real de campanha.
@@ -148,11 +158,9 @@ Dá para fazer toda a campanha do CONAFROEDU com planos gratuitos. Pense em paga
 
 Raramente é preciso um modelo "de ponta", mais caro, para reescrever uma legenda.
 
-## Rankings: interessantes, mas não decisivos
+## Rankings: curiosidade, não critério decisivo
 
-Você vai ver rankings como o **Text Arena**, em que pessoas votam na resposta de que mais gostam. Em 20 de outubro de 2026, os primeiros lugares incluíam o Gemini 4 Argon (resultado preliminar), o Muse Wonder da Meta, o Claude Opus 5.5 e o Claude Fable 5. Outro índice conhecido, o Artificial Analysis, colocava o Claude Opus 5.5 e o Sonnet 5.5 no topo naquele momento.
-
-Dois rankings, dois "vencedores" — porque medem coisas diferentes. Nenhum deles mede o que você precisa: **português brasileiro correto e acolhedor sobre um congresso de educação antirracista, sem fatos inventados.** Para isso, faça o seu próprio teste.
+O [Text Arena](https://arena.ai/leaderboard/text) compara votos de preferência; o [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models) combina outras avaliações e informa as configurações do modelo. A classificação muda, e a configuração de API “max with fallback” não é necessariamente a do app gratuito. Nenhum desses rankings estabelece o melhor texto para o CONAFROEDU. Teste nas suas tarefas: **português brasileiro acolhedor e correto, sem fatos inventados**.
 
 ## Teste você mesmo: comparação de 20 minutos em pt-BR
 
@@ -174,11 +182,11 @@ Marque qualquer informação que você não encontrou na ficha.
 
 ## Kit inicial recomendado, sem custo
 
-É uma recomendação prática para a equipe do CONAFROEDU, baseada nos recursos acima — não uma afirmação de que cada ferramenta é objetivamente a melhor.
+**Mínimo:** um assistente de redação (Claude, ChatGPT ou Gemini), Canva gratuito, Meta Business Suite e a conta de atendimento aprovada. Siga [Configure suas ferramentas](setup-tools.md) e depois [Aprenda com IA](learning-with-ai.md). Na tabela, pesquisa, segunda opinião, Meta AI e Perplexity são **acréscimos opcionais**; não crie todas essas contas na primeira semana.
 
 | Função | Ferramenta | Custo |
 |---|---|---|
-| Redação principal: legendas, e-mails, textos de WhatsApp, rascunhos de calendário, animações simples | **Claude gratuito** (num Projeto com a ficha, se disponível) | R$ 0 |
+| Redação principal: legendas, e-mails, textos de WhatsApp, rascunhos de calendário, animações simples | **Um assistente gratuito** (Claude inclui até cinco Projetos; ChatGPT/Gemini também servem com a ficha colada) | R$ 0 |
 | Pesquisa: respostas a partir de documentos oficiais, com citação | **Gemini gratuito + Gemini Notebook** | R$ 0 |
 | Segunda opinião + imagens | **ChatGPT gratuito** | R$ 0 |
 | Reescrever rapidinho dentro do WhatsApp | **Meta AI** | R$ 0 |
@@ -192,11 +200,11 @@ Marque qualquer informação que você não encontrou na ficha.
 
 ### Checklist de configuração (cerca de 1 hora)
 
-- [ ] Cada pessoa voluntária cria as próprias contas gratuitas (nada de compartilhar senha).
+- [ ] Cada pessoa cria só as contas gratuitas necessárias (sem compartilhar senha) e confere os [ajustes de privacidade/treinamento](setup-tools.md#privacy).
 - [ ] A Coordenação cria o documento compartilhado "FICHA OFICIAL" a partir de [Noções básicas de prompt](prompting-basics.md#a-ficha-oficial-do-conafroedu).
 - [ ] Conteúdo/Design cria um Projeto no Claude (ou um documento fixado) com a ficha e a voz da marca.
-- [ ] Alguém cria um Gemini Notebook "CONAFROEDU 2026 — fontes aprovadas" com o anúncio oficial, as normas da Even3 e as minibios aprovadas.
-- [ ] Todo mundo faz a comparação de 20 minutos acima e a equipe escolhe a redatora principal.
+- [ ] **Só se precisar:** alguém cria um Gemini Notebook independente "CONAFROEDU 2026 — fontes aprovadas" com o anúncio oficial, as normas da Even3 e as minibios aprovadas.
+- [ ] Escolha o assistente que a equipe já conhece; faça a comparação só se a edição dos resultados estiver tomando tempo demais.
 - [ ] Combinem a regra: **nada escrito com IA é publicado sem uma segunda pessoa conferir os fatos.**
 
 ## Ferramentas de imagem e vídeo: indicações rápidas
@@ -213,7 +221,7 @@ Imagem e vídeo têm guias próprios; aqui vai a versão curta, para você saber
 
 - A maior parte dos seus Reels deve vir de **imagens reais**: um palestrante gravando um convite de 20 segundos no celular, ou trechos de falas. Veja [Reels, cortes e legendas](video-repurposing.md).
 - Texto animado e contagem regressiva podem ser feitos com o Claude — veja [Motion graphics com o Claude](motion-graphics-claude.md).
-- Vídeo totalmente gerado por IA (Flow/Gemini Omni e Veo, do Google, Kling, Runway e outros) usa créditos limitados e exige revisão cuidadosa. Guias antigos recomendam o Sora, da OpenAI; nossa pesquisa indica que ele não é mais uma opção atual, então consulte [Geração de vídeo](video-generation.md) antes de planejar com qualquer ferramenta.
+- Vídeo totalmente gerado por IA (Flow/Gemini Omni e Veo, do Google, Kling, Runway e outros) usa créditos limitados e exige revisão cuidadosa. Guias antigos recomendam o Sora, da OpenAI; ele foi descontinuado (site/app: 26 de abril; API: 24 de setembro de 2026) e não é uma opção para esta campanha, então consulte [Geração de vídeo](video-generation.md) antes de planejar com qualquer ferramenta.
 
 ## Próximos passos
 

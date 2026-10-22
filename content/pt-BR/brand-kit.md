@@ -50,8 +50,8 @@ Quando quatro pessoas voluntárias publicam de quatro notebooks, usando três as
 | Lembrete de prazo | Calmo e direto | "As submissões terminam em 4 de novembro. Confira a checklist antes de enviar." |
 | Mudança de valor | Informativo, sem pressão | "O valor da inscrição muda em 16 de novembro. Até 15/11, vale o valor atual." |
 | 20 de novembro | Reflexivo, dando crédito, sem vender | "Neste 20 de novembro, que mudanças de currículo e de formação estamos construindo ao longo do ano?" |
-| Respostas de suporte | Gentil e prático | "Olá! Obrigada pela mensagem. Para baixar o certificado, siga estes passos…" |
-| Dias do evento | Animado, mas preciso | "Começamos às [horário], horário de Brasília. O link de acesso está no e-mail da inscrição." |
+| Respostas de suporte | Gentil e prático | "Olá! Agradecemos a sua mensagem. Para baixar o certificado, siga estes passos…" |
+| Dias do evento | Animado, mas preciso | "Começamos às [CONFIRMAR], horário de Brasília. Acesse pelo caminho informado pela comissão: [CONFIRMAR]." Publique só depois de confirmar horário e caminho de acesso. |
 | Correções | Transparente e breve | "Correção: o horário certo é [horário]. Pedimos desculpas pela confusão." |
 
 ### Palavras que usamos e que evitamos
@@ -72,7 +72,7 @@ Quando quatro pessoas voluntárias publicam de quatro notebooks, usando três as
 - **Valores:** "R$ 55,00".
 - **Horário:** "às 19h, horário de Brasília" — o Brasil tem vários fusos.
 - **Nome:** "Congresso Nacional de Africanidades na Educação (CONAFROEDU)" uma vez, depois só "CONAFROEDU".
-- **Grafia:** o anúncio oficial usa "on-line"; escolham uma forma ("on-line" ou "online") e usem sempre a mesma.
+- **Grafia:** use sempre **“on-line”**, inclusive em “100% on-line”. Preserve nomes de produtos, URLs e citações literais.
 - **Emojis:** no máximo dois por publicação, e nunca no lugar de palavras (leitores de tela leem os emojis em voz alta).
 - **Hashtags:** veja o [conjunto de hashtags](#conjunto-de-hashtags) abaixo.
 
@@ -103,11 +103,13 @@ O CONAFROEDU já tem artes oficiais na [página da Even3](https://www.even3.com.
 Escolha **duas cores principais, uma de destaque e duas neutras** (uma escura para texto e uma clara para fundo). Anote o **código hexadecimal** de cada uma (o código de seis caracteres, como `#17324D`) para que todo mundo use exatamente o mesmo tom.
 
 - Se as artes oficiais já têm cores, reaproveite — peça os códigos a quem desenhou ou use o seletor de cores do Canva no logo enviado.
-- Confira o **contraste**: o texto precisa ser fácil de ler no celular, mesmo no sol. Texto escuro sobre fundo claro (ou o contrário) é o mais seguro. Evite texto fino e colorido sobre fotos.
+- Confira o **contraste**: o texto precisa ser fácil de ler no celular, mesmo no sol. Texto escuro sobre fundo claro (ou o contrário) é o mais seguro. Evite texto fino e colorido sobre fotos. Use a [referência WCAG](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html): **4,5:1 para texto comum e 3:1 para texto grande**. Confira no tamanho exibido no celular, inclusive fonte e créditos pequenos.
 - Não dependa só da cor para passar uma mensagem (por exemplo, "vermelho = encerrado"); escreva também.
 
 > [!NOTE]
 > **Paleta apenas de exemplo** — nossa pesquisa de imagens usou esta paleta num prompt de amostra: azul-marinho `#17324D`, verde `#3F8F79`, creme `#F6F2E9`. Ela **não** é a paleta oficial do CONAFROEDU. Use só se a comissão não tiver cores definidas e aprovar.
+
+As paletas deste guia e das demonstrações de animação são **exemplos**, não a identidade oficial. Qualquer paleta aprovada pode servir, com contraste adequado. Em peças da mesma campanha, use a paleta do kit aprovado pela comissão.
 
 ### Tipografia
 
@@ -149,7 +151,7 @@ Se for usar ilustrações, escolha **um estilo** e mantenha em toda a campanha. 
 | **Canva para Educação** | Grátis para docentes da educação básica verificados | Uma comissão de congresso não se qualifica por si só, e o conteúdo do plano Educação é limitado a uso **educacional e não comercial** — não serve para divulgar um congresso pago. |
 | **Canva para ONGs** | Grátis para organizações sem fins lucrativos aprovadas | Exige documentos de registro oficiais; universidades e associações profissionais ficam de fora. Uma comissão voluntária geralmente não se qualifica. |
 
-Fonte: [preços do Canva no Brasil](https://www.canva.com/pt_br/precos/). O Canva também tem o recurso "Kit de Marca" para salvar cores e fontes; se o seu plano não incluir, mantenha um **design-mestre** com as cores e fontes e sempre duplique a partir dele.
+Fonte: [Preços do Canva no Brasil](https://www.canva.com/pt_br/precos/). O gratuito inclui **um Kit de Marca com três cores**, sem todos os recursos pagos de gestão da marca. Para o conjunto maior de cores/fontes deste guia, mantenha um **design-mestre** e sempre duplique. Siga antes a [configuração do Canva](setup-tools.md#canva).
 
 ### Tamanhos para configurar
 
@@ -257,8 +259,8 @@ Hashtags ajudam as pessoas a encontrar publicações por assunto; elas não gara
 
 **Por canal:**
 
-- **Facebook:** de 0 a 3, no final da publicação.
-- **Instagram:** até 5 hashtags pertinentes (o Instagram vem adotando, segundo relatos, um limite de cinco hashtags).
+- **Facebook:** de 0 a 3, no final da publicação — convenção editorial, não limite da plataforma.
+- **Instagram:** use até 5 hashtags pertinentes e respeite limite menor, se aparecer no criador de publicações. É a regra de trabalho da equipe; não conte com a antiga cota de 30.
 - **WhatsApp:** nenhuma.
 
 **Regras:** nada de hashtags da moda sem relação; nada de hashtag de cidade (o evento é nacional e on-line); veja para que uma hashtag é usada antes de adotá-la; escreva o assunto de forma natural no texto também.

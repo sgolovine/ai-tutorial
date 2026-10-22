@@ -93,13 +93,15 @@ Using the agreed style, create an abstract background: overlapping paper shapes 
 Using the agreed style, create a background for a speaker card. Vertical 4:5. Leave a large empty area on the left (about 55% of the width) where I will place a real portrait photo, and a clean band at the bottom for name and topic. On the right, only soft paper shapes in the palette colours. No people, no faces, no text, no frames that look like a photo.
 ```
 
+Copy the **session date and time together** from the final approved program; the congress spans two days.
+
 **Add in Canva:** the approved portrait (crop only; **do not** use AI to retouch the face, skin or hair) and:
 
 - `Palestrante` [Speaker] or `Convidada/Convidado`, as the committee defines
 - `[Nome completo exatamente como aprovado]` [Full name exactly as approved]
 - `[Título da fala, aprovado pela pessoa]` [Talk title, approved by the speaker]
 - `[Instituição, se autorizado]` [Institution, if authorized]
-- `5 de dezembro · [horário confirmado] (horário de Brasília)`
+- `[CONFIRMAR] — data da sessão · [CONFIRMAR] — horário (horário de Brasília)`
 - `CONAFROEDU 2026 · 100% online`
 
 > [!WARNING]
@@ -124,7 +126,7 @@ Using the agreed style, create a celebratory but sober background for a card ann
 - `CONAFROEDU 2026 · 5 e 6 de dezembro · on-line`
 
 > [!TIP]
-> Share the Canva template link with authors (*Share → Template link*) so they can fill in their own data. That turns each accepted author into a promoter with zero extra team work. See [Speaker & partner promo kits](speaker-partner-kits.md).
+> Creating a [Canva Template link](https://www.canva.com/help/share-template-link/) requires an eligible plan; it is **not included in Free**. With Free, the team duplicates the master, fills each author’s approved details and sends a finished PNG. If an eligible plan is already available, test its template link with an external account before distributing it. Never give authors edit access to the master. See [Speaker & partner promo kits](speaker-partner-kits.md).
 
 ## 4. Quote card
 
@@ -147,6 +149,8 @@ Using the agreed style, create a minimal background for a quote card. Square 1:1
 A 5–7 slide carousel, for example "Como submeter seu trabalho até 4/11" [How to submit your paper by 4 Nov] or, from 25 Nov, the program. **One idea per slide.**
 
 **Tool:** one AI background, reused on every slide with small variations; text in Canva. **Size:** 1080 × 1080 for all slides.
+
+For predictable separate files, request **one variation per message**, approve it, then ask for the next using the approved image as reference. The batch prompt below is an optional planning shortcut, not a guarantee of three files.
 
 ```prompt
 Using the agreed style, create a set of 3 matching square (1:1) backgrounds for a carousel, as variations of the same composition: (1) cover: shapes concentrated on the right, large empty area on the left; (2) inside page: shapes only along the bottom edge, large empty area; (3) final page: shapes framing the edges, empty centre. Same palette, same texture, same shape thickness across all three. No people, no text, no numbers, no arrows.
@@ -199,7 +203,7 @@ Using the agreed style, create a contemporary editorial illustration for a refle
 
 - `20 de novembro · Dia Nacional de Zumbi e da Consciência Negra`
 - `20 de novembro no calendário; educação antirracista no cotidiano` [20 Nov on the calendar; anti-racist education every day]
-- Caption: substantive content (e.g. one practical question about how Leis 10.639/2003 and 11.645/2008 shape your school's curriculum), then a short invitation: `Nos dias 5 e 6 de dezembro, o CONAFROEDU propõe um espaço on-line para esse diálogo.`
+- Caption: substantive content, sources, credit and a genuine educational question about Leis 10.639/2003 and 11.645/2008. Keep any optional attendance invitation in a **separate post**, without sales pressure.
 - Credit line for the artist, or `Ilustração gerada com IA; não retrata pessoas reais.`
 
 > [!CAUTION]
@@ -366,6 +370,8 @@ Check every letter against the approved text. If the same line fails twice, type
 - [ ] No venue, crowd, "previous edition", fake certificate or fake testimonial.
 - [ ] AI use is labelled where someone might mistake it for reality; artists are credited.
 - [ ] The prompt and final file are saved in the shared folder for reuse.
+
+Before enabling saved instructions or installing/configuring an editor, use [Set up your tools](setup-tools.md#canva).
 
 ## Next steps
 

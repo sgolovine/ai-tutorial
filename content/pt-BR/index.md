@@ -6,7 +6,7 @@ updated: 2026-10-21
 event:
   name: CONAFROEDU 2026 — Congresso Nacional de Africanidades na Educação
   dates: 5 e 6 de dezembro de 2026
-  details: 100% online · certificado de 40 horas
+  details: 100% on-line · certificado de 40 horas
   url: https://www.even3.com.br/iconafroedu-764690/
   cta: Inscreva-se na Even3
 ---
@@ -35,16 +35,18 @@ Você não precisa saber nada de IA. Todo guia explica os termos na primeira vez
 | **4/11** | Fim das submissões (e dos vídeos de apresentação) |
 | **15 → 16/11** | Termina o valor atual de inscrição; começam os novos valores |
 | **20/11** | Dia Nacional de Zumbi e da Consciência Negra |
-| **25/11** | Publicação da programação oficial |
+| **Até 25/11** | Previsão da programação final; atividades e alguns nomes já constam da Even3 |
 | **5 e 6/12** | CONAFROEDU 2026, 100% on-line |
-| **A partir de 6/12** | Certificados disponíveis |
-| **Até 15/12** | Publicação dos anais |
+| **A partir de 6/12** | Certificados previstos, conforme critérios confirmados |
+| **Até 15/12** | Previsão de publicação dos anais |
 
 Todas as datas vêm da [página oficial na Even3](https://www.even3.com.br/iconafroedu-764690/), conferida em 21 de outubro de 2026. Se a comissão mudar algo, a [ficha oficial](prompting-basics.md#a-ficha-oficial-do-conafroedu) é atualizada primeiro.
 
 ## Como usar este site: escolha o seu caminho
 
 Você não precisa ler tudo. Escolha o caminho que combina com a sua função.
+
+Só conhece a janela de conversa? Abra [Configure suas ferramentas](setup-tools.md) e [Aprenda com IA](learning-with-ai.md). Comece com **um assistente de redação, Canva gratuito, Meta Business Suite e a conta de atendimento aprovada**; acrescente ferramentas quando uma tarefa precisar.
 
 ### ⏱️ "Tenho 30 minutos"
 
@@ -54,13 +56,13 @@ Você não precisa ler tudo. Escolha o caminho que combina com a sua função.
 
 ### 📱 "Sou quem publica todo dia"
 
-1. [Primeira semana: comece por aqui](quick-start.md) — ferramentas, primeiras publicações, primeiro Reel.
+1. [Configure suas ferramentas](setup-tools.md), depois [Primeira semana: comece por aqui](quick-start.md) — ferramentas, primeiras publicações, primeiro Reel.
 2. [Monte seu kit de marca](brand-kit.md) — voz, modelos no Canva, hashtags.
 3. [Redação com IA](copywriting.md) — legendas, textos de WhatsApp e e-mails em português natural.
 4. [Manual do Facebook orgânico](facebook-playbook.md) e [Eventos e Grupos no Facebook](facebook-events-groups.md).
 5. [Ferramentas de agendamento](scheduling-tools.md) — planeje a semana no Meta Business Suite.
-6. [Livro de receitas de prompts de imagem](image-prompts.md) e [Reels, cortes e legendas](video-repurposing.md).
-7. Antes de qualquer imagem de pessoas: [Representação respeitosa de pessoas negras e culturas africanas](representation-bias.md).
+6. Antes de usar imagem de pessoas: [Representação respeitosa de pessoas negras e culturas africanas](representation-bias.md).
+7. Referência opcional de produção: [Prompts de imagem](image-prompts.md) e [Reels, cortes e legendas](video-repurposing.md).
 
 ### 🤝 "Cuido das parcerias"
 
@@ -83,11 +85,11 @@ Eles atravessam todos os guias do site.
 1. **Orgânico e barato primeiro.** Nada de anúncios pagos. Toda ferramenta aparece com a opção gratuita e o custo real (em R$ e US$, quando publicado). Sempre começamos pelo caminho mais barato que funciona.
 2. **Comunicação honesta.** Datas reais, valores reais, condições reais. Nada de prazos inventados, "últimas vagas" falsas ou promessas sobre reconhecimento do MEC, Qualis ou progressão na carreira. Quando a comissão ainda não decidiu algo, dizemos isso.
 3. **Representação respeitosa.** O CONAFROEDU trata de Africanidades e educação antirracista. Fotos reais de pessoas reais (com autorização) e trabalhos de artistas negros brasileiros vêm antes de imagens de IA; toda imagem de IA passa por revisão de estereótipos e é identificada como tal. Veja [Representação respeitosa de pessoas negras e culturas africanas](representation-bias.md).
-4. **Sempre uma pessoa no circuito.** A IA rascunha; as pessoas decidem. Toda publicação feita com IA é conferida por uma segunda pessoa antes de ir ao ar, e a IA nunca envia mensagens, entra em grupos ou responde questões sensíveis sozinha.
+4. **Sempre com revisão humana.** A IA rascunha; as pessoas decidem. Toda publicação feita com IA é conferida por uma segunda pessoa antes de ir ao ar, e a IA nunca envia mensagens, entra em grupos ou responde questões sensíveis sozinha.
 5. **Privacidade e consentimento.** Nada de listas de inscritos, CPF ou trabalhos não publicados em ferramentas de IA públicas. Nada de raspagem de dados, disparos em massa ou perfis falsos. Detalhes em [Ética, políticas e LGPD](ethics-legal.md).
 
 > [!NOTE]
-> **Sobre a precisão.** Produtos de IA mudam a cada poucas semanas. Nomes de ferramentas, preços e recursos destes guias foram conferidos em fontes oficiais em **21 de outubro de 2026**. Se algo estiver diferente na sua conta, confie no que aparece na página oficial — e avise a equipe para que o guia seja atualizado.
+> **Sobre a precisão.** Pesquisa de **21 de outubro de 2026**. Fatos verificados têm links para suas fontes; recursos que dependem da conta, fontes bloqueadas e fluxos não testados são identificados quando necessário. Confira o plano oficial e a sua conta antes de depender deles.
 
 ## Dicas para usar os guias
 

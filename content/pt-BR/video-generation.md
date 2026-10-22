@@ -100,7 +100,7 @@ Preços conferidos em **21 de outubro de 2026**, em dólar (US$), salvo indicaç
 > [!TIP] Um orçamento realista
 > Três planos de 5 segundos × três tentativas cada no FLUX 3 em HD padrão = 3 × 5 × 3 × US$ 0,17 = **US$ 7,65**. É só conta, não promessa de que três tentativas bastam. Defina o limite de tentativas **antes** de começar (por exemplo: três tentativas por plano e, depois disso, imagem parada).
 
-**Caminho com orçamento zero:** a cota gratuita do Gemini ou do Runway (se a sua conta tiver) para uma ou duas inserções abstratas, mais a edição gratuita no Canva/CapCut. Se nada gratuito funcionar, uma imagem parada com zoom lento no CapCut é uma ótima abertura de Reel.
+**Caminho de publicação sem orçamento:** imagem parada ou arte aprovada com movimento simples no Canva/CapCut. Créditos gratuitos de geradores servem para **teste** até verificar modelo exato, direitos promocionais, tamanho de exportação e marca d’água exigida na conta. Os 125 créditos de teste do Runway **não incluem acesso ao Gen-4.5 pago**. Preserve marcas obrigatórias; sem exportação gratuita adequada, publique a versão com imagem parada. Siga a [configuração das ferramentas/editores](setup-tools.md#capcut).
 
 ## Prompt plano a plano: como escrever um prompt de vídeo
 
@@ -136,7 +136,7 @@ A maioria dos modelos aceita prompts em português. Se algum entender mal, você
 
 ## Passo a passo 1: uma inserção abstrata de 5 segundos
 
-Tempo: cerca de 30–45 minutos. Custo: R$ 0 se a cota gratuita da sua conta cobrir.
+Tempo: cerca de 30–45 minutos. Custo: **rascunhos** gratuitos quando houver cota; publicar também exige direitos promocionais e condições adequadas de exportação. Sem confirmação, use a alternativa de imagem parada.
 
 1. **Decida onde ela entra.** Exemplo: os primeiros 3–5 segundos de um teaser de 24 segundos, antes de imagens reais de palestrantes e de um card com a data.
 2. **Escreva um único plano** usando o modelo acima. Sem pessoas, sem palavras.
@@ -145,7 +145,7 @@ Tempo: cerca de 30–45 minutos. Custo: R$ 0 se a cota gratuita da sua conta cob
 5. **Revise em tela cheia no celular:** objetos derretendo, tremulações, letras ou símbolos que surgiram sem querer, mãos estranhas se algo humano aparecer, e o áudio (som gerado pode conter palavras murmuradas).
 6. **Corrija uma instrução** e gere de novo. Pare ao atingir seu limite de tentativas.
 7. **Baixe** a melhor versão e importe no CapCut ou no Canva, num projeto de 1080 × 1920.
-8. **Acrescente tudo o que é informação no editor:** "CONAFROEDU 2026", "5 e 6 de dezembro · 100% online", o logo verdadeiro, as legendas e a chamada "Inscreva-se pelo Even3".
+8. **Acrescente tudo o que é informação no editor:** "CONAFROEDU 2026", "5 e 6 de dezembro · 100% on-line", o logo verdadeiro, as legendas e a chamada "Inscreva-se pelo Even3".
 9. **Exporte** em MP4, 1080 × 1920, 30 FPS (quadros por segundo).
 10. **Na hora de publicar,** ative o rótulo de IA da Meta se o clipe parecer fotorrealista (veja [Transparência](#transparência-o-rótulo-de-ia-da-meta-e-o-texto-da-publicação)).
 
@@ -158,7 +158,7 @@ O cartaz tem texto exato em português, datas e logo. Modelos de vídeo **redese
 **Opção B — imagem para vídeo só no fundo:**
 
 1. Exporte o cartaz **sem nenhum texto ou logo** — só a ilustração (veja [Geração de imagens](image-generation.md) para criar fundos sem texto).
-2. Envie para uma ferramenta de imagem para vídeo (Runway Gen-4.5, Gemini/Flow, Kling, Hailuo, Luma…).
+2. Envie só o fundo isolado para uma ferramenta elegível (**Gen-4.5 exige acesso pago no Runway**; outras têm condições por plano/modelo). Siga a [configuração](setup-tools.md#capcut); sem exportação adequada, mantenha a Opção A.
 3. Use um prompt **só de movimento** (a imagem já define a cena — descreva apenas como as coisas se movem):
 
 ```prompt
@@ -236,7 +236,7 @@ Mais em [Ética, políticas e LGPD](ethics-legal.md).
 - [ ] Um vídeo real de celular faria esse trabalho melhor? (Se sim, use-o.)
 - [ ] Nenhuma pessoa gerada apresentada como palestrante, participante, plateia ou edição anterior.
 - [ ] Todos os textos, datas, nomes e o logo foram colocados no editor e revisados por uma segunda pessoa (ç, ã, é, ê).
-- [ ] O plano/ferramenta usado permite uso comercial/promocional; sem marca d'água.
+- [ ] O plano/ferramenta usado permite uso comercial/promocional; preservar marcas d’água exigidas e sinalizar uso de IA.
 - [ ] Assistido em tela cheia no celular, com som e sem som.
 - [ ] Representação revisada com a [checklist](representation-bias.md); nenhum símbolo usado como enfeite.
 - [ ] Música liberada para Facebook/Instagram (ou sem música).

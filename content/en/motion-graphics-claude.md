@@ -25,12 +25,12 @@ Claude can't "film" anything. What it can do is **write a small web page (HTML) 
 
 ## See the result first
 
-These two animations were built for this guide in exactly the way described below: self-contained HTML files, no internet connection needed, then exported to MP4. Both use a terracotta/ochre palette and plain geometric paper shapes, with no cultural or religious symbols used as decoration.
+These two animations were built for this guide in exactly the way described below: self-contained HTML files, no internet connection needed, then exported to MP4. Both use an **alternative example** terracotta/ochre palette (not the official identity; use the committee-approved [brand kit](brand-kit.md)) and plain geometric paper shapes, with no cultural or religious symbols used as decoration.
 
 | Countdown "Faltam 7 dias" (12 s) | Kinetic-typography quote (14 s) |
 |---|---|
 | ![Animated preview: paper shapes drop in, then the text "CONAFROEDU 2026 – Faltam 7 dias – 5 e 6 de dezembro de 2026 – 100% online – Inscreva-se pelo Even3" appears step by step on a cream background](/images/motion-countdown-preview.gif) | ![Animated preview: on a terracotta background, the words of LDB article 26-A appear one by one, with "obrigatório" and "história e cultura afro-brasileira e indígena" highlighted in ochre, followed by the source and the CONAFROEDU dates](/images/motion-quote-preview.gif) |
-| [Open the HTML](/examples/countdown.html) · [Download the MP4](/examples/countdown.mp4) (1080×1920, 0.7 MB) | [Open the HTML](/examples/quote.html) · [Download the MP4](/examples/quote.mp4) (1080×1920, 0.4 MB) |
+| [Open the HTML](/examples/countdown.html) · [Download the MP4](/examples/countdown.mp4) (1080×1920, 30 fps) | [Open the HTML](/examples/quote.html) · [Download the MP4](/examples/quote.mp4) (1080×1920, 30 fps) |
 
 Try the countdown with other numbers by adding `?dias=` to the address: [15 days](/examples/countdown.html?dias=15), [1 day](/examples/countdown.html?dias=1). Add `&guias=1` to see the safe-area guides (more on that under [Troubleshooting](#troubleshooting)). Press <kbd>F5</kbd> to replay.
 
@@ -147,7 +147,7 @@ With our example file you just change the address: `countdown.html?dias=14`. If 
 
 ### Animated speaker or author card
 
-Use only **confirmed** speakers, with their **approved** name, title and photo. Never let AI "improve" a face or skin tone. Never use a photo without permission.
+Use only **confirmed** speakers, with their **approved** name, title and photo. Copy the **session date and time together** from the final approved program (5 or 6 December); confirm any overlaps in the partial Even3 listing. Obtain separate permission before uploading a real portrait to an external AI service. Never let AI "improve" a face or skin tone. Never use a photo without permission.
 
 ```prompt
 Create a self-contained HTML animation, 9:16 (1080×1920), no internet or external libraries, <meta charset="utf-8">, system fonts.
@@ -158,7 +158,7 @@ Exact text (Brazilian Portuguese, do not change):
 "[EXACT NAME AS APPROVED]"
 "[APPROVED ROLE / INSTITUTION]"
 "[EXACT TALK TITLE]"
-"5 de dezembro · [TIME CONFIRMED BY THE COMMITTEE] (horário de Brasília)"
+"[CONFIRMAR] — data da sessão · [CONFIRMAR] — horário (horário de Brasília)"
 "Inscrições: Even3 · link na legenda"
 
 12 seconds, play once, hold the last frame. The photo slides in during 0–2 s; the name appears at 2 s and stays visible for at least 6 seconds; the title appears at 5 s; the date and invitation appear at 8 s.
@@ -180,7 +180,7 @@ Small label at the top: "O QUE DIZ A LEI"
 Quote (exact text, do not change a single word or accent):
 "Nos estabelecimentos de ensino fundamental e de ensino médio, públicos e privados, torna-se obrigatório o estudo da história e cultura afro-brasileira e indígena."
 Highlight "obrigatório" and "história e cultura afro-brasileira e indígena".
-Source line: "LDB (Lei nº 9.394/1996), art. 26-A, com redação dada pela Lei nº 11.645/2008"
+Source line: dark-brown text on an opaque cream panel, with at least 4.5:1 contrast at its displayed phone size; keep this panel and the final box inside the safe area. Text: "LDB (Lei nº 9.394/1996), art. 26-A, com redação dada pela Lei nº 11.645/2008"
 Final box: "CONAFROEDU 2026 — 5 e 6 de dezembro de 2026 — 100% online"
 
 Words appear one at a time, about 4 per second, and stay on screen. Then the source appears, then the final box. Total about 14 s, play once, hold the last frame. Put the quote text and the speed in clearly labeled settings at the top of the file so I can change them without knowing code. Keep everything inside the safe area.
@@ -208,7 +208,7 @@ You now have an `.html` file. To post it, you need a **video file (MP4)**.
 
 [OBS Studio](https://obsproject.com/kb/quick-start-guide) is free recording software for Windows, macOS and Linux. Its **Browser** source plays your HTML file *inside OBS* at full 1080×1920 size, even on a horizontal laptop screen. No browser bars and no other windows get recorded.
 
-1. **Install OBS** from the official site and run the auto-configuration wizard.
+1. Follow [OBS setup](setup-tools.md#obs), then **install OBS** from the official site and run the auto-configuration wizard.
 2. **Settings → Video:** set **Base** and **Output resolution** to `1080x1920`, FPS `30`.
 3. **Settings → Output:** pick a recording folder, format **MKV**, and an **H.264** encoder. Mute the microphone and desktop audio (the card is silent).
 4. In **Sources**, click **+ → Browser**. Tick **Local file** and choose your HTML. Set Width `1080`, Height `1920`, and custom frame rate `30` ([OBS Browser Source guide](https://obsproject.com/kb/browser-source)).
@@ -217,7 +217,7 @@ You now have an `.html` file. To post it, you need a **video file (MP4)**.
 7. **File → Remux Recordings**, choose the MKV and click **Remux**. You get an MP4 with the same quality, because only the "container" changes ([OBS recording guide](https://obsproject.com/kb/standard-recording-output-guide)).
 
 > [!TIP]
-> Want time to click Start before the animation begins? Our example files accept `?pausa=3`, which holds a still cover for 3 seconds. Ask Claude for the same feature: "Add a setting that waits N seconds before the animation starts."
+> Want time to click Start before the animation begins? Our example files accept `?pausa=3`, which waits on the background for 3 seconds before the entrances; **trim that lead-in** in the editor. Ask Claude for the same feature: "Add a setting that waits N seconds before the animation starts."
 
 If the **Browser** source is missing on Linux, install the official OBS package, which includes it. As a fallback you can use **Window Capture** of a normal browser window, but then crop away the browser bars, and the sharpness depends on how big the window is on your screen.
 
@@ -235,6 +235,8 @@ If the **Browser** source is missing on Linux, install the official OBS package,
 **Got a WebM or MOV file instead?** Use [HandBrake](https://handbrake.fr/docs/en/latest/introduction/quick-start.html) (free, open source): **Open Source** → choose the file → an H.264 preset → format **MP4** → **Start Encode**. Check that the dimensions stay vertical (1080×1920), because some presets crop. Canva also accepts WebM and downloads MP4.
 
 ### Option B: Claude Motion (Team/Enterprise only)
+
+To buy Team from scratch, the [signup rules](https://support.claude.com/en/articles/9267247-get-started-with-the-team-plan) require **at least two members** and a **business/institutional email for the creator** (Gmail cannot create the organization). Two standard seats cost **US$50/month**, or **US$480 upfront annually**, before tax. Keep the free recording route if the committee does not already have Team.
 
 If your committee already uses Claude **Team** or **Enterprise**, check for **Motion**. It's on by default for Team, and Enterprise owners control it. The documented flow is: choose a **Motion** template in Artifacts → describe the animation → revise in chat/editor → **Export → MP4** ([Get started with Claude Motion](https://support.claude.com/en/articles/17454997-get-started-with-claude-motion)). It counts against your usage. Resolution, maximum duration and orientation controls weren't verified for this guide, so ask Claude to tell you about any missing setting **before** it renders.
 
@@ -279,7 +281,7 @@ Here an **image model** draws the frames, such as Gemini's image editing or Chat
 4. **Check and name.** Save `frame-0000.png` … `frame-0023.png` in one folder with no gaps. Delete frames that flicker. Don't put text inside the generated images. Add the event text as a separate final card or as an overlay in the editor.
 5. **Assemble.** Choose one of the editors below.
 
-**CapCut (desktop): precise timing.** Create a new project → **Import** the PNGs in order → **Menu → Settings → Edit →** set the image duration to **0.125 s** (8 poses/s) before placing them on the timeline. If CapCut rounds it, use **0.25 s** (4 poses/s, slower and choppier) ([CapCut stop-motion guide](https://www.capcut.com/resource/what-is-a-stop-animation)). Add a 5-second final card with the approved text and export **MP4, 1080×1920**. Watch for paid effects and export prompts.
+**CapCut (desktop): precise timing.** Follow [editor setup](setup-tools.md#capcut) first. Create a new project → **Import** the PNGs in order → **Menu → Settings → Edit →** set the image duration to **0.125 s** (8 poses/s) before placing them on the timeline. If CapCut rounds it, use **0.25 s** (4 poses/s, slower and choppier) ([CapCut stop-motion guide](https://www.capcut.com/resource/what-is-a-stop-animation)). Add a 5-second final card with the approved text and export **MP4, 1080×1920**. Watch for paid effects and export prompts.
 
 **Canva: simpler, slower.** Create a vertical video. Add each PNG as **its own scene**, in order, set each scene's duration with the clock control, and add the final card for 5 seconds. Then **Download → MP4**. Canva doesn't promise 0.125-second scenes, so expect a slower "pose sequence" and use fewer frames.
 
@@ -326,7 +328,8 @@ AI-generated frames are synthetic images: follow the disclosure guidance in [Eth
 
 - [ ] Every name, date, price and link matches the current fact sheet.
 - [ ] Accents are correct in the **final MP4** (ç, ã, õ, é, ê, í, ó, ú).
-- [ ] All text stays clear of the Reels interface when viewed on a phone.
+- [ ] All text stays clear of the Reels interface when viewed on a phone; small source/credit lines meet the 4.5:1 contrast reference.
+- [ ] The final MP4 is 30 fps, the shared target; [Instagram documents a minimum of 30 FPS](https://www.facebook.com/help/instagram/1038071743007909). This does not establish a universal Facebook upload minimum.
 - [ ] Each phrase stays on screen long enough to read; no flashing effects.
 - [ ] The message works **with sound off**, and the caption repeats the essentials.
 - [ ] Photos are authorized and unaltered; fonts and music are licensed for this use.
@@ -342,9 +345,9 @@ Use these when you need **many** cards (one per speaker, one per countdown day) 
 
 This method opens the HTML in an invisible browser, **pauses all CSS animations and steps the clock frame by frame**, takes a screenshot of each frame, then joins them into an H.264 MP4. No frames are dropped, even on a slow computer.
 
-**Tested on 21 October 2026** on Linux with Node.js 24, Playwright 1.64.1 and ffmpeg-static 5.3.0. No system ffmpeg was needed: the `ffmpeg-static` npm package brings its own. Rendering took roughly 1–2½ minutes per 12-second card at 1080×1920. The MP4s above came out at 0.4–0.7 MB.
+**Tested on 21 October 2026** on Linux with Node.js 24, Playwright 1.64.1 and ffmpeg-static 5.3.0. No system ffmpeg was needed: the `ffmpeg-static` npm package brings its own. Rendering took roughly 1–2½ minutes per 12-second card at 1080×1920. The linked assets use **30 fps**; file size depends on the card and export settings.
 
-1. Install a current LTS version of [Node.js](https://nodejs.org) (we used version 24).
+1. Follow [Node.js and terminal setup](setup-tools.md#nodejs), then install a current LTS version of [Node.js](https://nodejs.org) (we used version 24).
 2. Put your HTML file and our script [render-frames.mjs](/examples/render-frames.mjs) in an empty folder, open a terminal there and run:
 
 ```bash
@@ -352,13 +355,13 @@ npm init -y
 npm install playwright ffmpeg-static
 npx playwright install chromium
 
-# file, seconds, output name
-node render-frames.mjs countdown.html 12 countdown
-node render-frames.mjs "countdown.html?dias=14" 12 faltam-14
-node render-frames.mjs quote.html 14 quote
+# file, seconds, output name, fps
+node render-frames.mjs countdown.html 12 countdown 30
+node render-frames.mjs "countdown.html?dias=14" 12 faltam-14 30
+node render-frames.mjs quote.html 14 quote 30
 ```
 
-You get `countdown.mp4` (1080×1920, 24 fps, H.264, yuv420p) and a small `countdown-preview.gif`. The core of the script is this loop:
+You get `countdown.mp4` (1080×1920, 30 fps, H.264, yuv420p) and a small `countdown-preview.gif`. The core of the script is this loop:
 
 ```js
 for (let i = 0; i < total; i++) {
@@ -367,7 +370,7 @@ for (let i = 0; i < total; i++) {
   }, (i * 1000) / fps);
   await page.screenshot({ path: `frames/frame-${String(i).padStart(4, '0')}.png` });
 }
-// then: ffmpeg -framerate 24 -i frames/frame-%04d.png -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an out.mp4
+// then: ffmpeg -framerate 30 -i frames/frame-%04d.png -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an out.mp4
 ```
 
 > [!NOTE]
@@ -376,14 +379,14 @@ for (let i = 0; i < total; i++) {
 We also tested two related commands from our research with the same `ffmpeg-static` binary:
 
 ```bash
-# Stop-motion assembly: 24 numbered PNG poses at 8 poses/s, 24 fps output,
+# Stop-motion assembly: 24 numbered PNG poses at 8 poses/s, 30 fps output,
 # holding the last pose for 5 more seconds (result: exactly 8.0 s)
 ffmpeg -framerate 8 -start_number 0 -i poses/frame-%04d.png \
-  -vf "fps=24,tpad=stop_mode=clone:stop_duration=5" \
+  -vf "fps=30,tpad=stop_mode=clone:stop_duration=5" \
   -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an paper-animation.mp4
 
 # Convert a WebM screen recording to MP4
-ffmpeg -i recording.webm -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an event-reel.mp4
+ffmpeg -i recording.webm -vf fps=30 -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an event-reel.mp4
 ```
 
 (Inside a Node project, the binary is at `node_modules/ffmpeg-static/ffmpeg`.) Playwright's built-in real-time recording (`recordVideo`) also worked, but it records the page loading and depends on machine speed. The frame-by-frame method gives cleaner results.
@@ -392,7 +395,7 @@ ffmpeg -i recording.webm -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an 
 
 [Remotion](https://www.remotion.dev/docs/ai) is a framework for making videos with code, and it has official guidance for AI coding agents such as Claude Code. Rendering is frame-based, so every card comes out identical in timing. **License:** free for individuals and organizations of up to **3 people**; 4 or more need a paid license ([Remotion pricing](https://www.remotion.dev/docs/license/pricing)). Check what counts as your "organization" before using it. We did **not** run this route for this guide; follow the [current Remotion docs](https://www.remotion.dev/docs), since commands change.
 
-1. Install Node.js and Claude Code using their official setup instructions, and check your Claude plan/billing.
+1. Follow [Node.js and Claude Code setup](setup-tools.md#claude-code), use their official installation instructions and check your Claude plan/billing. This optional route needs a technical volunteer.
 2. Create the project (current starter shape from the Remotion docs):
 
 ```bash

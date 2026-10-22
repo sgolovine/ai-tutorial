@@ -14,7 +14,7 @@ A **prompt** is the message you type to an AI assistant (Claude, ChatGPT, Gemini
 - A simple anatomy for any marketing prompt.
 - The **CONAFROEDU context block** — a copy-paste "fact sheet" you put at the start of every chat so the AI stops guessing dates and prices.
 - How to get natural Brazilian Portuguese (not "translated" Portuguese).
-- How to save your context once (Projects, Gems/skills, custom GPTs, Gemini Notebook) instead of pasting it every time.
+- How to save your context (Projects, skills, Gemini Notebook) and keep every copy current.
 - A checklist for catching the AI's most dangerous mistakes: wrong dates, wrong prices and invented promises.
 
 > [!NOTE]
@@ -72,13 +72,17 @@ This is the most important thing on this page. It is a short, approved **fact sh
 Rules for the block:
 
 1. **One owner.** The Coordination person keeps the master copy in a shared document and updates the "version" date whenever a fact changes.
-2. **Only verified facts.** Everything below was checked on the Even3 page on 21 October 2026. Prices and dates can change — re-check before a price or deadline campaign.
-3. **Unknowns are marked `[CONFIRMAR]`.** This teaches the AI to leave a gap instead of inventing an answer.
+2. **Source each fact.** Use the Even3 page and the organizer’s announcement (the source of the advertised 40 hours). Committee decisions resolve the marked unknowns. Recheck prices and dates before a campaign; do not treat the partial activity listing as the final schedule.
+3. **Unknowns use the literal `[CONFIRMAR]`.** Put the description after the token. In prose, use “confirm with the committee”; in drafts, keep questions separate from publishable copy. Before publishing, inspect **all unresolved brackets and missing facts**, not just that token. Replace them with verified facts or remove the whole unsupported claim.
 4. **Keep it in Portuguese.** The team posts in Portuguese, so the facts should already use the official wording.
 
 ```prompt
 FICHA OFICIAL — CONAFROEDU 2026
 Versão: 21/10/2026 (conferir na Even3 antes de publicar preços ou prazos)
+Responsável pela ficha: [CONFIRMAR] — nome da pessoa da Coordenação
+Conferido por: [CONFIRMAR] — nome e data
+Fontes: página da Even3 e anúncio oficial da organização; decisões registradas pela comissão
+Próxima atualização obrigatória: encerramento confirmado das submissões em 4/11
 
 EVENTO
 - Nome: I CONAFROEDU — Congresso Nacional de Africanidades na Educação (1ª edição; não existem edições anteriores)
@@ -87,6 +91,8 @@ EVENTO
 - Horários das sessões: [CONFIRMAR] — sempre informar "horário de Brasília"
 - Plataforma de transmissão e forma de acesso: [CONFIRMAR]
 - Inscrições, normas e submissões: https://www.even3.com.br/iconafroedu-764690/
+- Inscrições para participação: até 6/12/2026; não confundir com o prazo de submissão nem com a virada de lote
+- Para submeter: a pessoa responsável precisa estar inscrita; use o mesmo e-mail na inscrição e na submissão
 
 PÚBLICO
 - Professoras e professores da educação básica, estudantes de graduação e pós-graduação, pesquisadoras e pesquisadores, gestoras e gestores escolares e demais profissionais da educação; alcance nacional.
@@ -94,18 +100,19 @@ PÚBLICO
 O QUE O EVENTO OFERECE (como divulgado)
 - Apresentação de trabalhos
 - Publicação nos Anais com ISBN e DOI (após avaliação; taxa de publicação de R$ 16,98 por trabalho, à parte da inscrição)
-- Certificado de 40 horas (critérios para receber: [CONFIRMAR])
+- Certificado de 40 horas, conforme anúncio da organização (critérios para receber: [CONFIRMAR])
 - Modalidades: artigo completo, resumo expandido, práticas exitosas (as normas na Even3 também citam resumo simples — [CONFIRMAR])
 
 DATAS IMPORTANTES
-- Submissões de trabalhos (e vídeo de apresentação): até 4/11/2026 — horário-limite [CONFIRMAR]
+- Submissões de trabalhos: até 4/11/2026 — horário-limite [CONFIRMAR]
+- Vídeo para quem pretende apresentar: prazo anunciado de 4/11/2026; procedimento e obrigatoriedade [CONFIRMAR]. Consulte a comissão agora; não presuma que pode esperar o parecer para preparar/enviar o vídeo
 - Resultado da avaliação: em até 5 dias úteis após a submissão
 - Pacotes com 2 ou 3 submissões: disponíveis até 5/11/2026
 - Valor atual das inscrições: até 15/11/2026; novo valor a partir de 16/11/2026
-- Programação oficial: até 25/11/2026
+- Programação: a Even3 já mostra atividades e alguns nomes; versão final e horários [CONFIRMAR]. Divulgação final prevista até 25/11/2026; não apresentar listagem parcial como programação definitiva
 - Congresso: 5 e 6/12/2026
-- Certificados: a partir de 6/12/2026
-- Anais: até 15/12/2026
+- Certificados: previstos a partir de 6/12/2026, conforme critérios confirmados
+- Anais: previstos até 15/12/2026
 
 VALORES EXIBIDOS NA EVEN3 EM 21/10/2026 (até 15/11 → a partir de 16/11)
 - Ouvinte/público geral: R$ 55,00 → R$ 60,00
@@ -118,7 +125,7 @@ CONTATO
 - WhatsApp da Comissão Organizadora: (19) 98816-7751
 - E-mail: conapsuporte@gmail.com
 - Instagram: @congressosnacionais_online
-- Página/Evento no Facebook: [CONFIRMAR URL]
+- Página/Evento no Facebook: [CONFIRMAR] — URL oficial
 
 HASHTAGS PRINCIPAIS
 #CONAFROEDU #EducaçãoAntirracista #Africanidades
@@ -137,8 +144,10 @@ NÃO AFIRMAR (ainda sem decisão da comissão)
 ### Keep the block alive
 
 - [ ] After **4 November**, change the submissions line to "Submissões encerradas em 4/11" (unless the committee officially extends the deadline).
-- [ ] After **15 November**, remove the old prices and keep only the current ones.
-- [ ] On **25 November** (or when the program is published), add confirmed session times and speakers.
+- [ ] At submission closing, audit **every** FAQ, greeting, scheduled post and saved context. Registration remains open for attendance; a ticket labelled “+ 1 submissão” does not reopen submissions. Direct existing-author exceptions to the committee.
+- [ ] After **5 November**, remove the 2/3-submission packages from current offers and saved replies; retain history only under “closed — do not offer”.
+- [ ] After **15 November**, remove the old prices and keep only the current attendance prices, checked at checkout.
+- [ ] When the approved program becomes available (advertised target: **by 25 November**), replace provisional entries with confirmed session dates, times and speakers.
 - [ ] After the event, add how to download certificates and, when available, the real proceedings link.
 
 ## Your brand voice in one paragraph
@@ -160,7 +169,7 @@ AI models write Portuguese well, but they drift into three problems: **European 
 | "tom de conversa entre colegas educadores" | "tom profissional" (often produces corporate jargon) |
 | Dates as **4 de novembro de 2026** in text, **04/11** in compact cards | "November 4th" logic or "11/04" (US order — a dangerous ambiguity) |
 | Money as **R$ 55,00** | "R$55" or "BRL 55" |
-| Times as **"às 23h59, horário de Brasília"** | "midnight" without date or time zone (Brazil has several time zones) |
+| Times as **"às [CONFIRMAR], horário de Brasília"**, filled only after confirmation | "midnight" without date or time zone (Brazil has several time zones) |
 | **"inscrição"** (registration) vs **"submissão"** (sending a paper) | Mixing them — they are different steps with different deadlines |
 | **"certificado de 40 horas"** | "40h de aulas ao vivo" (not documented) |
 
@@ -206,14 +215,16 @@ All major assistants let you save instructions and documents once. Names change 
 
 | Tool | Feature | What to do | Free? |
 |---|---|---|---|
-| **Claude** | **Projects** — a workspace with saved instructions and files | Create a project "CONAFROEDU 2026", paste the context block + voice into the project instructions, upload approved documents (the official announcement, approved bios). Every chat inside the project uses them. | Claude has a free plan; check whether Projects appear in your account's sidebar. [Claude plans](https://claude.com/pricing) |
-| **Gemini** | **Gems** (being replaced by **skills**) | Google's release notes from 30 September 2026 say skills are rolling out to replace Gems, so you may see either. Create one called "Redator CONAFROEDU" with the block and voice as its instructions. | Free Google account; features vary by region. [Gemini release notes](https://gemini.google/us/release-notes/) |
+| **Claude** | **Projects** — a workspace with saved instructions and files | Create a project "CONAFROEDU 2026", paste the context block + voice into the project instructions, upload approved documents (the official announcement, approved bios). Every chat inside the project uses them. | Free includes up to **five Projects**; menus can vary. [Claude plans](https://claude.com/pricing) |
+| **Gemini** | **Skills**; older Gems are transitioning | Save the fact sheet and voice as reusable instructions. Personal-account Gems transition starting **November 2026**; follow the account’s current [setup](setup-tools.md#gems). | Skills need age **18+**, a personal account and **Keep Activity on**; no Google AI subscription required. [Requirements](https://support.google.com/gemini/answer/17094296?hl=en) · [Transition](https://support.google.com/gemini/answer/18560919?hl=en) |
 | **Gemini Notebook** (known to many as **NotebookLM**) | A notebook that answers **only from the sources you upload**, with citations | Upload the approved fact sheet, rules and speaker bios. Ask for FAQs and bios — every answer points to the source passage. Free standard plan lists 100 notebooks and 50 sources per notebook. | Yes. [Plans and limits](https://support.google.com/gemininotebook/answer/16213268?hl=en) |
-| **ChatGPT** | **Custom GPTs** (OpenAI is moving some workplace customers to "plugins") | If available in your account, create a GPT with the block as instructions. If not, use the fallback below. | Varies by plan. [OpenAI guidance](https://learn.chatgpt.com/docs/migrate-custom-gpts) |
+| **ChatGPT** | Shared fact sheet; existing GPT migration only if relevant | Paste the current fact sheet + voice into a new chat. Personal Free/Go/Plus/Pro accounts cannot create new GPTs. Existing GPTs are scheduled to retire **11 December 2026**; migration and plugin access depend on the account notice. | No upgrade needed for the paste-in workflow. [Creation rules](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts) · [Retirement FAQ](https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq) |
 | **Any assistant** | **Fallback** | Keep the block in a shared Google Doc/Word file called "FICHA OFICIAL — versão DD/MM". Paste it at the top of every new chat. | Always works |
 
 > [!WARNING]
 > A saved project or Gem does **not** update itself. When a fact changes (for example, after 15 November prices go up), update the master document **and** every saved project/Gem/GPT. Write down where copies exist so you don't leave an old price running in one of them.
+
+For the source-only FAQ, open the **standalone Gemini Notebook interface**, not the notebook conversation inside ordinary Gemini. In the source panel, select only the approved fact sheet, rules and bios; exclude synced Gemini chats and earlier AI answers as official sources. Open each citation and check the actual passage. Google [explains the difference between the interfaces](https://support.google.com/gemininotebook/answer/17003757?hl=en). Follow [tool setup](setup-tools.md) before creating Projects, skills or notebooks.
 
 ### A starter prompt for a Gemini Notebook
 

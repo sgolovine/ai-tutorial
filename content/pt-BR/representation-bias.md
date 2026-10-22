@@ -38,7 +38,7 @@ Os estudos abaixo testaram modelos e versões específicos. Leia-os como **evid�
 |---|---|---|
 | Luccioni et al., [*Stable Bias*](https://arxiv.org/abs/2303.11408) (NeurIPS 2023) | O DALL·E 2 e o Stable Diffusion sub-representaram identidades marginalizadas em várias profissões | Modelos antigos; categorias dos EUA |
 | AlDahoul, Rahwan e Zaki, [*Scientific Reports*](https://doi.org/10.1038/s41598-025-99623-3) (2025) | Rostos gerados por IA reforçaram estereótipos de gênero e **uniformizaram** rostos dentro de grupos raciais; vê-los mudou a percepção das pessoas **mesmo quando as imagens estavam rotuladas como IA** | O rótulo sozinho não desfaz o dano |
-| Wilson, Ghosh e Caliskan, [AIES 2024](https://arxiv.org/abs/2508.17465) | O Stable Diffusion associou tons de pele mais escuros e rostos uniformizados a identidades estigmatizadas | Não é "os modelos sempre clareiam a pele"; o dano está nas associações |
+| Wilson, Ghosh e Caliskan, [AIES 2024](https://arxiv.org/abs/2508.17465) | O Stable Diffusion associou identidades estigmatizadas a determinados tons de pele; o SDXL produziu tons mais escuros e menor variação de tons de pele nas comparações do estudo | Trata de uniformização dos **tons de pele**, não da forma dos rostos; modelos antigos |
 | Wang et al., [*Generative AI So White*](https://journals.sagepub.com/doi/10.1177/10755470261428542) (*Science Communication*, 2026) | Em 9.600 imagens de quatro modelos, a branquitude dominou não só em número, mas em **posição e significado**: quem está no centro, quem tem autoridade | Conte quem está no comando, não só quem aparece |
 | Balestri, [*Neutral Prompts, Non-Neutral People*](https://arxiv.org/abs/2602.12133) (preprint de 2026) | Prompts neutros no GPT Image 1.5 e no Gemini 2.5 Flash Image geraram forte tendência a pele clara | São os antecessores dos modelos atuais do ChatGPT e do Gemini |
 | [*Social stereotypes in AI text-to-image generation*](https://link.springer.com/article/10.1007/s43681-026-01146-8) (2026) | Midjourney 6.1, Stability Core e DALL·E 3 mostraram estereótipos de profissão, cultura e beleza; prompts mais detalhados reduziram, mas podiam piorar a fidelidade | O prompt ajuda, em parte |
@@ -88,7 +88,7 @@ Peça a cada palestrante: o arquivo original da foto, o crédito que prefere par
 |---|---|---|
 | [PretUX](https://www.pretux.com.br/) | Comunidade de profissionais negros em UX, design e tecnologia; a página ["Quero ajudar"](https://www.pretux.com.br/quero-ajudar/) oferece contratação por meio de um catálogo de designers negros | Use o formulário oficial; diga exatamente o que precisa (ilustração, letreiro, animação). Experiência em UX não é o mesmo que ilustração |
 | PretADG / [ADG Brasil](https://adg.org.br/slider/slide-2/) | A página da iniciativa existe (2017) | Pergunte à ADG se há hoje um canal de indicação |
-| Portfólios individuais, como [Leandro Assis](https://lebassis.com/about) e [Aline Bispo](https://alinebispo.art/perfil/) | Artistas brasileiros com canais profissionais de contato | São exemplos do tipo de trabalho a procurar, não disponibilidade confirmada. Use os canais profissionais; as obras existentes não são material livre para a campanha |
+| Portfólios individuais brasileiros, como [Aline Bispo](https://alinebispo.art/perfil/) | Portfólio profissional; esse link sozinho não estabelece autodeclaração racial | Pesquise a obra e a biografia autorizada; não infira raça por nome, foto ou tema do trabalho. Disponibilidade e licença exigem acordo |
 
 > [!WARNING]
 > **Nunca peça à IA para imitar o estilo de um artista vivo** ("no estilo de [artista]"). Isso toma o trabalho da pessoa sem consentimento nem pagamento, que é exatamente o tipo de extração que a prática antirracista critica. Contrate a pessoa ou descreva um estilo próprio.
@@ -112,7 +112,7 @@ A licença diz respeito ao *uso*; a autenticidade, a *quem e onde*. Uma pessoa n
 | **[Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia)** | Arquivos com origem documentada, como [Nilma Lino Gomes no Seminário Nacional de Educação Quilombola de 2010](https://commons.wikimedia.org/wiki/File:Nilmalino.jpg) (Eliza Fiúza/ABr, CC BY 3.0 Brasil) | Depende da licença de cada arquivo; a CC BY exige crédito, link da licença e indicação de alterações. Use só em contexto educativo com legenda precisa, sem sugerir que a pessoa é palestrante ou apoiadora |
 | **[Nappy](https://nappy.co/license)** | Fotos gratuitas com foco em pessoas negras e pardas (acervo internacional) | Sim: CC0, uso comercial e edição permitidos. Sem sugerir endosso; sem uso degradante. Não é um acervo brasileiro |
 | **[Pexels](https://www.pexels.com/license/)** | Fotos e vídeos gratuitos | Sim, uso promocional permitido; sem sugerir endosso. Não é especializado; as palavras-chave da busca não comprovam etnia nem nacionalidade |
-| **[Brasil com S](https://www.brasilcoms.com.br/termosdeuso)** (Lab 678) | Cenas e pessoas brasileiras reais | **Não.** O uso gratuito é só editorial, excluindo uso comercial e promocional, e a edição é proibida. Para produção sob medida, entre em contato com eles |
+| **[Brasil com S](https://www.brasilcoms.com.br/termosdeuso)** | Cenas e pessoas brasileiras reais | **Não.** O uso gratuito é só editorial, excluindo uso comercial e promocional, e a edição é proibida. Para produção sob medida, entre em contato com eles |
 
 > [!NOTE]
 > Não foi possível confirmar um "banco de imagens afro" como fornecedor específico com licença clara, nem os termos do AFROPIXEL para fotografia autêntica gratuita. Não use essas fontes até conferir os termos atuais. Licenças antigas da Agência Brasil também não cobrem todas as imagens atuais da EBC; confira arquivo por arquivo.
@@ -137,11 +137,12 @@ Ilustração editorial contemporânea, sem aparência de fotografia documental. 
 
 Papéis específicos ("apresenta", "organiza") ajudam a manter a autoridade com as pessoas certas. Varie os papéis ao longo da campanha, em vez de repetir sempre a mesma hierarquia, e rejeite resultados que ainda clonem rostos ou desloquem a autoridade.
 
-**Preservar a identidade de uma pessoa real (de preferência, use uma ferramenta comum de recorte)**
+**Preservar a identidade de uma pessoa real: checklist de edição manual**
 
-```prompt
-Use somente o retrato aprovado e autorizado de [nome] para este layout. Preserve o tom de pele, os traços do rosto, a textura e o volume do cabelo, a idade e as marcas pessoais. Ajuste apenas enquadramento e exposição, de modo natural; reserve uma área fora da foto para a identificação. Não alise o cabelo, não afine traços, não clareie a pele nem reconstrua o rosto. Se o pedido exigir alteração de identidade, avise. O texto será inserido e conferido separadamente.
-```
+- Use o original aprovado num editor comum de recorte/layout, **sem geração por IA**.
+- Ajuste recorte e exposição só como autorizado; compare lado a lado com o original.
+- Preserve tom de pele, traços, cabelo, idade e marcas pessoais. Não use aprimoramento por IA, reconstrução ou embelezamento.
+- Ponha o nome fora da foto e confira separadamente. Se outra tarefa propuser envio a uma IA externa, obtenha autorização específica antes.
 
 **Sessão sobre uma cultura específica: consulte antes de desenhar**
 
@@ -160,7 +161,7 @@ Analise esta peça como apoio à revisão: quem está no centro, quem ensina, qu
 
 ## Símbolos religiosos e culturais: cuidado redobrado
 
-Nenhum estudo controlado mediu a precisão dos modelos de IA ao representar orixás, candomblé, umbanda ou adinkra. Parta do princípio de que eles erram, e de que um erro com cara de verdade é pior do que nenhum símbolo.
+Nesta revisão, não encontramos um benchmark controlado e robusto para avaliar a precisão dos modelos atuais com orixás, candomblé, umbanda ou adinkra. Não presuma precisão: consulte as pessoas detentoras desses saberes antes de representar elementos culturais específicos.
 
 - **Candomblé e umbanda** são tradições religiosas distintas, não rótulos intercambiáveis nem um conjunto padronizado de imagens. Um congresso de africanidades não é um congresso religioso, e ser uma pessoa negra não diz nada sobre a religião de alguém. A [política nacional para povos e comunidades tradicionais de terreiro e de matriz africana](https://www.gov.br/igualdaderacial/pt-br/assuntos/programas-e-projetos/politica-nacional-para-povos-e-comunidades-tradicionais-de-terreiro-e-matriz-africana/politica-nacional-para-povos-e-comunidades-tradicionais-de-terreiro-e-matriz-africana) enfatiza o respeito a seus saberes, práticas e participação.
 - **Orixás e objetos sagrados** nunca devem virar fundo decorativo, mascote ou imagem de venda. Se uma sessão específica precisar deles, consulte uma pessoa praticante adequada sobre nomes, atributos, contexto e o que não deve ser mostrado. Uma pessoa não fala por todos os terreiros. Evite tudo o que embranqueça, demonize, sexualize ou transforme figuras sagradas em personagens de fantasia. Não gere essas imagens com IA.

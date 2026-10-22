@@ -13,11 +13,11 @@ Esta página transforma o resto do site em **sete dias concretos**. No fim da se
 
 - Uma **checklist dia a dia** (cerca de 60 a 90 minutos por dia, divididos entre a equipe).
 - Prompts prontos para as primeiras publicações.
-- Duas receitas para iniciantes fazerem o **primeiro Reel** em menos de 30 minutos.
-- Uma checklist de fim de semana.
+- Duas receitas para iniciantes fazerem o **primeiro Reel** (reserve 30 a 45 minutos).
+- Uma checklist de fechamento da primeira semana.
 
 > [!IMPORTANT]
-> A sua primeira semana **já é** a parte urgente da campanha: as submissões do CONAFROEDU terminam na **quarta-feira, 4 de novembro de 2026**. Então esta semana não é só de "organização" — a chamada de trabalhos precisa estar no ar até o Dia 4. O plano completo, com datas, está no [plano de 6 semanas do CONAFROEDU](conafroedu-sprint.md).
+> A sua primeira semana **já é** a parte urgente da campanha: as submissões do CONAFROEDU terminam na **quarta-feira, 4 de novembro de 2026**. Então esta semana não é só de "organização" — publique a primeira chamada aprovada até **sexta-feira, 23 de outubro**. Concentre as primeiras quatro sessões ou divida tarefas entre responsáveis; não espere toda a configuração opcional ficar pronta. O plano completo, com datas, está no [plano de 6 semanas do CONAFROEDU](conafroedu-sprint.md).
 
 ## Antes de começar
 
@@ -27,21 +27,23 @@ Você vai precisar de:
 - Uma conta Google gratuita por pessoa.
 - Acesso de administração ou edição à **Página do Facebook** da organização — ou uma decisão de criar uma (veja o Dia 1).
 - O WhatsApp da organização num celular que a equipe possa usar: (19) 98816-7751.
-- Cerca de **5 a 7 horas no total** nesta semana, somando a equipe toda.
+- Reserve **12 a 17 horas-pessoa por semana**, somando a equipe, para o plano completo e o atendimento diário. Só as sessões listadas somam cerca de **8h30 a 9h de duração**; reuniões com mais pessoas multiplicam as horas-pessoa, e a espera por decisões da comissão é adicional.
 
-Os dias são uma **sequência**, não datas fixas. Se alguém não puder trabalhar no fim de semana, desloque os dias — mas termine o Dia 4 (primeiras publicações) até **segunda-feira, 26 de outubro**.
+Os dias são uma **sequência de tarefas**, sem adiar a chamada. Meta da primeira publicação: **23 de outubro**. A lista única de publicações com data está em [Linha do tempo](campaign-timeline.md): **26/10 carrossel de submissão; 28/10 checklist de sete dias (substitui a outra peça do dia); 30/10 Reel de prática de sala de aula**.
+
+**Só há 5 a 7 horas-pessoa?** Preserve o atendimento diário, um assistente de redação, a ficha, um modelo de feed e a chamada aprovada. Envie poucos convites institucionais pertinentes. Adie Reel, modelos extras, testes comparativos e canais novos; reduza o calendário ao que duas pessoas conseguem conferir.
 
 ## Dia 1 — Equipe, funções e ferramentas (≈ 90 min)
 
 **Objetivo:** todo mundo sabe o seu papel e tem as suas ferramentas.
 
-1. **Façam uma reunião de partida de 45 minutos.** Distribuam as quatro funções do [plano de 6 semanas](conafroedu-sprint.md#funções-na-equipe): Coordenação, Conteúdo/Design, Redes/Comunidade, Parcerias. Escrevam um nome ao lado de cada uma.
+1. **Façam uma reunião inicial de 45 minutos.** Distribuam as quatro funções do [plano de 6 semanas](conafroedu-sprint.md#funções-na-equipe): Coordenação, Conteúdo/Design, Redes/Comunidade, Parcerias. Escrevam um nome ao lado de cada uma.
 2. **Combinem duas regras:** (a) nenhuma data, valor ou regra é publicada se não estiver na ficha oficial; (b) uma segunda pessoa confere tudo o que foi feito com IA antes de sair.
-3. **Criem as contas gratuitas** (cada pessoa com o seu login — nunca compartilhem senha):
+3. Sigam [Configure suas ferramentas](setup-tools.md) e façam o primeiro exercício de [Aprenda com IA](learning-with-ai.md). **Criem só as contas necessárias** (cada pessoa com o próprio login — nunca compartilhem senha):
    - [ ] Um assistente de IA principal — sugerimos **Claude** ou **Gemini** (veja [Como escolher ferramentas de IA](choosing-ai-tools.md)). Se quiser, um segundo para comparar.
-   - [ ] **Canva gratuito** para design.
-   - [ ] Acesso ao **Meta Business Suite** pela Página do Facebook (cada pessoa convidada com o próprio perfil).
-   - [ ] App **WhatsApp Business** no celular da organização (gratuito).
+   - [ ] **Canva gratuito** para design ([configuração](setup-tools.md#canva)).
+   - [ ] Acesso ao **Meta Business Suite** ([configuração](setup-tools.md#meta-business-suite)) pela Página do Facebook (cada pessoa convidada com o próprio perfil).
+   - [ ] **WhatsApp Business**, com a pessoa responsável pelo número da organização. Se já estiver no Business, mantenha a configuração existente. Se estiver no Messenger, a pessoa titular faz backup e segue o [guia oficial de transferência](https://faq.whatsapp.com/3059780464322392/?cms_platform=iphone&locale=pt_BR), mantendo o controle da verificação. O mesmo número não funciona nos dois apps ao mesmo tempo; teste o recebimento antes de divulgar o atendimento. Veja a [configuração](setup-tools.md#whatsapp-business).
 4. **Verifiquem a Página do Facebook.** Existe uma Página oficial do CONAFROEDU? Quem administra? Na nossa pesquisa não encontramos Página nem Evento verificados. Se não existir, a Coordenação pede hoje uma decisão à comissão; o passo a passo está no [Manual do Facebook orgânico](facebook-playbook.md).
 5. **Criem uma pasta compartilhada** (Google Drive ou similar) com estas subpastas:
 
@@ -64,12 +66,12 @@ CONAFROEDU 2026/
 
 **Objetivo:** a IA (e a equipe) param de "chutar".
 
-1. A **Coordenação** copia a [ficha oficial do CONAFROEDU](prompting-basics.md#a-ficha-oficial-do-conafroedu) para um documento chamado "FICHA OFICIAL — versão 22/10" na pasta `01`.
+1. A **Coordenação** copia a [ficha oficial do CONAFROEDU](prompting-basics.md#a-ficha-oficial-do-conafroedu) para um documento chamado "FICHA OFICIAL — versão DD/MM" (use a data real da conferência) na pasta `01`.
 2. Abra a [página da Even3](https://www.even3.com.br/iconafroedu-764690/) no celular e confira linha por linha: datas, valores, contato, modalidades de submissão. O que não bater, ou o que a página deixar confuso, vai para uma lista.
 3. **Envie à comissão a lista de decisões** do [plano de 6 semanas](conafroedu-sprint.md#decisões-que-a-comissão-precisa-confirmar) — prioridades: o **horário-limite de 4 de novembro**, se a **apresentação é obrigatória** e a regra do **vídeo de apresentação**. Peça resposta até terça-feira, 27 de outubro.
 4. **Conteúdo/Design** acrescenta o parágrafo "VOZ DA MARCA" de [Noções básicas de prompt](prompting-basics.md#a-voz-da-marca-em-um-parágrafo) logo abaixo da ficha.
 5. **Salve o contexto** no assistente principal: um Projeto no Claude, um Gem/skill no Gemini ou um documento fixado (veja [Salve o contexto](prompting-basics.md#salve-o-contexto-para-não-colar-toda-vez)).
-6. Opcional, mas vale a pena (20 min): faça o [teste de comparação em pt-BR](choosing-ai-tools.md#teste-você-mesmo-comparação-de-20-minutos-em-pt-br) em dois assistentes e escolha a redatora principal.
+6. Opcional, mas vale a pena (20 min): faça o [teste de comparação em pt-BR](choosing-ai-tools.md#teste-você-mesmo-comparação-de-20-minutos-em-pt-br) em dois assistentes e escolha a assistente principal de redação.
 
 ## Dia 3 — Kit de marca mínimo e a primeira arte (≈ 90 min)
 
@@ -103,10 +105,10 @@ Até 110 palavras, um único convite para ação, até 3 hashtags no final. Marq
 Depois, me dê uma versão de 40 palavras para o WhatsApp (sem hashtags, link sozinho numa linha).
 ```
 
-2. **Confira** com a [checagem de 60 segundos](prompting-basics.md#a-checagem-de-60-segundos). Tire tudo o que estiver marcado como `[CONFIRMAR]` e que a comissão ainda não respondeu.
-3. **Publique** na Página do Facebook com a arte do Dia 3 e **fixe** no topo da Página.
+2. **Confira** com a [checagem de 60 segundos](prompting-basics.md#a-checagem-de-60-segundos). Confira todos os colchetes e dados ausentes. Substitua por fatos confirmados ou retire a **afirmação inteira sem respaldo**; apagar só o marcador não torna a frase verdadeira.
+3. **Publique** na Página autorizada do Facebook com a arte do Dia 3 e **fixe**. Se a Página nova não tiver público ou o acesso atrasar, peça à comissão para aprovar uma Página existente da organização como destino inicial e divulgue pelo Instagram já usado e por parceiros autorizados. Não adie a chamada de **23/10** esperando a Página crescer; mantenha o link oficial da Even3.
 4. **Crie um Evento no Facebook** para o congresso (on-line, 5 e 6 de dezembro, horário de Brasília, Even3 como link de inscrição). Passo a passo em [Eventos e Grupos no Facebook](facebook-events-groups.md).
-5. **Agende mais três publicações** para a semana seguinte no Meta Business Suite (veja [Ferramentas de agendamento](scheduling-tools.md)): carrossel "como submeter em 5 passos" (seg 26), checklist "faltam 7 dias" (qua 28) e um Reel curto para autores (sex 30). Use a IA para rascunhar cada uma; uma pessoa confere cada uma.
+5. **Agende as duas peças prontas e aprovadas** no Meta Business Suite ([configuração](setup-tools.md); [Ferramentas de agendamento](scheduling-tools.md)): carrossel de submissão na **seg 26** e checklist de sete dias na **qua 28**. Reserve uma linha **ainda sem agendar** para o Reel de prática de sala de aula da **sex 30**, a ser produzido no Dia 5. No carrossel: inscrição com o mesmo e-mail da submissão → normas → PDF → envio → acompanhar parecer/correções (até cinco dias úteis). Inclua o prazo separado de **4/11 para o vídeo de apresentação** e oriente quem pretende apresentar a consultar a comissão agora; não mande esperar o parecer para preparar/enviar o vídeo.
 6. **Instagram:** adapte a chamada (até 5 hashtags; o link vai na bio). Veja [Instagram e WhatsApp](instagram-whatsapp.md).
 
 ## Dia 5 — O primeiro Reel (≈ 30–45 min)
@@ -117,11 +119,11 @@ Depois, me dê uma versão de 40 palavras para o WhatsApp (sem hashtags, link so
 
 Uma educadora real falando por 20 segundos tem mais credibilidade do que qualquer vídeo gerado por IA.
 
-1. Peça a uma palestrante confirmada ou a alguém da comissão que grave **15 a 20 segundos** na vertical, de frente para uma janela, num lugar silencioso. Sugestão de roteiro (confira com a ficha):
+1. Obtenha **autorização por escrito para divulgação**, com canais e uso de imagem/voz combinados. Envio a IA ou dublagem exige autorização separada. Depois peça a uma palestrante confirmada ou a alguém da comissão que grave **15 a 20 segundos** na vertical, de frente para uma janela, num lugar silencioso. Sugestão de roteiro (confira com a ficha):
 
 > "O CONAFROEDU 2026 será nos dias 5 e 6 de dezembro, totalmente on-line. Se você tem uma pesquisa ou uma prática de educação antirracista, as submissões vão até 4 de novembro. Confira as normas na Even3."
 
-2. Abra o **CapCut** (ou o editor que você conhece) → Novo projeto → importe o vídeo → **9:16**.
+2. Siga a [configuração do editor](setup-tools.md#capcut) e abra o **CapCut** (ou o editor que você conhece) → Novo projeto → importe o vídeo → **9:16**.
 3. Corte o silêncio do começo e do fim. Não use filtros de rosto nem efeitos de voz.
 4. Coloque legendas (legenda automática em português, se houver) e **revise linha por linha**.
 5. Acrescente uma tela final de 3 segundos: `CONAFROEDU 2026 · Submissões até 4/11 · Even3`.
@@ -137,7 +139,7 @@ Uma educadora real falando por 20 segundos tem mais credibilidade do que qualque
 3. Aplique uma animação de entrada simples e gratuita. Deixe o texto parado tempo suficiente para a leitura.
 4. Baixe em MP4 e confira todos os acentos no celular.
 
-Depois, agende o Reel para sexta-feira, 30 de outubro, no Business Suite, com o link da Even3 na legenda. Mais técnicas em [Reels, cortes e legendas](video-repurposing.md) e [Motion graphics com o Claude](motion-graphics-claude.md).
+Após uma segunda pessoa aprovar o arquivo, agende **este único Reel** na linha reservada para sexta-feira, 30 de outubro, no Business Suite, com o link da Even3 na legenda. Mais técnicas em [Reels, cortes e legendas](video-repurposing.md) e [Motion graphics com o Claude](motion-graphics-claude.md).
 
 ## Dia 6 — Organize as respostas (≈ 60 min)
 
@@ -146,8 +148,8 @@ Depois, agende o Reel para sexta-feira, 30 de outubro, no Business Suite, com o 
 1. **WhatsApp Business** (app gratuito) no celular da organização:
    - [ ] Perfil comercial: nome da organização, link da Even3, horário de atendimento.
    - [ ] Mensagens de **saudação** e de **ausência** dizendo quando uma pessoa vai responder.
-   - [ ] **Respostas rápidas** (atalhos que uma pessoa escolhe — não é robô): `/submissao`, `/valores`, `/certificado`, `/acesso`, `/humano`. Só fatos aprovados; para o que ainda não foi decidido, "a comissão vai confirmar".
-   - [ ] **Etiquetas**: "Dúvida de submissão", "Dúvida de inscrição", "Instituição parceira", "Precisa de resposta humana".
+   - [ ] **Respostas rápidas** (atalhos que uma pessoa escolhe — não é robô): `/prazo`, `/comosubmeter`, `/valores`, `/certificado`, `/acesso`, `/humano` (subconjunto inicial do [banco oficial](replies-inbox.md); acrescente `/video` durante a chamada). Só fatos aprovados; para o que ainda não foi decidido, "a comissão vai confirmar".
+   - [ ] **Etiquetas**: "Dúvida sobre inscrição", "Dúvida sobre submissão", "Instituição parceira", "Precisa de resposta humana", "Não enviar divulgação". Confira a última antes de cada envio de divulgação; uma dúvida recebida não autoriza lembretes posteriores.
 2. **Caixa de entrada da Página no Facebook:** ative uma resposta instantânea. Exemplo (ajuste os horários):
 
 ```text
@@ -158,7 +160,7 @@ Inscrições e normas: https://www.even3.com.br/iconafroedu-764690/
 Não envie CPF, dados de pagamento ou documentos por aqui.
 ```
 
-3. **Redes/Comunidade** reserva 15 minutos por dia para olhar comentários, mensagens da Página, a discussão do Evento e o WhatsApp.
+3. **Redes/Comunidade** distribui duas checagens diárias (cerca de 15 minutos no total; amplie perto dos prazos ou faça plantão) para olhar comentários, mensagens da Página, a discussão do Evento e o WhatsApp.
 
 Detalhes e limites (o que é grátis, o que não é e as regras de mensagens da Meta) estão em [Automação de respostas](replies-inbox.md).
 
@@ -179,7 +181,7 @@ Localize até 10 NEABs/NEABIs ou grupos de educação antirracista em universida
    - [ ] A comissão respondeu à lista de decisões? Atualize a ficha.
    - [ ] O que está agendado para a semana que vem? Quem revisa?
 
-## Checklist de fim de semana
+## Checklist de fechamento da primeira semana
 
 - [ ] Quatro funções distribuídas, cada uma com um nome.
 - [ ] Todo mundo com as próprias contas gratuitas.
@@ -189,7 +191,7 @@ Localize até 10 NEABs/NEABIs ou grupos de educação antirracista em universida
 - [ ] Mestres de Feed e Story no Canva.
 - [ ] Chamada de trabalhos publicada, fixada e adaptada para Instagram e WhatsApp.
 - [ ] Evento no Facebook criado.
-- [ ] As três publicações da próxima semana agendadas.
+- [ ] Duas peças estáticas agendadas no Dia 4; um único Reel de sexta agendado após aprovação no Dia 5 (ou adiado no plano reduzido).
 - [ ] Primeiro Reel pronto e agendado.
 - [ ] Respostas rápidas do WhatsApp Business e resposta instantânea da Página ativadas.
 - [ ] Dez parceiros na lista; cinco convites enviados por uma pessoa.

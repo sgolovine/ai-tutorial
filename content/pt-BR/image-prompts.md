@@ -90,13 +90,15 @@ Seguindo o estilo combinado, crie um fundo abstrato: formas de papel sobrepostas
 Seguindo o estilo combinado, crie um fundo para card de palestrante. Vertical 4:5. Deixe uma grande área vazia à esquerda (cerca de 55% da largura), onde vou colocar uma foto real, e uma faixa limpa embaixo para nome e tema. À direita, só formas suaves de papel nas cores da paleta. Sem pessoas, sem rostos, sem texto, sem molduras que pareçam foto.
 ```
 
+Copie **data e horário da sessão juntos** da programação final aprovada; o congresso tem dois dias.
+
 **Insira no Canva:** o retrato aprovado (só recorte; **não** use IA para retocar rosto, pele ou cabelo) e:
 
 - `Palestrante` ou `Convidada/Convidado`, conforme a comissão definir
 - `[Nome completo exatamente como aprovado]`
 - `[Título da fala, aprovado pela pessoa]`
 - `[Instituição, se autorizado]`
-- `5 de dezembro · [horário confirmado] (horário de Brasília)`
+- `[CONFIRMAR] — data da sessão · [CONFIRMAR] — horário (horário de Brasília)`
 - `CONAFROEDU 2026 · 100% on-line`
 
 > [!WARNING]
@@ -121,7 +123,7 @@ Seguindo o estilo combinado, crie um fundo comemorativo, mas sóbrio, para um ca
 - `CONAFROEDU 2026 · 5 e 6 de dezembro · on-line`
 
 > [!TIP]
-> Compartilhe o link de modelo do Canva (*Compartilhar → Link de modelo*) com as autoras e autores, para que preencham os próprios dados. Assim, cada pessoa aprovada vira divulgadora, sem trabalho extra para a equipe. Veja [Kits de divulgação para palestrantes e parceiros](speaker-partner-kits.md).
+> Criar [Link de modelo no Canva](https://www.canva.com/help/share-template-link/) exige plano elegível; **não está incluído no gratuito**. No caminho gratuito, a equipe duplica o mestre, preenche os dados aprovados e envia o PNG pronto a cada autora ou autor. Se já houver plano elegível, teste o link com uma conta externa antes de distribuir. Nunca dê acesso de edição ao mestre. Veja [Kits de divulgação para palestrantes e parceiros](speaker-partner-kits.md).
 
 ## 4. Card de citação
 
@@ -144,6 +146,8 @@ Seguindo o estilo combinado, crie um fundo minimalista para um card de citação
 Um carrossel de 5 a 7 páginas, por exemplo "Como submeter seu trabalho até 4/11" ou, a partir de 25/11, a programação. **Uma ideia por página.**
 
 **Ferramenta:** um único fundo de IA, reaproveitado em todas as páginas com pequenas variações; texto no Canva. **Tamanho:** 1080 × 1080 em todas as páginas.
+
+Para receber arquivos separados com mais previsibilidade, peça **uma variação por mensagem**, aprove e solicite a próxima usando a imagem aprovada como referência. O pedido em lote abaixo é um atalho opcional de planejamento, não garantia de três arquivos.
 
 ```prompt
 Seguindo o estilo combinado, crie um conjunto de 3 fundos quadrados (1:1) para um carrossel, como variações da mesma composição: (1) capa: formas concentradas à direita, grande área vazia à esquerda; (2) página interna: formas só na borda inferior, grande área vazia; (3) página final: formas emoldurando as bordas, centro vazio. Mesma paleta, mesma textura e mesma espessura das formas nos três. Sem pessoas, sem texto, sem números, sem setas.
@@ -196,7 +200,7 @@ Seguindo o estilo combinado, crie uma ilustração editorial contemporânea para
 
 - `20 de novembro · Dia Nacional de Zumbi e da Consciência Negra`
 - `20 de novembro no calendário; educação antirracista no cotidiano`
-- Legenda: conteúdo de verdade (por exemplo, uma pergunta prática sobre como as Leis 10.639/2003 e 11.645/2008 aparecem no currículo da sua escola) e, depois, um convite curto: `Nos dias 5 e 6 de dezembro, o CONAFROEDU propõe um espaço on-line para esse diálogo.`
+- Legenda: conteúdo educativo, fontes, crédito e uma pergunta real sobre as Leis 10.639/2003 e 11.645/2008. Qualquer convite opcional para participar fica numa **publicação separada**, sem pressão de venda.
 - Crédito da/do artista, ou `Ilustração gerada com IA; não retrata pessoas reais.`
 
 > [!CAUTION]
@@ -363,6 +367,8 @@ Confira cada letra com o texto aprovado. Se a mesma linha sair errada duas vezes
 - [ ] Nada de local físico, plateia, "edição anterior", certificado falso ou depoimento falso.
 - [ ] O uso de IA está sinalizado quando alguém puder confundir a imagem com a realidade; artistas foram creditados.
 - [ ] O prompt e o arquivo final estão salvos na pasta compartilhada para reaproveitamento.
+
+Antes de ativar instruções salvas ou instalar/configurar um editor, siga [Configure suas ferramentas](setup-tools.md#canva).
 
 ## Próximos passos
 

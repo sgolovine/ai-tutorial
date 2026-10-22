@@ -50,8 +50,8 @@ When four volunteers post from four laptops with three AI assistants, the result
 | Deadline reminder | Calm and direct | "As submissões terminam em 4 de novembro. Confira a checklist antes de enviar." |
 | Price change | Factual, no pressure | "O valor da inscrição muda em 16 de novembro. Até 15/11, vale o valor atual." |
 | 20 November | Reflective, crediting others, no selling | "Neste 20 de novembro, que mudanças de currículo e de formação estamos construindo ao longo do ano?" |
-| Support replies | Kind and practical | "Olá! Obrigada pela mensagem. Para baixar o certificado, siga estes passos…" |
-| Event days | Energetic but precise | "Começamos às [horário], horário de Brasília. O link de acesso está no e-mail da inscrição." |
+| Support replies | Kind and practical | "Olá! Agradecemos a sua mensagem. Para baixar o certificado, siga estes passos…" |
+| Event days | Energetic but precise | "Começamos às [CONFIRMAR], horário de Brasília. Acesse pelo caminho informado pela comissão: [CONFIRMAR]." Publish only after confirming the time and access route. |
 | Corrections | Transparent, brief | "Corrigindo: o horário certo é [horário]. Pedimos desculpas pela confusão." |
 
 ### Words we use and words we avoid
@@ -61,7 +61,7 @@ When four volunteers post from four laptops with three AI assistants, the result
 | *inscrição* (registration) / *submissão* (sending a paper) | Mixing the two | They are different steps with different deadlines |
 | *certificado de 40 horas, conforme os critérios divulgados* | "40h de aulas ao vivo", "vale progressão" | Not documented; depends on each institution |
 | *anais com ISBN e DOI* | "publicação Qualis", "revista científica" | Proceedings aren't automatically a rated journal |
-| *professoras e professores* (or another agreed inclusive form) | Only the masculine form by default | Most of our audience are women teachers |
+| *professoras e professores* (or another agreed inclusive form) | Only the masculine form by default | Use inclusive wording without assuming the audience’s gender composition |
 | *100% on-line* | "presencial", any city name | The event is online; don't infer a city |
 | *o valor muda em 16/11* | "últimas vagas", "corre que acaba" | No real capacity limit has been announced |
 | *Educação para as Relações Étnico-Raciais (ERER)* on first mention | Unexplained acronyms | Not every teacher knows every policy acronym |
@@ -72,7 +72,7 @@ When four volunteers post from four laptops with three AI assistants, the result
 - **Money:** "R$ 55,00".
 - **Time:** "às 19h, horário de Brasília" — Brazil has several time zones.
 - **Name:** "Congresso Nacional de Africanidades na Educação (CONAFROEDU)" once, then "CONAFROEDU".
-- **Spelling:** the official announcement writes "on-line"; pick one form ("on-line" or "online") and use it everywhere.
+- **Portuguese spelling:** use **“on-line”**, including “100% on-line”. Preserve product names, URLs and literal quotations. English prose keeps “online”.
 - **Emojis:** at most two per post, and never instead of words (screen readers read them aloud).
 - **Hashtags:** see the [hashtag set](#hashtag-set) below.
 
@@ -103,11 +103,11 @@ CONAFROEDU already has official graphics on its [Even3 page](https://www.even3.c
 Choose **two main colors, one accent and two neutrals** (a dark for text, a light for backgrounds). Write down their **hex codes** (the six-character color code, like `#17324D`) so everyone uses exactly the same shades.
 
 - If the official graphics already have colors, reuse them — ask the designer for the codes, or use Canva's color picker on the uploaded logo.
-- Check **contrast**: text must be easy to read on a phone in sunlight. Dark text on a light background (or the reverse) is safest. Avoid thin colored text over photos.
+- Use [WCAG’s contrast reference](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html): **4.5:1 for ordinary text, 3:1 for large text**. Check at the displayed phone size, including small source/credit lines. Check **contrast**: text must be easy to read on a phone in sunlight. Dark text on a light background (or the reverse) is safest. Avoid thin colored text over photos.
 - Don't rely on color alone to convey meaning (for example, "red = closed"); add words.
 
 > [!NOTE]
-> **Example palette only** — our image research used this in a sample prompt: navy `#17324D`, green `#3F8F79`, cream `#F6F2E9`. It is **not** CONAFROEDU's official palette. Use it only if the committee has no colors and approves it.
+> **Example palette only** — our image research used this in a sample prompt: navy `#17324D`, green `#3F8F79`, cream `#F6F2E9`. It is **not** CONAFROEDU’s official palette. The terracotta/ochre motion demos are another **example**, not a second campaign default. Any committee-approved palette can work with adequate contrast; use that approved kit consistently across the campaign.
 
 ### Typography
 
@@ -149,7 +149,7 @@ If you use illustrations, pick **one style** and stick to it across the campaign
 | **Canva for Education** | Free for verified K–12 teachers | A conference committee doesn't qualify by itself, and Education content is limited to **educational, non-commercial** use — not for promoting a paid congress. |
 | **Canva for Nonprofits** | Free for approved charitable nonprofits | Requires official registration documents; universities and professional associations are excluded. A volunteer committee usually won't qualify. |
 
-Source: [Canva Brazil pricing](https://www.canva.com/pt_br/precos/). Canva also has a "Brand Kit" feature for saving colors and fonts; if your plan doesn't include it, keep a **master design** with your colors and fonts and always duplicate it.
+Source: [Canva Brazil pricing](https://www.canva.com/pt_br/precos/). Free includes **one Brand Kit with three colors**; it does not include every paid brand-management feature. For this guide’s larger palette/font system, keep a **master design** and always duplicate it. Follow [Canva setup](setup-tools.md#canva) first.
 
 ### Sizes to set up
 
@@ -259,8 +259,8 @@ Hashtags help people find posts by topic; they don't guarantee reach. Meta says 
 
 **By channel:**
 
-- **Facebook:** 0–3, at the end of the post.
-- **Instagram:** up to 5 relevant hashtags (Instagram has reportedly been moving to a five-hashtag limit).
+- **Facebook:** 0–3, at the end of the post — an editorial convention, not a platform maximum.
+- **Instagram:** use up to 5 relevant hashtags; respect any lower limit shown by the composer. This is the team’s operating rule; do not plan around an old 30-tag allowance.
 - **WhatsApp:** none.
 
 **Rules:** no unrelated trending tags; no city tags (the event is national and online); check what a hashtag is used for before adopting it; write the topic naturally in the text too.

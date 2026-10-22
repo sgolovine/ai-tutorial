@@ -7,10 +7,10 @@ icon: ✂️
 updated: 2026-10-21
 ---
 
-**O que você vai encontrar nesta página:** um plano para tratar o congresso online como uma **mina de conteúdo**. Você vai ver o que gravar antes, durante e depois do CONAFROEDU 2026; como fazer uma live com as ferramentas que realmente funcionam para uma Página nova; um passo a passo **"1 palestra → 6 Reels"** com prompts prontos para escolher trechos e escrever os textos; como fazer legendas corretas em português (questão de acessibilidade); quando dublagem e avatares com IA são aceitáveis; e quais músicas você pode usar legalmente. Ferramentas gratuitas primeiro.
+**O que você vai encontrar nesta página:** um plano para tratar o congresso on-line como uma **mina de conteúdo**. Você vai ver o que gravar antes, durante e depois do CONAFROEDU 2026; como fazer uma live com as ferramentas que realmente funcionam para uma Página nova; um passo a passo **"1 palestra → 6 Reels"** com prompts prontos para escolher trechos e escrever os textos; como fazer legendas corretas em português (questão de acessibilidade); quando dublagem e avatares com IA são aceitáveis; e quais músicas você pode usar legalmente. Ferramentas gratuitas primeiro.
 
 > [!NOTE] Por que isso importa mais do que vídeo com IA
-> As orientações da Meta de 2026 favorecem **conteúdo original produzido pela própria Página** — seus palestrantes, sua organização — em vez de cópias e cortes com pouca edição ([Meta, março de 2026](https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/)). Um congresso online produz horas exatamente desse tipo de material. Você não precisa gerar vídeo; precisa **gravar, cortar e legendar**. (Para vídeo gerado, veja [Geração de vídeo com IA](video-generation.md).)
+> As orientações da Meta de 2026 favorecem **conteúdo original produzido pela própria Página** — seus palestrantes, sua organização — em vez de cópias e cortes com pouca edição ([Meta, março de 2026](https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/)). Um congresso on-line produz horas exatamente desse tipo de material. Você não precisa gerar vídeo; precisa **gravar, cortar e legendar**. (Para vídeo gerado, veja [Geração de vídeo com IA](video-generation.md).)
 
 ## Resumo rápido
 
@@ -38,7 +38,7 @@ Uma palestra ser pública **não** dá permissão para transformá-la em Reels. 
 Confirme também com a comissão organizadora: **onde o congresso será transmitido, se as sessões serão gravadas e de quem são as gravações.** Essas informações não estavam públicas quando este guia foi escrito.
 
 ```prompt
-Escreva uma mensagem curta e cordial, em português do Brasil, da comissão organizadora do CONAFROEDU 2026 (Congresso Nacional de Africanidades na Educação, 5 e 6 de dezembro de 2026, online) para uma palestrante confirmada. Peça autorização para cada um destes usos separadamente, para que ela possa responder sim/não a cada um: (1) gravar a palestra, (2) publicar cortes curtos (até 90 segundos) no Facebook, Instagram e WhatsApp do congresso, (3) usar nome, foto e instituição nas publicações, (4) legendas traduzidas. Deixe claro que NÃO usaremos dublagem com IA, clonagem de voz ou avatar sem um pedido à parte. Diga que ela pode revisar os cortes antes da publicação, se quiser. Tom acadêmico, acolhedor e respeitoso. Máximo de 150 palavras.
+Escreva uma mensagem curta e cordial, em português do Brasil, da comissão organizadora do CONAFROEDU 2026 (Congresso Nacional de Africanidades na Educação, 5 e 6 de dezembro de 2026, on-line) para uma palestrante confirmada. Peça autorização para cada um destes usos separadamente, para que ela possa responder sim/não a cada um: (1) gravar a palestra, (2) publicar cortes curtos (até 90 segundos) no Facebook, Instagram e WhatsApp do congresso, (3) usar nome, foto e instituição nas publicações, (4) legendas traduzidas. Deixe claro que NÃO usaremos dublagem com IA, clonagem de voz ou avatar sem um pedido à parte. Diga que ela pode revisar os cortes antes da publicação, se quiser. Tom acadêmico, acolhedor e respeitoso. Máximo de 150 palavras.
 ```
 
 > [!WARNING] LGPD e material sensível
@@ -50,8 +50,8 @@ Escreva uma mensagem curta e cordial, em português do Brasil, da comissão orga
 |---|---|---|---|
 | **Antes — submissões** | Hoje → **4/11** | Organização explicando os tipos de submissão; um autor contando por que está submetendo | "Como submeter um resumo expandido", Reels com depoimentos de autores |
 | **Antes — inscrições** | 5/11 → 4/12 | Convites de palestrantes gravados no celular; live de aquecimento; respostas curtas a perguntas | Reels de convite, live, cards com citações |
-| **Ação do 20/11** | Por volta de **20/11** (Consciência Negra) | Palestrante ou educador falando de prática antirracista o ano inteiro | Um Reel reflexivo + chamada para inscrição (não para submissão) |
-| **Durante** | **5 e 6/12** | Palestras (se autorizado), reações ao vivo, bastidores da sala online | Stories, posts "acontecendo agora", destaques curtos |
+| **Ação do 20/11** | Por volta de **20/11** (Consciência Negra) | Palestrante ou educador falando de prática antirracista o ano inteiro | Reel reflexivo com pergunta educativa; convite opcional em publicação separada |
+| **Durante** | **5 e 6/12** | Palestras (se autorizado), reações ao vivo, bastidores da sala on-line | Stories, posts "acontecendo agora", destaques curtos |
 | **Depois** | 6/12 → janeiro | Cortes das palestras, agradecimentos, lembretes de certificado/anais | 3 a 6 Reels por palestra autorizada, carrosséis, resumos no WhatsApp |
 
 Lembre-se dos prazos: as submissões de trabalhos fecham em **4 de novembro**; o lote de inscrição muda em **16 de novembro**; a programação sai até **25 de novembro**. Um corte gravado em 5 de dezembro não ajuda o prazo de submissão — tire do ar qualquer chamada vencida. Veja [CONAFROEDU: plano de 6 semanas](conafroedu-sprint.md).
@@ -69,7 +69,7 @@ Este é o vídeo de maior valor e menor custo que você pode fazer. Mande este g
 5. Grave 2 ou 3 vezes e envie a melhor **como arquivo** (mandar como "documento" no WhatsApp preserva melhor a qualidade do que mandar como vídeo).
 
 ```prompt
-Escreva um roteiro de vídeo de 20 a 25 segundos, em português do Brasil, para uma palestrante confirmada gravar no celular, convidando o público para o CONAFROEDU 2026 (Congresso Nacional de Africanidades na Educação, 5 e 6 de dezembro de 2026, 100% online, inscrições pela Even3). Palestrante: [NOME], [CARGO/INSTITUIÇÃO — como aprovado]. Tema da fala: [TEMA APROVADO]. Estrutura: (1) apresentação em uma frase, (2) uma pergunta ou ideia concreta da fala que importe para professoras e professores, (3) convite com "inscrições pela Even3, link na publicação". Linguagem falada e natural, frases curtas, sem exageros e sem promessas sobre certificado além do que está escrito aqui. Dê duas versões: uma mais formal e outra mais calorosa.
+Escreva um roteiro de vídeo de 20 a 25 segundos, em português do Brasil, para uma palestrante confirmada gravar no celular, convidando o público para o CONAFROEDU 2026 (Congresso Nacional de Africanidades na Educação, 5 e 6 de dezembro de 2026, 100% on-line, inscrições pela Even3). Palestrante: [NOME], [CARGO/INSTITUIÇÃO — como aprovado]. Tema da fala: [TEMA APROVADO]. Estrutura: (1) apresentação em uma frase, (2) uma pergunta ou ideia concreta da fala que importe para professoras e professores, (3) convite com "inscrições pela Even3, link na publicação". Linguagem falada e natural, frases curtas, sem exageros e sem promessas sobre certificado além do que está escrito aqui. Dê duas versões: uma mais formal e outra mais calorosa.
 ```
 
 > [!TIP]
@@ -83,19 +83,21 @@ Quem está submetendo trabalhos (e o vídeo de apresentação, com prazo até **
 
 Uma conversa ensaiada de 15 a 25 minutos antes do congresso já basta. Roteiro sugerido: 2 min de apresentações → 10 min sobre uma prática real ou pergunta de pesquisa → 5 min respondendo perguntas coletadas antes → 2 min explicando como se inscrever (ou submeter, enquanto estiver aberto). Dê um título claro, por exemplo **"Conversa de aquecimento — CONAFROEDU"**, para ninguém confundir com o congresso em si.
 
+Antes de instalar editor/OBS ou configurar um destino de transmissão, siga [Configure suas ferramentas](setup-tools.md#capcut). Comece pelo editor que você já conhece.
+
 ## Durante: lives e transmissão
 
 ### Qual caminho usar
 
 | Caminho | Custo | Requisitos e cuidados |
 |---|---|---|
-| **Facebook Live / Live Producer** (nativo) | Grátis | Valem as regras de elegibilidade da Meta. A documentação do StreamYard as descreve assim: conta do Facebook com **pelo menos 60 dias**, Página/perfil profissional com **pelo menos 100 seguidores** e permissão para criar conteúdo na Página ([ajuda do StreamYard](https://support.streamyard.com/hc/en-us/articles/360043291412-Connect-a-Facebook-Page)). Ensaie antes de anunciar. |
+| **Facebook Live / Live Producer** (nativo) | Grátis | Valem as regras de elegibilidade da Meta. A [ajuda da Meta](https://www.facebook.com/help/1636872026560015) exige: conta do Facebook com **pelo menos 60 dias**, Página/perfil profissional com **pelo menos 100 seguidores** e permissão para criar conteúdo na Página ([ajuda da Meta](https://www.facebook.com/help/1636872026560015)). Ensaie antes de anunciar. |
 | **StreamYard → Facebook + YouTube ao mesmo tempo** | **Planos pagos** (o teste de 7 dias não é plano gratuito) | Transmitir para vários destinos é recurso pago ([StreamYard](https://support.streamyard.com/hc/en-us/articles/360045622851-How-to-Multi-stream)). Confira o preço mensal antes de assumir. |
 | **StreamYard → evento do Facebook já existente (RTMP)** | Depende do plano | Os comentários e o número de espectadores do Facebook **não** aparecem no estúdio — deixe uma pessoa moderando dentro do Facebook ([StreamYard](https://support.streamyard.com/hc/en-us/articles/360059249772-Connect-an-existing-Facebook-Event)). Mantenha a chave de transmissão em sigilo. |
 | **YouTube ao vivo, com link divulgado no Facebook** | Grátis | Exige verificação do canal e ativação da transmissão ao vivo com antecedência ([ajuda do YouTube](https://support.google.com/youtube/answer/2474026)). Boa alternativa se a Página do Facebook não for elegível. |
 
-> [!WARNING] Uma Página recém-criada não consegue fazer live a tempo
-> Uma conta do Facebook criada hoje não completa 60 dias antes de 5 de dezembro. Transmita pela conta de uma pessoa da organização que já tenha conta antiga e autorização, e conquiste seguidores reais para a Página — ou use o YouTube como alternativa e compartilhe o link. Não compre seguidores nem use contas emprestadas.
+> [!WARNING] Uma conta pessoal criada hoje não completa 60 dias antes do congresso
+> Uma conta do Facebook criada hoje não completa 60 dias antes de 5 de dezembro. Uma Página nova administrada por conta antiga e autorizada pode ser elegível ao atingir 100 seguidores reais e cumprir os demais requisitos. Teste o destino no Live Producer antes de anunciar, ou use o YouTube como alternativa. Não compre seguidores nem use contas emprestadas.
 
 **Atenção:** o antigo botão de **Watch Party** do Facebook foi descontinuado em 2021. Se quiser um momento de "assistir juntos" num grupo, combine um horário com os administradores, compartilhe o link público da live ou do YouTube e deixe alguém puxando a conversa nos comentários.
 
@@ -213,7 +215,7 @@ Considere dublagem com IA apenas se ela realmente melhorar o acesso **e** se a p
 
 | Ferramenta | O que faz | Grátis? | Cuidado com direitos |
 |---|---|---|---|
-| **HeyGen** | Tradução de vídeo com sincronia labial; diferencia **português do Brasil** de Portugal ([idiomas](https://help.heygen.com/en/articles/11391941-video-translation-languages-we-support)) | 1 a 3 vídeos/mês com marca d'água (varia por região) | Gêmeos digitais exigem um vídeo de consentimento gravado pela própria pessoa |
+| **HeyGen** | Tradução de vídeo com sincronia labial; diferencia **português do Brasil** de Portugal ([idiomas](https://help.heygen.com/en/articles/11391941-video-translation-languages-we-support)) | Teste limitado de tradução: [três vídeos no total, de até três minutos](https://help.heygen.com/en/articles/12095329-how-dynamic-non-dynamic-limits-work-at-heygen), não uma cota mensal; confira o contador da conta | Gêmeos digitais exigem um vídeo de consentimento gravado pela própria pessoa |
 | **ElevenLabs Dubbing** | Faixa de voz traduzida | Sim, com marca d'água | **O plano gratuito não tem licença comercial** — não use o Free na campanha |
 | **Descript** | Tradução e dublagem em alguns planos | Limitado | Confira o plano e o suporte a português antes |
 
@@ -237,7 +239,7 @@ Ferramentas de avatar com IA (HeyGen, Synthesia, Captions) transformam um roteir
 
 - **O gêmeo digital de uma pessoa real** exige consentimento explícito e separado para aquele uso específico. O HeyGen pede um vídeo de consentimento da pessoa — essa é a verificação da ferramenta, não substitui o acordo por escrito de vocês.
 - **Avatares de banco** têm termos próprios. O Synthesia, por exemplo, exige permissão expressa para usar avatares de banco em anúncios pagos/impulsionados; a permissão para uso orgânico não cobre automaticamente um impulsionamento posterior.
-- **Planos gratuitos** costumam pôr marca d'água; o HeyGen Free permite 1 a 3 vídeos/mês de até 1 minuto; o Synthesia oferece um plano Basic gratuito (a cota atual de minutos não está clara).
+- **Planos gratuitos** costumam pôr marca d'água; o [HeyGen Free](https://www.heygen.com/pricing) lista três vídeos de criação por mês, de até um minuto (cota diferente do teste de tradução); o Synthesia oferece um plano Basic gratuito (a cota atual de minutos não está clara).
 - Sinalize: **"Apresentador virtual. Texto revisado pela organização."** e use o rótulo de IA da Meta.
 - **Nunca** apresente um avatar como palestrante, autor ou participante real.
 
@@ -249,9 +251,9 @@ Ferramentas de avatar com IA (HeyGen, Synthesia, Captions) transformam um roteir
 | **Coleção de Sons da Meta (Sound Collection)** | ✅ Para Facebook/Instagram | A Meta a descreve como liberada para usos comerciais, diferente da biblioteca de músicas comum ([ajuda da Meta](https://www.facebook.com/help/instagram/402084904469945)). Confira a faixa; não presuma que o mesmo arquivo vale para WhatsApp ou YouTube. |
 | **Músicas em alta no Instagram/Facebook** | ⚠️ Evite em divulgação | A biblioteca comum é para uso pessoal/não comercial. |
 | **Sons "comerciais" do CapCut** | ⚠️ Não para a Meta | Os termos atuais do CapCut limitam os Commercial Sounds ao CapCut/TikTok/TikTok for Business, salvo liberação à parte. |
-| **Suno (música com IA)** | ⚠️ Só planos pagos | O gratuito não permite download nem uso comercial. Os planos pagos dão uso comercial para músicas baixadas durante a assinatura. |
-| **Udio** | ❌ | Os downloads foram desativados em 2026. |
-| **Música original/encomendada** | ✅ Com acordo por escrito | Ótima forma de envolver músicos negros brasileiros — pague ou dê crédito de forma justa e registre as autorizações. |
+| **Suno (música com IA)** | ⚠️ Só planos pagos | O gratuito pode oferecer [downloads de teste](https://help.suno.com/en/articles/13876865), **sem direitos comerciais**. Poder baixar não autoriza divulgar o congresso. Confira a licença da faixa e as condições de assinatura/download; sem orçamento, prefira só voz ou faixa da Coleção de Sons da Meta liberada para esse uso. |
+| **Udio** | ❌ | Os downloads estão desativados; não planeje a exportação da campanha com essa ferramenta. |
+| **Música original/encomendada** | ✅ Com acordo por escrito | Ótima forma de envolver músicos negros brasileiros — combine pagamento e crédito separadamente e registre as autorizações; visibilidade não é pagamento. |
 
 ## Checklist final
 

@@ -59,7 +59,7 @@ Se um tutorial citar um modelo que não aparece abaixo, confirme se ele ainda ex
 | Modelo / ferramenta | Serve melhor para | Cuidado com | Tem acesso gratuito? |
 |---|---|---|---|
 | **ChatGPT Imagens** (GPT Image 2.5) | Ilustrações complexas, edições pedidas em linguagem comum, rascunhos de cartaz, fundos transparentes | Ainda pode errar a posição de textos e perder a coerência numa série | Sim, em todos os planos do ChatGPT, com limites |
-| **App Gemini** (Nano Banana 2.1 / 2 / Pro) | Edição conversando, combinação de várias imagens de referência (até 14 no 2.1), adaptar um fundo para vários formatos | Imagens de referência não garantem semelhança perfeita | Sim: a página brasileira do Gemini lista geração e edição de imagens por R$ 0 |
+| **App Gemini** (Nano Banana 2.1 / 2 / Pro) | Edição conversando, combinação de referências e adaptação de fundos; o app documenta [até 10 arquivos por prompt](https://support.google.com/gemini/answer/14903178?hl=en), sujeito à disponibilidade | Imagens de referência não garantem semelhança perfeita | Nano Banana 2 tem acesso gratuito; **2.1 exige plano Google AI**, segundo a [página do produto](https://gemini.google/overview/image-generation/) |
 | **IA do Canva** (Magic Media, Dream Lab) | Finalizar tudo: modelos, texto, recortes, layouts consistentes | Os modelos por trás mudam; os usos gratuitos de IA são limitados | Plano gratuito com usos de IA limitados |
 | **Adobe Firefly / Express** (Firefly Image 5) | Preenchimento generativo, ampliar ou corrigir fundos, montagens com fotos | Créditos gratuitos limitados; recursos beta têm regras próprias | Plano gratuito do Express; créditos Firefly limitados |
 | **Ideogram 4.5** | Tipografia e letreiros, cartazes, edições precisas | Textos pequenos e acentos ainda precisam de revisão | Créditos semanais variáveis para contas elegíveis |
@@ -123,7 +123,7 @@ Faça quatro perguntas sobre cada imagem:
 
 Esta é a regra mais útil de toda a página.
 
-**O que as evidências mostram:** um estudo publicado em agosto de 2026 (LingT2I) testou a escrita de textos em vários idiomas, incluindo o português, e nenhum modelo chegou perto da perfeição. Um teste menor, feito em julho e agosto de 2026 por um autor independente, relatou erros de acentuação do Gemini em 2 de 3 cartazes em português, enquanto o Ideogram acertou 9 de 12 tentativas de texto. Nenhum desses testes prova qual modelo lida melhor hoje com `ç`, `ã` e `é`. A conclusão prática: **todo texto escrito pela IA precisa ser revisado, e o texto final deve ser editável.**
+**O que as evidências mostram:** o [preprint LingT2I](https://arxiv.org/html/2608.11002v1), de agosto de 2026, examina geração e texto em vários idiomas, incluindo português. As métricas compostas **não são uma taxa atual de acerto dos acentos em pt-BR** nem estabelecem a ferramenta vencedora para esta campanha. A regra prática continua: **revise cada letra e mantenha o texto final editável**.
 
 Palavras que costumam sair erradas: `Educação`, `Inscrições abertas`, `Participação`, `Consciência Negra`, `História e cultura afro-brasileira`, `5 e 6 de dezembro` e nomes completos de palestrantes.
 
@@ -196,7 +196,7 @@ Antes de começar: entre numa conta gratuita e tenha em mãos o texto aprovado e
 
 ### Fluxo 2: fundo com IA + acabamento no Canva (25–30 min, R$ 0)
 
-1. **(0–8 min)** Abra o ChatGPT ou o app Gemini. Cole o prompt de ilustração acima, trocando as cores pelas do seu kit de marca. **No máximo duas tentativas.**
+1. **(0–8 min)** Siga a [configuração](setup-tools.md) e abra o ChatGPT ou o app Gemini. Cole o prompt de ilustração acima, trocando as cores pelas do seu kit de marca. **No máximo duas tentativas.**
 2. **(8–12 min)** Revise a imagem com o [checklist de representação](representation-bias.md#checklist-de-revisão-antes-de-publicar): quem aparece, em que papéis, tons de pele, cabelos, símbolos ou letras estranhas. Se não passar, use um fundo liso.
 3. **(12–14 min)** Baixe a imagem e envie para um design de 1080 × 1350 no Canva.
 4. **(14–22 min)** Adicione o texto editável e o logotipo real, como nos passos 3 e 4 do Fluxo 1.
@@ -208,7 +208,7 @@ Antes de começar: entre numa conta gratuita e tenha em mãos o texto aprovado e
 1. Abra no Canva o seu modelo-mestre 4:5 aprovado.
 2. Crie um design **novo** de 1080 × 1920 para Stories (o *Redimensionar* com um clique pode ser recurso Pro, então copie e cole os elementos manualmente).
 3. Leve título e data para a faixa do meio, longe do topo e do rodapé, onde ficam os botões do aplicativo.
-4. Se o fundo ficar curto para o 9:16, peça para a IA ampliá-lo:
+4. Se o fundo não alcançar o formato 9:16, **exporte somente a ilustração/fundo separado**, sem texto, logo nem retratos, e envie apenas esse arquivo à IA. Amplie com o prompt abaixo e recoloque o fundo sob as camadas originais de texto, logo e foto no Canva. Se não houver fundo separado, complete as bordas com cor sólida no Canva. Pedir para “preservar tudo” não protege um card pronto de palestrante:
 
 ```prompt
 Amplie esta imagem para o formato vertical 9:16. Continue apenas as cores, formas e a textura do fundo em cima e embaixo. Não acrescente pessoas, objetos, palavras, números ou logotipos. Mantenha sem alteração tudo o que já está na imagem.

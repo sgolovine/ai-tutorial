@@ -13,11 +13,11 @@ This page turns the rest of the site into **seven concrete days**. By the end of
 
 - A **day-by-day checklist** (about 60–90 minutes per day, shared across the team).
 - Copy-paste prompts for the first posts.
-- Two beginner recipes for a **first Reel** in under 30 minutes.
+- Two optional beginner recipes for a **first Reel** (allow 30–45 minutes).
 - An end-of-week checklist.
 
 > [!IMPORTANT]
-> Your first week **is** the urgent part of the campaign: CONAFROEDU submissions close on **Wednesday, 4 November 2026**. So this week is not just "setup" — the call for papers must be live by Day 4. The full dated plan is in the [CONAFROEDU sprint plan](conafroedu-sprint.md).
+> Your first week **is** the urgent part of the campaign: CONAFROEDU submissions close on **Wednesday, 4 November 2026**. So this week is not just "setup" — publish the first approved call by **Friday 23 October**. Compress the first four sessions or split them among owners to reach that date; do not wait for all optional setup. The full dated plan is in the [CONAFROEDU sprint plan](conafroedu-sprint.md).
 
 ## Before you start
 
@@ -27,9 +27,11 @@ You need:
 - A free Google account per person.
 - Admin or editor access to the organizing **Facebook Page** — or a decision to create one (see Day 1).
 - The organizers' WhatsApp number on a phone the team can use: (19) 98816-7751.
-- About **5–7 hours in total** this week across the team.
+- Budget **12–17 combined person-hours per week** for the full plan, including daily support. The listed sessions alone add up to about **8½–9 elapsed hours**; shared meetings multiply person-hours and committee waiting time is additional.
 
-Days are a **sequence**, not fixed dates. If someone can't work on the weekend, shift the days — but get Day 4 (first posts) done by **Monday 26 October**.
+Days are a **task sequence**, not permission to delay the call. First-call target: **23 October**. The single dated publication list lives in [Campaign timeline](campaign-timeline.md): **26 Oct submission how-to carousel; 28 Oct seven-day checklist (replacing that day’s other piece); 30 Oct classroom-practice Reel**.
+
+**Only 5–7 person-hours?** Keep daily inbox coverage, one writer, the fact sheet, one feed template and the approved call. Send a small number of relevant institutional invitations. Defer the Reel, extra templates, comparison tests and new channels; reduce the calendar to what two people can check.
 
 ## Day 1 — Team, roles and tools (≈ 90 min)
 
@@ -37,11 +39,11 @@ Days are a **sequence**, not fixed dates. If someone can't work on the weekend, 
 
 1. **Hold a 45-minute kick-off.** Assign the four roles from the [sprint plan](conafroedu-sprint.md#team-roles): Coordination, Content/Design, Social/Community, Partnerships. Write a name next to each.
 2. **Agree on two rules:** (a) no date, price or rule is published unless it's in the fact sheet; (b) a second person checks anything made with AI before it goes out.
-3. **Create free accounts** (each person, their own login — never share passwords):
+3. Follow [Set up your tools](setup-tools.md) and try the first exercise in [Learn with AI](learning-with-ai.md). **Create only the accounts you need** (each person, their own login — never share passwords):
    - [ ] One main AI assistant — we suggest **Claude** or **Gemini** (see [Choosing AI tools](choosing-ai-tools.md)). Optionally a second one to compare.
-   - [ ] **Canva Free** for design.
-   - [ ] **Meta Business Suite** access via the Facebook Page (each person invited with their own profile).
-   - [ ] **WhatsApp Business** app on the organizers' phone (free).
+   - [ ] **Canva Free** for design ([setup](setup-tools.md#canva)).
+   - [ ] **Meta Business Suite** ([setup](setup-tools.md#meta-business-suite)) access via the Facebook Page (each person invited with their own profile).
+   - [ ] **WhatsApp Business**, only through the person responsible for the organizer number. If it already uses Business, keep that setup. If it uses Messenger, the owner makes a backup and follows the [official transfer guide](https://faq.whatsapp.com/3059780464322392/?cms_platform=iphone&locale=pt_BR), retaining verification control. The same number cannot be active in both apps; test incoming messages before publishing support details. See [setup](setup-tools.md#whatsapp-business).
 4. **Check the Facebook Page.** Is there an official CONAFROEDU Page? Who are the admins? We couldn't find a verified Page or Event in our research. If none exists, Coordination asks the committee for a decision today; setup steps are in the [Facebook playbook](facebook-playbook.md).
 5. **Create a shared folder** (Google Drive or similar) with these subfolders:
 
@@ -64,7 +66,7 @@ CONAFROEDU 2026/
 
 **Goal:** the AI (and the team) stop guessing.
 
-1. **Coordination** copies the [CONAFROEDU context block](prompting-basics.md#the-conafroedu-context-block) into a document named "FICHA OFICIAL — versão 22/10" in folder `01`.
+1. **Coordination** copies the [CONAFROEDU context block](prompting-basics.md#the-conafroedu-context-block) into a document named "FICHA OFICIAL — versão DD/MM" (use the actual review date) in folder `01`.
 2. Open the [Even3 page](https://www.even3.com.br/iconafroedu-764690/) on a phone and check every line: dates, prices, contact, submission formats. Anything that doesn't match, or that the page leaves unclear, goes on a list.
 3. **Send the committee the decision list** from the [sprint plan](conafroedu-sprint.md#decisions-to-confirm-with-the-committee) — top priorities: the **cut-off time on 4 November**, whether **presentation is mandatory**, and the **presenter video** rule. Ask for answers by Tuesday 27 October.
 4. **Content/Design** adds the "VOZ DA MARCA" paragraph from [Prompting basics](prompting-basics.md#your-brand-voice-in-one-paragraph) under the fact sheet.
@@ -103,10 +105,10 @@ Up to 110 words, one call to action, up to 3 hashtags at the end. Mark anything 
 Then give me a 40-word version for WhatsApp (no hashtags, link on its own line).
 ```
 
-2. **Check it** with the [60-second fact check](prompting-basics.md#the-60-second-fact-check). Remove anything marked `[CONFIRMAR]` that the committee hasn't answered.
-3. **Publish** on the Facebook Page with the Day 3 card and **pin** it to the top of the Page.
+2. **Check it** with the [60-second fact check](prompting-basics.md#the-60-second-fact-check). Check all brackets and missing facts. Replace with confirmed facts or remove the **entire unsupported claim**; deleting the marker alone does not make it true.
+3. **Publish** on the authorized Facebook Page with the Day 3 card and **pin** it. If a new Page has no audience or access is delayed, ask the committee to approve an existing organizer Page as the initial Facebook destination and share the call through the existing organizer Instagram and authorized partners. Do not delay the **23 Oct** call while waiting for a new Page to grow; keep the Even3 link canonical.
 4. **Create one Facebook Event** for the congress (online, 5–6 December, Brasília time, Even3 as the registration link). Steps in [Facebook Events & Groups](facebook-events-groups.md).
-5. **Schedule three more posts** for next week in Meta Business Suite (see [Scheduling tools](scheduling-tools.md)): a "how to submit in 5 steps" carousel (Mon 26), the "7 days left" checklist (Wed 28), and a short author Reel (Fri 30). Use the AI to draft each; a person checks each one.
+5. **Schedule the two completed, approved pieces** in Meta Business Suite ([setup](setup-tools.md); [Scheduling tools](scheduling-tools.md)): the submission carousel for **Mon 26** and seven-day checklist for **Wed 28**. Reserve one **unscheduled** row for the **Fri 30** classroom-practice Reel; create it in Day 5 before uploading. For the carousel: register using the same email as the submission → read the rules → prepare the PDF → submit → monitor the review/corrections (up to five business days). Add the separate **4 November presenter-video deadline** and ask interested presenters to consult the committee now; do not tell them to wait for the review before preparing/sending it.
 6. **Instagram:** adapt the call for papers (up to 5 hashtags; the link goes in the bio). See [Instagram & WhatsApp](instagram-whatsapp.md).
 
 ## Day 5 — Your first Reel (≈ 30–45 min)
@@ -117,11 +119,11 @@ Then give me a 40-word version for WhatsApp (no hashtags, link on its own line).
 
 A real educator speaking for 20 seconds is more credible than any generated video.
 
-1. Ask a confirmed speaker or committee member to record **15–20 seconds** vertically, facing a window, in a quiet room. Suggested script (check it with the fact sheet):
+1. Obtain **written permission for campaign publication**, including agreed channels and image/voice use. AI upload or dubbing needs separate permission. Then ask a confirmed speaker or committee member to record **15–20 seconds** vertically, facing a window, in a quiet room. Suggested script (check it with the fact sheet):
 
 > "O CONAFROEDU 2026 será nos dias 5 e 6 de dezembro, totalmente on-line. Se você tem uma pesquisa ou uma prática de educação antirracista, as submissões vão até 4 de novembro. Confira as normas na Even3."
 
-2. Open **CapCut** (or the editor you know) → New project → import the clip → **9:16**.
+2. Follow the [editor setup](setup-tools.md#capcut), then open **CapCut** (or the editor you know) → New project → import the clip → **9:16**.
 3. Trim silence at the start and end. Don't use face-retouching or voice effects.
 4. Add captions (auto-captions in Portuguese if available) and **proofread every line**.
 5. Add a 3-second end card: `CONAFROEDU 2026 · Submissões até 4/11 · Even3`.
@@ -137,7 +139,7 @@ A real educator speaking for 20 seconds is more credible than any generated vide
 3. Add one simple free entrance animation. Keep text still long enough to read.
 4. Download as MP4 and check every accent on a phone.
 
-Then schedule the Reel for Friday 30 October in Business Suite, with the Even3 link in the caption. More techniques: [Reels, clips & captions](video-repurposing.md) and [Motion graphics with Claude](motion-graphics-claude.md).
+Have a second person approve the export, then schedule this **one** Reel in the reserved row for Friday 30 October in Business Suite, with the Even3 link in the caption. More techniques: [Reels, clips & captions](video-repurposing.md) and [Motion graphics with Claude](motion-graphics-claude.md).
 
 ## Day 6 — Set up answers (≈ 60 min)
 
@@ -146,8 +148,8 @@ Then schedule the Reel for Friday 30 October in Business Suite, with the Even3 l
 1. **WhatsApp Business** (free app) on the organizers' phone:
    - [ ] Business profile: organizer name, Even3 link, support hours.
    - [ ] **Greeting** and **away** messages stating when a person will reply.
-   - [ ] **Quick replies** (shortcuts a person chooses — not a robot): `/submissao`, `/valores`, `/certificado`, `/acesso`, `/humano`. Only approved facts; for anything not decided yet, "a comissão vai confirmar".
-   - [ ] **Labels**: "Dúvida de submissão", "Dúvida de inscrição", "Instituição parceira", "Precisa de resposta humana".
+   - [ ] **Quick replies** (shortcuts a person chooses — not a robot): `/prazo`, `/comosubmeter`, `/valores`, `/certificado`, `/acesso`, `/humano` (starter subset of the [canonical bank](replies-inbox.md); add `/video` during the author campaign). Only approved facts; for anything not decided yet, "a comissão vai confirmar".
+   - [ ] **Labels**: "Dúvida sobre inscrição", "Dúvida sobre submissão", "Instituição parceira", "Precisa de resposta humana", "Não enviar divulgação". Check the last label before every promotional send; an incoming question does not authorize later reminders.
 2. **Facebook Page inbox:** turn on an instant reply. Example (adjust the hours):
 
 ```text
@@ -158,7 +160,7 @@ Inscrições e normas: https://www.even3.com.br/iconafroedu-764690/
 Não envie CPF, dados de pagamento ou documentos por aqui.
 ```
 
-3. **Social/Community** blocks 15 minutes a day to check comments, Page messages, the Event discussion and WhatsApp.
+3. **Social/Community** assigns two brief checks daily (about 15 minutes total; longer or staffed windows near deadlines) to check comments, Page messages, the Event discussion and WhatsApp.
 
 Details and limits (what's free, what's not, and Meta's messaging rules) are in [Automating replies](replies-inbox.md).
 
@@ -189,7 +191,7 @@ Find up to 10 NEABs/NEABIs or anti-racist education research groups at Brazilian
 - [ ] Feed and Story masters in Canva.
 - [ ] Call for papers published, pinned, and adapted to Instagram and WhatsApp.
 - [ ] Facebook Event created.
-- [ ] Next week's three posts scheduled.
+- [ ] Two static posts scheduled on Day 4; the single Friday Reel scheduled after Day 5 approval (or deferred in the reduced plan).
 - [ ] First Reel done and scheduled.
 - [ ] WhatsApp Business quick replies and Page instant reply on.
 - [ ] Ten partners shortlisted; five invitations sent by a person.

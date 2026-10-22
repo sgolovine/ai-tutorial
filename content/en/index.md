@@ -35,16 +35,18 @@ You don't need to know anything about AI. Every guide explains terms the first t
 | **4 Nov** | Submissions (and presenter videos) close |
 | **15 → 16 Nov** | Current registration price ends; new prices start |
 | **20 Nov** | Dia Nacional de Zumbi e da Consciência Negra |
-| **25 Nov** | Official program published |
+| **By 25 Nov** | Final program expected; partial activities already listed |
 | **5–6 Dec** | CONAFROEDU 2026, 100% online |
-| **From 6 Dec** | Certificates available |
-| **By 15 Dec** | Proceedings (Anais) published |
+| **From 6 Dec** | Certificates expected, subject to confirmed eligibility |
+| **By 15 Dec** | Proceedings (Anais) expected |
 
 All dates come from the [official Even3 page](https://www.even3.com.br/iconafroedu-764690/), checked on 21 October 2026. If the committee changes anything, the [fact sheet](prompting-basics.md#the-conafroedu-context-block) is updated first.
 
 ## How to use this site: pick your path
 
 You don't have to read everything. Choose the path that matches your role.
+
+New to tools beyond a chat window? Open [Set up your tools](setup-tools.md) and [Learn with AI](learning-with-ai.md). Start with **one writer, Canva Free, Meta Business Suite and the approved support account**; add other tools only when a task needs them.
 
 ### ⏱️ "I have 30 minutes"
 
@@ -54,13 +56,13 @@ You don't have to read everything. Choose the path that matches your role.
 
 ### 📱 "I'm the person posting every day"
 
-1. [Quick start: your first week](quick-start.md) — set up tools, first posts, first Reel.
+1. [Set up your tools](setup-tools.md), then [Quick start: your first week](quick-start.md) — minimum setup and the first post.
 2. [Build your brand kit](brand-kit.md) — voice, Canva templates, hashtags.
 3. [Copywriting with AI](copywriting.md) — captions, WhatsApp texts, e-mails in natural Portuguese.
 4. [Facebook organic playbook](facebook-playbook.md) and [Facebook Events & Groups](facebook-events-groups.md).
 5. [Scheduling tools](scheduling-tools.md) — plan the week in Meta Business Suite.
-6. [Image prompt cookbook](image-prompts.md) and [Reels, clips & captions](video-repurposing.md).
-7. Before any image of people: [Representing Black & African cultures respectfully](representation-bias.md).
+6. Before using any image of people: [Representing Black & African cultures respectfully](representation-bias.md).
+7. Optional production reference: [Image prompt cookbook](image-prompts.md) and [Reels, clips & captions](video-repurposing.md).
 
 ### 🤝 "I'm handling outreach"
 
@@ -87,7 +89,7 @@ These run through every guide on the site.
 5. **Privacy and consent.** No registrant lists, CPFs or unpublished papers in public AI tools. No scraping, no mass unsolicited messages, no fake accounts. Details in [Ethics, policies & LGPD](ethics-legal.md).
 
 > [!NOTE]
-> **About accuracy.** AI products change every few weeks. Tool names, prices and features in these guides were checked against official sources on **21 October 2026**. If something looks different in your account, trust what you see on the official page — and tell the team so the guide can be updated.
+> **About accuracy.** AI products change every few weeks. Researched on **21 October 2026**. Verified facts link to their sources; account-specific features, blocked sources and untested workflows are identified where relevant. If something looks different in your account, trust what you see on the official page — and tell the team so the guide can be updated.
 
 ## Tips for using the guides
 

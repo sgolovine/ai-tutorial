@@ -29,7 +29,7 @@ That shapes everything. This campaign is really **two campaigns in a row**:
 
 | Date | What happens | What the team does |
 |---|---|---|
-| **Wed 21 Oct** | Sprint starts | Kick-off meeting; send the decision list to the committee; publish the call for papers |
+| **Wed 21 Oct** | Sprint starts | Kick-off meeting; send the decision list; prepare the approved call for **Fri 23 Oct** |
 | **Wed 28 Oct** | 1 week to submission deadline | "7 days left" checklist post for authors |
 | **Sun 1 Nov** | 3 days to deadline | Short reminder + "how to submit" help |
 | **Tue 3 Nov** | 1 day to deadline | One final, useful reminder in approved channels |
@@ -38,7 +38,7 @@ That shapes everything. This campaign is really **two campaigns in a row**:
 | **Sun 15 Nov** | Last day of the current registration price | Honest reminder (after checking checkout) |
 | **Mon 16 Nov** | New prices (R$ 60–75) | Update the fact sheet and every queued post |
 | **Fri 20 Nov** | **Dia Nacional de Zumbi e da Consciência Negra** (national holiday) | A substantive educational contribution — not a sales post |
-| **Wed 25 Nov** | Official program due | Publish it (or explain any delay honestly) |
+| **By Wed 25 Nov** | Final program expected; partial activities already listed | Publish the approved version when ready, or a confirmed status update |
 | **Sat 28 Nov** | 7 days to the congress | "Faltam 7 dias" card |
 | **Thu 3 – Fri 4 Dec** | Final days | One main final invitation; access and support FAQ |
 | **Sat 5 – Sun 6 Dec** | **CONAFROEDU 2026**, 100% online | Support, moderation, consented highlights |
@@ -56,10 +56,12 @@ A small volunteer team works best when every task has **one name** next to it. O
 |---|---|---|
 | **Coordination** (*Coordenação*) | The [fact sheet](prompting-basics.md#the-conafroedu-context-block); talking to the scientific/organizing committee; checking Even3; approving posts; the weekly review | 2–3 h |
 | **Content/Design** (*Conteúdo/Design*) | Canva templates, captions drafted with AI, Reels, alt text, the [brand kit](brand-kit.md) | 3–5 h |
-| **Social/Community** (*Redes/Comunidade*) | Scheduling in Meta Business Suite, Facebook Page and Event, Stories, the inbox and WhatsApp Business, posting in groups with admin permission | 3–4 h + 15 min daily |
+| **Social/Community** (*Redes/Comunidade*) | Scheduling in Meta Business Suite, Facebook Page and Event, Stories, the inbox and WhatsApp Business, posting in groups with admin permission | 3–4 h + about 15 min daily, split into two checks |
 | **Partnerships** (*Parcerias*) | NEABs/NEABIs, graduate programs, associations, speakers' share kits, follow-ups | 2–3 h |
 
 The **committee** (Comissão Organizadora/Científica) isn't a marketing role, but it makes the decisions listed [below](#decisions-to-confirm-with-the-committee). Marketing never announces a decision the committee hasn't made.
+
+**Full capacity:** about **12–17 combined person-hours/week**, including the daily checks. Shared meetings count once for each attendee; deadlines and event days need extra agreed coverage. If only **5–7 person-hours** are available, use the minimum plan below and defer the Reel, extra templates and new channels.
 
 ### The two rules everyone follows
 
@@ -68,7 +70,7 @@ The **committee** (Comissão Organizadora/Científica) isn't a marketing role, b
 
 ## Daily and weekly rhythm
 
-- **Every day (15–20 min), Social/Community:** check Page inbox, comments, Event discussion and WhatsApp Business at the agreed hours. Answer with approved quick replies; pass anything about payments, certificates, accessibility or personal cases to Coordination. See [Replies & inbox](replies-inbox.md).
+- **Every day (two checks, about 15 min total), Social/Community:** check Page inbox, comments, Event discussion and WhatsApp Business at the agreed hours. Answer with approved quick replies; pass anything about payments, certificates, accessibility or personal cases to Coordination. See [Replies & inbox](replies-inbox.md).
 - **Every Monday (30 min), everyone:** look at the numbers — confirmed registrations by category, submissions, link clicks, top questions — and agree on next week's posts. See [Measuring results](measuring-results.md).
 - **Posting rhythm:** about **3 substantive Facebook posts a week**, adapted Stories, and extra service reminders only around real deadlines. Adapt the best pieces for Instagram and WhatsApp ([Instagram & WhatsApp](instagram-whatsapp.md)). More is not better if the team can't review it.
 
@@ -92,9 +94,9 @@ The **committee** (Comissão Organizadora/Científica) isn't a marketing role, b
 
 **Social/Community**
 
-- [ ] Set up or tidy the Facebook Page ([Facebook playbook](facebook-playbook.md)) and create **one** canonical Facebook Event: "CONAFROEDU 2026 — Congresso Nacional de Africanidades na Educação | Online" ([Events & Groups](facebook-events-groups.md)).
+- [ ] Set up or tidy the Facebook Page ([Facebook playbook](facebook-playbook.md)) and create **one** canonical Facebook Event: "CONAFROEDU 2026 — Congresso Nacional de Africanidades na Educação | On-line" ([Events & Groups](facebook-events-groups.md)).
 - [ ] Publish and **pin** the call for papers. Schedule the next 3 posts in Meta Business Suite ([Scheduling tools](scheduling-tools.md)).
-- [ ] Install WhatsApp Business on the organizer phone and save quick replies: `/submissao`, `/valores`, `/certificado`, `/acesso`, `/humano` — approved facts only.
+- [ ] Ask the number owner whether WhatsApp Business is already configured. If transferring from Messenger, the owner handles backup and verification following [tool setup](setup-tools.md); test incoming messages. Save this starter subset from [Replies & inbox](replies-inbox.md): `/prazo`, `/comosubmeter`, `/valores`, `/certificado`, `/acesso`, `/humano`; add `/video` for the author campaign. Use the five canonical labels there, including **Não enviar divulgação**.
 
 **Partnerships**
 
@@ -114,8 +116,8 @@ The **committee** (Comissão Organizadora/Científica) isn't a marketing role, b
 
 **Content/Design**
 
-- [ ] Mon: "How to submit in 5 steps" carousel (register → read the rules → prepare the PDF → submit → wait for the review result, within 5 business days).
-- [ ] Wed **28 Oct**: "7 days left" checklist for authors.
+- [ ] Mon: "How to submit in 5 steps" carousel (register with the same email as the submission → read the rules → prepare the PDF → submit → monitor review/corrections, up to five business days). Include the separate **4 Nov video deadline** for interested presenters: consult the committee now; do not assume the video can wait until after the review.
+- [ ] Wed **28 Oct**: "7 days left" checklist for authors, **replacing** that day’s other piece.
 - [ ] Fri: a short Reel — a teacher explaining a real classroom practice that could become a *práticas exitosas* report (with written consent; no invented example presented as real).
 - [ ] Sun **1 Nov**: "3 days left" reminder with the help contact.
 
@@ -137,11 +139,11 @@ The **committee** (Comissão Organizadora/Científica) isn't a marketing role, b
 
 **Key days**
 
-- [ ] **Mon 2 Nov — Content/Design + Social:** "Before you submit" checklist post (PDF format, A4, same e-mail for registration and submission, registered submitting author).
+- [ ] **Mon 2 Nov — Content/Design + Social:** [Finados national holiday](https://www.planalto.gov.br/ccivil_03/leis/2002/l10607.htm): schedule in advance and publish only actually staffed support hours. "Before you submit" checklist post (PDF format, A4, same e-mail for registration and submission, registered submitting author).
 - [ ] **Tue 3 Nov — Social:** one final reminder in approved channels, with the confirmed cut-off time.
 - [ ] **Wed 4 Nov — Social + Coordination:** final-day help window (announce the hours); one last reminder in the morning. No hourly countdowns.
 - [ ] **Thu 5 Nov — Social:** remove or edit every submission call: pinned post, Event description, Story highlights, queued posts, WhatsApp quick replies, partner kits. Replace with "Submissões encerradas em 4/11 — inscrições para ouvintes abertas" (unless an extension was officially approved).
-- [ ] **Thu 5 Nov — Coordination:** update the fact sheet.
+- [ ] **Thu 5 Nov — Coordination:** update the fact sheet and audit every FAQ, greeting and saved context. After **5 Nov**, remove expired 2/3-submission packages from current offers. A “+ 1 submissão” ticket does not reopen submissions; direct existing-author questions to a human.
 
 **Rest of the week**
 
@@ -157,7 +159,7 @@ The **committee** (Comissão Organizadora/Científica) isn't a marketing role, b
 - [ ] **Content/Design:** an educational post that helps teachers in their classrooms (for example, a question about curriculum and ERER — *Educação para as Relações Étnico-Raciais*), with a light link to the program.
 - [ ] **Content/Design:** confirmed speaker introductions (approved bios and photos only).
 - [ ] **Content/Design:** the certificate explainer — **only after the committee confirms the conditions**. Use the careful wording from [Copywriting](copywriting.md).
-- [ ] **Social:** price reminder about one week before (Mon 9 or Tue 10 Nov) and one near the change (Fri 13 or Sat 14 Nov): "O valor muda em 16/11." No "últimas vagas".
+- [ ] **Social:** price reminders as **Stories/WhatsApp Channel only** on **10 and 14 Nov**, not extra feed posts: "O valor muda em 16/11." No "últimas vagas".
 - [ ] **Partnerships:** send partner-specific share kits for attendance (a teacher-focused version and a student-focused version).
 
 ## Week 4 — Mon 16 to Sun 22 Nov: Novembro Negro and 20 November
@@ -177,7 +179,7 @@ The **committee** (Comissão Organizadora/Científica) isn't a marketing role, b
 
 **Goal:** people who registered know exactly when and how to join.
 
-- [ ] **Wed 25 Nov — Coordination + Social:** publish the official program (the advertised target date). If it's late, say so and give a new date.
+- [ ] **By Wed 25 Nov — Coordination + Social:** publish the final approved program as soon as available. Even3 already lists activities and some speakers; confirm final dates/times, including overlaps, before publishing itineraries. If the final version is delayed, share a confirmed status update and a new date only if the committee supplies one.
 - [ ] **Content/Design:** audience guides — "3 sessões para quem é professora da educação básica", "para quem está na pós-graduação" — from the confirmed program only.
 - [ ] **Coordination:** confirm with the committee: transmission platform, how registered people receive access, recordings, accessibility arrangements, support hours during the event, and the certificate setup in Even3.
 - [ ] **Content/Design:** "Como acessar" FAQ card and Event update.
@@ -215,8 +217,8 @@ Marketing can't answer these alone. Until each one is decided, keep it marked `[
 | 4 | Is **resumo simples** accepted? | The rules list it; the FAQ and announcement don't | Tue 27 Oct |
 | 5 | **Prorrogação** (deadline extension): yes or no? | Must be decided and set up in Even3 before any announcement | Mon 2 Nov at the latest |
 | 6 | **2/3-submission packages** on sale until 5 Nov while submissions close on 4 Nov | Buyers may expect to submit on the 5th | Fri 30 Oct |
-| 7 | **40-hour certificate**: who qualifies, what attendance is required, how it's issued | Most common question; can't be invented | Mon 9 Nov |
-| 8 | **Publication**: is the R$ 16,98 fee per work or per author? Publisher and DOI process? | Authors need the full cost and process | Mon 9 Nov |
+| 7 | **40-hour certificate**: whether the advertised hours apply to every registration category, who qualifies, required attendance and how it is issued | Most common question; can't be invented | Mon 9 Nov |
+| 8 | **Publication**: payment procedure/deadline, publisher and DOI delivery; the advertised R$ 16,98 fee is **per work** | Authors need the full cost and process before call materials are approved | Tue 27 Oct |
 | 9 | **Official Facebook Page/Event** and who are the admins | No verified Page found | Now |
 | 10 | **Transmission platform, access, recordings, accessibility** (Libras, captions) | Needed for "how to take part" posts | Mon 23 Nov |
 | 11 | **Speakers**: final list, approved bios, photo permissions | No speaker post without approval | Rolling, by 25 Nov |
@@ -244,7 +246,7 @@ Life happens — volunteers get sick, classes pile up. If the team can only do t
 
 1. **Keep the facts right.** Fact sheet updated; no wrong date or price anywhere.
 2. **Answer people.** Daily inbox and WhatsApp check. An unanswered question loses a registration faster than a missing post.
-3. **One post per key date:** 28 Oct, 3 Nov, 4 Nov, 5 Nov (switch), 14 Nov, 20 Nov, 25 Nov, 28 Nov, 3 Dec, 6 Dec (certificates).
+3. **One post per key date:** 23 Oct (first call), 28 Oct, 3 Nov, 4 Nov, 5 Nov (switch), 14 Nov, 20 Nov, final program when approved (target by 25 Nov), 28 Nov, 3 Dec, 6 Dec (certificates).
 4. **Ten personal partner invitations** — they usually do more than ten generic posts.
 5. **Skip** animations, generated video and new channels. A clear Canva card with a real photo is enough.
 

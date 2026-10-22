@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CONAFROEDU 2026 — Contagem regressiva (9:16)</title>
+<!--
+  Cartão animado de contagem regressiva, formato 9:16 (1080×1920).
+  Arquivo único: HTML + CSS + um pouco de JS, sem internet, sem bibliotecas.
+
+  Parâmetros opcionais no endereço (depois de .html):
+    ?dias=7      número de dias (padrão 7). 1 → "Falta 1 dia". 0 → "É hoje!"
+    ?pausa=3     segura a capa estática por N segundos antes de animar (útil no OBS)
+    ?guias=1     mostra as margens seguras (onde a interface do Reels costuma cobrir)
+  Exemplo: countdown.html?dias=15&pausa=2
+
+  Duração: 12 s de animação, depois o último quadro fica parado (sem loop).
+  Movimento em "poses" de papel recortado: 8 poses por segundo, sem flashes.
+-->
+<style>
+  :root {
+    --terracota: #b4532a;
+    --argila: #8c3b1f;
+    --ocre: #d99a2b;
+    --creme: #f5e9d7;
+    --marrom: #3a1d12;
+    --pausa: 0s;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: #1d0f0a; }
+  body { display: grid; place-items: center; overflow: hidden; }
+
+  /* Palco 9:16 que cabe em qualquer janela sem distorcer */
+  #palco {
+    position: relative;
+    width: min(100vw, calc(100vh * 9 / 16));
+    aspect-ratio: 9 / 16;
+    container-type: size;
+    overflow: hidden;
+    background:
+      radial-gradient(circle at 20% 15%, rgba(255,255,255,.35), transparent 40%),
+      radial-gradient(circle at 80% 85%, rgba(140,59,31,.10), transparent 45%),
+      var(--creme);
+    font-family: "Noto Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--marrom);
+  }
+  /* textura de papel: ruído SVG embutido (sem arquivo externo) */
+  #palco::before {
+    content: ""; position: absolute; inset: 0; opacity: .18; pointer-events: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .23 0 0 0 0 .11 0 0 0 0 .07 0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+
+  /* ---------- formas de papel (decoração geométrica, sem símbolos culturais) ---------- */
+  .papel { position: absolute; filter: drop-shadow(0 1.1cqw 0 rgba(58,29,18,.18)); }
+  .sol   { width: 78cqw; height: 78cqw; right: -30cqw; top: -24cqw; border-radius: 50%; background: var(--ocre); }
+  .arco  { width: 120cqw; height: 60cqw; left: -10cqw; bottom: -18cqw; border-radius: 60cqw 60cqw 0 0; background: var(--terracota); }
+  .faixa { width: 140cqw; height: 13cqw; left: -20cqw; bottom: 30cqw; background: var(--argila); transform: rotate(-6deg); }
+  .ponto { width: 9cqw; height: 9cqw; border-radius: 50%; background: var(--terracota); }
+  .p1 { left: 7cqw; top: 22cqw; }
+  .p2 { left: 84cqw; top: 104cqw; width: 6cqw; height: 6cqw; background: var(--ocre); }
+  .p3 { left: 5cqw; top: 120cqw; width: 5cqw; height: 5cqw; background: var(--argila); }
+
+  /* ---------- área segura: todo o texto fica aqui dentro ---------- */
+  .segura {
+    position: absolute; top: 14%; bottom: 22%; left: 12cqw; right: 12cqw;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 1.6cqw; text-align: center;
+  }
+  .etiqueta {
+    background: var(--marrom); color: var(--creme);
+    font-weight: 800; letter-spacing: .08em; font-size: 4.8cqw;
+    padding: 1.6cqw 4cqw; border-radius: .8cqw; transform: rotate(-2deg);
+  }
+  .faltam { font-size: 7.6cqw; font-weight: 800; line-height: 1; margin-top: 1.6cqw; }
+  .numero {
+    font-family: Georgia, "Times New Roman", serif; font-weight: 900;
+    font-size: 36cqw; line-height: .82; color: var(--terracota);
+    text-shadow: 1.4cqw 1.4cqw 0 var(--ocre);
+  }
+  .dias { font-size: 7.6cqw; font-weight: 800; line-height: 1; }
+  .tema {
+    font-size: 4.2cqw; font-weight: 600; line-height: 1.25; max-width: 72cqw;
+    text-wrap: balance; margin-top: 1.6cqw;
+  }
+  .data { font-size: 5cqw; font-weight: 800; line-height: 1.15; color: var(--argila); white-space: nowrap; }
+  .online {
+    font-size: 4.4cqw; font-weight: 800; background: var(--ocre); color: var(--marrom);
+    padding: 1.2cqw 4cqw; border-radius: 10cqw;
+  }
+  .convite {
+    font-size: 4.4cqw; font-weight: 800; line-height: 1.25; margin-top: 1.6cqw;
+    background: var(--creme); border: .6cqw solid var(--marrom);
+    padding: 2cqw 3.6cqw; border-radius: 1.2cqw; text-wrap: balance;
+  }
+
+  .menor { font-size: 3.8cqw; font-weight: 600; }
+
+  /* ---------- animações: poses em degraus (steps) = aparência de stop-motion ---------- */
+  .anima { animation-fill-mode: both; animation-delay: calc(var(--d, 0s) + var(--pausa)); }
+  /* 0,75 s com steps(6) = 8 poses por segundo */
+  .cai     { animation-name: cai;     animation-duration: .75s; animation-timing-function: steps(6, end); }
+  .entra-e { animation-name: entra-e; animation-duration: .75s; animation-timing-function: steps(6, end); }
+  .entra-d { animation-name: entra-d; animation-duration: .75s; animation-timing-function: steps(6, end); }
+  .sobe    { animation-name: sobe;    animation-duration: 1s;   animation-timing-function: steps(8, end); }
+  .carimbo { animation-name: carimbo; animation-duration: .75s; animation-timing-function: steps(6, end); }
+
+  @keyframes cai     { from { transform: translateY(-40cqw) rotate(-8deg); opacity: 0; } 20% { opacity: 1; } to { transform: none; opacity: 1; } }
+  @keyframes entra-e { from { transform: translateX(-110cqw) rotate(-4deg); } to { transform: none; } }
+  @keyframes entra-d { from { transform: translateX(110cqw) rotate(4deg); } to { transform: none; } }
+  @keyframes sobe    { from { transform: translateY(60cqw); } to { transform: none; } }
+  @keyframes carimbo { from { transform: scale(2.4) rotate(10deg); opacity: 0; } 17% { opacity: 1; } to { transform: none; opacity: 1; } }
+
+  /* "boil": o papel treme levemente entre 3 poses, como numa animação quadro a quadro */
+  .treme { animation: treme .375s steps(1, end) infinite; }
+  @keyframes treme {
+    0%      { translate: 0 0;           rotate: 0deg; }
+    33.33%  { translate: .25cqw -.2cqw; rotate: .4deg; }
+    66.66%  { translate: -.2cqw .25cqw; rotate: -.3deg; }
+  }
+
+  /* guias de margem segura (?guias=1) */
+  .guias .segura { outline: .4cqw dashed rgba(180,83,42,.9); }
+  .guias #palco::after {
+    content: "área segura (aprox.)"; position: absolute; left: 12cqw; top: calc(14% - 4cqw);
+    font: 700 2.6cqw sans-serif; color: var(--terracota);
+  }
+
+  /* quem prefere menos movimento vê o quadro final direto */
+  @media (prefers-reduced-motion: reduce) {
+    .anima, .treme { animation-duration: 0s !important; animation-delay: 0s !important; animation-iteration-count: 1 !important; }
+  }
+</style>
+</head>
+<body>
+<main id="palco" aria-label="CONAFROEDU 2026: faltam 7 dias. 5 e 6 de dezembro de 2026, 100% online. Inscreva-se pelo Even3.">
+  <!-- formas de papel: entram nos primeiros 2 segundos -->
+  <div class="papel sol anima cai" style="--d:0s"><div class="treme" style="width:100%;height:100%;border-radius:50%;background:inherit"></div></div>
+  <div class="papel arco anima sobe" style="--d:.25s"></div>
+  <div class="papel faixa anima entra-e" style="--d:.5s"></div>
+  <div class="papel ponto p1 anima carimbo" style="--d:1s"></div>
+  <div class="papel ponto p2 anima carimbo" style="--d:1.25s"></div>
+  <div class="papel ponto p3 anima carimbo" style="--d:1.5s"></div>
+
+  <div class="segura">
+    <!-- 0–2 s: título -->
+    <div class="etiqueta anima cai" style="--d:.75s">CONAFROEDU 2026</div>
+    <!-- 2–5 s: contagem -->
+    <div class="faltam anima entra-e" style="--d:2s" id="faltam">Faltam</div>
+    <div class="numero anima carimbo" style="--d:2.75s" id="numero">7</div>
+    <div class="dias anima entra-d" style="--d:3.75s" id="dias">dias</div>
+    <!-- 5–8 s: tema, data e formato -->
+    <div class="tema anima entra-e" style="--d:5s">Desenvolvimento, Participação e Educação Antirracista</div>
+    <div class="data anima entra-d" style="--d:6s">5 e 6 de dezembro de 2026</div>
+    <div class="online anima carimbo" style="--d:7s">100% online</div>
+    <!-- 8–12 s: convite (fica parado até o fim) -->
+    <div class="convite anima sobe" style="--d:8.25s">Inscreva-se pelo Even3<br><span class="menor">link na legenda</span></div>
+  </div>
+</main>
+<script>
+  // Lê ?dias=, ?pausa= e ?guias= do endereço. Nada é baixado da internet.
+  const p = new URLSearchParams(location.search);
+  const dias = p.has('dias') ? Math.max(0, parseInt(p.get('dias'), 10) || 0) : 7;
+  const pausa = Math.max(0, parseFloat(p.get('pausa')) || 0);
+  document.documentElement.style.setProperty('--pausa', pausa + 's');
+  if (p.get('guias') === '1') document.body.classList.add('guias');
+
+  const faltam = document.getElementById('faltam');
+  const numero = document.getElementById('numero');
+  const rotulo = document.getElementById('dias');
+  if (dias === 0) {
+    faltam.textContent = 'É hoje!'; numero.textContent = '0'; numero.style.display = 'none';
+    rotulo.textContent = 'O congresso começa agora';
+  } else {
+    faltam.textContent = dias === 1 ? 'Falta' : 'Faltam';
+    numero.textContent = String(dias);
+    rotulo.textContent = dias === 1 ? 'dia' : 'dias';
+    if (dias >= 10) numero.style.fontSize = '32cqw'; // números de 2 dígitos não estouram a largura
+  }
+  document.getElementById('palco').setAttribute('aria-label',
+    `CONAFROEDU 2026: ${faltam.textContent} ${dias || ''} ${rotulo.textContent}. 5 e 6 de dezembro de 2026, 100% online. Inscreva-se pelo Even3.`);
+</script>
+</body>
+</html>

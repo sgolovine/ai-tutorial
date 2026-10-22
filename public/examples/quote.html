@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CONAFROEDU 2026 — Citação em tipografia cinética (9:16)</title>
+<!--
+  Cartão de citação com tipografia cinética, formato 9:16 (1080×1920).
+  Arquivo único: HTML + CSS + JS, sem internet, sem bibliotecas.
+
+  A citação é texto de lei (LDB, art. 26-A, redação da Lei nº 11.645/2008),
+  conferido no site do Planalto. Para trocar a citação, edite CITACAO e FONTE
+  abaixo. Palavras entre *asteriscos* ganham destaque em ocre.
+  Só use citações reais, conferidas na fonte original e, se forem de uma pessoa,
+  autorizadas por ela.
+
+  Parâmetros opcionais: ?pausa=3 (segura a capa N segundos), ?guias=1 (margens seguras)
+  Duração: cerca de 15 s; depois o último quadro fica parado (sem loop).
+-->
+<style>
+  :root {
+    --terracota: #b4532a;
+    --argila: #8c3b1f;
+    --ocre: #d99a2b;
+    --creme: #f5e9d7;
+    --marrom: #3a1d12;
+    --pausa: 0s;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: #1d0f0a; }
+  body { display: grid; place-items: center; overflow: hidden; }
+  #palco {
+    position: relative;
+    width: min(100vw, calc(100vh * 9 / 16));
+    aspect-ratio: 9 / 16;
+    container-type: size;
+    overflow: hidden;
+    background: var(--terracota);
+    color: var(--creme);
+    font-family: "Noto Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  #palco::before {
+    content: ""; position: absolute; inset: 0; opacity: .22; pointer-events: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .2 0 0 0 0 .08 0 0 0 0 .04 0 0 0 .6 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+  /* tiras de papel ao fundo */
+  .tira { position: absolute; left: -10cqw; width: 120cqw; filter: drop-shadow(0 1cqw 0 rgba(58,29,18,.25)); }
+  .t1 { top: 6cqw;   height: 14cqw; background: var(--argila); transform: rotate(-4deg); }
+  .t2 { bottom: 8cqw; height: 22cqw; background: var(--marrom); transform: rotate(3deg); }
+  .aspas {
+    font-family: Georgia, "Times New Roman", serif; font-size: 26cqw; line-height: .55;
+    height: 11cqw; margin-bottom: -2cqw; color: var(--ocre); font-weight: 900;
+  }
+
+  .segura {
+    position: absolute; top: 14%; bottom: 22%; left: 12cqw; right: 12cqw;
+    display: flex; flex-direction: column; justify-content: center; gap: 3cqw;
+  }
+  .rotulo {
+    align-self: flex-start; background: var(--creme); color: var(--marrom);
+    font-weight: 800; font-size: 4.4cqw; letter-spacing: .06em;
+    padding: 1.4cqw 3.4cqw; border-radius: .8cqw; transform: rotate(-2deg);
+  }
+  .citacao {
+    font-family: Georgia, "Times New Roman", serif; font-weight: 700;
+    font-size: 6.1cqw; line-height: 1.32;
+  }
+  .palavra { display: inline-block; white-space: pre; }
+  .destaque { color: var(--marrom); background: var(--ocre); padding: 0 .5cqw; }
+  .fonte { font-size: 3.8cqw; font-weight: 600; line-height: 1.35; opacity: .95; border-left: 1cqw solid var(--ocre); padding-left: 3cqw; }
+  .evento {
+    background: var(--creme); color: var(--marrom); border-radius: 1.2cqw;
+    padding: 2.4cqw 3.4cqw; font-size: 4cqw; font-weight: 700; line-height: 1.3;
+  }
+  .evento strong { display: block; font-size: 5.4cqw; font-weight: 900; letter-spacing: .04em; color: var(--terracota); }
+
+  /* animações em poses (steps) — 8 poses por segundo */
+  .anima { animation-fill-mode: both; animation-delay: calc(var(--d, 0s) + var(--pausa)); }
+  .surge  { animation-name: surge;  animation-duration: .375s; animation-timing-function: steps(3, end); }
+  .desliza{ animation-name: desliza;animation-duration: .75s;  animation-timing-function: steps(6, end); }
+  .cai    { animation-name: cai;    animation-duration: .75s;  animation-timing-function: steps(6, end); }
+  @keyframes surge   { from { transform: translateY(3cqw) scale(.6); opacity: 0; } 34% { opacity: 1; } to { transform: none; opacity: 1; } }
+  @keyframes desliza { from { transform: translateX(-120cqw); } to { transform: none; } }
+  @keyframes cai     { from { transform: translateY(-30cqw) rotate(-10deg); opacity: 0; } 20% { opacity: 1; } to { transform: none; opacity: 1; } }
+
+  .guias .segura { outline: .4cqw dashed rgba(245,233,215,.9); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .anima { animation-duration: 0s !important; animation-delay: 0s !important; }
+  }
+</style>
+</head>
+<body>
+<main id="palco">
+  <div class="tira t1 anima desliza" style="--d:0s"></div>
+  <div class="tira t2 anima desliza" style="--d:.25s"></div>
+  <div class="segura">
+    <div class="rotulo anima cai" style="--d:.5s">O QUE DIZ A LEI</div>
+    <div class="aspas anima cai" style="--d:1s" aria-hidden="true">“</div>
+    <p class="citacao" id="citacao"></p>
+    <p class="fonte anima desliza" id="fonte"></p>
+    <div class="evento anima desliza" id="evento">
+      <strong>CONAFROEDU 2026</strong>
+      5 e 6 de dezembro de 2026<br>100% online
+    </div>
+  </div>
+</main>
+<script>
+  // ===== edite aqui =====
+  const CITACAO = 'Nos estabelecimentos de ensino fundamental e de ensino médio, públicos e privados, torna-se *obrigatório* o estudo da *história e cultura afro-brasileira e indígena*.';
+  const FONTE = 'LDB (Lei nº 9.394/1996), art. 26-A, com redação dada pela Lei nº 11.645/2008';
+  const INICIO = 1.75;       // segundo em que a primeira palavra aparece
+  const POR_PALAVRA = 0.25;  // intervalo entre palavras (aumente se ficar rápido demais)
+  // ======================
+
+  const p = new URLSearchParams(location.search);
+  const pausa = Math.max(0, parseFloat(p.get('pausa')) || 0);
+  document.documentElement.style.setProperty('--pausa', pausa + 's');
+  if (p.get('guias') === '1') document.body.classList.add('guias');
+
+  const alvo = document.getElementById('citacao');
+  let destaque = false, i = 0;
+  // separa por palavras; *trecho* vira destaque
+  for (const token of CITACAO.split(/(\s+)/)) {
+    if (/^\s+$/.test(token)) {
+      // dentro de um destaque, o espaço vai junto da palavra para o fundo ocre ficar contínuo
+      if (destaque && alvo.lastElementChild) alvo.lastElementChild.textContent += ' ';
+      else alvo.append(' ');
+      continue;
+    }
+    let texto = token;
+    const abre = texto.startsWith('*'); if (abre) { destaque = true; texto = texto.slice(1); }
+    const fecha = /\*[.,;:!?]?$/.test(texto); if (fecha) texto = texto.replace('*', '');
+    const s = document.createElement('span');
+    s.className = 'palavra anima surge' + (destaque ? ' destaque' : '');
+    s.style.setProperty('--d', (INICIO + i * POR_PALAVRA).toFixed(3) + 's');
+    s.textContent = texto;
+    alvo.append(s);
+    if (fecha) destaque = false;
+    i++;
+  }
+  const fim = INICIO + i * POR_PALAVRA;
+  document.getElementById('fonte').textContent = FONTE;
+  document.getElementById('fonte').style.setProperty('--d', (fim + 0.5) + 's');
+  document.getElementById('evento').style.setProperty('--d', (fim + 1.5) + 's');
+  document.getElementById('palco').setAttribute('aria-label', `Citação: ${CITACAO.replaceAll('*', '')} Fonte: ${FONTE}. CONAFROEDU 2026, 5 e 6 de dezembro, 100% online.`);
+</script>
+</body>
+</html>

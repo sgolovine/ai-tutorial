@@ -19,7 +19,7 @@ This page is the "pin it on the wall" version of the whole site. Each tip takes 
 - A **printable checklist** of the tips that are easiest to forget.
 
 > [!IMPORTANT] The dates behind every tip
-> Submissions (and presenter videos) close **Wed 4 Nov** · 2/3-submission packages listed until **Thu 5 Nov** · current price until **Sun 15 Nov**, new prices from **Mon 16 Nov** · **Fri 20 Nov** Dia Nacional de Zumbi e da Consciência Negra · program by **Wed 25 Nov** · congress **Sat 5 – Sun 6 Dec** · certificates from **6 Dec** · proceedings by **Tue 15 Dec**. All dates come from the [Even3 page](https://www.even3.com.br/iconafroedu-764690/), checked on 21 October 2026. The full plan is in the [6-week sprint](conafroedu-sprint.md).
+> Submissions (and presenter videos) close **Wed 4 Nov** · 2/3-submission packages listed until **Thu 5 Nov** · current price until **Sun 15 Nov**, new prices from **Mon 16 Nov** · **Fri 20 Nov** Dia Nacional de Zumbi e da Consciência Negra · program by **Wed 25 Nov** · congress **Sat 5 – Sun 6 Dec** · certificates expected from **6 Dec** · proceedings by **Tue 15 Dec**. All dates come from the [Even3 page](https://www.even3.com.br/iconafroedu-764690/), checked on 21 October 2026. The full plan is in the [6-week sprint](conafroedu-sprint.md).
 
 ## If you only read five tips
 

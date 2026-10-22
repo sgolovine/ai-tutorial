@@ -38,7 +38,7 @@ Key facts, as published on Even3 on 21 October 2026:
 | Current prices | until **15 Nov**: R$ 55,00 (ouvinte; graduação + 1 submissão), R$ 60,00 (pós-graduação + 1), R$ 70,00 (professor/profissional + 1) |
 | New prices | from **16 Nov**: R$ 60,00 / R$ 60,00 / R$ 65,00 / R$ 75,00 |
 | Program | Partial activities and some speakers already on Even3; final approved schedule expected by **25 Nov** |
-| Certificates | from **6 Dec** (40-hour certificate; eligibility criteria to be confirmed) |
+| Certificates | expected from **6 Dec** (40-hour certificate; eligibility criteria to be confirmed) |
 | Proceedings (Anais) | by **15 Dec**, with ISBN and DOI; publication fee **R$ 16,98 per paper**, in addition to registration |
 | Registration | Open for participation until **6 Dec**; price-tier and submission deadlines are separate. https://www.even3.com.br/iconafroedu-764690/ |
 
@@ -216,12 +216,12 @@ Task: write (a) a "Bom dia, começamos!" Facebook post for 5 December, (b) a 3-f
 
 ### 7. Certificates (from 6 December)
 
-Certificate posts generate many questions. Be precise and use the careful wording below **once the committee confirms the criteria**.
+Certificate posts generate many questions. Be precise and use the careful wording below **once actual release and the criteria are confirmed by the committee**.
 
 > Certificado de participação com carga horária de 40 horas, conforme os critérios de participação divulgados pela organização. O aproveitamento para atividades complementares ou progressão depende das regras da instituição de cada participante.
 
 ```prompt
-Task: a short Facebook post and a WhatsApp reply template explaining how to download the CONAFROEDU certificate. Facts: available from 6 de dezembro on Even3; criteria: [CONFIRMAR]; step-by-step: [CONFIRMAR] — with the committee. Use the careful certificate wording provided. Do not promise acceptance as horas complementares or career progression.
+Task: a short Facebook post and a WhatsApp reply template explaining how to download the CONAFROEDU certificate. Forecast: expected from 6 de dezembro on Even3. Actual release: [CONFIRMAR]; eligibility and steps: [CONFIRMAR] with the committee. Write download instructions only after actual release is confirmed; otherwise draft a status update for committee approval. Use the careful certificate wording provided. Do not promise acceptance as horas complementares or career progression.
 ```
 
 ### 8. Proceedings / Anais (by 15 December)

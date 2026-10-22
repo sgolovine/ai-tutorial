@@ -42,7 +42,7 @@ That shapes everything. This campaign is really **two campaigns in a row**:
 | **Sat 28 Nov** | 7 days to the congress | "Faltam 7 dias" card |
 | **Thu 3 – Fri 4 Dec** | Final days | One main final invitation; access and support FAQ |
 | **Sat 5 – Sun 6 Dec** | **CONAFROEDU 2026**, 100% online | Support, moderation, consented highlights |
-| **From Sun 6 Dec** | Certificates available | "How to download your certificate" post and quick reply |
+| **Expected from Sun 6 Dec** | Certificate release forecast | Publish download instructions only after checking actual release, eligibility and steps |
 | **By Tue 15 Dec** | Proceedings (Anais) due | Share the real link when published, or an honest status update |
 
 > [!WARNING]
@@ -199,7 +199,7 @@ The **committee** (Comissão Organizadora/Científica) isn't a marketing role, b
 
 ## After the event — Mon 7 to Tue 15 Dec: deliver the promises
 
-- [ ] **Social:** "How to download your certificate" post and WhatsApp quick reply (certificates available from 6 December; confirm the steps).
+- [ ] **Social:** check whether certificates have actually been released (expected from 6 December). Only then publish the approved download post/WhatsApp reply after checking eligibility and steps; otherwise share a committee-approved status update.
 - [ ] **Everyone:** thank speakers, partners and participants by name where they agreed to be named.
 - [ ] **Content/Design:** an honest recap with authorized photos and clips — no invented attendance numbers. Ask permission before using any testimonial.
 - [ ] **By Tue 15 Dec — Coordination:** share the real proceedings link and identifiers when published, or a transparent status update.
@@ -252,19 +252,21 @@ Life happens — volunteers get sick, classes pile up. If the team can only do t
 
 ## Copy-paste: plan your week with AI
 
-Use this every Monday in your main assistant, after pasting the [fact sheet](prompting-basics.md#the-conafroedu-context-block). The team posts in Portuguese, so the prompt asks for Portuguese output; the full Portuguese version is on the [pt-BR page](../pt-BR/conafroedu-sprint.md#copie-e-cole-planeje-a-semana-com-ia).
+Use this every Monday after pasting the current [fact sheet](prompting-basics.md#the-conafroedu-context-block) **and this week’s approved calendar rows with their IDs, owners and status** from the [single publication list](campaign-timeline.md). Select the full or reduced capacity; this prompt assigns work to existing rows, not a new calendar. The team posts in Portuguese, so the prompt asks for Portuguese output; the full Portuguese version is on the [pt-BR page](../pt-BR/conafroedu-sprint.md#copie-e-cole-planeje-a-semana-com-ia).
 
 ```prompt
-You are helping a small volunteer team promote CONAFROEDU 2026. Use ONLY the fact sheet above.
-Today is [DATE]. This week is [WEEK, e.g. "Week 3, 9–15 Nov"]. Our capacity: about [X] hours in total.
+You are helping a volunteer team deliver the approved CONAFROEDU 2026 campaign. Use ONLY the current fact sheet and approved publishing rows pasted below.
+Today: [DATE]. Week: [WEEK]. Available combined person-hours: [X]. Plan: [FULL OR REDUCED].
+Approved rows: [PASTE THIS WEEK'S ROWS WITH IDS, DATES, CHANNELS, TOPICS, FORMATS, OWNERS AND STATUS].
 Roles: Coordination, Content/Design, Social/Community, Partnerships.
+If the rows or their approval are missing, ask for them; do not invent another calendar.
 
-Create a plan for this week in Brazilian Portuguese with:
-1. 3 Facebook posts (day, goal, audience, format, one-line hook, call to action).
-2. Which of them to adapt for Instagram and WhatsApp.
-3. The task list per role, with an estimate in minutes.
-4. Any date in the fact sheet that falls this week and what it requires.
-Rules: don't ask for paper submissions after 4/11 unless the fact sheet says the deadline was extended; no fake urgency; anything not in the fact sheet must be marked [CONFIRMAR].
+In Brazilian Portuguese:
+1. Preserve each approved ID, date, topic and channel. Assign production, fact review, export and scheduling tasks to its owner, with estimated minutes and dependencies.
+2. Adapt those rows for other channels only where the approved plan permits; do not add posts to meet a quota.
+3. Check deadlines and current facts. Protect daily inbox coverage. If capacity is insufficient, flag the affected rows and propose a reduced scope for Coordination to approve.
+4. List proposed date/topic changes separately; do not treat them as approved or scheduled.
+No new submission invitations after closure unless the current approved fact sheet confirms an extension. No false urgency; mark necessary unknown facts [CONFIRMAR].
 ```
 
 ## Next steps

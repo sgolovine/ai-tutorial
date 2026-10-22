@@ -106,16 +106,18 @@ Marque qualquer informação que você não encontrou na ficha.
 **Origem:** [Plano de 6 semanas](conafroedu-sprint.md#copie-e-cole-planeje-a-semana-com-ia).
 
 ```prompt
-Você está ajudando uma pequena equipe voluntária a divulgar o CONAFROEDU 2026. Use SOMENTE a ficha oficial acima.
-Hoje é [DATA]. Esta é a [SEMANA, ex.: "Semana 3, de 9 a 15/11"]. Nossa disponibilidade: cerca de [X] horas no total.
+Você ajuda uma equipe voluntária a executar a campanha aprovada do CONAFROEDU 2026. Use SOMENTE a ficha atual e as linhas aprovadas de publicação coladas abaixo.
+Hoje: [DATA]. Semana: [SEMANA]. Disponibilidade conjunta em pessoa-hora: [X]. Plano: [COMPLETO OU REDUZIDO].
+Linhas aprovadas: [COLE AS LINHAS DESTA SEMANA COM IDS, DATAS, CANAIS, TEMAS, FORMATOS, RESPONSÁVEIS E STATUS].
 Funções: Coordenação, Conteúdo/Design, Redes/Comunidade, Parcerias.
+Se faltarem as linhas ou sua aprovação, peça esses dados; não invente outro calendário.
 
-Monte o plano desta semana com:
-1. 3 publicações para o Facebook (dia, objetivo, público, formato, gancho de uma linha, convite para ação).
-2. Quais delas adaptar para Instagram e WhatsApp.
-3. A lista de tarefas por função, com estimativa em minutos.
-4. Qualquer data da ficha que caia nesta semana e o que ela exige.
-Regras: não peça submissões de trabalhos depois de 4/11, a menos que a ficha diga que o prazo foi prorrogado; nada de urgência falsa; tudo o que não estiver na ficha deve ser marcado como [CONFIRMAR].
+Em português brasileiro:
+1. Preserve ID, data, tema e canal de cada linha aprovada. Distribua produção, conferência de fatos, exportação e agendamento ao responsável, com estimativa em minutos e dependências.
+2. Adapte essas linhas a outros canais só onde o plano aprovado permitir; não acrescente publicações para cumprir uma cota.
+3. Confira prazos e fatos atuais. Preserve o atendimento diário. Se faltar capacidade, sinalize as linhas afetadas e proponha um escopo reduzido para a Coordenação aprovar.
+4. Liste mudanças propostas de data/tema separadamente; não as trate como aprovadas nem agendadas.
+Não faça novos convites à submissão depois do encerramento, salvo prorrogação confirmada na ficha atual aprovada. Nada de urgência falsa; marque fatos necessários ainda desconhecidos com [CONFIRMAR].
 ```
 
 ### 2.2 O calendário do CONAFROEDU 2026 (de hoje até 15 de dezembro)
@@ -125,7 +127,7 @@ Regras: não peça submissões de trabalhos depois de 4/11, a menos que a ficha 
 ```prompt
 Monte um calendário de conteúdo orgânico para o CONAFROEDU — Congresso Nacional de Africanidades na Educação, 100% on-line, em 5 e 6 de dezembro de 2026. Hoje é 21 de outubro de 2026.
 Equipe: [número] pessoas, [horas] horas semanais somadas. Canal principal: Facebook. Apoio: Instagram e um Canal do WhatsApp.
-Datas confirmadas: submissões e vídeo de apresentação até 04/11 (horário de encerramento: [CONFIRMAR]); avaliação em até 5 dias úteis; lote atual até 15/11, novo lote a partir de 16/11; 20/11 é o feriado nacional do Dia Nacional de Zumbi e da Consciência Negra (sexta-feira); programação oficial até 25/11; inscrições até 06/12; certificados a partir de 06/12; previsão dos anais em 15/12.
+Datas confirmadas: submissões e vídeo de apresentação até 04/11 (horário de encerramento: [CONFIRMAR]); avaliação em até 5 dias úteis; lote atual até 15/11, novo lote a partir de 16/11; 20/11 é o feriado nacional do Dia Nacional de Zumbi e da Consciência Negra (sexta-feira); programação oficial até 25/11; inscrições até 06/12; certificados previstos a partir de 06/12; previsão dos anais em 15/12.
 Fatos aprovados: [colar a ficha oficial]. Materiais disponíveis: [listar vídeos, fotos, palestrantes que já toparam].
 
 Regras:
@@ -357,7 +359,7 @@ PROGRAMAÇÃO: [cole a programação oficial]
 
 ```prompt
 Usando SOMENTE a ficha oficial acima, escreva em português brasileiro natural um FAQ "Como participar" para quem já está inscrito, em duas versões: um carrossel (5 cards) e uma atualização para o Canal do WhatsApp (até 500 caracteres).
-Fale só do que a ficha confirma: datas (5 e 6 de dezembro de 2026), "horário de Brasília", como o acesso é recebido, onde está a programação, contato e horário de atendimento, certificados disponíveis a partir de 6 de dezembro. Para o que não estiver confirmado (plataforma, caminho de acesso, gravações, recursos de acessibilidade), escreva [CONFIRMAR].
+Fale só do que a ficha confirma: datas (5 e 6 de dezembro de 2026), "horário de Brasília", como o acesso é recebido, onde está a programação, contato e horário de atendimento, liberação dos certificados prevista a partir de 6 de dezembro (confirme a liberação real antes de orientar o download). Para o que não estiver confirmado (plataforma, caminho de acesso, gravações, recursos de acessibilidade), escreva [CONFIRMAR].
 Nunca inclua link de reunião nem senha; o acesso vai de forma privada para quem está inscrito.
 Lembre que as inscrições ficam abertas até 6 de dezembro — não escreva que as inscrições "acabam em 48 horas".
 ```
@@ -372,10 +374,10 @@ Tarefa: escreva (a) um post de "Bom dia, começamos!" para o Facebook em 5 de de
 
 ### 3.16 Certificados (a partir de 6 de dezembro)
 
-**Uso:** depois que a comissão confirmar os critérios e o passo a passo para baixar. **Origem (tarefa):** [Copywriting](copywriting.md#7-certificados-a-partir-de-6-de-dezembro), que também traz a redação cuidadosa do certificado para colar junto.
+**Uso:** depois que a comissão confirmar a liberação real, os critérios e o passo a passo para baixar. **Origem (tarefa):** [Copywriting](copywriting.md#7-certificados-a-partir-de-6-de-dezembro), que também traz a redação cuidadosa do certificado para colar junto.
 
 ```prompt
-Tarefa: um post curto para o Facebook e um modelo de resposta de WhatsApp explicando como baixar o certificado do CONAFROEDU. Fatos: disponível a partir de 6 de dezembro na Even3; critérios: [CONFIRMAR]; passo a passo: [CONFIRMAR] — com a comissão. Use a redação cuidadosa do certificado fornecida. Não prometa aproveitamento como horas complementares nem para progressão.
+Tarefa: um post curto para o Facebook e um modelo de resposta de WhatsApp explicando como baixar o certificado do CONAFROEDU. Previsão: a partir de 6 de dezembro na Even3. Liberação real: [CONFIRMAR]; critérios e passos: [CONFIRMAR] com a comissão. Só escreva instruções de download após confirmar a liberação real; caso contrário, rascunhe uma atualização de status para aprovação da comissão. Use a redação cuidadosa do certificado fornecida. Não prometa aproveitamento como horas complementares nem para progressão.
 ```
 
 ### 3.17 Depois do evento: balanço e situação dos anais (novo)

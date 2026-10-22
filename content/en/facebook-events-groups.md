@@ -147,7 +147,7 @@ One useful post in the Event discussion per week, plus a few around real deadlin
 | By 25 Nov | "A programação oficial está no ar: [link]. Qual mesa você não quer perder?" |
 | Week of 30 Nov | "Como acessar no dia: [passo a passo confirmado]. Teste seu acesso antes de sábado." |
 | 5–6 Dec | Real schedule changes and support only |
-| After | Thanks, certificate instructions (from 6 Dec, per the organizers' calendar), proceedings when published (target 15 Dec), feedback form |
+| After | Thanks, certificate instructions only after actual release (expected from 6 Dec), proceedings when published (target 15 Dec), feedback form |
 
 Useful discussion prompts: *"Qual dúvida você gostaria que a mesa sobre [tema confirmado] discutisse?"* Don't tag everyone, and don't turn every thread into a poster.
 

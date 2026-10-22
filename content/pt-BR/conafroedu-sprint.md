@@ -42,7 +42,7 @@ Isso muda tudo. Na prática, são **duas campanhas seguidas**:
 | **Sáb 28/11** | Faltam 7 dias para o congresso | Arte "Faltam 7 dias" |
 | **Qui 3 – Sex 4/12** | Reta final | Um convite final principal; FAQ de acesso e suporte |
 | **Sáb 5 – Dom 6/12** | **CONAFROEDU 2026**, 100% on-line | Suporte, moderação, destaques autorizados |
-| **A partir de dom 6/12** | Certificados disponíveis | Publicação e resposta rápida "como baixar seu certificado" |
+| **Previsão a partir de dom 6/12** | Previsão de liberação dos certificados | Publicar instruções de download só após confirmar liberação real, critérios e passos |
 | **Até ter 15/12** | Prazo dos anais | Divulgar o link real quando sair, ou dar notícia transparente sobre o andamento |
 
 > [!WARNING]
@@ -199,7 +199,7 @@ A **comissão** (organizadora/científica) não é uma função de divulgação,
 
 ## Depois do evento — seg 7 a ter 15/12: cumprir o prometido
 
-- [ ] **Redes:** publicação e resposta rápida no WhatsApp "Como baixar seu certificado" (certificados a partir de 6 de dezembro; confirme o passo a passo).
+- [ ] **Redes:** conferir se os certificados foram realmente liberados (previsão a partir de 6 de dezembro). Só então publicar o post/resposta de WhatsApp aprovados, após confirmar critérios e passos; caso contrário, divulgar uma atualização de status aprovada pela comissão.
 - [ ] **Todo mundo:** agradecer palestrantes, parceiros e participantes, citando o nome de quem autorizou.
 - [ ] **Conteúdo/Design:** uma retrospectiva honesta com fotos e cortes autorizados — sem números de público inventados. Peça autorização antes de usar qualquer depoimento.
 - [ ] **Até ter 15/12 — Coordenação:** divulgar o link real e os identificadores dos anais quando forem publicados, ou dar uma notícia transparente sobre o andamento.
@@ -252,19 +252,21 @@ Imprevistos acontecem — gente adoece, as aulas acumulam. Se a equipe só der c
 
 ## Copie e cole: planeje a semana com IA
 
-Use toda segunda-feira no seu assistente principal, depois de colar a [ficha oficial](prompting-basics.md#a-ficha-oficial-do-conafroedu).
+Use toda segunda-feira após colar a [ficha atual](prompting-basics.md#a-ficha-oficial-do-conafroedu) **e as linhas aprovadas desta semana com IDs, responsáveis e status** da [lista única de publicações](campaign-timeline.md). Informe a capacidade completa ou reduzida; o prompt distribui trabalho nas linhas existentes, sem criar outro calendário.
 
 ```prompt
-Você está ajudando uma pequena equipe voluntária a divulgar o CONAFROEDU 2026. Use SOMENTE a ficha oficial acima.
-Hoje é [DATA]. Esta é a [SEMANA, ex.: "Semana 3, de 9 a 15/11"]. Nossa disponibilidade: cerca de [X] horas no total.
+Você ajuda uma equipe voluntária a executar a campanha aprovada do CONAFROEDU 2026. Use SOMENTE a ficha atual e as linhas aprovadas de publicação coladas abaixo.
+Hoje: [DATA]. Semana: [SEMANA]. Disponibilidade conjunta em pessoa-hora: [X]. Plano: [COMPLETO OU REDUZIDO].
+Linhas aprovadas: [COLE AS LINHAS DESTA SEMANA COM IDS, DATAS, CANAIS, TEMAS, FORMATOS, RESPONSÁVEIS E STATUS].
 Funções: Coordenação, Conteúdo/Design, Redes/Comunidade, Parcerias.
+Se faltarem as linhas ou sua aprovação, peça esses dados; não invente outro calendário.
 
-Monte o plano desta semana com:
-1. 3 publicações para o Facebook (dia, objetivo, público, formato, gancho de uma linha, convite para ação).
-2. Quais delas adaptar para Instagram e WhatsApp.
-3. A lista de tarefas por função, com estimativa em minutos.
-4. Qualquer data da ficha que caia nesta semana e o que ela exige.
-Regras: não peça submissões de trabalhos depois de 4/11, a menos que a ficha diga que o prazo foi prorrogado; nada de urgência falsa; tudo o que não estiver na ficha deve ser marcado como [CONFIRMAR].
+Em português brasileiro:
+1. Preserve ID, data, tema e canal de cada linha aprovada. Distribua produção, conferência de fatos, exportação e agendamento ao responsável, com estimativa em minutos e dependências.
+2. Adapte essas linhas a outros canais só onde o plano aprovado permitir; não acrescente publicações para cumprir uma cota.
+3. Confira prazos e fatos atuais. Preserve o atendimento diário. Se faltar capacidade, sinalize as linhas afetadas e proponha um escopo reduzido para a Coordenação aprovar.
+4. Liste mudanças propostas de data/tema separadamente; não as trate como aprovadas nem agendadas.
+Não faça novos convites à submissão depois do encerramento, salvo prorrogação confirmada na ficha atual aprovada. Nada de urgência falsa; marque fatos necessários ainda desconhecidos com [CONFIRMAR].
 ```
 
 ## Próximos passos

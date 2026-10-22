@@ -46,7 +46,7 @@ Every kit is only as good as the facts inside it. Build a one-page **fact sheet*
 - Name: **I CONAFROEDU — Congresso Nacional de Africanidades na Educação**. Theme: **Desenvolvimento, Participação e Educação Antirracista**. This is the 1st edition.
 - Dates: **5–6 December 2026**, **100% online**.
 - Registration and rules: [Even3 event page](https://www.even3.com.br/iconafroedu-764690/).
-- Submissions (and presenter video) close **4 November 2026**. Current ticket tier ends **15 Nov**; prices rise **16 Nov**. Program by **25 Nov**. Certificates from **6 Dec**. Proceedings target **by 15 Dec**.
+- Submissions (and presenter video) close **4 November 2026**. Current ticket tier ends **15 Nov**; prices rise **16 Nov**. Program by **25 Nov**. Certificates expected from **6 Dec**. Proceedings target **by 15 Dec**.
 - Publication in the proceedings has an **additional R$ 16,98 per work**, separate from registration.
 
 **Not confirmed yet (confirm with the committee before putting them in a kit):** the exact cut-off *time* on 4 Nov; whether presenting is mandatory or optional (the rules and the FAQ disagree); what earns the advertised 40-hour certificate; final speaker list and session times; accessibility services; and any coupon or discount.
@@ -296,7 +296,7 @@ Use **codes** (palestrante_03, parceiro_neabi_01), not names or emails, and keep
 | Acceptances | Now – mid-Nov | "Trabalho aprovado" posts | Share (with permission) in Stories; thank authors |
 | Countdown | 26 Nov – 4 Dec | "Estou inscrita/o, vou participar" posts, preparation photos | Answer, reshare a few, avoid flooding |
 | Event days | 5–6 Dec | Takeaways, quotes from talks (attributed), study-corner photos | One person monitors #CONAFROEDU and mentions; ask permission before reposting |
-| After | 7–15 Dec | Certificate posts (from 6 Dec), reflections, application stories | Thank contributors; request testimonials *with permission*; share the proceedings link only when actually published |
+| After | 7–15 Dec | Certificate posts (expected from 6 Dec, after actual release), reflections, application stories | Thank contributors; request testimonials *with permission*; share the proceedings link only when actually published |
 
 ### Permission request (pt-BR)
 

@@ -59,7 +59,7 @@ Confirm you understood in one sentence and wait for my first request.
 | 7 | Consciência Negra visual | 1080 × 1350 | 20 Nov |
 | 8 | Price-change reminder | 1080 × 1350 + 1080 × 1920 | 12–15 Nov |
 | 9 | Live-day thumbnail | 1920 × 1080 + 1080 × 1920 | 5–6 Dec |
-| 10 | Certificate / proceedings | 1080 × 1350 | From 6 Dec; proceedings when actually published |
+| 10 | Certificate / proceedings | 1080 × 1350 | Expected from 6 Dec; announce either only after actual release |
 | 11 | Recap | 1080 × 1080 carousel | 7–15 Dec |
 
 ## 1. Event poster / background
@@ -247,7 +247,7 @@ Using the agreed style, create a horizontal 16:9 background for a live-stream th
 
 ## 10. Certificate and proceedings announcement
 
-According to the event calendar, certificates are available **from 6 December** and the proceedings are expected **by 15 December**. **Only post the proceedings announcement once they are actually published**, with the real link, ISBN and DOI typed from the official source. **Confirm the certificate rules** (who is eligible, attendance requirements, how to download the 40-hour certificate) with the committee.
+According to the event calendar, certificates are expected **from 6 December** and the proceedings are expected **by 15 December**. **Only post the proceedings announcement once they are actually published**, with the real link, ISBN and DOI typed from the official source. **Publish a certificate-available announcement only after confirming actual release**; otherwise use a committee-approved status update. **Confirm the certificate rules** (who is eligible, attendance requirements, how to download the 40-hour certificate) with the committee.
 
 **Tool:** ChatGPT or Gemini for a background; Canva for everything else. **Size:** 1080 × 1350.
 
@@ -257,7 +257,7 @@ Using the agreed style, create a background for an announcement about certificat
 
 **Add in Canva:**
 
-- `Certificados disponíveis` [Certificates available] + `Como baixar: [passos confirmados]` [How to download]
+- Only after confirming release: `Certificados disponíveis` [Certificates available] + `Como baixar: [passos confirmados]` [How to download]
 - or `Anais publicados!` [Proceedings published!] + `ISBN [número real]` + `DOI individual por trabalho` (only as published)
 - `Obrigada/o por construir o CONAFROEDU 2026 com a gente` [Thank you for building it with us]
 

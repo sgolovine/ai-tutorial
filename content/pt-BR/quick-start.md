@@ -93,7 +93,7 @@ CONAFROEDU 2026/
 
 ## Dia 4 — As primeiras publicações (≈ 90 min)
 
-**Objetivo:** a chamada de trabalhos no ar, fixada e apoiada por um Evento e algumas publicações agendadas.
+**Objetivo:** chamada publicada e fixada, Evento criado e próximas peças com responsáveis e espaços aprovados no calendário.
 
 1. **Rascunhe a legenda com IA.** Abra o projeto salvo (ou cole a ficha + a voz) e rode:
 
@@ -108,8 +108,9 @@ Depois, me dê uma versão de 40 palavras para o WhatsApp (sem hashtags, link so
 2. **Confira** com a [checagem de 60 segundos](prompting-basics.md#a-checagem-de-60-segundos). Confira todos os colchetes e dados ausentes. Substitua por fatos confirmados ou retire a **afirmação inteira sem respaldo**; apagar só o marcador não torna a frase verdadeira.
 3. **Publique** na Página autorizada do Facebook com a arte do Dia 3 e **fixe**. Se a Página nova não tiver público ou o acesso atrasar, peça à comissão para aprovar uma Página existente da organização como destino inicial e divulgue pelo Instagram já usado e por parceiros autorizados. Não adie a chamada de **23/10** esperando a Página crescer; mantenha o link oficial da Even3.
 4. **Crie um Evento no Facebook** para o congresso (on-line, 5 e 6 de dezembro, horário de Brasília, Even3 como link de inscrição). Passo a passo em [Eventos e Grupos no Facebook](facebook-events-groups.md).
-5. **Agende as duas peças prontas e aprovadas** no Meta Business Suite ([configuração](setup-tools.md); [Ferramentas de agendamento](scheduling-tools.md)): carrossel de submissão na **seg 26** e checklist de sete dias na **qua 28**. Reserve uma linha **ainda sem agendar** para o Reel de prática de sala de aula da **sex 30**, a ser produzido no Dia 5. No carrossel: inscrição com o mesmo e-mail da submissão → normas → PDF → envio → acompanhar parecer/correções (até cinco dias úteis). Inclua o prazo separado de **4/11 para o vídeo de apresentação** e oriente quem pretende apresentar a consultar a comissão agora; não mande esperar o parecer para preparar/enviar o vídeo.
-6. **Instagram:** adapte a chamada (até 5 hashtags; o link vai na bio). Veja [Instagram e WhatsApp](instagram-whatsapp.md).
+5. **Distribua e produza as duas peças estáticas.** Conteúdo/Design duplica o modelo do Dia 3 no Canva e segue a [receita de carrossel](image-prompts.md#5-carrossel) para explicar a submissão. Produz também a checklist de sete dias com o prazo de 4/11 (pergunte o horário-limite à comissão), o mesmo e-mail na inscrição/submissão, normas atuais de modalidade/PDF, link de envio e a dúvida/prazo separado do vídeo de apresentação. Rascunhe uma legenda para cada peça com a ficha atual; exporte as páginas na ordem e peça a uma segunda pessoa para aprovar textos e arquivos. Reserve cerca de **60–90 minutos adicionais de Conteúdo/Design no orçamento semanal**; é produção distribuída agora, não uma entrega já feita no Dia 3. Se não couber, mantenha as linhas **sem agendar** e peça à Coordenação para aprovar um plano reduzido.
+6. **Agende somente as peças prontas e aprovadas** no Meta Business Suite ([configuração](setup-tools.md); [Ferramentas de agendamento](scheduling-tools.md)): carrossel de submissão na **seg 26** e checklist de sete dias na **qua 28**. Reserve uma linha **ainda sem agendar** para o Reel de prática de sala de aula da **sex 30**, a ser produzido no Dia 5. No carrossel: inscrição com o mesmo e-mail da submissão → normas → PDF → envio → acompanhar parecer/correções (até cinco dias úteis). Inclua o prazo separado de **4/11 para o vídeo de apresentação** e oriente quem pretende apresentar a consultar a comissão agora; não mande esperar o parecer para preparar/enviar o vídeo.
+7. **Instagram:** adapte a chamada (até 5 hashtags; o link vai na bio). Veja [Instagram e WhatsApp](instagram-whatsapp.md).
 
 ## Dia 5 — O primeiro Reel (≈ 30–45 min)
 

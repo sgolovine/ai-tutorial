@@ -53,7 +53,7 @@ A automação repete o que você entrega a ela, inclusive os erros, centenas de 
 | `/modalidades` | Que tipos de trabalho posso enviar? Normas de formatação? | ✅ Normas da página. ⚠️ "Resumo simples" não aparece no FAQ |
 | `/comosubmeter` | Como submeto na Even3? | ✅ Requisitos. ⚠️ Caminho exato no menu (gravar vídeo de tela) |
 | `/publicacao` | Tem ISBN/DOI? Tem custo extra? | ✅ Conforme divulgado. ⚠️ Responsável pela publicação e entrega do DOI |
-| `/certificado` | Tem certificado? De quantas horas? | ✅ 40 horas divulgadas, a partir de 6/12. ⚠️ **Quem tem direito e em que condições** |
+| `/certificado` | Tem certificado? De quantas horas? | ✅ 40 horas divulgadas, liberação prevista a partir de 6/12. ⚠️ **Quem tem direito e em que condições** |
 | `/apresentacao` | A apresentação é obrigatória? | ⚠️ **Contradição na página. A comissão precisa decidir** |
 | `/video` | E o vídeo de apresentação? | ✅ Prazo 4/11. ⚠️ Formato, envio e conflito com o prazo de avaliação |
 | `/prorrogacao` | Vai ter prorrogação? | ⚠️ Só a comissão pode responder |
@@ -149,10 +149,10 @@ Se alguém perguntar sobre **Qualis**, nunca diga que os anais são "Qualis A" o
 ISBN e DOI identificam a publicação e facilitam que ela seja encontrada e citada, mas não significam uma classificação Qualis automática. A forma como anais são considerados depende das regras da sua área, programa ou processo seletivo – vale consultar o edital ou a coordenação.
 ```
 
-**`/certificado` — Certificado** (✅ 40 horas divulgadas, disponível a partir de 6/12; ⚠️ **condições**)
+**`/certificado` — Certificado** (✅ 40 horas divulgadas, liberação prevista a partir de 6/12; conferir liberação real; ⚠️ **condições**)
 
 ```text
-O CONAFROEDU oferece certificado com carga horária de 40 horas, disponível a partir de 6 de dezembro de 2026, pela Even3. [CONFIRMAR] (quem recebe (ouvintes, autores, apresentadores), se há exigência de presença ou atividades e como as 40 horas são compostas.)
+O CONAFROEDU oferece certificado com carga horária de 40 horas, com liberação prevista a partir de 6 de dezembro de 2026 pela Even3. A disponibilidade real e os critérios precisam ser conferidos com a comissão antes de orientar o download. [CONFIRMAR] (quem recebe (ouvintes, autores, apresentadores), se há exigência de presença ou atividades e como as 40 horas são compostas.)
 O aproveitamento como atividade complementar ou para progressão depende das regras da sua instituição ou rede de ensino.
 ```
 
@@ -399,7 +399,7 @@ Uma página sobre educação antirracista pode receber comentários racistas ou 
 | **5–6/11** | Retirar pacotes no fim confirmado da venda; comprar pacote não reabre submissões |
 | **16/11** | `/valores` e `/ouvinte` → só os valores do novo lote |
 | **25/11** | `/datas` → link da programação publicada |
-| **6/12** | `/certificado` → como baixar |
+| **6/12** | `/certificado` → conferir liberação real e critérios; incluir passos confirmados só se liberado, senão usar atualização de status aprovada pela comissão |
 | **15/12** | `/publicacao` → link real dos anais (nunca antes de existir) |
 
 ## Checklist

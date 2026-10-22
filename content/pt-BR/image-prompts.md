@@ -56,7 +56,7 @@ Confirme em uma frase que entendeu e aguarde meu primeiro pedido.
 | 7 | Arte do Dia da Consciência Negra | 1080 × 1350 | 20/11 |
 | 8 | Lembrete de mudança de valores | 1080 × 1350 + 1080 × 1920 | 12 a 15/11 |
 | 9 | Miniatura do dia da live | 1920 × 1080 + 1080 × 1920 | 5 e 6/12 |
-| 10 | Certificados / anais | 1080 × 1350 | A partir de 6/12; anais só quando publicados de fato |
+| 10 | Certificados / anais | 1080 × 1350 | Previsão a partir de 6/12; anuncie ambos só após liberação real |
 | 11 | Retrospectiva | Carrossel 1080 × 1080 | 7 a 15/12 |
 
 ## 1. Cartaz / fundo do evento
@@ -244,7 +244,7 @@ Seguindo o estilo combinado, crie um fundo horizontal 16:9 para a miniatura de u
 
 ## 10. Anúncio de certificados e anais
 
-Segundo o calendário do evento, os certificados ficam disponíveis **a partir de 6 de dezembro** e os anais têm previsão de publicação **até 15 de dezembro**. **Só publique o anúncio dos anais depois que eles estiverem de fato publicados**, com o link, o ISBN e o DOI reais digitados a partir da fonte oficial. **Confirme as regras do certificado** (quem tem direito, exigência de participação, como baixar o certificado de 40 horas) com a comissão.
+Segundo o calendário do evento, os certificados têm previsão de liberação **a partir de 6 de dezembro** e os anais têm previsão de publicação **até 15 de dezembro**. **Só publique o anúncio dos anais depois que eles estiverem de fato publicados**, com o link, o ISBN e o DOI reais digitados a partir da fonte oficial. **Anuncie certificados disponíveis somente após confirmar a liberação real**; caso contrário, use uma atualização de status aprovada pela comissão. **Confirme as regras do certificado** (quem tem direito, exigência de participação, como baixar o certificado de 40 horas) com a comissão.
 
 **Ferramenta:** ChatGPT ou Gemini para o fundo; Canva para todo o resto. **Tamanho:** 1080 × 1350.
 
@@ -254,7 +254,7 @@ Seguindo o estilo combinado, crie um fundo para um anúncio sobre certificados e
 
 **Insira no Canva:**
 
-- `Certificados disponíveis` + `Como baixar: [passos confirmados]`
+- Só após confirmar a liberação: `Certificados disponíveis` + `Como baixar: [passos confirmados]`
 - ou `Anais publicados!` + `ISBN [número real]` + `DOI individual por trabalho` (somente conforme publicado)
 - `Obrigada/o por construir o CONAFROEDU 2026 com a gente`
 

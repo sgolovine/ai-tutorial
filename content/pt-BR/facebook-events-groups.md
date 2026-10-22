@@ -147,7 +147,7 @@ Uma publicação útil por semana na discussão do Evento, mais algumas nos praz
 | Até 25/11 | "A programação oficial está no ar: [link]. Qual mesa você não quer perder?" |
 | Semana de 30/11 | "Como acessar no dia: [passo a passo confirmado]. Teste seu acesso antes de sábado." |
 | 5 e 6/12 | Só mudanças reais de horário e suporte |
-| Depois | Agradecimento, instruções de certificado (a partir de 6/12, segundo o cronograma da organização), anais quando publicados (previsão: 15/12), formulário de avaliação |
+| Depois | Agradecimento, instruções de certificado só após liberação real (prevista a partir de 6/12), anais quando publicados (previsão: 15/12), formulário de avaliação |
 
 Perguntas que funcionam: *"Qual dúvida você gostaria que a mesa sobre [tema confirmado] discutisse?"* Não marquem todo mundo e não transformem cada conversa num cartaz.
 

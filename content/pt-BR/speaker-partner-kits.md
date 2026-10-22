@@ -46,7 +46,7 @@ Um kit só é bom se as informações estiverem certas. Monte primeiro uma **fic
 - Nome: **I CONAFROEDU – Congresso Nacional de Africanidades na Educação**. Tema: **Desenvolvimento, Participação e Educação Antirracista**. É a 1ª edição.
 - Datas: **5 e 6 de dezembro de 2026**, **100% on-line**.
 - Inscrições e normas: [página do evento na Even3](https://www.even3.com.br/iconafroedu-764690/).
-- Submissões (e vídeo de apresentação) até **4 de novembro de 2026**. O lote atual vai até **15/11**; os valores sobem em **16/11**. Programação até **25/11**. Certificados a partir de **6/12**. Anais previstos **até 15/12**.
+- Submissões (e vídeo de apresentação) até **4 de novembro de 2026**. O lote atual vai até **15/11**; os valores sobem em **16/11**. Programação até **25/11**. Certificados previstos a partir de **6/12**. Anais previstos **até 15/12**.
 - A publicação nos anais tem **taxa adicional de R$ 16,98 por trabalho**, separada da inscrição.
 
 **Ainda não confirmado (confirme com a comissão antes de colocar em qualquer kit):** o *horário* exato de encerramento em 4/11; se a apresentação é obrigatória ou opcional (as normas e o FAQ se contradizem); o que dá direito ao certificado de 40 horas; a lista final de palestrantes e horários; os recursos de acessibilidade; e qualquer cupom ou desconto.
@@ -293,7 +293,7 @@ Use **códigos** (palestrante_03, parceiro_neabi_01), nunca nomes ou e-mails, e 
 | Aprovações | Agora até meados de nov. | Posts de "trabalho aprovado" | Compartilhar (com permissão) nos Stories; agradecer aos autores |
 | Contagem regressiva | 26/11 a 4/12 | Posts "já me inscrevi, vou participar", fotos de preparação | Responder, compartilhar alguns, sem exagero |
 | Dias do evento | 5 e 6/12 | Aprendizados, frases das falas (com autoria), fotos do cantinho de estudo | Uma pessoa acompanha #CONAFROEDU e menções; pede permissão antes de republicar |
-| Depois | 7 a 15/12 | Posts com o certificado (a partir de 6/12), reflexões, relatos de aplicação | Agradecer; pedir depoimentos *com autorização*; divulgar o link dos anais só quando estiver de fato publicado |
+| Depois | 7 a 15/12 | Posts com o certificado (previsto a partir de 6/12, após liberação real), reflexões, relatos de aplicação | Agradecer; pedir depoimentos *com autorização*; divulgar o link dos anais só quando estiver de fato publicado |
 
 ### Pedido de autorização
 

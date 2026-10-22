@@ -19,7 +19,7 @@ Esta página é a versão "para pregar na parede" do site inteiro. Cada dica tem
 - Uma **checklist para imprimir** com as dicas que a gente mais esquece.
 
 > [!IMPORTANT] As datas por trás de todas as dicas
-> Submissões (e vídeos de apresentação) até **qua, 4/11** · pacotes de 2 ou 3 submissões listados até **qui, 5/11** · valor atual até **dom, 15/11** e novos valores a partir de **seg, 16/11** · **sex, 20/11**, Dia Nacional de Zumbi e da Consciência Negra · programação até **qua, 25/11** · congresso **sáb, 5, e dom, 6/12** · certificados a partir de **6/12** · anais até **ter, 15/12**. Todas as datas vêm da [página na Even3](https://www.even3.com.br/iconafroedu-764690/), conferida em 21 de outubro de 2026. O plano completo está no [plano de 6 semanas](conafroedu-sprint.md).
+> Submissões (e vídeos de apresentação) até **qua, 4/11** · pacotes de 2 ou 3 submissões listados até **qui, 5/11** · valor atual até **dom, 15/11** e novos valores a partir de **seg, 16/11** · **sex, 20/11**, Dia Nacional de Zumbi e da Consciência Negra · programação até **qua, 25/11** · congresso **sáb, 5, e dom, 6/12** · certificados previstos a partir de **6/12** · anais até **ter, 15/12**. Todas as datas vêm da [página na Even3](https://www.even3.com.br/iconafroedu-764690/), conferida em 21 de outubro de 2026. O plano completo está no [plano de 6 semanas](conafroedu-sprint.md).
 
 ## Se você só tiver tempo para cinco dicas
 

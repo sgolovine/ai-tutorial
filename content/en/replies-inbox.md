@@ -53,7 +53,7 @@ Automation repeats whatever you give it, including mistakes, hundreds of times. 
 | `/modalidades` | What types of work can I submit? Formatting rules? | ✅ Rules on the page. ⚠️ "Resumo simples" missing from the FAQ |
 | `/comosubmeter` | How do I submit on Even3? | ✅ Requirements. ⚠️ Exact menu path (record a screen video) |
 | `/publicacao` | Is there an ISBN/DOI? Does it cost extra? | ✅ As advertised. ⚠️ Publisher and how the DOI is delivered |
-| `/certificado` | Is there a certificate? How many hours? | ✅ 40 hours advertised, from 6 Dec. ⚠️ **Who qualifies and under what conditions** |
+| `/certificado` | Is there a certificate? How many hours? | ✅ 40 hours advertised, release expected from 6 Dec. ⚠️ **Who qualifies and under what conditions** |
 | `/apresentacao` | Is presenting mandatory? | ⚠️ **Contradiction on the page. The committee must decide** |
 | `/video` | What about the presentation video? | ✅ Deadline 4 Nov. ⚠️ Format, upload route, review-timing conflict |
 | `/prorrogacao` | Will the deadline be extended? | ⚠️ Only the committee can answer |
@@ -149,10 +149,10 @@ If someone asks about **Qualis**, never say the proceedings are "Qualis A" or "c
 ISBN e DOI identificam a publicação e facilitam que ela seja encontrada e citada, mas não significam uma classificação Qualis automática. A forma como anais são considerados depende das regras da sua área, programa ou processo seletivo – vale consultar o edital ou a coordenação.
 ```
 
-**`/certificado` — Certificate** (✅ 40 hours advertised, available from 6 Dec; ⚠️ **conditions**)
+**`/certificado` — Certificate** (✅ 40 hours advertised, release expected from 6 Dec; check actual release; ⚠️ **conditions**)
 
 ```text
-O CONAFROEDU oferece certificado com carga horária de 40 horas, disponível a partir de 6 de dezembro de 2026, pela Even3. [CONFIRMAR] (quem recebe (ouvintes, autores, apresentadores), se há exigência de presença ou atividades e como as 40 horas são compostas.)
+O CONAFROEDU oferece certificado com carga horária de 40 horas, com liberação prevista a partir de 6 de dezembro de 2026 pela Even3. A disponibilidade real e os critérios precisam ser conferidos com a comissão antes de orientar o download. [CONFIRMAR] (quem recebe (ouvintes, autores, apresentadores), se há exigência de presença ou atividades e como as 40 horas são compostas.)
 O aproveitamento como atividade complementar ou para progressão depende das regras da sua instituição ou rede de ensino.
 ```
 
@@ -399,7 +399,7 @@ A page about anti-racist education may receive racist or hostile comments. Agree
 | **5–6 Nov** | Remove package offers at their confirmed sales end; no package purchase reopens submissions |
 | **16 Nov** | `/valores` and `/ouvinte` → new tier prices only |
 | **25 Nov** | `/datas` → link to the published programme |
-| **6 Dec** | `/certificado` → how to download |
+| **6 Dec** | `/certificado` → check actual release and eligibility; add confirmed download steps only if released, otherwise use a committee-approved status update |
 | **15 Dec** | `/publicacao` → real proceedings link (never before it exists) |
 
 ## Checklist

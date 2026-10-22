@@ -21,7 +21,7 @@ The minimum is **one free writing assistant + Canva Free + Meta Business Suite +
 | Need | Start free | Add only when useful |
 |---|---|---|
 | Draft Portuguese Facebook copy | ChatGPT, Claude **or** Gemini in your browser | A paid plan after you identify an actual limit |
-| Reuse committee-approved facts | One shared fact sheet; paste it into chat | A Project, Gem or [Claude Skill](#claude-skills) |
+| Reuse committee-approved facts | One shared fact sheet; paste it into chat | A Project, [Gemini Skill/Gem](#gems) or [Claude Skill](#claude-skills) |
 | Make an editable card | [Canva Free](#canva) in your browser | Approved paid assets or eligible institutional plan |
 | Manage the Facebook Page | [Meta Business Suite](#meta-business-suite) on the web | Its free phone app |
 | Answer enquiries | Existing committee inbox | [WhatsApp Business](#whatsapp-business), if appropriate for its number |
@@ -247,18 +247,22 @@ Web/mobile Work is documented for eligible paid plans. Exact Free/Go access in t
 2. Ask for Brazilian Portuguese and test with public text.
 3. For a phone app, follow the official links on [Gemini's site](https://gemini.google/br/about/?hl=pt-BR). School/work accounts may need administrator permission.
 
-**Cost:** Free includes limited use and Gems. The Brazilian page currently lists **Google AI Plus R$24.99/month** and **AI Pro R$96.99/month**; check billing and offer conditions before upgrading. You do not need either to begin writing prompts. [Brazil plans](https://gemini.google/br/subscriptions/?hl=pt-BR).
+**Cost:** Free includes limited Gemini use; reusable Skills/Gems depend on account eligibility and the transition below. The Brazilian page currently lists **Google AI Plus R$24.99/month** and **AI Pro R$96.99/month**; check billing and offer conditions before upgrading. You do not need either to begin writing prompts. [Brazil plans](https://gemini.google/br/subscriptions/?hl=pt-BR).
 
 <span id="gems"></span>
 
-### Save a reusable Gem
+### Save reusable Gemini Skills or a Gem
 
-1. On the Gemini website, open **Gems → New Gem / Novo Gem**.
-2. Name it `Revisor CONAFROEDU`; paste the canonical voice and fact-checking instructions from [Prompting basics](prompting-basics.md).
-3. Add the public approved fact sheet as knowledge when supported; test it in the preview.
-4. Choose **Save**; return to the saved Gem for campaign work.
+For personal accounts, Google is moving Gems to Skills starting in **November 2026**; work/school accounts follow in 2027. Existing Gems are recreated automatically, but recheck the migrated instructions and files before campaign use. [Transition notice](https://support.google.com/gemini/answer/18560919?hl=en).
 
-Custom Gems do not generally require AI Pro. **Gems do not work in Gemini Live.** Drive knowledge may require Gemini activity and the Workspace connection; inspect that tradeoff before enabling it. Local public-file upload is the simpler option when available. [Gem creation and restrictions](https://support.google.com/gemini/answer/15146780?hl=pt-BR).
+**Current Skills route:** you must be **18 or older** and have **Keep Activity on**. Review the [privacy tradeoff](#privacy); if you do not want to enable it or are ineligible, paste the approved fact sheet and voice into an ordinary chat instead.
+
+1. Open Gemini on the web → **Customize → Skills**. If Customize is hidden, open **More** first.
+2. Choose **Create → Create manually**. Enter `revisor-conafroedu`, a short description and the canonical voice/fact-checking instructions from [Prompting basics](prompting-basics.md); choose **Create**.
+3. For reference files, Google currently requires uploading them **with the Skill**, rather than adding them to the manual form. Download the saved Skill from **Skill actions → Download**. Open/extract the downloaded ZIP and copy its `SKILL.md` into a folder named `revisor-conafroedu`, alongside the approved public fact sheet; use **Skill actions → Replace skill → folder** to upload that folder. Inspect the instructions/files before confirming.
+4. In a new chat, ask Gemini to use `revisor-conafroedu` to draft one caption. Check its facts, voice and source version against the originals. A saved Skill is not a source of new event facts.
+
+**Older/account-specific Gem route:** if your account still shows Gems, use **Gems → New Gem**, name it `Revisor CONAFROEDU`, add the same approved instructions and public knowledge file when supported, test in the preview and **Save**. Gems do not generally require AI Pro and do not work in Gemini Live. Drive knowledge may require activity and a Workspace connection. After automatic migration, repeat the test above. Skills do not inherit every Gem tool; use ordinary chat for unsupported tasks. [Current Skills creation and file rules](https://support.google.com/gemini/answer/17094296?hl=en), [older Gem route](https://support.google.com/gemini/answer/15146780?hl=pt-BR).
 
 <span id="gemini-chrome"></span>
 

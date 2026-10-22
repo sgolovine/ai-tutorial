@@ -45,7 +45,7 @@ These come from the organizers' [Even3 page](https://www.even3.com.br/iconafroed
 | **20 Nov** | Fri | Dia Nacional de Zumbi e da Consciência Negra — national holiday ([Lei 14.759/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14759.htm)) | Attendance and educational content — not submissions |
 | **By 25 Nov** | Wed | Official program and presentation schedule (target) | Publish only after actual release |
 | **5–6 Dec** | Sat–Sun | **Congress, 100% online** | Even3 header shows 08:00–22:00, GMT−3 |
-| **6 Dec** | Sun | Registrations close; certificates available from this date | Certificate eligibility to be confirmed |
+| **6 Dec** | Sun | Registrations close; certificate release expected from this date; check actual availability | Certificate eligibility to be confirmed |
 | **By 15 Dec** | Tue | Proceedings (Anais) publication target | Publication fee: R$ 16,98 per paper |
 
 > [!WARNING] Settle these with the committee before scheduling posts

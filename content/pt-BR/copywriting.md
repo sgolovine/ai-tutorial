@@ -218,12 +218,12 @@ Tarefa: escreva (a) um post de "Bom dia, começamos!" para o Facebook em 5 de de
 
 ### 7. Certificados (a partir de 6 de dezembro)
 
-Post de certificado gera muitas perguntas. Seja preciso e use a redação cuidadosa abaixo **quando a comissão confirmar os critérios**:
+Post de certificado gera muitas perguntas. Seja preciso e use a redação cuidadosa abaixo **quando a comissão confirmar a liberação real e os critérios**:
 
 > Certificado de participação com carga horária de 40 horas, conforme os critérios de participação divulgados pela organização. O aproveitamento para atividades complementares ou progressão depende das regras da instituição de cada participante.
 
 ```prompt
-Tarefa: um post curto para o Facebook e um modelo de resposta de WhatsApp explicando como baixar o certificado do CONAFROEDU. Fatos: disponível a partir de 6 de dezembro na Even3; critérios: [CONFIRMAR]; passo a passo: [CONFIRMAR] — com a comissão. Use a redação cuidadosa do certificado fornecida. Não prometa aproveitamento como horas complementares nem para progressão.
+Tarefa: um post curto para o Facebook e um modelo de resposta de WhatsApp explicando como baixar o certificado do CONAFROEDU. Previsão: a partir de 6 de dezembro na Even3. Liberação real: [CONFIRMAR]; critérios e passos: [CONFIRMAR] com a comissão. Só escreva instruções de download após confirmar a liberação real; caso contrário, rascunhe uma atualização de status para aprovação da comissão. Use a redação cuidadosa do certificado fornecida. Não prometa aproveitamento como horas complementares nem para progressão.
 ```
 
 ### 8. Anais (até 15 de dezembro)

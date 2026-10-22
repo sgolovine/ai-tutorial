@@ -21,7 +21,7 @@ O mínimo é **um assistente gratuito para escrever + Canva Free + Meta Business
 | Necessidade | Comece sem pagar | Acrescente quando fizer sentido |
 |---|---|---|
 | Rascunhar textos em português para o Facebook | ChatGPT, Claude **ou** Gemini no navegador | Uma assinatura, depois de identificar um limite real |
-| Reutilizar fatos aprovados pela comissão | Uma ficha compartilhada, colada na conversa | Um Project, Gem ou [Skill do Claude](#claude-skills) |
+| Reutilizar fatos aprovados pela comissão | Uma ficha compartilhada, colada na conversa | Um Projeto, [Skill/Gem do Gemini](#gems) ou [Skill do Claude](#claude-skills) |
 | Criar uma arte editável | [Canva Free](#canva) no navegador | Elementos pagos aprovados ou plano institucional elegível |
 | Administrar a Página do Facebook | [Meta Business Suite](#meta-business-suite) na web | O aplicativo gratuito para celular |
 | Responder dúvidas | A caixa de entrada já usada pela comissão | [WhatsApp Business](#whatsapp-business), se adequado ao número |
@@ -247,18 +247,22 @@ Work na web/celular é documentado para planos pagos elegíveis. O acesso exato 
 2. Peça português brasileiro e teste com um texto público.
 3. Para usar no celular, siga os links oficiais no [site do Gemini](https://gemini.google/br/about/?hl=pt-BR). Contas escolares/profissionais podem exigir autorização do administrador.
 
-**Custo:** o gratuito inclui uso limitado e Gems. A página brasileira lista atualmente **Google AI Plus a R$ 24,99/mês** e **AI Pro a R$ 96,99/mês**; confira cobrança e condições da oferta antes de assinar. Nenhum dos dois é necessário para começar a escrever comandos. [Planos no Brasil](https://gemini.google/br/subscriptions/?hl=pt-BR).
+**Custo:** o gratuito inclui uso limitado do Gemini; Skills/Gems reutilizáveis dependem da elegibilidade da conta e da transição abaixo. A página brasileira lista atualmente **Google AI Plus a R$ 24,99/mês** e **AI Pro a R$ 96,99/mês**; confira cobrança e condições da oferta antes de assinar. Nenhum dos dois é necessário para começar a escrever comandos. [Planos no Brasil](https://gemini.google/br/subscriptions/?hl=pt-BR).
 
 <span id="gems"></span>
 
-### Salve um Gem reutilizável
+### Salve Skills reutilizáveis do Gemini ou um Gem
 
-1. No site do Gemini, abra **Gems → Novo Gem**.
-2. Dê o nome `Revisor CONAFROEDU` e cole a voz canônica e as instruções de conferência de [Como conversar com a IA](prompting-basics.md).
-3. Adicione a ficha pública aprovada como conhecimento, quando houver essa opção, e teste na prévia.
-4. Clique em **Salvar**; volte ao Gem salvo para trabalhar na campanha.
+Nas contas pessoais, o Google começa a trocar Gems por Skills em **novembro de 2026**; contas profissionais/escolares seguem em 2027. Gems existentes serão recriados automaticamente, mas confira as instruções e os arquivos migrados antes de usá-los na campanha. [Aviso de transição](https://support.google.com/gemini/answer/18560919?hl=en).
 
-Gems personalizados não exigem AI Pro como regra geral. **Gems não funcionam no Gemini Live.** Arquivos do Drive podem exigir atividade do Gemini e conexão Workspace; avalie essa condição antes de ativar. O envio de arquivo público local é a opção mais simples quando disponível. [Criação e restrições dos Gems](https://support.google.com/gemini/answer/15146780?hl=pt-BR).
+**Caminho atual de Skills:** exige **18 anos ou mais** e **Manter atividade / Keep Activity ativado**. Avalie essa [condição de privacidade](#privacy); se não quiser ativar ou não for elegível, cole a ficha aprovada e a voz em uma conversa comum.
+
+1. Abra o Gemini na web → **Customize → Skills**. Se Customize não aparecer, abra **More** primeiro; os rótulos traduzidos podem variar.
+2. Escolha **Create → Create manually**. Informe `revisor-conafroedu`, uma descrição curta e a voz canônica/instruções de conferência de [Como conversar com a IA](prompting-basics.md); clique em **Create**.
+3. Para usar referências, o Google atualmente exige enviar os arquivos **junto com a Skill**, em vez de adicioná-los ao formulário manual. Baixe a Skill salva em **Skill actions → Download**. Abra/extraia o ZIP baixado e copie o `SKILL.md` para uma pasta chamada `revisor-conafroedu`, junto com a ficha pública aprovada; use **Skill actions → Replace skill → folder** para enviar essa pasta. Confira instruções e arquivos antes de confirmar.
+4. Em uma conversa nova, peça ao Gemini para usar `revisor-conafroedu` e rascunhar uma legenda. Compare fatos, voz e versão da fonte com os originais. Uma Skill salva não é fonte de novos fatos do evento.
+
+**Caminho antigo/específico da conta:** se a conta ainda mostrar Gems, use **Gems → Novo Gem**, dê o nome `Revisor CONAFROEDU`, inclua as mesmas instruções aprovadas e o arquivo público quando houver suporte, teste na prévia e clique em **Salvar**. Gems geralmente não exigem AI Pro e não funcionam no Gemini Live. Conhecimento do Drive pode exigir atividade e conexão Workspace. Após a migração automática, repita o teste acima. Skills não herdam todas as ferramentas de Gems; use a conversa comum para tarefas sem suporte. [Criação atual de Skills e regras de arquivos](https://support.google.com/gemini/answer/17094296?hl=en), [caminho antigo dos Gems](https://support.google.com/gemini/answer/15146780?hl=pt-BR).
 
 <span id="gemini-chrome"></span>
 

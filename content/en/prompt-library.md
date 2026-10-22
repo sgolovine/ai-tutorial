@@ -106,16 +106,18 @@ Mark any information you could not find in the fact sheet.
 **Output:** pt-BR. **Source:** [Sprint plan](conafroedu-sprint.md#copy-paste-plan-your-week-with-ai).
 
 ```prompt
-You are helping a small volunteer team promote CONAFROEDU 2026. Use ONLY the fact sheet above.
-Today is [DATE]. This week is [WEEK, e.g. "Week 3, 9–15 Nov"]. Our capacity: about [X] hours in total.
+You are helping a volunteer team deliver the approved CONAFROEDU 2026 campaign. Use ONLY the current fact sheet and approved publishing rows pasted below.
+Today: [DATE]. Week: [WEEK]. Available combined person-hours: [X]. Plan: [FULL OR REDUCED].
+Approved rows: [PASTE THIS WEEK'S ROWS WITH IDS, DATES, CHANNELS, TOPICS, FORMATS, OWNERS AND STATUS].
 Roles: Coordination, Content/Design, Social/Community, Partnerships.
+If the rows or their approval are missing, ask for them; do not invent another calendar.
 
-Create a plan for this week in Brazilian Portuguese with:
-1. 3 Facebook posts (day, goal, audience, format, one-line hook, call to action).
-2. Which of them to adapt for Instagram and WhatsApp.
-3. The task list per role, with an estimate in minutes.
-4. Any date in the fact sheet that falls this week and what it requires.
-Rules: don't ask for paper submissions after 4/11 unless the fact sheet says the deadline was extended; no fake urgency; anything not in the fact sheet must be marked [CONFIRMAR].
+In Brazilian Portuguese:
+1. Preserve each approved ID, date, topic and channel. Assign production, fact review, export and scheduling tasks to its owner, with estimated minutes and dependencies.
+2. Adapt those rows for other channels only where the approved plan permits; do not add posts to meet a quota.
+3. Check deadlines and current facts. Protect daily inbox coverage. If capacity is insufficient, flag the affected rows and propose a reduced scope for Coordination to approve.
+4. List proposed date/topic changes separately; do not treat them as approved or scheduled.
+No new submission invitations after closure unless the current approved fact sheet confirms an extension. No false urgency; mark necessary unknown facts [CONFIRMAR].
 ```
 
 ### 2.2 The CONAFROEDU 2026 calendar (today → 15 December)
@@ -125,7 +127,7 @@ Rules: don't ask for paper submissions after 4/11 unless the fact sheet says the
 ```prompt
 Build an organic content calendar for CONAFROEDU — Congresso Nacional de Africanidades na Educação, 100% online, 5–6 December 2026. Today is 21 October 2026.
 Team: [number] people, [hours] hours per week in total. Main channel: Facebook. Support: Instagram and a WhatsApp Channel.
-Verified dates: submissions and presenter video until 4 Nov (closing time: [CONFIRMAR]); review within 5 business days; current ticket tier until 15 Nov, new tier from 16 Nov; 20 Nov is the national holiday Dia Nacional de Zumbi e da Consciência Negra (Friday); official program by 25 Nov; registrations until 6 Dec; certificates from 6 Dec; proceedings target 15 Dec.
+Verified dates: submissions and presenter video until 4 Nov (closing time: [CONFIRMAR]); review within 5 business days; current ticket tier until 15 Nov, new tier from 16 Nov; 20 Nov is the national holiday Dia Nacional de Zumbi e da Consciência Negra (Friday); official program by 25 Nov; registrations until 6 Dec; certificates expected from 6 Dec; proceedings target 15 Dec.
 Approved facts: [paste fact sheet]. Existing materials: [list videos, photos, speakers who agreed].
 
 Rules:
@@ -357,7 +359,7 @@ PROGRAM: [paste the official program]
 
 ```prompt
 Using ONLY the fact sheet above, write in natural Brazilian Portuguese a "Como participar" FAQ for registered people, for a carousel (5 slides) and a WhatsApp Channel update (under 500 characters).
-Cover only what the fact sheet confirms: dates (5 and 6 December 2026), "horário de Brasília", how access is received, where the program is, support contact and hours, certificate availability from 6 December. For anything not confirmed (platform, access route, recordings, accessibility services), write [CONFIRMAR].
+Cover only what the fact sheet confirms: dates (5 and 6 December 2026), "horário de Brasília", how access is received, where the program is, support contact and hours, the certificate-release forecast from 6 December (confirm actual release before giving download instructions). For anything not confirmed (platform, access route, recordings, accessibility services), write [CONFIRMAR].
 Never include a meeting link or password; access goes privately to registered people.
 Remind readers that registrations stay open until 6 December — do not write that registration "closes in 48 hours".
 ```
@@ -372,10 +374,10 @@ Task: write (a) a "Bom dia, começamos!" Facebook post for 5 December, (b) a 3-f
 
 ### 3.16 Certificates (from 6 December)
 
-**Use:** once the committee confirms the criteria and the download steps. **Output:** pt-BR. **Source (Task):** [Copywriting](copywriting.md#7-certificates-from-6-december), which also gives the careful certificate wording to paste with it.
+**Use:** once the committee confirms actual release, eligibility and download steps. **Output:** pt-BR. **Source (Task):** [Copywriting](copywriting.md#7-certificates-from-6-december), which also gives the careful certificate wording to paste with it.
 
 ```prompt
-Task: a short Facebook post and a WhatsApp reply template explaining how to download the CONAFROEDU certificate. Facts: available from 6 de dezembro on Even3; criteria: [CONFIRMAR]; step-by-step: [CONFIRMAR] — with the committee. Use the careful certificate wording provided. Do not promise acceptance as horas complementares or career progression.
+Task: a short Facebook post and a WhatsApp reply template explaining how to download the CONAFROEDU certificate. Forecast: expected from 6 de dezembro on Even3. Actual release: [CONFIRMAR]; eligibility and steps: [CONFIRMAR] with the committee. Write download instructions only after actual release is confirmed; otherwise draft a status update for committee approval. Use the careful certificate wording provided. Do not promise acceptance as horas complementares or career progression.
 ```
 
 ### 3.17 After the event: recap and proceedings status (new)

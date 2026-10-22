@@ -93,7 +93,7 @@ CONAFROEDU 2026/
 
 ## Day 4 — The first posts (≈ 90 min)
 
-**Goal:** the call for papers is live, pinned and supported by an Event and a few scheduled posts.
+**Goal:** the call is live and pinned, the Event exists, and the next assets have owners and approved calendar slots.
 
 1. **Draft the caption with AI.** Open your saved project (or paste the fact sheet + voice) and run:
 
@@ -108,8 +108,9 @@ Then give me a 40-word version for WhatsApp (no hashtags, link on its own line).
 2. **Check it** with the [60-second fact check](prompting-basics.md#the-60-second-fact-check). Check all brackets and missing facts. Replace with confirmed facts or remove the **entire unsupported claim**; deleting the marker alone does not make it true.
 3. **Publish** on the authorized Facebook Page with the Day 3 card and **pin** it. If a new Page has no audience or access is delayed, ask the committee to approve an existing organizer Page as the initial Facebook destination and share the call through the existing organizer Instagram and authorized partners. Do not delay the **23 Oct** call while waiting for a new Page to grow; keep the Even3 link canonical.
 4. **Create one Facebook Event** for the congress (online, 5–6 December, Brasília time, Even3 as the registration link). Steps in [Facebook Events & Groups](facebook-events-groups.md).
-5. **Schedule the two completed, approved pieces** in Meta Business Suite ([setup](setup-tools.md); [Scheduling tools](scheduling-tools.md)): the submission carousel for **Mon 26** and seven-day checklist for **Wed 28**. Reserve one **unscheduled** row for the **Fri 30** classroom-practice Reel; create it in Day 5 before uploading. For the carousel: register using the same email as the submission → read the rules → prepare the PDF → submit → monitor the review/corrections (up to five business days). Add the separate **4 November presenter-video deadline** and ask interested presenters to consult the committee now; do not tell them to wait for the review before preparing/sending it.
-6. **Instagram:** adapt the call for papers (up to 5 hashtags; the link goes in the bio). See [Instagram & WhatsApp](instagram-whatsapp.md).
+5. **Assign and produce the two static assets.** Content/Design duplicates the Day 3 Canva master and follows the [carousel recipe](image-prompts.md#5-carousel-slides) for the submission how-to. Also make a seven-day checklist covering the 4 November cutoff (ask the committee for the exact time), the same registration/submission email, current format/PDF rules, submission link, and the separate presenter-video question/deadline. Draft a caption for each from the current fact sheet; export the pages in order and have a second person approve text and files. Reserve about **60–90 additional Content/Design minutes within the weekly budget**; this is assigned production, not an output already made on Day 3. If it cannot be finished, leave the calendar rows **unscheduled** and ask Coordination to approve a reduced plan.
+6. **Schedule only the completed, approved pieces** in Meta Business Suite ([setup](setup-tools.md); [Scheduling tools](scheduling-tools.md)): the submission carousel for **Mon 26** and seven-day checklist for **Wed 28**. Reserve one **unscheduled** row for the **Fri 30** classroom-practice Reel; create it in Day 5 before uploading. For the carousel: register using the same email as the submission → read the rules → prepare the PDF → submit → monitor the review/corrections (up to five business days). Add the separate **4 November presenter-video deadline** and ask interested presenters to consult the committee now; do not tell them to wait for the review before preparing/sending it.
+7. **Instagram:** adapt the call for papers (up to 5 hashtags; the link goes in the bio). See [Instagram & WhatsApp](instagram-whatsapp.md).
 
 ## Day 5 — Your first Reel (≈ 30–45 min)
 

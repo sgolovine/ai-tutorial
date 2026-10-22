@@ -1,7 +1,12 @@
 import { useRouter } from '@tanstack/react-router'
-import type { MouseEvent } from 'react'
+import { useEffect, useRef, type MouseEvent } from 'react'
 
 const BASE = import.meta.env.BASE_URL
+
+// Ticked task-list items (`- [ ]`) are remembered per page, so a checklist survives a reload.
+const checklistKey = () => `checklist:${window.location.pathname}`
+const checkboxes = (root: HTMLElement | null) =>
+  Array.from(root?.querySelectorAll<HTMLInputElement>('.task-list-item input[type="checkbox"]') ?? [])
 
 async function copyText(text: string) {
   try {
@@ -20,12 +25,40 @@ async function copyText(text: string) {
   }
 }
 
-/** Renders compiled Markdown HTML; wires up Copy buttons and client-side navigation for internal links. */
+/** Renders compiled Markdown HTML; wires up Copy buttons, checklists and client-side navigation for internal links. */
 export function Prose({ html }: { html: string }) {
   const router = useRouter()
+  const ref = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const boxes = checkboxes(ref.current)
+    if (boxes.length === 0) return
+    try {
+      const saved: unknown = JSON.parse(localStorage.getItem(checklistKey()) ?? 'null')
+      if (Array.isArray(saved) && saved.length === boxes.length) boxes.forEach((box, i) => (box.checked = saved[i] === true))
+    } catch {
+      // storage unavailable or invalid — start unticked
+    }
+  }, [html])
+
+  // Collapsed <details> would hide their content on paper.
+  useEffect(() => {
+    const expand = () => ref.current?.querySelectorAll('details:not([open])').forEach((d) => d.setAttribute('open', ''))
+    window.addEventListener('beforeprint', expand)
+    return () => window.removeEventListener('beforeprint', expand)
+  }, [])
 
   const onClick = (event: MouseEvent<HTMLDivElement>) => {
     const target = event.target as HTMLElement
+
+    if (target.matches('.task-list-item input[type="checkbox"]')) {
+      try {
+        localStorage.setItem(checklistKey(), JSON.stringify(checkboxes(ref.current).map((box) => box.checked)))
+      } catch {
+        // storage unavailable — ticks last until the page is left
+      }
+      return
+    }
 
     const button = target.closest<HTMLButtonElement>('button[data-copy]')
     if (button) {
@@ -64,5 +97,5 @@ export function Prose({ html }: { html: string }) {
     void router.navigate({ href: url.pathname + url.search + url.hash })
   }
 
-  return <div className="guide-prose" onClick={onClick} dangerouslySetInnerHTML={{ __html: html }} />
+  return <div ref={ref} className="guide-prose" onClick={onClick} dangerouslySetInnerHTML={{ __html: html }} />
 }

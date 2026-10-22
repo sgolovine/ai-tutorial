@@ -3,6 +3,12 @@ title: Promote your conference with AI — for free
 description: Plain-language guides for a small team using AI tools and organic Facebook, Instagram and WhatsApp to fill an education conference in Brazil.
 icon: 🎓
 updated: 2026-10-21
+event:
+  name: CONAFROEDU 2026 — National Congress of Africanidades in Education
+  dates: 5–6 December 2026
+  details: 100% online · 40-hour certificate
+  url: https://www.even3.com.br/iconafroedu-764690/
+  cta: Register on Even3
 ---
 
 > [!NOTE]

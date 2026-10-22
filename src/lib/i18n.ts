@@ -36,6 +36,23 @@ interface Dictionary {
   previous: string
   next: string
   updated: string
+  readingTime: (minutes: number) => string
+  allGuides: string
+  eventLabel: string
+  eventCta: string
+  opensInNewTab: string
+  search: string
+  searchLabel: string
+  searchPlaceholder: string
+  searchLoading: string
+  searchError: string
+  searchEmpty: string
+  searchNoResults: (query: string) => string
+  searchResults: (count: number) => string
+  searchHelp: string
+  close: string
+  theme: string
+  themes: Record<'system' | 'light' | 'dark', string>
   switchLanguage: string
   startReading: string
   guidesInSection: (count: number) => string
@@ -70,6 +87,23 @@ export const dictionaries: Record<Locale, Dictionary> = {
     previous: 'Previous',
     next: 'Next',
     updated: 'Updated',
+    readingTime: (n) => `${n} min read`,
+    allGuides: 'All guides',
+    eventLabel: 'Upcoming event',
+    eventCta: 'Register now',
+    opensInNewTab: '(opens in a new tab)',
+    search: 'Search',
+    searchLabel: 'Search the guides',
+    searchPlaceholder: 'Search guides, tools, tips…',
+    searchLoading: 'Loading search…',
+    searchError: 'Search could not be loaded. Check your connection and try again.',
+    searchEmpty: 'Type to search every guide on this site.',
+    searchNoResults: (q) => `No results for “${q}”.`,
+    searchResults: (n) => (n === 1 ? '1 result' : `${n} results`),
+    searchHelp: '↑ ↓ to move · Enter to open · Esc to close',
+    close: 'Close',
+    theme: 'Theme',
+    themes: { system: 'System', light: 'Light', dark: 'Dark' },
     switchLanguage: 'Ler em português',
     startReading: 'Start reading',
     guidesInSection: (n) => (n === 1 ? '1 guide' : `${n} guides`),
@@ -114,6 +148,23 @@ export const dictionaries: Record<Locale, Dictionary> = {
     previous: 'Anterior',
     next: 'Próximo',
     updated: 'Atualizado em',
+    readingTime: (n) => `${n} min de leitura`,
+    allGuides: 'Todos os guias',
+    eventLabel: 'Próximo evento',
+    eventCta: 'Inscreva-se',
+    opensInNewTab: '(abre em nova aba)',
+    search: 'Buscar',
+    searchLabel: 'Buscar nos guias',
+    searchPlaceholder: 'Busque guias, ferramentas, dicas…',
+    searchLoading: 'Carregando a busca…',
+    searchError: 'Não foi possível carregar a busca. Verifique sua conexão e tente de novo.',
+    searchEmpty: 'Digite para buscar em todos os guias do site.',
+    searchNoResults: (q) => `Nenhum resultado para “${q}”.`,
+    searchResults: (n) => (n === 1 ? '1 resultado' : `${n} resultados`),
+    searchHelp: '↑ ↓ para navegar · Enter para abrir · Esc para fechar',
+    close: 'Fechar',
+    theme: 'Tema',
+    themes: { system: 'Automático', light: 'Claro', dark: 'Escuro' },
     switchLanguage: 'Read in English',
     startReading: 'Começar a ler',
     guidesInSection: (n) => (n === 1 ? '1 guia' : `${n} guias`),

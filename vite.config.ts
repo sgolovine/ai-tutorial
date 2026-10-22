@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import { tanstackStart } from '@tanstack/react-start/plugin/vite'
 import viteReact from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
-import { contentPlugin, scanContent } from './plugins/content.ts'
+import { contentPlugin, pagePath, scanContent } from './plugins/content.ts'
 
 /** `BASE_PATH=/repo-name/` for GitHub Pages project sites; defaults to `/`. */
 function normalizeBase(value: string | undefined): string {
@@ -18,7 +18,7 @@ const siteUrl = (process.env.SITE_URL ?? '').trim().replace(/\/+$/, '')
 // they dedupe against crawled links; static routes ('/', '/404') are auto-discovered
 // without it.
 const contentPages = scanContent('content').map(({ lang, slug }) => ({
-  path: slug === 'index' ? `${base}${lang}/` : `${base}${lang}/guides/${slug}/`,
+  path: base + pagePath(lang, slug).slice(1),
 }))
 
 export default defineConfig({
@@ -33,7 +33,7 @@ export default defineConfig({
     tsconfigPaths: true,
   },
   plugins: [
-    contentPlugin({ contentDir: 'content' }),
+    contentPlugin({ contentDir: 'content', siteUrl }),
     tailwindcss(),
     tanstackStart({
       prerender: {

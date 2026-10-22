@@ -32,9 +32,12 @@ description: Which image models to use…  # required — one or two sentences; 
 order: 10                                # required for guides — sort order inside its section (lower first)
 section: create                          # required for guides — start | create | facebook | automate | extras
 icon: 🎨                                 # optional — one emoji shown in nav and title
-updated: 2026-10-21                      # optional — YYYY-MM-DD, shown as "Updated …"
+updated: 2026-10-21                      # optional — YYYY-MM-DD, shown as "Updated …" (localized date)
 ---
 ```
+
+Guide pages also show an estimated **reading time** ("8 min read" / "8 min de leitura"). It is
+calculated from the word count, so you don't need to add it.
 
 | `section`  | Nav group (en / pt-BR)              | Use for                                      |
 | ---------- | ----------------------------------- | -------------------------------------------- |
@@ -48,6 +51,28 @@ Sections appear in the order shown. Inside a section, guides are sorted by `orde
 title. **Prev/next** links follow the same order across sections. Use gaps (10, 20, 30…) so
 you can insert pages later. For `index.md`, only `title` and `description` are required.
 
+### Home page only: the event banner
+
+`index.md` can have an optional `event` block. It shows as a highlighted banner with a
+button below the home page title. Remove the block to hide the banner (for example, after
+the event). Translate `name`, `dates`, `details` and `cta` in each language:
+
+```yaml
+event:
+  name: CONAFROEDU 2026 — Congresso Nacional de Africanidades na Educação  # required
+  dates: 5 e 6 de dezembro de 2026                                         # required — free text, shown as written
+  url: https://www.even3.com.br/iconafroedu-764690/                        # required — must start with https://
+  cta: Inscreva-se na Even3                                                # optional — button text (default "Register now" / "Inscreva-se")
+  details: 100% online · certificado de 40 horas                           # optional — short line after the dates
+```
+
+### Home page: guide cards
+
+The home page shows the `index.md` body, then an **All guides** grid. The grid is built
+automatically: one group per section, and one card per guide with its `icon`, `title`,
+`description` and reading time. Keep descriptions to one or two sentences, because cards
+show only the first two lines.
+
 If the frontmatter is invalid (a missing field, an unknown section or a bad date), **the build
 fails** with an error that names the file. Run `pnpm build` to check your work.
 
@@ -59,7 +84,9 @@ Use GitHub-flavored Markdown.
   `##` and `###` headings appear in the "On this page" table of contents and get anchor links
   (`#heading-text`).
 - **Tables, task lists (`- [ ]`), ~~strikethrough~~, footnotes (`[^1]`) and autolinks** all
-  work. Wide tables scroll sideways on phones.
+  work. Wide tables scroll sideways on phones. Readers can tick task-list boxes on screen. The
+  ticks are saved in their browser for that page. Use task lists for checklists that people
+  will work through or print.
 - **Prompts and code:** use fenced code blocks. Every block gets a **Copy** button. Write the
   language after the fence to show a label. Use `prompt` for AI prompts:
 
@@ -98,6 +125,15 @@ Use GitHub-flavored Markdown.
   path is added for you. Always write alt text.
 - Raw HTML is passed through (for example `<kbd>`, or `<details>` for a collapsible block).
   Use it only when necessary.
+
+## Search and printing
+
+- **Search** (the button in the header, or the <kbd>/</kbd> or <kbd>Ctrl</kbd>+<kbd>K</kbd> keys)
+  covers the title, description, headings and body text of every page in the reader's
+  language. Each `##`/`###` section is a separate result that links to that heading. Clear,
+  descriptive headings make search work better.
+- **Printing** hides the navigation and shows the full address of external links after the
+  link text. Collapsed `<details>` blocks are expanded on paper.
 
 ## Checklist before you finish
 

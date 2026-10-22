@@ -14,12 +14,12 @@ const fail = (message) => {
 if (!fs.existsSync(outDir)) fail(`${outDir} not found — run vite build first`)
 
 // 404.html: GitHub Pages serves it for any unknown URL. Hydrating it there would
-// mismatch the URL, so ship it as plain HTML + CSS.
+// mismatch the URL, so ship it as plain HTML + CSS (plus the tiny theme script).
 const notFoundFile = path.join(outDir, '404.html')
 if (!fs.existsSync(notFoundFile)) fail('404.html was not prerendered')
 const notFoundHtml = fs
   .readFileSync(notFoundFile, 'utf8')
-  .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '')
+  .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, (tag) => (/^<script\b[^>]*\bdata-keep\b/i.test(tag) ? tag : ''))
   .replace(/<link\b[^>]*rel="modulepreload"[^>]*>/gi, '')
 fs.writeFileSync(notFoundFile, notFoundHtml)
 

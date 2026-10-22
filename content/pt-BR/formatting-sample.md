@@ -34,6 +34,13 @@ Esta página existe para testar o site. Quem escreve conteúdo pode copiar os mo
 | ChatGPT | Assistente completo, imagens | Sim |
 | Gemini | Google Workspace, vídeo (Veo) | Sim |
 
+Tabelas largas rolam para o lado em telas pequenas:
+
+| Semana | Datas | Foco | Facebook | Instagram | WhatsApp | Responsável |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 21–27/out | Lançamento | Evento + foto de capa | Carrossel: por que participar | Status + comunidade | Ana |
+| 2 | 28/out–3/nov | Chamada de trabalhos | Posts em grupos de NEABIs | Reel: como submeter | Lista de transmissão para professores | Bruno |
+
 ## Lista de tarefas
 
 - [x] Criar a Página no Facebook

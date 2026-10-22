@@ -4,6 +4,7 @@ import { HeadContent, Outlet, Scripts, createRootRoute, useParams } from '@tanst
 import { NotFound } from '../components/NotFound'
 import { DEFAULT_LOCALE, isLocale } from '../lib/i18n'
 import { withBase } from '../lib/seo'
+import { themeInitScript } from '../lib/theme'
 import appCss from '../styles/app.css?url'
 
 export const Route = createRootRoute({
@@ -17,6 +18,8 @@ export const Route = createRootRoute({
       { rel: 'stylesheet', href: appCss },
       { rel: 'icon', type: 'image/svg+xml', href: withBase('/favicon.svg') },
     ],
+    // `data-keep`: scripts/postbuild.mjs keeps this one in the otherwise script-free 404.html
+    scripts: [{ children: themeInitScript, 'data-keep': '' }],
   }),
   component: RootComponent,
   notFoundComponent: NotFound,
@@ -33,7 +36,8 @@ function RootComponent() {
 function RootDocument({ children }: { children: ReactNode }) {
   const { lang } = useParams({ strict: false })
   return (
-    <html lang={isLocale(lang) ? lang : DEFAULT_LOCALE}>
+    // The theme script adds `class` / `data-theme` to <html> before hydration.
+    <html lang={isLocale(lang) ? lang : DEFAULT_LOCALE} suppressHydrationWarning>
       <head>
         <HeadContent />
       </head>

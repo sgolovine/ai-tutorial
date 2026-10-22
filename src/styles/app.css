@@ -1,39 +1,66 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
+/* Dark mode follows the `.dark` class set by the theme script (src/lib/theme.ts).
+   Screen only: printouts are always light. */
+@custom-variant dark {
+  @media screen {
+    &:where(.dark, .dark *) {
+      @slot;
+    }
+  }
+}
+
 @theme {
   --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji';
   --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
 
-  /* Brazil-inspired, kept professional: a deep green with a warm yellow accent. */
-  --color-brand-50: #effaf3;
-  --color-brand-100: #d8f3e2;
-  --color-brand-200: #b3e6c9;
-  --color-brand-300: #80d2a8;
-  --color-brand-400: #48b782;
-  --color-brand-500: #249b66;
-  --color-brand-600: #167d51;
-  --color-brand-700: #126443;
-  --color-brand-800: #115037;
-  --color-brand-900: #0f422f;
-  --color-brand-950: #07251a;
+  /* Warm earth tones: terracotta for actions and links, ochre gold for highlights.
+     Text pairs used in the UI meet WCAG AA (brand-700 on white, brand-300 on zinc-950,
+     white on brand-700, brand-950 on brand-400, gold-800 on gold-50). */
+  --color-brand-50: #fcf5f0;
+  --color-brand-100: #f8e7dc;
+  --color-brand-200: #f0cbb5;
+  --color-brand-300: #e7a887;
+  --color-brand-400: #db7f54;
+  --color-brand-500: #c75f30;
+  --color-brand-600: #a94a22;
+  --color-brand-700: #8a3b1d;
+  --color-brand-800: #70311b;
+  --color-brand-900: #5c2a19;
+  --color-brand-950: #33130a;
 
-  --color-sun-200: #fdf0a6;
-  --color-sun-300: #fbe36b;
-  --color-sun-400: #f7d232;
-  --color-sun-500: #e5b80b;
+  --color-gold-50: #fcf8ec;
+  --color-gold-100: #f7edcc;
+  --color-gold-200: #efd995;
+  --color-gold-300: #e5c15e;
+  --color-gold-400: #d9a83a;
+  --color-gold-500: #bf8c22;
+  --color-gold-600: #9c6c19;
+  --color-gold-700: #7b5218;
+  --color-gold-800: #64431a;
+  --color-gold-900: #55381a;
+  --color-gold-950: #301d0a;
 }
 
 @layer base {
   html {
-    color-scheme: light dark;
+    color-scheme: light;
     -webkit-text-size-adjust: 100%;
     scroll-padding-top: 5rem;
     scrollbar-gutter: stable;
   }
   body {
     @apply bg-white text-zinc-800 antialiased dark:bg-zinc-950 dark:text-zinc-200;
+  }
+  @media screen {
+    html.dark {
+      color-scheme: dark;
+    }
+  }
+  html:has(dialog[open]) {
+    overflow: hidden;
   }
   :focus-visible {
     @apply outline-2 outline-offset-2 outline-brand-600 dark:outline-brand-300;
@@ -71,32 +98,69 @@
   @apply opacity-100;
 }
 
-/* Task lists */
+/* Task lists: checkboxes are clickable (state saved per page) and print as empty boxes */
 .guide-prose .contains-task-list {
   @apply list-none pl-0;
 }
+.guide-prose .contains-task-list .contains-task-list {
+  @apply pl-7;
+}
 .guide-prose .task-list-item {
-  @apply pl-0;
+  @apply relative pl-7;
 }
 .guide-prose .task-list-item input[type='checkbox'] {
-  @apply mr-2 size-4 translate-y-0.5 accent-brand-600;
+  @apply absolute top-[0.3em] left-0 m-0 size-[1.15rem] cursor-pointer appearance-none rounded-[0.3rem] border-2 border-zinc-400 bg-white transition-colors dark:border-zinc-500 dark:bg-zinc-900;
+  print-color-adjust: exact;
+}
+.guide-prose .task-list-item input[type='checkbox']:hover {
+  @apply border-brand-500;
+}
+.guide-prose .task-list-item input[type='checkbox']:checked {
+  @apply border-brand-600 bg-brand-600 dark:border-brand-400 dark:bg-brand-400;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3.5 8.5l3 3 6-7'/%3E%3C/svg%3E");
+  background-size: 100% 100%;
+}
+.guide-prose .task-list-item:has(> input:checked, > p > input:checked) {
+  @apply text-zinc-500 dark:text-zinc-400;
+}
+.guide-prose .task-list-item > p {
+  @apply my-1;
 }
 
-/* Tables */
+/* Tables: wrapped in .table-wrap (plugins/content.ts) and scroll sideways when wider than the text.
+   The background "shadows" hint that there is more to scroll. */
 .guide-prose .table-wrap {
-  @apply my-6 overflow-x-auto rounded-xl border border-zinc-200 dark:border-zinc-800;
+  @apply my-6 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-200 dark:border-zinc-800;
+  --table-bg: var(--color-white);
+  --table-shadow: color-mix(in oklab, var(--color-zinc-900) 14%, transparent);
+  background:
+    linear-gradient(to right, var(--table-bg) 30%, transparent) left center / 2.5rem 100% no-repeat local,
+    linear-gradient(to left, var(--table-bg) 30%, transparent) right center / 2.5rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, var(--table-shadow), transparent) left center / 0.75rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, var(--table-shadow), transparent) right center / 0.75rem 100% no-repeat scroll;
+  @variant dark {
+    --table-bg: var(--color-zinc-950);
+    --table-shadow: color-mix(in oklab, black 60%, transparent);
+  }
 }
 .guide-prose .table-wrap table {
   @apply my-0 text-sm;
 }
 .guide-prose .table-wrap :is(th, td) {
   @apply px-3 py-2;
+  min-width: 6.5rem;
 }
 .guide-prose .table-wrap :is(th, td):first-child {
   @apply pl-4;
 }
+.guide-prose .table-wrap :is(th, td):last-child {
+  @apply pr-4;
+}
 .guide-prose .table-wrap thead {
-  @apply bg-zinc-50 dark:bg-zinc-900;
+  @apply bg-zinc-50/80 dark:bg-zinc-900/80;
+}
+.guide-prose .table-wrap th {
+  @apply align-bottom;
 }
 
 /* Code blocks (copy-paste prompts) */
@@ -181,20 +245,82 @@
   --callout: var(--color-red-700);
   --callout-icon: '⛔';
 }
-@media (prefers-color-scheme: dark) {
-  .guide-prose .callout-note {
-    --callout: var(--color-sky-300);
+.guide-prose {
+  @variant dark {
+    .callout-note {
+      --callout: var(--color-sky-300);
+    }
+    .callout-tip {
+      --callout: var(--color-brand-300);
+    }
+    .callout-important {
+      --callout: var(--color-violet-300);
+    }
+    .callout-warning {
+      --callout: var(--color-amber-300);
+    }
+    .callout-caution {
+      --callout: var(--color-red-300);
+    }
   }
-  .guide-prose .callout-tip {
-    --callout: var(--color-brand-300);
+}
+
+/* ---------- Theme toggle: show the icon for <html data-theme> (set before paint) ---------- */
+
+.theme-icon {
+  display: none;
+}
+html:not([data-theme='light'], [data-theme='dark']) .theme-icon-system,
+html[data-theme='light'] .theme-icon-light,
+html[data-theme='dark'] .theme-icon-dark {
+  display: block;
+}
+
+/* ---------- Home hero decoration ---------- */
+
+.hero-pattern {
+  background-image: radial-gradient(circle, color-mix(in oklab, var(--color-gold-500) 35%, transparent) 1.2px, transparent 1.6px);
+  background-size: 18px 18px;
+  mask-image: linear-gradient(to left, black, transparent);
+}
+
+/* ---------- Print: guides are often printed as checklists ---------- */
+
+@media print {
+  @page {
+    margin: 1.6cm 1.4cm;
   }
-  .guide-prose .callout-important {
-    --callout: var(--color-violet-300);
+  body {
+    @apply bg-white text-black;
+    font-size: 11pt;
   }
-  .guide-prose .callout-warning {
-    --callout: var(--color-amber-300);
+  .guide-prose {
+    @apply prose-sm max-w-none text-black;
   }
-  .guide-prose .callout-caution {
-    --callout: var(--color-red-300);
+  /* Show where links go (external links only; internal paths aren't useful on paper). */
+  main a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    @apply text-[0.85em] font-normal break-all text-zinc-600;
+  }
+  .guide-prose .heading-anchor,
+  .guide-prose .copy-btn,
+  .guide-prose .data-footnote-backref {
+    display: none;
+  }
+  .guide-prose :is(h2, h3, h4) {
+    break-after: avoid;
+  }
+  .guide-prose :is(.code-block, .callout, tr, img, li) {
+    break-inside: avoid;
+  }
+  .guide-prose .table-wrap {
+    @apply overflow-visible;
+    background: none;
+  }
+  .guide-prose .table-wrap :is(th, td) {
+    min-width: 0;
+  }
+  .guide-prose .code-block-bar {
+    @apply py-0.5;
   }
 }

@@ -28,7 +28,7 @@ BASE_PATH=/ai-marketing-info/ pnpm preview   # http://localhost:4173/ai-marketin
 | Env var     | Default | Purpose                                                                          |
 | ----------- | ------- | -------------------------------------------------------------------------------- |
 | `BASE_PATH` | `/`     | URL prefix the site is served under (`/<repo-name>/` for Pages project sites).   |
-| `SITE_URL`  | (empty) | Public origin, e.g. `https://user.github.io`, for canonical, Open Graph and hreflang URLs. |
+| `SITE_URL`  | (empty) | Public origin, e.g. `https://user.github.io`, for canonical, Open Graph and hreflang URLs, and for `sitemap.xml` (it is not generated without `SITE_URL`). |
 
 ## Add or edit content
 
@@ -51,8 +51,17 @@ and a build on every pull request.
 ## How it works
 
 - `plugins/content.ts`: a Vite plugin that compiles each `.md` file at build time (frontmatter
-  validation, GFM, callouts, heading anchors, copy buttons, link rewriting). Only HTML reaches
-  the browser.
+  validation, GFM, callouts, heading anchors, copy buttons, link rewriting, reading time). Only
+  HTML reaches the browser. It also makes a search index for each language
+  (`virtual:search-index/<lang>`), plus `robots.txt` and `sitemap.xml` (with hreflang
+  alternates; only when `SITE_URL` is set).
+- Search (`src/components/Search.tsx`, `src/lib/search.ts`): [MiniSearch](https://lucaong.github.io/minisearch/)
+  and the index for the current language are lazy-loaded the first time the dialog opens
+  (<kbd>/</kbd> or <kbd>Ctrl</kbd>/<kbd>⌘</kbd>+<kbd>K</kbd>). Accents are ignored, so
+  "educacao" finds "educação".
+- Theme (`src/lib/theme.ts`): System / Light / Dark, saved in `localStorage`. An inline
+  script in `<head>` sets `<html class="dark">` before the first paint, so there is no flash.
+  Tailwind's `dark:` variant follows that class, and only on screen: printouts are always light.
 - `src/lib/content.ts`: finds all content with `import.meta.glob`. Frontmatter is bundled for
   navigation, and each page body is a lazy-loaded chunk.
 - `src/routes/`: `/` (language chooser that auto-detects the browser language), `/$lang/` (home)

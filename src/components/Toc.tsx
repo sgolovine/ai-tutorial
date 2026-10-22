@@ -37,7 +37,7 @@ export function Toc({ headings, title }: { headings: Array<DocHeading>; title: s
               aria-current={active === h.id ? 'location' : undefined}
               className={`-ml-px block border-l-2 py-0.5 leading-snug transition-colors ${h.depth === 3 ? 'pl-6' : 'pl-3'} ${
                 active === h.id
-                  ? 'border-sun-400 font-medium text-zinc-900 dark:text-white'
+                  ? 'border-gold-500 font-medium text-zinc-900 dark:text-white'
                   : 'border-transparent text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white'
               }`}
             >

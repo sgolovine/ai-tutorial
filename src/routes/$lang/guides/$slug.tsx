@@ -39,10 +39,10 @@ function GuidePage() {
   const showToc = headings.length > 1
 
   return (
-    <div className="xl:grid xl:grid-cols-[minmax(0,1fr)_14rem] xl:gap-10">
-      <article className="mx-auto min-w-0 max-w-3xl xl:mx-0">
+    <div className="xl:grid xl:grid-cols-[minmax(0,1fr)_14rem] xl:gap-10 print:block">
+      <article className="mx-auto min-w-0 max-w-3xl xl:mx-0 print:max-w-none">
         <header className="mb-8">
-          <nav aria-label={dict.breadcrumb} className="mb-3 text-sm text-zinc-500 dark:text-zinc-400">
+          <nav aria-label={dict.breadcrumb} className="mb-3 text-sm print:hidden text-zinc-500 dark:text-zinc-400">
             <Link to="/$lang/" params={{ lang }} activeOptions={{ exact: true }} className="hover:text-brand-700 dark:hover:text-brand-300">
               {dict.home}
             </Link>
@@ -60,15 +60,21 @@ function GuidePage() {
             {meta.title}
           </h1>
           <p className="mt-3 text-lg text-pretty text-zinc-600 dark:text-zinc-300">{meta.description}</p>
-          {meta.updated && (
-            <p className="mt-3 text-sm text-zinc-500 dark:text-zinc-400">
-              {dict.updated} <time dateTime={meta.updated}>{formatDate(lang, meta.updated)}</time>
-            </p>
-          )}
+          <p className="mt-4 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-zinc-500 dark:text-zinc-400">
+            {meta.updated && (
+              <>
+                <span>
+                  {dict.updated} <time dateTime={meta.updated}>{formatDate(lang, meta.updated)}</time>
+                </span>
+                <span aria-hidden="true">·</span>
+              </>
+            )}
+            <span>{dict.readingTime(meta.readingMinutes)}</span>
+          </p>
         </header>
 
         {showToc && (
-          <details className="group mb-8 rounded-xl border border-zinc-200 px-4 py-3 xl:hidden dark:border-zinc-800">
+          <details className="group mb-8 rounded-xl border border-zinc-200 px-4 py-3 xl:hidden print:hidden dark:border-zinc-800">
             <summary className="cursor-pointer font-semibold text-zinc-900 select-none dark:text-white">{dict.onThisPage}</summary>
             <ul className="mt-3 space-y-1.5 text-sm">
               {headings.map((h) => (
@@ -88,7 +94,7 @@ function GuidePage() {
       </article>
 
       {showToc && (
-        <aside className="hidden xl:block">
+        <aside className="hidden xl:block print:hidden">
           <div className="sticky top-24 max-h-[calc(100dvh-7rem)] overflow-y-auto pb-8">
             <Toc headings={headings} title={dict.onThisPage} />
           </div>

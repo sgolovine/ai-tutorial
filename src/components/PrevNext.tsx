@@ -8,7 +8,7 @@ export function PrevNext({ lang, prev, next }: { lang: Locale; prev?: DocMeta; n
   const card =
     'group flex flex-col gap-1 rounded-xl border border-zinc-200 p-4 transition-colors hover:border-brand-500 dark:border-zinc-800 dark:hover:border-brand-400'
   return (
-    <nav aria-label={`${dict.previous} / ${dict.next}`} className="mt-16 grid gap-4 border-t border-zinc-200 pt-8 sm:grid-cols-2 dark:border-zinc-800">
+    <nav aria-label={`${dict.previous} / ${dict.next}`} className="mt-16 grid gap-4 border-t border-zinc-200 pt-8 sm:grid-cols-2 print:hidden dark:border-zinc-800">
       {prev ? (
         <Link to="/$lang/guides/$slug/" params={{ lang, slug: prev.slug }} rel="prev" className={card}>
           <span className="text-xs font-medium uppercase tracking-wide text-zinc-500 dark:text-zinc-400">← {dict.previous}</span>

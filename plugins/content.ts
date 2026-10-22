@@ -7,6 +7,9 @@
  *
  *   import doc from '/content/en/x.md'        -> DocModule ({ meta, html, headings })
  *   import meta from '/content/en/x.md?meta'  -> DocMeta (frontmatter only, for nav)
+ *   import('virtual:search-index/en')         -> Array<SearchEntry> (every page of a language, for search)
+ *
+ * It also writes robots.txt and (when SITE_URL is set) sitemap.xml into the client build.
  *
  * See content/README.md for the authoring contract.
  */
@@ -27,10 +30,12 @@ import { h } from 'hastscript'
 import type { Root as MdRoot, Paragraph, Text } from 'mdast'
 import type { Root as HastRoot, Element, ElementContent } from 'hast'
 import { CALLOUT_TYPES, isLocale, isSection, LOCALES, t, type CalloutType, type Locale } from '../src/lib/i18n.ts'
-import type { DocHeading, DocMeta, DocModule } from '../src/lib/content-types.ts'
+import type { DocEvent, DocHeading, DocMeta, DocModule, SearchEntry } from '../src/lib/content-types.ts'
 
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/
+const WORDS_PER_MINUTE = 200
+const SEARCH_INDEX_ID = 'virtual:search-index/'
 
 export interface ContentFile {
   lang: Locale
@@ -50,6 +55,11 @@ export function scanContent(contentDir: string): Array<ContentFile> {
     }
   }
   return files
+}
+
+/** Site path of a page, without the base: `/en/` or `/en/guides/<slug>/`. */
+export function pagePath(lang: Locale, slug: string): string {
+  return slug === 'index' ? `/${lang}/` : `/${lang}/guides/${slug}/`
 }
 
 class ContentError extends Error {
@@ -74,17 +84,38 @@ function splitFrontmatter(source: string, file: string): { data: Record<string, 
   return { data: data as Record<string, unknown>, body: text.slice(match[0].length) }
 }
 
-function parseMeta(lang: Locale, slug: string, data: Record<string, unknown>, file: string): DocMeta {
-  const isIndex = slug === 'index'
-  const str = (key: string, required: boolean): string | null => {
-    const value = data[key]
-    if (value === undefined || value === null || value === '') {
-      if (required) throw new ContentError(file, `frontmatter "${key}" is required`)
-      return null
-    }
-    if (typeof value !== 'string') throw new ContentError(file, `frontmatter "${key}" must be a string`)
-    return value.trim()
+function readString(data: Record<string, unknown>, key: string, required: boolean, file: string): string | null {
+  const value = data[key]
+  if (value === undefined || value === null || value === '') {
+    if (required) throw new ContentError(file, `frontmatter "${key}" is required`)
+    return null
   }
+  if (typeof value !== 'string') throw new ContentError(file, `frontmatter "${key}" must be a string`)
+  return value.trim()
+}
+
+function parseEvent(value: unknown, file: string): DocEvent | null {
+  if (value === undefined || value === null) return null
+  if (typeof value !== 'object' || Array.isArray(value)) {
+    throw new ContentError(file, 'frontmatter "event" must be a mapping with name, dates and url')
+  }
+  const data = value as Record<string, unknown>
+  const str = (key: string, required: boolean) => readString(data, key, required, `${file} (event)`)
+  const url = str('url', true)!
+  if (!/^https?:\/\//.test(url)) throw new ContentError(file, 'frontmatter "event.url" must start with https://')
+  return { name: str('name', true)!, dates: str('dates', true)!, url, cta: str('cta', false), details: str('details', false) }
+}
+
+/** Rough word count of the Markdown body (link targets and HTML tags excluded). */
+function estimateReadingMinutes(body: string): number {
+  const text = body.replace(/\]\([^)]*\)/g, ']').replace(/<[^>]+>/g, ' ')
+  const words = text.match(/[\p{L}\p{N}][\p{L}\p{N}'’-]*/gu)?.length ?? 0
+  return Math.max(1, Math.round(words / WORDS_PER_MINUTE))
+}
+
+function parseMeta(lang: Locale, slug: string, data: Record<string, unknown>, body: string, file: string): DocMeta {
+  const isIndex = slug === 'index'
+  const str = (key: string, required: boolean) => readString(data, key, required, file)
 
   const order = data.order ?? (isIndex ? 0 : undefined)
   if (typeof order !== 'number' || !Number.isFinite(order)) {
@@ -111,6 +142,8 @@ function parseMeta(lang: Locale, slug: string, data: Record<string, unknown>, fi
     section: section as DocMeta['section'],
     icon: str('icon', false),
     updated: updated as string | null,
+    event: parseEvent(data.event, file),
+    readingMinutes: estimateReadingMinutes(body),
   }
 }
 
@@ -231,6 +264,51 @@ function rehypeCodeBlocks(lang: Locale) {
   }
 }
 
+/** Text under each `##`/`###` heading (and the intro before the first one), for the search index. */
+interface TextChunk {
+  heading: DocHeading | null
+  text: string
+}
+
+function rehypeCollectText(chunks: Array<TextChunk>) {
+  return () => (tree: HastRoot) => {
+    let current: TextChunk = { heading: null, text: '' }
+    chunks.push(current)
+    for (const node of tree.children) {
+      if (node.type !== 'element') continue
+      const id = node.properties.id
+      if ((node.tagName === 'h2' || node.tagName === 'h3') && typeof id === 'string' && id !== 'footnote-label') {
+        current = { heading: { id, text: hastToString(node).trim(), depth: node.tagName === 'h2' ? 2 : 3 }, text: '' }
+        chunks.push(current)
+      } else {
+        current.text += ` ${hastToString(node)}`
+      }
+    }
+    for (const chunk of chunks) chunk.text = chunk.text.replace(/\s+/g, ' ').trim()
+  }
+}
+
+/** Task-list checkboxes can be ticked on screen (state is saved per page by <Prose>). */
+function rehypeTaskLists() {
+  return (tree: HastRoot) => {
+    visit(tree, 'element', (node) => {
+      if (node.tagName !== 'li' || !(node.properties.className as Array<string> | undefined)?.includes('task-list-item')) return
+      const isInput = (c: ElementContent): c is Element => c.type === 'element' && c.tagName === 'input'
+      const paragraph = node.children.find((c): c is Element => c.type === 'element' && c.tagName === 'p')
+      const input = node.children.find(isInput) ?? paragraph?.children.find(isInput)
+      if (!input) return
+      delete input.properties.disabled
+      const label = node.children
+        .filter((c) => !(c.type === 'element' && (c.tagName === 'ul' || c.tagName === 'ol')))
+        .map((c) => hastToString(c))
+        .join('')
+        .replace(/\s+/g, ' ')
+        .trim()
+      if (label) input.properties.ariaLabel = label.length > 120 ? `${label.slice(0, 119)}…` : label
+    })
+  }
+}
+
 /** Tables scroll horizontally on small screens instead of breaking the layout. */
 function rehypeTables() {
   return (tree: HastRoot) => {
@@ -242,10 +320,11 @@ function rehypeTables() {
   }
 }
 
-export function compileMarkdown(source: string, opts: { lang: Locale; slug: string; base: string; file: string }): DocModule {
+function compile(source: string, opts: { lang: Locale; slug: string; base: string; file: string }) {
   const { data, body } = splitFrontmatter(source, opts.file)
-  const meta = parseMeta(opts.lang, opts.slug, data, opts.file)
+  const meta = parseMeta(opts.lang, opts.slug, data, body, opts.file)
   const headings: Array<DocHeading> = []
+  const chunks: Array<TextChunk> = []
   const html = unified()
     .use(remarkParse)
     .use(remarkGfm)
@@ -258,6 +337,7 @@ export function compileMarkdown(source: string, opts: { lang: Locale; slug: stri
     .use(rehypeDemoteH1)
     .use(rehypeSlug)
     .use(rehypeCollectHeadings(headings))
+    .use(rehypeCollectText(chunks))
     .use(rehypeAutolinkHeadings, {
       behavior: 'append',
       test: (node: Element) => node.properties.id !== 'footnote-label',
@@ -267,12 +347,68 @@ export function compileMarkdown(source: string, opts: { lang: Locale; slug: stri
     .use(rehypeLinks(opts.lang, opts.base))
     .use(rehypeCodeBlocks(opts.lang))
     .use(rehypeTables)
+    .use(rehypeTaskLists)
     .use(rehypeStringify, { allowDangerousHtml: true })
     .processSync(body)
-  return { meta, html: String(html), headings }
+  return { doc: { meta, html: String(html), headings } satisfies DocModule, chunks }
 }
 
-export function contentPlugin(options: { contentDir: string }): Plugin {
+export function compileMarkdown(source: string, opts: { lang: Locale; slug: string; base: string; file: string }): DocModule {
+  return compile(source, opts).doc
+}
+
+function searchEntries(source: string, opts: { lang: Locale; slug: string; base: string; file: string }): Array<SearchEntry> {
+  const { doc, chunks } = compile(source, opts)
+  const { slug, title, icon, description } = doc.meta
+  return chunks
+    .filter((chunk) => chunk.heading || chunk.text)
+    .map((chunk) => ({
+      id: `${slug}#${chunk.heading?.id ?? ''}`,
+      slug,
+      title,
+      icon,
+      heading: chunk.heading?.text ?? null,
+      anchor: chunk.heading?.id ?? null,
+      description: chunk.heading ? '' : description,
+      text: chunk.text,
+    }))
+}
+
+const xmlEscape = (value: string) =>
+  value.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' })[c]!)
+
+/** sitemap.xml with hreflang alternates. Sitemaps need absolute URLs, so this needs SITE_URL. */
+function buildSitemap(files: Array<ContentFile>, siteUrl: string, base: string): string {
+  const url = (path: string) => xmlEscape(siteUrl + base + path.slice(1))
+  const link = (lang: string, path: string) => `    <xhtml:link rel="alternate" hreflang="${lang}" href="${url(path)}"/>`
+  const entries = [
+    [
+      `    <loc>${url('/')}</loc>`,
+      ...LOCALES.map((lang) => link(lang, pagePath(lang, 'index'))),
+      link('x-default', '/'),
+    ],
+  ]
+  for (const { lang, slug, file } of files) {
+    const { data, body } = splitFrontmatter(fs.readFileSync(file, 'utf8'), file)
+    const { updated } = parseMeta(lang, slug, data, body, file)
+    const langs = LOCALES.filter((l) => files.some((f) => f.lang === l && f.slug === slug))
+    entries.push([
+      `    <loc>${url(pagePath(lang, slug))}</loc>`,
+      ...(updated ? [`    <lastmod>${updated}</lastmod>`] : []),
+      ...(langs.length > 1 ? langs.map((l) => link(l, pagePath(l, slug))) : []),
+      ...(langs.length > 1 && langs.includes('en') ? [link('x-default', pagePath('en', slug))] : []),
+    ])
+  }
+  return [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">',
+    ...entries.map((lines) => `  <url>\n${lines.join('\n')}\n  </url>`),
+    '</urlset>',
+    '',
+  ].join('\n')
+}
+
+export function contentPlugin(options: { contentDir: string; siteUrl: string }): Plugin {
   const contentDir = path.resolve(options.contentDir)
   let base = '/'
 
@@ -282,7 +418,22 @@ export function contentPlugin(options: { contentDir: string }): Plugin {
     configResolved(config) {
       base = config.base.endsWith('/') ? config.base : `${config.base}/`
     },
+    resolveId(id) {
+      return id.startsWith(SEARCH_INDEX_ID) ? `\0${id}` : null
+    },
     load(id) {
+      if (id.startsWith(`\0${SEARCH_INDEX_ID}`)) {
+        const lang = id.slice(SEARCH_INDEX_ID.length + 1)
+        if (!isLocale(lang)) throw new Error(`[content] unknown search index language: ${lang}`)
+        const entries = scanContent(contentDir)
+          .filter((f) => f.lang === lang)
+          .flatMap(({ slug, file }) => {
+            this.addWatchFile(file)
+            return searchEntries(fs.readFileSync(file, 'utf8'), { lang, slug, base, file: path.relative(process.cwd(), file) })
+          })
+        return `export default ${JSON.stringify(entries)}`
+      }
+
       const [file, query = ''] = id.split('?', 2)
       if (!file.endsWith('.md') || !file.startsWith(contentDir + path.sep)) return null
       if (query !== '' && query !== 'meta') return null // e.g. ?raw — let Vite handle it
@@ -300,10 +451,23 @@ export function contentPlugin(options: { contentDir: string }): Plugin {
       const source = fs.readFileSync(file, 'utf8')
       const relFile = path.relative(process.cwd(), file)
       if (query === 'meta') {
-        const { data } = splitFrontmatter(source, relFile)
-        return `export default ${JSON.stringify(parseMeta(lang, slug, data, relFile))}`
+        const { data, body } = splitFrontmatter(source, relFile)
+        return `export default ${JSON.stringify(parseMeta(lang, slug, data, body, relFile))}`
       }
       return `export default ${JSON.stringify(compileMarkdown(source, { lang, slug, base, file: relFile }))}`
+    },
+    generateBundle() {
+      if (this.environment.name !== 'client') return
+      const { siteUrl } = options
+      const robots = ['User-agent: *', 'Allow: /']
+      if (siteUrl) {
+        const files = scanContent(contentDir).map((f) => ({ ...f, file: path.relative(process.cwd(), f.file) }))
+        this.emitFile({ type: 'asset', fileName: 'sitemap.xml', source: buildSitemap(files, siteUrl, base) })
+        robots.push('', `Sitemap: ${siteUrl}${base}sitemap.xml`)
+      } else {
+        this.warn('SITE_URL is not set, so sitemap.xml is not generated (sitemaps need absolute URLs)')
+      }
+      this.emitFile({ type: 'asset', fileName: 'robots.txt', source: `${robots.join('\n')}\n` })
     },
   }
 }

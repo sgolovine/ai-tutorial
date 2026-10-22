@@ -34,6 +34,13 @@ This page exists to test the site. Content authors can copy patterns from it (se
 | ChatGPT | All-round assistant, images | Yes |
 | Gemini | Google Workspace, video (Veo) | Yes |
 
+Wide tables scroll sideways on small screens:
+
+| Week | Dates | Focus | Facebook | Instagram | WhatsApp | Owner |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Oct 21–27 | Announce | Event + cover photo | Carousel: why attend | Status + community post | Ana |
+| 2 | Oct 28–Nov 3 | Calls for papers | Group posts in NEABIs | Reel: how to submit | Broadcast to teachers | Bruno |
+
 ## Task list
 
 - [x] Create the Facebook Page

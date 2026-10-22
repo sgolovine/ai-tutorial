@@ -1,7 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { Link, Outlet, createFileRoute, notFound, useLocation } from '@tanstack/react-router'
 import { LanguageSwitcher } from '../../components/LanguageSwitcher'
+import { Search } from '../../components/Search'
 import { Sidebar } from '../../components/Sidebar'
+import { ThemeToggle } from '../../components/ThemeToggle'
 import { getNav } from '../../lib/content'
 import { isLocale, t, type Locale } from '../../lib/i18n'
 
@@ -28,12 +30,12 @@ function LangLayout() {
     <>
       <a
         href="#main"
-        className="sr-only z-50 rounded-lg bg-brand-700 px-4 py-2 font-semibold text-white focus:not-sr-only focus:fixed focus:top-3 focus:left-3"
+        className="sr-only z-50 rounded-lg print:hidden bg-brand-700 px-4 py-2 font-semibold text-white focus:not-sr-only focus:fixed focus:top-3 focus:left-3"
       >
         {dict.skipToContent}
       </a>
 
-      <header className="sticky top-0 z-30 border-b border-zinc-200/80 bg-white/85 backdrop-blur-md dark:border-zinc-800/80 dark:bg-zinc-950/85">
+      <header className="sticky top-0 z-30 border-b print:hidden border-zinc-200/80 bg-white/85 backdrop-blur-md dark:border-zinc-800/80 dark:bg-zinc-950/85">
         <div className="mx-auto flex h-16 max-w-7xl items-center gap-3 px-4 sm:px-6">
           <button
             type="button"
@@ -51,24 +53,26 @@ function LangLayout() {
             <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" className="size-8 shrink-0" />
             <span className="truncate">{dict.siteName}</span>
           </Link>
-          <div className="ml-auto">
+          <div className="ml-auto flex items-center gap-2">
+            <Search lang={lang} />
+            <ThemeToggle lang={lang} />
             <LanguageSwitcher lang={lang} />
           </div>
         </div>
       </header>
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:grid lg:grid-cols-[16rem_minmax(0,1fr)] lg:gap-10">
-        <aside className="hidden lg:block">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:grid lg:grid-cols-[16rem_minmax(0,1fr)] lg:gap-10 print:block print:max-w-none print:px-0">
+        <aside className="hidden lg:block print:hidden">
           <div className="sticky top-16 max-h-[calc(100dvh-4rem)] overflow-y-auto py-8 pr-2">
             <Sidebar lang={lang} nav={nav} />
           </div>
         </aside>
-        <main id="main" tabIndex={-1} className="min-w-0 py-8 outline-none lg:py-10">
+        <main id="main" tabIndex={-1} className="min-w-0 py-8 outline-none lg:py-10 print:py-0">
           <Outlet />
         </main>
       </div>
 
-      <footer className="mt-16 border-t border-zinc-200 dark:border-zinc-800">
+      <footer className="mt-16 border-t border-zinc-200 print:hidden dark:border-zinc-800">
         <div className="mx-auto max-w-7xl px-4 py-8 text-sm text-zinc-500 sm:px-6 dark:text-zinc-400">{dict.footer}</div>
       </footer>
 

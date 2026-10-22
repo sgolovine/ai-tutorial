@@ -12,3 +12,9 @@ Known issues/questions collected while content agents reported back:
 - pt-BR anchors contain accents (rehype-slug keeps them) — verify every in-page/cross-page anchor resolves.
 - Overlap/consistency between conafroedu-sprint (Start) and campaign-timeline (Facebook) — dates, roles, and recommendations must match.
 - Price tiers R$55–70 → R$60–75 on 16 Nov; publication fee R$16,98/paper — consistent everywhere and flagged "confirm at checkout".
+- Two different brand-voice blocks: EN "VOICE" in copywriting vs "VOZ DA MARCA" in prompting-basics — unify (one canonical block, in prompting-basics; others link/reuse verbatim).
+- WhatsApp quick-reply shortcuts differ across quick-start, conafroedu-sprint, instagram-whatsapp, replies-inbox — unify to replies-inbox's set.
+- WhatsApp label "Não enviar novidades" (instagram-whatsapp) vs "Não enviar divulgação" (replies-inbox) — unify.
+- Palette: motion-graphics examples use terracotta/ochre; brand-kit/image-prompts use navy/green/cream example palette. Decide: keep both clearly labeled as EXAMPLES, with a note in brand-kit that any palette works — or align. Don't re-render MP4s unless needed.
+- "online" vs "on-line" in pt-BR: official announcement uses "on-line"; standardize pt-BR body text to "on-line" (keep "100% on-line" consistent), except proper quotes.
+- Size: total ~229k words; prompt-library ~12k words per lang. Reviewers should flag bloat/redundancy that hurts usability for non-experts (but don't cut substance).

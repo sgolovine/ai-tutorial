@@ -32,7 +32,7 @@ Leiam com cuidado: aplicativo instalado não é permissão para mandar mensagem,
 | Stories do Instagram | Dia a dia: perguntas, prazos, bastidores | Respostas, toques no link |
 | WhatsApp Business | Respostas individuais: pagamento, submissão, certificado, acesso | Dúvidas resolvidas, inscrições concluídas |
 | Canal do WhatsApp | Novidades públicas para quem escolheu seguir (programação, prazos reais) | Seguidores, cliques rastreados |
-| Grupos e Comunidades parceiras | Convites encaminhados por coordenações e administradores | Inscrições pelos links dos parceiros |
+| Grupos e Comunidades parceiras | Convites encaminhados por coordenações e administradores | Visitas rastreadas; inscrições só com atribuição validada |
 | Status do WhatsApp | Convites pessoais da equipe e de embaixadores | Respostas, visitas rastreadas |
 
 Vocês não precisam de tudo isso no primeiro dia. **Um Instagram conectado, o WhatsApp Business no número de suporte e um Canal já bastam.**

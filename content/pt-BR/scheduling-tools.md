@@ -172,17 +172,20 @@ FICHA OFICIAL: [cole aqui]
 
 ## Datas do CONAFROEDU para colocar no calendário agora
 
-São sugestões de posts ligados a **datas reais e verificadas**. Escolha os que a comissão consegue produzir de verdade. O plano completo, semana a semana, está em [CONAFROEDU 2026: plano de 6 semanas](conafroedu-sprint.md).
+São sugestões de posts ligados a **datas reais e verificadas**. Escolha os que a comissão consegue produzir de verdade. Estas linhas seguem a [lista aprovada de publicações](campaign-timeline.md); use os IDs e o status aprovado mais recente. Para funções, veja o [plano de 6 semanas](conafroedu-sprint.md).
 
 | Publicar em (horário de Brasília) | Ideia de post | Agendar já? |
 |---|---|---|
-| Até 25/10 | Chamada de trabalhos fixada no topo: modalidades, link das normas, prazo 4/11 e custo completo (inscrição + taxa de publicação de R$ 16,98 por trabalho) | Sim |
-| 28/10 | Checklist "como submeter na Even3" (formato do arquivo, mesmo e-mail na inscrição e na submissão) | Sim |
+| Até 23/10 | Chamada de trabalhos fixada no topo: modalidades, link das normas, prazo 4/11 e custo completo (inscrição + taxa de publicação de R$ 16,98 por trabalho) | Sim |
+| 26/10 (C01) | Carrossel "como submeter na Even3" (formato do arquivo, mesmo e-mail na inscrição e na submissão) | Sim |
+| 28/10 (C02) | Checklist de sete dias para submeter | Só após produção e revisão |
+| 30/10 (C03) | Reel de prática de sala de aula | Só após produção e revisão |
 | 2/11 (48 h antes) | Lembrete de submissão. **Confirme o horário exato de encerramento** antes de escrever "faltam 48 horas" | Rascunhe agora e finalize quando o horário for confirmado |
 | 4/11 | Último lembrete de submissão (de manhã) | Rascunhe agora e apague se houver prorrogação |
 | 5/11 | "Submissões encerradas: agora, participe como ouvinte" | Sim, e edite se houver prorrogação |
-| 12 a 14/11 | Lembrete honesto de valor: o lote atual vai até 15/11 | Sim, depois de conferir os valores no checkout |
-| 20/11 | Post educativo e substancial sobre a Consciência Negra (com crédito a educadoras e educadores reais; convite para o congresso discreto) | Rascunhe agora e revise com cuidado |
+| 10 e 14/11 | Lembrete aprovado de valor só nos Stories/Canal do WhatsApp; sem post extra no Feed | Após conferir valores no checkout |
+| 16/11 | Atualizar preços/FAQ existentes para o novo lote | Conferir checkout primeiro; sem lembrete extra |
+| 20/11 | Post educativo e substancial sobre a Consciência Negra (com crédito a educadoras e educadores reais; pergunta educativa e sem chamada de venda; eventual convite fica em post separado) | Rascunhe agora e revise com cuidado |
 | 25 a 26/11 | Programação oficial | Não. Espere a programação real |
 | 28/11 | Card de contagem regressiva "Faltam 7 dias" | Sim |
 | 3/12 | Como acessar, programação, contato de suporte | Em parte (os dados de acesso precisam ser confirmados) |

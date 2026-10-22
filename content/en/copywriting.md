@@ -162,7 +162,7 @@ Task: write a short, warm caption template that an AUTHOR can post on their own 
 **Goal:** registrations before the change. This is a **real** deadline, so you can say it plainly. No "últimas vagas": an online event isn't scarce unless the committee has confirmed a cap.
 
 ```prompt
-Task: a Facebook post about the registration price change. Facts: current values valid until 15 de novembro; from 16 de novembro they change. Ouvinte/público geral R$ 55,00 → R$ 60,00; graduação + 1 submissão R$ 55,00 → R$ 60,00; pós-graduação + 1 submissão R$ 60,00 → R$ 65,00; professor(a)/profissional da educação + 1 submissão R$ 70,00 → R$ 75,00. Note: since submissions closed on 4/11, focus on participating as ouvinte unless the committee says otherwise. Calm, factual tone; no "últimas vagas", no pressure.
+Task: the approved Story/WhatsApp Channel reminder for [10 or 14 November] about the registration price change; do not create an extra Facebook Feed post. Facts: current values valid until 15 de novembro; from 16 de novembro they change. Ouvinte/público geral R$ 55,00 → R$ 60,00; graduação + 1 submissão R$ 55,00 → R$ 60,00; pós-graduação + 1 submissão R$ 60,00 → R$ 65,00; professor(a)/profissional da educação + 1 submissão R$ 70,00 → R$ 75,00. Note: since submissions closed on 4/11, focus on participating as ouvinte unless the committee says otherwise. Calm, factual tone; no "últimas vagas", no pressure.
 ```
 
 **Example output:**

@@ -86,7 +86,7 @@ With ~6.5 weeks left, the plan is compressed. It follows a sustainable baseline:
 | **4 · 16 – 22 Nov** | Mon 16: edit prices in existing pinned post/Event. Tue: sourced teaching resource. Thu 19: optional rehearsed conversation. **Fri 20 Nov: substantive Consciência Negra contribution.** Optional Sun clip **replaces** Thursday’s conversation as a main post | Invite an author/researcher to explain a substantive idea — without claiming acceptance or new submission availability | Connect Novembro Negro to continuing education on 5–6 Dec. Partners choose a respectful slot around their own actions. One clear registration CTA, **separate from** the commemorative post | IG: 20 Nov carousel. WhatsApp: no sales message on 20 Nov |
 | **5 · 23 – 29 Nov** | Mon: confirmed-facts participation/access FAQ. **Wed 25: official program** (or an honest delay notice). Fri: audience itinerary **only after confirmed program release**; otherwise a factual FAQ. **Sat 28: "faltam 7 dias" card** | Confirm each author's presentation/video/access arrangements privately | Offer a calendar link if available; rehearse delivery and support; one final voluntary partner invitation | IG: program carousel; Stories with "Qual mesa você não quer perder?" |
 | **6 · 30 Nov – 6 Dec** | Mon: participation checklist. Wed: "como acessar". **Thu 3 – Fri 4: one main final invitation + FAQ Stories.** **Sat 5 – Sun 6: live service updates** (replace the usual cadence) | Send presenters their schedule, access check and a human contact | Before opening: start time, login route, certificate conditions. During: only authorized public excerpts. **Registration runs until 6 Dec**: "começa em 48 horas" — not "inscrições acabam em 48 horas" | WhatsApp: day-before checklist; a few updates per day during the event |
-| **After · 7 – 15 Dec** | Mon 7: thank-you post. Tue/Wed: best authorized clip. Thu 10 (Human Rights Day): reflection/recap. **By 15 Dec: proceedings link** — or an honest status update | Authors: proceedings status, how to cite, certificate for authors (if different) | Certificate instructions (available from 6 Dec); feedback form; ask permission before reusing testimonials | WhatsApp: certificate and proceedings info; then a clear choice about future updates |
+| **After · 7 – 15 Dec** | Mon 7: thank-you post. Tue/Wed: best authorized clip. Thu 10 (Human Rights Day): reflection/recap. **By 15 Dec: proceedings link** — or an honest status update | Authors: proceedings status, how to cite, certificate for authors (if different) | Certificate instructions only after actual release (expected from 6 Dec); feedback form; ask permission before reusing testimonials | WhatsApp: certificate and proceedings info; then a clear choice about future updates |
 
 ### Key-day playbooks
 
@@ -306,7 +306,7 @@ More prompts: [Copywriting with AI](copywriting.md) · [Prompt library](prompt-l
 - [ ] Two tagged link sets (`submissoes`, `inscricoes`) tested
 - [ ] Deadline-week posts (28 Oct, 2–5 Nov) drafted and approved
 - [ ] Reminder to switch all submission CTAs on 5 Nov
-- [ ] Price-change posts (12, 15, 16 Nov) with checkout verified
+- [ ] Approved price reminders (10/14 Nov, Stories/Channel only) and 16 Nov price edits with checkout verified
 - [ ] 20 Nov contribution prepared with a credited Black educator or verified sources
 - [ ] Program release plan for 25 Nov (and an honest delay message, just in case)
 - [ ] Event-weekend roles: replies, WhatsApp support, capture

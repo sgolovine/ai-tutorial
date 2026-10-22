@@ -164,7 +164,7 @@ Tarefa: escreva um modelo de legenda curta e calorosa para que a AUTORA ou o AUT
 **Objetivo:** inscrições antes da mudança. É um prazo **real**, então pode ser dito com clareza. Nada de "últimas vagas": evento on-line não tem escassez, a não ser que a comissão confirme um limite.
 
 ```prompt
-Tarefa: post no Facebook sobre a mudança no valor das inscrições. Fatos: valores atuais válidos até 15 de novembro; a partir de 16 de novembro, mudam. Ouvinte/público geral R$ 55,00 → R$ 60,00; graduação + 1 submissão R$ 55,00 → R$ 60,00; pós-graduação + 1 submissão R$ 60,00 → R$ 65,00; professor(a)/profissional da educação + 1 submissão R$ 70,00 → R$ 75,00. Observação: como as submissões encerraram em 4/11, foque na participação como ouvinte, salvo orientação diferente da comissão. Tom calmo e factual; sem "últimas vagas", sem pressão.
+Tarefa: o lembrete aprovado para Stories/Canal do WhatsApp em [10 ou 14 de novembro] sobre a mudança no valor das inscrições; não crie um post extra no Feed do Facebook. Fatos: valores atuais válidos até 15 de novembro; a partir de 16 de novembro, mudam. Ouvinte/público geral R$ 55,00 → R$ 60,00; graduação + 1 submissão R$ 55,00 → R$ 60,00; pós-graduação + 1 submissão R$ 60,00 → R$ 65,00; professor(a)/profissional da educação + 1 submissão R$ 70,00 → R$ 75,00. Observação: como as submissões encerraram em 4/11, foque na participação como ouvinte, salvo orientação diferente da comissão. Tom calmo e factual; sem "últimas vagas", sem pressão.
 ```
 
 **Exemplo de resultado:**

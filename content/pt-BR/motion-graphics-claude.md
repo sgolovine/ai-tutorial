@@ -149,7 +149,7 @@ Só palestrantes **confirmados**, com nome, cargo e foto **aprovados**. Copie **
 
 ```prompt
 Crie uma animação em HTML autocontido, 9:16 (1080×1920), sem internet nem bibliotecas externas, com <meta charset="utf-8"> e fontes do sistema.
-Envio em anexo uma foto autorizada da palestrante. Incorpore a foto dentro do próprio arquivo HTML e não altere, retoque, clareie nem corte o rosto.
+Use foto de palestrante somente com autorização separada para este processamento externo por IA e com as condições de privacidade documentadas; sem isso, deixe um espaço reservado para uma pessoa inserir a foto localmente. Estou anexando uma foto que atende a essas condições. Incorpore a foto no HTML e não altere, retoque, clareie nem corte o rosto.
 
 Texto exato (não mude nada):
 "CONAFROEDU 2026 · Palestra"
@@ -240,7 +240,7 @@ Se a comissão já usa o Claude **Team** ou **Enterprise**, procure o **Motion**
 
 ```prompt
 Crie uma animação com o modelo Motion para anunciar uma palestra. Destino: Reels no Facebook, vertical 9:16, de preferência 1080×1920, 12 segundos. Se alguma configuração não estiver disponível, me avise antes de renderizar.
-Use a foto autorizada em anexo sem alterar o rosto.
+Use a foto em anexo somente com autorização separada para este processamento externo por IA e condições de privacidade documentadas; sem isso, deixe um espaço reservado para inserção local. Não altere o rosto.
 0–2 s: uma pergunta curta sobre [um desafio real de professores].
 2–7 s: [NOME EXATO], [CARGO APROVADO], [TÍTULO EXATO DA PALESTRA].
 7–10 s: "5 e 6 de dezembro de 2026 • 100% on-line".

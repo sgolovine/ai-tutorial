@@ -202,7 +202,8 @@ Uma pessoa abre a matéria ORIGINAL, confere direitos e pertinência → a ideia
 2. Make → novo cenário → **RSS → Watch RSS feed items** como único gatilho. [O gatilho precisa ser o primeiro módulo e só aparece uma vez](https://help.make.com/types-of-modules); um roteador divide dados recebidos e não combina gatilhos Watch independentes.
 3. Versão para iniciantes: **Google Sheets → Add a Row** com título, URL original, data e `em revisão`. Deixe resumos por IA como etapa manual opcional.
 4. Uma ou duas vezes ao dia, uma pessoa procura URLs já listadas, marca repetições como `duplicada` e aprova só uma cópia. Assim, a receita não depende de ramificação de busca sem resultado ainda não testada.
-5. Teste URL nova, repetida e feed vazio. Não devem surgir linhas vazias nem entradas duplicadas no calendário. Para eliminar duplicadas automaticamente, peça a alguém técnico que configure e teste a continuação de busca vazia primeiro.
+5. **Defina o orçamento de consultas antes de ativar.** Abra [Schedule settings](https://help.make.com/schedule-a-scenario), substitua o padrão Every 15 minutes por **Daily às 9h e às 17h** e confirme o fuso de Brasília no cenário. São cerca de **60 consultas do gatilho em 30 dias**, mais uma ação Add a Row por item. Some esse consumo ao Fluxo 2 e aos testes; confira as [operações/créditos reais](https://help.make.com/operations) antes de ativar.
+6. Teste URL nova, repetida e feed vazio. Não devem surgir linhas vazias nem entradas duplicadas no calendário. Para eliminar duplicadas automaticamente, peça a alguém técnico que configure e teste a continuação de busca vazia primeiro.
 
 **Regras:** leia o original antes de publicar; compartilhe link e comentário em vez de reproduzir matérias. Descarte resumos não verificáveis. Este feed usa um cenário ativo; os Fluxos 2 e 4 juntos usam as duas vagas gratuitas do Make. Cada feed Watch independente adicional exige outro cenário. Respeite vagas e créditos.
 

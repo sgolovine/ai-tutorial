@@ -327,10 +327,10 @@ Don't invent credentials, quotes or results. Mark lines the speaker must approve
 
 ### 3.11 Price change: 15 → 16 November
 
-**Use:** a reminder around 12 November and a short one on 15 November, after checking prices in the Even3 checkout that day. **Output:** pt-BR. **Source (Task):** [Copywriting](copywriting.md#3-price-change-15--16-november).
+**Use:** the approved reminder on 10 or 14 November in Stories/WhatsApp Channel only, after checking that day’s checkout prices. Update existing prices on 16 November; do not add a Feed post. **Output:** pt-BR. **Source (Task):** [Copywriting](copywriting.md#3-price-change-15--16-november).
 
 ```prompt
-Task: a Facebook post about the registration price change. Facts: current values valid until 15 de novembro; from 16 de novembro they change. Ouvinte/público geral R$ 55,00 → R$ 60,00; graduação + 1 submissão R$ 55,00 → R$ 60,00; pós-graduação + 1 submissão R$ 60,00 → R$ 65,00; professor(a)/profissional da educação + 1 submissão R$ 70,00 → R$ 75,00. Note: since submissions closed on 4/11, focus on participating as ouvinte unless the committee says otherwise. Calm, factual tone; no "últimas vagas", no pressure.
+Task: the approved Story/WhatsApp Channel reminder for [10 or 14 November] about the registration price change; do not create an extra Facebook Feed post. Facts: current values valid until 15 de novembro; from 16 de novembro they change. Ouvinte/público geral R$ 55,00 → R$ 60,00; graduação + 1 submissão R$ 55,00 → R$ 60,00; pós-graduação + 1 submissão R$ 60,00 → R$ 65,00; professor(a)/profissional da educação + 1 submissão R$ 70,00 → R$ 75,00. Note: since submissions closed on 4/11, focus on participating as ouvinte unless the committee says otherwise. Calm, factual tone; no "últimas vagas", no pressure.
 ```
 
 ### 3.12 Consciência Negra: Friday 20 November
@@ -776,7 +776,7 @@ Use the approved image as reference. Next frame of the same scene: the paper not
 
 ```prompt
 Use the Motion template to announce a talk. Destination: Facebook Reel, vertical 9:16, ideally 1080×1920, 12 seconds. If any setting is not available, tell me before rendering.
-Use the attached authorized photo without altering the face.
+Use the attached photo only with separate permission for this external AI processing and documented privacy conditions; otherwise leave a placeholder for local insertion. Do not alter the face.
 0–2 s: a short question about [a real challenge teachers face].
 2–7 s: [EXACT NAME], [APPROVED ROLE], [EXACT TALK TITLE].
 7–10 s: "5 e 6 de dezembro de 2026 • 100% online".

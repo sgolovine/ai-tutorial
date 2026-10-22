@@ -175,17 +175,20 @@ FACT SHEET: [paste]
 
 ## CONAFROEDU dates to put in the calendar now
 
-These are suggestions for posts tied to **real, verified dates**. Pick the ones your team can actually produce. For the full week-by-week plan, see [CONAFROEDU 2026: The 6-Week Sprint Plan](conafroedu-sprint.md).
+These are suggestions for posts tied to **real, verified dates**. Pick the ones your team can actually produce. These rows follow the [approved publication list](campaign-timeline.md); use its IDs and latest approved status. For roles, see [the sprint plan](conafroedu-sprint.md).
 
 | Publish on (BRT) | Post idea | Schedule now? |
 |---|---|---|
-| By 25 Oct | Pinned call for papers: modalities, rules link, deadline 4 Nov, full cost (registration + R$ 16,98 publication fee per work) | Yes |
-| 28 Oct | "How to submit on Even3" checklist (format, same email for registration and submission) | Yes |
+| By 23 Oct | Pinned call for papers: modalities, rules link, deadline 4 Nov, full cost (registration + R$ 16,98 publication fee per work) | Yes |
+| 26 Oct (C01) | "How to submit on Even3" carousel (format, same email for registration and submission) | Yes |
+| 28 Oct (C02) | Seven-day submission checklist | Only after production and review |
+| 30 Oct (C03) | Classroom-practice Reel | Only after production and review |
 | 2 Nov (T−48h) | Submission reminder. **Confirm the exact closing time** before writing "48 hours" | Draft now, finish when the time is confirmed |
 | 4 Nov | Final submission reminder (morning) | Draft now, and delete it if an extension is announced |
 | 5 Nov | "Submissions closed, now join as a participant" | Yes, and edit it if there is an extension |
-| 12–14 Nov | Honest price reminder: current tier ends 15 Nov | Yes, after checking checkout prices |
-| 20 Nov | Substantive Consciência Negra educational post (credit real educators; attendance CTA kept light) | Draft now, review carefully |
+| 10 and 14 Nov | Approved price reminder in Stories/WhatsApp Channel only; no extra Feed post | After checking checkout prices |
+| 16 Nov | Update existing prices/FAQ to the new tier | Verify checkout first; no extra reminder post |
+| 20 Nov | Substantive Consciência Negra educational post (credit real educators; educational question and no sales CTA; any optional invitation is a separate post) | Draft now, review carefully |
 | 25–26 Nov | Official programme | No. Wait for the real programme |
 | 28 Nov | "Faltam 7 dias" countdown card | Yes |
 | 3 Dec | How to access, programme, support contact | Partly (access details must be confirmed) |

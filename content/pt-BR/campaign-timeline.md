@@ -305,7 +305,7 @@ Mais prompts: [Redação com IA](copywriting.md) · [Biblioteca de prompts](prom
 - [ ] Dois conjuntos de links rastreáveis (`submissoes`, `inscricoes`) testados
 - [ ] Publicações da semana do prazo (28/10, 2 a 5/11) rascunhadas e aprovadas
 - [ ] Lembrete para trocar todos os chamados de submissão em 5/11
-- [ ] Publicações da virada de lote (12, 15 e 16/11) com checkout conferido
+- [ ] Lembretes aprovados de lote (10 e 14/11, só Stories/Canal) e atualização de preços em 16/11 com checkout conferido
 - [ ] Contribuição de 20/11 preparada com um educador negro creditado ou fontes verificadas
 - [ ] Plano de lançamento da programação em 25/11 (e uma mensagem honesta de atraso, por precaução)
 - [ ] Papéis no fim de semana do evento: respostas, suporte no WhatsApp, registro

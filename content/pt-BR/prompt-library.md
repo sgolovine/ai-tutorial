@@ -327,10 +327,10 @@ Não invente titulações, citações ou resultados. Marque as falas que o pales
 
 ### 3.11 Virada de lote: 15 → 16 de novembro
 
-**Uso:** um lembrete por volta de 12/11 e outro curto em 15/11, depois de conferir os valores no checkout da Even3 no mesmo dia. **Origem (tarefa):** [Copywriting](copywriting.md#3-virada-de-lote-15--16-de-novembro).
+**Uso:** o lembrete aprovado de 10 ou 14/11, só nos Stories/Canal do WhatsApp, após conferir o checkout do dia. Atualize os preços existentes em 16/11; não acrescente post no Feed. **Origem (tarefa):** [Copywriting](copywriting.md#3-virada-de-lote-15--16-de-novembro).
 
 ```prompt
-Tarefa: post no Facebook sobre a mudança no valor das inscrições. Fatos: valores atuais válidos até 15 de novembro; a partir de 16 de novembro, mudam. Ouvinte/público geral R$ 55,00 → R$ 60,00; graduação + 1 submissão R$ 55,00 → R$ 60,00; pós-graduação + 1 submissão R$ 60,00 → R$ 65,00; professor(a)/profissional da educação + 1 submissão R$ 70,00 → R$ 75,00. Observação: como as submissões encerraram em 4/11, foque na participação como ouvinte, salvo orientação diferente da comissão. Tom calmo e factual; sem "últimas vagas", sem pressão.
+Tarefa: o lembrete aprovado para Stories/Canal do WhatsApp em [10 ou 14 de novembro] sobre a mudança no valor das inscrições; não crie um post extra no Feed do Facebook. Fatos: valores atuais válidos até 15 de novembro; a partir de 16 de novembro, mudam. Ouvinte/público geral R$ 55,00 → R$ 60,00; graduação + 1 submissão R$ 55,00 → R$ 60,00; pós-graduação + 1 submissão R$ 60,00 → R$ 65,00; professor(a)/profissional da educação + 1 submissão R$ 70,00 → R$ 75,00. Observação: como as submissões encerraram em 4/11, foque na participação como ouvinte, salvo orientação diferente da comissão. Tom calmo e factual; sem "últimas vagas", sem pressão.
 ```
 
 ### 3.12 Consciência Negra: sexta-feira, 20 de novembro
@@ -710,7 +710,7 @@ Depois de criar, me explique como baixar e abrir o arquivo HTML.
 
 ```prompt
 Crie uma animação em HTML autocontido, 9:16 (1080×1920), sem internet nem bibliotecas externas, com <meta charset="utf-8"> e fontes do sistema.
-Envio em anexo uma foto autorizada da palestrante. Incorpore a foto dentro do próprio arquivo HTML e não altere, retoque, clareie nem corte o rosto.
+Use foto de palestrante somente com autorização separada para este processamento externo por IA e com as condições de privacidade documentadas; sem isso, deixe um espaço reservado para uma pessoa inserir a foto localmente. Estou anexando uma foto que atende a essas condições. Incorpore a foto no HTML e não altere, retoque, clareie nem corte o rosto.
 
 Texto exato (não mude nada):
 "CONAFROEDU 2026 · Palestra"
@@ -776,7 +776,7 @@ Use a imagem aprovada como referência. Próximo quadro da mesma cena: o caderno
 
 ```prompt
 Crie uma animação com o modelo Motion para anunciar uma palestra. Destino: Reels no Facebook, vertical 9:16, de preferência 1080×1920, 12 segundos. Se alguma configuração não estiver disponível, me avise antes de renderizar.
-Use a foto autorizada em anexo sem alterar o rosto.
+Use a foto em anexo somente com autorização separada para este processamento externo por IA e condições de privacidade documentadas; sem isso, deixe um espaço reservado para inserção local. Não altere o rosto.
 0–2 s: uma pergunta curta sobre [um desafio real de professores].
 2–7 s: [NOME EXATO], [CARGO APROVADO], [TÍTULO EXATO DA PALESTRA].
 7–10 s: "5 e 6 de dezembro de 2026 • 100% on-line".

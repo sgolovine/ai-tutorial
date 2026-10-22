@@ -151,7 +151,7 @@ Use only **confirmed** speakers, with their **approved** name, title and photo. 
 
 ```prompt
 Create a self-contained HTML animation, 9:16 (1080×1920), no internet or external libraries, <meta charset="utf-8">, system fonts.
-I am attaching an authorized photo of the speaker. Embed it in the HTML file itself and do not alter, retouch, lighten or crop the face.
+Only use a speaker photo approved separately for this external AI processing, with the documented privacy conditions; otherwise leave a local placeholder for a person to insert later. I am attaching such an approved photo. Embed it in the HTML file itself and do not alter, retouch, lighten or crop the face.
 
 Exact text (Brazilian Portuguese, do not change):
 "CONAFROEDU 2026 · Palestra"
@@ -242,7 +242,7 @@ If your committee already uses Claude **Team** or **Enterprise**, check for **Mo
 
 ```prompt
 Use the Motion template to announce a talk. Destination: Facebook Reel, vertical 9:16, ideally 1080×1920, 12 seconds. If any setting is not available, tell me before rendering.
-Use the attached authorized photo without altering the face.
+Use the attached photo only with separate permission for this external AI processing and documented privacy conditions; otherwise leave a placeholder for local insertion. Do not alter the face.
 0–2 s: a short question about [a real challenge teachers face].
 2–7 s: [EXACT NAME], [APPROVED ROLE], [EXACT TALK TITLE].
 7–10 s: "5 e 6 de dezembro de 2026 • 100% online".

@@ -202,7 +202,8 @@ Human opens the ORIGINAL article, checks rights & relevance → idea enters the 
 2. Make → new scenario → **RSS → Watch RSS feed items** as the sole trigger. [A trigger must be first and can appear only once](https://help.make.com/types-of-modules); a router branches incoming data and cannot merge independent Watch triggers.
 3. Beginner version: **Google Sheets → Add a Row** with title, original URL, date and `needs review`. Keep AI summaries optional and manual.
 4. Once or twice daily, a person checks for already listed URLs, marks repeated rows `duplicate` and approves only one copy. This avoids relying on an untested search/no-match branch.
-5. Test a new URL, a repeated URL and an empty feed. No empty rows or duplicate calendar entries should appear. For automated de-duplication, ask a technical volunteer to configure and test empty-search continuation first.
+5. **Set the polling budget before activation.** Open [Schedule settings](https://help.make.com/schedule-a-scenario), replace the default Every 15 minutes with **Daily at 09:00 and 17:00**, and confirm the scenario uses Brasília time. That is about **60 trigger checks per 30 days**, plus one Add a Row action per item. Budget this together with Flow 2 and test runs; check the actual [operations/credits](https://help.make.com/operations) before enabling.
+6. Test a new URL, a repeated URL and an empty feed. No empty rows or duplicate calendar entries should appear. For automated de-duplication, ask a technical volunteer to configure and test empty-search continuation first.
 
 **Rules:** read the original before posting; link and comment instead of reproducing articles. Discard uncheckable summaries. This one feed uses one active scenario; Flow 2 plus Flow 4 uses both Make Free slots. Each additional independent Watch feed needs another scenario. Respect the two-slot and credit limits.
 

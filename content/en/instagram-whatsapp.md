@@ -32,7 +32,7 @@ Read these carefully: an installed app is not permission to message someone, and
 | Instagram Stories | Day-to-day: questions, deadlines, behind the scenes | Replies, link taps |
 | WhatsApp Business app | Individual answers: payment, submission, certificate, access | Resolved questions, completed registrations |
 | WhatsApp Channel | Opt-in public updates (program, real deadlines) | Followers, tagged clicks |
-| Partner WhatsApp groups / Communities | Forwarded invitations through coordinators and admins | Registrations from partner links |
+| Partner WhatsApp groups / Communities | Forwarded invitations through coordinators and admins | Tagged visits; registrations only with validated attribution |
 | WhatsApp Status | Personal invitations by the team and ambassadors | Replies, tagged visits |
 
 You don't need all of these on day one. **A connected Instagram account, the WhatsApp Business app on the support number and one Channel are enough.**
@@ -60,7 +60,7 @@ Congressos nacionais on-line 📚 CONAFROEDU 2026 — Congresso Nacional de Afri
 ### Step 2 — Links on Instagram
 
 - **Links typed in captions are not clickable.** Say "link na bio" or use a Story link where your account offers it.
-- Use tagged links per placement so Even3 shows where registrations came from:
+- Use tagged links per placement to distinguish visit sources; attribute registrations only after separately validating that connection in the event panel. See [Measuring results](measuring-results.md):
 
 | Placement | `utm_source` | `utm_medium` | `utm_content` example |
 |---|---|---|---|

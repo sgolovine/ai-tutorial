@@ -1,5 +1,7 @@
 # AI for Conference Marketing · IA para Marketing de Eventos
 
+**Live site:** https://sgolovine.github.io/ai-tutorial/
+
 A bilingual (English / Brazilian Portuguese) guide site. It shows a small team how to use AI
 tools and organic Facebook, Instagram and WhatsApp to promote an education conference in Brazil.
 
@@ -21,8 +23,8 @@ pnpm preview      # serves dist/client/ the way GitHub Pages does (http://localh
 To build and preview under a sub-path, as on GitHub Pages:
 
 ```sh
-BASE_PATH=/ai-marketing-info/ pnpm build
-BASE_PATH=/ai-marketing-info/ pnpm preview   # http://localhost:4173/ai-marketing-info/
+BASE_PATH=/ai-tutorial/ pnpm build
+BASE_PATH=/ai-tutorial/ pnpm preview   # http://localhost:4173/ai-tutorial/
 ```
 
 | Env var     | Default | Purpose                                                                          |

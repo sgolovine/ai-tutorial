@@ -32,3 +32,21 @@ English (`en`) and Brazilian Portuguese (`pt-BR`). Every page exists in both. pt
 ## Rules for agents
 - Do NOT run `git commit` — the supervisor commits. Only touch files in your assigned area.
 - Today's date is 2026-10-21. AI tools change fast: prefer sources from 2026; flag anything you could not verify as current.
+
+## THE ACTUAL CONFERENCE (tailor ALL content to this) — see docs/conference-announcement.md
+**CONAFROEDU 2026 — Congresso Nacional de Africanidades na Educação** ("Desenvolvimento, Participação e Educação Antirracista").
+- Dates: **5–6 December 2026**, **100% online**. Today is 2026-10-21 → only ~6.5 weeks of campaign left. Content must include an urgent, compressed 6-week plan (and a general reusable timeline for future editions).
+- Registration on **Even3** (https://www.even3.com.br/iconafroedu-764690/). Contact via WhatsApp (19) and Gmail — small volunteer/academic organizing committee.
+- Offers: paper presentations, publication in proceedings (Anais) with **ISBN and DOI**, **40-hour certificate**, submission types: artigo completo, resumo expandido, práticas exitosas.
+- Audience: teachers (educação básica), undergrad & grad students (pós-graduação), researchers, school managers, professionals; national (all of Brazil).
+- Themes: Africanidades, Afro-Brazilian history & culture, anti-racist education, ethnic-racial relations (ERER), teacher training.
+- Big timely hooks: **20 de novembro – Dia Nacional de Zumbi e da Consciência Negra** (national holiday) falls inside the campaign window; "Novembro Negro"; Lei 10.639/2003 & 11.645/2008 (mandatory Afro-Brazilian/Indigenous history teaching).
+- Natural partners: NEABIs/NEABs (Núcleos de Estudos Afro-Brasileiros e Indígenas) at universities, ABPN (Associação Brasileira de Pesquisadores/as Negros/as), education graduate programs, teacher unions/secretariats, Black-led education collectives & creators.
+- Hashtags they already use: #CONAFROEDU #EducaçãoAntirracista #Africanidades #CongressoOnline #CongressoAcadêmico #PesquisaEmEducação ...
+
+### Content implications
+- Use CONAFROEDU as the running worked example everywhere (real name, dates, offers) — not a fictional event.
+- Selling points for academics: certificate hours (horas complementares / progressão), ISBN/DOI publication, presenting research — content should show how to market these.
+- Online event → no venue; focus on lives, Zoom/YouTube/StreamYard, clipping talks after, digital certificates.
+- **Representation & bias are critical**: AI image/video models can stereotype Black people and African cultures (exoticism, generic "African" patterns, colorism, wrong hair textures, mixing unrelated cultures). Content must teach how to prompt respectfully, review outputs critically, prefer real photos of real participants (with consent) and Black Brazilian artists/designers where possible, avoid caricature, and disclose AI use. Cultural symbols (Adinkra, orixás/religious imagery, Kente etc.) need care and accuracy.
+- Tone: academic yet warm, community-driven, respectful; pt-BR is the primary audience language.

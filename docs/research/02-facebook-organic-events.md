@@ -1,6 +1,10 @@
-# Organic Facebook, Instagram and WhatsApp marketing for an education conference in Brazil
+# Organic Facebook, Instagram and WhatsApp marketing for CONAFROEDU 2026
 
 **Research date:** 2026-10-21. **Project:** `docs/BRIEF.md`. **Audience:** a small, non-specialist team; organic Facebook first; no advertising budget. Main analysis is in English, with original Brazilian Portuguese examples for adaptation into the bilingual guide.
+
+**Pass 2 independently verified:** 2026-10-21. Read this as a campaign for **CONAFROEDU — Congresso Nacional de Africanidades na Educação**, theme **“Desenvolvimento, Participação e Educação Antirracista”**, **5–6 December 2026, 100% online**, with registration at [Even3](https://www.even3.com.br/iconafroedu-764690/). The supplied announcement advertises a **40-hour certificate**, presentations and proceedings with ISBN/DOI. Publication and certificate conditions still matter; neither registration nor submission guarantees acceptance, publication, career progression or institutional recognition.
+
+**Urgent scheduling correction:** the organizer's Even3 timeline image and submission configuration both give **4 November 2026** as the submission deadline; the image also gives **4 November** for presentation-video delivery and **6 December** for the end of registration. An exact submission cut-off time was not established. There are 45 days until opening, but only 14 until the published submission date. Front-load author recruitment; do not keep a call for papers running through Novembro Negro unless the committee formally extends it. The six-week plan in §9.7 follows those separate clocks. [S76–S77]
 
 ## 1. How to read this research
 
@@ -44,7 +48,9 @@ RD Station's 2026 research supplies useful business context: its introduction di
 
 Avoid “Facebook is only for older people.” NapoleonCat's September 2026 addressable-audience estimates place **25–34** first, at **29.2%**, followed by **35–44**, at **20.9%**; they also show substantial older groups. However, its Facebook total of about **182.7 million** differs sharply from DataReportal's 109 million for late 2025, and some demographic figures differ within NapoleonCat's own page. **[UNVERIFIED] precise current Brazilian Facebook population and demographic shares.** Do not merge these datasets or use them to calculate growth. The age pattern is a tentative planning clue, not a verified teacher profile. [S06]
 
-**[UNVERIFIED] No strong, current source located establishes what proportion of Brazilian teachers, professors, school leaders or university students actively uses Facebook.** National platform estimates do not identify occupations. An education conference may have an excellent Facebook niche even if a younger segment prefers Instagram, but that must be tested.
+**Correction: educator-specific data do exist, for a narrower question.** Cetic.br/CGI.br's **TIC Educação 2024, indicator K5**, reports use of social platforms **for educational activities or interaction with students**, among teachers in its Ensino Fundamental/Médio population: **Facebook 12%, Instagram 29%, YouTube 57%, WhatsApp 57%**. These overlapping percentages are not personal-use penetration, daily activity, conference discovery or conversion rates, and do not cover all university researchers. [S61]
+
+The 2025 edition released in August 2026 provides school/manager modules, rather than a new teacher K5 series; do not relabel 2024 teacher results as “2026 teacher usage.” **[UNVERIFIED] Current occupational Facebook-use/discovery rates for higher-education faculty, postgraduates and ERER researchers.** Practical inference: combine relevant Facebook communities and institutional distribution with voluntary WhatsApp updates; test actual referrals. [S62]
 
 Recommended audience research before production:
 
@@ -59,13 +65,13 @@ Recommended audience research before production:
 | Surface | Recommended job | Education-sector example | Success signal |
 |---|---|---|---|
 | Facebook Page | Public identity, practical content, trust | Teacher explains one classroom problem the conference addresses | Relevant reach, conversations, registration visits |
-| Facebook Event | Stable event listing and updates | Dates, city, programme, accessibility and ticket destination | Event interest followed by actual registrations |
+| Facebook Event | Stable event listing and updates | 5–6 December, 100% online, programme, access guidance and Even3 destination | Event interest followed by actual registrations |
 | Existing Facebook Groups | Participate in an established community | Answer a methodology question, then share a permitted relevant session | Useful discussion and qualified visits |
 | Own Facebook Group | Ongoing peer learning, if moderators have capacity | Monthly exchange of teaching practices before and after the event | Member-to-member conversations |
 | Instagram | Speaker collaboration and visual discovery | Joint speaker Reel, practical carousel, Stories questions | Non-follower reach, profile visits, registrations |
 | WhatsApp Channel | Opt-in public updates | Programme updates and real deadline reminders | Update views and tagged-link registrations |
-| WhatsApp Community | Organize related participant groups | Regional travel groups or thematic peer groups | Useful coordination and fewer repeated support questions |
-| WhatsApp Business conversation | Answer individual questions | Payment, accessibility, certificates, arrival instructions | Resolved questions and completed registration |
+| WhatsApp Community | Organize related participant groups if needed | Thematic peer groups or presenter support | Useful coordination and fewer repeated support questions |
+| WhatsApp Business conversation | Answer individual questions | Payment, accessibility, certificates, submission or login instructions | Resolved questions and completed registration |
 | WhatsApp Status | Voluntary sharing by the team and ambassadors | A short personal invitation | Replies and tagged visits |
 
 This allocation is a recommendation. It does not imply that every surface should be launched immediately. A Page, one Event, a connected Instagram account and one WhatsApp update destination can be enough.
@@ -108,7 +114,7 @@ Recommended assets:
 
 - A teacher demonstrates a classroom activity and explains one decision behind it.
 - A confirmed speaker answers a real question collected from educators.
-- Organizers explain the programme choices or show the actual venue.
+- Organizers explain the programme choices or demonstrate online participation.
 - Participants share their own takeaways, with permission for reuse and attribution.
 - An authorized talk excerpt is introduced with a meaningful lesson and edited for the intended audience.
 
@@ -155,9 +161,9 @@ Meta's Help Center states that **events hosted by a Page are public**, and the p
 Recommended setup checklist; labels and optional fields must be checked in the live interface:
 
 - [ ] Switch to the actual organizing Page and confirm appropriate access. Meta identifies event creation/editing among Facebook-access capabilities; do not assume task access exposes identical controls. [S23]
-- [ ] Create one canonical Event for the edition, with a recognizable name and city or online format.
+- [ ] Create one canonical Event: **“CONAFROEDU 2026 — Congresso Nacional de Africanidades na Educação | Online”**.
 - [ ] Enter start **and end** dates, times and the correct event time zone.
-- [ ] State venue, address, online arrangements and transport information when confirmed.
+- [ ] Choose **Online/Virtual**, with **5–6 December 2026** and Brasília time; explain how registered participants receive access. No physical venue or transport information applies.
 - [ ] Identify the intended audience: for example, professores da educação básica, licenciandos, gestores or pesquisadores.
 - [ ] Describe concrete learning opportunities. Include only verified speakers and sessions.
 - [ ] State price/lot, registration destination, refund information and certificate conditions accurately.
@@ -171,7 +177,7 @@ The optional ticket-URL/co-host model is documented in the NCSL Facebook guide, 
 
 ### 4.2 Co-hosts and partners
 
-Invite a real venue, university or organizing partner as co-host where supported. Get the partner's agreement and confirm any acceptance flow. Co-hosting is a management relationship, not simply a logo placement; agree who can edit dates, programme and description. Do not add an institution merely because a professor works there.
+Invite an actual organizing university, NEABI/NEAB or agreed partner as co-host where supported. Get the partner's agreement and confirm any acceptance flow. Meta lists co-hosts among public Event settings; co-hosting is a management relationship, not simply a logo placement. Agree who can edit dates, programme and description. A co-host invitation is not accepted co-host status, and a professor's employment does not authorize institutional endorsement. [S21]
 
 Eventbrite's official Facebook integration guide documents Page-based publication and co-host configuration, subject to Page administration and event eligibility. **[UNVERIFIED] The exact same integration is available to every Brazilian organizer.** A direct link to the ticket page remains the fallback. [S26]
 
@@ -182,7 +188,7 @@ Recommended discussion rhythm:
 - Launch: a welcome post with programme, registration and FAQ destinations.
 - Weekly: one meaningful speaker question, practical takeaway or programme update.
 - Deadline periods: one advance reminder, then a genuinely useful final reminder with exact date/time.
-- Final week: arrival, accessibility, what to bring and where support is available.
+- Final week: login/access, accessibility, presenter preparation and where support is available.
 - Event day: actual schedule changes and useful navigation information.
 - Afterwards: resources, feedback and the recap.
 
@@ -194,6 +200,19 @@ Facebook distinguishes event responses such as **Going** and **Interested**, wit
 
 **[UNVERIFIED] A guaranteed reminder schedule or notification delivery to every interested person.** Notifications depend on settings and product behavior. Offer a voluntary WhatsApp update destination and a calendar invitation from the registration process when supported. Never scrape the interested/going list for email or WhatsApp outreach.
 
+### 4.5 Online Event does not decide where the congress is delivered
+
+Use the Event as the public discovery/FAQ layer and **Even3 as the registration destination**. Choose the Online/Virtual type. For an authorized public Facebook broadcast, the Facebook Live option can connect the listing to a stream; StreamYard documents this Virtual → Facebook Live flow. If delivery is elsewhere, use the external-link/other online option **where the composer offers it**, with a public access-information or registration page. The precise external-link label and fields for this Brazilian Page remain **[UNVERIFIED]**. [S66–S67]
+
+Do not select Facebook Live merely because it sounds promotional if the congress actually runs on another platform. State separately:
+
+- **Inscrição:** the public Even3 URL.
+- **Transmissão/acesso:** the organizer-confirmed platform, how/when registered people receive their link, and support contact.
+- **Participação/certificado:** the actual attendance/activities required; an Event RSVP or public Live view is not a certificate check-in.
+- **Conteúdo aberto:** exactly which preview interview or opening segment is public. Keep participant-only meeting URLs and credentials out of the public Event.
+
+An online label does not provide a meeting room, ticket checkout, attendance verification or automatic access control. With only six weeks, keep one congress listing; give any separately scheduled promotional Live a clear title such as **“Conversa de aquecimento — CONAFROEDU”**, linked back to it. A StreamYard-scheduled broadcast may create its own Facebook Online Event: check the resulting URLs before promoting to avoid accidentally sending people to duplicate congress listings. [S66]
+
 ## 5. Groups: participate first, create only if useful
 
 ### 5.1 Existing Brazilian education communities
@@ -202,11 +221,13 @@ Recommended manual search terms:
 
 | Audience | Search examples | Match the contribution to |
 |---|---|---|
-| Basic-education teachers | `professores [cidade/estado]`, `educação infantil [estado]`, `alfabetização professores` | Classroom realities, travel feasibility, school calendar |
-| Subject teachers | `professores de matemática`, `ensino de ciências`, `educação inclusiva` | A relevant session or useful teaching example |
+| Basic-education teachers | `professores [cidade/estado]`, `educação infantil [estado]`, `alfabetização professores` | Classroom practice, national online access, end-of-year school workload |
+| Subject teachers | `professores de história`, `ensino de ciências relações étnico-raciais`, `literatura afro-brasileira` | A relevant ERER teaching example |
 | University students | `pedagogia [universidade]`, `licenciatura [instituição]`, `centro acadêmico` | Student pricing, participation opportunities, programme relevance |
 | Researchers/professors | `pesquisa em educação`, `pós-graduação educação [região]` | Call for papers, methods, peer exchange |
 | School management | `coordenação pedagógica`, `gestores escolares [estado]` | Team development, timetable and institutional participation |
+| Anti-racist education/ERER | `educação antirracista`, `relações étnico-raciais`, `ERER professores`, `Lei 10.639`, `educação infantil antirracista` | A sourced classroom resource or discussion of research/practice |
+| Black researchers and study nuclei | `NEABI [instituição]`, `NEAB [estado]`, `pesquisadores negros`, `ABPN educação`, `africanidades` | Thematic fit, authorship, research exchange and an approved call |
 
 **[UNVERIFIED] Membership, quality and posting permissions of any group found using these searches.** No specific group is endorsed here, and search availability is not permission to promote.
 
@@ -221,15 +242,35 @@ Participation sequence:
 
 Suggested permission request, to send manually only after the team approves outreach:
 
-> Olá, [nome]. Faço parte da organização do [evento], em [cidade/data]. Vi que o grupo conversa bastante sobre [tema específico]. Podemos compartilhar uma publicação com [recurso útil] e as informações da mesa sobre esse tema? Se houver um formato ou dia próprio para divulgação, seguimos a orientação de vocês.
+> Olá, [nome]. Sou [nome], da organização do CONAFROEDU, congresso 100% on-line em 5 e 6 de dezembro. Vi a discussão do grupo sobre [tema específico]. Podemos compartilhar [recurso útil] e uma chamada pertinente sobre educação antirracista? Se houver dia, tópico ou formato próprio para divulgação, seguimos a orientação de vocês.
 
 Do not copy this unchanged into dozens of groups. Do not use fake accounts, automated joining, scraped member lists, unsolicited mass DMs or repeated identical comment links.
 
-### 5.2 The team's own group
+**Find and validate communities manually:** use Facebook Search → Groups for the phrases above, including accented/unaccented variants; supplement with `site:facebook.com/groups "educação antirracista"` or `"pedagogia" "[instituição]"` in web search. Search snippets cannot establish current activity or permission. Open the About/Rules/Featured areas; read the last 10–20 ordinary posts, check dates and relevant replies, and record promotion rules, Page eligibility, approval delays and a permitted contact route. Hidden groups may not appear in search. [S63]
+
+One documented lead is **Educação Infantil Antirracista**, [group URL](https://www.facebook.com/groups/2454962984725291/), studied in a 2020 UFRJ dissertation. This confirms historical existence and subject fit only: **[UNVERIFIED]** 2026 activity, current name, membership, rules and admission. Do not repeat its old member count as current. For generic professores/pedagogia/pós-graduação groups, select live local/institutional results; no researched national “best groups” ranking is available. [S73]
+
+Research groups and Facebook Groups are different things. GEPEAR/UFRJ's own site documents its anti-racist education community; ABPN's own 2022 announcement documents an academic debate distributed through its Facebook Page and YouTube. These are concrete institutional discovery leads and a historical format example, not proof of a Facebook Group, current promotional access or a CONAFROEDU partnership. Ask an established contact to introduce the congress if there is a real thematic fit. [S74–S75]
+
+### 5.2 Posting as a Page, rules and a modest outreach cadence
+
+Meta's help article confirms that **Pages can request to join groups whose admins allow Pages**. Join/switch interaction identity as the organizing Page where offered, obtain required membership/participation approval, and verify the byline before posting or replying. Membership does not override post approval or the group's promotion rules. If only profiles are allowed, a genuine organizer may participate under their real identity with disclosure and within the rules; do not invent a profile for the congress or use another identity to bypass a refusal. [S63, S22]
+
+**Recommended pilot, not a spam-detection threshold:** shortlist 8–12 communities, start with 3–5 strong matches, and make one useful, approved contribution per group. Propose no more than one promotional post per group per week **only if that group permits it**; a monthly promotion thread means monthly, and a ban means none. For some groups, a launch call plus one moderator-approved deadline update during the entire campaign is sufficient. Spread the work across the week so a person can answer; no spacing interval or “safe number of groups per day” is verified to prevent flags. [S11]
+
+Track `group URL / topic / allowed identity / rules / permission date / approved slot / last contribution / questions / tagged visits / submissions or registrations`. Tailor the substance, not just synonyms. Do not bump unanswered posts with “up”, tag all members, repost while approval is pending, repeatedly contact a silent admin, or move a rejected link into comments to evade moderation. If declined, review the reason; ask once through an allowed route when genuinely unclear, then stop. A rejection is not proof of a Facebook-wide link penalty.
+
+### 5.3 Admin Assist is moderation, not an outreach bot
+
+Meta documents **Admin Assist** criteria for automatically moderating posts/comments, including specified links and account/member tenure, and approving/declining membership requests. The linked primary announcements are from 2021–2022; check the current group's controls before configuring them. This is distinct from a Page's **Moderation Assist**, which manages Page comments. [S64–S65, S11]
+
+For an existing organizer-run community, a human should own rules on racism, harassment, student privacy, promotional threads and appeals; start with a few available spam/link criteria and review automated decisions for mistakes. Do not blanket-block words such as “negro”, “racismo” or “antirracista”: legitimate scholarship and reported experiences contain them. In someone else's group, Admin Assist may hold or reject a permitted-looking post; seek the admin's guidance rather than disguising URLs, posting screenshots of links, or creating new accounts. Do not build a new permanent group solely to exploit supposed algorithm preference during this short campaign.
+
+### 5.4 The team's own group
 
 An annual event alone may not justify a permanent group. Recommended launch criterion: there is a continuing learning purpose, a named moderator and enough participants prepared to ask and answer questions.
 
-Possible purpose: “Troca de práticas e formação continuada — comunidade do [evento].” Keep a pinned welcome, conduct rules, disclosure rules, a weekly discussion and a resource index. Set boundaries against identifiable student information and unapproved promotional posts. Tell members what happens after the conference.
+Possible purpose: “Troca de práticas de educação antirracista — comunidade CONAFROEDU.” Keep a pinned welcome, conduct rules, disclosure rules, a weekly discussion and a resource index. Set boundaries against identifiable student information and unapproved promotional posts. Tell members what happens after the conference.
 
 Meta documents group-event creation and notes that posting options and approval requirements depend on admin settings; private and public groups also have different invitation/visibility behavior. Group membership does not promise delivery of every post. [S22]
 
@@ -243,11 +284,11 @@ The following lengths and quantities are **production experiments**, not Meta li
 
 | Format | Recommended first experiment | Example | Primary metric |
 |---|---|---|---|
-| Original Reel | 20–45 seconds, one question and answer | “O que fazer quando a turma copia uma resposta de IA sem compreender?” | Retention, non-follower reach, relevant visits |
+| Original Reel | 20–45 seconds, one question and answer | “Como trabalhar africanidades para além do mês de novembro?” | Retention, non-follower reach, relevant visits |
 | Longer native video/Reel | 2–5 minutes when explanation requires it | Speaker works through a real teaching decision | Average watch time, useful questions |
 | Real photo + caption | One person, one story, one useful point | Teacher explains why the session matters to their practice | Meaningful comments, shares, registrations |
 | Multi-image post/carousel | 4–6 readable panels | Problem → example → options → session invitation | Shares/saves where available, visits |
-| Plain text | One focused discussion | “Qual etapa do planejamento mais toma tempo hoje?” | Substantive replies |
+| Plain text | One focused discussion | “Que dificuldade aparece ao planejar uma prática de ERER?” | Substantive replies |
 | Story | A short sequence of 2–4 frames | Question, speaker answer, next action | Replies, exits, link actions where available |
 | Live | A rehearsed 15–25-minute conversation | Two speakers answer pre-submitted questions | Relevant attendance, retention, registrations |
 | Direct link post | Accurate benefit and deadline | Registration opens or a real price lot closes | Completed registration per visit |
@@ -255,6 +296,8 @@ The following lengths and quantities are **production experiments**, not Meta li
 Metricool's 2026 study examines approximately **39.8 million organic posts** across **1.06 million connected accounts**, including posts published natively. It reports Facebook average reach up **51%**, impressions **57%** and interactions **56%** against 2024. These are sample-level observations about 2025 performance, not a promise for a new Page. The study and Buffer's findings justify testing several formats rather than assuming Facebook is no longer useful. [S16–S17]
 
 ### 6.2 Reels production checklist
+
+**Length correction:** Meta's June 2025 announcement and its Reels help article describe the unified publishing flow as supporting any video length/orientation. Another indexed “Create a reel” article still says 90 seconds; it is a conflicting legacy instruction, not a universal October 2026 limit. The 20–45-second and 2–5-minute examples above are editorial experiments. Check the chosen composer/scheduler's actual upload and editing constraints, and check Instagram separately; “no Reels length restriction” is not a promise of unlimited file size or tool capability. [S12, S78–S79]
 
 - [ ] Record a real speaker/teacher with permission and a clean master file.
 - [ ] Start with the educator's problem, not the event logo.
@@ -271,23 +314,42 @@ Meta documents separate Facebook Reel audience settings, including for Reels sha
 
 ### 6.3 Carousels, collaborative posts and cross-posting
 
-An Instagram carousel is useful for a sequence such as “Três perguntas para avaliar uma ferramenta de IA.” On Facebook, the same images may appear as a grid or multi-photo post, so each image should make sense independently and the main caption should carry the argument. Meta's December 2025 interface announcement supports this distinction. [S14]
+An Instagram carousel is useful for a sequence such as “Três perguntas para revisar uma proposta de educação antirracista.” On Facebook, the same images may appear as a grid or multi-photo post, so each image should make sense independently and the main caption should carry the argument. Meta's December 2025 interface announcement supports this distinction. [S14]
 
 Instagram officially supports **Collabs** for co-authored posts, carousels and Reels; the invited account accepts, and the post can appear on participating profiles. Its 2023 announcement described up to three invited collaborators. **[UNVERIFIED] That historic cap is still the current maximum.** Use the actual composer to check. [S29]
 
 Recommended collaboration: the conference and a confirmed speaker jointly publish one genuinely useful explanation. Ask the speaker to adapt the opening to their community and respond to relevant comments. Do not describe this as guaranteed delivery to every follower.
 
-**[UNVERIFIED] Current universal availability and exact behavior of Facebook co-authored/collaborator posts for Brazilian Pages, and whether an Instagram collaboration preserves all collaborator behavior when cross-posted.** Distinguish Instagram Collabs from Facebook Event co-hosts and a normal tag/share. The fallback is a speaker-authored post, approved assets, proper attribution and a unique tracked registration link.
+**Facebook collaboration exists for videos/Reels; it is not established as a universal feature for every post type/Page.** Publer's own integration documentation describes inviting another **Facebook Page** and having the accepted video/Reel appear on both feeds. Its workflow excludes profiles/Groups and documents a one-collaborator API limit. That is evidence for that integration, not the native app's universal cap or a reason to buy a scheduler. **[UNVERIFIED]** Native October 2026 limits, photo/text-post support and eligibility for this Brazilian Page. [S70]
+
+Where the native composer offers collaboration, test one approved congress–speaker Page Reel: invite before publishing, have the speaker accept under the correct Page, then inspect the live result from both Pages. A normal @mention, a share, an Event co-host or a paid-partnership tag is a different mechanism. **[UNVERIFIED]** Preservation of Instagram Collab relationships after Facebook cross-posting; verify each destination separately. The fallback is a speaker-authored invitation/share with approved assets, attribution and a tracked Even3 link.
 
 ### 6.4 Stories and Lives
 
-Recommended Stories themes: behind-the-scenes preparation, a speaker's personal invitation, an honest deadline, a short FAQ, the venue route, and live schedule updates. Add questions, countdowns or links only where the specific account supports them. **[UNVERIFIED] Identical stickers and scheduling features across Facebook, Instagram and every account.**
+Recommended Stories themes: behind-the-scenes preparation, a speaker's personal invitation, an honest deadline, a short FAQ, how to access the online congress, and live schedule updates. Add questions, countdowns or links only where the specific account supports them. **[UNVERIFIED] Identical stickers and scheduling features across Facebook, Instagram and every account.**
 
 For a Live, assign a host, a speaker and a moderator; collect questions beforehand; rehearse sound and connectivity; prepare a backup recording. Do not promise the entire conference stream if only a short public segment is authorized.
 
-Current secondary guidance describes a 60-day account-age requirement and 100 followers for Pages/professional-mode profiles. **[UNVERIFIED] These are the complete requirements applicable to this account on the event date.** Confirm directly in Live Producer before advertising a broadcast. [S28]
+StreamYard's current connection documentation explicitly requires a **Facebook account at least 60 days old**, a **Page/professional-mode profile with at least 100 followers**, and appropriate **Facebook access or task access to create content**. This independently corroborates the former secondary-only eligibility note. Meta's direct Live help page remained login-blocked; **[UNVERIFIED]** this specific Page's eligibility/restrictions and the complete set of conditions at broadcast time. Rehearse in Live Producer before announcing a Live. A Facebook account created on 21 October cannot reach 60 days by 5 December; work through an established, authorized real organizer and grow genuine Page followers, or use the external-stream fallback. [S68]
 
 One verified operational change is particularly important: Meta's February 2025 policy makes new Facebook Live recordings available for **30 days**, after which they are automatically removed. Download promptly and turn authorized excerpts into reusable content. Facebook should not be the only archive of conference recordings. [S27]
+
+### 6.5 A small online congress production plan
+
+**Recommended public preview:** one 15–25-minute speaker conversation, “Educação antirracista o ano inteiro: uma prática e uma pergunta”, followed by a short Even3 invitation. Suggested run-of-show: two minutes of introductions; ten minutes explaining a real practice/research question; five minutes answering collected questions; two minutes explaining either submission rules **while open** or attendance registration. Add accurate captions to the replay/clips. Have a producer and a moderator; for anti-racist education, agree how to handle racist abuse, genuine questions and privacy before going live. This is a proposed session, not an announced programme item.
+
+| Production route | Documented basis and cost boundary | Practical choice for this team |
+|---|---|---|
+| Facebook Page Live / Live Producer | Native route; account eligibility/access must work [S68] | Rehearse the actual destination, microphone, slides, captions/support and reconnect plan. Share the scheduled preview into the canonical congress Event |
+| StreamYard → Facebook Page + YouTube | Vendor documents simultaneous destinations on **paid plans**; a trial is not an ongoing free plan [S69] | Use only an existing suitable subscription or an explicitly budgeted plan. Check current monthly billing, trial expiry, taxes and guest/recording limits; no Brazil price assumed |
+| Existing Facebook Live Event via StreamYard RTMP | Host/co-host access and an event's server URL/key are documented; this route does **not** import Facebook comments/viewer counts into the studio [S67] | Confirm plan support for custom RTMP, assign a moderator to Facebook itself, keep keys private and verify any required Facebook “Go live” action |
+| YouTube-only public preview, linked from Facebook | YouTube requires channel verification and no recent streaming restrictions; enable/check the chosen streaming method early [S71] | If Facebook Live eligibility fails or multistreaming costs exceed capacity, share a clear watch link and later publish authorized native clips. Test before promising availability |
+
+Do not assume a YouTube URL inside a Facebook Event simulcasts anything. For actual simultaneous distribution, connect both eligible destinations in the production tool and check the two outputs independently. Use one registration CTA, label which segments are public, and monitor both chats without promising identical comments/metrics. Keep the congress delivery platform, presenter submission route and registration system distinct.
+
+**Watch parties:** do not teach the retired native Facebook **Watch Party** button as a 2026 tactic. A contemporaneous report reproduces Facebook's notice giving **16 April 2021** as the withdrawal date; a current official retirement help article was not retrievable. Instead organize an ordinary **viewing-and-discussion session**: with admin approval, agree a time, share an authorized public Live/YouTube watch URL in the group, and have a facilitator lead discussion in the comments. This is a manual activity, not a restored Facebook feature; do not rebroadcast somebody else's video or distribute attendee-only links. [S72]
+
+**Live → clips:** obtain speaker permission for public broadcast, recording and excerpts; download the master immediately, correct Portuguese captions and produce 2–3 independently useful clips (for example one classroom practice, one research question and one author FAQ). Meta documents clipping Live moments into Reels to keep them beyond the Live replay window. Save a separate archive; schedule clips around their relevance and retire any expired submission CTA. A 5 December recording cannot help the 4 November submission deadline. [S27]
 
 ## 7. WhatsApp Channels, Communities, Status and support
 
@@ -311,7 +373,7 @@ Recommended starting rhythm:
 
 - Before the final fortnight: one or two genuinely useful Channel updates weekly.
 - Final fortnight: publish major changes and real deadlines; avoid simply duplicating the Feed daily.
-- Day before: travel/accessibility/contact checklist.
+- Day before: online access, accessibility and support checklist.
 - Event day: a small number of useful updates, with an explicit expectation of higher activity.
 - Afterwards: resources, feedback and a clear choice about future updates.
 
@@ -347,7 +409,7 @@ Do not average these schedules into a claimed scientific “best time for Brazil
 
 ### 8.2 BRT and regional time zones
 
-Use **“horário de Brasília”**, normally **BRT / UTC−3**, in public deadline copy, and select an appropriate location-based time zone such as `America/Sao_Paulo` in tools. Brazil spans multiple time zones. Check the venue and the participating regions, and recheck any daylight-saving decision before future scheduling; the Observatório Nacional explicitly cautions that local rules can change. [S53]
+Use **“horário de Brasília”**, normally **BRT / UTC−3**, in public deadline copy, and select an appropriate location-based time zone such as `America/Sao_Paulo` in tools. Brazil spans multiple time zones. Check the online programme and participating regions, and recheck any daylight-saving decision before future scheduling; the Observatório Nacional explicitly cautions that local rules can change. [S53]
 
 Example for a UTC−3 event: “Inscrições até 12/11, às 23h59, no horário de Brasília.” Do not publish “midnight” without the date and time zone. When the audience spans other Brazilian zones, provide a calendar link or a clear local conversion.
 
@@ -384,23 +446,23 @@ These quantities are a resource-based recommendation. The team can increase usef
 | Wednesday | Programme detail with registration link | Event FAQ update | Remove an attendance barrier | Event information owner |
 | Thursday | Practical checklist in 4–6 panels | Facebook multi-photo + Instagram carousel | Useful sharing/saving | Content producer |
 | Friday | Weekly highlights if there is real news | WhatsApp Channel digest | Help opted-in people catch up | Community responder |
-| Weekend | Optional context-specific content | Venue/travel material near event | Serve actual audience needs | Assigned person |
+| Weekend | Optional context-specific content | Online access or presenter preparation near event | Serve actual audience needs | Assigned person |
 
 Maintain one calendar with: publication date/time zone, channel, audience, phase, objective, source facts, format, hook, CTA, asset owner, reviewer, permission status, UTM, scheduled/published URL and results.
 
 ## 9. Conference campaign from announcement to recap
 
-The following is a **recommended relative timeline**, not a benchmark derived from a Brazilian conference experiment. Start earlier when academic submissions, institutional approvals or travel are involved. If the event is close, prioritize essential information and partners rather than compressing months of posts into a week.
+The following is a **reusable relative timeline for future editions**, not a benchmark derived from a Brazilian conference experiment. Start earlier for academic review and institutional approvals. **For the current edition, use the dated six-week plan in §9.7**; the T−24-week tasks are not remaining work to cram into October.
 
 | Phase | Timing relative to event | Core communication | Distribution and measurement |
 |---|---|---|---|
-| Foundation | T−24 to T−16 weeks | Audience, purpose, date/venue confirmation, landing page, source-of-truth facts, permissions | Set up Page/Event, support contact and tagged links |
+| Foundation | T−24 to T−16 weeks | Audience, purpose, dates/format confirmation, landing page, source-of-truth facts, permissions | Set up Page/Event, support contact and tagged links |
 | Announcement | T−16 to T−12 | Why the meeting matters; who should attend; what is confirmed | Ask real partners to share; inspect relevant visits |
 | Call for speakers/papers | According to review needs, often early | Themes, eligibility, format, selection process, submission deadline, accessibility, costs | Separate submission CTA/link from attendee registration; measure eligible submissions |
 | Speaker reveals | T−12 to T−6 | One useful idea and why that speaker can address it | Speaker-approved kit, Collab, relevant group discussion |
 | Early-bird/lot deadline | A genuine agreed sales period | Exact price/conditions and change time, plus programme value | Reminder roughly one week before and near closure; measure approved registrations |
 | Programme depth | T−8 to T−3 | Tracks, workshop examples, learning questions, audience-specific itineraries | Schools, universities and subject communities |
-| Objection handling | T−4 to T−2 | Travel, time off, payment, certificates, accessibility, student participation | Pin FAQ, answer recurring questions, track blocked registrations |
+| Objection handling | T−4 to T−2 | Online access, time commitment, payment, certificates, accessibility, student participation | Pin FAQ, answer recurring questions, track blocked registrations |
 | Countdown | T−14 days to T−1 | Preparation and practical information; real availability | More frequent useful updates; maintain moderation coverage |
 | During event | T0 | Welcomes, actual timetable updates, approved clips, participant takeaways | Dedicated capture/moderation roles; protect ticket-only access |
 | First recap | T+1 to T+3 days | Thanks, useful moments, next resource date | Request permission for UGC; send the promised resources |
@@ -423,7 +485,7 @@ Do not assume a certificate counts for career progression, that a conference is 
 
 Recommended contents in one easy folder:
 
-- [ ] Approved event name, date/time zone, venue and one-sentence purpose.
+- [ ] CONAFROEDU name, 5–6 December 2026, online format, confirmed times in Brasília time and one-sentence purpose.
 - [ ] Short speaker biography and approved headshot with usage permission.
 - [ ] A vertical invitation template, a square/portrait Feed graphic, and a clean speaker video.
 - [ ] Alt-text suggestions and corrected captions/transcript.
@@ -448,7 +510,7 @@ Offer useful reciprocal value: a speaker interview, an open educational resource
 
 Prioritize relevance and trust over follower count. A locally respected teacher with a small audience may be a better fit than an unrelated large creator; that is a hypothesis to evaluate, not an asserted performance law.
 
-Débora Garofalo is a concrete discovery starting point for technology/innovation themes: her own site describes teacher training, talks, STEAM, robotics and AI in education. This verifies topical fit only. **[UNVERIFIED] Current campaign rates, availability, audience geography, willingness to collaborate without payment or likely ticket sales.** Do not copy promotional superlatives from a creator biography as independently proven rankings. [S55]
+For CONAFROEDU, start with confirmed speakers, Black Brazilian educators, ERER researchers, NEABIs/NEABs, ABPN-linked networks and Black-led education collectives with a relevant body of work. GEPEAR/UFRJ and ABPN are documented discovery leads, not confirmed partners. An AI/robotics educator such as the previously researched Débora Garofalo should only be approached if an actual session creates a clear fit; follower count or a general education label is insufficient. **[UNVERIFIED]** Availability, fees, audience geography, endorsement or willingness to contribute without payment for any proposed collaborator. [S55, S74–S75]
 
 Recommended shortlist criteria: relevant teaching specialty, recent accurate work, audience location, quality of discussion, accessibility, permission to reuse material, willingness to disclose benefits and realistic production effort. For no-budget outreach, propose a genuinely relevant interview or resource exchange; do not assume professional creators should work free.
 
@@ -464,6 +526,54 @@ Porvir and Nova Escola are real education publishers worth checking for editoria
 
 Recommended outreach angle: a specific local education problem, new findings with evidence, a teacher-led practice, or an interview relevant to the outlet's audience. Include a short factual summary, confirmed interview availability, permitted photos, dates and the public information URL. Approach one relevant editorial contact at a time. Separate a news pitch from a request for a paid advertorial. **[UNVERIFIED] Current submission processes, rates and editorial interest; check the outlet before contact.**
 
+### 9.7 The actual compressed six-week campaign: 26 October–6 December
+
+**This is a proposed workload, not an algorithm rule or a newly announced congress programme.** Use **21–25 October** for immediate setup: reconcile the brief/Even3 rules, confirm submission and video cut-off times, check the Page/Event and checkout on mobile, record one speaker, appoint one responder, and split the link register into `submissoes` and `inscricoes`. Do not spend the first fortnight creating new channels while the author deadline approaches.
+
+The six full campaign weeks run Monday **26 October** to Sunday **6 December**; the congress is on the final **Saturday–Sunday, 5–6 December**. The published timeline gives programme/presentation scheduling by **25 November**. All publishing slots below are proposed Brasília-time slots to test. Use the actual cut-off time supplied by the committee; none is invented here. [S77]
+
+| Week and dates | Facebook Page assets: 3–4 posts unless noted | Author/submission action | Attendee/partner action |
+|---|---|---|---|
+| **1 · 26 Oct–1 Nov** | Mon: clear online congress announcement. Wed: speaker's ERER teaching example Reel. Fri: submission-format/rules checklist. Optional Sun: answer a real author FAQ | Front-load the call for papers and a short “como submeter” demonstration. Link current norms and accepted modalities; explain that registration and file submission are separate steps. State the published 4 Nov date | Publish the canonical Event and an attendance-only FAQ. Give a concise kit to confirmed speakers and a small NEABI/PPGE shortlist; pilot 3–5 permitted group contributions |
+| **2 · 2–8 Nov** | Mon: author checklist. Wed 4 Nov: useful final submission reminder at a committee-confirmed time. Fri: classroom-practice clip. Sun: attendance benefit/FAQ | Treat **4 Nov** as the published submission/video deadline. Offer a staffed question window. After closure, update pinned calls and queued posts to “submissões encerradas”; use only a formally approved extension | Continue Even3 registrations. Explain that attending does not require presenting a paper. Replace the submission button/message once closed rather than confusing prospective attendees |
+| **3 · 9–15 Nov** | Mon: one scholarly/teaching question. Wed: speaker answer Reel. Fri: “como participar on-line”. Optional Sun: a real lot deadline, only after checkout verification | Support already-submitted authors with private procedural notices. Stop recruiting submissions if closed; clarify corrections, publication and presenter requirements individually | Address internet/device access, timetable, costs and the advertised 40h certificate's conditions. Confirm any actual 15 Nov lot change before promoting it; never infer scarcity from ticket labels |
+| **4 · 16–22 Nov** | Tue: sourced teaching resource. Thu 19 Nov: proposed short public conversation if rehearsed/authorized. **Fri 20 Nov:** a substantive Consciência Negra contribution. Sun: useful conversation clip | Invite an authorized author/researcher to explain a substantive idea, without claiming acceptance or new submission availability prematurely | Connect Novembro Negro to continuing education on 5–6 Dec. Ask partners to choose a respectful slot around their own actions; offer one clear registration CTA, without discount pressure on the commemorative post |
+| **5 · 23–29 Nov** | Mon: audience-specific programme guide. Wed: official programme when released. Fri: online access/support FAQ. Sun: presenter-approved preview | Check each author's approved presentation/video/access arrangements and any outstanding corrections through the designated private route | Publish the confirmed programme by the organizer's announced 25 Nov milestone or explain a delay truthfully. Offer a calendar file/link if available; rehearse delivery and support. Request one final voluntary partner invitation |
+| **6 · 30 Nov–6 Dec** | Mon: participation checklist. Wed: “como acessar”. **Thu–Fri 3–4 Dec:** one main final invitation plus concise Stories/FAQ updates. **Sat–Sun 5–6 Dec:** useful live schedule/support notices; this can replace the usual post cadence | Send presenters their actual schedule, upload/access checks and human contact. Do not recast late registrations as permission to submit new work | Before opening, emphasize start time, login route and certificate conditions. During the event, publish only authorized public excerpts and send registered people to their access destination. Timeline allows registration through 6 Dec: “começa em 48 horas” is not “inscrições acabam em 48 horas” |
+
+Use the existing baseline of one useful Event update and 1–2 voluntary WhatsApp Channel updates weekly; combine messages near a deadline so people do not receive a separate notification for every asset. External groups follow **their** permitted schedule. Reserve daily support time before adding more posts. In the final week, registered attendees need access guidance; avoid sending them repeated purchase invitations.
+
+**20 November is Friday and a national holiday**, Dia Nacional de Zumbi e da Consciência Negra, under Lei 14.759/2023. Do not assume educators are free or online that day: many organize school/community actions. Prefer a resource credited to a real Black educator, a speaker-approved reflection, or an invitation to continue the work beyond November. No fabricated quotation, tokenistic stock imagery, invented partnership or “celebrate by buying” framing. [S80]
+
+### 9.8 Two funnels: scholarly submissions and attendee registrations
+
+| Funnel | Audience and useful content | One clear next action | What to count |
+|---|---|---|---|
+| **Author: discovery → rules → registration where required → submission → review/corrections → presentation/publication** | Postgraduates, PPGE research groups, NEABIs/NEABs, ERER researchers and teachers documenting practice. Explain thematic fit, accepted format, ethics/anonymization, PDF/template requirements, fees and deadline | **“Leia as normas e submeta seu trabalho”** to the actual Even3 submission/rules route while open; do not label the generic ticket button as file submission | Completed eligible submissions by modality/track; incomplete attempts/questions; acceptance and presenter readiness separately. A purchased author ticket is not a submitted or accepted paper |
+| **Attendee: discovery → programme/conditions → Even3 registration/payment → access instructions → participation** | Basic-education teachers, licenciandos, managers and interested researchers. Lead with anti-racist education, real speakers/practices, online convenience and clearly stated certificate conditions | **“Inscreva-se para participar em 5 e 6 de dezembro”** to [Even3](https://www.even3.com.br/iconafroedu-764690/) | Confirmed registrations by category and attributable link, followed by actual attendance/required activities. Facebook Going/Interested and Live views are separate |
+
+The public Even3 rules require the submitting author to be registered and say approved work goes to the proceedings. The page also separately advertises a **R$16.98 per-work publication fee** while calling submission free. Explain the complete author cost path; do not turn “submissão gratuita” into “participação/publicação gratuita.” Recheck the live terms and checkout before quoting prices. The supplied announcement emphasizes artigo completo, resumo expandido and práticas exitosas; the live rules additionally name resumo simples/relato de experiência. Align the current labels and requirements with the committee before making the tutorial. [S76]
+
+Keep separate asset/link codes such as `utm_campaign=conafroedu_2026_submissoes` and `utm_campaign=conafroedu_2026_inscricoes`, with `utm_content=neabi_checklist_01` or `professora_pratica_01`. Test the actual submission route and whether its parameters survive login; do not invent a working submission deep link. If no source report exists for submissions, combine aggregate counts with an optional discovery question. One person can be both author and attendee: do not add the two totals as unique participants.
+
+Recommended copy examples, to be checked against the current rules:
+
+> **Autores, enquanto o prazo estiver aberto:** Sua pesquisa ou prática de educação antirracista pode contribuir para o CONAFROEDU. O cronograma publicado prevê submissões até 4 de novembro. Confira a modalidade, as normas, a inscrição exigida e as condições de publicação antes de enviar: [link das normas/submissão].
+
+> **Participantes:** Como fortalecer a educação antirracista no cotidiano da escola? O CONAFROEDU reúne pesquisa e práticas em 5 e 6 de dezembro, 100% on-line. A divulgação prevê certificado de 40 horas; confira a programação e as condições de participação no Even3: [link de inscrição].
+
+### 9.9 Deadline extensions and the final 48 hours
+
+**Only announce an extension after the scientific/organizing committee authorizes it and the submission system is updated.** Keep the old and new deadline, approval record, exact new Brasília cut-off, accepted formats and any effect on review/presentation scheduling. Correct pinned posts, Event details, Stories/highlights, partner kits and queued reminders; do not leave “encerra hoje” running against an extended system. Do not invent a popular-demand explanation or use “improrrogável/última chance” if another extension remains possible. Announce one clear update, then a factual closing reminder; repeated extensions weaken trust.
+
+Template, **not a real extension announcement**:
+
+> A Comissão Científica prorrogou o prazo de submissão de **[data anterior] para [nova data], às [horário de Brasília]**. [Modalidades e condições mantidas/alteradas, conforme decisão]. Quem já enviou não precisa reenviar, **se isso estiver confirmado**. Normas e envio: [link atualizado].
+
+For a real submission cut-off, plan a useful checklist around **T−48h** and one final reminder around **T−24h** in approved channels. Since the published 4 November date lacks a verified time, obtain that time before claiming “faltam exatamente 48 horas.” Offer file-format/account help, identify the correct deadline and remove the CTA after closure. Moderators may permit neither reminder in an external group; respect that.
+
+For **3–4 December**, the honest urgency is the approaching opening, not an invented registration closure. Suggested final sequence: a Page post with programme/access/Even3 on 3 Dec; an updated FAQ/Story on 4 Dec; one compact Event reminder and an optional opt-in digest as needed. This is a low-volume recommendation, not a maximum imposed by Facebook. Do not send countdowns hourly, duplicate the same pitch across every surface, mass-tag teachers or DM Event respondents. Say “últimas vagas” only if an actual checked cap supports it; online format alone is not scarcity. The published end of registration is 6 Dec, and any change must come from the organizer. [S77]
+
 ## 10. AI-assisted copywriting and content planning
 
 All prompts below are **original working templates**, not quotations from an AI provider or research-validated formulas. They can be used in an assistant the team already has access to; no paid AI product or API is required by the workflow. **[UNVERIFIED] Particular providers' October 2026 free quotas, uploads, commercial terms and privacy settings; check before using personal or confidential material.**
@@ -474,12 +584,12 @@ Keep a plain document with:
 
 | Field | Example direction |
 |---|---|
-| Audience | Educators with limited time and different levels of AI familiarity |
+| Audience | Teachers, licenciandos, postgraduates and researchers interested in Africanidades and anti-racist education |
 | Voice | Clear, warm, professional; educator-to-educator |
 | Relationship | Respect classroom experience and structural constraints |
 | Preferred language | Native pt-BR; concrete examples; explain technical terms |
 | Avoid | “Revolucione sua carreira”, miracle claims, fake scarcity, guilt, excessive emojis |
-| Event facts | Official name, city, dates, venue, format, confirmed programme |
+| Event facts | CONAFROEDU, 5–6 December 2026, 100% online, confirmed programme and Brasília times |
 | Commercial facts | Real prices/lots, eligibility, refund policy, deadlines |
 | Educational facts | Documented learning aims and certificate conditions |
 | Access facts | Confirmed accessibility provisions and contact |
@@ -492,12 +602,12 @@ Use “professores e professoras” or another agreed inclusive form where it re
 
 | Purpose | Example opening | Appropriate next action |
 |---|---|---|
-| Practical relevance | “Sua turma usa IA. Como transformar isso em uma conversa sobre aprendizagem?” | Read the session details |
+| Practical relevance | “Como trabalhar a história e a cultura afro-brasileira ao longo do ano?” | Read the session details |
 | Peer expertise | “O que uma professora aprendeu ao testar [prática documentada] com a turma?” | Watch the actual explanation |
 | Programme fit | “Três conversas da programação para quem trabalha com [público].” | View the programme |
 | Attendance objection | “Quer participar, mas ainda tem dúvidas sobre [logística]?” | Consult the FAQ or ask support |
 | Honest urgency | “O valor do [lote] muda em [data], às [hora de Brasília].” | Register at the verified destination |
-| Discussion | “Que critério você usa para escolher uma ferramenta para a escola?” | Share an experience if comfortable |
+| Discussion | “Que desafio aparece quando você planeja uma prática de educação antirracista?” | Share an experience if comfortable |
 
 Do not present an illustrative classroom case as a true testimonial. If a claim needs evidence, the AI should flag the gap. Good caption structure: specific opening → useful explanation/example → verified event connection → one clear action.
 
@@ -507,7 +617,9 @@ Facebook's anti-spam announcement specifically identifies excessive hashtags and
 
 For Instagram, December 2025 reporting reproduces @creators' announcement of a gradual move to **five hashtags per post/Reel caption**, emphasizing relevance. The linked primary Threads post could not be retrieved. **[UNVERIFIED] Identical enforcement across all current publishing flows.** Do not teach the old “always use 30 hashtags” formula. [S37]
 
-Recommended practice: use a small set when useful, such as an event identifier, the actual subject and a location. Example: `#[NomeDoEvento] #FormaçãoDocente #EducaçãoInclusiva #[Cidade]`. Check a tag before publishing, and use readable capitalization. Put the audience's real subject words in the caption naturally. Hashtags are not an attendance strategy or a guaranteed reach multiplier.
+For **Facebook**, hashtags are documented as clickable/searchable subject labels; they do not change a post's audience/privacy. This establishes a discovery function, not a measured 2026 reach boost. No current universal Facebook hard cap or optimal number was verified; do not transplant Instagram's limit into Facebook rules. [S81]
+
+**Recommended test, not an optimal-number claim:** use zero to three highly relevant Facebook tags where they help, and write the same subjects naturally in the caption. For CONAFROEDU, try `#CONAFROEDU #EducaçãoAntirracista #Africanidades`; for an author-focused post, replace a subject tag with `#PesquisaEmEducação` or `#PósGraduação`. Use `#ConsciênciaNegra` only on substantively relevant November content. Do not dump all the announcement's tags into every post, add unrelated trending tags or attach a city merely to imply a venue for this national online event. Check live search/results before adopting a tag; these examples do not claim current popularity. Use readable capitalization and test registration outcomes, not just hashtag impressions. [S11]
 
 ### 10.4 A/B testing without pretending organic posts are randomized trials
 
@@ -585,14 +697,20 @@ Links e superfícies disponíveis: [listar]
 Entregue também uma tabela de conferência dos fatos entre as versões.
 ```
 
-#### Prompt 3 — Four-week content calendar within the team's capacity
+#### Prompt 3 — Six-week CONAFROEDU calendar within the team's capacity
 
 ```text
-Monte um calendário orgânico de quatro semanas para [evento].
+Monte um calendário orgânico de seis semanas, de 26/10 a 06/12/2026,
+para o CONAFROEDU, 100% on-line em 5 e 6 de dezembro.
 Temos [número] pessoas e [horas] horas totais por semana.
 Canal principal: Facebook. Apoio: Instagram e um Canal do WhatsApp.
-Fase da campanha: [fase]. Público prioritário: [segmento/cidade].
+Público prioritário: [segmento de professores/pesquisadores/estudantes].
 Datas e fatos aprovados: [colar]. Materiais existentes: [inventário].
+O cronograma consultado em 21/10 prevê submissão e envio de vídeo
+até 04/11; o horário exato deve vir da organização. Separe a chamada
+de trabalhos da inscrição para participar. Depois de 04/11, só mantenha
+a chamada se houver prorrogação formal. Inclua uma contribuição
+substantiva para 20/11, sem inventar descontos ou parceiros.
 
 Proponha no máximo 4 posts de Feed por semana, com até 2 vídeos.
 Inclua adaptação de materiais, tempo para responder e revisão humana.
@@ -739,10 +857,10 @@ Professional Dashboard's older feature announcement documents follower/non-follo
 
 Google documents `utm_source`, `utm_medium` and `utm_campaign` for campaign attribution, with optional distinctions such as `utm_content`. Values are case-sensitive. Its Traffic acquisition report exposes session source/medium and campaign. [S41]
 
-Recommended naming convention: lowercase, no spaces, no personal information. Example using a reserved example domain:
+Recommended naming convention: lowercase, no spaces, no personal information. Example for the actual attendee registration destination; test parameter retention before distribution:
 
 ```text
-https://example.com/inscricoes?utm_source=facebook&utm_medium=organic_social&utm_campaign=conferencia_educacao_2026&utm_content=reel_professora_01
+https://www.even3.com.br/iconafroedu-764690/?utm_source=facebook&utm_medium=organic_social&utm_campaign=conafroedu_2026_inscricoes&utm_content=reel_professora_01
 ```
 
 | Placement | Suggested source | Suggested medium | Content detail |
@@ -767,11 +885,11 @@ Keep a register with destination, parameter values, owner, placement, creation d
 | **Even3** | Its Analytics guide describes visits, registrations/payments and traffic origins from tagged campaign links, within the platform | Check source data and approved registrations; do not infer every demographic field is complete or every feature included in every plan [S43] |
 | **Eventbrite** | Official tracking-link guide describes partner/promotion-specific URLs with views and sales; permissions are required and view data can lag | Use exact generated links for speakers/partners; do not alter their spelling/capitalization [S44] |
 
-These are relevant options for a Brazilian event, not a verified market-share ranking. Choose the platform the organizer can support and reconcile financially. Existing platform analytics may be enough without installing another tracker.
+These are comparative references for future use, not a market-share ranking or a recommendation to migrate this congress. **CONAFROEDU already uses Even3**: inspect that event's available reports first. Existing platform analytics may be enough without installing another tracker.
 
 ### 11.5 Landing pages, link-in-bio and attribution limits
 
-Recommended mobile link page: put **Inscrições** first, then **Programação**, **Local e acessibilidade**, and **Dúvidas/contato**. Use accurate button labels. A direct registration link may be better when there is only one meaningful action; a hub adds a click.
+Recommended mobile link page: show distinct **Inscreva-se para participar** and, while open, **Normas e submissão de trabalhos** actions, followed by **Programação**, **Acesso on-line e acessibilidade**, and **Dúvidas/contato**. After the submission deadline, retire its CTA. Use accurate button labels. A direct Even3 link may be better when a post has only one action; a hub adds a click.
 
 If using a hub, tag the incoming bio link and preserve appropriate attribution on the outgoing registration path. If using a shortener or QR code, test the destination and parameters after redirects. Do not promise a free link service includes exportable or unlimited historical analytics. [S59–S60]
 
@@ -859,18 +977,18 @@ Recommended publishing checklist:
 - [ ] Use descriptive links and restrained emojis; avoid decorative Unicode fonts.
 - [ ] Provide real accessibility information and a human contact. Mention Libras only if confirmed.
 
-Example alt text, **illustrative**: “Professora apresenta três perguntas sobre avaliação em uma sala de formação. A arte informa: [nome do evento], [data], [cidade].” Replace placeholders and describe what is actually present; do not infer identities or disabilities.
+Example alt text, **illustrative**: “Professora apresenta três perguntas sobre educação antirracista. A arte anuncia CONAFROEDU, 5 e 6 de dezembro de 2026, 100% on-line.” Use only if it describes the actual asset; do not infer identities or disabilities.
 
 ## 13. A practical first fortnight and unresolved research gaps
 
 ### First two weeks: recommended sequence
 
-1. Agree on the priority audience, truthful event promise, fact sheet and approval owner.
+1. Agree on CONAFROEDU's priority audiences, fact sheet and approval owner; confirm the published 4 November submission/video deadline and missing cut-off time immediately.
 2. Check Page access, public information, Instagram connection and the available registration surfaces.
 3. Publish/check the canonical Event and registration page on mobile.
 4. Set up a link register, privacy notice and optional update destination.
 5. Record one real speaker answering three useful questions.
-6. Prepare two clips, one practical multi-image post, one programme/FAQ post and a short update digest.
+6. Prepare two clips, an author rules/checklist post, a participant/online-access FAQ and a short update digest; prioritize submission help before 4 November.
 7. Invite a small number of confirmed partners to contribute using a clear kit and tracked links.
 8. Identify a few relevant groups, read rules and obtain moderator permission where needed.
 9. Publish on the proposed BRT test slots, answer questions and log outcomes.
@@ -881,16 +999,17 @@ Example alt text, **illustrative**: “Professora apresenta três perguntas sobr
 | Item | Status as of 2026-10-21 | Verification needed |
 |---|---|---|
 | Exact algorithm weights or guaranteed reach | **[UNVERIFIED]** | Do not claim them; no public fixed formula established |
-| Brazil educator platform demographics | **[UNVERIFIED]** | Audience interviews, organizer data, credible occupation-specific research |
+| Brazil educator platform demographics | **Partly resolved:** TIC Educação 2024 K5 verifies educational/student-interaction use; personal use and event discovery remain **[UNVERIFIED]** | Keep the question, teacher population and year explicit; research higher-education audiences locally [S61–S62] |
 | Current Brazilian Facebook population | **[UNVERIFIED]** as a single reconciled number | Keep differing providers/methods/dates separate |
 | Universal best posting time/frequency | **[UNVERIFIED]** | Page-specific tests, content/registration results |
 | Page-specific Event/co-host/ticket workflows | **[UNVERIFIED]** | Walkthrough in the actual account |
 | Guaranteed Event notifications | **[UNVERIFIED]** | Never promise delivery; offer voluntary alternatives |
-| Facebook collaborator posts and cross-posted Collab behavior | **[UNVERIFIED]** | Composer/account test |
+| Facebook collaborator posts and cross-posted Collab behavior | **Partly resolved:** Page video/Reel collaboration documented by an integration; native limits/photo-text support/cross-post preservation **[UNVERIFIED]** | Composer/account test; do not confuse API limits with native-app limits [S70] |
 | Reels A/B testing and creator assistant in Brazil | **[UNVERIFIED]** | Professional Dashboard/account eligibility |
 | Universal five-hashtag enforcement | **[UNVERIFIED]** | Check current Instagram composer/help; keep tags restrained regardless |
 | External-link restrictions in Brazil | **[UNVERIFIED]** | Account notice and current official local documentation |
-| Live eligibility and production permissions | **[UNVERIFIED]** for this Page | Live Producer rehearsal before promotion |
+| Live eligibility and production permissions | **Partly resolved:** 60-day account / 100 followers / appropriate access documented; specific Page eligibility **[UNVERIFIED]** | Live Producer rehearsal; an external-stream link is the fallback [S68] |
+| Submission and presentation-video deadlines | **Verified published date: 4 November**; exact time and any extension **[UNVERIFIED]** | Committee confirms cut-off and reconciles video deadline with review/presenter instructions [S76–S77] |
 | Paid feature entitlements, ticket fees, messaging rates | **[UNVERIFIED]** for this team | Local current plan/dashboard; keep manual/native free baseline |
 | Event-specific educational/legal promises | **[UNVERIFIED]** | Organizer documents and institution-specific review |
 
@@ -982,6 +1101,32 @@ Example alt text, **illustrative**: “Professora apresenta três perguntas sobr
 - **S59 — Buffer, Start Page product page.** **Undated live page**, checked **2026-10-21**; free entry and link-page function advertised. Exact free analytics limits not established. https://buffer.com/start-page
 - **S60 — Linktree, pricing page.** **Undated live page**, checked **2026-10-21**. Free plan with restrictions/basic links; paid tiers for additional analytics/export/features. Local paid prices not exposed reliably and not quoted. https://linktr.ee/s/pricing
 
+### Sources added in pass 2
+
+**Independently checked 2026-10-21.** S01–S60 retain the first researcher's source history; the verification log below identifies which key claims were rechecked. Vendor help pages below are firsthand documentation of their own integrations, not a substitute for testing the conference's Facebook account. Where an older announcement is used, its age is explicit.
+
+- **S61 — Cetic.br/CGI.br, TIC Educação 2024, indicator K5, “Professores, por redes sociais utilizadas em atividades educacionais ou para interagir com os alunos.”** **2024 survey edition**; full report describes fieldwork **August 2024–March 2025**. Primary table's total row and denominator read: Facebook 12%, Instagram 29%, YouTube/WhatsApp each 57%, among Ensino Fundamental/Médio teachers in the survey population. Not a personal-use or conference-discovery survey. https://cetic.br/pt/tics/educacao/2024/professores/K5/expandido/ ; full report: https://www.cetic.br/media/docs/publicacoes/2/pt-br/20251217165522/tic_educacao_2024_livro_completo.pdf
+- **S62 — Cetic.br, TIC Educação microdata/documentation catalog, 2025 edition.** Metadata publication **2026-08-04**. Current catalog lists 2025 schools/managers and 2024 teacher/student modules; used to avoid presenting K5 as new 2026 teacher data. https://cetic.br/pt/pesquisa/educacao/microdados/
+- **S63 — Facebook Help Center, “Join a Facebook group.”** **Undated**; indexed official article text read. Confirms admins can disallow Pages, Pages request membership, interaction identity can change and hidden groups may not appear in search. Direct opens hit login/rate limits; no authenticated UI verification. https://www.facebook.com/help/ipad-app/401492893195007 ; canonical: https://www.facebook.com/help/401492893195007
+- **S64 — Meta, “New Tools to Help Community Builders Manage and Nurture Their Groups.”** **2021-06-16** announcement; readable primary article, including Admin Assist link/account-tenure criteria, post/comment moderation, undo/refine controls and group rules. Supports documented capabilities, not all current menus. https://about.fb.com/news/2021/06/new-tools-to-help-group-admins-manage-their-communities/amp/
+- **S65 — Meta, “New Tools to Help Group Admins Protect, Manage and Grow Their Facebook Groups.”** **2022-03-09**, updated **2022-03-22**. Read membership approval/decline criteria; do not treat its historical third-party fact-checking workflow as universally current. https://about.fb.com/news/2022/03/new-tools-for-facebook-group-admins/
+- **S66 — StreamYard Help Center, “Create a Facebook Live Online Event.”** **Undated live documentation**. Read schedule/create workflow, resulting Facebook Event, integration visibility and API failure/duplicate-event caveats. Do not adopt its incidental paid-Facebook-event FAQ as verified current payment availability. https://support.streamyard.com/hc/en-us/articles/9505910886292-Create-a-Facebook-Live-Online-Event
+- **S67 — StreamYard Help Center, “Connect an existing Facebook Event.”** **Undated live documentation**. Primary documentation of the tool's Virtual → Facebook Live and custom RTMP workflow, host/co-host requirement, and absence of imported comments/viewer counts in this route. Exact controls and plan support need rehearsal. https://support.streamyard.com/hc/en-us/articles/360059249772-Connect-an-existing-Facebook-Event
+- **S68 — StreamYard Help Center, “Connect a Facebook Page.”** **Undated**, explicitly dates Meta eligibility changes to **2024-06-10**. Read 60-day Facebook-account age, 100 Page/professional-mode followers, Facebook/task create-content access and authorization issues. Meta's direct “Go live on Facebook” URL remained login-blocked; specific Page eligibility not inspected. https://support.streamyard.com/hc/en-us/articles/360043291412-Connect-a-Facebook-Page ; blocked Meta destination: https://www.facebook.com/help/1636872026560015
+- **S69 — StreamYard Help Center, “How to Multi-stream,” and official multistreaming product page.** **Undated live pages**. Help describes paid-plan simultaneous destinations; product page advertises a **7-day new-user trial**, not permanent free multistreaming. No USD promotion converted into a Brazilian monthly price. https://support.streamyard.com/hc/en-us/articles/360045622851-How-to-Multi-stream ; https://streamyard.com/multistreaming
+- **S70 — Publer Help Center, “How to tag collaborators in Facebook videos.”** Displays update **10/12/2025** (date convention not established). Read its own Facebook Page video/Reel invite/accept workflow, one-collaborator API limit, exclusion of profiles/Groups, and fallback invitation-link instructions. This is firsthand integration documentation, not independent evidence of a universal native-app limit or guaranteed reach. https://publer.com/help/en/article/how-to-tag-collaborators-in-facebook-videos-kr2b44/
+- **S71 — YouTube Help, “Get started with live streaming.”** **Undated current documentation**. Read channel verification, recent streaming restrictions and distinct webcam/mobile/encoder methods; no inference that every new channel can stream immediately. https://support.google.com/youtube/answer/2474026
+- **S72 — Entelechy Asia, “Facebook to end Watch Party on April 16.”** **2021-03-16**. Contemporaneous firsthand report reproducing the publisher's received Facebook retirement email: withdrawal **2021-04-16** across Pages/profiles/Groups. Used for the quoted notice's substance only; a current official Meta retirement article was not retrievable. Do not confuse the former feature with an ordinary coordinated viewing session. https://entelechyasia.com/2021/03/16/facebook-to-end-watch-party-on-april-16/
+- **S73 — UFRJ PPGE repository, Daiana da Silva dissertation, section “Grupo Educação Infantil Antirracista.”** **2020** repository item. Primary qualitative research documents the named Facebook Group and URL at the time of study; 2026 activity/rules/member numbers are not verified. https://ppge.fe.ufrj.br/dissertacoes2020/dDaiana%20da%20Silva.pdf ; historical group URL: https://www.facebook.com/groups/2454962984725291/
+- **S74 — LEPEH/GEPEAR UFRJ, “GEPEAR.”** **Undated institutional group page**, with historical project information. Read the group's own description of anti-racist education research, teacher/postgraduate participation and Facebook contact link. Not proof of current social activity, promotional access or endorsement. https://lepehschool.wordpress.com/gepear/
+- **S75 — ABPN, “Essa semana a ABPN está trazendo muitos conteúdos de qualidade para você.”** **2022-09-30**. Association's own announcement documents a Facebook Page/YouTube academic debate; historical format precedent, not current partnership or an audience-size estimate. https://abpn.org.br/essa-semana-a-abpn-esta-trazendo-muitos-conteudos-de-qualidade-para-voce/
+- **S76 — CONAFROEDU organizer's Even3 event page.** **Live page checked 2026-10-21**; no dependable publication date exposed. Read public description, submission rules, fee notice and embedded submission-date configuration. Confirms online dates, author-registration requirement and separately advertised publication fee; final checkout totals, delivery platform and missing cut-off time not verified. User-supplied announcement remains the source for the advertised 40-hour certificate. https://www.even3.com.br/iconafroedu-764690/
+- **S77 — CONAFROEDU, “Cronograma do CONAFROEDU — Datas importantes,” image embedded in Even3.** **Undated organizer graphic**, downloaded and visually inspected **2026-10-21**. Shows registration through 6 December, submission and presentation-video delivery through 4 November, programme by 25 November, congress 5–6 December, certificates from 6 December and proceedings by 15 December. These are organizer-published plans, not independently guaranteed delivery dates; no submission cut-off hour shown. https://static.even3.com/pagina-evento/1001001426.093a8a526e0446bea557.png ; parent page: https://www.even3.com.br/iconafroedu-764690/
+- **S78 — Facebook Help Center, “Explore and watch Facebook reels.”** **Undated**, text explicitly refers to **June 2025** transition. Indexed official text says Reels can be any length/orientation after the publishing change; direct Help Center access can be blocked. https://www.facebook.com/help/262748009210134/
+- **S79 — Facebook Help Center, “Create a reel on Facebook.”** **Undated legacy/conflicting indexed text**, still says 90 seconds. Retained as evidence of documentation inconsistency, not the current universal limit; prefer the later unified-flow announcement S12 and check the actual uploader. https://www.facebook.com/help/www/2862139500770200
+- **S80 — Brazil, Lei nº 14.759, de 21 de dezembro de 2023.** Primary compiled legal text declares **20 November** a national holiday for Dia Nacional de Zumbi e da Consciência Negra. The weekday Friday in 2026 was independently calculated. https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14759.htm
+- **S81 — Meta, “Public Conversations on Facebook.”** **2013-06-12**. Primary introduction of searchable/clickable hashtags and unchanged audience control; used only for the feature concept, not 2026 ranking effectiveness or numerical hashtag advice. https://about.fb.com/news/2013/06/public-conversations-on-facebook/
+
 ### Access limitations retained for future researchers
 
 Direct attempts to open Meta's Feed system card, Facebook for Creators anti-spam guidance, detailed originality help, the Page-event creation article and the Business Suite product page encountered rate limits or login/block screens. These are useful recheck destinations, **not additional verified evidence**:
@@ -993,3 +1138,34 @@ Direct attempts to open Meta's Feed system card, Facebook for Creators anti-spam
 - https://www.facebook.com/business/tools/meta-business-suite
 
 Before publishing account-specific screenshots or strong statements about current limits, recheck those pages and the actual Brazilian account. Keep the proposed experiments labeled as recommendations, and retain the distinctions among announcement date, data period and verified availability.
+
+## Pass 2: verification log
+
+**Verifier/date:** independent second research pass, **2026-10-21**. Checked the supplied brief/announcement, re-searched the claims below, corrected the relevant sections in place and added online academic campaign guidance. “Verified” refers to the source's stated feature/data, not successful access to the conference's account. The campaign, cadence and sample copy are recommendations; no posts, messages, registrations or account changes were made.
+
+| Claim checked | Verdict and correction | Source |
+|---|---|---|
+| Facebook uses one fixed formula, guaranteed reach or a first-hour threshold | **Unsupported as a universal claim.** Retained the separate-system/ranking caveat; no current weights or safe threshold established | [Meta ranking controls, Oct 2026](https://about.fb.com/news/2026/10/introducing-your-algorithm-facebook/) [S15]; S07–S09 |
+| Original Page content/substantive contributions are favored in 2026 | **Verified.** Re-read the March announcement; permission alone does not establish creative originality | [Meta originality guidance](https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/) [S10] |
+| Excessive hashtags/unrelated captions and fake engagement can reduce distribution | **Verified.** This is behavior guidance, not a ban on useful academic explanations or a numeric Facebook hashtag limit | [Meta anti-spam announcement](https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/) [S11] |
+| All Facebook Reels have a 90-second maximum | **False as a universal current instruction.** Unified video/Reels publishing removes the former length/orientation distinction; conflicting legacy help text and tool-specific constraints are acknowledged | [Meta video transition](https://about.fb.com/news/2025/06/making-it-easier-create-videos-facebook/) [S12]; S78–S79 |
+| Page Events can be private; co-hosts are merely tagged supporters | **Corrected/qualified.** Meta says Page-hosted Events are public and lists co-host controls. Actual partner agreement, acceptance and account permissions must be checked | [Meta Event privacy/settings](https://www.facebook.com/help/208747122499067/) [S21, indexed text]; S67 |
+| Online Event, registration and broadcast are the same thing | **Corrected.** Separate public listing, Even3 registration, confirmed delivery/access and public-preview links. Virtual/Facebook Live is documented; exact external-link UI for this Page remains unverified | [StreamYard existing-Event workflow](https://support.streamyard.com/hc/en-us/articles/360059249772-Connect-an-existing-Facebook-Event) [S67]; S66 |
+| Interested/Going means registered and guarantees reminders | **Not established; must not be promised.** Keep RSVP separate from Even3 completion and offer voluntary reminders; no universal delivery/schedule verified | [Meta Event responses](https://www.facebook.com/help/317897961560790/) [S24, indexed text] |
+| A Page cannot join/post in Facebook Groups | **False in general.** Pages can request to join when admins permit them; membership, identity, approval and promotion rules still apply | [Meta group membership help](https://www.facebook.com/help/ipad-app/401492893195007) [S63, indexed text]; S22 |
+| Admin Assist is a tool for bulk posting or all Pages' comment moderation | **False.** Added its Group moderation role and distinction from Page Moderation Assist; current menu/criteria availability requires checking | [Meta Group tools](https://about.fb.com/news/2021/06/new-tools-to-help-group-admins-manage-their-communities/amp/) [S64]; S65, S11 |
+| There is a known spam-proof daily Group-posting allowance | **Unsupported.** Added a small, permission-led pilot and local cadence; no number or spacing interval guarantees avoiding flags | [Meta anti-spam behavior guidance](https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/) [S11] |
+| Facebook collaboration is entirely unknown or identical to Instagram Collabs | **Partly resolved.** Page video/Reel collaboration is documented by Publer's own integration; native limits, every post type and cross-post preservation remain unverified | [Publer firsthand integration documentation](https://publer.com/help/en/article/how-to-tag-collaborators-in-facebook-videos-kr2b44/) [S70]; S29 |
+| Live eligibility rests only on a secondary retail article | **Strengthened.** Independent integration documentation corroborates 60-day Facebook account, 100 followers and content access. Particular account eligibility remains unverified | [StreamYard Page connection requirements](https://support.streamyard.com/hc/en-us/articles/360043291412-Connect-a-Facebook-Page) [S68] |
+| Facebook Live is a permanent recording archive | **False.** Reconfirmed 30-day replay retention and documented conversion of excerpts to Reels; keep/download a separate master | [Meta Live retention policy](https://about.fb.com/news/2025/02/updating-our-facebook-live-video-storage-policy/) [S27] |
+| StreamYard/YouTube simulcast is automatically free, and RTMP imports all comments | **False.** Ongoing StreamYard multistreaming is paid; its existing-Event RTMP route lacks imported Facebook comments/viewer count. Added a single-destination fallback | [StreamYard multistreaming](https://support.streamyard.com/hc/en-us/articles/360045622851-How-to-Multi-stream) [S69]; S67, S71 |
+| Native Facebook Watch Party is a current 2026 tactic | **Rejected.** Contemporary report reproduces Facebook's 16 April 2021 retirement notice. Recommend an ordinary approved viewing/discussion session instead; official retirement page unavailable | [Received retirement notice/report](https://entelechyasia.com/2021/03/16/facebook-to-end-watch-party-on-april-16/) [S72] |
+| Link-post engagement data proves a universal reach penalty or comment-link advantage | **Unsupported causal inference.** Reconfirmed Buffer's format rates, retained conversion-first measurement and account-specific link restrictions; no blanket rule established | [Buffer's original 2026 study](https://buffer.com/resources/state-of-social-media-engagement-2026/) [S16]; [Meta subscription announcement](https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/) [S35] |
+| DataReportal 2026 Brazil reports 185m internet users, 150m social identities, Facebook 109m / Instagram 147m ad reach | **Verified with period/denominator caveats.** Figures describe late 2025; social identities and ad reach are not unique 2026 active users or occupation-specific audiences | [Digital 2026: Brazil](https://datareportal.com/reports/digital-2026-brazil) [S01] |
+| No credible educator-specific Facebook-use data can be found | **Corrected.** TIC Educação 2024 K5 measures educational/student-interaction use: Facebook 12%, Instagram 29%, YouTube/WhatsApp 57% each. Personal use, event discovery and university audiences remain unknown | [Cetic.br teacher indicator K5](https://cetic.br/pt/tics/educacao/2024/professores/K5/expandido/) [S61]; S62 |
+| Named education communities are necessarily active and open to promotion | **Not verified.** Added a historically documented Facebook Group, institutional discovery leads, search terms and a rules/quality review; no current membership or promotional permission claimed | [UFRJ primary group study](https://ppge.fe.ufrj.br/dissertacoes2020/dDaiana%20da%20Silva.pdf) [S73]; S74–S75 |
+| Hashtags guarantee reach; Instagram's five-tag rule also binds Facebook | **Unsupported.** Added modest relevant CONAFROEDU examples, separated clickable search function from ranking evidence, and retained Instagram rollout uncertainty | [Meta hashtag feature explanation](https://about.fb.com/news/2013/06/public-conversations-on-facebook/) [S81]; S11, S37 |
+| A six-week call for papers can continue until 5–6 December | **Corrected.** Both organizer timeline and configuration show **4 November** submission closure; registration runs through **6 December**. Exact submission time/any extension still need confirmation | [Organizer timeline graphic](https://static.even3.com/pagina-evento/1001001426.093a8a526e0446bea557.png) [S77]; [Even3 rules](https://www.even3.com.br/iconafroedu-764690/) [S76] |
+| 20 November is a relevant national holiday in the campaign | **Verified.** Friday in 2026; added substantive Consciência Negra content within the dated plan, with no assumption of teacher availability | [Lei 14.759/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14759.htm) [S80] |
+
+**Remaining uncertainties that affect implementation:** the Page's actual composer/collaborator/Live eligibility and any link restrictions; external group rules/current activity; native notification behavior; delivery platform and participant access; exact 4 November cut-off time and any approved extension; how the same-day video deadline interacts with review/corrections; current category/checkout costs and publication-fee conditions; the advertised 40-hour certificate's participation requirements and institutional acceptance. These are concrete account/organizer checks, not reasons to invent replacement dates or features. Broad teacher personal-use and academic-event discovery rates remain unverified. No git commit was made.

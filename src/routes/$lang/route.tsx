@@ -83,32 +83,41 @@ function LangLayout() {
 
 function MobileNav({ lang, nav, onClose }: { lang: Locale; nav: ReturnType<typeof getNav>; onClose: () => void }) {
   const dict = t(lang)
-  const panelRef = useRef<HTMLDivElement>(null)
+  const panelRef = useRef<HTMLDialogElement>(null)
 
   useEffect(() => {
     const previous = document.activeElement as HTMLElement | null
-    panelRef.current?.querySelector<HTMLElement>('button, a')?.focus()
+    const panel = panelRef.current
+    panel?.showModal()
+    panel?.querySelector<HTMLElement>('button, a')?.focus()
     document.body.style.overflow = 'hidden'
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose()
+    const desktop = matchMedia('(min-width: 1024px)')
+    const closeOnDesktop = () => {
+      if (desktop.matches) onClose()
     }
-    window.addEventListener('keydown', onKey)
+    desktop.addEventListener('change', closeOnDesktop)
+    closeOnDesktop()
     return () => {
       document.body.style.overflow = ''
-      window.removeEventListener('keydown', onKey)
+      desktop.removeEventListener('change', closeOnDesktop)
+      panel?.close()
       previous?.focus()
     }
   }, [onClose])
 
   return (
-    <div className="fixed inset-0 z-40 lg:hidden">
+    <dialog
+      ref={panelRef}
+      id="mobile-nav"
+      aria-label={dict.navLabel}
+      onCancel={(event) => {
+        event.preventDefault()
+        onClose()
+      }}
+      className="fixed inset-0 m-0 h-dvh max-h-none w-screen max-w-none border-0 bg-transparent p-0 text-inherit backdrop:bg-transparent lg:hidden"
+    >
       <div className="absolute inset-0 bg-zinc-950/40 backdrop-blur-sm" aria-hidden="true" onClick={onClose} />
       <div
-        ref={panelRef}
-        id="mobile-nav"
-        role="dialog"
-        aria-modal="true"
-        aria-label={dict.navLabel}
         className="absolute inset-y-0 left-0 flex w-80 max-w-[85vw] flex-col bg-white shadow-xl dark:bg-zinc-950"
       >
         <div className="flex h-16 shrink-0 items-center justify-between border-b border-zinc-200 px-4 dark:border-zinc-800">
@@ -128,6 +137,6 @@ function MobileNav({ lang, nav, onClose }: { lang: Locale; nav: ReturnType<typeo
           <Sidebar lang={lang} nav={nav} />
         </div>
       </div>
-    </div>
+    </dialog>
   )
 }

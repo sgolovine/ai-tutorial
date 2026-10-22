@@ -1,0 +1,200 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji';
+  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+
+  /* Brazil-inspired, kept professional: a deep green with a warm yellow accent. */
+  --color-brand-50: #effaf3;
+  --color-brand-100: #d8f3e2;
+  --color-brand-200: #b3e6c9;
+  --color-brand-300: #80d2a8;
+  --color-brand-400: #48b782;
+  --color-brand-500: #249b66;
+  --color-brand-600: #167d51;
+  --color-brand-700: #126443;
+  --color-brand-800: #115037;
+  --color-brand-900: #0f422f;
+  --color-brand-950: #07251a;
+
+  --color-sun-200: #fdf0a6;
+  --color-sun-300: #fbe36b;
+  --color-sun-400: #f7d232;
+  --color-sun-500: #e5b80b;
+}
+
+@layer base {
+  html {
+    color-scheme: light dark;
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 5rem;
+    scrollbar-gutter: stable;
+  }
+  body {
+    @apply bg-white text-zinc-800 antialiased dark:bg-zinc-950 dark:text-zinc-200;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand-600 dark:outline-brand-300;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+}
+
+/* ---------- Markdown body (rendered HTML from plugins/content.ts) ---------- */
+
+.guide-prose {
+  @apply prose prose-zinc max-w-none dark:prose-invert;
+  @apply prose-headings:scroll-mt-24 prose-headings:font-semibold prose-headings:tracking-tight;
+  @apply prose-a:text-brand-700 prose-a:decoration-brand-300 prose-a:underline-offset-2 hover:prose-a:decoration-brand-600;
+  @apply dark:prose-a:text-brand-300 dark:prose-a:decoration-brand-700 dark:hover:prose-a:decoration-brand-300;
+  @apply prose-code:before:content-none prose-code:after:content-none;
+  @apply prose-img:rounded-xl;
+  --tw-prose-bullets: var(--color-brand-500);
+  --tw-prose-counters: var(--color-brand-700);
+  --tw-prose-invert-bullets: var(--color-brand-400);
+  --tw-prose-invert-counters: var(--color-brand-300);
+}
+
+.guide-prose :where(:not(pre) > code) {
+  @apply rounded-md bg-zinc-100 px-1.5 py-0.5 text-[0.875em] font-medium text-zinc-800 dark:bg-zinc-800 dark:text-zinc-100;
+}
+
+.guide-prose .heading-anchor {
+  @apply ml-2 font-normal text-zinc-400 no-underline opacity-0 transition-opacity hover:text-brand-600 focus-visible:opacity-100 dark:text-zinc-500;
+}
+.guide-prose :is(h2, h3, h4):hover .heading-anchor {
+  @apply opacity-100;
+}
+
+/* Task lists */
+.guide-prose .contains-task-list {
+  @apply list-none pl-0;
+}
+.guide-prose .task-list-item {
+  @apply pl-0;
+}
+.guide-prose .task-list-item input[type='checkbox'] {
+  @apply mr-2 size-4 translate-y-0.5 accent-brand-600;
+}
+
+/* Tables */
+.guide-prose .table-wrap {
+  @apply my-6 overflow-x-auto rounded-xl border border-zinc-200 dark:border-zinc-800;
+}
+.guide-prose .table-wrap table {
+  @apply my-0 text-sm;
+}
+.guide-prose .table-wrap :is(th, td) {
+  @apply px-3 py-2;
+}
+.guide-prose .table-wrap :is(th, td):first-child {
+  @apply pl-4;
+}
+.guide-prose .table-wrap thead {
+  @apply bg-zinc-50 dark:bg-zinc-900;
+}
+
+/* Code blocks (copy-paste prompts) */
+.guide-prose .code-block {
+  @apply my-6 overflow-hidden rounded-xl border border-zinc-200 bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-900;
+}
+.guide-prose .code-block-bar {
+  @apply flex items-center justify-between gap-2 border-b border-zinc-200 px-3 py-1.5 dark:border-zinc-800;
+}
+.guide-prose .code-block-lang {
+  @apply font-mono text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400;
+}
+.guide-prose .copy-btn {
+  @apply inline-flex items-center gap-1 rounded-md border border-zinc-300 bg-white px-2.5 py-1 text-xs font-medium text-zinc-700 shadow-xs transition-colors hover:border-brand-500 hover:text-brand-700 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:border-brand-400 dark:hover:text-brand-300;
+  cursor: pointer;
+}
+.guide-prose .copy-btn[data-state='copied'] {
+  @apply border-brand-500 text-brand-700 dark:text-brand-300;
+}
+@media (scripting: none) {
+  .guide-prose .copy-btn {
+    display: none;
+  }
+}
+.guide-prose .code-block pre {
+  @apply m-0 rounded-none bg-transparent px-4 py-3 text-[0.875rem] leading-relaxed text-zinc-800 dark:text-zinc-100;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+/* Callouts: > [!NOTE] / [!TIP] / [!IMPORTANT] / [!WARNING] / [!CAUTION] */
+.guide-prose .callout {
+  --callout: var(--color-sky-600);
+  --callout-bg: color-mix(in oklab, var(--callout) 8%, transparent);
+  @apply my-6 rounded-xl border border-l-4 px-4 py-3 not-italic;
+  border-color: color-mix(in oklab, var(--callout) 30%, transparent);
+  border-left-color: var(--callout);
+  background: var(--callout-bg);
+  quotes: none;
+}
+.guide-prose .callout > :first-child {
+  @apply mt-0;
+}
+.guide-prose .callout > :last-child {
+  @apply mb-0;
+}
+.guide-prose .callout p {
+  @apply font-normal not-italic;
+}
+.guide-prose .callout p::before,
+.guide-prose .callout p::after {
+  content: none;
+}
+.guide-prose .callout .callout-title {
+  @apply mb-1 flex items-center gap-2 font-semibold;
+  color: var(--callout);
+}
+.guide-prose .callout .callout-title + * {
+  @apply mt-1;
+}
+.guide-prose .callout .callout-title::before {
+  content: var(--callout-icon);
+  @apply text-base;
+}
+.guide-prose .callout-note {
+  --callout: var(--color-sky-700);
+  --callout-icon: 'ℹ️';
+}
+.guide-prose .callout-tip {
+  --callout: var(--color-brand-700);
+  --callout-icon: '💡';
+}
+.guide-prose .callout-important {
+  --callout: var(--color-violet-700);
+  --callout-icon: '⭐';
+}
+.guide-prose .callout-warning {
+  --callout: var(--color-amber-700);
+  --callout-icon: '⚠️';
+}
+.guide-prose .callout-caution {
+  --callout: var(--color-red-700);
+  --callout-icon: '⛔';
+}
+@media (prefers-color-scheme: dark) {
+  .guide-prose .callout-note {
+    --callout: var(--color-sky-300);
+  }
+  .guide-prose .callout-tip {
+    --callout: var(--color-brand-300);
+  }
+  .guide-prose .callout-important {
+    --callout: var(--color-violet-300);
+  }
+  .guide-prose .callout-warning {
+    --callout: var(--color-amber-300);
+  }
+  .guide-prose .callout-caution {
+    --callout: var(--color-red-300);
+  }
+}

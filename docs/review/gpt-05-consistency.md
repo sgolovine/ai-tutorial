@@ -154,7 +154,7 @@ The source audit includes frontmatter, headings, table dimensions/rows, callouts
 
 **Problem:** “O link de acesso está no e-mail da inscrição” is written as a ready example without a confirmation placeholder. Elsewhere email versus participant area versus platform is expressly undecided. An example reused during the event can send participants to the wrong place.
 
-**Fix:** Use **“Começamos às [CONFIRMAR], horário de Brasília. Acesse por [CONFIRMAR: orientação aprovada para pessoas inscritas].”** Outside the prompt, explain that the route and hours must be confirmed before use. After adopting the normalized marker convention, keep explanatory details outside the literal token.
+**Fix:** Use **“Começamos às [CONFIRMAR], horário de Brasília. Acesse por [CONFIRMAR].”** Outside the prompt, explain that the route and hours must be confirmed before use. After adopting the normalized marker convention, keep explanatory details outside the literal token.
 
 ### M13 — MAJOR — The authorization template assumes a non-profit-use condition that the site never establishes
 
@@ -281,3 +281,102 @@ The source audit includes frontmatter, headings, table dimensions/rows, callouts
 **Files:** both `video-repurposing.md:254`; compare brand-kit, representation-bias and outreach's commissioning guidance.
 
 **Problem/fix:** “Pay or credit fairly” permits credit to substitute for payment for commissioned music. Replace with **“Agree the fee and usage rights in writing, pay as agreed, and give the agreed credit. If there is no commission budget, use properly licensed existing music or no music.”** Voluntarily donated work is a separate explicit agreement, not implied by a credit line.
+
+## Coverage against the original request
+
+**No requested core subject is wholly absent.** The site is unusually comprehensive; the main gaps concern choosing and completing a small real workflow, rather than adding another general overview. The following additions should replace duplicated explanations or live beside the existing source guide, not become more parallel masters.
+
+| Requested capability | Existing coverage | Thin area / concrete addition |
+|---|---|---|
+| Image generation and best models | image-generation compares major model families, costs, rights, editing, Portuguese lettering and sizes; image-prompts supplies 11 recipes; representation-bias gives detailed safeguards. The default ChatGPT/Gemini + Canva recommendation is consistent. | Add one **same-brief comparison card** for two free tools: exact prompt, two attempts, approved palette, downloadable result, observed failures, editing minutes and date/account used. Score text exclusion, cropping space, repeatability and representation review; distinguish observations from vendor features. Do not claim a universal bias-free winner. |
+| Video generation and best models | Broad current-model table, audio/length/ratio distinctions, two workflows, attempt budgeting, licensing caveats, dubbing/avatars and fallback editing. Sora is already excluded. | Resolve M15 with one **verified publishable route** and a clear R$0 fallback. For the same five-second people-free shot, show draft attempts, export limitations, actual cost per usable clip and rights. The current feature table cannot establish Portuguese speech quality or a best-value winner; it honestly says no hands-on comparison was done. |
+| Stop-motion / motion graphics with Claude | Strongest practical section: two downloadable HTML/MP4 examples, paper-cut motion, physical-versus-code distinctions, OBS, HandBrake, image-frame continuity, technical export script and Remotion. | Fix M14, add the approved-brand substitution note, and put a **five-step “reuse this countdown” route first**. Link the technical appendix as optional. A small frame-contact-sheet example would help show drift and correct numbering without implying 24 generated frames are a fast first-week task. |
+| Differences between models and which is better at what | choosing-ai-tools distinguishes assistants/models, provides a task table, costs, a free stack and a useful blind pt-BR writer test. Media guides correctly avoid universal ranking claims. | Keep the landscape, but put **“Choose by today's job”** ahead of exhaustive names: writer, source-grounded FAQ, illustration, real-video edit, motion. Mark the free model actually accessible in an account separately from a vendor's flagship name. Consolidate the optional stack (M18). Add image/video test examples rather than more leaderboard prose. |
+| Facebook-first organic | Detailed Page/Event setup, Groups etiquette, formats, cadence, timing hypotheses, Live fallback, partner distribution and measurement. Instagram/WhatsApp supplement rather than displace it. | Make the urgent publishing path navigable (M04/M19). Add one compact **complete first-post package** linking approved caption, image, alt text, Even3 URL, owner/reviewer, publishing slot and follow-up metric, assembled from existing materials. That bridges otherwise excellent but separate guides. |
+| Automating posting | Native Business Suite walkthrough, scheduler comparison, shared sheet, approval states, queue audit, time zones, event-day manual updates; agents have a supervised scheduling recipe. | Clarify the agent action boundary (M21), professional-account prerequisites and “draft versus scheduled versus published”. Add one screenshot or account-verified checklist only when an actual account can be tested; currently the guide explicitly has not tested the UI. No automated third-party Group posting is needed. |
+| Outreach automation | Strong research/verification, institutional target routes, individualized templates, one follow-up, tracking, opt-outs and legal-basis discussion. | Correct C01 and M08/M20. A small **dummy-data tracker with one completed example row** would make this much easier to execute. Automate reminders/drafts, not unsolicited sends or extraction of personal contacts. |
+| Replies and community automation | Eighteen FAQ shortcuts, holding responses for conflicts, fixed greetings/away messages, native tools, AI drafting, bot costs/policies, moderation and human escalation. | Correct C02 and M02/M03. Add a dated **deployment acceptance checklist**: five test questions, a missing fact, a payment case, an accessibility case, an opt-out, and post-deadline phrasing. This is more valuable than another chatbot comparison. |
+| No-code / other tools | Five flows, free-tier units, human review, failure/duplicate/credential rules, Zapier/Make instructions and a sensible caution about n8n maintenance. | n8n is compared but has no worked implementation. A short optional **equivalent-node map** for one existing flow would complete that tool's coverage if a technical volunteer actually needs it. The beginner route should remain Forms/manual work; do not add an untested large workflow merely for symmetry. |
+| Extra tips/tricks | Fifty tips, speaker/author/partner/ambassador kits, UGC, legal/privacy, accessibility, representation, analytics and glossary are all substantive. | Turn the top five tips into the actual initial path. Preserve references while removing repeated full fact sheets/voice/policy paragraphs. Make “one deliverable” and commissioning/payment advice match the examples (N06/N09). |
+
+## Navigation, length and duplication
+
+The home body is a good entry point: it names the actual event, explains the urgent scientific deadline, separates role-based paths and offers a 30-minute option. The problems are the rendered primary button/linear ordering (M19), the verification claim (M17), and the expectation that a beginner can identify which repeated setup instructions are authoritative.
+
+Recommended reading sequence for this campaign:
+
+1. **Sprint: this week's objective and the decisions blocking publication.** Keep the current dated plan first; label the long reusable campaign timeline “future editions”.
+2. **Minimum setup:** one writer, fact sheet, one approved voice block, one feed template, Page/Event ownership and the support rota. Quick-start should be a checklist that links to these exact sections.
+3. **One real Facebook post and its approved adaptations**, then scheduling and the inbox. Link representation/permission checks immediately before any image upload, rather than making them the seventh item in a posting reading path.
+4. **Weekly refinement:** partner kits, measurement, next week's calendar, optional image/video/motion production. Computer-use/no-code are optional efficiency tools after the manual process works.
+5. **Reference:** model landscape, deep legal/representation explanations, recipe book, prompt index and glossary.
+
+The roughly **110k–119k source words per language** are reference-book scale, not a short onboarding course. At an indicative 200 words/minute the prompt library alone is about **59 minutes EN / 63 minutes PT**, before replacing placeholders or checking results. Normal guides range from roughly 2.2k to 5.7k EN words; copywriting, motion and the glossary are substantially longer than the 1.5k–3.5k EN target. This is not a reason to remove substantive guidance. It is a reason to give each long page a short task-first route, clearly mark optional material, and reuse one canonical object per topic.
+
+Consolidation priorities:
+
+- **Fact sheet:** prompting-basics → one maintained shared document; shorten the Facebook-playbook alternative to a link/checklist. Version copied facts in the library.
+- **Voice:** one canonical block; brand-kit explains it; copywriting uses it. Remove “either voice is equivalent”.
+- **FAQ:** replies-inbox owns answer text, shortcut names and dates; Instagram/quick-start/sprint use explicitly labelled subsets and links.
+- **Calendar:** one dated publishing list with stable IDs; sprint maps those IDs to owners. Keep generic future-edition planning separate.
+- **Safety rules:** ethics-legal owns the general rule, representation-bias owns the image-review process; each workflow retains its specific warning at the action where it matters. Do not remove those action-level warnings in the name of deduplication.
+- **Prompts:** 84 of the 90 EN library blocks exactly match a standalone source code block; another three are explicitly new, two come from nested stop-motion code blocks and one from an inline video-prompt example. The repetition is deliberate and mostly faithful. Generate/reuse copies or keep a short indexed library; do not maintain two editable fact/voice/prompt masters.
+
+## EN ↔ pt-BR structural audit, page by page
+
+Both locales contain exactly the same **28 slugs**. Every pair has the same heading-level sequence and number of prompt blocks. Table dimensions also match except the intentional English gist column in copywriting and the glossary differences described in N07. **No substantive safety alert was found missing solely from one language.** English-only tips/notes that explain why outputs should be Portuguese are localization aids, not missing Portuguese warnings.
+
+Notation below: **H / P / T / A** = body headings / fenced `prompt` blocks / tables / recognized alert blocks. Ordinary quoted example outputs do not count as alerts. Word counts are whitespace counts of source files, including metadata and Markdown; they are not the application's exact reading-time calculation.
+
+| Page pair | Words EN / PT | H / P / T / A — EN → PT | Structural / semantic difference |
+|---|---:|---|---|
+| `brand-kit.md` | 3,335 / 3,619 | 23 / 5 / 7 / 4 → 23 / 5 / 7 / 4 | Same structure; EN has an extra link to PT snippets and English date gloss. Localized wording is appropriate. |
+| `campaign-timeline.md` | 4,302 / 4,738 | 20 / 5 / 7 / 4 → 20 / 5 / 7 / 3 | EN-only note explains pt-BR output; all seven tables retain their rows. Same campaign conflicts in both (M04/M06/M07). |
+| `choosing-ai-tools.md` | 2,877 / 3,135 | 20 / 1 / 3 / 5 → 20 / 1 / 3 / 4 | EN-only tip links to the Portuguese comparison prompt; PT adds a local Notebook help link. Same products/cost rows. |
+| `computer-use-agents.md` | 2,969 / 3,311 | 15 / 3 / 4 / 3 → 15 / 3 / 4 / 3 | Same six tasks, cost table, restrictions and prompts; same Task D boundary issue (M21). |
+| `conafroedu-sprint.md` | 3,621 / 3,868 | 17 / 1 / 3 / 3 → 17 / 1 / 3 / 3 | Same milestones, four roles, weekly actions and 14 committee decisions. Same fee-unit question (N03). |
+| `copywriting.md` | 4,878 / 5,210 | 27 / 16 / 6 / 6 → 27 / 16 / 6 / 6 | EN hook table has a third English-gist column; PT retains all seven hooks. One extra ordinary quote block in PT is layout, not a missing warning. |
+| `ethics-legal.md` | 3,955 / 4,420 | 31 / 1 / 5 / 2 → 31 / 1 / 5 / 2 | Same numbered sections, permission choices, sensitive-data warning, licences and accessibility checklist. |
+| `facebook-events-groups.md` | 3,368 / 3,610 | 21 / 3 / 3 / 6 → 21 / 3 / 3 / 6 | Same setup/description, co-hosts, group process and three prompts; EN-only sentence points to PT prompts. |
+| `facebook-playbook.md` | 4,093 / 4,506 | 24 / 2 / 7 / 8 → 24 / 2 / 7 / 7 | EN-only note explains Portuguese output; same setup, Live caveats, timing slots and metric advice. |
+| `glossary-resources.md` | 5,722 / 6,203 | 22 / 0 / 19 / 1 → 22 / 0 / 19 / 1 | Fourth table has 38/33 rows including header (37/32 data rows). Missing/merged/replaced definitions detailed in N07; resource sections otherwise match. |
+| `image-generation.md` | 4,239 / 4,656 | 20 / 5 / 6 / 10 → 20 / 5 / 6 / 10 | Same model/cost/licence/size rows, workflows and warnings. The default image-tool advice matches other guides. |
+| `image-prompts.md` | 3,938 / 4,048 | 18 / 24 / 1 / 9 → 18 / 24 / 1 / 8 | EN-only language note and English glosses; all 11 recipes, 24 prompt blocks and safety alerts remain. |
+| `index.md` | 1,006 / 1,122 | 10 / 0 / 1 / 2 → 10 / 0 / 1 / 2 | Same role paths, milestone table and principles. EN has an extra sentence explaining social-copy output language. |
+| `instagram-whatsapp.md` | 3,497 / 3,803 | 23 / 4 / 6 / 3 → 23 / 4 / 6 / 2 | EN-only note explains Portuguese outputs; same channel table, shortcuts, opt-in rules and four prompts. |
+| `measuring-results.md` | 3,144 / 3,395 | 29 / 3 / 9 / 6 → 29 / 3 / 9 / 6 | Same funnel, UTM, scorecard and review tables, formulas and privacy warnings. |
+| `motion-graphics-claude.md` | 5,131 / 5,549 | 30 / 6 / 5 / 9 → 30 / 6 / 5 / 9 | Same routes, examples, export commands, frame workflow and technical appendix; EN-only prompt-language sentence. Both inherit 24 fps conflict. |
+| `no-code-automation.md` | 2,736 / 3,061 | 12 / 2 / 4 / 4 → 12 / 2 / 4 / 4 | Same five flows, free limits, AI billing caveat, safety list and conditional Even3 integration advice. |
+| `outreach.md` | 3,946 / 4,289 | 29 / 2 / 5 / 6 → 29 / 2 / 5 / 6 | Same target categories, process, eleven message templates, follow-up/tool tables and policy caveats. C01/M08/M20 occur in both. |
+| `prompt-library.md` | 11,779 / 12,695 | 90 / 90 / 1 / 10 → 90 / 90 / 1 / 10 | 90 prompt blocks in both; same 11 groups and three explicitly new lifecycle prompts. Same conflicting shortcut/voice guidance. |
+| `prompting-basics.md` | 3,291 / 3,400 | 14 / 11 / 5 / 6 → 14 / 11 / 5 / 6 | Same fact sheet, brand voice and safeguards. Tip near line 65 is localized: EN says request pt-BR output; PT says ask one thing at a time. PT adds a local help link. |
+| `quick-start.md` | 2,188 / 2,400 | 12 / 2 / 0 / 3 → 12 / 2 / 0 / 3 | Same seven days, four prompt blocks and setup/actions; no lost checklist. Dates, capacity and shortcuts need the same fixes. |
+| `replies-inbox.md` | 4,325 / 4,571 | 25 / 1 / 4 / 8 → 25 / 1 / 4 / 8 | Same 18 shortcuts, answers/holding replies, four automation layers and human-only cases. Same incomplete deadline rollover. |
+| `representation-bias.md` | 3,938 / 4,330 | 14 / 5 / 5 / 6 → 14 / 5 / 5 / 6 | Same studies, failure modes, image sources, prompt patterns and representation/religion checks. Sora reference is historical research. |
+| `scheduling-tools.md` | 3,203 / 3,574 | 19 / 2 / 5 / 7 → 19 / 2 / 5 / 6 | EN-only language tip; same scheduler capabilities, cost rows, queue checks and event-day manual rule. |
+| `speaker-partner-kits.md` | 4,327 / 4,648 | 31 / 5 / 5 / 6 → 31 / 5 / 5 / 5 | EN-only note explains Portuguese output; same four kits, conditional template fallback, permission and Even3 feature rows. |
+| `tips-tricks.md` | 2,715 / 2,992 | 12 / 0 / 0 / 2 → 12 / 0 / 0 / 2 | Same fifty tips and top-five shortlist; same links/checklist intent. Both repeat absent shortcut /submissao. |
+| `video-generation.md` | 3,665 / 4,135 | 16 / 4 / 5 / 6 → 16 / 4 / 5 / 6 | Same 13 model rows including retired Sora, cost rows, two workflows, audio and disclosure warnings. |
+| `video-repurposing.md` | 3,660 / 4,136 | 26 / 5 / 6 / 6 → 26 / 5 / 6 / 6 | Same phase/tool/music rows, consent, clipping, dubbing and avatars. PT end-card wording is localized; no substantive step is lost. |
+
+Other parity observations: fixed Portuguese official facts in EN prompts are intentional, as are EN glosses for Brazilian terminology. The repeated FICHA OFICIAL and VOZ DA MARCA text match their own source blocks. No English-only newly advertised tool, cost row, deadline or consent checkbox was found missing from the paired Portuguese guide. Equivalent structure does not itself establish factual correctness; the problems above generally exist in both languages.
+
+## Verified OK / do not reopen without new evidence
+
+- **Sora is unavailable**, including its API; the surviving documentation explicitly says so. The site's historical Sora bias-study citation is not a recommendation to use it.
+- **Published price tiers and fee unit agree across the site.** The extra publication charge is per work; checkout amounts should still be confirmed. The erroneous question in the sprint is the exception, not evidence that all fee statements need weakening.
+- **Main event/campaign dates and four team role names agree across languages.** The divergent first-week tasks and programme sequencing are operational contradictions, not wholesale calendar/date mistranslation.
+- **The primary LGPD sensitive-data claim is correct**, as are Finados being a national holiday and WCAG's 4.5:1 normal-text reference; sources and exact scope are in the decisions table.
+- **Meta's Portuguese AI-label wording is confirmed.** Do not leave “Informações de IA” as a guessed translation. Full 2026 click paths and the event co-host/button wording remain untested.
+- **Even3 advertises custom questions and affiliate tracking links.** Availability/setup for this event, optional-field behaviour and attribution need account verification; commissions are not established.
+- **Image-tool recommendations largely agree:** real approved photos/shapes + Canva; optional ChatGPT/Gemini backgrounds; Midjourney/other models are paid or specialist alternatives. Different purpose-specific tools are not inherently contradictory.
+- **Video recommendations largely agree:** real footage first; short conceptual generated inserts second; exact words added in an editor; dubbing/avatar permission separate; no manufactured past edition or crowd.
+- **The 90-prompt count is accurate in each language.** Most library copying is faithful, not independently rewritten drift. Fix canonical shortcuts/voice at their sources and propagate.
+- **Zero broken local Markdown targets/fragments** in the source audit, including accented fragments and cross-language paths. All linked static example/image files exist. This does not certify blocked external links or account-dependent controls.
+- **No content files were changed or committed.** Only this assigned review report was written.
+
+## Evidence that remains unavailable
+
+Direct Meta Help attempts for Live/setup returned login/block/throttling pages. WhatsApp's official channel-creation page returned no readable body. Searches did not yield a retrievable primary Instagram five-hashtag announcement. The Even3 calendar graphic returned 403. These failures are limitations, not evidence that the documented features or event dates are false.
+
+The concrete publishing decisions above deliberately avoid dependence on those unresolved points: use at most five Instagram tags, follow actual UI controls, test Live eligibility, confirm organizer-only facts, and preserve the BRIEF's approved dates while requesting committee/source confirmation where necessary. Do not mark these account tests “verified” until someone performs them.

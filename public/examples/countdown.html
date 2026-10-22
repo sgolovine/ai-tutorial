@@ -10,7 +10,7 @@
 
   Parâmetros opcionais no endereço (depois de .html):
     ?dias=7      número de dias (padrão 7). 1 → "Falta 1 dia". 0 → "É hoje!"
-    ?pausa=3     segura a capa estática por N segundos antes de animar (útil no OBS)
+    ?pausa=3     espera N segundos sobre o fundo antes de animar; corte esse trecho na edição
     ?guias=1     mostra as margens seguras (onde a interface do Reels costuma cobrir)
   Exemplo: countdown.html?dias=15&pausa=2
 
@@ -111,7 +111,7 @@
   @keyframes carimbo { from { transform: scale(2.4) rotate(10deg); opacity: 0; } 17% { opacity: 1; } to { transform: none; opacity: 1; } }
 
   /* "boil": o papel treme levemente entre 3 poses, como numa animação quadro a quadro */
-  .treme { animation: treme .375s steps(1, end) infinite; }
+  .treme { animation: treme .375s steps(1, end) 32 both; animation-delay: var(--pausa); }
   @keyframes treme {
     0%      { translate: 0 0;           rotate: 0deg; }
     33.33%  { translate: .25cqw -.2cqw; rotate: .4deg; }

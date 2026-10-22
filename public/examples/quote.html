@@ -14,8 +14,8 @@
   Só use citações reais, conferidas na fonte original e, se forem de uma pessoa,
   autorizadas por ela.
 
-  Parâmetros opcionais: ?pausa=3 (segura a capa N segundos), ?guias=1 (margens seguras)
-  Duração: cerca de 15 s; depois o último quadro fica parado (sem loop).
+  Parâmetros opcionais: ?pausa=3 (espera N segundos sobre o fundo; corte na edição), ?guias=1 (margens seguras)
+  Duração do vídeo de exemplo: 14 s; depois o último quadro fica parado (sem loop).
 -->
 <style>
   :root {
@@ -54,7 +54,7 @@
 
   .segura {
     position: absolute; top: 14%; bottom: 22%; left: 12cqw; right: 12cqw;
-    display: flex; flex-direction: column; justify-content: center; gap: 3cqw;
+    display: flex; flex-direction: column; justify-content: center; gap: 1cqw;
   }
   .rotulo {
     align-self: flex-start; background: var(--creme); color: var(--marrom);
@@ -63,11 +63,15 @@
   }
   .citacao {
     font-family: Georgia, "Times New Roman", serif; font-weight: 700;
-    font-size: 6.1cqw; line-height: 1.32;
+    font-size: 5.8cqw; line-height: 1.25;
   }
   .palavra { display: inline-block; white-space: pre; }
   .destaque { color: var(--marrom); background: var(--ocre); padding: 0 .5cqw; }
-  .fonte { font-size: 3.8cqw; font-weight: 600; line-height: 1.35; opacity: .95; border-left: 1cqw solid var(--ocre); padding-left: 3cqw; }
+  .fonte {
+    background: var(--creme); color: var(--marrom); border-radius: .8cqw;
+    font-size: 4.3cqw; font-weight: 600; line-height: 1.25;
+    border-left: 1cqw solid var(--ocre); padding: 1cqw 2.4cqw;
+  }
   .evento {
     background: var(--creme); color: var(--marrom); border-radius: 1.2cqw;
     padding: 2.4cqw 3.4cqw; font-size: 4cqw; font-weight: 700; line-height: 1.3;

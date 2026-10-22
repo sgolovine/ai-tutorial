@@ -7,7 +7,7 @@
 //   node render-frames.mjs countdown.html 12 countdown
 //   node render-frames.mjs "countdown.html?dias=15" 12 faltam-15
 //
-// Argumentos: <arquivo.html[?parametros]> <segundos> <nome-de-saida> [fps=24] [largura=1080]
+// Argumentos: <arquivo.html[?parametros]> <segundos> <nome-de-saida> [fps=30] [largura=1080]
 //
 // Como funciona: abre o HTML num Chromium invisível (headless), pausa todas as
 // animações CSS, avança o relógio quadro a quadro (document.getAnimations) e tira
@@ -23,7 +23,7 @@ import { mkdirSync, rmSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
-const [input, seconds = '12', name = 'animacao', fpsArg = '24', widthArg = '1080'] = process.argv.slice(2);
+const [input, seconds = '12', name = 'animacao', fpsArg = '30', widthArg = '1080'] = process.argv.slice(2);
 if (!input) {
   console.error('Uso: node render-frames.mjs <arquivo.html[?params]> <segundos> <nome> [fps] [largura]');
   process.exit(1);

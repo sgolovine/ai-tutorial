@@ -396,7 +396,7 @@ function buildSitemap(files: Array<ContentFile>, siteUrl: string, base: string):
       `    <loc>${url(pagePath(lang, slug))}</loc>`,
       ...(updated ? [`    <lastmod>${updated}</lastmod>`] : []),
       ...(langs.length > 1 ? langs.map((l) => link(l, pagePath(l, slug))) : []),
-      ...(langs.length > 1 && langs.includes('en') ? [link('x-default', pagePath('en', slug))] : []),
+      ...(langs.length > 1 && langs.includes('en') ? [link('x-default', slug === 'index' ? '/' : pagePath('en', slug))] : []),
     ])
   }
   return [

@@ -7,6 +7,7 @@ const BASE = import.meta.env.BASE_URL
 const checklistKey = () => `checklist:${window.location.pathname}`
 const checkboxes = (root: HTMLElement | null) =>
   Array.from(root?.querySelectorAll<HTMLInputElement>('.task-list-item input[type="checkbox"]') ?? [])
+const taskLabels = (boxes: Array<HTMLInputElement>) => boxes.map((box) => box.closest('li')?.textContent?.trim() ?? '')
 
 async function copyText(text: string) {
   try {
@@ -29,15 +30,29 @@ async function copyText(text: string) {
 export function Prose({ html }: { html: string }) {
   const router = useRouter()
   const ref = useRef<HTMLDivElement>(null)
+  const copyTimers = useRef(new Map<HTMLButtonElement, ReturnType<typeof setTimeout>>())
 
   useEffect(() => {
     const boxes = checkboxes(ref.current)
     if (boxes.length === 0) return
     try {
       const saved: unknown = JSON.parse(localStorage.getItem(checklistKey()) ?? 'null')
-      if (Array.isArray(saved) && saved.length === boxes.length) boxes.forEach((box, i) => (box.checked = saved[i] === true))
+      if (saved && typeof saved === 'object' && 'tasks' in saved && 'checked' in saved) {
+        const checked = saved.checked
+        if (JSON.stringify(saved.tasks) === JSON.stringify(taskLabels(boxes)) && Array.isArray(checked) && checked.length === boxes.length) {
+          boxes.forEach((box, i) => (box.checked = checked[i] === true))
+        }
+      }
     } catch {
       // storage unavailable or invalid — start unticked
+    }
+  }, [html])
+
+  useEffect(() => {
+    const timers = copyTimers.current
+    return () => {
+      timers.forEach(clearTimeout)
+      timers.clear()
     }
   }, [html])
 
@@ -53,7 +68,8 @@ export function Prose({ html }: { html: string }) {
 
     if (target.matches('.task-list-item input[type="checkbox"]')) {
       try {
-        localStorage.setItem(checklistKey(), JSON.stringify(checkboxes(ref.current).map((box) => box.checked)))
+        const boxes = checkboxes(ref.current)
+        localStorage.setItem(checklistKey(), JSON.stringify({ tasks: taskLabels(boxes), checked: boxes.map((box) => box.checked) }))
       } catch {
         // storage unavailable — ticks last until the page is left
       }
@@ -65,13 +81,15 @@ export function Prose({ html }: { html: string }) {
       const code = button.closest('.code-block')?.querySelector('pre')
       if (!code) return
       void copyText(code.textContent.replace(/\n$/, '')).then(() => {
-        const original = button.textContent
+        const original = button.dataset.copyLabel ??= button.textContent ?? ''
+        clearTimeout(copyTimers.current.get(button))
         button.textContent = button.dataset.copiedLabel ?? original
         button.dataset.state = 'copied'
-        setTimeout(() => {
+        copyTimers.current.set(button, setTimeout(() => {
           button.textContent = original
           delete button.dataset.state
-        }, 2000)
+          copyTimers.current.delete(button)
+        }, 2000))
       })
       return
     }

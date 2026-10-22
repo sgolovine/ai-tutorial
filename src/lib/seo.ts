@@ -55,7 +55,7 @@ export function seo({ lang, title, description, path, alternates = {}, type = 'w
       const alt = alternates[l]
       return alt ? [{ rel: 'alternate', hrefLang: l, href: absoluteUrl(alt) }] : []
     }),
-    ...(alternates.en ? [{ rel: 'alternate', hrefLang: 'x-default', href: absoluteUrl(alternates.en) }] : []),
+    ...(alternates.en ? [{ rel: 'alternate', hrefLang: 'x-default', href: absoluteUrl(path === `/${lang}/` ? '/' : alternates.en) }] : []),
   ]
   return { meta, links }
 }

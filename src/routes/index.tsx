@@ -5,7 +5,7 @@ import { absoluteUrl } from '../lib/seo'
 
 // Runs before first paint on the prerendered page: sends visitors to their saved
 // or browser language. Without JS, the page below is a plain language chooser.
-const detectLanguage = `(function(){try{var l=localStorage.getItem(${JSON.stringify(LANG_STORAGE_KEY)});if(l!=='en'&&l!=='pt-BR'){var n=((navigator.languages&&navigator.languages[0])||navigator.language||'').toLowerCase();l=n.indexOf('pt')===0?'pt-BR':'en'}location.replace(${JSON.stringify(import.meta.env.BASE_URL)}+l+'/')}catch(e){}})()`
+const detectLanguage = `(function(){var l;try{l=localStorage.getItem(${JSON.stringify(LANG_STORAGE_KEY)})}catch(e){}if(l!=='en'&&l!=='pt-BR'){var n=((navigator.languages&&navigator.languages[0])||navigator.language||'').toLowerCase();l=n.indexOf('pt')===0?'pt-BR':'en'}location.replace(${JSON.stringify(import.meta.env.BASE_URL)}+l+'/')})()`
 
 export const Route = createFileRoute('/')({
   head: () => {
